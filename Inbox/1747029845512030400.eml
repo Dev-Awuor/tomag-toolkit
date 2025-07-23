@@ -1,0 +1,119 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of bamburigroup.com designates 209.85.214.172 as permitted sender) client-ip=209.85.214.172; envelope-from=joseph.oguk.ext@bamburigroup.com; helo=mail-pl1-f172.google.com;
+Authentication-Results: mx.zohomail.com;
+	spf=pass (zohomail.com: domain of bamburigroup.com designates 209.85.214.172 as permitted sender)  smtp.mailfrom=joseph.oguk.ext@bamburigroup.com
+Return-Path: <joseph.oguk.ext@bamburigroup.com>
+Received: from mail-pl1-f172.google.com (mail-pl1-f172.google.com [209.85.214.172]) by mx.zohomail.com
+	with SMTPS id 1747029844059841.1355128117629; Sun, 11 May 2025 23:04:04 -0700 (PDT)
+Received: by mail-pl1-f172.google.com with SMTP id d9443c01a7336-22e033a3a07so42664135ad.0
+        for <info@tomag.co.ke>; Sun, 11 May 2025 23:04:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=bamburigroup.com; s=google; t=1747029843; x=1747634643; darn=tomag.co.ke;
+        h=cc:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=oKFOGmmr0WCu+HHc4LgA/nIGiWPVP3qSiXz8Wctieh8=;
+        b=lyaUfOPfFMI+3YbDcR31xCNH7Gp02lUlNTFPsscJ0DeweA00EUscqxWXiKSUQuFWkE
+         m1+lpQuTWqM+Q2KAkVagqbEHIGYE+9Tuh/USJuvbwwKTDZqYxSicOARdb6zBGa7Ay6Tl
+         LZXp4QjsofI/1w5saGh9yz2lG/qZbKLx6ZlI/xW5SAcdgY+QFLcewnyxdksEQM/Y7ya0
+         amWTw+K2OeMLZHGdxH4BltCQQOdlLnrUhT1ut6DaXE6yvhRSkZPsn321Unj6R+cmY34e
+         Xr6DbZ7DIO/s0ONNbo8TR+0jSXWexg6a+5D9ukNYtgLh7w2fibSqijQ3aoSHsaIIKE5o
+         Vi+Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1747029843; x=1747634643;
+        h=cc:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=oKFOGmmr0WCu+HHc4LgA/nIGiWPVP3qSiXz8Wctieh8=;
+        b=roRyVn1zvmVMt/RoD4cLIekDCMVDJpubvJliCzV6mV3rJTU/YQRuVthd8gyWRxEw6Y
+         C9nyM8UxHkDzU24EqNE7swu3qfLSmF8Cpp9m5BvUPwiCKKlDDPzQmRAC5SBGO445eYQL
+         77I1ZaaMVkOoKnC2C80prG7OGNox1qygC6YisZtw9LmD04MNK1O61TYmdn31SLO60v6Z
+         SNsdt6kj4i4RkE7pRjAf7C1TClugn2rVT8PZKmXY2P2CLvVilLDKkLylBCKPrMNTTElJ
+         t69GbUlru1SjId7XsuLITYhc7Zz5uvdehyp8rS9NLYSjpzaPzhOAsrLf7+5ixrBgYcMY
+         jzZA==
+X-Forwarded-Encrypted: i=1; AJvYcCUqqrQfgUqHT7oh142T6bfw7vwuKh+nbg6Fzn4kTDInx4ETvtytHIneAkTOt4fGuvVgx8Wp@tomag.co.ke
+X-Gm-Message-State: AOJu0YzdqWgc8MR0G13WbMt/olX4wmUezRggQbBMNkC+W68SNNws+s5G
+	pEZohmV6CkV5FEfgv1MKEYjEWfGAk4G+mLpGQXxTsRkT5Sp56+Hgk7GbrtDb8RKOro6oIYd7mEG
+	HD29yaUQ8oTaTRSzX9kZP/kpCZ+NX3SODgeQGxg==
+X-Gm-Gg: ASbGncvL51HO19IX8JomyzEdFDWArR1Sm0qD+1BgDOkUXPQDSV46wY+2+gC6SCqFgfM
+	slOFqfIPXJh0m01fSigvO9ajvpAbH6EY+RqQNhuF9FBb5a/sIX5zkFDbrRvUNKGf+1EEUUIHJVm
+	vgKRgRUBj1XALadfiSvqnob18MFJNDRs9HEA==
+X-Received: by 2002:a17:902:f652:b0:223:42ca:10ef with SMTP id
+ d9443c01a7336-22fc91aca36mt182842575ad.43.1747029843148; Sun, 11 May 2025
+ 23:04:03 -0700 (PDT)
+MIME-Version: 1.0
+From: Joseph Oguk <joseph.oguk.ext@bamburigroup.com>
+Date: Mon, 12 May 2025 09:03:51 +0300
+X-Gm-Features: AX0GCFuGJ79K2i8KySDw_cZy5aldhRvYS5YA0ABuCWZkRkb8NLnUsrq_MZRnOs0
+Message-ID:<CAKcs9Xj_gBgVRvDd6ZuM-uaS3PsBqhs4f=xfbMBH=WhQJYFcmA@mail.gmail.com>
+Subject: INVITATION FOR A SITE VISIT -Supply and install electrical cabinets.
+Cc: Tormoi KIPRONO <ceasar.kiprono@bamburigroup.com>
+Content-Type: multipart/alternative; boundary="0000000000003843a70634ea1562"
+Bcc: info@tomag.co.ke
+X-ZM-MESSAGEID: 1747029845512030400
+X-ZohoMail-Status: 1
+
+
+--0000000000003843a70634ea1562
+Content-Type: text/plain; charset="UTF-8"
+
+Dear sir/madam,
+You are hereby invited to attend a site visit at our Nairobi plant as part
+of our procurement process. This visit will provide an opportunity to
+familiarize yourself with the site conditions and clarify any relevant
+technical details.
+
+*Details of the site visit*
+*Date; 14th May 2025.*
+*Time; 10am*
+*Meeting Point; Reception*
+*Contact person; James Kithya*
+
+BOQ specifications to be done on site.
+
+However, here are the key points to be used in detailing the BOQ.
+
+1. Supply and install two electrical cabinets that have rusted next to ball
+mills grinding aid storage
+2. Supply and install a marshalling board cabinet at the raw materials
+hopper top.
+
+
+Kind regards,
+Joseph Oguk
+Procurement
+Bamburi Cement PLC
+Old Mombasa Road - Off Namanga Road
+P.O Box 524 - 00204, Athi River, Kenya
+Email; Joseph.oguk.ext@Bamburigroup.com
+www.bamburigroup.com
+A Member of Amsons Group
+
+--0000000000003843a70634ea1562
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Dear sir/madam,</div><div>You are hereby invited to a=
+ttend=C2=A0a site visit at our Nairobi plant as part of our procurement pro=
+cess. This visit will provide an opportunity to familiarize yourself with t=
+he site conditions and clarify any relevant technical=C2=A0details.</div><d=
+iv><br></div><div><b><u>Details of the site visit</u></b></div><div><b>Date=
+; 14th May 2025.</b></div><div><b>Time; 10am</b></div><div><b>Meeting Point=
+; Reception</b></div><div><b>Contact person; James Kithya</b></div><div><b>=
+<br></b></div><div><div class=3D"gmail_default">BOQ specifications to be do=
+ne on site.=C2=A0</div><div class=3D"gmail_default"><br></div><div class=3D=
+"gmail_default">However, here are the key points to be used in detailing th=
+e BOQ.</div><div class=3D"gmail_default"><br></div><div class=3D"gmail_defa=
+ult">1. Supply and install two electrical cabinets that have rusted next to=
+ ball mills grinding aid storage</div><div class=3D"gmail_default">2. Suppl=
+y and install a marshalling board cabinet at the raw materials hopper top.<=
+/div></div><div class=3D"gmail_default"><br></div><div class=3D"gmail_defau=
+lt"><br></div><div><div dir=3D"ltr" class=3D"gmail_signature" data-smartmai=
+l=3D"gmail_signature"><div dir=3D"ltr"><div>Kind regards,</div><div>Joseph =
+Oguk</div><div>Procurement</div><div>Bamburi Cement PLC</div><div>Old Momba=
+sa Road - Off Namanga Road</div><div>P.O Box 524 - 00204, Athi River, Kenya=
+</div><div>Email; Joseph.oguk.ext@Bamburigroup.com</div><div><a href=3D"htt=
+p://www.bamburigroup.com" target=3D"_blank">www.bamburigroup.com</a></div><=
+div>A Member of Amsons Group</div><div></div><div><div><b><br></b></div><di=
+v><b><br></b></div><div><br></div><div><br></div></div><div><br></div></div=
+></div></div></div>
+
+--0000000000003843a70634ea1562--

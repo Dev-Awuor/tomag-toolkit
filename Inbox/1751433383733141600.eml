@@ -1,0 +1,229 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of bounce.s11.mc.pd25.com designates 13.111.74.31 as permitted sender) client-ip=13.111.74.31; envelope-from=bounce-83082_HTML-1029507615-122757-514021696-75685@bounce.s11.mc.pd25.com; helo=ij31.mta.exacttarget.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=neema@businesscom.africa;
+	spf=pass (zohomail.com: domain of bounce.s11.mc.pd25.com designates 13.111.74.31 as permitted sender)  smtp.mailfrom=bounce-83082_HTML-1029507615-122757-514021696-75685@bounce.s11.mc.pd25.com;
+	dmarc=pass(p=reject dis=none)  header.from=businesscom.africa
+ARC-Seal: i=1; a=rsa-sha256; t=1751433381; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=AV/PaSONFa8FrSU1hE5AEGJcUnJ5wZZ51XkLTwncszuHZ5J/HOnuUvJMVvR6GBaXqRQZytlFqnqijG+X1+RCK78pB3n4M0GD+aorttN9yOSyqJ88NapUhkGuzqO3sZLS85m48Jg2IYfVgKZ470XA619SWoQjhVk8zGaVN8RkOMY=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1751433381; h=Content-Type:Date:Date:From:From:List-Help:List-Unsubscribe:MIME-Version:Message-ID:Reply-To:Reply-To:Subject:Subject:To:To:Message-Id:Cc; 
+	bh=ZWPYUETKmxV3qG2QlfyuIk4g+l/0GNAbjJiCVUSW/2E=; 
+	b=d67MG7Z8ptzNaOF5KjvyRAI5OiqtODFNfQEOkF9La5M+htsGPd27EslbdY5fGQfZhBeodtQnAjcHDEFdrUK1CXQWU6HhDeVq8Uc6OC06x+t7OqBuka6lqnYK11uCfhZMkVv8uPXSUhJWxzFnkNV4ujYYf4e1804FxdCENH5+OFw=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass  header.i=neema@businesscom.africa;
+	spf=pass (zohomail.com: domain of bounce.s11.mc.pd25.com designates 13.111.74.31 as permitted sender)  smtp.mailfrom=bounce-83082_HTML-1029507615-122757-514021696-75685@bounce.s11.mc.pd25.com;
+	dmarc=pass header.from=<neema@businesscom.africa> (p=reject dis=none)
+Return-Path: <bounce-83082_HTML-1029507615-122757-514021696-75685@bounce.s11.mc.pd25.com>
+Received: from ij31.mta.exacttarget.com (ij31.mta.exacttarget.com [13.111.74.31]) by mx.zohomail.com
+	with SMTPS id 1751433381053913.6171149937599; Tue, 1 Jul 2025 22:16:21 -0700 (PDT)
+Received: by ij31.mta.exacttarget.com id hcj0aa2fmd4s for <info@tomag.co.ke>; Wed, 2 Jul 2025 05:16:20 +0000 (envelope-from <bounce-83082_HTML-1029507615-122757-514021696-75685@bounce.s11.mc.pd25.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=200608; d=businesscom.africa;
+ h=From:To:Subject:Date:List-Help:MIME-Version:List-Unsubscribe:
+ List-Unsubscribe-Post:Reply-To:Message-ID:Content-Type;
+ i=neema@businesscom.africa;
+ bh=ZWPYUETKmxV3qG2QlfyuIk4g+l/0GNAbjJiCVUSW/2E=;
+ b=SiF3+wGdbztIdCRvaHsxvK3hmmRedBcATuxFTNyAfhjAbtvBVXBOlYgJaSfWCAvypcSz3/gIB6iO
+   fjANpBqz/WXXk95a5dpg+Y1U01zYzd3uRENDDvySgckeHT191fwkxKPlpfQRJcQMiISrfXfG6mp5
+   dsHFbb7A1gXttYJrBcE=
+From: "Neema Mmare" <neema@businesscom.africa>
+To: <info@tomag.co.ke>
+Subject: A Different Kind of Partnership Awaits
+Date: Tue, 01 Jul 2025 23:16:19 -0600
+List-Help: <https://cl.s11.exct.net/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiI1MTQwMjE2OTYiLCJzIjoiMTAyOTUwNzYxNSIsImxpZCI6IjgzMDgyIiwiaiI6IjEyMjc1NyIsImpiIjoiNzU2ODUiLCJkIjoiMTEwMDUzIn0.b9iEHpjEK_wqt-ZQMyIkm-_XSB8cxSRqaa_FwSmLRKo>
+MIME-Version: 1.0
+x-messageKey: undelivered+969613+1448700489@pd25.com
+X-Delivery: Transactional
+X-SFMC-Stack: 11
+x-job: 514021696_122757
+List-Unsubscribe: <https://www2.businesscom.africa/listUnsubscribeHeader/u/969613/c8bc322dbcff3ab1976162bf4e9884eebfd875fb2eaff4102f6dc6d08f182d31/1448700489>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Report-Abuse-To: abuse@pd25.com
+Reply-To: sales@businesscom.africa
+Message-ID:<a6268e21-8d97-488b-9fc7-c98cf657d504@atl1s11mta1071.xt.local>
+Content-Type: multipart/alternative;
+	boundary="dNPJAIQzWwyv=_?:"
+X-ZohoMail-DKIM: pass (identity neema@businesscom.africa)
+X-ZohoMail-Owner: <a6268e21-8d97-488b-9fc7-c98cf657d504@atl1s11mta1071.xt.local>+zmo_0_bounce-83082_HTML-1029507615-122757-514021696-75685@bounce.s11.mc.pd25.com
+X-ZM-MESSAGEID: 1751433383733141600
+X-ZohoMail-Status: 1
+
+
+This is a multi-part message in MIME format.
+
+--dNPJAIQzWwyv=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Hello Tom,
+
+It's clear that you are focused on efficiency and innovation. In today's dynamic and fast-paced environment, making your digital tools truly work for you is more crucial than ever.
+Kicking off a new quarter, I've noticed that having top-tier software isn't always enough. The real advantage comes from having the right partner that guides access to the full potential of these tools. Are you truly leveraging your current platform to its maximum benefit?
+Whether it's the daily struggle with scattered passwords, an influx of SPAM, or an inbox that feels beyond capacity, these everyday frictions impact your team's focus. At BusinessCom, our tech-powered team helps African businesses overcome these frictions with strategic support and training on Google Workspace.
+To show you exactly how this strategic partnership can transform your digital operations, I invite you to our next exclusive webinar: 'Discover the BusinessCom Advantage: Elevate Your Google Workspace Experience.' This session offers clear insights, whether you are considering Google Workspace or looking to enhance your existing setup.
+
+Webinar Details:
+Date: July 24th 2025
+Time: 3 PM EAT
+Ready to discover the difference a dedicated partner can make?
+
+Register for the July 24th Webinar Here
+
+https://www2.businesscom.africa/e/969613/sinesscom-webinar-1-responsive/6v3wf/1448700489/h/OIck4sCaZxxVXQjKRA8obrG_8fUyhUdJv0GTUqrjXWQ
+
+I look forward to connecting and helping your business thrive.
+Warmly,
+Neema Mmare
+
+BusinessCom 
+
+Our Services
+
+https://www2.businesscom.africa/e/969613/l-969613-2024-09-06-5zszq/6v3wj/1448700489/h/OIck4sCaZxxVXQjKRA8obrG_8fUyhUdJv0GTUqrjXWQ
+
+ | Follow us on LinkedIn
+
+https://www2.businesscom.africa/e/969613/company-businesscom-africa-/6v3wm/1448700489/h/OIck4sCaZxxVXQjKRA8obrG_8fUyhUdJv0GTUqrjXWQ
+
+ | Chat with us
+
+mailto:sales@businesscom.africa
+
++254 101 355 350 | +254 700 784 165 | sales@businesscom.africa
+
+mailto:sales@businesscom.africa
+
+ | Trance Towers, Tsavo Road- Nairobi, Kenya
+
+						© BusinessCom 2024 | All rights reserved. If you no longer wish to receive emails from us, click here
+
+https://www2.businesscom.africa/unsubscribeConfirm/969613/c8bc322dbcff3ab1976162bf4e9884eebfd875fb2eaff4102f6dc6d08f182d31/1448700489
+
+
+
+--dNPJAIQzWwyv=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        @media screen and (max-width: 600px) {
+            .container-table {
+                width: 100% !important;
+            }
+            .content-area {
+                padding: 1% 2% !important; /* Adjusted padding for smaller screens */
+            }
+            .responsive-image {
+                width: 100% !important;
+                height: auto !important;
+            }
+            .text-large {
+                font-size: 1.0em !important; /* Adjust font size for mobile */
+            }
+            .text-medium {
+                font-size: 0.9em !important;
+            }
+            .footer-text {
+                font-size: small !important;
+            }
+            .footer-logo {
+                width: 100% !important; /* Adjust logo size */
+                height: auto !important;
+                max-width: 70px !important;
+            }
+            .footer-cell {
+                width: 33.33% !important;
+                display: inline-block !important;
+                text-align: center !important;
+                padding-bottom: 15px !important;
+            }
+            .button-link {
+                width: 80% !important;
+                padding: 3% 5% !important;
+                box-sizing: border-box !important;
+            }
+        }
+    </style>
+</head>
+<body style="font-family: 'Outfit', sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #555;">
+<table border="0" cellpadding="0" cellspacing="0" class="container-table" role="presentation" style="max-width: 900px; margin: 0 auto; background: #ffffff;" width="100%">
+	<tbody>
+		<tr><!-- full-length image -->
+			<td align="center">
+			<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+				<tbody>
+					<tr>
+						<td align="center" style="padding: 0;" class="">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- body -->
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="content-area" role="presentation" style="margin: 2.5% auto; border-top: 0px solid #D7CDCD;" width="90%">
+				<tbody>
+					<tr>
+						<td pardot-data="" style="padding: 2% 0%; font-size: 12px;" class="">
+						<p style="color: #555; font-size: medium; line-height: 1.3em;">Hello Tom,<br>
+						<br>
+						<span class="text-medium">It's clear that you are focused on efficiency and innovation. In today's dynamic and fast-paced environment, making your digital tools truly work for you is crucial.</span><br>
+						<br>
+						<span class="text-medium">Kicking off a new quarter, I've noticed that having top-tier software isn't always enough. The real advantage comes from having the <strong>right partner</strong> to help access the full potential of your tools. Are you truly leveraging your current platform to its maximum benefit?<br>
+						<br>
+						Whether it's the daily struggle with scattered passwords, an influx of SPAM, or an inbox that feels beyond capacity, these everyday frictions impact your team's focus. At BusinessCom, our tech-powered team helps African businesses overcome these frictions with strategic support and training on Google Workspace.<br>
+						<br>
+						To show you exactly how this strategic partnership can transform your digital operations, I invite you to attend our next exclusive webinar:&nbsp;<strong>'Discover the BusinessCom Advantage: Elevate Your Google Workspace Experience.' </strong>This session offers helpful insights, whether you are considering Google Workspace or looking to enhance your existing setup.<br>
+						<br>
+						<strong>Webinar Details:</strong><br>
+						<strong>Date: </strong>July 24th 2025<br>
+						<strong>Time: </strong>3 PM&nbsp;EAT<br>
+						<br>
+						Ready to discover the difference a dedicated partner can make?<br>
+						<strong>Register for the July 24th Webinar <a href="https://www2.businesscom.africa/e/969613/sinesscom-webinar-1-responsive/6v3wf/1448700489/h/OIck4sCaZxxVXQjKRA8obrG_8fUyhUdJv0GTUqrjXWQ" style="color:#b02528;">Here</a>!</strong><br>
+						<br>
+						I look forward to connecting and helping your business thrive.<br>
+						<br>
+						Warmly,<br>
+						Neema Mmare<br>
+						BusinessCom&nbsp;</span></p>
+
+						<hr style="border: none; border-top: 1.5px solid #D7CDCD; margin: 1.5em 0;">
+						<p class="text-medium" style="text-align: center;"><span style="font-size:14px;"><a href="https://www2.businesscom.africa/e/969613/l-969613-2024-09-06-5zszq/6v3wj/1448700489/h/OIck4sCaZxxVXQjKRA8obrG_8fUyhUdJv0GTUqrjXWQ" style="color:#b02538;">Our Services</a> | <a href="https://www2.businesscom.africa/e/969613/company-businesscom-africa-/6v3wm/1448700489/h/OIck4sCaZxxVXQjKRA8obrG_8fUyhUdJv0GTUqrjXWQ" style="color:#b02538;" target="_blank">Follow us on LinkedIn</a> |<a href="mailto:sales@businesscom.africa" style="color:#b02538;"> Chat with us</a></span></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse: collapse; background-color: #F1EDED; text-align: center; margin-top: 5%;" width="100%">
+				<tbody>
+					<tr><!-- footer logo -->
+						<td align="center" class="footer-cell" style="padding: 1% 0;"><img alt="" border="0" class="footer-logo" src="https://www2.businesscom.africa/l/969613/2025-03-21/6k2gf/969613/1742549076Y5KgcfcB/Google_premier_partner_logo2_sell__removebg_preview.png" style="width: 100%; max-width: 90px; height: auto; display: inline-block; vertical-align: middle;" width="90"></td>
+						<td align="center" class="footer-cell" style="padding: 1% 0;"><img alt="Logo 2" class="footer-logo" src="https://www2.businesscom.africa/l/969613/2023-05-19/4jntb/969613/1684504950ieUALoVb/BusinessCom_Africa_Main_Logo.png" style="width: 100%; max-width: 150px; height: auto; display: inline-block; vertical-align: middle;" width="150"></td>
+						<td align="center" class="footer-cell" style="padding: 1% 0;"><img alt="" border="0" class="footer-logo" src="https://www2.businesscom.africa/l/969613/2024-04-30/5lp21/969613/1714466322FAtUNEzP/Salesforce_Partner_Logo.png" style="width: 100%; max-width: 110px; height: auto; display: inline-block; vertical-align: middle;" width="110"></td>
+					</tr>
+					<tr><!-- footer contacts -->
+						<td align="center" colspan="3" style="padding: 2% 5%; color: #555; font-size: small; line-height: 1.4em;" class="">
+						<p class="footer-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; color: #545454; font-size: small;"><strong>+254 700 784 165 | <a href="mailto:sales@businesscom.africa" style="color: #545454; text-decoration: none; font-weight: bold;">sales@businesscom.africa</a> | NML Towers, Tsavo Road- Nairobi, Kenya<br>
+						© BusinessCom 2025 | All rights reserved. If you no longer wish to receive emails from us, <a href="https://www2.businesscom.africa/unsubscribeConfirm/969613/c8bc322dbcff3ab1976162bf4e9884eebfd875fb2eaff4102f6dc6d08f182d31/1448700489" rel="nofollow,noreferrer" style="text-decoration:underline;color:#545454;" target="_blank">click here</a></strong></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<img alt="" src="https://www2.businesscom.africa/r/969613/1/1448700489/open/1" /></body>
+</html>
+
+--dNPJAIQzWwyv=_?:--
+

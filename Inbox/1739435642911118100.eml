@@ -1,0 +1,56 @@
+Delivered-To: info@tomag.co.ke
+Return-Path: <info@tomag.co.ke>
+ARC-Seal: i=1; a=rsa-sha256; t=1739435642; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=IG3X2j2kzq3cY0IfZZyqlhcyQc1jTsnFzt3ZlPI0Gthx7iO35uwjm6OE9Crby0FjEGEo0QLwQxQDDIGWqPwq+2jsgPBOEQYgG4GoXiQz3I1MDiQPL4StwDrtuymkVFmEKxrMDeY6uvQ3AKEyUhxqGz9aX28xdXNs23ykaze5y0Y=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1739435642; h=Content-Type:Date:Date:From:From:MIME-Version:Message-ID:Sender:Subject:Subject:To:To:Message-Id:Reply-To:Cc; 
+	bh=Bwm5lkt7n+FBcOnOY1t2LJ1kj0b5IO0Ozo5IeJA5LYc=; 
+	b=HMYer2ivx67HYK1diVaqKeXfXd2XmGwh9nzUPoakwUo1eSTdhW/lPGoAUygN8OvhA5go4GwQbfHoDyZqi2ry2ydeBc9CyKrdwmhXaC61Ygi+Fc5AXffD+49yD6apLNNew+yFyGdrrG24zYGstiosuIOFZnYLJ8V3jqVBVbltLu0=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass  header.i=tomag.co.ke;
+	spf=pass  smtp.mailfrom=info@tomag.co.ke;
+	dmarc=pass header.from=<info@tomag.co.ke>
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1739435642;
+	s=zoho; d=tomag.co.ke; i=info@tomag.co.ke;
+	h=From:From:Sender:To:To:Message-ID:Subject:Subject:MIME-Version:Content-Type:Date:Date:Message-Id:Reply-To:Cc;
+	bh=Bwm5lkt7n+FBcOnOY1t2LJ1kj0b5IO0Ozo5IeJA5LYc=;
+	b=hW8KPEc4gNgmzmxAbUueboULvx9z3nB+k7tvfYiDvHidC3NJPmyWE6DO2Uhqa5OX
+	cxJtrx/R6ZY7J31uhhIOmrotBU9Lb6UaeCM87pJEpKFgzb8ug4sWgyZ2sgFkDBJUfwq
+	YLHTbs+LADDlQHxqwIoFvRGL1sqvA8iIhAkOgtHQ=
+Received: by mx.zohomail.com with SMTPS id 1739435640242584.4657219943302;
+	Thu, 13 Feb 2025 00:34:00 -0800 (PST)
+From: "Microsoft Outlook" <info@tomag.co.ke>
+Sender: "Microsoft Outlook" <info@tomag.co.ke>
+To: "Tomag Enterprises Limited" <info@tomag.co.ke>
+Message-ID:<194fe7185b5.5d4e948c-1136163072.-4768157237592352928@zoho.com>
+Subject: Microsoft Outlook Test Message
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_000D_01DB7E0B.2A3AD3C0"
+Date: Thu, 13 Feb 2025 00:34:00 -0800 (PST)
+X-ZohoMailClient: External
+X-ZM-MESSAGEID: 1739435642911118100
+X-ZohoMail-Status: 1
+
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_000D_01DB7E0B.2A3AD3C0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+This is an email message sent automatically by Microsoft Outlook while =
+testing the settings for your account.
+
+------=_NextPart_000_000D_01DB7E0B.2A3AD3C0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><p>This is an email message sent automatically by Microsoft =
+Outlook while testing the settings for your account.
+</p></body></html>
+------=_NextPart_000_000D_01DB7E0B.2A3AD3C0--
+

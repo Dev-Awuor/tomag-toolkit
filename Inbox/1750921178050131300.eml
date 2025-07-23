@@ -1,0 +1,314 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of _spf.google.com designates 209.85.221.50 as permitted sender) client-ip=209.85.221.50; envelope-from=naanotooankrah@gmail.com; helo=mail-wr1-f50.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of _spf.google.com designates 209.85.221.50 as permitted sender)  smtp.mailfrom=naanotooankrah@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+ARC-Seal: i=1; a=rsa-sha256; t=1750921175; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=bY9fzMe+aoUrtyb3TC+XSPCy+bNpSQHZTI82FKGANa5T0jP5fW0m8Xb3pXEFxfRLrM4u3P4t5eNrkqDz75BIrEUY3TFbU/k8r7yXwntOjlscuU1IdnsUViNVpZ57zU9wWpLmxo1CK3vfCTYAfED5oRt4Us0duYiFR3coha03TEg=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1750921175; h=Content-Type:Date:Date:From:From:In-Reply-To:MIME-Version:Message-ID:References:Subject:Subject:To:To:Message-Id:Reply-To:Cc; 
+	bh=CMuvC5hoMZleYGjd37EmInSkoggs92YjK0qLtptwuRE=; 
+	b=INBXLHcfsswzVfAdCdHbV5HelkBC5eGHW7Owem0dz1I/FpxpvX/ZQu2dT+rZIuvpx2+0XhpC0oFNXMyHDgh7erAnn3kXqkzHfrEU1l8HFB0vOJYhS5VGHEvYrvkzje4LY1p9Xxy7nXvGTa+L/bPHj0sDlW1JUqMMp2daCzvAToM=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of _spf.google.com designates 209.85.221.50 as permitted sender)  smtp.mailfrom=naanotooankrah@gmail.com;
+	dmarc=pass header.from=<naanotooankrah@gmail.com> (p=none dis=none)
+Return-Path: <naanotooankrah@gmail.com>
+Received: from mail-wr1-f50.google.com (mail-wr1-f50.google.com [209.85.221.50]) by mx.zohomail.com
+	with SMTPS id 1750921175973915.8419168160173; Wed, 25 Jun 2025 23:59:35 -0700 (PDT)
+Received: by mail-wr1-f50.google.com with SMTP id ffacd0b85a97d-3a4ef2c2ef3so525578f8f.2
+        for <info@tomag.co.ke>; Wed, 25 Jun 2025 23:59:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1750921174; x=1751525974; darn=tomag.co.ke;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=CMuvC5hoMZleYGjd37EmInSkoggs92YjK0qLtptwuRE=;
+        b=SSkpFt3N/1zmB9v6WrYoVoTsCA2RIyMbMtByRfw7SluP+PZwL3xFjy4qIH2LcEkLQV
+         0NBep4bNg19c0pJPlbVklUMsSsa3rYp/nxN7oc4+caW0hN7dB+ee2TaeA1DrqkLwVZUf
+         zlAA2lmL9dPILUZDhYKgTeoIEbXcL8KwtqjxUHw8jCPp6Yo9k1eIm4Q74Tur7Je6uII6
+         CQzVkk/h2rCiyEsm2y9PT7fv/ZQ6XRxUKbUme6ONRn2G7gmwfprthzxrEqDbvqHFkS2f
+         XnPMFVFH3Rj7m216QNPTteY7XpkZGSlDF40Gn313pm3vZyBg+czLbJ81p2k/O1toqq1c
+         eZdw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1750921174; x=1751525974;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=CMuvC5hoMZleYGjd37EmInSkoggs92YjK0qLtptwuRE=;
+        b=DgUS1c49eLo9Ccq77DpVQRHrZVyTjr/YwftfXVUk7hqyb1njOXHqDZO68vwtsq7z71
+         sYtIb61z3E0F/ojN97gHudgy02xtNpzlKNBw6/O5gsBhwSyNfSuz07MeJOD7pp6WdUBU
+         eufkSEaEQ3n8iVyQ35ooJjycglClxWy65uEAMAquCrSP/WaCuj8YRukoaIuKzwCAALkc
+         H5R6Ch1+Qz671pkfAWxNZ8xy2qrEvjbK/02sjT5S90R2MdLyUw4ljSDRWstSoSzrctDW
+         9JavgI2JA5I8uJ3DG+6SQej7tDhjgyPZxj9wS51khbqXWs6wJFZKN4PxYk/Sz01qbRJG
+         l6Jw==
+X-Gm-Message-State: AOJu0Yz6M39PRmukG1PEfD+0h839mnSNg/zfvWe1yQzx1QkxLcIcJtUH
+	UwrMgnIYepDb8Fx6I+4JMSss+siCxHp0T0MXdB8GqrSPRg3LgoKfIWODU7zz+rDAm//1Ln8XXaz
+	x85XWngNc98ZIYNF5E2luJIaNX57oCvPod2ia
+X-Gm-Gg: ASbGncvjFVISYmBpikQqBxIgaBRbG4BAH8l639Q2fdoEpLwO9D14d/plBGhQUwf0a0r
+	YLD+cCbxQcl86qxnumUTjBFmREtFLAFrawItly9KiP9/Z1yGAcp55o0Ap4OrChM7rC6qQPDYGN5
+	/ZwDcCIcRQuQwquB+ccoX9fOV/YL40yP0DhvyWCVg1dQfHPwtCfUR5V4OdwfkJDnyJ16G40rOjk
+	i6H9g==
+X-Google-Smtp-Source: AGHT+IE7r9WjYuvBJOi0NIgtTJL3ea6rbinMkr5+r+i2A/vj795qDh6xnHrV1UACMtRdsA88FXJ3ygLKIS+EmoOz8TA=
+X-Received: by 2002:a05:6000:4a0d:b0:3a4:cfbf:519b with SMTP id
+ ffacd0b85a97d-3a6ed64bfa0mr4920777f8f.44.1750921173742; Wed, 25 Jun 2025
+ 23:59:33 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAKY=UWCLPnHD5Au2YuZJNRVmhKFtMfCvK-b19Qo-nwBZVACGcQ@mail.gmail.com>
+ <197a6574088.bd1a88ba2348240.1994144565977430697@tomag.co.ke>
+In-Reply-To: <197a6574088.bd1a88ba2348240.1994144565977430697@tomag.co.ke>
+From: naanotoo ankrah <naanotooankrah@gmail.com>
+Date: Thu, 26 Jun 2025 08:59:21 +0200
+X-Gm-Features: Ac12FXwDnF3gtFmfCrFPXe9IuLKEIvsisB4Q4qM_sEFHeWWTuos_o0Z0uKMRRgQ
+Message-ID:<CAKY=UWDVSMR3-3wiatWz1kjWy=FWdH1s1fQrnHwO2O0RnLvSSg@mail.gmail.com>
+Subject: Re: Inquiry Regarding Supply of TVET Equipment and Training Services
+To: Tomag Enterprises Limited <info@tomag.co.ke>
+Content-Type: multipart/alternative; boundary="0000000000009739b90638741acb"
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZM-MESSAGEID: 1750921178050131300
+X-ZohoMail-Status: 1
+
+
+--0000000000009739b90638741acb
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Tom,
+
+I have received all your emails.
+The best way to contact me at the moment is via email as I am currently
+working outside Kenya.
+
+Best regards,
+Naa.
+
+On Wed, Jun 25, 2025 at 11:07=E2=80=AFAM Tomag Enterprises Limited <info@to=
+mag.co.ke>
+wrote:
+
+> Dear Naan,
+> I am checking if you are receiving our emails.
+> Thanks and Best Regards
+>
+>
+>
+> ---- On Tue, 24 Jun 2025 15:13:27 +0300 *naanotoo ankrah
+> <naanotooankrah@gmail.com <naanotooankrah@gmail.com>>* wrote ---
+>
+> Hello,
+>
+> I am reaching out to inquire about your company's capabilities to supply
+> TVET equipment, along with installation and training services, for some
+> Technical and Vocational Education and Training institutions in Kenya. We
+> are particularly interested in equipment and training for the following
+> departments and technologies:
+>
+>    1.
+>
+>    *Automotive and Mechatronics:*
+>    - Equipment for engine/transmission,
+>       chassis/brakes/tyres/suspension/steering, car electric/electronics/=
+AC, and
+>       bodyworks.
+>       - Training on new technologies such as electric mobility, safety in
+>       high-voltage environments, and emergency service training.
+>       2.
+>
+>    *Photovoltaic (PV) Systems:*
+>    - Equipment for advanced PV system installation, maintenance, and
+>       monitoring.
+>       - Training on remote monitoring of PV systems and PV heat
+>       generation.
+>       3.
+>
+>    *Refrigeration and Cold Store Mechatronics + Air Conditioning:*
+>    - Equipment for refrigeration systems, cold store design, and air
+>       conditioning units.
+>       - Training on energy-efficient systems, sustainable refrigerants,
+>       and smart controls.
+>       4.
+>
+>    *Tea Plant Technician:*
+>    - Equipment for sustainable tea production.
+>
+> We looking for suppliers who can provide comprehensive solutions,
+> including the supply of equipment, installation services, and relevant
+> training for our teaching staff.
+>
+> Could you please provide us with the following information:
+>
+>    - A catalog or list of equipment you can supply for the mentioned
+>    departments.
+>    - Details of any installation services you offer.
+>    - Information on training programs you can provide for our teaching
+>    staff, including duration, and content.
+>    - Pricing details for the equipment, installation, and training
+>    services.
+>
+> We look forward to the possibility of working together.
+>
+> Thank you for your time and consideration. Please feel free to contact me
+> if you need any further information.
+>
+> Best regards,
+>
+> N. Otoo.
+>
+>
+>
+>
+
+--0000000000009739b90638741acb
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hello Tom,<div><br></div><div>I have received=C2=A0all you=
+r emails.=C2=A0</div><div>The best way to=C2=A0contact=C2=A0me at the momen=
+t is via email as I am currently working outside Kenya.</div><div><br></div=
+><div>Best regards,</div><div>Naa.</div></div><br><div class=3D"gmail_quote=
+ gmail_quote_container"><div dir=3D"ltr" class=3D"gmail_attr">On Wed, Jun 2=
+5, 2025 at 11:07=E2=80=AFAM Tomag Enterprises Limited &lt;<a href=3D"mailto=
+:info@tomag.co.ke">info@tomag.co.ke</a>&gt; wrote:<br></div><blockquote cla=
+ss=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid =
+rgb(204,204,204);padding-left:1ex"><u></u><div><div style=3D"font-family:Ve=
+rdana,Arial,Helvetica,sans-serif;font-size:10pt"><div>Dear Naan,<br></div><=
+div>I am checking if you are receiving our emails.<br></div><div>Thanks and=
+ Best Regards</div><div><br></div><div style=3D"border-top:1px solid rgb(20=
+4,204,204);height:0px;margin-top:10px;margin-bottom:10px;line-height:0px"><=
+br></div><div><div><br></div><div id=3D"m_-8835262641992403870Zm-_Id_-Sgn1"=
+>---- On Tue, 24 Jun 2025 15:13:27 +0300 <b>naanotoo ankrah &lt;<a href=3D"=
+mailto:naanotooankrah@gmail.com" target=3D"_blank">naanotooankrah@gmail.com=
+</a>&gt;</b> wrote ---<br></div><div><br></div><blockquote style=3D"margin:=
+0px" id=3D"m_-8835262641992403870blockquote_zmail"><div><div dir=3D"ltr"><d=
+iv dir=3D"ltr"><p style=3D"box-sizing:border-box;border:0px solid rgba(39,3=
+9,42,0.098);margin:1.25em 0px 10px;padding:0px" dir=3D"auto"><span style=3D=
+"background-color:rgb(250,250,249)"><span style=3D"font-family:ui-sans-seri=
+f,system-ui,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&q=
+uot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;"><span style=
+=3D"font-size:16px;box-sizing:border-box;border:0px solid rgba(39,39,42,0.0=
+98);margin:1.25em 0px 10px;padding:0px">Hello,</span></span></span><br></p>=
+<p style=3D"box-sizing:border-box;border:0px solid rgba(39,39,42,0.098);mar=
+gin:1.25em 0px 10px;padding:0px" dir=3D"auto"><span style=3D"background-col=
+or:rgb(250,250,249)"><span style=3D"font-family:ui-sans-serif,system-ui,san=
+s-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Sego=
+e UI Symbol&quot;,&quot;Noto Color Emoji&quot;"><span style=3D"font-size:16=
+px;box-sizing:border-box;border:0px solid rgba(39,39,42,0.098);margin:1.25e=
+m 0px 10px;padding:0px">I am reaching out to inquire about your company&#39=
+;s capabilities to supply TVET equipment, along with installation and train=
+ing services, for some Technical and Vocational Education and Training inst=
+itutions in Kenya. We are particularly interested in equipment and training=
+ for the following departments and technologies:</span></span></span><br></=
+p><ol style=3D"box-sizing:border-box;border:0px solid rgba(39,39,42,0.098);=
+margin:0px;padding:0px;width:696px;font-family:ui-sans-serif,system-ui,sans=
+-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe=
+ UI Symbol&quot;,&quot;Noto Color Emoji&quot;;font-size:16px;background-col=
+or:rgb(250,250,249)"><li style=3D"margin:0.5em 0px;box-sizing:border-box;bo=
+rder:0px solid rgba(39,39,42,0.098);padding:0px"><p style=3D"box-sizing:bor=
+der-box;border:0px solid rgba(39,39,42,0.098);margin:0px 0px 10px;padding:0=
+px" dir=3D"auto"><b style=3D"box-sizing:border-box;border:0px solid rgba(39=
+,39,42,0.098);margin:0px;padding:0px">Automotive and Mechatronics:</b><br><=
+/p><ul style=3D"box-sizing:border-box;border:0px solid rgba(39,39,42,0.098)=
+;margin:0.75em 0px;padding:0px;list-style:disc;width:658px"><li style=3D"ma=
+rgin:0.5em 0px;box-sizing:border-box;border:0px solid rgba(39,39,42,0.098);=
+padding:0px">Equipment for engine/transmission, chassis/brakes/tyres/suspen=
+sion/steering, car electric/electronics/AC, and bodyworks.<br></li><li styl=
+e=3D"margin:0.25em 0px 0.5em;box-sizing:border-box;border:0px solid rgba(39=
+,39,42,0.098);padding:0px">Training on new technologies such as electric mo=
+bility, safety in high-voltage environments, and emergency service training=
+.<br></li></ul></li><li style=3D"margin:0.25em 0px 0.5em;box-sizing:border-=
+box;border:0px solid rgba(39,39,42,0.098);padding:0px"><p style=3D"box-sizi=
+ng:border-box;border:0px solid rgba(39,39,42,0.098);margin:0px 0px 10px;pad=
+ding:0px" dir=3D"auto"><b style=3D"box-sizing:border-box;border:0px solid r=
+gba(39,39,42,0.098);margin:0px;padding:0px">Photovoltaic (PV) Systems:</b><=
+br></p><ul style=3D"box-sizing:border-box;border:0px solid rgba(39,39,42,0.=
+098);margin:0.75em 0px;padding:0px;list-style:disc;width:658px"><li style=
+=3D"margin:0.5em 0px;box-sizing:border-box;border:0px solid rgba(39,39,42,0=
+.098);padding:0px">Equipment for advanced PV system installation, maintenan=
+ce, and monitoring.<br></li><li style=3D"margin:0.25em 0px 0.5em;box-sizing=
+:border-box;border:0px solid rgba(39,39,42,0.098);padding:0px">Training on =
+remote monitoring of PV systems and PV heat generation.<br></li></ul></li><=
+li style=3D"margin:0.25em 0px 0.5em;box-sizing:border-box;border:0px solid =
+rgba(39,39,42,0.098);padding:0px"><p style=3D"box-sizing:border-box;border:=
+0px solid rgba(39,39,42,0.098);margin:0px 0px 10px;padding:0px" dir=3D"auto=
+"><b style=3D"box-sizing:border-box;border:0px solid rgba(39,39,42,0.098);m=
+argin:0px;padding:0px">Refrigeration and Cold Store Mechatronics + Air Cond=
+itioning:</b><br></p><ul style=3D"box-sizing:border-box;border:0px solid rg=
+ba(39,39,42,0.098);margin:0.75em 0px;padding:0px;list-style:disc;width:658p=
+x"><li style=3D"margin:0.5em 0px;box-sizing:border-box;border:0px solid rgb=
+a(39,39,42,0.098);padding:0px">Equipment for refrigeration systems, cold st=
+ore design, and air conditioning units.<br></li><li style=3D"margin:0.25em =
+0px 0.5em;box-sizing:border-box;border:0px solid rgba(39,39,42,0.098);paddi=
+ng:0px">Training on energy-efficient systems, sustainable refrigerants, and=
+ smart controls.<br></li></ul></li><li style=3D"margin:0.25em 0px 0.5em;box=
+-sizing:border-box;border:0px solid rgba(39,39,42,0.098);padding:0px"><p st=
+yle=3D"box-sizing:border-box;border:0px solid rgba(39,39,42,0.098);margin:0=
+px 0px 10px;padding:0px" dir=3D"auto"><b style=3D"box-sizing:border-box;bor=
+der:0px solid rgba(39,39,42,0.098);margin:0px;padding:0px">Tea Plant Techni=
+cian:</b><br></p><ul style=3D"box-sizing:border-box;border:0px solid rgba(3=
+9,39,42,0.098);margin:0.75em 0px;padding:0px;list-style:disc;width:658px"><=
+li style=3D"margin:0.5em 0px;box-sizing:border-box;border:0px solid rgba(39=
+,39,42,0.098);padding:0px">Equipment for sustainable tea production.<br></l=
+i></ul></li></ol><p style=3D"box-sizing:border-box;border:0px solid rgba(39=
+,39,42,0.098);margin:1.25em 0px 10px;padding:0px" dir=3D"auto"><span style=
+=3D"background-color:rgb(250,250,249)"><span style=3D"font-family:ui-sans-s=
+erif,system-ui,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoj=
+i&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;"><span sty=
+le=3D"font-size:16px;box-sizing:border-box;border:0px solid rgba(39,39,42,0=
+.098);margin:1.25em 0px 10px;padding:0px">We looking for suppliers who can =
+provide comprehensive solutions, including the supply of equipment, install=
+ation services, and relevant training for our teaching staff.</span></span>=
+</span><br></p><p style=3D"box-sizing:border-box;border:0px solid rgba(39,3=
+9,42,0.098);margin:1.25em 0px 10px;padding:0px" dir=3D"auto"><span style=3D=
+"background-color:rgb(250,250,249)"><span style=3D"font-family:ui-sans-seri=
+f,system-ui,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&q=
+uot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;"><span style=
+=3D"font-size:16px;box-sizing:border-box;border:0px solid rgba(39,39,42,0.0=
+98);margin:1.25em 0px 10px;padding:0px">Could you please provide us with th=
+e following information:</span></span></span><br></p><ul style=3D"box-sizin=
+g:border-box;border:0px solid rgba(39,39,42,0.098);margin:0px;padding:0px;w=
+idth:696px;font-family:ui-sans-serif,system-ui,sans-serif,&quot;Apple Color=
+ Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quot;N=
+oto Color Emoji&quot;;font-size:16px;background-color:rgb(250,250,249)"><li=
+ style=3D"margin:0.5em 0px;box-sizing:border-box;border:0px solid rgba(39,3=
+9,42,0.098);padding:0px">A catalog or list of equipment you can supply for =
+the mentioned departments.<br></li><li style=3D"margin:0.25em 0px 0.5em;box=
+-sizing:border-box;border:0px solid rgba(39,39,42,0.098);padding:0px">Detai=
+ls of any installation services you offer.<br></li><li style=3D"margin:0.25=
+em 0px 0.5em;box-sizing:border-box;border:0px solid rgba(39,39,42,0.098);pa=
+dding:0px">Information on training programs you can provide for our teachin=
+g staff, including duration, and content.<br></li><li style=3D"margin:0.25e=
+m 0px 0.5em;box-sizing:border-box;border:0px solid rgba(39,39,42,0.098);pad=
+ding:0px">Pricing details for the equipment, installation, and training ser=
+vices.<br></li></ul><p style=3D"box-sizing:border-box;border:0px solid rgba=
+(39,39,42,0.098);margin:1.25em 0px 10px;padding:0px" dir=3D"auto"><span sty=
+le=3D"background-color:rgb(250,250,249)"><span style=3D"font-family:ui-sans=
+-serif,system-ui,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Em=
+oji&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;"><span s=
+tyle=3D"font-size:16px;box-sizing:border-box;border:0px solid rgba(39,39,42=
+,0.098);margin:1.25em 0px 10px;padding:0px">We look forward to the possibil=
+ity of working together.</span></span></span><br></p><p style=3D"box-sizing=
+:border-box;border:0px solid rgba(39,39,42,0.098);margin:1.25em 0px 10px;pa=
+dding:0px" dir=3D"auto"><span style=3D"background-color:rgb(250,250,249)"><=
+span style=3D"font-family:ui-sans-serif,system-ui,sans-serif,&quot;Apple Co=
+lor Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quo=
+t;Noto Color Emoji&quot;"><span style=3D"font-size:16px;box-sizing:border-b=
+ox;border:0px solid rgba(39,39,42,0.098);margin:1.25em 0px 10px;padding:0px=
+">Thank you for your time and consideration. Please feel free to contact me=
+ if you need any further information.</span></span></span><br></p><p style=
+=3D"box-sizing:border-box;border:0px solid rgba(39,39,42,0.098);margin:1.25=
+em 0px 10px;padding:0px" dir=3D"auto"><span style=3D"background-color:rgb(2=
+50,250,249)"><span style=3D"font-family:ui-sans-serif,system-ui,sans-serif,=
+&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Sym=
+bol&quot;,&quot;Noto Color Emoji&quot;"><span style=3D"font-size:16px;box-s=
+izing:border-box;border:0px solid rgba(39,39,42,0.098);margin:1.25em 0px 10=
+px;padding:0px">Best regards,</span></span></span><br></p><p style=3D"box-s=
+izing:border-box;border:0px solid rgba(39,39,42,0.098);margin:1.25em 0px 10=
+px;padding:0px" dir=3D"auto"><span style=3D"background-color:rgb(250,250,24=
+9)"><span style=3D"font-family:ui-sans-serif,system-ui,sans-serif,&quot;App=
+le Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;=
+,&quot;Noto Color Emoji&quot;"><span style=3D"font-size:16px;box-sizing:bor=
+der-box;border:0px solid rgba(39,39,42,0.098);margin:1.25em 0px 10px;paddin=
+g:0px">N. Otoo.</span></span></span><br></p></div></div></div></blockquote>=
+</div><div><br></div></div><br></div></blockquote></div>
+
+--0000000000009739b90638741acb--

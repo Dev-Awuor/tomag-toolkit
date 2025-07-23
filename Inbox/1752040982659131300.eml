@@ -1,0 +1,384 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of spmailtechnol.com designates 156.70.46.67 as permitted sender) client-ip=156.70.46.67; envelope-from=msprvs1=20285mCn0MaeB=bounces-316827-8@spmailtechnol.com; helo=mta-70-46-67.sparkpostmail.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@service.tiktok.com;
+	spf=pass (zohomail.com: domain of spmailtechnol.com designates 156.70.46.67 as permitted sender)  smtp.mailfrom=msprvs1=20285mCn0MaeB=bounces-316827-8@spmailtechnol.com;
+	dmarc=pass(p=quarantine dis=none)  header.from=service.tiktok.com
+ARC-Seal: i=1; a=rsa-sha256; t=1752040981; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=lmsbh4lQn8bVZMm+TEVNDqqqgBiinsXWyn8b9ft/uDALa5btCipYmRCS7LNYwFfON3cXAMjh2O6ORA2Ta0i97NH23rVH5BdZTWDxN0sTqagr6HeEDz4bx+a8YG0Utmg1LLt1y1vUobRzhnQwWwLZqkRBn1//M5FLipH4/pDISfU=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1752040981; h=Content-Type:Content-Transfer-Encoding:Date:Date:From:From:List-Unsubscribe:MIME-Version:Message-ID:Reply-To:Reply-To:Subject:Subject:To:To:Message-Id:Cc; 
+	bh=36GaaMHqBEhpKBuT4ZDqcp1MPlOBO0w1eOo30jQL6wk=; 
+	b=hr1qqjIbkLzkzrYcobW+YrERbB651FkaCKw2Ek537eytwvnRZJgoFozSn+8WCjX85C+mtd/Snh6cUA15SKhJ/qnOMotnW7/0G2B7nfFTRB4XhzK0kRVRgfoed4gSwrXYV6GKmqis3eF4zXNVkuboMkWLw6lrkz92qms1JoyFAwI=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass  header.i=@service.tiktok.com;
+	spf=pass (zohomail.com: domain of spmailtechnol.com designates 156.70.46.67 as permitted sender)  smtp.mailfrom=msprvs1=20285mCn0MaeB=bounces-316827-8@spmailtechnol.com;
+	dmarc=pass header.from=<notification@service.tiktok.com> (p=quarantine dis=none)
+Return-Path: <msprvs1=20285mCn0MaeB=bounces-316827-8@spmailtechnol.com>
+Return-Path: <msprvs1=20285mCn0MaeB=bounces-316827-8@spmailtechnol.com>
+Received: from mta-70-46-67.sparkpostmail.com (mta-70-46-67.sparkpostmail.com [156.70.46.67]) by mx.zohomail.com
+	with SMTPS id 175204098136885.35803183076746; Tue, 8 Jul 2025 23:03:01 -0700 (PDT)
+Received: from [10.90.42.231] ([10.90.42.231])
+	by i-009df142feb35f6c5.mta1vrest.sd.prd.sparkpost (ecelerity 5.0.0.74550 r(msys-ecelerity:tags/5.0.0.13)) with REST
+	id 31/0D-19372-F060E686; Wed, 09 Jul 2025 06:02:55 +0000
+X-MSFBL: PM5FmQbTnUApX2ydeLHvgUMFxN6Ptg1oD9XwqorBQ+c=|eyJjdXN0b21lcl9pZCI
+	6IjMxNjgyNyIsInRlbmFudF9pZCI6InNwYyIsInN1YmFjY291bnRfaWQiOiI4Iiw
+	iciI6ImluZm9AdG9tYWcuY28ua2UiLCJtZXNzYWdlX2lkIjoiNjg2ZDBmMDY2ZTY
+	4NjliMTUwMTMifQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=service.tiktok.com;
+	s=scph1222; t=1752040975; i=@service.tiktok.com;
+	bh=36GaaMHqBEhpKBuT4ZDqcp1MPlOBO0w1eOo30jQL6wk=;
+	h=Content-Type:To:From:Message-ID:List-Unsubscribe:Date:Subject:
+	 From:To:Cc:Subject;
+	b=qSNmqLJF8HRMl/g/DF0hG2XmGSu1a1I4MNF4hDD3MxOWh/XSCL69v7bMd6wz5k1oy
+	 nkvrS6RpOXJf4h1AHHyvPGd7JvHXYnBMoHO3ytsXAKdMpsvSGG1XUEY2pI3i8wvfwz
+	 i8Ad14HhWu19yJbbsD6ueaSDkQlY6zsNnwh6a6UM=
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+To: info@tomag.co.ke
+MIME-Version: 1.0
+From: "TikTok" <notification@service.tiktok.com>
+Message-ID:<6adb58b2-4bed-4a0a-8384-26362e8dc0ab.notification@service.tiktok.com>
+List-Unsubscribe: <https://www.tiktok.com/email/preference?campaign=FavoriteReminder&lang=en&msg_id=7524958680455042053&token=K4dAHSWckDkpzgctQ%2FlP2vJoVeNmEYsAxoWTagGktRMmvGpMsDoVE1qzJB2h%2BRRk4DsOI%2FppAyiQLG%2B8>
+Date: Wed, 09 Jul 2025 06:02:54 +0000
+X-AliDM-Trace: eyJPcGVuVHJhY2UiOiIxIiwiVGFnTmFtZSI6Im9wZW50YWcifQ==
+Subject: TOMAG Enterprises Limited, rediscover TikToks you saved in favorites.
+Reply-To: edm.feedback@tiktok.com
+X-ZohoMail-DKIM: pass (identity @service.tiktok.com)
+X-ZohoMail-Owner: <6adb58b2-4bed-4a0a-8384-26362e8dc0ab.notification@service.tiktok.com>+zmo_1_msprvs1=20285mCn0MaeB=bounces-316827-8@spmailtechnol.com
+X-ZM-MESSAGEID: 1752040982659131300
+X-ZohoMail-Status: 1
+
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml"><head><meta http-equiv=3D"Cont=
+ent-Type" content=3D"text/html; charset=3Dutf-8"/><meta name=3D"viewport" c=
+ontent=3D"width=3Ddevice-width, initial-scale=3D1.0"/><meta content=3D"text=
+/html; charset=3Dutf-8" http-equiv=3D"Content-Type"/><meta content=3D"width=
+=3Ddevice-width, initial-scale=3D1.0" name=3D"viewport"/><meta content=3D"I=
+E=3Dedge" http-equiv=3D"X-UA-Compatible"/><meta name=3D"x-apple-disable-mes=
+sage-reformatting"/><meta content=3D"light dark" name=3D"color-scheme"/><me=
+ta content=3D"light dark" name=3D"supported-color-schemes"/><style type=3D"=
+text/css">=0A              u + .body .blend-wrapper {=0A                bac=
+kground-color: #161616 !important;=0A                background-image: line=
+ar-gradient(#161616, #161616) !important;=0A              }=0A=0A          =
+    u + .body .blend-container {=0A                background-color: #ff345=
+9 !important;=0A                background-image: linear-gradient(#ff3459, =
+#ff3459) !important;=0A              }=0A=0A              u + .body .emailx=
+-gmail-blend-screen {=0A                background: #000000;=0A            =
+    mix-blend-mode: screen;=0A              }=0A=0A              u + .body =
+.emailx-gmail-blend-difference {=0A                background: #000000;=0A=
+                mix-blend-mode: difference;=0A              }=0A=0A        =
+      =0A            </style><style type=3D"text/css">@import 'https://sf16=
+-va.tiktokcdn.com/obj/eden-va2/tkl_nb_rvarpa/ljhwZthlaukjlkulzlp/resource/t=
+race.css';</style><style>=0A                  body,=0A                  htm=
+l {=0A                    margin: 0 auto !important;=0A                    =
+padding: 0 !important;=0A                    height: 100% !important;=0A   =
+                 background: #fff;=0A                  }=0A=0A             =
+     @media (min-width: 600px) {=0A                    .pixel-pc {=0A      =
+                display: block !important;=0A                    }=0A      =
+            }=0A=0A                  @media (max-width: 600px) and (min-wid=
+th: 51px) {=0A                    .pixel-mobile {=0A                      d=
+isplay: block !important;=0A                    }=0A                  }=0A =
+               </style></head>=0D=0A<div style=3D"color:transparent;visibil=
+ity:hidden;opacity:0;font-size:0px;border:0;max-height:1px;width:1px;margin=
+:0px;padding:0px;border-width:0px!important;display:none!important;line-hei=
+ght:0px!important;"><img border=3D"0" width=3D"1" height=3D"1" src=3D"https=
+://post.spmailtechnol.com/q/w2IOTSXegxMmrUjuNn4hRw~~/AATVmxA~/Yu9G6HTxtmE62=
+UDx9N1-iMmG0mXew7pvDgB0akHdBz4ZI9ACV4sGPGrhjnrGAlvuWr3KF_W4kFubwAwtL1p5cw~~=
+" alt=3D""/></div>=0D=0A<div style=3D"display:none;width:1px;height:1px;ove=
+rflow:hidden"><!-- =E2=84=A2 --></div><body><div style=3D"display:none;font=
+-size:1px;color:#ffffff;line-height:1px;max-height:0;max-width:0;opacity:0;=
+overflow:hidden">TOOLS TOWN: Discover the transformation from ordinary to e=
+xtraordinary in woodworking! We ... =0A&#847; &#847; &#847; &#847; &#847; &=
+#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847;=
+ &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#84=
+7; &#847; &#847;=0A&zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; =
+&zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj=
+; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj;=0A&=
+zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj;=
+ &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbs=
+p; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj;=0A&zwnj; &nbsp; &zwnj; =
+&nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp=
+; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zw=
+nj; &nbsp; &zwnj; &nbsp; &zwnj;=0A&zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp;=
+ &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwn=
+j; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &n=
+bsp; &zwnj;=0A&zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj=
+; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nb=
+sp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj;=0A&zwnj;=
+ &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbs=
+p; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &z=
+wnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj;=0A&zwnj; &nbsp; &zwnj; &nbsp=
+; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zw=
+nj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &nbsp; &zwnj; &=
+nbsp; &zwnj; &nbsp; &zwnj;=0A&#847; &#847; &#847; &#847; &#847; &#847; &#84=
+7; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#=
+847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; =
+&#847;=0A&#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#8=
+47; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &=
+#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847;=0A&#847; &#84=
+7; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#=
+847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; =
+&#847; &#847; &#847; &#847; &#847; &#847;=0A&#847; &#847; &#847; &#847; &#8=
+47; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &=
+#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847;=
+ &#847; &#847; &#847;=0A&#847; &#847; &#847; &#847; &#847; &#847; &#847; &#=
+847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; =
+&#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847=
+; </div><table cellSpacing=3D"0" cellPadding=3D"0" style=3D"overflow:hidden=
+;width:100%;height:0;border:0;border-spacing:0px"><tbody><tr><td height=3D"=
+1" width=3D"100%" style=3D"font-size:0"><img data-test-id=3D"pixel-trace-to=
+p" src=3D"https://m.tiktok.com/edm/catcher=3Ftoken=3DwkJXi2rROsLACkAWB3zILb=
+kfZgnvEVGe9tUTEc7yj9kzCYP9bMLyVq8nMU7pdcA8zmWRr1rDQvCYHbvf&amp;msg_id=3D752=
+4958680455042053&amp;region=3Dmaliva&amp;mail_type=3DFavoriteReminder&amp;c=
+lient_type=3Dtop_pixel" style=3D"width:1px;height:1px;background-color:tran=
+sparent" height=3D"1" width=3D"1"/></td></tr></tbody></table><div class=3D"=
+" style=3D"width:375px;max-width:375px;margin:0 auto;font-family:Arial, san=
+s-serif, Roboto;background:#fff">=0A<div style=3D"float:left;width:0"><div =
+style=3D"width:375px;margin:0 auto"><div style=3D"width:375px;max-width:375=
+px;margin:0 auto;font-family:Arial, sans-serif, Roboto;background:#fff"><di=
+v style=3D"margin:0 auto;margin-top:0;margin-bottom:0;padding-top:0;padding=
+-bottom:0"><div style=3D"width:100%;max-width:375px"><div style=3D"width:32=
+7px;margin:0 24px 40px">=0A<a href=3D"https://www.tiktok.com/=3Fgd_label=3D=
+edm_favorite&language=3Den&utm_campaign=3Demailrecall&utm_source=3Dedm_favo=
+rite&ug_source=3Dpost.email&msg_id=3D7524958680455042053&_r=3D1&lan=3Den&la=
+yout_id=3D7475328811165373446&source=3Dh5_m&block_tid=3Dheader&click_source=
+=3Dheader_title&redirect_url=3Dsslocal%3A%2F%2Ffavorite%3Fgd_label%3Dedm_fa=
+vorite%26utm_campaign%3Demailrecall%26utm_source%3Dedm_favorite%26msg_id%3D=
+7524958680455042053%26click_source%3Dheader_title%26ug_source%3Dpost.email%=
+26layout_id%3D7475328811165373446%26block_tid%3Dheader" target=3D"_blank" a=
+ria-label=3D"header_title" style=3D"color:#067df7;text-decoration:none;font=
+-family:TikTokFont,Arial,sans-serif, Roboto;display:inline-block"><div styl=
+e=3D"margin:0 auto;font-family:TikTokFont,Arial,sans-serif,Roboto;font-size=
+:24px;font-weight:700;color:#202020;max-width:100%;text-align:left;line-hei=
+ght:30px">=0ARediscover your favorites on TikTok</div></a><a href=3D"https:=
+//www.tiktok.com/=3Fgd_label=3Dedm_favorite&language=3Den&utm_campaign=3Dem=
+ailrecall&utm_source=3Dedm_favorite&ug_source=3Dpost.email&msg_id=3D7524958=
+680455042053&_r=3D1&lan=3Den&layout_id=3D7475328811165373446&source=3Dh5_m&=
+block_tid=3Dheader&click_source=3Dheader_sub_title&redirect_url=3Dsslocal%3=
+A%2F%2Ffavorite%3Fgd_label%3Dedm_favorite%26utm_campaign%3Demailrecall%26ut=
+m_source%3Dedm_favorite%26msg_id%3D7524958680455042053%26click_source%3Dhea=
+der_sub_title%26ug_source%3Dpost.email%26layout_id%3D7475328811165373446%26=
+block_tid%3Dheader" target=3D"_blank" aria-label=3D"header_sub_title" style=
+=3D"color:#067df7;text-decoration:none;font-family:TikTokFont,Arial,sans-se=
+rif, Roboto;display:inline-block">=0A<div style=3D"margin:0 auto;font-famil=
+y:TikTokFont,Arial,sans-serif,Roboto;font-size:15px;font-weight:400;color:#=
+0000007A;text-align:left;line-height:19.5px;margin-top:6px;margin-bottom:4p=
+x">Easily watch a collection of funny, interesting, useful, and unique vide=
+os that were so good, you took the time to save them.</div></a><a href=3D"h=
+ttps://www.tiktok.com/@toolstownke/video/7504191551950638342=3Fgd_label=3De=
+dm_favorite&language=3Den&utm_campaign=3Demailrecall&utm_source=3Dedm_favor=
+ite&ug_source=3Dpost.email&msg_id=3D7524958680455042053&_r=3D1&lan=3Den&lay=
+out_id=3D7475328811165373446&source=3Dh5_m&block_tid=3Dheader&click_source=
+=3Dheader_cta" target=3D"_blank" aria-label=3D"header_cta"=0A style=3D"colo=
+r:#067df7;text-decoration:none;font-family:TikTokFont,Arial,sans-serif, Rob=
+oto;display:inline-block;box-sizing:border-box;border-radius:8px;background=
+:#FF3459;border:0;margin-top:12px;width:327px;height:48px"><table role=3D"p=
+resentation" cellSpacing=3D"0" cellPadding=3D"0" style=3D"width:108px;borde=
+r:0;margin:0 auto"><tbody style=3D"width:108px"><tr style=3D"width:108px"><=
+td style=3D"text-align:center;vertical-align:middle;height:48px"><div style=
+=3D"margin:0 auto;padding:0px;white-space:nowrap;line-height:48px;font-size=
+:16px;font-weight:700;color:#fff">Go to TikTok</div></td></tr></tbody></tab=
+le></a></div></div></div><div style=3D"margin:0 auto;margin-top:0;margin-bo=
+ttom:0;padding-top:0;padding-bottom:0"><div style=3D"margin:0 24px;width:32=
+7px"><div style=3D"margin:0 auto;width:327px;margin-bottom:32px"><table rol=
+e=3D"presentation" cellSpacing=3D"0" cellPadding=3D"0"=0A style=3D"width:10=
+0%;border:0;margin:0 auto"><tbody style=3D"width:100%"><tr style=3D"width:1=
+00%"><td style=3D"text-align:left;vertical-align:top;width:48px;height:48px=
+;padding-right:12px"><a href=3D"https://www.tiktok.com/@toolstownke=3Fgd_la=
+bel=3Dedm_favorite&language=3Den&utm_campaign=3Demailrecall&utm_source=3Ded=
+m_favorite&ug_source=3Dpost.email&msg_id=3D7524958680455042053&_r=3D1&lan=
+=3Den&layout_id=3D7475328811165373446&source=3Dh5_m&block_tid=3Dmain&relate=
+_gid=3D7504191551950638342&click_source=3Duser_avatar_0" target=3D"_blank" =
+aria-label=3D"user_avatar_0" style=3D"color:#067df7;text-decoration:none;fo=
+nt-family:TikTokFont,Arial,sans-serif, Roboto;display:inline-block"><img al=
+t=3D""=0A src=3D"https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/bcde=
+70384d6ae26f43392bf88588953c~tplv-tiktokx-cropcenter:100:100.jpeg=3Fdr=3D14=
+579&amp;refresh_token=3D97e34a5c&amp;x-expires=3D1767592800&amp;x-signature=
+=3DrgZ0kRXxcAdfKvTLWRBCxyPFoJ4%3D&amp;t=3D4d5b0474&amp;ps=3D13740610&amp;sh=
+p=3D87aa61fc&amp;shcp=3D84013cec&amp;idc=3Dmaliva" style=3D"width:48px;heig=
+ht:48px;vertical-align:middle;border-radius:50%"/></a></td><td style=3D"tex=
+t-align:left;vertical-align:middle"><table role=3D"presentation" cellSpacin=
+g=3D"0" cellPadding=3D"0" style=3D"width:100%;border:0;margin:0 auto;height=
+:48px;min-height:48px;margin-bottom:4px"><tbody style=3D"width:100%"><tr st=
+yle=3D"width:100%"><td style=3D"text-align:left;vertical-align:middle;width=
+:182px;overflow:hidden;white-space:nowrap">=0A<a href=3D"https://www.tiktok=
+.com/@toolstownke=3Fgd_label=3Dedm_favorite&language=3Den&utm_campaign=3De=
+mailrecall&utm_source=3Dedm_favorite&ug_source=3Dpost.email&msg_id=3D752495=
+8680455042053&_r=3D1&lan=3Den&layout_id=3D7475328811165373446&source=3Dh5_m=
+&block_tid=3Dmain&relate_gid=3D7504191551950638342&click_source=3Dvideo_use=
+r_name_0" target=3D"_blank" aria-label=3D"video_user_name_0" style=3D"color=
+:#067df7;text-decoration:none;font-family:TikTokFont,Arial,sans-serif, Robo=
+to;display:inline-block"><div style=3D"margin:0 auto;font-family:TikTokFont=
+,Arial,sans-serif,Roboto;font-size:17px;font-weight:600;color:#202020;displ=
+ay:inline;line-height:22px">TOOLS TOWN</div></a></td></tr></tbody></table>=
+=0A<a href=3D"https://www.tiktok.com/@toolstownke/video/7504191551950638342=
+=3Fgd_label=3Dedm_favorite&language=3Den&utm_campaign=3Demailrecall&utm_sou=
+rce=3Dedm_favorite&ug_source=3Dpost.email&msg_id=3D7524958680455042053&_r=
+=3D1&lan=3Den&layout_id=3D7475328811165373446&source=3Dh5_m&block_tid=3Dmai=
+n&click_source=3Dvideo_caption_0" target=3D"_blank" aria-label=3D"video_cap=
+tion_0" style=3D"color:#067df7;text-decoration:none;font-family:TikTokFont,=
+Arial,sans-serif, Roboto;display:block"><div style=3D"margin:0 auto;font-fa=
+mily:TikTokFont,Arial,sans-serif,Roboto;font-size:15px;font-weight:400;colo=
+r:#000000;width:100%;line-height:19px;word-break:break-all;text-align:left;=
+margin-top:0;margin-bottom:4px">Discover the transformation from ordinary t=
+o extraordinary in ...</div></a><div style=3D"margin:0 auto 4px 0;height:27=
+4.6666666666667px;min-height:274.6666666666667px">=0A<div style=3D"margin:0=
+ auto;height:0;max-height:0;overflow:visible"><a href=3D"https://www.tiktok=
+.com/@toolstownke/video/7504191551950638342=3Fgd_label=3Dedm_favorite&lang=
+uage=3Den&utm_campaign=3Demailrecall&utm_source=3Dedm_favorite&ug_source=3D=
+post.email&msg_id=3D7524958680455042053&_r=3D1&lan=3Den&layout_id=3D7475328=
+811165373446&source=3Dh5_m&block_tid=3Dmain&click_source=3Dvideo_image_0" t=
+arget=3D"_blank" aria-label=3D"video_image_0" style=3D"color:#067df7;text-d=
+ecoration:none;font-family:TikTokFont,Arial,sans-serif, Roboto;display:bloc=
+k">=0A<div style=3D"margin:0 auto;width:206px;height:274.6666666666667px;ma=
+rgin-left:0;border-radius:8px;background-image:url(https://p16-sign-va.tikt=
+okcdn.com/tos-maliva-p-0068/ocAEJIPWQA4yBw3rRifwDoBC9AJDPiEJjAsfAk~tplv-tik=
+tokx-origin.image=3Fdr=3D14575&amp;refresh_token=3D6ca81299&amp;x-expires=
+=3D1767592800&amp;x-signature=3DBHp4rXxGMlSqXwZRcvt8pO7IOUs%3D&amp;t=3D4d5b=
+0474&amp;ps=3D13740610&amp;shp=3D87aa61fc&amp;shcp=3D84013cec&amp;idc=3Dmal=
+iva);background-size:cover;background-repeat:no-repeat;background-position:=
+center"><img alt=3D"" src=3D"https://sf16-va.tiktokcdn.com/obj/eden-va2/tkl=
+_nb_rvarpa/ljhwZthlaukjlkulzlp/common/play-icon-v2.png" style=3D"width:48px=
+;height:48px;vertical-align:middle;margin-left:79px;margin-top:113.33333333=
+333334px"/></div></a></div></div><div style=3D"margin:0 auto;width:100%;hei=
+ght:20px;font-size:0;padding:2px 0;text-align:left">=0A<a href=3D"https://w=
+ww.tiktok.com/@toolstownke/video/7504191551950638342=3Fgd_label=3Dedm_favor=
+ite&language=3Den&utm_campaign=3Demailrecall&utm_source=3Dedm_favorite&ug_s=
+ource=3Dpost.email&msg_id=3D7524958680455042053&_r=3D1&lan=3Den&layout_id=
+=3D7475328811165373446&source=3Dh5_m&block_tid=3Dmain&click_source=3Dvideo_=
+like_0" target=3D"_blank" aria-label=3D"video_like_0" style=3D"color:#067df=
+7;text-decoration:none;font-family:TikTokFont,Arial,sans-serif, Roboto;disp=
+lay:inline-block;min-width:50px;margin-right:20px"><img alt=3D"" src=3D"htt=
+ps://sf16-va.tiktokcdn.com/obj/eden-va2/tkl_nb_rvarpa/ljhwZthlaukjlkulzlp/e=
+mailElement/like_simple.png" style=3D"width:20px;height:20px;vertical-align=
+:top;display:inline-block;margin-right:4px"/>=0A<div style=3D"margin:0;font=
+-family:TikTokFont,Arial,sans-serif,Roboto;font-size:12px;font-weight:600;c=
+olor:#202020;display:inline-block;text-align:left;line-height:20px">5.1K</d=
+iv></a><a href=3D"https://www.tiktok.com/@toolstownke/video/750419155195063=
+8342=3Fgd_label=3Dedm_favorite&language=3Den&utm_campaign=3Demailrecall&utm=
+_source=3Dedm_favorite&ug_source=3Dpost.email&msg_id=3D7524958680455042053&=
+_r=3D1&lan=3Den&layout_id=3D7475328811165373446&source=3Dh5_m&block_tid=3Dm=
+ain&click_source=3Dvideo_comment_0" target=3D"_blank" aria-label=3D"video_c=
+omment_0" style=3D"color:#067df7;text-decoration:none;font-family:TikTokFon=
+t,Arial,sans-serif, Roboto;display:inline-block;min-width:50px;margin-right=
+:20px"><img alt=3D"" src=3D"https://sf16-va.tiktokcdn.com/obj/eden-va2/tkl_=
+nb_rvarpa/ljhwZthlaukjlkulzlp/emailElement/commnet_simple.png"=0A style=3D"=
+width:20px;height:20px;vertical-align:top;display:inline-block;margin-right=
+:4px"/><div style=3D"margin:0;font-family:TikTokFont,Arial,sans-serif,Robot=
+o;font-size:12px;font-weight:600;color:#202020;display:inline-block;text-al=
+ign:left;line-height:20px">340</div></a><a href=3D"https://www.tiktok.com/@=
+toolstownke/video/7504191551950638342=3Fgd_label=3Dedm_favorite&language=3D=
+en&utm_campaign=3Demailrecall&utm_source=3Dedm_favorite&ug_source=3Dpost.em=
+ail&msg_id=3D7524958680455042053&_r=3D1&lan=3Den&layout_id=3D74753288111653=
+73446&source=3Dh5_m&block_tid=3Dmain&click_source=3Dvideo_share_0" target=
+=3D"_blank" aria-label=3D"video_share_0" style=3D"color:#067df7;text-decora=
+tion:none;font-family:TikTokFont,Arial,sans-serif, Roboto;display:inline-bl=
+ock;min-width:50px"><img alt=3D""=0A src=3D"https://sf16-va.tiktokcdn.com/o=
+bj/eden-va2/tkl_nb_rvarpa/ljhwZthlaukjlkulzlp/emailElement/share_simple.png=
+" style=3D"width:20px;height:20px;vertical-align:top;display:inline-block;m=
+argin-right:4px"/><div style=3D"margin:0;font-family:TikTokFont,Arial,sans-=
+serif,Roboto;font-size:12px;font-weight:600;color:#202020;display:inline-bl=
+ock;text-align:left;line-height:20px">119</div></a></div></td></tr></tbody>=
+</table></div></div></div><div style=3D"margin:0 auto;margin-top:0;margin-b=
+ottom:0;padding-top:0;padding-bottom:0"><div style=3D"margin:20px 24.5px 0;=
+border-bottom:1px dashed rgba(0, 0, 0, 0.05)">=0A<a href=3D"https://www.tik=
+tok.com/=3Fgd_label=3Dedm_favorite&language=3Den&utm_campaign=3Demailrecall=
+&utm_source=3Dedm_favorite&ug_source=3Dpost.email&msg_id=3D7524958680455042=
+053&_r=3D1&lan=3Den&layout_id=3D7475328811165373446&source=3Dh5_m&block_tid=
+=3Dcta&click_source=3Dmain_cta&redirect_url=3Dsslocal%3A%2F%2Ffavorite%3Fgd=
+_label%3Dedm_favorite%26utm_campaign%3Demailrecall%26utm_source%3Dedm_favor=
+ite%26msg_id%3D7524958680455042053%26click_source%3Dmain_cta%26ug_source%3D=
+post.email%26layout_id%3D7475328811165373446%26block_tid%3Dcta" target=3D"_=
+blank" aria-label=3D"main_cta" style=3D"color:#067df7;text-decoration:none;=
+font-family:TikTokFont,Arial,sans-serif, Roboto;display:block;box-sizing:bo=
+rder-box;border-radius:8px;background:#FF3459;border:0;margin:0 auto 32px">=
+<table role=3D"presentation" cellSpacing=3D"0" cellPadding=3D"0" style=3D"w=
+idth:139px;border:0;margin:0 auto">=0A<tbody style=3D"width:139px"><tr styl=
+e=3D"width:139px"><td style=3D"text-align:center;vertical-align:middle;heig=
+ht:48px"><div style=3D"margin:0 auto;padding:0px;white-space:nowrap;line-he=
+ight:48px;font-size:16px;font-weight:700;color:#FFFFFF">Watch your favorite=
+s</div></td></tr></tbody></table></a></div></div><div style=3D"margin:0 aut=
+o;margin-top:80px;margin-bottom:0;padding-top:0;padding-bottom:0"><div styl=
+e=3D"width:375px;padding-bottom:40px;background-image:none;background-posit=
+ion:right 0px bottom 0px;background-repeat:no-repeat;background-size:contai=
+n"><div style=3D"width:327px;margin:0 24px"><table role=3D"presentation" ce=
+llSpacing=3D"0" cellPadding=3D"0" style=3D"width:327px;border:0;margin:0 au=
+to"><tbody style=3D"width:327px"><tr style=3D"width:327px"><td style=3D"tex=
+t-align:center;vertical-align:middle;width:100%;padding:0 24px;box-sizing:b=
+order-box">=0A<div style=3D"margin:0 auto;font-family:TikTokFont,Arial,sans=
+-serif,Roboto;font-size:12px;font-weight:400;color:#8B8B90;line-height:15px=
+;margin-bottom:6px">This email was generated for @tomag.ke</div><div style=
+=3D"margin:0 auto;margin-bottom:6px"><div style=3D"margin:0 auto"><a href=
+=3D"https://www.tiktok.com/legal/page/row/privacy-policy/en" target=3D"_bla=
+nk" style=3D"color:#8B8B90;text-decoration:underline;font-family:TikTokFont=
+,Arial,sans-serif, Roboto;display:inline-block;font-size:11px;line-height:1=
+5px">Privacy Policy</a><span style=3D"font-family:TikTokFont,Arial,sans-ser=
+if,Roboto;font-size:11px;font-weight:400;color:#8B8B90;line-height:15px;tex=
+t-decoration:underline"> / </span><a href=3D"https://support.tiktok.com/" t=
+arget=3D"_blank" style=3D"color:#8B8B90;text-decoration:underline;font-fami=
+ly:TikTokFont,Arial,sans-serif, Roboto;display:inline-block;font-size:11px;=
+line-height:15px">Help</a>=0A<span style=3D"font-family:TikTokFont,Arial,sa=
+ns-serif,Roboto;font-size:11px;font-weight:400;color:#8B8B90;line-height:15=
+px;text-decoration:underline"> / </span><a href=3D"https://www.tiktok.com/s=
+afety" target=3D"_blank" style=3D"color:#8B8B90;text-decoration:underline;f=
+ont-family:TikTokFont,Arial,sans-serif, Roboto;display:inline-block;font-si=
+ze:11px;line-height:15px">Safety</a></div><div style=3D"margin:0 auto"><a h=
+ref=3D"https://www.tiktok.com/email/preference=3Fcampaign=3DFavoriteReminde=
+r&lang=3Den&msg_id=3D7524958680455042053&token=3DK4dAHSWckDkpzgctQ%2FlP2vJo=
+VeNmEYsAxoWTagGktRMmvGpMsDoVE1qzJB2h%2BRRk4DsOI%2FppAyiQLG%2B8" target=3D"_=
+blank" style=3D"color:#8B8B90;text-decoration:underline;font-family:TikTokF=
+ont,Arial,sans-serif, Roboto;display:inline-block;font-size:11px;line-heigh=
+t:15px">Unsubscribe</a>=0A<span style=3D"font-family:TikTokFont,Arial,sans-=
+serif,Roboto;font-size:11px;font-weight:400;color:#8B8B90;line-height:15px;=
+text-decoration:underline"> / </span><a href=3D"https://www.tiktok.com/emai=
+l/preference=3Fcampaign=3DFavoriteReminder&lang=3Den&msg_id=3D7524958680455=
+042053&token=3DK4dAHSWckDkpzgctQ%2FlP2vJoVeNmEYsAxoWTagGktRMmvGpMsDoVE1qzJB=
+2h%2BRRk4DsOI%2FppAyiQLG%2B8" target=3D"_blank" style=3D"color:#8B8B90;text=
+-decoration:underline;font-family:TikTokFont,Arial,sans-serif, Roboto;displ=
+ay:inline-block;font-size:11px;line-height:15px">Manage email preferences</=
+a></div><div style=3D"margin:0 24px;font-family:TikTokFont,Arial,sans-serif=
+,Roboto;font-size:12px;font-weight:400;color:#000"><div style=3D"margin:0 a=
+uto;font-size:12px;color:#8B8B90;line-height:15px">TikTok Pte. Ltd. One Raf=
+fles Quay, #26-10, South Tower, Singapore 048583</div></div></div></td></tr=
+></tbody></table></div></div></div>=0A</div></div></div><a href=3D"https://=
+www.tiktok.com/=3Fgd_label=3Dedm_emergency&utm_campaign=3Demailrecall&utm_s=
+ource=3Dedm_emergency&click_source=3Dfull_cover&redirect_url=3Dsnssdk1233%3=
+A%2F%2Ffeed%3Fpagetype%3Dforyou" target=3D"_blank" aria-label=3D"full_cover=
+" style=3D"color:#067df7;text-decoration:none;font-family:TikTokFont,Arial,=
+sans-serif, Roboto;display:block"><img alt=3D"" src=3D"https://m.tiktok.com=
+/edm/safe_cover=3Ffrom_user=3DbOb%2BFGgaZUdleXDcGBUMmgydmM1a08F5MxayZ38dET2=
+IczWw7EgH71cvI7qj4fYAFcRe668A%2BGGF6zfL&amp;whole_cover=3D1&amp;type=3D17&a=
+mp;msg_id=3D7524958680455042053&amp;pack_enable=3D0&amp;gids=3D[75041915519=
+50638342]&amp;aids=3D[7200717238370059269]&amp;uids=3Dnull&amp;region=3Dmal=
+iva" style=3D"width:auto;height:auto;vertical-align:middle;max-width:375px;=
+float:left"/></a></div>=0A<span style=3D"display:none;font-size:1px;color:#=
+ffffff;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden">=
+$emailx_page_uniqueid+1752040974613</span><table cellSpacing=3D"0" cellPadd=
+ing=3D"0" style=3D"overflow:hidden;width:100%;height:0;border:0;border-spac=
+ing:0px"><tbody><tr><td height=3D"1" width=3D"100%" style=3D"font-size:0"><=
+div class=3D"pixel-mobile" style=3D"background-image:url(&#x27;https://m.ti=
+ktok.com/edm/catcher=3Ftoken=3DwkJXi2rROsLACkAWB3zILbkfZgnvEVGe9tUTEc7yj9kz=
+CYP9bMLyVq8nMU7pdcA8zmWRr1rDQvCYHbvf&amp;msg_id=3D7524958680455042053&amp;r=
+egion=3Dmaliva&amp;mail_type=3DFavoriteReminder&amp;client_type=3Dmobile&#x=
+27;);background-repeat:no-repeat;display:none"></div><div class=3D"pixel-pc=
+"=0A style=3D"background-image:url(&#x27;https://m.tiktok.com/edm/catcher=
+=3Ftoken=3DwkJXi2rROsLACkAWB3zILbkfZgnvEVGe9tUTEc7yj9kzCYP9bMLyVq8nMU7pdcA8=
+zmWRr1rDQvCYHbvf&amp;msg_id=3D7524958680455042053&amp;region=3Dmaliva&amp;m=
+ail_type=3DFavoriteReminder&amp;client_type=3Dpc&#x27;);background-repeat:n=
+o-repeat;display:none"></div><div class=3D"pixel-import" style=3D"backgroun=
+d-image:url(&#x27;https://m.tiktok.com/edm/catcher=3Ftoken=3DwkJXi2rROsLACk=
+AWB3zILbkfZgnvEVGe9tUTEc7yj9kzCYP9bMLyVq8nMU7pdcA8zmWRr1rDQvCYHbvf&amp;msg_=
+id=3D7524958680455042053&amp;region=3Dmaliva&amp;mail_type=3DFavoriteRemind=
+er&amp;client_type=3Dcss_import&#x27;);background-repeat:no-repeat;display:=
+none"></div><img data-test-id=3D"pixel-trace" src=3D"https://m.tiktok.com/e=
+dm/catcher=3Ftoken=3DwkJXi2rROsLACkAWB3zILbkfZgnvEVGe9tUTEc7yj9kzCYP9bMLyVq=
+8nMU7pdcA8zmWRr1rDQvCYHbvf&amp;msg_id=3D7524958680455042053&amp;region=3Dma=
+liva&amp;mail_type=3DFavoriteReminder"=0A style=3D"width:1px;height:1px;bac=
+kground-color:transparent" height=3D"1" width=3D"1"/></td></tr></tbody></ta=
+ble>=0A=0D=0A<img border=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D"htt=
+ps://post.spmailtechnol.com/q/CYGXwajWIIj2nJCQy4VQLg~~/AATVmxA~/Awn0D1HzeTR=
+U1OUM_jVcXk89uWVmMjiJ7sgVnYahe8gGK0pUuezjfOkT1INcNVu7W4yx2k7I2A_I_Lk6eyW1Og=
+~~">=0D=0A</body></html>
+

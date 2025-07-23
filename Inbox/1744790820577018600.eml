@@ -1,0 +1,86 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: permerror (zohomail.com: Error in processing SPF Record) client-ip=154.52.2.240; envelope-from=prvs=1201ffba12=eProcurement@kengen.co.ke; helo=smtpfra7.fortimailcloud.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=fail;
+	spf=permerror (zohomail.com: Error in processing SPF Record)  smtp.mailfrom=prvs=1201ffba12=eProcurement@kengen.co.ke
+Received: from smtpfra7.fortimailcloud.com (smtpfra7.fortimailcloud.com [154.52.2.240]) by mx.zohomail.com
+	with SMTPS id 1744790817263373.28150200863195; Wed, 16 Apr 2025 01:06:57 -0700 (PDT)
+Return-Path: <prvs=1201ffba12=eProcurement@kengen.co.ke>
+Date: Wed, 16 Apr 2025 11:04:06 +0300
+From: SUS_PI_INTG <eProcurement@kengen.co.ke>
+Subject: Notification of New Documents in Supplier Portal
+To: <info@tomag.co.ke>
+Message-ID:<ADR50000000009880500005056B7CA031FD086D332EEEF85653A@kengen.int>
+MIME-Version: 1.0
+Importance: Normal
+X-Priority: 3 (Normal)
+X-Mailer: SAP NetWeaver 750
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Notification of New Documents in Supplier Portal
+X-KSE-ServerInfo: SVDT1EXCH01.kengen.int, 9
+X-KSE-AntiSpam-Interceptor-Info: scan successful
+X-KSE-AntiSpam-Version: 6.1.1, Database issued on: 04/16/2025 07:49:22
+X-KSE-AntiSpam-Status: KAS_STATUS_NOT_DETECTED
+X-KSE-AntiSpam-Method: none
+X-KSE-AntiSpam-Rate: 0
+X-KSE-AntiSpam-Info: Lua profiles 192660 [Apr 16 2025]
+X-KSE-AntiSpam-Info: Version: 6.1.1.11
+X-KSE-AntiSpam-Info: Envelope from: eProcurement@kengen.co.ke
+X-KSE-AntiSpam-Info: LuaCore: 54 0.3.54
+ 464169e973265e881193cca5ab7aa5055e5b7016
+X-KSE-AntiSpam-Info: {Tracking_cnf_strong}
+X-KSE-AntiSpam-Info: {Tracking_from_domain_doesnt_match_to}
+X-KSE-AntiSpam-Info: eprocurement.kengen.co.ke:7.1.1;d41d8cd98f00b204e9800998ecf8427e.com:7.1.1;127.0.0.199:7.1.2;kengen.co.ke:7.1.1;kengen.int:7.1.1
+X-KSE-AntiSpam-Info: FromAlignment: s
+X-KSE-AntiSpam-Info: Rate: 0
+X-KSE-AntiSpam-Info: Status: not_detected
+X-KSE-AntiSpam-Info: Method: none
+X-KSE-AntiSpam-Info: Auth:dkim=none
+X-KSE-Antiphishing-Info: Clean
+X-KSE-Antiphishing-ScanningType: Heuristic
+X-KSE-Antiphishing-Method: None
+X-KSE-Antiphishing-Bases: 04/16/2025 07:51:00
+X-KSE-AttachmentFiltering-Interceptor-Info: protection disabled
+X-KSE-Antivirus-Interceptor-Info: scan successful
+X-KSE-Antivirus-Info: Clean, bases: 4/16/2025 7:24:00 AM
+X-KSE-BulkMessagesFiltering-Scan-Result: protection disabled
+X-C2ProcessedOrg: df12295b-5008-4aba-8a9d-5ca7a36ac9be
+X-FEAS-BEC-Info: WlpIGw0aAQkEARIJHAEHBlJSCRoLAAEeDUhZUEhYSFhIWUhZXkguLT4lKyQlWFhYWltfW1pRSFpdSA04GgcLHRoNBQ0GHCgDDQYPDQZGCwdGAw1IWUhZXkgBBg4HKBwHBQkPRgsHRgMNSFhIWkhZXEhZUV9GWlxQRllaXEZQXUhQSFhIWEhZSFhIWEhYSFleSAEGDgcoHAcFCQ9GCwdGAw1IWA==
+X-FEAS-Client-IP: 10.7.6.156
+X-FE-Last-Public-Client-IP: 197.248.124.85
+X-FE-Policy-ID: 3:5:2:SYSTEM
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; d=kengen.co.ke; s=Kengen_DKIM; c=relaxed/relaxed;
+ h=date:from:subject:to:message-id:mime-version:content-type;
+ bh=CuFGSxEAqJ/lmj7Ofp7H56qBc9BJGInw4IGi/FjrpgE=;
+ b=bUxS+V7102vSNmPNfkSzdX0HMUNJYB4RUZ7f6BUkwfmUQf1XLpUTgpoW11X13EVXfQni5USlSL+u
+	iMjMyKFn2fzWbngEekwM7aHm24SHL6La6HwJpw9yPPltG4k5Dvjh8Da4E0wNPbocSAUSxFN85d8h
+	S6hkjlomxzO1YkG01zjK0dswkgkeHZF1eBJWGPHEsylj1ou3JEROpBFpld2DMTLT6ZTtd1+NNRlJ
+	4AMy5UPW/26ACPksAqz23u5DixenD3JXTP2gfn0KiEg0FS1jNG4ssrxSjaZyJX3Ww5PxB84gZ6nr
+	3dbnwmnpUY+QXPN6sTHHow9678f55cq76gJInQ==
+X-FE-Policy-ID: 27:1:2:SYSTEM
+X-ZohoMail-DKIM: fail (Invalid Public Key: Invalid key spec: java.security.InvalidKeyException: IOException: DerInputStream.getLength(): lengthTag=77, too big.)
+X-ZohoMail-Owner: <ADR50000000009880500005056B7CA031FD086D332EEEF85653A@kengen.int>+zmo_0_
+X-ZM-MESSAGEID: 1744790820577018600
+X-ZohoMail-Status: 1
+
+
+Dear Sir/Madam,
+
+The following document has been transmitted to you:
+Purchase Order: 4100035146
+You can use the following URL to branch directly to our Supplier Portal
+and display or process the relevant document:
+https://eprocurement.kengen.co.ke:50001/irj/portal
+
+Best regards,
+Your Supplier Portal Team
+
+
+
+KenGen eProcurement | KenGen eProcurement=20
+Kenya Electricity Generating Company PLC
+Stima Plaza | Kolobot Road, Parklands.=20
+P.O Box 47936 00100 Nairobi | =20
+Tel: +254 711 036 000 Ext=20
+Email: eProcurement@kengen.co.ke Website: www.kengen.co.ke=20

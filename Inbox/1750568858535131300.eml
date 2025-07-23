@@ -1,0 +1,254 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of em8618.account.tiktok.com designates 167.89.2.255 as permitted sender) client-ip=167.89.2.255; envelope-from=bounces+17096946-f42f-info=tomag.co.ke@em8618.account.tiktok.com; helo=o14.ptr1445.account.tiktok.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of em8618.account.tiktok.com designates 167.89.2.255 as permitted sender)  smtp.mailfrom=bounces+17096946-f42f-info=tomag.co.ke@em8618.account.tiktok.com;
+	dmarc=pass(p=quarantine dis=none)  header.from=account.tiktok.com
+ARC-Seal: i=1; a=rsa-sha256; t=1750568857; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=Ee0y//I4xS5/XJHwsgi3CRLDQo4gL0EuUgNLFBduXFsETkHJXqKKUv1xIkpgyPHiMSLUSgp2QFCoKGKg8TacTT4FIL/cCaOxcHgzScqxUC9prxzRJ3eg1We6GPvhncpn7kXKVldmoh/mMd1JL6I/mlgdELLkC2OG6t3Z2+2B4KA=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1750568857; h=Content-Type:Content-Transfer-Encoding:Date:Date:From:From:MIME-Version:Message-ID:Subject:Subject:To:To:Message-Id:Reply-To:Cc; 
+	bh=luFv1lmY+2ZMwUC4/EWk2Dbp1SMPvOJACUAm+DMHaT0=; 
+	b=nyAtPZYCrJnZKnxilATeamEbNCn3FFH1EEOPhqXYb8nexO+uIEhKK5rW1HArHIbDkvIDhqEel+ZRG+9PkFFKY5PP5w6aMYbe2VdpPJlsyO2wm2SvD+qgpHpO9C33Mlx/ui1+asIhXOniZ/iL15CauEp0N59k04cDgjuK6WQPVus=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of em8618.account.tiktok.com designates 167.89.2.255 as permitted sender)  smtp.mailfrom=bounces+17096946-f42f-info=tomag.co.ke@em8618.account.tiktok.com;
+	dmarc=pass header.from=<register@account.tiktok.com> (p=quarantine dis=none)
+Return-Path: <bounces+17096946-f42f-info=tomag.co.ke@em8618.account.tiktok.com>
+Received: from o14.ptr1445.account.tiktok.com (o14.ptr1445.account.tiktok.com [167.89.2.255]) by mx.zohomail.com
+	with SMTPS id 1750568857723891.6992775321919; Sat, 21 Jun 2025 22:07:37 -0700 (PDT)
+Received: by recvd-57475cd989-zrmdw with SMTP id recvd-57475cd989-zrmdw-1-68578F98-17
+	2025-06-22 05:07:36.92985491 +0000 UTC m=+1513364.449150137
+Received: from MTcwOTY5NDY (unknown)
+	by geopod-ismtpd-0 (SG) with HTTP
+	id RYmlRrYnTemz9B6iKXUNBg
+	Sun, 22 Jun 2025 05:07:36.920 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=account.tiktok.com;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:to:
+	cc:content-type:from:subject:to;
+	s=s1; bh=luFv1lmY+2ZMwUC4/EWk2Dbp1SMPvOJACUAm+DMHaT0=;
+	b=bORa/lwUXbsPdCwaplgZFgtfWD/F7vO13TUrKXDlT1XAfChbBCHc45yKTUdSm8nbeUaH
+	rlvzeP3/wQkiHsxc8wGmxCcDAJWrNoRbzbYDAbrld9Zu+ywRy6BUQu3fv9kDRU96piRDjx
+	S6wysi+ToBTjfRMmJBHKzlQn6uS0IWvvc+eyVDGnFupw4ENo5JCtCLKwn2DrS5RGxdQI1U
+	WWNc8/9RL+mpH411tqeXUjp+1TZOa4aPBC6v/ugPWX+D6tZ3w/A5RofOZrDwGVJIWyuLyA
+	1qrwvyYhKZdqxOZPkisleRU1Wd79djQSqkW767vJ9owfOGlzkS/Bqb0DybDve/3Q==
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Date: Sun, 22 Jun 2025 05:07:36 +0000 (UTC)
+From: TikTok <register@account.tiktok.com>
+Mime-Version: 1.0
+Message-ID:<482c65eb-dd44-4f73-a5fb-06cb984944dd.register@account.tiktok.com>
+Subject: 882411 is your code to log in to TikTok
+X-AliDM-Trace: eyJPcGVuVHJhY2UiOiIxIiwiVGFnTmFtZSI6Im9wZW50YWcifQ==
+X-SG-EID: =?us-ascii?Q?u001=2EVzB+Q880WB1eQNP87TUuPKjb81CTOAX=2FrGKhbr1nOOHQ4GeIm8fZtPyLD?=
+ =?us-ascii?Q?pYF9F0JKqZBFOvz7HBV1cHRkRYZYWE=2FeVonG006?=
+ =?us-ascii?Q?VmgTLHSpESRDkmXj6zK=2Fgz0AmQU28KZXwK8N=2FKP?=
+ =?us-ascii?Q?t5RNSvwpR5OD7tdVUPeZ5iQPybTafm7LC5ZHhf3?=
+ =?us-ascii?Q?UFNM1TWSZWrW=2FGiYbrLwEBW48PQQzGaBThB3O6U?=
+ =?us-ascii?Q?NUG4oEpoa0Pl075aOB5ooL9VYdYchdW6zTJY212?= =?us-ascii?Q?PNp2?=
+X-SG-ID: =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprCwCFE4V+wi854pf?=
+ =?us-ascii?Q?mhqyXfmoXEeFTKFh3lKiHW8oiinN=2FyCe5nHPpxq?=
+ =?us-ascii?Q?M9SyhUAVm1P600y56xUaUHkFgoe0tWBIvWGVFCn?=
+ =?us-ascii?Q?DFkxRcaKjLeLkbj5KA2IY1baYzSVFrkTdVmBJZC?=
+ =?us-ascii?Q?xV9KIkEjzV9S9SK97CFDpwlg5Zoz9BZcLM2XpVz?=
+ =?us-ascii?Q?q46qDkjEWLmvIWWd22Gk90=3D?=
+To: info@tomag.co.ke
+X-Entity-ID: u001.5VCLFcruLUy0Mzr323JDNg==
+X-ZohoMail-DKIM: pass (identity @account.tiktok.com)
+X-ZohoMail-Owner: <482c65eb-dd44-4f73-a5fb-06cb984944dd.register@account.tiktok.com>+zmo_0_bounces@em8618.account.tiktok.com
+X-ZM-MESSAGEID: 1750568858535131300
+X-ZohoMail-Status: 1
+
+
+<html class=3D"en" style=3D"margin: 0; font-family: TikTokFont,Arial,sans-s=
+erif,Roboto; box-sizing: border-box;">
+
+<head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+  <meta name=3D"viewport" content=3D"width-device-width,initial-scale=3D1.0=
+,maximum-scale=3D1.0, minimum-scale=3D1.0,user-scalable=3Dno, minimal-ui">
+    <meta name=3D"color-scheme" content=3D"light dark">
+  <style>
+    @media (prefers-color-scheme: light) {
+      div, p, #mask_email_link {
+        background-color: white;
+        color: black;
+      }
+      #code {
+        background-color: #F5F5F5;
+      }
+      #top-img {
+        background: url("https://sf16-sg.tiktokcdn.com/obj/eden-sg/lpeeh7uh=
+sh/tiktok-top.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 40px;
+        width: 40px;
+      }
+      #bottom-img {
+        background: url("https://sf16-sg.tiktokcdn.com/obj/eden-sg/lpeeh7uh=
+sh/tiktok-bottom.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 75px;
+        width: 18px;
+      }
+      #link {
+        color: rgba(255, 255, 255, 1.0);
+      }
+
+    }
+
+
+    @media (prefers-color-scheme: dark) {
+      div,p, #mask_email_link {
+        background-color: black;
+        color: white;
+      }
+      #code {
+        background-color: #1E1E1E;
+      }
+      #top-img {
+        background: url("https://sf16-sg.tiktokcdn.com/obj/eden-sg/lpeeh7uh=
+sh/tiktok-top.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 40px;
+        width: 40px;
+      }
+      #bottom-img {
+        background: url("https://sf16-sg.tiktokcdn.com/obj/eden-sg/lpeeh7uh=
+sh/tiktok-bottom.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 75px;
+        width: 18px;
+      }
+      #link {
+        color: rgba(255, 255, 255, 1.0);
+      }
+    }
+</style>
+</head>
+
+<body style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Roboto; =
+box-sizing: border-box; display: flex; justify-content: center;">
+  <div style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Roboto;=
+ box-sizing: border-box; width: 100%; padding: 0px 0px; max-width: 430px;">
+    <div style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Robot=
+o; box-sizing: border-box; width: 100%; padding: 0px 0px;">
+      <img style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Rob=
+oto; box-sizing: border-box; width: 100%;" src=3D"https://sf16-sg.tiktokcdn=
+.com/obj/eden-sg/lpeeh7uhsh/Group.png">
+    </div>
+    <div style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Robot=
+o; box-sizing: border-box; width: 100%; padding: 0px 7px; margin-top:32px;"=
+>
+      <img id=3D"top-img" alt=3D"Icon Frame" style=3D"font-family: TikTokFo=
+nt,Arial,sans-serif,Roboto; box-sizing: border-box; display: block; margin:=
+ auto; width: 40px; height: 40px;" src=3D"https://sf16-sg.tiktokcdn.com/obj=
+/eden-sg/lpeeh7uhsh/tiktok-top.png" width=3D"40" height=3D"40">
+    </div>
+    <div style=3D"margin-top: 12px; font-family: TikTokFont,Arial,sans-seri=
+f,Roboto; box-sizing: border-box; text-align: center; font-weight: bold; fo=
+nt-size: 32px; line-height: 38px;">
+      Finish logging in
+    </div>
+
+    <div style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Robot=
+o; box-sizing: border-box; max-width: 100%; padding: 12px 16px; font-size: =
+16px; color: rgba(0, 0, 0, 1); line-height: 20px; text-align: center;">
+      <p style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Robot=
+o; box-sizing: border-box; margin-bottom: 0px;">Click the link or enter the=
+ code <b style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Robot=
+o; box-sizing: border-box;"><label id=3D"code" style=3D"margin: 0; font-fam=
+ily: TikTokFont,Arial,sans-serif,Roboto; box-sizing: border-box;">882411</l=
+abel></b></p>
+      <p style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Robot=
+o; box-sizing: border-box; margin-bottom: 20px;"><a id=3D"mask_email_link" =
+style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Roboto; box-si=
+zing: border-box; background-color: transparent; outline: none; cursor: poi=
+nter; text-decoration: none;" name=3D"masked-email">This will automatically=
+ log you in and confirm your email for TikTok.</a></p>
+
+      <a id=3D"link"=20
+            href=3D"https://www.tiktok.com/ucenter_web/deeplink/email_verif=
+ication?SHORTCUT_NEED_LOGIN=3DSHORTCUT_NEED_LOGIN_NO&amp;aid=3D1233&amp;cod=
+e=3Ddd3776bf-aecf-474d-af60-2f146c439682&amp;email=3Dinfo%40tomag.co.ke&amp=
+;language=3Den&amp;locale=3Den&amp;type=3D13"=20
+            style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Ro=
+boto; font-weight: bold;  box-sizing: border-box; text-decoration: none;  o=
+utline: none; cursor: pointer; color: rgba(255, 255, 255, 1);" name=3D"link=
+">
+        <div style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,R=
+oboto; box-sizing: border-box; background-color: #FE2C55; border-radius: 8p=
+x; text-align: center; height: 44px; line-height: 44px; margin-left: 43px; =
+margin-right: 43px; color: rgba(255, 255, 255, 1);">
+
+            Log in
+        </div>
+      </a>
+      <p style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Robot=
+o; box-sizing: border-box; margin-top: 16px; margin-bottom: 32px;"><label s=
+tyle=3D"color:#707070">The link is valid for  </label> <label style=3D"marg=
+in: 0; font-family: TikTokFont,Arial,sans-serif,Roboto; box-sizing: border-=
+box;"><b style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Robot=
+o; box-sizing: border-box;">20 minutes</b></label><label style=3D"color:#70=
+7070"></label> </p>
+    </div>
+   =20
+    <div style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Robot=
+o; box-sizing: border-box; width: 100%; padding: 20px 0px;">
+      <img id=3D"bottom-img" style=3D"font-family: TikTokFont,Arial,sans-se=
+rif,Roboto; box-sizing: border-box; display: block; margin: auto; width: 75=
+px; height: 18px;" src=3D"https://sf16-sg.tiktokcdn.com/obj/eden-sg/lpeeh7u=
+hsh/tiktok-bottom.png" width=3D"75" height=3D"18">
+    </div>
+
+
+    <div style=3D"font-family: TikTokFont,Arial,sans-serif,Roboto; box-sizi=
+ng: border-box; color: rgba(22, 24, 35, 0.5); margin: 0px 16px 20px 16px; f=
+ont-size: 12px; line-height: 16px; text-align: center;">
+      <div id=3D"footer-username" style=3D"margin: 0; font-family: TikTokFo=
+nt,Arial,sans-serif,Roboto; box-sizing: border-box; color:#ADADAD;">
+        This email was generated for tomag.ke.
+      </div>
+      <div style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Rob=
+oto; box-sizing: border-box;">
+          <b><a id=3D"privacy-policy" style=3D"margin: 0; font-family: TikT=
+okFont,Arial,sans-serif,Roboto; box-sizing: border-box; background-color: t=
+ransparent; outline: none; cursor: pointer; text-decoration:none; color:#70=
+7070;" name=3D"privacy-policy" href=3D"https://www.tiktok.com/en/privacy-po=
+licy?lang=3Den">Privacy Policy</a> =E2=8B=85 <a id=3D"privacy-policy" style=
+=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Roboto; box-sizing:=
+ border-box; background-color: transparent; outline: none; cursor: pointer;=
+ text-decoration:none; color:#707070;" name=3D"privacy-policy" href=3D"http=
+s://support.tiktok.com/en">Help Center</a></b>
+      </div>
+      <div style=3D"margin: 0; font-family: TikTokFont,Arial,sans-serif,Rob=
+oto; box-sizing: border-box;">
+        <a id=3D"footer-address" style=3D"margin: 0; font-family: TikTokFon=
+t,Arial,sans-serif,Roboto; box-sizing: border-box; background-color: transp=
+arent; outline: none; cursor: pointer; text-decoration: none; color:#ADADAD=
+;">
+      TikTok 5800 Bristol Pkwy, Culver City, CA 90230
+        </a>
+      </div>
+    </div>
+
+  </div>
+ =20
+<img src=3D"http://url7709.account.tiktok.com/wf/open?upn=3Du001.L3MXpWp5zp=
+7KEVf9Z1MQT5e02dqexPdQt77Dav-2B4TTeeVuD3WGZBEWHTp7D7SEku99jrhcFi3zGbPuAZxFL=
+FvDMk-2BkQQZeUdAyq3d4AqQCLeyB27nkcWNF-2Ff9p4W3blZwM0w4eW86HyQCguL09IwByvSCZ=
+Rfm7wP8ncm7BosM5RuKK34H8KqGwMOW-2FE5-2Fl60m-2FT9BtztE1iy8qbwPIcjBbIbYdeYUIe=
+2VeIvCK30k-2B-2FtrpTvVyKIM7rPNcotRhUAQ6uwU-2FMddUzXtz6vPbqJ61z2NzL27yEB-2BI=
+bjTQFKOhg5fjuTOkCPNh4Fek-2FrQyDO8LU1QD1nN7Uh4bYWasmXMGaZCAH2pJv0i4nQPT1GjOr=
+YHzC85nj-2FokKp0AJhEPv65CYc5Gd5DHCIDrzf0hwrBg-3D-3D" alt=3D"" width=3D"1" h=
+eight=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !importan=
+t;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !import=
+ant;margin-right:0 !important;margin-left:0 !important;padding-top:0 !impor=
+tant;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 =
+!important;"/></body>
+</html>

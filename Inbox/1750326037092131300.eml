@@ -1,0 +1,934 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of newsletter.edibon.com designates 82.199.156.96 as permitted sender) client-ip=82.199.156.96; envelope-from=b-w875mgm0fmdy2r-mqqbq63lorrakw@newsletter.edibon.com; helo=mail-cr.s156.mailrelay-iv.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=edibon-africa@edibon-africa.com;
+	spf=pass (zohomail.com: domain of newsletter.edibon.com designates 82.199.156.96 as permitted sender)  smtp.mailfrom=b-w875mgm0fmdy2r-mqqbq63lorrakw@newsletter.edibon.com;
+	dmarc=pass(p=none dis=none)  header.from=edibon-africa.com
+ARC-Seal: i=1; a=rsa-sha256; t=1750326035; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=SNiBdv00LYfebXmdDXGDWQIALr0XT8jVsJEKXbbIYu1OZAtDasQ1m4NqmeHDPQf5Ek3vkjsC5PjhE9U074sWq736hrrPNMAK3+oEf2HsUDa8FEnUxdvCNnNSV7SuEdFh5brIyTuoNuSkDu6+bhWtD9QebZAc+Ef1G65Zis8R2F4=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1750326035; h=Content-Type:Content-Transfer-Encoding:Date:Date:From:From:List-Unsubscribe:MIME-Version:Message-ID:Subject:Subject:To:To:Message-Id:Reply-To:Cc; 
+	bh=/jJoLnuVKApRVBKFxP8WDXaBKjXn3h3FS4++3g0h+Us=; 
+	b=gl7f+yLRyY98M4OIdAPqr30J6UnzNiaqMyorpIaPr1hF89B+HKjqXoWKZbUv3xkwfMSEuxBaetdHzp7SxFkUsBATPjeqNrMDoX/msaL0Q3K6tLxFCvxhZPK8cjpx/viNZ/lDq2EfVT1mb7Ygv2lcD5ddbinXfBpKttEpZ4C0xTU=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass  header.i=edibon-africa@edibon-africa.com;
+	spf=pass (zohomail.com: domain of newsletter.edibon.com designates 82.199.156.96 as permitted sender)  smtp.mailfrom=b-w875mgm0fmdy2r-mqqbq63lorrakw@newsletter.edibon.com;
+	dmarc=pass header.from=<edibon-africa@edibon-africa.com> (p=none dis=none)
+Received: from mail-cr.s156.mailrelay-iv.com (mail-cr.s156.mailrelay-iv.com [82.199.156.96]) by mx.zohomail.com
+	with SMTPS id 1750326035965368.2762586771804; Thu, 19 Jun 2025 02:40:35 -0700 (PDT)
+Return-Path: <b-w875mgm0fmdy2r-mqqbq63lorrakw@newsletter.edibon.com>
+Return-Path: <b-w875mgm0fmdy2r-mqqbq63lorrakw@newsletter.edibon.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=ipz; d=edibon-africa.com;
+ h=From:To:Message-ID:Subject:MIME-Version:Content-Type:
+ Content-Transfer-Encoding:List-Unsubscribe:List-Unsubscribe-Post:Date;
+ i=edibon-africa@edibon-africa.com;
+ bh=/jJoLnuVKApRVBKFxP8WDXaBKjXn3h3FS4++3g0h+Us=;
+ b=WTzoZ7J93gtzfQd5zuKn13zaZR3ijvYr27WoJixHE5dxGgTtcYO4msBc4p1frZW67u7bJrChlv2n
+   Gsx0HOMCn4zbVCCE9h+QKTIOeWrr2Qo3nA9ZM5DYHgUKJCgeiCcZ4lIDjckEtlUkt04ffEP/bxQJ
+   bKoduBvAjQBDoW5L3iH1zF3s8nyomUas3b/m0YyrfXNzaakIMjGkGWHtsFDD0TuoNH3mrGSLAxcQ
+   GXEQ0EQw42NUjVQBbmiKg2S6DSL1XlH8cZL+ltPvMR05IL5X2PDZCA4NvkobrIyLo2OONC37p1iB
+   K8ha8PvzQNIdGLujUSI7gSQqDGAskUuHFhuM1A==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=ipzs1; d=mrelayip.com;
+ h=From:To:Message-ID:Subject:MIME-Version:Content-Type:
+ Content-Transfer-Encoding:List-Unsubscribe:List-Unsubscribe-Post:Date;
+ bh=/jJoLnuVKApRVBKFxP8WDXaBKjXn3h3FS4++3g0h+Us=;
+ b=YcbG9MpWeuPz5LWd6HQJhhB3BzwYV/d52JWrsxOxY3SRfjaA3e6Ei5YrOJVLlOveBP65NhopmcHo
+   aW3Q2LT7y0H7PvHSHLHmRlvj83u6oLTCP4S8ltgPlMMcjIbjzbOGP5XVR/Mtx6lxHYDR9FXJkF1J
+   VZ+q9kS4SyDBY8MvkZC1CoqkehHTCnuzDlpqDBsjObDbCsj4140jNJGExzW5EMIl/LmTG30K8On0
+   MBVnAhlhw6Y+VjIDbxDQp/ff773H7GQ0t0A+CRlpkWOpQJkWNUP8vuiBbOmjSUx240BmEnk4g/67
+   8/FDWt5hU/nBa46L1wWg5rDnDz9VFQmBt4sHgg==
+From: EDIBON-AFRICA <edibon-africa@edibon-africa.com>
+To: info@tomag.co.ke
+Message-ID:<1_JrpkEzHnYVj@newsletter.edibon.com>
+Subject: EDIBON Didactic Equipment vs. Industrial Systems
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_6853db1260b0_17cfd15c670174ba";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-SEID: 1_JrpkEzHnYVj
+List-Unsubscribe: <mailto:w875mgm0fmdy2r-mqqbq63lorrakw@newsletter.edibon.com>,
+ <https://newsletter.edibon.com/unsubscribe/xem5o5g/list_unsubscribe?token=nkjlnmjz&unsubscribe_token=mqqbq63lorrakw>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: 117093:117093-3446:campaign:IPZMR
+Date: Thu, 19 Jun 2025 09:40:35 +0000
+X-ZohoMail-DKIM: pass (identity edibon-africa@edibon-africa.com)
+X-ZohoMail-Owner: <1_JrpkEzHnYVj@newsletter.edibon.com>+zmo_1_b-w875mgm0fmdy2r-mqqbq63lorrakw@newsletter.edibon.com
+X-ZM-MESSAGEID: 1750326037092131300
+X-ZohoMail-Status: 0
+
+
+
+----==_mimepart_6853db1260b0_17cfd15c670174ba
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Having trouble reading this email? View it in your browser
+( https://newsletter.edibon.com/web_version/xem5o5g/nkjlnmjz ).
+Not interested anymore? Unsubscribe =
+
+( https://newsletter.edibon.com/unsubscribe/xem5o5g/form?token=3Dnkjlnmjz=
+ )
+
+
+edibon-cabecera =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/617u_6pj43y )
+
+June 2025
+
+Why choose didactic equipment for technical training?
+
+At EDIBON =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/koiuolja1vk ),
+we have been designing and manufacturing high-quality teaching
+solutions for engineering and technical training for over 40
+years. Our technology, 100% developed in Spain, is present in
+universities, training centers, and laboratories all over the
+world.
+
+But what makes our equipment different? Here=E2=80=99s why EDIBON =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/dmcpit7fnmk )=E2=80=99=
+s
+didactic units are the best choice compared to industrial systems
+when it comes to learning, experimenting, and understanding.
+
+=E2=9C=85 Advantages of EDIBON =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/mwg_f6i0tz0 )=E2=80=99=
+s
+Didactic Equipment
+
+=F0=9F=94=8D Designed for Teaching
+Our units are specifically designed to explain technical
+concepts clearly. They include transparent components, visible
+diagrams, informative labels, and open structures that make it
+easy to observe internal processes. If you can't see it, you
+can't understand it!
+
+=F0=9F=9B=A1=EF=B8=8F Enhanced Safety
+Our systems are made for students with no prior experience.
+They include electrical and mechanical protections, low voltage
+systems, and controlled pressures to ensure a completely safe
+learning environment.
+
+=E2=9A=99=EF=B8=8F Ease of Use and Maintenance
+Thanks to intuitive interfaces and simple configurations,
+students can focus on understanding technical principles without
+complications. Frequent adjustments can be made without risk of
+damaging the equipment.
+
+=F0=9F=93=9A Curriculum Integration
+Our equipment is designed to fit educational programs. It
+includes detailed manuals, lab guides, interactive software, and
+optional modules that support complete learning=E2=80=94from basics to
+advanced levels.
+
+=F0=9F=9A=9B Compact and Portable
+Many of our units are compact and space-saving, making them
+ideal for standard classrooms or mobile labs. They are easy to
+transport, set up, and store.
+
+=F0=9F=A7=B0 Fault Simulation Capabilities
+Some EDIBON systems allow students to simulate malfunctions
+or breakdowns, so they can practice troubleshooting and
+diagnostics in a safe, controlled environment.
+
+=F0=9F=94=84 Comparison: Didactic vs. Industrial Equipment
+
+Aspect
+EDIBON =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/rfo3ugnix9c )
+Didactic Equipment
+Industrial Equipment
+
+Main Purpose
+Teaching and training
+Continuous production & operation
+
+Complexity
+Moderate, focused on learning
+High, depending on the process
+
+Safety
+Very high, suitable for beginners
+Requires specialized training
+
+Cost
+More affordable
+Significant investment
+
+Maintenance
+Simple and didactic
+Technical, specialized, and costly
+
+At EDIBON =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/r2un95xckxg ),
+we believe in effective, safe technical education aligned with
+real industrial practices. That=E2=80=99s why our equipment not only
+replicates real processes but also makes them accessible and easy
+to understand for all training levels.
+
+=F0=9F=94=97 Want to know more about our solutions?
+Visit us at www.edibon.com =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/gixj5dqha2k ) or
+email us at edibon@edibon.com ( edibon@edibon.com )
+
+Aleksandra Piwonska
+
+(Asistente de Direcci=C3=B3n)
+
+EDIBON International, S.A.
+
+C/ Julio Cervera 10.
+
+Parque Tecnol=C3=B3gico de M=C3=B3stoles.
+
+M=C3=B3stoles 28935. Madrid, Spain
+
+Tel: (+34) 91 619 93 63 ( tel:+34%20916%2019%2093%2063
+)
+
+WhatsApp: =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/kmaptgvpe5y )+34
+673 428 882 =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/blprkyq0sxy )
+
+www.edibon.com =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/4bjhkaeitrw )
+edibon@edibon.com
+
+Facebook Edibon =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/ee_qjurftta )
+ Twitter Edibon =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/qb5brozmngi )
+ Linkedin Edibon =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/x5jxked1-b8 )
+ Youtube Edibon =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/cojfl11y2by )
+
+=F0=9F=8C=90 Join us on Telegram =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/xguxixnzdbe )
+and WhatsApp =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/shjqtz10dky )
+for real-time updates, exclusive content, and a direct line to
+EDIBON news and announcements.
+
+Not interested anymore? Unsubscribe Instantly =
+
+( https://newsletter.edibon.com/unsubscribe/xem5o5g/form?token=3Dnkjlnmjz=
+ )
+
+
+EDIBON will process your data to send you commercial
+communications of interest to you. EDIBON has no plans to
+transfer your data. The legitimate basis for processing is your
+consent, the contractual compliance and the legitimate interest.
+
+You may exercise the right of access, rectification,
+erasure, objection, restriction to processing and portability by
+email to the address legal@edibon.com or by mail to C / Julio
+Cervera 10; Parque Tecnol=C3=B3gico de M=C3=B3stoles. M=C3=B3stoles 28935=
+.
+Madrid. Espa=C3=B1a. Read our privacy policy =
+
+( https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/7zs4znfispe )
+for more information. Click here Unsubscribe Instantly =
+
+( https://newsletter.edibon.com/unsubscribe/xem5o5g/form?token=3Dnkjlnmjz=
+ )
+ to unsubscribe from our mailing list.
+
+If you want to print this email please think if you
+need to do it.=
+
+----==_mimepart_6853db1260b0_17cfd15c670174ba
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+	<title>EDIBON Didactic Equipment vs. Industrial Systems</title>
+	<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type"=
+>
+	=
+
+<style>body {
+margin: 0px; padding: 0px; width: 100%;
+}
+</style>
+</head>
+<body style=3D"width: 100%; margin: 0px; padding: 0px;">
+<table align=3D"center" bgcolor=3D"#f1f8fc" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" style=3D"margin: 0px; padding: 0px;" width=3D"100%">
+	<tbody>
+		<tr>
+			<td style=3D"" align=3D"center">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"600">
+				<tbody>
+					<tr>
+						<td height=3D"20" valign=3D"top"><span style=3D"font-size: 11px;"><=
+span style=3D"font-family: arial, helvetica, sans-serif; color: rgb(105, =
+105, 105);">Having trouble reading this email? </span><strong style=3D"fo=
+nt-family: arial, helvetica, sans-serif;"><a href=3D"https://newsletter.e=
+dibon.com/web_version/xem5o5g/nkjlnmjz" style=3D"color: rgb(136, 136, 136=
+); text-decoration: underline;"><span style=3D"color: #696969;">View it i=
+n your browser</span></a></strong><span style=3D"color: rgb(105, 105, 105=
+);"><font face=3D"arial, helvetica, sans-serif">. Not interested anymore?=
+ </font></span><span style=3D"font-family: Arial,Helvetica,sans-serif;"><=
+a href=3D"https://newsletter.edibon.com/unsubscribe/xem5o5g/form?token=3D=
+nkjlnmjz">Unsubscribe</a></span></span></td>
+					</tr>
+					<tr>
+						<td align=3D"left" height=3D"20" valign=3D"top"><a href=3D"https://=
+newsletter.edibon.com/c/xem5o5g/nkjlnmjz/617u_6pj43y"><img alt=3D"edibon-=
+cabecera" src=3D"http://edibon.ip-zone.com/mailing-manager/domains/news_e=
+diboninternational_com/files/img//cabecera-plantilla-edibon.jpg" style=3D=
+"display: block; width: 600px; height: 123px;" width=3D"600" height=3D"12=
+3"></a></td>
+					</tr>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#ffffff" style=3D"font-family: Arial,=
+ Helvetica, sans-serif; font-size: 12px; padding: 0 100px;" valign=3D"top=
+"><em><span style=3D"font-size: 12px;"><span style=3D"color: #808080;"><s=
+pan style=3D"font-family: arial,helvetica,sans-serif;">June 2025</span></=
+span></span></em></td>
+					</tr>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#ffffff" style=3D"font-family: Arial,=
+ Helvetica, sans-serif; padding: 0px 100px;" valign=3D"top">
+						<p style=3D"font-size: 20px; font-weight: bold;">=C2=A0</p>
+
+						<p data-end=3D"192" data-start=3D"133" style=3D"" align=3D"justify"=
+><span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helve=
+tica,sans-serif;"><strong data-end=3D"190" data-start=3D"133">Why choose =
+didactic equipment for technical training?</strong></span></span></p>
+
+						<p data-end=3D"463" data-start=3D"194" style=3D"" align=3D"justify"=
+><span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helve=
+tica,sans-serif;">At <a href=3D"https://newsletter.edibon.com/c/xem5o5g/n=
+kjlnmjz/koiuolja1vk"><span style=3D"color: #ce0e2d;"><strong data-end=3D"=
+207" data-start=3D"197">EDIBON</strong></span></a>, we have been designin=
+g and manufacturing high-quality teaching solutions for engineering and t=
+echnical training for over 40 years. Our technology, 100% developed in Sp=
+ain, is present in universities, training centers, and laboratories all o=
+ver the world.</span></span></p>
+
+						<p data-end=3D"655" data-start=3D"465" style=3D"" align=3D"justify"=
+><span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helve=
+tica,sans-serif;">But what makes our equipment different? <strong><span s=
+tyle=3D"color: #007cb0;">Here=E2=80=99s why </span><a href=3D"https://new=
+sletter.edibon.com/c/xem5o5g/nkjlnmjz/dmcpit7fnmk"><span style=3D"color: =
+#ce0e2d;">EDIBON</span></a><span style=3D"color: #ce0e2d;">=E2=80=99</spa=
+n><span style=3D"color: #007cb0;">s didactic units are the best choice co=
+mpared to industrial systems</span></strong> when it comes to <span style=
+=3D"color: #ce0e2d;"><strong data-end=3D"654" data-start=3D"608">learning=
+, experimenting, and understanding</strong>.</span></span></span><br>
+						<br>
+						<a href=3D"https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/1iqbivz=
+6do8"><img alt=3D"" src=3D"https://newsletter.edibon.com/data/90d7a3a4ac6=
+99d3145e3dbd3412ce7698546610d/media_files/1611/original/OMAN_2.jpg" style=
+=3D"width: 420px; height: 336px;" width=3D"420" height=3D"336"></a></p>
+
+						<hr data-end=3D"660" data-start=3D"657">
+						<p data-end=3D"709" data-start=3D"662" style=3D"" align=3D"justify"=
+><span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helve=
+tica,sans-serif;">=E2=9C=85 <strong data-end=3D"709" data-start=3D"664">A=
+dvantages of <a href=3D"https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/=
+mwg_f6i0tz0"><span style=3D"color: #ce0e2d;">EDIBON</span></a>=E2=80=99s =
+Didactic Equipment</strong></span></span></p>
+
+						<p data-end=3D"1006" data-start=3D"711" style=3D"" align=3D"justify=
+"><span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helv=
+etica,sans-serif;">=F0=9F=94=8D <strong data-end=3D"739" data-start=3D"71=
+4">Designed for <span style=3D"color: #007cb0;">Teaching</span></strong><=
+br data-end=3D"742" data-start=3D"739">
+						Our units are specifically designed to explain technical concepts c=
+learly. They include transparent components, visible diagrams, informativ=
+e labels, and open structures that make it easy to observe internal proce=
+sses. If you can't see it, you can't understand it!</span></span></p>
+
+						<p data-end=3D"1241" data-start=3D"1008" style=3D"" align=3D"justif=
+y"><span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Hel=
+vetica,sans-serif;">=F0=9F=9B=A1=EF=B8=8F <strong data-end=3D"1031" data-=
+start=3D"1012">Enhanced <span style=3D"color: #007cb0;">Safety</span></st=
+rong><br data-end=3D"1034" data-start=3D"1031">
+						Our systems are made for students with no prior experience. They in=
+clude electrical and mechanical protections, low voltage systems, and con=
+trolled pressures to ensure a completely safe learning environment.</span=
+></span></p>
+
+						<p data-end=3D"1490" data-start=3D"1243" style=3D"" align=3D"justif=
+y"><span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Hel=
+vetica,sans-serif;">=E2=9A=99=EF=B8=8F <strong data-end=3D"1277" data-sta=
+rt=3D"1246"><span style=3D"color: #007cb0;">Ease of Use</span> and Mainte=
+nance</strong><br data-end=3D"1280" data-start=3D"1277">
+						Thanks to intuitive interfaces and simple configurations, students =
+can focus on understanding technical principles without complications. Fr=
+equent adjustments can be made without risk of damaging the equipment.</s=
+pan></span></p>
+
+						<p data-end=3D"1726" data-start=3D"1492" style=3D"" align=3D"justif=
+y"><span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Hel=
+vetica,sans-serif;">=F0=9F=93=9A <strong data-end=3D"1521" data-start=3D"=
+1495"><span style=3D"color: #007cb0;">Curriculum</span> Integration</stro=
+ng><br data-end=3D"1524" data-start=3D"1521">
+						Our equipment is designed to fit educational programs. It includes =
+detailed manuals, lab guides, interactive software, and optional modules =
+that support complete learning=E2=80=94from basics to advanced levels.</s=
+pan></span></p>
+
+						<p data-end=3D"1910" data-start=3D"1728" style=3D"" align=3D"justif=
+y"><span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Hel=
+vetica,sans-serif;">=F0=9F=9A=9B <strong data-end=3D"1755" data-start=3D"=
+1731"><span style=3D"color: #007cb0;">Compact</span> and Portable</strong=
+><br data-end=3D"1758" data-start=3D"1755">
+						Many of our units are compact and space-saving, making them ideal f=
+or standard classrooms or mobile labs. They are easy to transport, set up=
+, and store.</span></span></p>
+
+						<p data-end=3D"2113" data-start=3D"1912" style=3D"" align=3D"justif=
+y"><span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Hel=
+vetica,sans-serif;">=F0=9F=A7=B0 <strong data-end=3D"1948" data-start=3D"=
+1915"><span style=3D"color: #007cb0;">Fault Simulation</span> Capabilitie=
+s</strong><br data-end=3D"1951" data-start=3D"1948">
+						Some EDIBON systems allow students to simulate malfunctions or brea=
+kdowns, so they can practice troubleshooting and diagnostics in a safe, c=
+ontrolled environment.</span></span></p>
+
+						<hr data-end=3D"2118" data-start=3D"2115">
+						<p data-end=3D"2172" data-start=3D"2120"><span style=3D"font-size: =
+14px;"><span style=3D"font-family: Arial,Helvetica,sans-serif;">=F0=9F=94=
+=84 <strong data-end=3D"2172" data-start=3D"2123">Comparison: Didactic vs=
+. Industrial Equipment</strong></span></span></p>
+
+						<div class=3D"_tableContainer_16hzy_1">
+						<div class=3D"_tableWrapper_16hzy_14 group flex w-fit flex-col-reve=
+rse" tabindex=3D"-1">
+						<table class=3D"w-fit min-w-(--thread-content-width)" data-end=3D"2=
+848" data-start=3D"2174">
+							<thead data-end=3D"2270" data-start=3D"2174">
+								<tr data-end=3D"2270" data-start=3D"2174">
+									<th data-col-size=3D"sm" data-end=3D"2200" data-start=3D"2174"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;">Aspect</span></span></th>
+									<th data-col-size=3D"sm" data-end=3D"2235" data-start=3D"2200"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;"><a href=3D"https://newsletter.edibon.com/c/xem5o5g/nkjlnm=
+jz/rfo3ugnix9c"><span style=3D"color: #ce0e2d;">EDIBON</span></a> Didacti=
+c Equipment</span></span></th>
+									<th data-col-size=3D"sm" data-end=3D"2270" data-start=3D"2235"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;">Industrial Equipment</span></span></th>
+								</tr>
+							</thead>
+							<tbody data-end=3D"2848" data-start=3D"2367">
+								<tr data-end=3D"2464" data-start=3D"2367">
+									<td data-col-size=3D"sm" data-end=3D"2392" data-start=3D"2367"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;"><strong data-end=3D"2385" data-start=3D"2369">Main Purpos=
+e</strong></span></span></td>
+									<td data-col-size=3D"sm" data-end=3D"2427" data-start=3D"2392"><=
+strong><span style=3D"color: #007cb0;"><span style=3D"font-size: 14px;"><=
+span style=3D"font-family: Arial,Helvetica,sans-serif;">Teaching and trai=
+ning</span></span></span></strong></td>
+									<td data-col-size=3D"sm" data-end=3D"2464" data-start=3D"2427"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;">Continuous production &amp; operation</span></span></td>
+								</tr>
+								<tr data-end=3D"2559" data-start=3D"2465">
+									<td data-col-size=3D"sm" data-end=3D"2490" data-start=3D"2465"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;"><strong data-end=3D"2481" data-start=3D"2467">Complexity<=
+/strong></span></span></td>
+									<td data-col-size=3D"sm" data-end=3D"2525" data-start=3D"2490"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;">Moderate, <strong><span style=3D"color: #007cb0;">focused=
+ on learning</span></strong></span></span></td>
+									<td data-col-size=3D"sm" data-end=3D"2559" data-start=3D"2525"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;">High, depending on the process</span></span></td>
+								</tr>
+								<tr data-end=3D"2654" data-start=3D"2560">
+									<td data-col-size=3D"sm" data-end=3D"2585" data-start=3D"2560"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;"><strong data-end=3D"2572" data-start=3D"2562">Safety</str=
+ong></span></span></td>
+									<td data-col-size=3D"sm" data-end=3D"2620" data-start=3D"2585"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;">Very high, <strong><span style=3D"color: #007cb0;">suitab=
+le for beginners</span></strong></span></span></td>
+									<td data-col-size=3D"sm" data-end=3D"2654" data-start=3D"2620"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;">Requires specialized training</span></span></td>
+								</tr>
+								<tr data-end=3D"2749" data-start=3D"2655">
+									<td data-col-size=3D"sm" data-end=3D"2680" data-start=3D"2655"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;"><strong data-end=3D"2665" data-start=3D"2657">Cost</stron=
+g></span></span></td>
+									<td data-col-size=3D"sm" data-end=3D"2715" data-start=3D"2680"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;">More <strong><span style=3D"color: #007cb0;">affordable</=
+span></strong></span></span></td>
+									<td data-col-size=3D"sm" data-end=3D"2749" data-start=3D"2715"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;">Significant investment</span></span></td>
+								</tr>
+								<tr data-end=3D"2848" data-start=3D"2750">
+									<td data-col-size=3D"sm" data-end=3D"2775" data-start=3D"2750"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;"><strong data-end=3D"2767" data-start=3D"2752">Maintenance=
+</strong></span></span></td>
+									<td data-col-size=3D"sm" data-end=3D"2810" data-start=3D"2775"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;">Simple and <strong><span style=3D"color: #007cb0;">didact=
+ic</span></strong></span></span></td>
+									<td data-col-size=3D"sm" data-end=3D"2848" data-start=3D"2810"><=
+span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Helveti=
+ca,sans-serif;">Technical, specialized, and costly</span></span></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<div style=3D"" align=3D"justify">
+<br>
+						<span style=3D"font-size: 14px; text-align: center;">At </span><a h=
+ref=3D"https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/r2un95xckxg"><spa=
+n style=3D"color: #ce0e2d;"><strong data-end=3D"2868" data-start=3D"2858"=
+ style=3D"font-size: 14px; text-align: center;">EDIBON</strong></span></a=
+><span style=3D"font-size: 14px; text-align: center;">, we believe in eff=
+ective, safe technical education aligned with real industrial practices. =
+That=E2=80=99s why our equipment not only replicates real processes but a=
+lso makes them accessible and easy to understand for all training levels.=
+</span>
+</div>
+						</div>
+						</div>
+
+						<div style=3D"" align=3D"justify">=C2=A0</div>
+
+						<p data-end=3D"3260" data-start=3D"3100" style=3D"" align=3D"justif=
+y"><span style=3D"font-family: Arial,Helvetica,sans-serif;"><span style=3D=
+"font-size: 14px;">=F0=9F=94=97 <strong data-end=3D"3145" data-start=3D"3=
+103">Want to know more about our solutions?</strong><br data-end=3D"3148"=
+ data-start=3D"3145">
+						Visit us at <strong><a data-end=3D"3199" data-start=3D"3160" href=3D=
+"https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/gixj5dqha2k" rel=3D"noo=
+pener" target=3D"_new"><span style=3D"color: #ce0e2d;">www.edibon.com</sp=
+an></a></strong> or email us at <strong><a class=3D"cursor-pointer" data-=
+end=3D"3260" data-start=3D"3215" href=3D"mailto:edibon@edibon.com" rel=3D=
+"noopener"><span style=3D"color: #007cb0;">edibon@edibon.com</span></a></=
+strong></span></span></p>
+
+						<p data-end=3D"3260" data-start=3D"3100" style=3D"" align=3D"justif=
+y"><span style=3D"font-size: 14px;"><span style=3D"font-family: Arial,Hel=
+vetica,sans-serif;"><span lang=3D"EN-US" xml:lang=3D"EN-US">Aleksandra Pi=
+wonska<br>
+						(Asistente de Direcci=C3=B3n)</span></span></span></p>
+
+						<table align=3D"center" border=3D"0" cellpadding=3D"1" cellspacing=3D=
+"1" style=3D"font-size: 12px; width: 400px;">
+							<tbody>
+								<tr>
+									<td style=3D"" align=3D"left"><strong><font color=3D"#383838"><s=
+trong><font color=3D"#383838"><strong><font color=3D"#383838"><strong><fo=
+nt color=3D"#383838"><strong><font color=3D"#383838"><strong><strong><str=
+ong><strong><strong><strong><font color=3D"#383838"><font color=3D"#38383=
+8"><strong><font color=3D"#383838"><font color=3D"#383838"><strong><stron=
+g><strong><strong><font color=3D"#383838"><strong><font color=3D"#383838"=
+><strong><font color=3D"#383838"><strong><font color=3D"#0194DA"><strong>=
+<font color=3D"#0194DA"><strong><font color=3D"#0194DA"><strong><font col=
+or=3D"#0194DA"><font color=3D"#CE0E2D"><font color=3D"#CE0E2D"><span styl=
+e=3D"color: rgb(34, 34, 34); font-style: normal; font-variant-ligatures: =
+normal; font-variant-caps: normal; font-weight: 400; letter-spacing: norm=
+al; orphans: 2; text-align: start; text-indent: 0px; text-transform: none=
+; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-=
+width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: =
+initial; text-decoration-color: initial; font-size: 10.5pt; font-family: =
+Arial, sans-serif;"><a data-saferedirecturl=3D"https://www.google.com/url=
+?hl=3Des&amp;q=3Dhttp://news.ediboninternational.com/newslink/619795/12.h=
+tml&amp;source=3Dgmail&amp;ust=3D1521556071293000&amp;usg=3DAFQjCNGW9GeNh=
+bTpD2zlrqKnHHHNjGn3LA" href=3D"https://newsletter.edibon.com/c/xem5o5g/nk=
+jlnmjz/2zemexakimo" style=3D"color: rgb(17, 85, 204);" target=3D"_blank">=
+<img alt=3D"" src=3D"https://newsletter.edibon.com/data/90d7a3a4ac699d314=
+5e3dbd3412ce7698546610d/media_files/9/original/EDIBON_LOGO.png" style=3D"=
+width: 200px; height: 91px;" width=3D"200" height=3D"91"></a></span></fon=
+t></font></font></strong></font></strong></font></strong></font></strong>=
+</font></strong></font></strong></font></strong></strong></strong></stron=
+g></font></font></strong></font></font></strong></strong></strong></stron=
+g></strong></strong></font></strong></font></strong></font></strong></fon=
+t></strong></font></strong></td>
+									<td style=3D"" align=3D"left">
+<strong><font color=3D"#383838"><strong><font color=3D"#383838"><strong><=
+font color=3D"#383838"><strong><font color=3D"#383838"><strong><font colo=
+r=3D"#383838"><strong><strong><strong><strong><strong><strong><font color=
+=3D"#383838"><font color=3D"#383838"><strong><font color=3D"#383838"><fon=
+t color=3D"#383838"><strong><strong><strong><strong><font color=3D"#38383=
+8"><strong><font color=3D"#383838"><strong><font color=3D"#383838"><stron=
+g><font color=3D"#0194DA"><strong><font color=3D"#0194DA"><strong><font c=
+olor=3D"#0194DA"><strong><font color=3D"#0194DA"><font color=3D"#CE0E2D">=
+<font color=3D"#CE0E2D"><span style=3D"font-size: 12px;"><span style=3D"f=
+ont-family: arial,helvetica,sans-serif;"><strong style=3D"color: rgb(34, =
+34, 34); font-family: arial, sans-serif; font-size: 12.8px; font-style: n=
+ormal; font-variant-ligatures: normal; font-variant-caps: normal; letter-=
+spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-tr=
+ansform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit=
+-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decor=
+ation-style: initial; text-decoration-color: initial;"><span style=3D"col=
+or: #1c93d1;">E</span></strong></span><span style=3D"font-family: arial,h=
+elvetica,sans-serif;"><strong style=3D"color: rgb(34, 34, 34); font-famil=
+y: arial, sans-serif; font-size: 12.8px; font-style: normal; font-variant=
+-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; or=
+phans: 2; text-align: start; text-indent: 0px; text-transform: none; whit=
+e-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width:=
+ 0px; background-color: rgb(255, 255, 255); text-decoration-style: initia=
+l; text-decoration-color: initial;"><span style=3D"color: #1c93d1;">DI</s=
+pan></strong></span><span style=3D"font-family: arial,helvetica,sans-seri=
+f;"><strong style=3D"color: rgb(34, 34, 34); font-family: arial, sans-ser=
+if; font-size: 12.8px; font-style: normal; font-variant-ligatures: normal=
+; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-ali=
+gn: start; text-indent: 0px; text-transform: none; white-space: normal; w=
+idows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-c=
+olor: rgb(255, 255, 255); text-decoration-style: initial; text-decoration=
+-color: initial;"><span style=3D"color: #1c93d1;">BON International, S.A.=
+</span></strong></span></span> </font></font> </font></strong> </font></s=
+trong> </font></strong> </font></strong></font></strong></font></strong><=
+/font></strong></strong></strong></strong></font></font></strong></font><=
+/font></strong></strong></strong></strong></strong></strong></font></stro=
+ng></font></strong> </font></strong> </font></strong> </font></strong>
+									<div>
+<br>
+									<strong><font color=3D"#383838"><strong><font color=3D"#383838">=
+<strong><font color=3D"#383838"><strong><strong style=3D""><font style=3D=
+""><strong style=3D""><strong style=3D""><strong style=3D""><strong style=
+=3D""><strong style=3D""><strong style=3D""><font style=3D""><font style=3D=
+""><strong style=3D""><font style=3D""><font style=3D""><strong style=3D"=
+"><strong style=3D""><strong style=3D""><strong style=3D""><font style=3D=
+""><strong style=3D""><font style=3D""><strong style=3D""><font style=3D"=
+"><strong style=3D""><font style=3D""><strong style=3D""><font style=3D""=
+><strong style=3D""><font style=3D""><strong style=3D""><font style=3D"">=
+<font style=3D""><font style=3D""><span style=3D"font-size: 11px;"><span =
+style=3D"font-family: arial, helvetica, sans-serif;"><span style=3D"font-=
+style: normal; font-variant-ligatures: normal; font-variant-caps: normal;=
+ font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start;=
+ text-indent: 0px; text-transform: none; white-space: normal; widows: 2; =
+word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(=
+255, 255, 255); text-decoration-style: initial; text-decoration-color: in=
+itial;"><span style=3D"color: rgb(128, 128, 128);">C/ Julio Cervera 10.<b=
+r>
+									Parque Tecnol=C3=B3gico de M=C3=B3stoles.<br>
+									M=C3=B3stoles 28935. Madrid, Spain<br>
+									Tel:=C2=A0</span></span></span></span></font></font></font></str=
+ong></font></strong></font></strong></font></strong></font></strong></fon=
+t></strong></font></strong></strong></strong></strong></font></font></str=
+ong></font></font></strong></strong></strong></strong></strong></strong><=
+/font></strong></strong></font></strong></font></strong></font><strong><s=
+trong><strong><strong style=3D""><font style=3D""><strong style=3D""><str=
+ong style=3D""><strong style=3D""><strong style=3D""><strong style=3D""><=
+strong style=3D""><font style=3D""><font style=3D""><strong style=3D""><f=
+ont style=3D""><font style=3D""><strong style=3D""><strong style=3D""><st=
+rong style=3D""><strong style=3D""><font style=3D""><strong style=3D""><f=
+ont style=3D""><strong style=3D""><font style=3D""><strong style=3D""><fo=
+nt style=3D""><strong style=3D""><font style=3D""><strong style=3D""><fon=
+t style=3D""><strong style=3D""><font style=3D""><font style=3D""><font s=
+tyle=3D""><span style=3D"font-size: 11px;"><span style=3D"font-family: ar=
+ial, helvetica, sans-serif;"><span style=3D"font-style: normal; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; font-weight: 400; lette=
+r-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-=
+transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webk=
+it-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-dec=
+oration-style: initial; text-decoration-color: initial;"><a href=3D"tel:+=
+34%20916%2019%2093%2063" style=3D"color: rgb(17, 85, 204);" target=3D"_bl=
+ank" value=3D"+34916199363"><span style=3D"color: #007cb0;">(+34) 91 619 =
+93 63</span></a><span style=3D"color: #007cb0;">=C2=A0</span></span></spa=
+n></span></font></font></font></strong></font></strong></font></strong></=
+font></strong></font></strong></font></strong></font></strong></strong></=
+strong></strong></font></font></strong></font></font></strong></strong></=
+strong></strong></strong></strong></font></strong></strong></strong></str=
+ong><br>
+									<font color=3D"#383838"><strong><font color=3D"#383838"><strong>=
+<font color=3D"#383838"><strong><strong style=3D""><font style=3D""><stro=
+ng style=3D""><strong style=3D""><strong style=3D""><strong style=3D""><s=
+trong style=3D""><strong style=3D""><font style=3D""><font style=3D""><st=
+rong style=3D""><font style=3D""><font style=3D""><strong style=3D""><str=
+ong style=3D""><strong style=3D""><strong style=3D""><font style=3D""><st=
+rong style=3D""><font style=3D""><strong style=3D""><font style=3D""><str=
+ong style=3D""><font style=3D""><strong style=3D""><font style=3D""><stro=
+ng style=3D""><font style=3D""><strong style=3D""><font style=3D""><font =
+style=3D""><font style=3D""><span style=3D"font-size: 11px;"><span style=3D=
+"font-family: arial, helvetica, sans-serif;"><span style=3D"font-style: n=
+ormal; font-variant-ligatures: normal; font-variant-caps: normal; font-we=
+ight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-in=
+dent: 0px; text-transform: none; white-space: normal; widows: 2; word-spa=
+cing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255=
+, 255); text-decoration-style: initial; text-decoration-color: initial;">=
+<font color=3D"#808080">WhatsApp:<a href=3D"https://newsletter.edibon.com=
+/c/xem5o5g/nkjlnmjz/kmaptgvpe5y">=C2=A0</a></font></span></span></span></=
+font></font></font></strong></font></strong></font></strong></font></stro=
+ng></font></strong></font></strong></font></strong></strong></strong></st=
+rong></font></font></strong></font></font></strong></strong></strong></st=
+rong></strong></strong></font></strong></strong></font></strong></font></=
+strong></font></strong><strong><span style=3D"font-size: 11px;"><span sty=
+le=3D"font-family: Arial,Helvetica,sans-serif;"><strong><strong><strong><=
+strong style=3D""><font style=3D""><strong style=3D""><strong style=3D"">=
+<strong style=3D""><strong style=3D""><strong style=3D""><strong style=3D=
+""><font style=3D""><font style=3D""><strong style=3D""><font style=3D"">=
+<font style=3D""><strong style=3D""><strong style=3D""><strong style=3D""=
+><strong style=3D""><font style=3D""><strong style=3D""><font style=3D"">=
+<strong style=3D""><font style=3D""><strong style=3D""><font style=3D""><=
+strong style=3D""><font style=3D""><strong style=3D""><font style=3D""><s=
+trong style=3D""><font style=3D""><font style=3D""><font style=3D""><a hr=
+ef=3D"https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/blprkyq0sxy"><span=
+ style=3D"color: #007cb0;"><span style=3D"font-style: normal; text-align:=
+ start;"><span style=3D"font-variant-ligatures: normal;"><span style=3D"f=
+ont-weight: 400;"><span style=3D"white-space: normal;"><span style=3D"bac=
+kground-color: #ffffff;"><span style=3D"text-decoration-style: initial;">=
+<span style=3D"text-decoration-color: initial;">+34 673=C2=A0428 882</spa=
+n></span></span></span></span></span></span></span></a></font></font></fo=
+nt></strong></font></strong></font></strong></font></strong></font></stro=
+ng></font></strong></font></strong></strong></strong></strong></font></fo=
+nt></strong></font></font></strong></strong></strong></strong></strong></=
+strong></font></strong></strong></strong></strong></span></span></strong>=
+
+</div>
+									<strong><font color=3D"#383838"> <strong><font color=3D"#383838"=
+> <strong><font color=3D"#383838"> <strong><font color=3D"#383838"> <stro=
+ng><font color=3D"#383838"> <strong> <strong><strong> <strong> <strong> <=
+strong><font color=3D"#383838"> <font color=3D"#383838"> <strong><font co=
+lor=3D"#383838"> <font color=3D"#383838"><strong> <strong> <strong> <stro=
+ng> <font color=3D"#383838"> <strong><font color=3D"#383838"> <strong><fo=
+nt color=3D"#383838"> <strong><font color=3D"#0194DA"> <strong><font colo=
+r=3D"#0194DA"> <strong><font color=3D"#0194DA"> <strong><font color=3D"#0=
+194DA"> <font color=3D"#CE0E2D"><font color=3D"#CE0E2D"> </font></font></=
+font></strong></font></strong></font></strong></font></strong></font></st=
+rong></font></strong></font></strong></strong></strong></strong></font></=
+font></strong></font></font></strong></strong></strong></strong></strong>=
+</strong></font></strong></font></strong></font></strong></font></strong>=
+</font></strong>
+</td>
+								</tr>
+							</tbody>
+						</table>
+						<strong style=3D"font-size: 12px;"><font color=3D"#383838"><strong>=
+<font color=3D"#383838"><strong><font color=3D"#383838"><strong><font col=
+or=3D"#383838"><strong><font color=3D"#383838"><strong><strong><strong><s=
+trong><strong><strong><font color=3D"#383838"><font color=3D"#383838"><st=
+rong><font color=3D"#383838"><font color=3D"#383838"><strong><strong><str=
+ong><strong><font color=3D"#383838"><strong><font color=3D"#383838"><stro=
+ng><font color=3D"#383838"><strong><font color=3D"#0194DA"><strong><font =
+color=3D"#0194DA"><strong><font color=3D"#0194DA"><strong><font color=3D"=
+#0194DA"><font color=3D"#CE0E2D"><font color=3D"#CE0E2D">=C2=A0 </font></=
+font> </font></strong> </font></strong> </font></strong> </font></strong>=
+</font></strong></font></strong></font></strong></strong></strong></stron=
+g></font></font></strong></font></font></strong></strong></strong></stron=
+g></strong></strong></font></strong></font></strong> </font></strong> </f=
+ont></strong> </font></strong>
+
+						<div style=3D"font-size: 12px;" align=3D"center">
+<br>
+						<strong><font color=3D"#383838"><strong><font color=3D"#383838"><st=
+rong><font color=3D"#383838"><span style=3D"font-size: 12px;"><span style=
+=3D"font-style: normal; font-variant-ligatures: normal; font-variant-caps=
+: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-alig=
+n: start; text-indent: 0px; text-transform: none; white-space: normal; wi=
+dows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-co=
+lor: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-=
+color: initial; font-family: Arial, sans-serif;"><a data-saferedirecturl=3D=
+"https://www.google.com/url?hl=3Des&amp;q=3Dhttp://news.ediboninternation=
+al.com/newslink/619795/12.html&amp;source=3Dgmail&amp;ust=3D1521556071293=
+000&amp;usg=3DAFQjCNGW9GeNhbTpD2zlrqKnHHHNjGn3LA" href=3D"https://newslet=
+ter.edibon.com/c/xem5o5g/nkjlnmjz/4bjhkaeitrw" style=3D"text-decoration: =
+none;"><span style=3D"color: #007bb0;"><span style=3D"text-decoration: no=
+ne;"><span style=3D"text-decoration: none;"><span style=3D"text-decoratio=
+n: none;">www.edibon.<wbr></wbr>com</span></span></span></span></a></span=
+></span><br style=3D"color: rgb(34, 34, 34); font-family: arial, sans-ser=
+if; font-size: 12.8px; font-style: normal; font-variant-ligatures: normal=
+; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; or=
+phans: 2; text-align: start; text-indent: 0px; text-transform: none; whit=
+e-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width:=
+ 0px; background-color: rgb(255, 255, 255); text-decoration-style: initia=
+l; text-decoration-color: initial;">
+						<strong><strong><strong><strong><span style=3D"font-size: 12px;"><s=
+trong><span style=3D"font-style: normal; font-variant-ligatures: normal; =
+font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orph=
+ans: 2; text-align: start; text-indent: 0px; text-transform: none; white-=
+space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0=
+px; background-color: rgb(255, 255, 255); text-decoration-style: initial;=
+ text-decoration-color: initial; font-family: Arial, sans-serif;"><span s=
+tyle=3D"font-family: arial,helvetica,sans-serif;"><a data-saferedirecturl=
+=3D"https://www.google.com/url?hl=3Des&amp;q=3Dhttp://news.ediboninternat=
+ional.com/newslink/619795/49.html&amp;source=3Dgmail&amp;ust=3D1521556071=
+293000&amp;usg=3DAFQjCNGjM-OeX_vPxUO783kANUJ5hGt-Lw" href=3D"mailto:edibo=
+n@edibon.com" style=3D"color: rgb(17, 85, 204);" target=3D"_blank">edibon=
+@edibon.com</a></span></span></strong></span></strong></strong></strong><=
+br>
+						<font color=3D"#0194DA"><strong><font color=3D"#0194DA"><strong><fo=
+nt color=3D"#0194DA"><strong><font color=3D"#0194DA"><font color=3D"#CE0E=
+2D"><font color=3D"#CE0E2D"><strong><font color=3D"#0194DA">=C2=A0</font>=
+</strong></font></font></font></strong></font></strong></font></strong></=
+font></strong></font></strong></font></strong></font></strong>
+</div>
+						<strong style=3D"font-size: 12px;"><font color=3D"#383838"> <strong=
+><font color=3D"#383838"> <strong><font color=3D"#383838"> <strong><font =
+color=3D"#0194DA"> <strong><font color=3D"#0194DA"> <strong><font color=3D=
+"#0194DA"> <strong><font color=3D"#0194DA"> <font color=3D"#CE0E2D"><font=
+ color=3D"#CE0E2D"> </font></font> </font></strong> </font></strong> </fo=
+nt></strong> </font></strong> </font></strong> </font></strong> </font></=
+strong>
+
+						<div style=3D"font-size: 12px;" align=3D"center"><strong><font colo=
+r=3D"#383838"><strong><font color=3D"#383838"><strong><font color=3D"#383=
+838"><strong><font color=3D"#0194DA"><strong><font color=3D"#0194DA"><str=
+ong><font color=3D"#0194DA"><strong><font color=3D"#0194DA"><font color=3D=
+"#CE0E2D"><font color=3D"#CE0E2D"><span style=3D"color: rgb(34, 34, 34); =
+font-style: normal; font-variant-ligatures: normal; font-variant-caps: no=
+rmal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: s=
+tart; text-indent: 0px; text-transform: none; white-space: normal; widows=
+: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color:=
+ rgb(255, 255, 255); text-decoration-style: initial; text-decoration-colo=
+r: initial; font-size: 10.5pt; font-family: Arial, sans-serif;"><a href=3D=
+"https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/ee_qjurftta" target=3D"=
+_blank"><img alt=3D"Facebook Edibon" src=3D"http://edibon.ip-zone.com/mai=
+ling-manager/domains/news_ediboninternational_com/files/img//foto14-1.png=
+" style=3D"width: 27px; height: 27px;" width=3D"27" height=3D"27"></a>=C2=
+=A0<a href=3D"https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/qb5brozmng=
+i" target=3D"_blank"><img alt=3D"Twitter Edibon" src=3D"https://newslette=
+r.edibon.com/data/90d7a3a4ac699d3145e3dbd3412ce7698546610d/media_files/11=
+69/original/twitter_icom.png" style=3D"width: 27px; height: 26px;" width=3D=
+"27" height=3D"26"></a>=C2=A0<a href=3D"https://newsletter.edibon.com/c/x=
+em5o5g/nkjlnmjz/x5jxked1-b8" target=3D"_blank"><img alt=3D"Linkedin Edibo=
+n" src=3D"http://edibon.ip-zone.com/mailing-manager/domains/news_edibonin=
+ternational_com/files/img//foto14-4.png" style=3D"width: 27px; height: 27=
+px;" width=3D"27" height=3D"27"></a>=C2=A0<a href=3D"https://newsletter.e=
+dibon.com/c/xem5o5g/nkjlnmjz/cojfl11y2by" target=3D"_blank"><img alt=3D"Y=
+outube Edibon" src=3D"http://edibon.ip-zone.com/mailing-manager/domains/n=
+ews_ediboninternational_com/files/img//foto14-5.png" style=3D"width: 27px=
+; height: 27px;" width=3D"27" height=3D"27"></a>=C2=A0=C2=A0</span><br>
+						=C2=A0</font></font></font></strong></font></strong></font></strong=
+></font></strong></font></strong></font></strong></font></strong></div>
+						<strong style=3D"font-size: 12px;"><font color=3D"#383838"> <strong=
+><font color=3D"#383838"> <strong><font color=3D"#383838"> <strong><font =
+color=3D"#0194DA"> <strong><font color=3D"#0194DA"> <strong><font color=3D=
+"#0194DA"> <strong><font color=3D"#0194DA"> <font color=3D"#CE0E2D"><font=
+ color=3D"#CE0E2D"> </font></font></font></strong></font></strong></font>=
+</strong></font></strong></font></strong></font></strong></font></strong>=
+
+</td>
+					</tr>
+					<tr>
+						<td align=3D"left" bgcolor=3D"#ffffff" style=3D"font-family: Arial,=
+ Helvetica, sans-serif; font-size: 12px; padding: 0 100px;" valign=3D"top=
+">=F0=9F=8C=90 <em><span style=3D"color: #007cb0;"><span style=3D"font-si=
+ze: 12px;"><span style=3D"font-family: Arial,Helvetica,sans-serif;">Join =
+us on </span></span></span><span style=3D"font-size: 12px;"><span style=3D=
+"font-family: Arial,Helvetica,sans-serif;"><a href=3D"https://newsletter.=
+edibon.com/c/xem5o5g/nkjlnmjz/xguxixnzdbe"><span style=3D"color: #ce0e2d;=
+"><strong>Telegram</strong></span></a></span></span><span style=3D"color:=
+ #007cb0;"><span style=3D"font-size: 12px;"><span style=3D"font-family: A=
+rial,Helvetica,sans-serif;"> and </span></span></span><span style=3D"font=
+-size: 12px;"><span style=3D"font-family: Arial,Helvetica,sans-serif;"><s=
+trong><a href=3D"https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/shjqtz1=
+0dky"><span style=3D"color: #ce0e2d;">WhatsApp</span></a></strong></span>=
+</span><span style=3D"color: #007cb0;"><span style=3D"font-size: 12px;"><=
+span style=3D"font-family: Arial,Helvetica,sans-serif;"><strong> </strong=
+>for real-time updates, exclusive content, and a direct line to EDIBON ne=
+ws and announcements</span></span>.=C2=A0</span></em>
+</td>
+					</tr>
+				</tbody>
+			</table>
+			=C2=A0
+
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" height=3D"176" width=3D"600">
+				<tbody>
+					<tr>
+						<td style=3D"display: block; padding-bottom: 15px; font-size: 12px;=
+ font-family: Helvetica, Arial, sans-serif; color: #777777;" valign=3D"to=
+p">
+						<div><span style=3D"font-size: 11px;"><span style=3D"color: rgb(136=
+, 136, 136); font-family: Arial, sans-serif; font-style: normal; font-var=
+iant-ligatures: normal; font-variant-caps: normal; font-weight: 400; lett=
+er-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; tex=
+t-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -we=
+bkit-text-stroke-width: 0px; text-decoration-style: initial; text-decorat=
+ion-color: initial; float: none; display: inline !important;">Not interes=
+ted anymore?=C2=A0</span><a href=3D"https://newsletter.edibon.com/unsubsc=
+ribe/xem5o5g/form?token=3Dnkjlnmjz"><span style=3D"color: #A9A9A9;"><stro=
+ng><u>Unsubscribe Instantly</u></strong></span></a></span></div>
+						=C2=A0
+
+						<div style=3D"" align=3D"justify">
+						<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0">
+							<tbody>
+								<tr>
+									<td style=3D"width: 604px; height: 31px;">
+									<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0">
+										<tbody>
+											<tr>
+												<td style=3D"width: 604px; height: 31px;">
+<span style=3D"font-size: 8px;">EDIBON will process your data to send you=
+ commercial communications of interest to you. EDIBON has no plans to tra=
+nsfer your data. The legitimate basis for processing is your consent, the=
+ contractual compliance and the legitimate interest.<br>
+												You may exercise the right of access, rectification, erasure,=
+ objection, restriction to processing and portability by email to the add=
+ress <strong><a href=3D"mailto:legal@edibon.com">legal@edibon.com</a></st=
+rong> or by mail to C / Julio Cervera 10; Parque Tecnol=C3=B3gico de M=C3=
+=B3stoles. M=C3=B3stoles 28935. Madrid. Espa=C3=B1a. Read our <a href=3D"=
+https://newsletter.edibon.com/c/xem5o5g/nkjlnmjz/7zs4znfispe">privacy pol=
+icy</a> for more information. Click here=C2=A0<a href=3D"https://newslett=
+er.edibon.com/unsubscribe/xem5o5g/form?token=3Dnkjlnmjz"><span style=3D"c=
+olor: #0000FF;"><strong><u>Unsubscribe Instantly</u></strong></span></a> =
+to unsubscribe from our mailing list.</span><br>
+												<br>
+												<span style=3D"font-size: 8px;"><span style=3D"font-family: a=
+rial,helvetica,sans-serif;"><em><span style=3D"color: #006400;">If you wa=
+nt to print this email please think if you need to do it.</span></em></sp=
+an></span>
+</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<img src=3D"https://newsletter.edibon.com/i/xem5o5g/nkjlnmjz.gif" width=3D=
+"1" height=3D"1" alt=3D"">
+</body>
+</html>
+
+----==_mimepart_6853db1260b0_17cfd15c670174ba--

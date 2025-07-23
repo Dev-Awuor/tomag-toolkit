@@ -1,0 +1,455 @@
+Delivered-To: info@tomag.co.ke
+Return-Path: <tom.gituma@tomag.co.ke>
+ARC-Seal: i=1; a=rsa-sha256; t=1749714331; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=JvywTCKHzkKLy7kDxqLCsbpulUYMucvcj72jamrFP6KEzYNGiMH/4dZLxQFb6DYn4xMY2QvybtH+4riowf/o3hKbcvcxluv4F5UPXO2XqDYn/Z+oWU34ezJWDvi6LgttPnZeL0S0bTU7hRZAtkLFhN+97B9naAO8tc+pD5sq1SU=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1749714331; h=Content-Type:Cc:Cc:Date:Date:From:From:In-Reply-To:MIME-Version:Message-ID:References:Subject:Subject:To:To:Message-Id:Reply-To; 
+	bh=NuSOc5ihmoqRiS9M/moDySqsmZZ+GC5W9u6OILXSBaY=; 
+	b=RNUFk1J6HD6cKCn3XqJSmO7TVxAoCAkqqJSvLVD0YM3nHP9zAttyOXMSqrv08yi02k+CfmDBkSxIUqLCm1BvVp47QgviHhb7dFKj24v0VSvoPYVcbF2uEH505zOUa7Go3IEj24VR1ooorWVecCxSYxCT0uEwVTHM3u7VXJYydiI=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass  header.i=tomag.co.ke;
+	spf=pass  smtp.mailfrom=tom.gituma@tomag.co.ke;
+	dmarc=pass header.from=<tom.gituma@tomag.co.ke>
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1749714331;
+	s=zoho; d=tomag.co.ke; i=tom.gituma@tomag.co.ke;
+	h=Date:Date:From:From:To:To:Cc:Cc:Message-Id:Message-Id:In-Reply-To:References:Subject:Subject:MIME-Version:Content-Type:Reply-To;
+	bh=NuSOc5ihmoqRiS9M/moDySqsmZZ+GC5W9u6OILXSBaY=;
+	b=fvTcLDj0WfdwCI5unHyvzEu1ghI7o0I8XzN9gqgb+KsAO1iY4CYMC4gPp1ZnqgU6
+	ac6vt+YM8dS2i2BjdobmX1VsvlUbp3GKjUkVD8R/+y0EZpfaCwr8JOmsMw2SnZeIjwl
+	JC3W8E+3g/lBVDVA+fZAI58JtlIHcQ3QoqPZFVko=
+Received: from mail.zoho.com by mx.zohomail.com
+	with SMTP id 1749714329418377.43309216103967; Thu, 12 Jun 2025 00:45:29 -0700 (PDT)
+Date: Thu, 12 Jun 2025 10:45:29 +0300
+From: Tom Gituma <tom.gituma@tomag.co.ke>
+To: "Nairobi DeltaCorner" <Nairobi.DeltaCorner@regus.com>
+Cc: "Tom Gituma" <tgituma@gmail.com>, "info@tomag.co.ke" <info@tomag.co.ke>
+Message-ID:<1976319def0.117cfb9e6493297.6530724159098468291@tomag.co.ke>
+In-Reply-To: <AM6PR02MB4983829B48F9681E7EA9CE15E274A@AM6PR02MB4983.eurprd02.prod.outlook.com>
+References: <AM6PR02MB4983829B48F9681E7EA9CE15E274A@AM6PR02MB4983.eurprd02.prod.outlook.com>
+Subject: Re: INVOICE 1930-2025-283INV
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1625579_1545048667.1749714329331"
+Importance: Medium
+User-Agent: Zoho Mail
+X-Mailer: Zoho Mail
+X-Zoho-Virus-Status: 1
+X-Zoho-Virus-Status: 1
+X-Zoho-AV-Stamp: zmail-av-1.4.2/249.688.82
+X-ZM-MESSAGEID: 1749714331512124200
+X-ZohoMail-Status: 1
+
+
+------=_Part_1625579_1545048667.1749714329331
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Wycliffe,
+
+I hope you are fine. Kindly note that you were to remove the meeting room c=
+harges because it charged by mistake when you were assisting me book the co=
+mmon room.=C2=A0
+
+
+Thanks and Best Regards
+
+=C2=A0
+
+Tom Gituma
+
+General Manager
+
+Tomag Enterprises Limited
+
+Delta Corner Tower, Chiromo Road
+
+6th=C2=A0Floor, Westlands
+
+Nairobi, Kenya
+
+Mobile +254 722 747 397
+
+Email:=C2=A0 mailto:tom.gituma@tomag.co.ke=20
+
+Website:=C2=A0 http://www.tomag.co.ke/=20
+
+TOMAG
+
+
+
+
+
+
+
+
+
+
+---- On Thu, 12 Jun 2025 10:23:06 +0300 Nairobi DeltaCorner <Nairobi.DeltaC=
+orner@regus.com> wrote ---
+
+
+
+Hello Tom,
+
+
+
+I hope you are doing fine,
+
+Please may I know if you have processed payment for the attached invoice du=
+e 15th=C2=A0Jun 2025.
+
+
+
+Have a great time!
+
+Wycliffe. S
+
+
+
+
+
+3000 locations, 900 cities, 120 countries
+
+
+
+Delta Corner, 6th Floor, Chiromo Road.
+
+P.O. BOX 14805 - 00800.
+
+D=C2=A0+ 254 730112000
+
+Connect with Regus
+
+http://www.myregus.com/=20
+
+
+
+
+
+
+
+
+
+
+
+
+
+The information contained in this e-mail (including any attachments) is int=
+ended only for the personal
+ and confidential use of the recipient(s) named above. If you are not an in=
+tended recipient of this message,=20
+ please notify the sender by replying to this message and then delete the m=
+essage and any copies from=20
+ your system. Any use, dissemination, distribution, or reproduction of this=
+ message by unintended=20
+ recipients, is not authorised and may be unlawful.
+------=_Part_1625579_1545048667.1749714329331
+Content-Type: multipart/related; 
+	boundary="----=_Part_1625581_339833852.1749714329358"
+
+------=_Part_1625581_339833852.1749714329358
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>=
+<meta content=3D"text/html;charset=3DUTF-8" http-equiv=3D"Content-Type"></h=
+ead><body ><div style=3D"font-family: Verdana, Arial, Helvetica, sans-serif=
+; font-size: 10pt;"><div>Dear Wycliffe,<br></div><div>I hope you are fine. =
+Kindly note that you were to remove the meeting room charges because it cha=
+rged by mistake when you were assisting me book the common room.&nbsp;</div=
+><div><br></div><div id=3D"Zm-_Id_-Sgn" data-sigid=3D"3897000000000041001" =
+data-zbluepencil-ignore=3D"true"><p style=3D"margin: 0px; font-style: norma=
+l; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px" cl=
+ass=3D""><span class=3D"highlight" style=3D"background-color:rgb(255, 255, =
+255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"fo=
+nt" style=3D"font-family:Lato"><span class=3D"size" style=3D"font-size: 14p=
+x; margin: 0px; font-style: normal; font-weight: 400; letter-spacing: norma=
+l; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal;=
+ widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"color:rgb(3=
+1, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><span class=
+=3D"size" style=3D"font-size:11pt">Thanks and Best Regards</span></span></s=
+pan><br></span></span></span></span></p><p style=3D"margin: 0px; font-style=
+: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent=
+: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: =
+0px" class=3D""><span class=3D"highlight" style=3D"background-color:rgb(255=
+, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span clas=
+s=3D"font" style=3D"font-family:Lato"><span class=3D"size" style=3D"font-si=
+ze: 14px; margin: 0px; font-style: normal; font-weight: 400; letter-spacing=
+: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"colo=
+r:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><span=
+ class=3D"size" style=3D"font-size:11pt">&nbsp;</span></span></span><br></s=
+pan></span></span></span></p><p style=3D"margin: 0px; font-style: normal; f=
+ont-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text=
+-transform: none; white-space: normal; widows: 2; word-spacing: 0px" class=
+=3D""><span class=3D"highlight" style=3D"background-color:rgb(255, 255, 255=
+)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font"=
+ style=3D"font-family:Lato"><span class=3D"size" style=3D"font-size: 14px; =
+margin: 0px; font-style: normal; font-weight: 400; letter-spacing: normal; =
+orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; wi=
+dows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"color:rgb(31, =
+73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><span class=3D"=
+size" style=3D"font-size:11pt">Tom Gituma</span></span></span><br></span></=
+span></span></span></p><p style=3D"margin: 0px; font-style: normal; font-we=
+ight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-trans=
+form: none; white-space: normal; widows: 2; word-spacing: 0px" class=3D""><=
+span class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><spa=
+n class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=
+=3D"font-family:Lato"><span class=3D"size" style=3D"font-size: 14px; margin=
+: 0px; font-style: normal; font-weight: 400; letter-spacing: normal; orphan=
+s: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: =
+2; word-spacing: 0px;"><span class=3D"colour" style=3D"color:rgb(31, 73, 12=
+5)"><span class=3D"font" style=3D"font-family:SimSun"><span class=3D"size" =
+style=3D"font-size:11pt">General Manager</span></span></span><br></span></s=
+pan></span></span></p><p style=3D"margin: 0px; font-style: normal; font-wei=
+ght: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transf=
+orm: none; white-space: normal; widows: 2; word-spacing: 0px" class=3D""><s=
+pan class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span=
+ class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=
+=3D"font-family:Lato"><span class=3D"size" style=3D"font-size: 14px; margin=
+: 0px; font-style: normal; font-weight: 400; letter-spacing: normal; orphan=
+s: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: =
+2; word-spacing: 0px;"><span class=3D"colour" style=3D"color:rgb(31, 73, 12=
+5)"><span class=3D"font" style=3D"font-family:SimSun"><span class=3D"size" =
+style=3D"font-size:11pt">Tomag Enterprises Limited</span></span></span><br>=
+</span></span></span></span></p><p style=3D"margin: 0px; font-style: normal=
+; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; t=
+ext-transform: none; white-space: normal; widows: 2; word-spacing: 0px" cla=
+ss=3D""><span class=3D"highlight" style=3D"background-color:rgb(255, 255, 2=
+55)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"fon=
+t" style=3D"font-family:Lato"><span class=3D"size" style=3D"font-size: 14px=
+; margin: 0px; font-style: normal; font-weight: 400; letter-spacing: normal=
+; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; =
+widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"color:rgb(31=
+, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><span class=
+=3D"size" style=3D"font-size:11pt">Delta Corner Tower, Chiromo Road</span><=
+/span></span><br></span></span></span></span></p><p style=3D"margin: 0px; f=
+ont-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; te=
+xt-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-=
+spacing: 0px" class=3D""><span class=3D"highlight" style=3D"background-colo=
+r:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><=
+span class=3D"font" style=3D"font-family:Lato"><span class=3D"size" style=
+=3D"font-size: 14px; margin: 0px; font-style: normal; font-weight: 400; let=
+ter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; wh=
+ite-space: normal; widows: 2; word-spacing: 0px;"><span class=3D"colour" st=
+yle=3D"color:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-family:Si=
+mSun"><span class=3D"size" style=3D"font-size:11pt">6<sup>th</sup><span>&nb=
+sp;</span>Floor, Westlands</span></span></span><br></span></span></span></s=
+pan></p><p style=3D"margin: 0px; font-style: normal; font-weight: 400; lett=
+er-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; whi=
+te-space: normal; widows: 2; word-spacing: 0px" class=3D""><span class=3D"h=
+ighlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"colo=
+ur" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-family:=
+Lato"><span class=3D"size" style=3D"font-size: 14px; margin: 0px; font-styl=
+e: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-inden=
+t: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing:=
+ 0px;"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><span class=
+=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D"font-s=
+ize:11pt">Nairobi, Kenya</span></span></span><br></span></span></span></spa=
+n></p><p style=3D"margin: 0px; font-style: normal; font-weight: 400; letter=
+-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white=
+-space: normal; widows: 2; word-spacing: 0px" class=3D""><span class=3D"hig=
+hlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"colour=
+" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-family:La=
+to"><span class=3D"size" style=3D"font-size: 14px; margin: 0px; font-style:=
+ normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent:=
+ 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0=
+px;"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><span class=3D=
+"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D"font-size=
+:11pt">Mobile +254 722 747 397</span></span></span><br></span></span></span=
+></span></p><p style=3D"margin: 0px; font-style: normal; font-weight: 400; =
+letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none;=
+ white-space: normal; widows: 2; word-spacing: 0px" class=3D""><span class=
+=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D=
+"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-fa=
+mily:Lato"><span class=3D"size" style=3D"font-size: 14px; margin: 0px; font=
+-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-=
+indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spa=
+cing: 0px;"><span class=3D"colour" style=3D"color:rgb(47, 84, 150)"><span c=
+lass=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D"fo=
+nt-size:11pt">Email:<span>&nbsp;</span><u><a target=3D"_blank" href=3D"mail=
+to:tom.gituma@tomag.co.ke" style=3D"color: rgb(89, 143, 222); cursor: point=
+er"><span class=3D"colour" style=3D"color:rgb(5, 99, 193)">tom.gituma@tomag=
+.co.ke</span></a></u></span></span></span><br></span></span></span></span><=
+/p><p style=3D"margin: 0px; font-style: normal; font-weight: 400; letter-sp=
+acing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-sp=
+ace: normal; widows: 2; word-spacing: 0px" class=3D""><span class=3D"highli=
+ght" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"colour" s=
+tyle=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-family:Lato"=
+><span class=3D"size" style=3D"font-size: 14px; margin: 0px; font-style: no=
+rmal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0p=
+x; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;=
+"><span class=3D"colour" style=3D"color:rgb(47, 84, 150)"><span class=3D"fo=
+nt" style=3D"font-family:SimSun"><span class=3D"size" style=3D"font-size:11=
+pt">Website:<span>&nbsp;</span><a target=3D"_blank" href=3D"http://www.toma=
+g.co.ke/" style=3D"color: rgb(89, 143, 222); cursor: pointer"><span class=
+=3D"colour" style=3D"color:rgb(5, 99, 193)">www.tomag.co.ke</span></a></spa=
+n></span></span><br></span></span></span></span></p><p style=3D"margin: 0px=
+; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2;=
+ text-indent: 0px; text-transform: none; white-space: normal; widows: 2; wo=
+rd-spacing: 0px" class=3D""><span class=3D"highlight" style=3D"background-c=
+olor:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)=
+"><span class=3D"font" style=3D"font-family:Lato"><span class=3D"size" styl=
+e=3D"font-size: 14px; margin: 0px; font-style: normal; font-weight: 400; le=
+tter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; w=
+hite-space: normal; widows: 2; word-spacing: 0px;"><b><span class=3D"colour=
+" style=3D"color:rgb(68, 114, 196)"><span class=3D"font" style=3D"font-fami=
+ly:Calibri, sans-serif"><span class=3D"size" style=3D"font-size:36pt">TOMAG=
+</span></span></span></b><br></span></span></span></span></p><div><br></div=
+></div><div><br></div><div class=3D"zmail_extra_hr" style=3D"border-top: 1p=
+x solid rgb(204, 204, 204); height: 0px; margin-top: 10px; margin-bottom: 1=
+0px; line-height: 0px;"><br></div><div class=3D"zmail_extra" data-zbluepenc=
+il-ignore=3D"true"><div><br></div><div id=3D"Zm-_Id_-Sgn1">---- On Thu, 12 =
+Jun 2025 10:23:06 +0300 <b>Nairobi DeltaCorner &lt;Nairobi.DeltaCorner@regu=
+s.com&gt;</b> wrote ---<br></div><div><br></div><blockquote id=3D"blockquot=
+e_zmail" style=3D"margin: 0px;"><div class=3D"zm_1320024715572542558_parse_=
+3791412524877638535" dir=3D"ltr"><div style=3D"font-family: Aptos, Aptos_Em=
+beddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size:=
+ 12pt; color: rgb(0, 0, 0)" class=3D"x_1577235605elementToProof">Hello Tom,=
+<br></div><div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFon=
+tService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0,=
+ 0)" class=3D"x_1577235605elementToProof"><br></div><div style=3D"font-fami=
+ly: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, san=
+s-serif; font-size: 12pt; color: rgb(0, 0, 0)" class=3D"x_1577235605element=
+ToProof">I hope you are doing fine,<br></div><div style=3D"font-family: Apt=
+os, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif=
+; font-size: 12pt; color: rgb(0, 0, 0)" class=3D"x_1577235605elementToProof=
+">Please may I know if you have processed payment for the attached invoice =
+due 15<sup>th</sup>&nbsp;Jun 2025.<br></div><div style=3D"font-family: Apto=
+s, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif;=
+ font-size: 12pt; color: rgb(0, 0, 0)" class=3D"x_1577235605elementToProof"=
+><br></div><div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFo=
+ntService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0=
+, 0)" class=3D"x_1577235605elementToProof">Have a great time!<br></div><div=
+ style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Cali=
+bri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0)" class=3D"=
+x_1577235605elementToProof">Wycliffe. S<br></div><div class=3D"x_1577235605=
+elementToProof" id=3D"x_1577235605Signature"><div style=3D"font-family: Apt=
+os, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif=
+; font-size: 12pt; color: rgb(0, 0, 0)" class=3D"x_1577235605elementToProof=
+"><br></div><div class=3D"x_1577235605elementToProof" id=3D"x_1577235605div=
+tagdefaultwrapper"><div class=3D"x_1577235605elementToProof" id=3D"x_157723=
+5605Item.MessagePartBody"><div class=3D"x_1577235605elementToProof" id=3D"x=
+_1577235605Item.MessageUniqueBody"><div style=3D"direction: ltr; margin: 0p=
+x; color: rgb(0, 0, 0)" class=3D"x_1577235605elementToProof"><span class=3D=
+"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"fo=
+nt" style=3D"font-family:&quot;Times New Roman&quot;"><span class=3D"size" =
+style=3D"font-size:12pt"><img src=3D"cid:88c6ea36-e1ff-41bf-9f56-e824ae2288=
+53" style=3D"max-width: 100%; margin: 0px"></span></span></span><br></div><=
+div style=3D"direction: ltr; margin: 0px; font-family: wf_segoe-ui_normal, =
+&quot;Segoe UI&quot;, &quot;Segoe WP&quot;, Tahoma, Arial, sans-serif, seri=
+f, EmojiFont; font-size: 16px; color: rgb(0, 0, 0)" class=3D"x_1577235605el=
+ementToProof"><span class=3D"font" style=3D"font-family:Calibri, Helvetica,=
+ sans-serif"><span class=3D"size" style=3D"font-size:11pt"><b>3000 location=
+s, 900 cities, 120 countries</b></span></span><br></div></div></div><div cl=
+ass=3D"x_1577235605elementToProof" id=3D"x_1577235605Item.MessagePartBody">=
+<div class=3D"x_1577235605elementToProof" id=3D"x_1577235605Item.MessageUni=
+queBody"><div style=3D"direction: ltr; margin: 0px; font-family: Arial, san=
+s-serif; font-size: 9pt; color: black" class=3D"x_1577235605elementToProof"=
+>Delta Corner, 6th Floor, Chiromo Road.<br></div><div style=3D"direction: l=
+tr; margin: 0px; font-family: wf_segoe-ui_normal, &quot;Segoe UI&quot;, &qu=
+ot;Segoe WP&quot;, Tahoma, Arial, sans-serif, serif, EmojiFont; color: rgb(=
+0, 0, 0)" class=3D"x_1577235605elementToProof"><span class=3D"size" style=
+=3D"font-size:9pt">P.O. BOX 14805 - 00800.</span><span class=3D"size" style=
+=3D"font-size:16px"><br></span></div><div style=3D"direction: ltr; margin: =
+0px; font-family: wf_segoe-ui_normal, &quot;Segoe UI&quot;, &quot;Segoe WP&=
+quot;, Tahoma, Arial, sans-serif, serif, EmojiFont; color: rgb(0, 0, 0)" cl=
+ass=3D"x_1577235605elementToProof"><span class=3D"size" style=3D"font-size:=
+9pt"><b>D&nbsp;+ 254 730112000</b></span><span class=3D"size" style=3D"font=
+-size:16px"><br></span></div><div style=3D"direction: ltr; margin: 0px; fon=
+t-family: wf_segoe-ui_normal, &quot;Segoe UI&quot;, &quot;Segoe WP&quot;, T=
+ahoma, Arial, sans-serif, serif, EmojiFont; font-size: 9pt; color: rgb(0, 0=
+, 0)" class=3D"x_1577235605elementToProof"><b>Connect with Regus</b><br></d=
+iv><div style=3D"direction: ltr; margin: 0px; font-family: Calibri, Helveti=
+ca, sans-serif; font-size: 16px; color: rgb(0, 0, 0)" class=3D"x_1577235605=
+elementToProof"><span class=3D"highlight" style=3D"background-color:rgb(255=
+, 255, 255)"><a style=3D"margin: 0px; background-color: rgb(255, 255, 255);=
+ text-align: left" title=3D"Original URL: http://www.myregus.com/. Click or=
+ tap if you trust this link." target=3D"_blank" href=3D"http://www.myregus.=
+com/">www.myregus.com</a></span><br></div></div></div><div style=3D"directi=
+on: ltr; font-family: Calibri, Helvetica, sans-serif; font-size: 16px; colo=
+r: rgb(0, 0, 0)" class=3D"x_1577235605elementToProof"><br></div><div style=
+=3D"direction: ltr; font-family: Calibri, Helvetica, sans-serif; font-size:=
+ 16px; color: rgb(0, 0, 0)" class=3D"x_1577235605elementToProof"><br></div>=
+<div style=3D"direction: ltr; font-family: Calibri, Helvetica, sans-serif; =
+font-size: 16px; color: rgb(0, 0, 0)" class=3D"x_1577235605elementToProof">=
+<br></div></div></div><div style=3D"FONT-SIZE: 8.5pt; FONT-FAMILY: &quot;Ca=
+libri&quot;, sans-serif"><br><br>The information contained in this e-mail (=
+including any attachments) is intended only for the personal<br> and confid=
+ential use of the recipient(s) named above. If you are not an intended reci=
+pient of this message, <br> please notify the sender by replying to this me=
+ssage and then delete the message and any copies from <br> your system. Any=
+ use, dissemination, distribution, or reproduction of this message by unint=
+ended <br> recipients, is not authorised and may be unlawful. <br></div></d=
+iv></blockquote></div><div><br></div></div><br></body></html>
+------=_Part_1625581_339833852.1749714329358
+Content-Type: image/png; name=1.png
+Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename=1.png
+Content-ID: <88c6ea36-e1ff-41bf-9f56-e824ae228853>
+
+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
+------=_Part_1625581_339833852.1749714329358--
+
+------=_Part_1625579_1545048667.1749714329331--
+

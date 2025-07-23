@@ -1,0 +1,485 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of _spf.google.com designates 209.85.214.181 as permitted sender) client-ip=209.85.214.181; envelope-from=nssl.kisumu@gmail.com; helo=mail-pl1-f181.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of _spf.google.com designates 209.85.214.181 as permitted sender)  smtp.mailfrom=nssl.kisumu@gmail.com;
+	dmarc=pass(p=none dis=none)  header.from=gmail.com
+ARC-Seal: i=1; a=rsa-sha256; t=1752748049; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=Kpc2lIyV+wErYvkTp9M6l1IWOlr8OHvi+gKwyCFEXD1aKCWwDxHU9gxnHesDZtLxrSxGUE8QUi4LBI3IwTbCfDlDZkRVowiMg35J/o5nKH9b+vNgbztNWLk8HITZjUOzmwwu4Wkn6C62loEaKtxpsw2jdPONAgrxJ4cCQcvlqv4=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1752748049; h=Content-Type:Date:Date:From:From:In-Reply-To:MIME-Version:Message-ID:References:Subject:Subject:To:To:Message-Id:Reply-To:Cc; 
+	bh=G7t/GwRicLFkEACtZb9W9H8JJywFMP0dcILHudOQGNk=; 
+	b=WBUqgTxY4X1m1xKSSTKAGsQIe/pXH0Kz1u4q/ZAsL3qrgNZzPSVCa26nUVWMsVJ5c0/Dv+tguoLiV6OFNtNZHHMEsVGHV+y0Tb1pfDe57tqJWlILTCDcmhfQ5AMUmneyL6Leyj47QW92Lzw9bg6QpoSA6dZkJEeh72FHgo2dBQ0=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of _spf.google.com designates 209.85.214.181 as permitted sender)  smtp.mailfrom=nssl.kisumu@gmail.com;
+	dmarc=pass header.from=<nssl.kisumu@gmail.com> (p=none dis=none)
+Return-Path: <nssl.kisumu@gmail.com>
+Received: from mail-pl1-f181.google.com (mail-pl1-f181.google.com [209.85.214.181]) by mx.zohomail.com
+	with SMTPS id 1752748049831856.586494537629; Thu, 17 Jul 2025 03:27:29 -0700 (PDT)
+Received: by mail-pl1-f181.google.com with SMTP id d9443c01a7336-234b9dfb842so6083455ad.1
+        for <info@tomag.co.ke>; Thu, 17 Jul 2025 03:27:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1752748049; x=1753352849; darn=tomag.co.ke;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=G7t/GwRicLFkEACtZb9W9H8JJywFMP0dcILHudOQGNk=;
+        b=HqFsV2mGxVHrtjFYtLG3J0YYLDGoMoX4NP/FNEzP30oEgZNN/Ryonw4jry4aCAKCB1
+         cB0d7f81QXYQRkcJ7JkurbzrK04SjyTNhF6Bn1v+2uctBhFbiOzxOmuxzhxN/KiyssXU
+         Ei7bdGOj7wyrT0mdbYAkQgT1w7/FSNDNIco2rPkZ+usvhBmgCpMog78VmAqxOJTSVrW7
+         36rhTxlndYqVtTU4FVRKPuwqZPj8GPYjmcAjSv48XdTdxCwk1VHcNBMhwiJmnyD9MV7Q
+         JeJIxic7jEZa0U5hgSW/qxGheguWvVRH1kv/kikw+UDsnb5kuSdqrfmcmnMmss2/1HHX
+         +5yw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1752748049; x=1753352849;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=G7t/GwRicLFkEACtZb9W9H8JJywFMP0dcILHudOQGNk=;
+        b=tZC7ejExmlxL2VOQLu5Vf1Z2QsiTgdg5IUQkXini7oyBZnTdqzPlPODZ1GsRSV3Jcg
+         iKfQCI92s/dsY6QFQpooOCpDyOrl/CNxMnWMpepBkLNN5XN1rcMg7JNmd/35Vt07qKMg
+         53EwFwV4fFDWEgUCj9vW/F8omRXxEyGLEWf9HQSDQbHBGb2p5rYj2jfEgNszzTG/HAQa
+         hU186TmqqiWr3LyDMU/zjJrNMnm7XwqG/y3wesGSseNBvz+53mYN8ESLwrVrjHlvSux0
+         OOKsPmlrFssCAEntRV40a/OGvwVdnmiTrqXYapfTup0ulC4UJfaKJe5sXWtC3+G30HIW
+         uRng==
+X-Gm-Message-State: AOJu0Yz6SMkm7QPD0RSUh3szoBL+kgqXXyEKHeLDte5GXTplNirlMpht
+	7T35yqZe8Pupp39163zywvlt0UgotjBmi225XKpgQcoC7Jp+P1OaPE40KZsuFQCqgD23k8zsxeK
+	h9d362fECQEkcspPQWWLOFp0gCeiqW3pa45O1
+X-Gm-Gg: ASbGncvCf3hi3Gqhj4+lUC4EU0/0Rvt/+B0KiSAc+oSjEoHVOZPe/1zf5um8IhAeDlz
+	PevwBODD53EPtDRTEPSR+XB4a0fAFMF8/uhGTxCKb7vhGHsmEOqRZ1c94z+HHi9AYKJbXFQKNtH
+	hDexFEn4w3lhWn58SXuUHz4a8cD0Gu/U11euKs/AXy1oJ5jJvQyw1goNXLQN941XqujfUFH7H0g
+	w/Q/KeJICVa/S7Suo6ukcQ=
+X-Google-Smtp-Source: AGHT+IE4QjrOWCrfwIrlHXMNl0bSeSuLgIP+lAMucBc54FzWwJPm1u2S2un5d4dp2DNCukWsdBd3PK8IgVOSu2tXjVk=
+X-Received: by 2002:a17:903:1aee:b0:234:a139:1215 with SMTP id
+ d9443c01a7336-23e2573f322mr98655105ad.35.1752748048675; Thu, 17 Jul 2025
+ 03:27:28 -0700 (PDT)
+MIME-Version: 1.0
+References: <CA+wGGigah1SFqBdqr=a_n=rQx3Z3d-tyX1-X4Ty+OBJorFdLYg@mail.gmail.com>
+ <CA+wGGiiDEMz+0oz=_MRXTiRczAUZNEJTx=-X2=1M-+W-ARfVyQ@mail.gmail.com>
+ <CA+wGGijtCG2ARRD9DiGKsNi13COuuXWdj42UOu+fWCmHY4yqEA@mail.gmail.com>
+ <CA+wGGiiBNybOdzBi7xbgAPEo8=rpERzu_iCg84T0ss1w+dHXsA@mail.gmail.com>
+ <CA+wGGijFMSFa646xPRwvhPPXCrao2OoSc4KVsMTdgLrv349T7Q@mail.gmail.com>
+ <CA+wGGigTu0u2A-dhQ_-XkrHPnduTzutFdc8wMDHXujHSk1CY-g@mail.gmail.com>
+ <CA+wGGijKjX_qb15u_U367rCKcvJUeVT-5=soVdAzs9edP2wipQ@mail.gmail.com>
+ <CA+wGGijxBv19Qd0S+dTT+g0JYd+DMb0oQwnNzp4DmTgkgrQ5uw@mail.gmail.com>
+ <CA+wGGijB9=dtFkEnciVrk-e1HFkw5=kEK+KFMMiME7ZSH23nWg@mail.gmail.com>
+ <CA+wGGigHrijccc8pXhH76mZVpG08U63Sj284h0aUVaCFjER7yg@mail.gmail.com>
+ <CA+wGGih8vqExq75yxDAqpE2wCNdHKCqqrUiYr9Z0HPRON0uF-g@mail.gmail.com>
+ <CA+wGGihDTj9QQtjGJiY_gSy68NFPinv8fsDFtegv9dnycfmvtA@mail.gmail.com>
+ <CA+wGGij-wTCoLVRRuEZHY4vG+fPK73PsxYiCt3_hx0LAX-AHsA@mail.gmail.com>
+ <CA+wGGihWz2ARn5DUudbb324o=jTMrfQ-3y4BjUN1UtuOd_R-sA@mail.gmail.com>
+ <CA+wGGigaM+=t-WoWTJX0cgyoc9yN4UXWjNAHMrHZNQMC9WjskA@mail.gmail.com>
+ <CA+wGGig2MSCxBCGP5JGxnxhWqjKTd6bv5S93NBQ2N+3pYwTp=g@mail.gmail.com>
+ <CA+wGGihacUuxWJyg9eHAJEOExOK+vgeR6XG1cv3-kXOLBXjgwA@mail.gmail.com> <CA+wGGijDwaobqADOk2kReoQ=7Xaam5A3i9pCciuHfPzfjOa0Gg@mail.gmail.com>
+In-Reply-To: <CA+wGGijDwaobqADOk2kReoQ=7Xaam5A3i9pCciuHfPzfjOa0Gg@mail.gmail.com>
+From: "Nirmaan Sales and services Ltd." <nssl.kisumu@gmail.com>
+Date: Thu, 17 Jul 2025 15:57:17 +0530
+X-Gm-Features: Ac12FXxLjGATLSIiSpODSBk_PeVvB_VhZpEZjMYuUebE6Fgt9spU6wZR5UP_VbU
+Message-ID:<CA+wGGijWU4YJAdQ3JhvBDq1bVzVs73ii0vjJxqPfm62q+2rbMg@mail.gmail.com>
+Subject: Enquiry - REF. B02/7107/N-019-2 - Welding Rod
+To: info@tomag.co.ke
+Content-Type: multipart/alternative; boundary="000000000000d279d6063a1d7475"
+X-ZohoMail-DKIM: pass (identity @gmail.com)
+X-ZohoMail-Owner: <CA+wGGijWU4YJAdQ3JhvBDq1bVzVs73ii0vjJxqPfm62q+2rbMg@mail.gmail.com>+zmo_0_nssl.kisumu@gmail.com
+X-ZM-MESSAGEID: 1752748051368131300
+X-ZohoMail-Status: 1
+
+
+--000000000000d279d6063a1d7475
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+*To,*
+*Tomag Enterprises Ltd*
+*Nairobi*
+*Tel : +254 708 984579*
+
+*REF. B02/7107/N-019-2               ENQUIRY                 Date: - 17th
+JULY, 2025*
+
+Dear Sir,
+
+We are mechanical spare parts supplier to various industries. Please
+arrange to send your quotation for below items considering our further
+supply/trading.
+
+*SR. NO.*
+
+*DESCRIPTION*
+
+UNIT
+
+QTY.
+
+01
+
+MS WELDING ROD 3.25MM FONTARC
+
+KGS
+
+50
+
+02
+
+680 WELDING ROD
+
+KGS
+
+02
+
+
+
+
+
+
+
+
+
+
+
+Along with offer please submit technical sheet, technical catalogue,
+photographs of item,
+
+Overall dimension etc.
+
+Last date for offer mission =E2=80=93 Immediate.
+
+Your urgent reply would be highly appreciated.
+
+Thanks, and best regards,
+
+*NIRMAAN SALES** AND SERVICES LTD.*
+
+*Ekta Patel*
+
+
+*NOTE : At Time Of Offer Submission, Please confirm: *
+
+*1) Make & Material quality/grade.*
+
+*2) Dimension & Size of items.*
+
+*3) Delivery Period.*
+
+*4) Payment Terms.*
+
+*5) Material/Item location.*
+
+
+
+*NIRMAAN SALES **AND* *SERVICES LTD.*
+
+(Group company of VISHAL ENGI =E2=80=93 CHEM, INDIA)
+
+Deals in : Industrial Mechanical, Electrical and Instrumentation Spare Part=
+s
+
+ Add.: PO BOX No. 40100,  Kisumu, Kenya
+
+Tel.:   +254 =E2=80=93 (0)798 364 453
+                          Email: nssl.kisumu@gmail.com
+
+CO. PIN: P052411043K
+
+--000000000000d279d6063a1d7475
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_quote gmail_quote_container"><div dir=
+=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_qu=
+ote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div clas=
+s=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"l=
+tr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote">=
+<div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"=
+gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><=
+div class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div =
+dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail=
+_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr"><div c=
+lass=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=
+=3D"ltr"><div><b><font face=3D"arial black, sans-serif">To,</font></b></div=
+><div dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"gmail_signatu=
+re"><div dir=3D"ltr"><div style=3D"color:rgb(34,34,34)"><font face=3D"arial=
+ black, sans-serif"><b>Tomag Enterprises Ltd</b></font></div><div style=3D"=
+color:rgb(34,34,34)"><b><font face=3D"arial black, sans-serif">Nairobi</fon=
+t></b></div><div style=3D"color:rgb(34,34,34)"><b><font face=3D"arial black=
+, sans-serif">Tel :=C2=A0+254 708 984579</font></b></div><div style=3D"colo=
+r:rgb(34,34,34)"><b><font face=3D"arial black, sans-serif" size=3D"1"><br><=
+/font></b></div><div style=3D"color:rgb(34,34,34)"><p class=3D"MsoNormal" s=
+tyle=3D"line-height:115%;margin:0cm 0cm 8pt;font-size:11pt;font-family:Cali=
+bri,&quot;sans-serif&quot;"><b><span lang=3D"EN-IN" style=3D"font-size:12pt=
+;line-height:115%">REF. B02/7107/N-019-2=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 ENQUIRY=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0 Date: - 17<sup>th</sup> JULY, 2025</span></b><b><span style=3D"font-=
+size:14pt;line-height:115%"></span></b></p><p class=3D"MsoNormal" style=3D"=
+line-height:115%;margin:0cm 0cm 8pt;font-size:11pt;font-family:Calibri,&quo=
+t;sans-serif&quot;"><span lang=3D"EN-IN" style=3D"font-size:12pt;line-heigh=
+t:115%">Dear Sir,<b>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =
+</b></span></p><p class=3D"MsoNormal" style=3D"line-height:115%;margin:0cm =
+0cm 8pt;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span la=
+ng=3D"EN-IN" style=3D"font-size:12pt;line-height:115%">We are mechanical sp=
+are parts supplier to various
+industries.=C2=A0Please arrange to send your quotation for below items
+considering our further supply/trading.=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0 </span></p><table border=3D"1" cellspacing=3D"0" c=
+ellpadding=3D"0" align=3D"left" width=3D"557" style=3D"width:417.95pt;borde=
+r-collapse:collapse;border:none;margin-left:6.75pt;margin-right:6.75pt">
+ <tbody><tr style=3D"height:11.35pt">
+  <td width=3D"54" style=3D"width:40.7pt;border:1pt solid windowtext;paddin=
+g:0cm 5.4pt;height:11.35pt">
+  <p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:115%;font-=
+size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b><span style=3D"fon=
+t-size:12pt;line-height:115%">SR. NO.</span></b></p>
+  </td>
+  <td width=3D"361" style=3D"width:270.9pt;border-top:1pt solid windowtext;=
+border-right:1pt solid windowtext;border-bottom:1pt solid windowtext;border=
+-left:none;padding:0cm 5.4pt;height:11.35pt">
+  <p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:115%;font-=
+size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b><span style=3D"fon=
+t-size:12pt;line-height:115%">DESCRIPTION</span></b></p>
+  </td>
+  <td width=3D"66" style=3D"width:49.65pt;border-top:1pt solid windowtext;b=
+order-right:1pt solid windowtext;border-bottom:1pt solid windowtext;border-=
+left:none;padding:0cm 5.4pt;height:11.35pt">
+  <p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:115%;font-=
+size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-s=
+ize:12pt;line-height:115%">UNIT</span></p>
+  </td>
+  <td width=3D"76" style=3D"width:2cm;border-top:1pt solid windowtext;borde=
+r-right:1pt solid windowtext;border-bottom:1pt solid windowtext;border-left=
+:none;padding:0cm 5.4pt;height:11.35pt">
+  <p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:115%;font-=
+size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-s=
+ize:12pt;line-height:115%">QTY.</span></p>
+  </td>
+ </tr>
+ <tr style=3D"height:28.5pt">
+  <td width=3D"54" style=3D"width:40.7pt;border-right:1pt solid windowtext;=
+border-bottom:1pt solid windowtext;border-left:1pt solid windowtext;border-=
+top:none;padding:0cm 5.4pt;height:28.5pt">
+  <p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"f=
+ont-size:13pt;line-height:115%">01</span></p>
+  </td>
+  <td width=3D"361" style=3D"width:270.9pt;border-top:none;border-left:none=
+;border-bottom:1pt solid windowtext;border-right:1pt solid windowtext;paddi=
+ng:0cm 5.4pt;height:28.5pt">
+  <p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:norma=
+l;background-image:initial;background-position:initial;background-size:init=
+ial;background-repeat:initial;background-origin:initial;background-clip:ini=
+tial;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=
+=3D"EN-IN" style=3D"font-family:Arial,&quot;sans-serif&quot;;background-ima=
+ge:initial;background-position:initial;background-size:initial;background-r=
+epeat:initial;background-origin:initial;background-clip:initial">MS
+  WELDING ROD 3.25MM FONTARC</span><span style=3D"font-family:Arial,&quot;s=
+ans-serif&quot;;background-image:initial;background-position:initial;backgr=
+ound-size:initial;background-repeat:initial;background-origin:initial;backg=
+round-clip:initial"></span></p>
+  </td>
+  <td width=3D"66" style=3D"width:49.65pt;border-top:none;border-left:none;=
+border-bottom:1pt solid windowtext;border-right:1pt solid windowtext;paddin=
+g:0cm 5.4pt;height:28.5pt">
+  <p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"f=
+ont-size:13pt;line-height:115%">KGS</span></p>
+  </td>
+  <td width=3D"76" style=3D"width:2cm;border-top:none;border-left:none;bord=
+er-bottom:1pt solid windowtext;border-right:1pt solid windowtext;padding:0c=
+m 5.4pt;height:28.5pt">
+  <p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"f=
+ont-size:13pt;line-height:115%">50</span></p>
+  </td>
+ </tr>
+ <tr style=3D"height:28.5pt">
+  <td width=3D"54" style=3D"width:40.7pt;border-right:1pt solid windowtext;=
+border-bottom:1pt solid windowtext;border-left:1pt solid windowtext;border-=
+top:none;padding:0cm 5.4pt;height:28.5pt">
+  <p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"f=
+ont-size:13pt;line-height:115%">02</span></p>
+  </td>
+  <td width=3D"361" style=3D"width:270.9pt;border-top:none;border-left:none=
+;border-bottom:1pt solid windowtext;border-right:1pt solid windowtext;paddi=
+ng:0cm 5.4pt;height:28.5pt">
+  <p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:norma=
+l;background-image:initial;background-position:initial;background-size:init=
+ial;background-repeat:initial;background-origin:initial;background-clip:ini=
+tial;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=
+=3D"EN-IN" style=3D"font-family:Arial,&quot;sans-serif&quot;;background-ima=
+ge:initial;background-position:initial;background-size:initial;background-r=
+epeat:initial;background-origin:initial;background-clip:initial">680
+  WELDING ROD</span><span style=3D"font-family:Arial,&quot;sans-serif&quot;=
+;background-image:initial;background-position:initial;background-size:initi=
+al;background-repeat:initial;background-origin:initial;background-clip:init=
+ial"></span></p>
+  </td>
+  <td width=3D"66" style=3D"width:49.65pt;border-top:none;border-left:none;=
+border-bottom:1pt solid windowtext;border-right:1pt solid windowtext;paddin=
+g:0cm 5.4pt;height:28.5pt">
+  <p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"f=
+ont-size:13pt;line-height:115%">KGS</span></p>
+  </td>
+  <td width=3D"76" style=3D"width:2cm;border-top:none;border-left:none;bord=
+er-bottom:1pt solid windowtext;border-right:1pt solid windowtext;padding:0c=
+m 5.4pt;height:28.5pt">
+  <p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:115%;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"f=
+ont-size:13pt;line-height:115%">02</span></p>
+  </td>
+ </tr>
+</tbody></table><p class=3D"MsoNormal" style=3D"line-height:115%;margin:0cm=
+ 0cm 8pt;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span l=
+ang=3D"EN-IN" style=3D"font-size:12pt;line-height:115%">=C2=A0</span></p><p=
+ class=3D"MsoNormal" style=3D"line-height:115%;margin:0cm 0cm 8pt;font-size=
+:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN" styl=
+e=3D"font-size:12pt;line-height:115%">=C2=A0</span></p><p class=3D"MsoNorma=
+l" style=3D"line-height:115%;margin:0cm 0cm 8pt;font-size:11pt;font-family:=
+Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN" style=3D"font-size:12p=
+t;line-height:115%">=C2=A0</span></p><p class=3D"MsoNormal" style=3D"line-h=
+eight:115%;margin:0cm 0cm 8pt;font-size:11pt;font-family:Calibri,&quot;sans=
+-serif&quot;"><span lang=3D"EN-IN" style=3D"font-size:12pt;line-height:115%=
+">=C2=A0</span></p><p class=3D"MsoNormal" style=3D"line-height:115%;margin:=
+0cm 0cm 8pt;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><spa=
+n lang=3D"EN-IN" style=3D"font-size:12pt;line-height:115%">=C2=A0</span></p=
+><p class=3D"MsoNormal" style=3D"line-height:115%;margin:0cm 0cm 8pt;font-s=
+ize:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN" s=
+tyle=3D"font-size:12pt;line-height:115%">Along with offer please submit tec=
+hnical sheet,
+technical catalogue, photographs of item,</span></p><p class=3D"MsoNormal" =
+style=3D"line-height:115%;margin:0cm 0cm 8pt;font-size:11pt;font-family:Cal=
+ibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN" style=3D"font-size:12pt;l=
+ine-height:115%">Overall dimension etc.</span></p><p class=3D"MsoNormal" st=
+yle=3D"line-height:115%;margin:0cm 0cm 8pt;font-size:11pt;font-family:Calib=
+ri,&quot;sans-serif&quot;"><span lang=3D"EN-IN" style=3D"font-size:12pt;lin=
+e-height:115%">Last date for offer mission =E2=80=93 Immediate. </span></p>=
+<p class=3D"MsoNormal" style=3D"line-height:115%;margin:0cm 0cm 8pt;font-si=
+ze:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN" st=
+yle=3D"font-size:12pt;line-height:115%">Your urgent reply would be highly a=
+ppreciated.<br>
+<br>
+</span></p><p style=3D"margin:0cm 0cm 0.0001pt;font-size:11pt;font-family:C=
+alibri,&quot;sans-serif&quot;"><span style=3D"font-size:14pt">Thanks, and b=
+est regards, </span></p><p class=3D"MsoNormal" style=3D"line-height:115%;ma=
+rgin:0cm 0cm 8pt;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"=
+><b><span style=3D"font-size:14pt;line-height:115%;color:rgb(0,176,80)">NIR=
+MAAN SALES</span></b><b><span style=3D"font-size:14pt;line-height:115%">
+AND SERVICES LTD.</span></b></p><p class=3D"MsoNormal" style=3D"line-height=
+:115%;margin:0cm 0cm 8pt;font-size:11pt;font-family:Calibri,&quot;sans-seri=
+f&quot;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p><p class=3D"MsoNormal" style=3D"line-height:115%;margin:0cm 0cm 8pt;fon=
+t-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b><span style=3D"f=
+ont-size:14pt;line-height:115%">Ekta
+Patel</span></b></p><p class=3D"MsoNormal" style=3D"line-height:115%;margin=
+:0cm 0cm 8pt;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b>=
+<span style=3D"font-size:14pt;line-height:115%"><br></span></b></p><p class=
+=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:16.8667px;font-size:=
+11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN" style=
+=3D"font-size:12pt;line-height:18.4px"><b><font color=3D"#ff0000">NOTE : At=
+ Time Of Offer Submission, Please confirm:=C2=A0</font></b></span></p><p cl=
+ass=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:16.8667px;font-si=
+ze:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN" st=
+yle=3D"font-size:12pt;line-height:18.4px"><b><font color=3D"#ff0000">1) Mak=
+e &amp; Material quality/grade.</font></b></span></p><p class=3D"MsoNormal"=
+ style=3D"margin:0cm 0cm 8pt;line-height:16.8667px;font-size:11pt;font-fami=
+ly:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN" style=3D"font-size:=
+12pt;line-height:18.4px"><b><font color=3D"#ff0000">2) Dimension &amp; Size=
+ of items.</font></b></span></p><p class=3D"MsoNormal" style=3D"margin:0cm =
+0cm 8pt;line-height:16.8667px;font-size:11pt;font-family:Calibri,&quot;sans=
+-serif&quot;"><span lang=3D"EN-IN" style=3D"font-size:12pt;line-height:18.4=
+px"><b><font color=3D"#ff0000">3) Delivery Period.</font></b></span></p><p =
+class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:16.8667px;font-=
+size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN" =
+style=3D"font-size:12pt;line-height:18.4px"><b><font color=3D"#ff0000">4) P=
+ayment Terms.</font></b></span></p><p class=3D"MsoNormal" style=3D"margin:0=
+cm 0cm 8pt;line-height:16.8667px;font-size:11pt;font-family:Calibri,&quot;s=
+ans-serif&quot;"><span lang=3D"EN-IN" style=3D"font-size:12pt;line-height:1=
+8.4px"><b><font color=3D"#ff0000">5) Material/Item location.</font></b><br>=
+</span></p><p class=3D"MsoNormal" style=3D"line-height:115%;margin:0cm 0cm =
+8pt;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><br></p><p c=
+lass=3D"MsoNormal" style=3D"line-height:115%;margin:0cm 0cm 8pt;font-size:1=
+1pt;font-family:Calibri,&quot;sans-serif&quot;"><br></p><p class=3D"MsoNorm=
+al" style=3D"line-height:115%;margin:0cm 0cm 8pt;font-size:11pt;font-family=
+:Calibri,&quot;sans-serif&quot;"><b style=3D"font-size:small;font-family:Ca=
+libri,sans-serif"><span lang=3D"EN-US" style=3D"font-family:Arial,sans-seri=
+f;color:rgb(0,176,80)">NIRMAAN SALES=C2=A0</span></b><b style=3D"font-size:=
+small;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-fa=
+mily:Arial,sans-serif;color:rgb(59,56,56)">AND</span></b><b style=3D"font-s=
+ize:small;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"fon=
+t-family:Arial,sans-serif;color:rgb(0,176,80)">=C2=A0</span></b><b style=3D=
+"font-size:small;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=
+=3D"font-family:Arial,sans-serif;color:rgb(59,56,56)">SERVICES LTD.</span><=
+/b></p></div><div style=3D"color:rgb(34,34,34)"><p style=3D"margin:0cm;line=
+-height:normal;border:none;font-family:Calibri,sans-serif"><span lang=3D"EN=
+-US" style=3D"font-family:Arial,sans-serif;color:rgb(59,56,56)">(Group comp=
+any of VISHAL ENGI =E2=80=93 CHEM, INDIA)</span></p><p style=3D"margin:0cm;=
+line-height:normal;border:none;font-family:Calibri,sans-serif"><span lang=
+=3D"EN-US" style=3D"font-family:Arial,sans-serif;color:rgb(0,176,80)">Deals=
+ in :</span><span lang=3D"EN-US" style=3D"font-family:Arial,sans-serif;colo=
+r:black">=C2=A0Industrial Mechanical, Electrical and=C2=A0</span><span lang=
+=3D"EN-US" style=3D"font-family:Arial,sans-serif">I<span style=3D"color:bla=
+ck">nstrumentation=C2=A0</span>S<span style=3D"color:black">pare=C2=A0</spa=
+n>P<span style=3D"color:black">arts</span></span></p><p style=3D"margin:0cm=
+;line-height:normal;border:none;font-family:Calibri,sans-serif"><span lang=
+=3D"EN-US" style=3D"color:black">=C2=A0</span><span lang=3D"EN-US" style=3D=
+"font-family:Arial,sans-serif;color:rgb(0,176,80)">Add.:</span><span lang=
+=3D"EN-US" style=3D"font-family:Arial,sans-serif;color:rgb(0,176,80)">=C2=
+=A0</span><span lang=3D"EN-US" style=3D"font-family:Arial,sans-serif;color:=
+black">PO BOX No. 40100,=C2=A0 Kisumu, Kenya</span></p><p style=3D"margin:0=
+cm;line-height:normal;border:none;font-family:Calibri,sans-serif"><span lan=
+g=3D"EN-US" style=3D"font-family:Arial,sans-serif;color:rgb(0,176,80)">Tel.=
+:</span><span lang=3D"EN-US" style=3D"font-family:Arial,sans-serif;color:rg=
+b(0,176,80)">=C2=A0=C2=A0=C2=A0</span><span lang=3D"EN-US" style=3D"font-fa=
+mily:Arial,sans-serif;color:black">+254 =E2=80=93 (0)798 364 453=C2=A0=C2=
+=A0</span><span lang=3D"EN-US" style=3D"font-family:Arial,sans-serif;color:=
+black">=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 </span><span lang=3D"EN-US" style=3D"font-f=
+amily:Arial,sans-serif;color:rgb(0,176,80)">Email:=C2=A0</span><span lang=
+=3D"EN-US"><a href=3D"mailto:nssl.kisumu@gmail.com" target=3D"_blank"><span=
+ style=3D"font-family:Arial,sans-serif;color:rgb(5,99,193)">nssl.kisumu@gma=
+il.com</span></a></span><span lang=3D"EN-US" style=3D"font-family:Arial,san=
+s-serif;color:blue">=C2=A0=C2=A0</span><span lang=3D"EN-US" style=3D"font-f=
+amily:Arial,sans-serif;color:blue">=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0</span=
+></p><p style=3D"margin:0cm;line-height:normal;border:none;font-family:Cali=
+bri,sans-serif"><span lang=3D"EN-US" style=3D"font-family:Arial,sans-serif;=
+color:rgb(0,176,80)">CO. PIN:</span><span lang=3D"EN-US" style=3D"font-fami=
+ly:Arial,sans-serif;color:rgb(0,176,80)">=C2=A0</span><span lang=3D"EN-US" =
+style=3D"font-family:Arial,sans-serif;color:black">P052411043K</span></p></=
+div></div></div></div></div></div></div></div></div></div></div></div></div=
+></div></div></div></div></div></div></div></div></div></div></div></div></=
+div></div></div></div></div></div></div></div></div></div></div></div></div=
+></div></div>
+
+--000000000000d279d6063a1d7475--

@@ -1,0 +1,111 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of lafarge.com designates 209.85.128.42 as permitted sender) client-ip=209.85.128.42; envelope-from=joseph.oguk.ext@lafarge.com; helo=mail-wm1-f42.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of lafarge.com designates 209.85.128.42 as permitted sender)  smtp.mailfrom=joseph.oguk.ext@lafarge.com;
+	dmarc=pass(p=reject dis=none)  header.from=lafarge.com
+ARC-Seal: i=1; a=rsa-sha256; t=1737695310; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=Kq15/o6RwwbQiPUpkQ7O3ExxYT+WwpD22DqlYOosDGBoWbTB3qADyIeA8RyPsPWDZnp8jBqTcobo1Vbm+P9vNzcbsKOPjkORgMyLEv+EIwNfArH7I8MH0MupZ0+J1AVTihojtTet9E7Nf3L1JM/Ro2zcnuh2G7/rZBBjAWV3tfc=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1737695310; h=Content-Type:Cc:Cc:Date:Date:From:From:MIME-Version:Message-ID:Subject:Subject:Message-Id:Reply-To:To; 
+	bh=xlLSNX1oc3jea6tvSvd10Xp+LrqKDetVkLreVsSXES0=; 
+	b=FzIVesnn96KsVU6BD7EJ0HznAHA8apz6Hxf4vkV75LODI1eck/3L8q9z513XE6z/KoMgmOMG/WECPWsZvnMyaH4ZwG3v0Ar6QbHQiLHm6khJRsvyPsveio55a1cG1RzZVqbqi7k+8Oe58b82pHzUYSjWoaTOmlk9yjHQVTf263s=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of lafarge.com designates 209.85.128.42 as permitted sender)  smtp.mailfrom=joseph.oguk.ext@lafarge.com;
+	dmarc=pass header.from=<joseph.oguk.ext@lafarge.com> (p=reject dis=none)
+Return-Path: <joseph.oguk.ext@lafarge.com>
+Received: from mail-wm1-f42.google.com (mail-wm1-f42.google.com [209.85.128.42]) by mx.zohomail.com
+	with SMTPS id 1737695310546885.1779578380639; Thu, 23 Jan 2025 21:08:30 -0800 (PST)
+Received: by mail-wm1-f42.google.com with SMTP id 5b1f17b1804b1-43626213fffso17915155e9.1
+        for <info@tomag.co.ke>; Thu, 23 Jan 2025 21:08:29 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=lafarge.com; s=google; t=1737695308; x=1738300108; darn=tomag.co.ke;
+        h=cc:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=xlLSNX1oc3jea6tvSvd10Xp+LrqKDetVkLreVsSXES0=;
+        b=VtAX9vkiH9cgcgAoys0OEjhOf/JV6Cvvc7G5Ja3YW0gOxHDbq9n3hrFyFa2WWhhvHB
+         BKgnrQhz6sqc+pF4W+j0L97Q2C7n+l12YdHpm71eCBvqspGD5x3YwYPXX7NFrslEpjFS
+         7tS+f88bFdEVQCRzgHPlh7bWTQi2fYm9KZMz4K7yAyI4nwuD0cdLGbLvliniClEs1IHB
+         G/wz6F3OcClZAxMyvCug0aZ15cAudHBDOw3Ni0BO9n0liP+rfNcrSbVwHXr/dEuxVbbS
+         VSMVzkyz+69739SqDNG8MYs+Z9cgCld378JEGQ85ZvN/lE+RYTdmLZeBV+C01eolBzy2
+         Dg9Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1737695308; x=1738300108;
+        h=cc:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=xlLSNX1oc3jea6tvSvd10Xp+LrqKDetVkLreVsSXES0=;
+        b=KKKwe0JdV3XcBr55Jz0Sc0BUScC+CiZYxsTNVvQHAqFHKrT6NRq6gDEBdE/gdhQQGd
+         XQQGapKTm8Xi4AiXLA6b7vyuzHuJMfyM6gKmkC0rA1qw5wekXkC6Ap9tJRVpSEfoWBAX
+         P9F2hmYdEn3m17c1xiT4DMOri+i2oB798BXEWEybPld0WN7TbG36J7DYzEQumwyeItT+
+         R63xjpJ9rYCZ4mtThQ1JMWtTJWheIGnrrX0pfL4ZQdQZowPydehMFRlWzQDJlp4VdJjT
+         hRMpaiItkPyq0s1gcBwsMOuoAGEH2XfWF7PC8quwdX7wa/cD7zPiB2u+aO2VRVBJnrUB
+         Tj+Q==
+X-Forwarded-Encrypted: i=1; AJvYcCV8e7fv5ARgO54ANw2A+hoX8egXc/AY0N2VzWke7hkgbuTBtJYV366XyJziQTSg8sCBp4dn@tomag.co.ke
+X-Gm-Message-State: AOJu0YyoC6PV4CJoHjo+l2temZA9NOWdvMexWCvSvV7XnvbSVmdUG8p5
+	LZZsyAtXbfCVVoF6kuJFqCONdrVVm5Pz/Ec6qk1WPjKfYOl6gfLuthnPXoBtt/Iw1NJeugCyzWS
+	fDORBaP2ZFX5l7i3+yl7M8Ljh0MNHPyYu/R/vhA==
+X-Gm-Gg: ASbGncvDjfXuI6jZrIQq0xnmhUXoQjliiJ/Dbbt170eJ7fUMgqpyuL27nwCHz74WQLI
+	iBRK0q8Fxob2rcu0Z0bmSP+g7hmT9fUDKQrQQms2zrz7B60AJWeWeZUuzg/8Z1yU=
+X-Received: by 2002:a5d:5f48:0:b0:385:faec:d945 with SMTP id
+ ffacd0b85a97d-38c2226c070mt5320064f8f.9.1737695307928; Thu, 23 Jan 2025
+ 21:08:27 -0800 (PST)
+MIME-Version: 1.0
+From: Joseph Oguk <joseph.oguk.ext@lafarge.com>
+Date: Fri, 24 Jan 2025 08:08:17 +0300
+X-Gm-Features: AWEUYZlJGgsntnf5OrimIu9yUZCKA7w-HgXrmPHIQ2e18cxGK5NCmymjmJ9uqZU
+Message-ID:<CADKXugQxy5RvjHzHeCCrK_t5vQBaCwCiPLQAGxCDr4+o3wfH3w@mail.gmail.com>
+Subject: Request for Quotation- 12808981
+Cc: Tormoi KIPRONO <ceasar.kiprono@lafarge.com>
+Content-Type: multipart/alternative; boundary="000000000000907f35062c6cb7f5"
+Bcc: info@tomag.co.ke
+X-ZohoMail-DKIM: pass (identity @lafarge.com)
+X-ZM-MESSAGEID: 1737695314765018600
+X-ZohoMail-Status: 1
+
+
+--000000000000907f35062c6cb7f5
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Sir or Madam,
+
+Herebellow, we submit for your attention the following Request for
+Quotation for
+
+
+*CONTACTOR TELEMECANICA TIPO LC1D115F7 CON BOBINA A110 V. 50 HZ.*
+
+*QTY 2*
+
+
+Please note that the start date for application is 24.01.2025 and closing
+date for
+   submission of your answer to our Request for Quotation is  27.01.2025.
+
+   Please confirm  the receipt of the attached information and your
+   willingness to participate in our tendering, no later than the above
+date.
+
+Thanks & Regards
+Joseph Oguk
+Procurement
+Bamburi Cement
+
+--000000000000907f35062c6cb7f5
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Sir or Madam,<br>=C2=A0<br>Herebellow, we submit for =
+your attention the following Request for Quotation for<div><br></div><div><=
+b>CONTACTOR TELEMECANICA TIPO LC1D115F7 CON BOBINA A<br>110 V. 50 HZ.</b></=
+div><div><b><br></b></div><div><b>QTY 2</b></div><div><br><div><br></div><d=
+iv>Please note that the start date for application is 24.01.2025 and closin=
+g date for<br>=C2=A0 =C2=A0submission of your answer to our Request for Quo=
+tation is=C2=A0 27.01.2025.<br><br>=C2=A0 =C2=A0Please confirm=C2=A0 the re=
+ceipt of the attached information and your<br>=C2=A0 =C2=A0willingness to p=
+articipate in our tendering, no later than the above date.<br>=C2=A0<br>Tha=
+nks &amp; Regards<br>Joseph Oguk</div></div><div>Procurement=C2=A0</div><di=
+v>Bamburi Cement</div></div>
+
+--000000000000907f35062c6cb7f5--

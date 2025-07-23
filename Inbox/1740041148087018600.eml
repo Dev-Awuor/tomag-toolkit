@@ -1,0 +1,267 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of bounce.s11.mc.pd25.com designates 13.111.74.31 as permitted sender) client-ip=13.111.74.31; envelope-from=bounce-83082_HTML-1029507615-122757-514021696-51849@bounce.s11.mc.pd25.com; helo=ij31.mta.exacttarget.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=sales@businesscom.africa;
+	spf=pass (zohomail.com: domain of bounce.s11.mc.pd25.com designates 13.111.74.31 as permitted sender)  smtp.mailfrom=bounce-83082_HTML-1029507615-122757-514021696-51849@bounce.s11.mc.pd25.com;
+	dmarc=pass(p=reject dis=none)  header.from=businesscom.africa
+ARC-Seal: i=1; a=rsa-sha256; t=1740041144; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=G8BLwapkEHAcB4CKiucC22LLgAz2o2WyXv1JN2ygXajVrQtsIpcoe4F9sInbqcGZ79ARBo1JyCq0+KYN6k+pWr1q8MET47wGqEiLFEn9DRg02X7z4eR8rCl4KOxqPF5KGj3GBEqorHU2W2XM1IZoljSY8xMYo54XLH7mLMcRGU8=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1740041144; h=Content-Type:Date:Date:From:From:List-Help:List-Unsubscribe:MIME-Version:Message-ID:Reply-To:Reply-To:Subject:Subject:To:To:Message-Id:Cc; 
+	bh=hTMhVyyvCWIcKpfYMI69oYxqFREEWwv/lIYgFEN44x8=; 
+	b=Qj7aRzrPQ5OwyMZ5MSmJ6beP/Ow6Owc6LVAXHLSpQQAq0HpfvB17Ly/oG9jDCb+YEVgkf0z6YcmTMRUi7qYCp+jQjIDdtY7RXkY1O1XlMR11SYDlQxh4TOk76RSO/EMlswfKiyzxgR5i8ZQ5hJQWVHjfrqMWoHVEzY0AYX1aMps=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass  header.i=sales@businesscom.africa;
+	spf=pass (zohomail.com: domain of bounce.s11.mc.pd25.com designates 13.111.74.31 as permitted sender)  smtp.mailfrom=bounce-83082_HTML-1029507615-122757-514021696-51849@bounce.s11.mc.pd25.com;
+	dmarc=pass header.from=<sales@businesscom.africa> (p=reject dis=none)
+Return-Path: <bounce-83082_HTML-1029507615-122757-514021696-51849@bounce.s11.mc.pd25.com>
+Received: from ij31.mta.exacttarget.com (ij31.mta.exacttarget.com [13.111.74.31]) by mx.zohomail.com
+	with SMTPS id 1740041144705395.86196331011786; Thu, 20 Feb 2025 00:45:44 -0800 (PST)
+Received: by ij31.mta.exacttarget.com id hmrlrg2fmd4g for <info@tomag.co.ke>; Thu, 20 Feb 2025 08:45:42 +0000 (envelope-from <bounce-83082_HTML-1029507615-122757-514021696-51849@bounce.s11.mc.pd25.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=200608; d=businesscom.africa;
+ h=From:To:Subject:Date:List-Help:MIME-Version:List-Unsubscribe:
+ List-Unsubscribe-Post:Reply-To:Message-ID:Content-Type;
+ i=sales@businesscom.africa;
+ bh=hTMhVyyvCWIcKpfYMI69oYxqFREEWwv/lIYgFEN44x8=;
+ b=UCc+cFzzIP7FcRaKE5Msvd/BRNZ7k5RjnHBukRrDN2IvP1jATQjj1eFoS/2X++Z2K51nlMLS0k0x
+   OxVjmoGu5/YfTUN96C/sWXZBZX6pybrmjpb0jpeDC85brD0uYLd4amE6U4jJg4qW2V4r5JvyJne8
+   DrlOlfcvBuE3Npu5KRg=
+From: "BusinessCom Sales Team" <sales@businesscom.africa>
+To: <info@tomag.co.ke>
+Subject: =?UTF-8?B?RG9u4oCZdCB0YWtlIG91ciB3b3JkIGZvciBpdA==?=
+Date: Thu, 20 Feb 2025 02:45:42 -0600
+List-Help: <https://cl.s11.exct.net/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiI1MTQwMjE2OTYiLCJzIjoiMTAyOTUwNzYxNSIsImxpZCI6IjgzMDgyIiwiaiI6IjEyMjc1NyIsImpiIjoiNTE4NDkiLCJkIjoiMTEwMDQ2In0.yq7p2fjutLYtwCA8Rk-bzUySDZBsVeVTBpwbS05hByg>
+MIME-Version: 1.0
+x-messageKey: undelivered+969613+1290227629@pd25.com
+X-Delivery: Transactional
+X-SFMC-Stack: 11
+x-job: 514021696_122757
+List-Unsubscribe: <https://www2.businesscom.africa/listUnsubscribeHeader/u/969613/c8bc322dbcff3ab1976162bf4e9884eebfd875fb2eaff4102f6dc6d08f182d31/1290227629>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Report-Abuse-To: abuse@pd25.com
+Reply-To: sales@businesscom.africa
+Message-ID:<08bbe873-f143-4861-8cd0-6d140807f4db@atl1s11mta99.xt.local>
+Content-Type: multipart/alternative;
+	boundary="UYAmYwwrThmn=_?:"
+X-ZohoMail-DKIM: pass (identity sales@businesscom.africa)
+X-ZohoMail-Owner: <08bbe873-f143-4861-8cd0-6d140807f4db@atl1s11mta99.xt.local>+zmo_0_bounce-83082_HTML-1029507615-122757-514021696-51849@bounce.s11.mc.pd25.com
+X-ZM-MESSAGEID: 1740041148087018600
+X-ZohoMail-Status: 1
+
+
+This is a multi-part message in MIME format.
+
+--UYAmYwwrThmn=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+
+			Dear Tom ,
+
+We could talk all day about the endless possibilities of Google Workspace and our unique solutions, but as the saying goes, “the proof is in the pudding.” So, let’s skip the talk and share some of our favorite customer success stories!
+
+These real-life examples highlight the incredible benefits of Google Workspace and our commitment to solving problems. From boosting productivity to enhancing collaboration and securing critical data, these stories show how businesses like yours are thriving with the right tools and support.
+
+Discover how:
+
+				Teams save hours each week with Google Workspace’s suite of innovative apps
+
+				Businesses streamline workflows and improve collaboration.
+
+				Organizations secure their data and stay ahead of security threats.
+
+We hope they inspire you as much as they’ve inspired us!
+
+​​
+
+Planhotel leverages Google Workspace to enhance collaboration 
+
+			 
+
+			Check it out
+
+https://www2.businesscom.africa/e/969613/l-969613-2024-10-09-63ycg/6dgjg/1290227629/h/n7EqvpIyiWTR5w2JSaUikkdgasY6qfvvti0Q859OBj0
+			 
+
+			 
+
+			 
+
+Timber World masters project management with Google Workspace
+
+			 
+
+			Check it out
+
+https://www2.businesscom.africa/e/969613/l-969613-2024-12-02-68hsm/6dgjk/1290227629/h/n7EqvpIyiWTR5w2JSaUikkdgasY6qfvvti0Q859OBj0
+			 
+
+			 
+
+			Smart Printers protect their business with Google Workspace
+
+			 
+
+			Check it out
+
+https://www2.businesscom.africa/e/969613/l-969613-2024-10-29-65sxy/6dgny/1290227629/h/n7EqvpIyiWTR5w2JSaUikkdgasY6qfvvti0Q859OBj0
+			 
+
+			 
+
+			 
+
+			​​​​​If you’re considering an upgrade register for our next webinar to explore the endless possibilities of Google Workspace with our team of experts!
+
+			 
+
+			      
+
+			 
+
+			Register
+
+https://www2.businesscom.africa/e/969613/l-969613-2025-01-14-6c6v2/6dgjc/1290227629/h/n7EqvpIyiWTR5w2JSaUikkdgasY6qfvvti0Q859OBj0
+			 
+
+			 
+
+			 
+
+			     
+
+			     
+
++254 101 355 350   |   +254 700 784 165 | sales@businesscom.africa | Trance Towers, Tsavo Road- Nairobi, Kenya
+
+			© BusinessCom 2024 | All rights reserved.If you nolonger wish to receive emails from us, click here
+
+https://www2.businesscom.africa/unsubscribeConfirm/969613/c8bc322dbcff3ab1976162bf4e9884eebfd875fb2eaff4102f6dc6d08f182d31/1290227629
+
+
+
+--UYAmYwwrThmn=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html;" /><title>Email Newsletter</title></head><body style="font-family: Helvetica, Arial, sans-serif; font-size: 12px">
+<div style="text-align: center;"><img alt="" border="0" height="197" src="https://www2.businesscom.africa/l/969613/2024-08-14/5xvfc/969613/1723642707u03o2yww/Lifecycle_2_Email_1_Header__800_x_250_px_.png" style="width: 630px; height: 197px; border-width: 0px; border-style: solid;" width="630"></div>
+
+<table align="center" border="0" cellpadding="1" cellspacing="1" class="pd-table" style="width: 642.271px;">
+	<tbody>
+		<tr>
+			<td colspan="5" style="text-align: justify; vertical-align: top; width: 625.271px;">
+			<p><br>
+			<span style="font-family:Tahoma,Geneva,sans-serif;"><span style="font-size:14px;">Dear&nbsp;Tom ,</span></span></p>
+
+			<p style="line-height:1.38; margin-top:16px; margin-bottom:16px"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="font-size:14px;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">We could talk all day about the endless possibilities of Google Workspace and our unique solutions, but as the saying goes, “the proof is in the pudding.” So, let’s skip the talk and share some of our favorite customer success stories!</span></span></span></span></span></span></p>
+
+			<p style="line-height:1.38; margin-top:16px; margin-bottom:16px"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="font-size:14px;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">These real-life examples highlight the incredible benefits of Google Workspace and our commitment to solving problems. From boosting productivity to enhancing collaboration and securing critical data, these stories show how businesses like yours are thriving with the right tools and support.</span></span></span></span></span></span></p>
+
+			<p style="line-height:1.38"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="font-size:14px;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Discover how:</span></span></span></span></span></span></p>
+
+			<ul>
+				<li aria-level="1" style="list-style-type:disc"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="font-size:14px;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Teams save hours each week with Google Workspace’s suite of innovative apps</span></span></span></span></span></span></li>
+				<li aria-level="1" style="list-style-type:disc"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="font-size:14px;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Businesses streamline workflows and improve collaboration.</span></span></span></span></span></span></li>
+				<li aria-level="1" style="list-style-type:disc"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="font-size:14px;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Organizations secure their data and stay ahead of security threats.</span></span></span></span></span></span></li>
+			</ul>
+
+			<p style="line-height:1.38; margin-top:16px; margin-bottom:16px"><span style="font-family:Tahoma,Geneva,sans-serif;"><span style="font-size:14px;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">We hope they inspire you as much as they’ve inspired us!</span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="5" style="text-align: justify; vertical-align: top; width: 625.271px;">
+			<p style="line-height: 1.38; text-align: center;"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Poppins,sans-serif"><span style="color:#545454"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none"><img alt="" border="0" height="333" src="https://www2.businesscom.africa/l/969613/2025-01-28/6dgj2/969613/1738055968nCTnuf3Y/Lifecycle_4_Email_4image_1.png" style="width: 512px; height: 333px; border-width: 0px; border-style: solid;" width="512">​​</span></span></span></span></span></span></p>
+
+			<p style="line-height: 1.38; text-align: center;"><span style="font-size:18px;"><span style="color:#545454;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">Planhotel leverages Google Workspace to enhance collaboration </span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="5" style="text-align: justify; vertical-align: top; width: 625.271px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: justify; vertical-align: top; width: 239px;">&nbsp;</td>
+			<td style="vertical-align: middle; width: 119px; text-align: center; background-color: rgb(176, 37, 38); height: 30px;"><span style="font-size:18px;"><span style="font-family:Arial,Helvetica,sans-serif;"><strong><a href="https://www2.businesscom.africa/e/969613/l-969613-2024-10-09-63ycg/6dgjg/1290227629/h/n7EqvpIyiWTR5w2JSaUikkdgasY6qfvvti0Q859OBj0" style="text-decoration:none;"><span style="color:#ffffff;">Check it out</span></a></strong></span></span></td>
+			<td colspan="2" style="text-align: justify; vertical-align: top; width: 258px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="5" style="text-align: justify; vertical-align: top; width: 625.271px;"><br>
+			&nbsp;</td>
+			<td colspan="5" style="text-align: justify; vertical-align: top; width: 0px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="5" style="vertical-align: top; width: 625.271px; text-align: center;">
+			<p><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:18px;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="color:#545454"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none"><img alt="" border="0" height="482" src="https://www2.businesscom.africa/l/969613/2025-01-28/6dgmv/969613/1738057499bGboW0dv/Lifecycle_4_Email_4image_2.png" style="height: 482px; width: 500px; border-width: 0px; border-style: solid;" width="500"></span></span></span></span></span></span></span></p>
+
+			<p><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:18px;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="color:#545454"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">Timber World masters project management with Google Workspace</span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="5" style="vertical-align: top; width: 625.271px; text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: justify; vertical-align: top; width: 239px;">&nbsp;</td>
+			<td style="vertical-align: middle; width: 119px; text-align: center; background-color: rgb(176, 37, 38); height: 30px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:18px;"><a href="https://www2.businesscom.africa/e/969613/l-969613-2024-12-02-68hsm/6dgjk/1290227629/h/n7EqvpIyiWTR5w2JSaUikkdgasY6qfvvti0Q859OBj0" style="text-decoration:none"><span style="color:#ffffff;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">Check it out</span></span></span></span></span></a></span></span></td>
+			<td colspan="2" style="text-align: justify; vertical-align: top; width: 258px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="5" style="text-align: justify; vertical-align: top; width: 625.271px;"><br>
+			&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="5" style="text-align: justify; vertical-align: top; width: 625.271px;">
+			<p style="text-align: center;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:18px;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="color:#545454"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none"><img alt="" border="0" height="417" src="https://www2.businesscom.africa/l/969613/2025-01-28/6dgmy/969613/1738057615ZYcsDcIf/Lifecycle_4_Email_4image_3.png" style="width: 512px; height: 417px; border-width: 0px; border-style: solid;" width="512"></span></span></span></span></span></span></span></p>
+
+			<p><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:18px;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="color:#545454"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">Smart Printers protect their business with Google Workspace</span></span></span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="5" style="text-align: justify; vertical-align: top; width: 625.271px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: justify; vertical-align: top; width: 239px;">&nbsp;</td>
+			<td style="vertical-align: middle; width: 119px; text-align: center; background-color: rgb(176, 37, 38); height: 30px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:18px;"><a href="https://www2.businesscom.africa/e/969613/l-969613-2024-10-29-65sxy/6dgny/1290227629/h/n7EqvpIyiWTR5w2JSaUikkdgasY6qfvvti0Q859OBj0" style="text-decoration:none"><span style="color:#ffffff;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">Check it out</span></span></span></span></span></a></span></span></td>
+			<td colspan="2" style="text-align: justify; vertical-align: top; width: 258px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="5" style="text-align: justify; vertical-align: top; width: 625.271px;"><br>
+			&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="5" style="text-align: justify; vertical-align: top; width: 625.271px;">
+			<div><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="color:#545454"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">​​​​​</span></span></span></span></span></span></span><span style="font-size:18px;"><span style="font-variant: normal; white-space: pre-wrap;"><span style="font-family:Poppins,sans-serif"><span style="color:#545454"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">If you’re considering an upgrade register for our next webinar to explore the endless possibilities of Google Workspace with our team of experts!</span></span></span></span></span></span></span></div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="5" style="text-align: justify; vertical-align: top; width: 625.271px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="width: 152px; text-align: center; background-color: rgb(255, 255, 255); height: 25px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp; &nbsp; &nbsp;&nbsp;</span></td>
+			<td style="width: 83px; text-align: center; background-color: rgb(255, 255, 255); height: 25px;">&nbsp;</td>
+			<td style="width: 119px; background-color: rgb(176, 37, 38); height: 30px; vertical-align: middle; text-align: center;"><span style="font-size:18px;"><span style="font-family:Arial,Helvetica,sans-serif;"><a href="https://www2.businesscom.africa/e/969613/l-969613-2025-01-14-6c6v2/6dgjc/1290227629/h/n7EqvpIyiWTR5w2JSaUikkdgasY6qfvvti0Q859OBj0" style="text-decoration:none;"><span style="color:#ffffff;"><strong>Register</strong></span></a></span></span></td>
+			<td style="width: 71px; text-align: center; background-color: rgb(255, 255, 255); height: 25px;">&nbsp;</td>
+			<td style="width: 182.271px; text-align: center; background-color: rgb(255, 255, 255); height: 25px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="5" style="text-align: center; width: 625.271px;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="5" style="text-align: center; width: 625.271px;">&nbsp;<img align="left" alt="" border="0" height="100" src="https://www2.businesscom.africa/l/969613/2024-04-29/5ljkf/969613/17143926192FOFPPbG/Google_Cloud_partner_logo.png" style="width: 100px; height: 100px; float: left; border-width: 0px; border-style: solid;" width="100">&nbsp; &nbsp;&nbsp;<br>
+			<br>
+			<img alt="" border="0" height="34" src="https://www2.businesscom.africa/l/969613/2023-01-18/462mh/969613/1674032538p70tibHc/BCS_Main_Logo__500A.png" style="width: 110px; height: 34px; border-width: 0px; border-style: solid;" width="110">&nbsp; &nbsp; &nbsp;<img align="right" alt="" border="0" height="37" src="https://www2.businesscom.africa/l/969613/2024-04-30/5lp21/969613/1714466322FAtUNEzP/Salesforce_Partner_Logo.png" style="width: 90px; height: 37px; border-width: 0px; border-style: solid; float: right;" width="90"></td>
+		</tr>
+		<tr>
+			<td colspan="5" style="text-align: center; width: 625.271px;">
+			<p><span style="font-size:12px;"><span style="color:#545454;"><span style="font-family:Tahoma,Geneva,sans-serif;">+254 101 355 350 &nbsp; | &nbsp; +254 700 784 165&nbsp;| sales@businesscom.africa | Trance Towers, Tsavo Road- Nairobi, Kenya</span></span><br>
+			<span style="font-family:Tahoma,Geneva,sans-serif;"><span style="color:#545454;">© BusinessCom 2024 | All rights reserved.If you nolonger wish to receive emails from us</span>,&nbsp;<a href="https://www2.businesscom.africa/unsubscribeConfirm/969613/c8bc322dbcff3ab1976162bf4e9884eebfd875fb2eaff4102f6dc6d08f182d31/1290227629" rel="nofollow,noreferrer" style="color:#545454;">click here</a></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<img alt="" src="https://www2.businesscom.africa/r/969613/1/1290227629/open/1" /></body></html>
+
+--UYAmYwwrThmn=_?:--
+

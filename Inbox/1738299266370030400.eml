@@ -1,0 +1,112 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of lafarge.com designates 209.85.128.54 as permitted sender) client-ip=209.85.128.54; envelope-from=joseph.oguk.ext@lafarge.com; helo=mail-wm1-f54.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of lafarge.com designates 209.85.128.54 as permitted sender)  smtp.mailfrom=joseph.oguk.ext@lafarge.com;
+	dmarc=pass(p=reject dis=none)  header.from=lafarge.com
+ARC-Seal: i=1; a=rsa-sha256; t=1738299263; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=AOAdB/gj49ZTxxJX7gWSTGocv9Pd9krpBfG1RfHLcN5EluPgzdGRNZCjs6Hf8r2ofvIK847LkjgJuSGNN+QAPpXuB+7jC7fph9vuD7gOHAZxk5fRe+wBRVP5cU1WMsp7YU07wRwmDYdatCUUpNBJvZW9zc/uHoZSbXLbM1EmWwM=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1738299263; h=Content-Type:Cc:Cc:Date:Date:From:From:MIME-Version:Message-ID:Subject:Subject:Message-Id:Reply-To:To; 
+	bh=1dajjNMUoe5PJ5vfVGVDTJMY8UBuxraagRPGW9pk0fA=; 
+	b=cElVm7fEVwI80agiz1t5qJ0qtlIVRQUWYhrVdsaChcTgw+ek7H4qa6yh5JYV3DzM+9hhZ77AIZyTVO1Ntg1NRoDfhxs0p6yO/Tgtdp8GOkknv7ntqn3r2OlPMk+DcNgVCY22VvGdNyOEG/P13xord1ONCC1n+dT7aWp6+cdn1kY=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of lafarge.com designates 209.85.128.54 as permitted sender)  smtp.mailfrom=joseph.oguk.ext@lafarge.com;
+	dmarc=pass header.from=<joseph.oguk.ext@lafarge.com> (p=reject dis=none)
+Return-Path: <joseph.oguk.ext@lafarge.com>
+Received: from mail-wm1-f54.google.com (mail-wm1-f54.google.com [209.85.128.54]) by mx.zohomail.com
+	with SMTPS id 1738299263758399.6185621823697; Thu, 30 Jan 2025 20:54:23 -0800 (PST)
+Received: by mail-wm1-f54.google.com with SMTP id 5b1f17b1804b1-4361b6f9faeso9461295e9.1
+        for <info@tomag.co.ke>; Thu, 30 Jan 2025 20:54:22 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=lafarge.com; s=google; t=1738299262; x=1738904062; darn=tomag.co.ke;
+        h=cc:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=1dajjNMUoe5PJ5vfVGVDTJMY8UBuxraagRPGW9pk0fA=;
+        b=esYhh6Ks8xoH8xX5d/yl+7KlgnzGvO7DI+BRS7eqQSCuAQeCHWD3u9DeQJWyuL2yYn
+         ZFbqh3ZpdvlKiNzYLlrhJISDgSceIO2dQci1TxiFhpKivOxfGzEC7WJaVsQJlUpbxuYg
+         QM/7BUEZeItag7OzqMy9FStvdzvoWSsa52RDlAQkOCZivzCs96xSjuJOargMj5rnJdvH
+         MdLoGNwN7dF9c6IPQdY83zHEA0EgCr5Oje8lXSyqqSNJMj2NuPXoFD16OZAwrJSD2ul/
+         C3Vok4JZ/SYc8ukfLV9cw483Rr1/D9iMH43D2YdZfryT6TP4iBCcOTPJErotv5NO7EY1
+         FLOA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1738299262; x=1738904062;
+        h=cc:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=1dajjNMUoe5PJ5vfVGVDTJMY8UBuxraagRPGW9pk0fA=;
+        b=ALVVOgjBF74owdc8WdXwZH7CyaKTBM2tVDVeM1rvxSkfkGJz3OOYILG7y0KrBmqYmS
+         VDNgsnJiuVZpponc5SwBtuEW9OxK+q1dxI5cdFe7zl2KdtfnxcRsyo0cnuFbvKKkjbxZ
+         eVaIoUiJJK2Ojfx2SfRv0O+jMfARDvFYHdeIWtZa32yu+3fHTFGhj0KqCIbY7Mx2omnC
+         TTaJuz9mxPlvuMDYyuAQq37fZDiqAi6JURcHn5kSRPzHDkpyba0LbZW2+pavn+3FBhqw
+         bgvMTTqgusF9zbM/VV0BiMhIJJuT7nUuFdVHBs+wJhY+Ln6RYKBOP8sWIhVJH7vBwRih
+         h6ZA==
+X-Forwarded-Encrypted: i=1; AJvYcCWSvvTd0DnjOmb51R8Sx3f5fxZxTVJmrcGXl6XMUVMvyFzAbXwlOulccbsQyTGYS+4fSdnP@tomag.co.ke
+X-Gm-Message-State: AOJu0Yw0rpee/vgz8r/GIOqQ52ciFWqEbT8xbBu9W5wczjvpwcHsFNGR
+	mgkdb2ooIIhurT1qThz5EVWJVXIpwCoWc6zN3hPrMEskLPntLoIeryw4ZMGN2qXrePQmb3/weSN
+	Mv3Gubt/C0gSrWgRSXN2GJ1GFhq+gUkjnlf7Q8g==
+X-Gm-Gg: ASbGncvM6K++tBZ+Sj1jb4S1KqN/MbSejW5kpaSj9eouYYAtb/dRYHoinVuBTyGr9Rj
+	eUkWvLC1HFQXO1piK8xSqWZQYcY4ayh+a95NlSSsOFwxLKI1NHNzibNGjhxTa3fuoHA6lcXyQWA
+	==
+X-Received: by 2002:a05:600c:4f8e:b0:436:1b0b:2633 with SMTP id
+ 5b1f17b1804b1-438e16ea5edmt46314845e9.9.1738299261617; Thu, 30 Jan 2025
+ 20:54:21 -0800 (PST)
+MIME-Version: 1.0
+From: Joseph Oguk <joseph.oguk.ext@lafarge.com>
+Date: Fri, 31 Jan 2025 07:54:10 +0300
+X-Gm-Features: AWEUYZmM6SqjHykoSEyHaA2fmeTmP8l33KaLn3DdqqUqUx8i0hQWwLmxnWF4H7A
+Message-ID:<CADKXugQzKHjb-8Ywp9Vf+k6N=0_t0zCVHAuFnnFQx7o8D2s5hw@mail.gmail.com>
+Subject: RFQ 12851399
+Cc: Tormoi KIPRONO <ceasar.kiprono@lafarge.com>
+Content-Type: multipart/alternative; boundary="000000000000018617062cf9563c"
+Bcc: info@tomag.co.ke
+X-ZohoMail-DKIM: pass (identity @lafarge.com)
+X-ZM-MESSAGEID: 1738299266370030400
+X-ZohoMail-Status: 1
+
+
+--000000000000018617062cf9563c
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Sir or Madam,
+
+Herebellow, we submit for your attention the following Request for
+Quotation for:
+
+*Lamp;Type:LED Floodlight;Power:50W;Voltage:240V/50Hz;Current:AC;Size of
+screw:Mounting Bracket;Other specs:CERAMIC, 70lms/watt, 290mm*
+
+*QTY 5*
+
+Please note that the start date for application is 31.01.2025 and closing
+date for
+   submission of your answer to our Request for Quotation is  03.02.2025.
+
+   Please confirm  the receipt of the attached information and your
+   willingness to participate in our tendering, no later than the above
+date.
+
+Thanks & Regards
+Joseph Oguk
+Procurement
+Bamburi Cement
+
+--000000000000018617062cf9563c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Sir or Madam,<br>=C2=A0<br>Herebellow, we submit for =
+your attention the following Request for Quotation for:<div><br></div><div>=
+<b>Lamp;Type:LED Floodlight;Power:50W;Voltage:240V/50Hz;Current:AC;Size of =
+screw:Mounting Bracket;Other specs:CERAMIC, 70lms/watt, 290mm</b></div><div=
+><b><br></b></div><div><b>QTY 5</b></div><div><b><br></b></div><div>Please =
+note that the start date for application is 31.01.2025 and closing date for=
+<br>=C2=A0 =C2=A0submission of your answer to our Request for Quotation is=
+=C2=A0 03.02.2025.<br><br>=C2=A0 =C2=A0Please confirm=C2=A0 the receipt of =
+the attached information and your<br>=C2=A0 =C2=A0willingness to participat=
+e in our tendering, no later than the above date.<br>=C2=A0<br>Thanks &amp;=
+ Regards<br>Joseph Oguk</div><div>Procurement=C2=A0</div><div>Bamburi Cemen=
+t</div></div>
+
+--000000000000018617062cf9563c--

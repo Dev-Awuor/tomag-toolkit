@@ -1,0 +1,102 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of lafarge.com designates 209.85.221.50 as permitted sender) client-ip=209.85.221.50; envelope-from=joseph.oguk.ext@lafarge.com; helo=mail-wr1-f50.google.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of lafarge.com designates 209.85.221.50 as permitted sender)  smtp.mailfrom=joseph.oguk.ext@lafarge.com;
+	dmarc=pass(p=reject dis=none)  header.from=lafarge.com
+ARC-Seal: i=1; a=rsa-sha256; t=1738929352; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=HjGVN3hzzvIpnXSEOgbiEBoaldYeFYTOjd+mufyEyCxa6nzVOa+qZX1SdDSJGzQorPPTT1kRwZFiJMdzW44AVuii45exnsYZmKyywmvNfDkOuObDP2Cn9D6GT4fyhqHoiWAOYxX24Iu7+MfcQnm+DNnqIDzlIaM26AJx22mzvPU=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1738929352; h=Content-Type:Date:Date:From:From:MIME-Version:Message-ID:Subject:Subject:To:To:Message-Id:Reply-To:Cc; 
+	bh=lxN4bxV7DbiQ8kiPvqHjaVIf6nExsVlkxDQYjwAw4u8=; 
+	b=gF4mbw9j+7llA202VR0/8UcX4i9rxxVrNiE2dsPz3mbIMciDW9VPa0a9MVYYDePV1Pbtnx3gBXpHp38e5npaiQ8owg/LDL3qKtsMSxSbkOmEKD1TeCkLNG5y+RO4pCrmMb2w7y7+pm6y3M+mnnAHzIw+FKVFyOSdS9DgHdLKGlY=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of lafarge.com designates 209.85.221.50 as permitted sender)  smtp.mailfrom=joseph.oguk.ext@lafarge.com;
+	dmarc=pass header.from=<joseph.oguk.ext@lafarge.com> (p=reject dis=none)
+Return-Path: <joseph.oguk.ext@lafarge.com>
+Received: from mail-wr1-f50.google.com (mail-wr1-f50.google.com [209.85.221.50]) by mx.zohomail.com
+	with SMTPS id 1738929352902176.67419844945368; Fri, 7 Feb 2025 03:55:52 -0800 (PST)
+Received: by mail-wr1-f50.google.com with SMTP id ffacd0b85a97d-38dc6d9b292so437045f8f.2
+        for <info@tomag.co.ke>; Fri, 07 Feb 2025 03:55:52 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=lafarge.com; s=google; t=1738929351; x=1739534151; darn=tomag.co.ke;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=lxN4bxV7DbiQ8kiPvqHjaVIf6nExsVlkxDQYjwAw4u8=;
+        b=FcNeQuqYaPYnnAf3BK4UKSpELyd6q4en4aJ3uwDyFsQzqO4OmqO07FuEZmY0NWu0aN
+         CQJQBz8lnWusMCjIQSwl8zYzX24eSy7SXBeRA7iAS+5ms2lNPIXgEeZqnraPY49NzmBN
+         54IKSfbCi57CUOY67d9oJAm6Y5Mle1O9zhlGu1anNsvS6tKgT90Q0GJg2vsqsbow7XHX
+         Q72vYpYCR2yiwJidaiLWtpvICT9GDtwN/NVie2VZOcM4gKpCNnKtF6hoa1y6WMqI9ade
+         cLAlMHAM0fAibpOtpldda0jDokFxwLohxM82JTwZy4185jagUJBKZ5ySW7S9bPy+622M
+         sj3w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1738929351; x=1739534151;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=lxN4bxV7DbiQ8kiPvqHjaVIf6nExsVlkxDQYjwAw4u8=;
+        b=cdPVqn76mdFAJeZQV4+sMjyZazQwoiPDLcDNKBuwyapfH5LURRl3NpUunaVYgcNlRQ
+         MwZgNz+tkmWKvg3XymNoQTtRLU3yiNpD3Dx+Mu+oRL9PQNA58AOSkNIzwBEMRVrQ3yVo
+         IFRBR6GglsRu/iIZUY/W6V4IQWmyBqvUG53iuE396zIkXV/V2ioCM9yW1lXfnr5jzfrH
+         5Qkh2ie2UYHcYDIsI1h7BL2Uj2d2PmMwYD6XVstTKYc8saOw5qreFPdgNQpM259HbYtS
+         aFjwMAnbOFGvnQ347KDtiw+K6BmMnMVxmOeiqYw4TNqjuFq1BjD2zJrasoYwAQCTP6Mu
+         8yOg==
+X-Forwarded-Encrypted: i=1; AJvYcCVTNhFKLwS/fIiy2FiPHU+dmmlxlDFlaCq8aRtoGW8HxfJYpu80aWfqaz+sGkoCe0A8pwLQ@tomag.co.ke
+X-Gm-Message-State: AOJu0YyWrOyCxPrWNMLhoFVPB5LI2ghwu0PYX8UIxyja2fSqpC7oiIeY
+	cay8j7PuSxdTFTcJWZ6/M++ewZrC8I7BD28bGGBeoF9nskYnLyn4OjJXzbAsjNdJTxhrOR09pFh
+	mw0FNz66mRyVERLNe/rg9rlV3NXrhWcMGa/6lYg==
+X-Gm-Gg: ASbGncvHZw4Hi4cBnDlt8KzRIow7VXa8pGe6g8csfEqHiwteb5J5R+f1CZ237cMksVP
+	hZyFCMux1jAxrK61MO1IgI1MCNFDemMz4B3XHvcvG84Os1M/niiQ3LWkpc1xrvbOnkdvV168fQA
+	==
+X-Google-Smtp-Source: AGHT+IHB2hlEZ8iTT/eCNzvVya+YbHlo2vzUkFWA5ltdG4CiLsaVILVjVnWFZyMAoOXq9Sdk9Ul4WytxfJJ7293CIZY=
+X-Received: by 2002:a05:6000:1a8a:b0:38a:a074:9f3c with SMTP id
+ ffacd0b85a97d-38dc9118ebemr2203089f8f.16.1738929351042; Fri, 07 Feb 2025
+ 03:55:51 -0800 (PST)
+MIME-Version: 1.0
+From: Joseph Oguk <joseph.oguk.ext@lafarge.com>
+Date: Fri, 7 Feb 2025 14:55:39 +0300
+X-Gm-Features: AWEUYZllAL4FDpxzTpQ3Z3HTTYBsr4NXR_WzEgIyfkCooF0eNFQF7fVbI19eV8I
+Message-ID:<CADKXugSZw-wLdSp+91L6z1O5Hga8Lz=d5J4qhAg0KWHMJEhLTQ@mail.gmail.com>
+Subject: RFQ 12859913
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="000000000000427b7c062d8c0a3e"
+Bcc: info@tomag.co.ke
+X-ZohoMail-DKIM: pass (identity @lafarge.com)
+X-ZM-MESSAGEID: 1738929354450018600
+X-ZohoMail-Status: 0
+
+
+--000000000000427b7c062d8c0a3e
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Sir/Madam
+Kindly quote for
+
+*Motor;Type:SQ
+Cage;Power:55kw;Voltage:415V;Poles:4P;Speed:1465RPM;Phase:3PH*
+*QTY 1*
+
+*Cable;Type:Elect PVC Insulated;Model:4x70MM sq*
+*QTY 360*
+
+
+
+Kind regards
+Joseph Oguk
+Procurement
+Bamburi Cement - Nai Plant
+
+--000000000000427b7c062d8c0a3e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Sir/Madam<div>Kindly quote for=C2=A0</div><div><br></=
+div><div><b>Motor;Type:SQ Cage;Power:55kw;Voltage:415V;Poles:4P;Speed:1465R=
+PM;Phase:3PH</b></div><div><b>QTY 1</b></div><div><br></div><div><b>Cable;T=
+ype:Elect PVC Insulated;Model:4x70MM sq</b></div><div><b>QTY 360</b></div><=
+div><b><br></b></div><div><b><br></b></div><div><b><br></b></div><div>Kind =
+regards</div><div>Joseph Oguk</div><div>Procurement=C2=A0</div><div>Bamburi=
+ Cement - Nai Plant</div></div>
+
+--000000000000427b7c062d8c0a3e--

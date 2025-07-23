@@ -1,0 +1,1769 @@
+Delivered-To: info@tomag.co.ke
+Return-Path: <tom.gituma@tomag.co.ke>
+ARC-Seal: i=1; a=rsa-sha256; t=1747634111; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=VwmXLukv4kLrSw16qDHTqD6hgqa4lnJl1rGSeza2j5w2X1SKhuyRiP0yaNmXLHpotfIC4xmJTKP+o+bk77fDOz8LAzG7BEL2V7m4D2lY5Bzzj7h+5MYJobJ9QJx9wTe/JvIZQhWzLJF5DS9QfU5e6vB55IrQ/we6Y/81l/UqAR0=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1747634111; h=Content-Type:Cc:Cc:Date:Date:From:From:In-Reply-To:MIME-Version:Message-ID:References:Subject:Subject:To:To:Message-Id:Reply-To; 
+	bh=KnZ2dDnKZYXENV+PwIbcJF/eJS6HyILH7Aq8BIms0ug=; 
+	b=mdYSJOXOl4SLqmAwiDLTFLNgHpBYXVC6+YsRJU9ig8xou5PMXFbxj4h4GnoOPS47bKjv7AjJPvOjsGb7hVZyuEC3Ww54qxafvPl1GkwfNEaSX5a7s0/+J/9TUBOKCu9Impt33xlDWiN7Qy+wlJQhBjNC5/7j1E44hICjFvry/5M=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass  header.i=tomag.co.ke;
+	spf=pass  smtp.mailfrom=tom.gituma@tomag.co.ke;
+	dmarc=pass header.from=<tom.gituma@tomag.co.ke>
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1747634111;
+	s=zoho; d=tomag.co.ke; i=tom.gituma@tomag.co.ke;
+	h=Date:Date:From:From:To:To:Cc:Cc:Message-Id:Message-Id:In-Reply-To:References:Subject:Subject:MIME-Version:Content-Type:Reply-To;
+	bh=KnZ2dDnKZYXENV+PwIbcJF/eJS6HyILH7Aq8BIms0ug=;
+	b=XfpO+wQfwCE4iaEuy9wjZ2ih27j8sDHeiyxWqakDx9X/Tz2z+mqdWAQAVlNefB+a
+	qb/0AuYHnbSXcUGjnYnq2xeBM0e9U1uhrHJbEmOG0oXRw+RlpbmSVunTvnLHx58POBJ
+	wiBvskkOk//OsHqeQIFUrIhZ1cAn7LT59DtOYJ7Q=
+Received: from mail.zoho.com by mx.zohomail.com
+	with SMTP id 1747634109263678.126092076793; Sun, 18 May 2025 22:55:09 -0700 (PDT)
+Date: Mon, 19 May 2025 08:55:09 +0300
+From: Tom Gituma <tom.gituma@tomag.co.ke>
+To: "Ayan Nouh Boeuh" <ayan.Nouh@dct.dj>
+Cc: "info@tomag.co.ke" <info@tomag.co.ke>,
+	"Hibo Hassan Osman" <Hibo.Hassan@dct.dj>,
+	"Fadouma Farah Kaireh" <fadouma.farah@dct.dj>,
+	"Obakar Houmed Ahmed" <obakar.houmed@dct.dj>
+Message-ID:<196e71c3a71.11a0674df1490879.7083613919346564367@tomag.co.ke>
+In-Reply-To: <DU0P190MB177899AA562D7BD94AD8EC888C9DA@DU0P190MB1778.EURP190.PROD.OUTLOOK.COM>
+References: <DU0P190MB17782055879FF6A3503FBBA68C96A@DU0P190MB1778.EURP190.PROD.OUTLOOK.COM>
+ <DU0P190MB1778061E4987BD25EFFBCD308C96A@DU0P190MB1778.EURP190.PROD.OUTLOOK.COM>
+ <006101dbc3cf$2676fb60$7364f220$@tomag.co.ke>
+ <DU0P190MB1778D06AAEAC72A5D006EAE18C96A@DU0P190MB1778.EURP190.PROD.OUTLOOK.COM>
+ <196d7d29c39.b278dfb0880303.1359842289805731525@tomag.co.ke> <DU0P190MB177899AA562D7BD94AD8EC888C9DA@DU0P190MB1778.EURP190.PROD.OUTLOOK.COM>
+Subject: RE: SGTD Request for quotation MILLER
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_4787614_2123607106.1747634109048"
+Importance: High
+User-Agent: Zoho Mail
+X-Mailer: Zoho Mail
+X-Zoho-Virus-Status: 1
+X-Zoho-Virus-Status: 1
+X-Zoho-AV-Stamp: zmail-av-1.4.2/247.615.4
+X-ZM-MESSAGEID: 1747634111752118100
+X-ZohoMail-Status: 1
+
+
+------=_Part_4787614_2123607106.1747634109048
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Mrs. Ayan,
+
+I hope you are doing well. Thanks for the esteemed RFQ. We shall respond ac=
+cordingly. After going through we have noticed you haven't indicated if the=
+ "Weld Leads for Stick/Arc Welding should be included" which other welding =
+process so that we can include the accessories.=C2=A0
+
+
+Thanks and Best Regards
+
+=C2=A0
+
+Tom Gituma
+
+General Manager
+
+Tomag Enterprises Limited
+
+Delta Corner Tower, Chiromo Road
+
+6th=C2=A0Floor, Westlands
+
+Nairobi, Kenya
+
+Mobile +254 722 747 397
+
+Email:=C2=A0mailto:tom.gituma@tomag.co.ke
+
+Website:=C2=A0http://www.tomag.co.ke/
+
+TOMAG
+
+
+
+
+
+
+
+
+
+
+---- On Sun, 18 May 2025 08:02:52 +0300 Ayan Nouh Boeuh <ayan.Nouh@dct.dj> =
+wrote ---
+
+
+
+Good day
+
+Dear Mr. Tom
+
+=C2=A0
+
+Please note that we confirm that we request  6 additional units of air Drye=
+r 2 desiccant ref 195117001.
+
+=C2=A0
+
+As well we have invited your good company to the tender via our Platform, h=
+ence please submit your offer through our Platform and the deadline is set =
+for =C2=A03rd June 2025 @12.00PM ( Djibouti time .03.00 GMT).
+
+=C2=A0
+
+Let us know if you may have any more questions/clarifications.
+
+=C2=A0
+
+=C2=A0
+
+Best Regards
+
+Mrs. Ayan Nouh Boeuh
+
+Procurement and Supply Chain departement
+
+=C2=A0
+ +253 21 317916
+
+=C2=A0=C2=A0 mailto:Ayan.Nouh@dct.dj
+
+=C2=A0
+
+=C2=A0
+
+Soci=C3=A9t=C3=A9 de Gestion du Terminal =C3=A0 Conteneurs de Doraleh (SGTD=
+)
+
+Po Box: 2081
+
+Doraleh, Djibouti
+
+Republic of Djibouti
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+From: Tom Gituma <mailto:tom.gituma@tomag.co.ke>=20
+ Sent: Friday, May 16, 2025 9:40 AM
+ To: Ayan Nouh Boeuh <mailto:ayan.Nouh@dct.dj>
+ Cc: mailto:info@tomag.co.ke; Hibo Hassan Osman <mailto:Hibo.Hassan@dct.dj>=
+; Fadouma Farah Kaireh <mailto:fadouma.farah@dct.dj>; Obakar Houmed Ahmed <=
+mailto:obakar.houmed@dct.dj>
+ Subject: RE: SGTD Request for quotation MILLER
+
+
+=C2=A0
+
+
+
+Avertissement: Ceci est e-mail externe. Veuillez faire attention lorsque vo=
+us cliquez sur des liens ou ouvrez des pi=C3=A8ces jointes. En cas de doute=
+, contactez http://mailto:itcsecurity@dct.
+
+
+Caution: This is an external email. Please be careful when clicking links o=
+r opening attachments. When in doubt, contact http://mailto:itcsecurity@dct=
+.
+
+
+
+
+
+
+=C2=A0
+
+Dear Mrs.Ayan,
+
+
+I hope you are doing well. Kindly note that we registered as a vendor on SG=
+TD portal as you had requested. We are now finalizing on the quotation. Jus=
+t a clarification on the=C2=A06
+ units of air Dryer for the 2 desiccant ref 195117001. Do you need addition=
+al six? This is because the (195117001 AIR DRYER SYSTEM REAR PANEL MTG)
+ will come with the 2 machines. We will also include the service kits for b=
+oth the engine and the air compressor.=C2=A0
+
+
+=C2=A0
+
+
+
+
+
+
+=C2=A0
+
+
+Thanks and Best Regards
+=20
+=20
+=C2=A0
+=20
+=20
+Tom Gituma
+=20
+=20
+General Manager
+=20
+=20
+Tomag Enterprises Limited
+=20
+=20
+Delta Corner Tower, Chiromo Road
+=20
+=20
+6th=C2=A0Floor, Westlands
+=20
+=20
+Nairobi, Kenya
+=20
+=20
+Mobile +254 722 747 397
+=20
+=20
+Email:=C2=A0mailto:tom.gituma@tomag.co.ke
+=20
+=20
+Website:=C2=A0http://www.tomag.co.ke/
+=20
+=20
+TOMAG
+=20
+=20
+=C2=A0
+
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+---- On Tue, 13 May 2025 10:04:30 +0300 Ayan Nouh Boeuh <mailto:ayan.Nouh@d=
+ct.dj> wrote ---
+
+
+=C2=A0
+
+
+Dear Tom,
+
+=C2=A0
+
+Thank for your swift feedback.
+
+=C2=A0
+
+Please see attached our company registration ( only available in French).
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+Best Regards
+
+Mrs. Ayan Nouh Boeuh
+
+Procurement and Supply Chain departement
+
+=C2=A0
+ +253 21 317916
+
+=C2=A0=C2=A0 mailto:Ayan.Nouh@dct.dj
+
+=C2=A0
+
+=C2=A0
+
+Soci=C3=A9t=C3=A9 de Gestion du Terminal =C3=A0 Conteneurs de Doraleh (SGTD=
+)
+
+Po Box: 2081
+
+Doraleh, Djibouti
+
+Republic of Djibouti
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+From: mailto:info@tomag.co.ke mailto:info@tomag.co.ke=20
+ Sent: Tuesday, May 13, 2025 9:21 AM
+ To: Ayan Nouh Boeuh <mailto:ayan.Nouh@dct.dj>
+ Cc: Hibo Hassan Osman <mailto:Hibo.Hassan@dct.dj>; Fadouma Farah Kaireh <m=
+ailto:fadouma.farah@dct.dj>; Obakar Houmed Ahmed <mailto:obakar.houmed@dct.=
+dj>; mailto:tom.gituma@tomag.co.ke
+ Subject: RE: SGTD Request for quotation MILLER
+
+
+=C2=A0
+
+
+
+Avertissement: Ceci est e-mail externe. Veuillez faire attention lorsque vo=
+us cliquez sur des liens ou ouvrez des pi=C3=A8ces jointes. En cas de doute=
+, contactez http://mailto:itcsecurity@dct.
+
+
+Caution: This is an external email. Please be careful when clicking links o=
+r opening attachments. When in doubt, contact http://mailto:itcsecurity@dct=
+.
+
+
+
+
+
+
+=C2=A0
+
+Dear Ayan,
+
+Thanks for your email. We shall revert with the offer. Kindly share the com=
+pany registration
+
+Thanks and Best Regards
+
+=C2=A0
+
+Tom Gituma
+
+General Manager
+
+Tomag Enterprises Limited
+
+Delta Corner Tower, Chiromo Road
+
+6th Floor, Westlands
+
+Nairobi, Kenya
+
+Mobile +254 722 747 397
+
+Email: mailto:tom.gituma@tomag.co.ke
+
+Website: http://www.tomag.co.ke/
+
+TOMAG
+
+=C2=A0
+
+=C2=A0
+
+From: Ayan Nouh Boeuh <mailto:ayan.Nouh@dct.dj>=20
+ Sent: Tuesday, May 13, 2025 7:59 AM
+ To: mailto:info@tomag.co.ke
+ Cc: Hibo Hassan Osman <mailto:Hibo.Hassan@dct.dj>; Fadouma Farah Kaireh <m=
+ailto:fadouma.farah@dct.dj>; Obakar Houmed Ahmed <mailto:obakar.houmed@dct.=
+dj>
+ Subject: SGTD Request for quotation MILLER=20
+ Importance: High
+
+
+=C2=A0
+
+Greetings
+
+=C2=A0
+
+We have searched and found on the website that your company TOMAG is the ex=
+clusive distributor for Miller engines / equipment and accessories.
+
+=C2=A0
+
+We, SOCIETE DE GESTION DU TERMINAL A CONTENEURS DE DORALEH(SGTD), are a con=
+tainer terminal company located in Djibouti, East Africa. We are
+ one of the leading container Terminals in our region. We have 1.5 KM long =
+quay , 12 quay crane,30 RTG and 30 RMG and for further information about ou=
+r company, you could find as follow : https://www.sgtd-terminal.com/
+
+=C2=A0
+
+=C2=A0
+
+We are launching a tender for the purchase of welding machines along the eq=
+uipment and accessories, and we would like you to receive your quotation al=
+ong the freight charges by sea freight to Djibouti.
+
+=C2=A0
+
+You will find enclosed the full description of the enquiries.
+
+=C2=A0
+
+-2 units of Engine-Driven welder ( ref BIG BLUE 800DUO Air Pack)
+
+-2 units of Engine drive trailers (ref 4 west Four-Wheel Steerable Off-Road=
+ trailer 042801)
+
+-2 Units of desiccant Air dryer System-Rear Amount(Ref 195117001)
+
+-6 units of air Dryer for the 2 desiccant ref 195117001.
+
+=C2=A0
+
+=C2=A0
+
+In addition, below you will find the link, please register, and confirm us =
+upon registration by sharing your company ID reference to invite
+ your company to participate to our future tenders.
+
+=C2=A0
+
+See follow the link for the registration: =C2=A0https://sgtd-sourcing.bravo=
+solution.com/web_en/login.html
+
+=C2=A0
+
+Wishing you a great day and looking forward to your favorable response alon=
+g your quotation.
+
+=C2=A0
+
+Let us know if you may have any questions or clarifications.
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+Best Regards
+
+Mrs. Ayan Nouh Boeuh
+
+Procurement and Supply Chain departement
+
+=C2=A0
+ +253 21 317916
+
+=C2=A0=C2=A0 mailto:Ayan.Nouh@dct.dj
+
+=C2=A0
+
+=C2=A0
+
+Soci=C3=A9t=C3=A9 de Gestion du Terminal =C3=A0 Conteneurs de Doraleh (SGTD=
+)
+
+Po Box: 2081
+
+Doraleh, Djibouti
+
+Republic of Djibouti
+
+=C2=A0
+
+
+
+
+
+
+=C2=A0
+
+
+
+=C2=A0
+------=_Part_4787614_2123607106.1747634109048
+Content-Type: multipart/related; 
+	boundary="----=_Part_4787615_1204958478.1747634109066"
+
+------=_Part_4787615_1204958478.1747634109066
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>=
+<meta content=3D"text/html;charset=3DUTF-8" http-equiv=3D"Content-Type"></h=
+ead><body ><div style=3D"font-family: Verdana, Arial, Helvetica, sans-serif=
+; font-size: 10pt;"><div>Dear Mrs. Ayan,<br></div><div>I hope you are doing=
+ well. Thanks for the esteemed RFQ. We shall respond accordingly. After goi=
+ng through we have noticed you haven't indicated if the "Weld Leads for Sti=
+ck/Arc Welding should be included" which other welding process so that we c=
+an include the accessories.&nbsp;</div><div><br></div><div id=3D"Zm-_Id_-Sg=
+n" data-sigid=3D"3897000000000041001" data-zbluepencil-ignore=3D"true"><p s=
+tyle=3D"margin: 0px; font-style: normal; font-weight: 400; letter-spacing: =
+normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: no=
+rmal; widows: 2; word-spacing: 0px" class=3D""><span class=3D"highlight" st=
+yle=3D"background-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D=
+"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-family:Lato"><span =
+class=3D"size" style=3D"font-size: 14px; margin: 0px; font-style: normal; f=
+ont-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text=
+-transform: none; white-space: normal; widows: 2; word-spacing: 0px;"><span=
+ class=3D"colour" style=3D"color:rgb(31, 73, 125)"><span class=3D"font" sty=
+le=3D"font-family:SimSun"><span class=3D"size" style=3D"font-size:11pt">Tha=
+nks and Best Regards</span></span></span><br></span></span></span></span></=
+p><p style=3D"margin: 0px; font-style: normal; font-weight: 400; letter-spa=
+cing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-spa=
+ce: normal; widows: 2; word-spacing: 0px" class=3D""><span class=3D"highlig=
+ht" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"colour" st=
+yle=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-family:Lato">=
+<span class=3D"size" style=3D"font-size: 14px; margin: 0px; font-style: nor=
+mal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px=
+; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;"=
+><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><span class=3D"fon=
+t" style=3D"font-family:SimSun"><span class=3D"size" style=3D"font-size:11p=
+t">&nbsp;</span></span></span><br></span></span></span></span></p><p style=
+=3D"margin: 0px; font-style: normal; font-weight: 400; letter-spacing: norm=
+al; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal=
+; widows: 2; word-spacing: 0px" class=3D""><span class=3D"highlight" style=
+=3D"background-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"co=
+lor:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-family:Lato"><span cla=
+ss=3D"size" style=3D"font-size: 14px; margin: 0px; font-style: normal; font=
+-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-tr=
+ansform: none; white-space: normal; widows: 2; word-spacing: 0px;"><span cl=
+ass=3D"colour" style=3D"color:rgb(31, 73, 125)"><span class=3D"font" style=
+=3D"font-family:SimSun"><span class=3D"size" style=3D"font-size:11pt">Tom G=
+ituma</span></span></span><br></span></span></span></span></p><p style=3D"m=
+argin: 0px; font-style: normal; font-weight: 400; letter-spacing: normal; o=
+rphans: 2; text-indent: 0px; text-transform: none; white-space: normal; wid=
+ows: 2; word-spacing: 0px" class=3D""><span class=3D"highlight" style=3D"ba=
+ckground-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rg=
+b(0, 0, 0)"><span class=3D"font" style=3D"font-family:Lato"><span class=3D"=
+size" style=3D"font-size: 14px; margin: 0px; font-style: normal; font-weigh=
+t: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transfor=
+m: none; white-space: normal; widows: 2; word-spacing: 0px;"><span class=3D=
+"colour" style=3D"color:rgb(31, 73, 125)"><span class=3D"font" style=3D"fon=
+t-family:SimSun"><span class=3D"size" style=3D"font-size:11pt">General Mana=
+ger</span></span></span><br></span></span></span></span></p><p style=3D"mar=
+gin: 0px; font-style: normal; font-weight: 400; letter-spacing: normal; orp=
+hans: 2; text-indent: 0px; text-transform: none; white-space: normal; widow=
+s: 2; word-spacing: 0px" class=3D""><span class=3D"highlight" style=3D"back=
+ground-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(=
+0, 0, 0)"><span class=3D"font" style=3D"font-family:Lato"><span class=3D"si=
+ze" style=3D"font-size: 14px; margin: 0px; font-style: normal; font-weight:=
+ 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform:=
+ none; white-space: normal; widows: 2; word-spacing: 0px;"><span class=3D"c=
+olour" style=3D"color:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-=
+family:SimSun"><span class=3D"size" style=3D"font-size:11pt">Tomag Enterpri=
+ses Limited</span></span></span><br></span></span></span></span></p><p styl=
+e=3D"margin: 0px; font-style: normal; font-weight: 400; letter-spacing: nor=
+mal; orphans: 2; text-indent: 0px; text-transform: none; white-space: norma=
+l; widows: 2; word-spacing: 0px" class=3D""><span class=3D"highlight" style=
+=3D"background-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"co=
+lor:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-family:Lato"><span cla=
+ss=3D"size" style=3D"font-size: 14px; margin: 0px; font-style: normal; font=
+-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-tr=
+ansform: none; white-space: normal; widows: 2; word-spacing: 0px;"><span cl=
+ass=3D"colour" style=3D"color:rgb(31, 73, 125)"><span class=3D"font" style=
+=3D"font-family:SimSun"><span class=3D"size" style=3D"font-size:11pt">Delta=
+ Corner Tower, Chiromo Road</span></span></span><br></span></span></span></=
+span></p><p style=3D"margin: 0px; font-style: normal; font-weight: 400; let=
+ter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; wh=
+ite-space: normal; widows: 2; word-spacing: 0px" class=3D""><span class=3D"=
+highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"col=
+our" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-family=
+:Lato"><span class=3D"size" style=3D"font-size: 14px; margin: 0px; font-sty=
+le: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-inde=
+nt: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing=
+: 0px;"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><span class=
+=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D"font-s=
+ize:11pt">6<sup>th</sup><span>&nbsp;</span>Floor, Westlands</span></span></=
+span><br></span></span></span></span></p><p style=3D"margin: 0px; font-styl=
+e: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-inden=
+t: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing:=
+ 0px" class=3D""><span class=3D"highlight" style=3D"background-color:rgb(25=
+5, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span cla=
+ss=3D"font" style=3D"font-family:Lato"><span class=3D"size" style=3D"font-s=
+ize: 14px; margin: 0px; font-style: normal; font-weight: 400; letter-spacin=
+g: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space:=
+ normal; widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"col=
+or:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><spa=
+n class=3D"size" style=3D"font-size:11pt">Nairobi, Kenya</span></span></spa=
+n><br></span></span></span></span></p><p style=3D"margin: 0px; font-style: =
+normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: =
+0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0p=
+x" class=3D""><span class=3D"highlight" style=3D"background-color:rgb(255, =
+255, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=
+=3D"font" style=3D"font-family:Lato"><span class=3D"size" style=3D"font-siz=
+e: 14px; margin: 0px; font-style: normal; font-weight: 400; letter-spacing:=
+ normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: n=
+ormal; widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"color=
+:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><span =
+class=3D"size" style=3D"font-size:11pt">Mobile +254 722 747 397</span></spa=
+n></span><br></span></span></span></span></p><p style=3D"margin: 0px; font-=
+style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-i=
+ndent: 0px; text-transform: none; white-space: normal; widows: 2; word-spac=
+ing: 0px" class=3D""><span class=3D"highlight" style=3D"background-color:rg=
+b(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span=
+ class=3D"font" style=3D"font-family:Lato"><span class=3D"size" style=3D"fo=
+nt-size: 14px; margin: 0px; font-style: normal; font-weight: 400; letter-sp=
+acing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-sp=
+ace: normal; widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D=
+"color:rgb(47, 84, 150)"><span class=3D"font" style=3D"font-family:SimSun">=
+<span class=3D"size" style=3D"font-size:11pt">Email:<span>&nbsp;</span><u><=
+a target=3D"_blank" href=3D"mailto:tom.gituma@tomag.co.ke" style=3D"color: =
+rgb(89, 143, 222); cursor: pointer"><span class=3D"colour" style=3D"color:r=
+gb(5, 99, 193)">tom.gituma@tomag.co.ke</span></a></u></span></span></span><=
+br></span></span></span></span></p><p style=3D"margin: 0px; font-style: nor=
+mal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px=
+; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px" =
+class=3D""><span class=3D"highlight" style=3D"background-color:rgb(255, 255=
+, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"=
+font" style=3D"font-family:Lato"><span class=3D"size" style=3D"font-size: 1=
+4px; margin: 0px; font-style: normal; font-weight: 400; letter-spacing: nor=
+mal; orphans: 2; text-indent: 0px; text-transform: none; white-space: norma=
+l; widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"color:rgb=
+(47, 84, 150)"><span class=3D"font" style=3D"font-family:SimSun"><span clas=
+s=3D"size" style=3D"font-size:11pt">Website:<span>&nbsp;</span><a target=3D=
+"_blank" href=3D"http://www.tomag.co.ke/" style=3D"color: rgb(89, 143, 222)=
+; cursor: pointer"><span class=3D"colour" style=3D"color:rgb(5, 99, 193)">w=
+ww.tomag.co.ke</span></a></span></span></span><br></span></span></span></sp=
+an></p><p style=3D"margin: 0px; font-style: normal; font-weight: 400; lette=
+r-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; whit=
+e-space: normal; widows: 2; word-spacing: 0px" class=3D""><span class=3D"hi=
+ghlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"colou=
+r" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-family:L=
+ato"><span class=3D"size" style=3D"font-size: 14px; margin: 0px; font-style=
+: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent=
+: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: =
+0px;"><b><span class=3D"colour" style=3D"color:rgb(68, 114, 196)"><span cla=
+ss=3D"font" style=3D"font-family:Calibri, sans-serif"><span class=3D"size" =
+style=3D"font-size:36pt">TOMAG</span></span></span></b><br></span></span></=
+span></span></p><div><br></div></div><div><br></div><div class=3D"zmail_ext=
+ra_hr" style=3D"border-top: 1px solid rgb(204, 204, 204); height: 0px; marg=
+in-top: 10px; margin-bottom: 10px; line-height: 0px;"><br></div><div class=
+=3D"zmail_extra" data-zbluepencil-ignore=3D"true"><div><br></div><div id=3D=
+"Zm-_Id_-Sgn1">---- On Sun, 18 May 2025 08:02:52 +0300 <b>Ayan Nouh Boeuh &=
+lt;ayan.Nouh@dct.dj&gt;</b> wrote ---<br></div><div><br></div><blockquote i=
+d=3D"blockquote_zmail" style=3D"margin: 0px;"><div class=3D"zm_581558883718=
+2871714_parse_4738768398982095756" style=3D""><div class=3D"x_477893277Word=
+Section1"><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;">Good=
+ day<br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;">De=
+ar Mr. Tom<br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0p=
+x;">&nbsp;<br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0p=
+x;">Please note that we confirm that we request <span class=3D"x_477893277c=
+olour"> <u><span class=3D"colour" style=3D"color:rgb(36, 64, 97)"><span cla=
+ss=3D"font" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:10pt">6 additional units of air Dryer</span></span></span=
+></u></span><b><u> </u></b><span class=3D"x_477893277colour"><b><u><span cl=
+ass=3D"colour" style=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=
+=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D"font-size=
+:10pt">2 desiccant ref 195117001</span></span></span></u></b></span>.<br></=
+p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;">&nbsp;<br></=
+p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;">As well we h=
+ave invited your good company to the tender via our Platform, hence please =
+submit your offer through our Platform and the deadline is set for &nbsp;<b=
+><u>3<sup>rd</sup> June 2025 @12.00PM ( Djibouti time .03.00 GMT).</u></b><=
+br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><b><u><=
+span style=3D"text-decoration: none">&nbsp;</span></u></b><br></p><p class=
+=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;">Let us know if you may=
+ have any more questions/clarifications.<br></p><p class=3D"" style=3D"marg=
+in-top: 0px; margin-bottom: 0px;"><b><span class=3D"colour" style=3D"color:=
+rgb(233, 113, 50)"><span class=3D"size" style=3D"font-size:11pt">&nbsp;</sp=
+an></span></b><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom=
+: 0px;"><span class=3D"colour" style=3D"color:rgb(36, 64, 97)"><span class=
+=3D"font" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" sty=
+le=3D"font-size:9pt">&nbsp;</span></span></span><br></p><p class=3D"" style=
+=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"colour" style=3D"c=
+olor:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-family:Tahoma, san=
+s-serif"><span class=3D"size" style=3D"font-size:9pt">Best Regards</span></=
+span></span><span class=3D"font" style=3D"font-family:Calibri, sans-serif">=
+<span class=3D"size" style=3D"font-size:11pt"></span></span><br></p><p clas=
+s=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><b><span class=3D"col=
+our" style=3D"color:rgb(28, 76, 119)"><span class=3D"font" style=3D"font-fa=
+mily:Tahoma, sans-serif"><span class=3D"size" style=3D"font-size:9pt">Mrs. =
+Ayan Nouh Boeuh</span></span></span></b><br></p><p class=3D"" style=3D"marg=
+in-top: 0px; margin-bottom: 0px;"><span class=3D"colour" style=3D"color:rgb=
+(145, 145, 145)"><span class=3D"font" style=3D"font-family:Tahoma, sans-ser=
+if"><span class=3D"size" style=3D"font-size:9pt">Procurement and Supply Cha=
+in departement</span></span></span><span class=3D"font" style=3D"font-famil=
+y:Calibri, sans-serif"><span class=3D"size" style=3D"font-size:11pt"></span=
+></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;=
+"><span class=3D"colour" style=3D"color:rgb(28, 76, 119)"><span class=3D"fo=
+nt" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D"=
+font-size: 9pt; border: 1pt none windowtext; padding: 0in;"><img src=3D"cid=
+:image001.jpg@01DBC7CB.3FA889A0" style=3D"width: 0.1145in; height: 0.1145in=
+" height=3D"11" width=3D"11"></span></span></span><span class=3D"colour" st=
+yle=3D"color:rgb(28, 76, 119)"><span class=3D"font" style=3D"font-family:Ta=
+homa, sans-serif"><span class=3D"size" style=3D"font-size: 9pt; border: 1pt=
+ none windowtext; padding: 0in;">&nbsp;
+ +253 21 317916</span></span></span><span class=3D"font" style=3D"font-fami=
+ly:Calibri, sans-serif"><span class=3D"size" style=3D"font-size:11pt"></spa=
+n></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px=
+;"><span class=3D"colour" style=3D"color:rgb(5, 99, 193)"><span class=3D"fo=
+nt" style=3D"font-family:Calibri, sans-serif"><span class=3D"size" style=3D=
+"font-size:10pt"><img src=3D"cid:image002.jpg@01DBC7CB.3FA889A0" style=3D"w=
+idth: 0.1354in; height: 0.1354in" height=3D"13" width=3D"13"></span></span>=
+</span><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><span class=
+=3D"font" style=3D"font-family:Calibri, sans-serif"><span class=3D"size" st=
+yle=3D"font-size:11pt">&nbsp;&nbsp; </span></span></span><u><span class=3D"=
+colour" style=3D"color:rgb(5, 99, 193)"><span class=3D"font" style=3D"font-=
+family:Tahoma, sans-serif"><span class=3D"size" style=3D"font-size:9pt"><a =
+target=3D"_blank" href=3D"mailto:Ayan.Nouh@dct.dj"><span class=3D"colour" s=
+tyle=3D"color:rgb(5, 99, 193)">Ayan.Nouh@dct.dj</span></a></span></span></s=
+pan></u><span class=3D"font" style=3D"font-family:Calibri, sans-serif"><spa=
+n class=3D"size" style=3D"font-size:11pt"></span></span><br></p><p style=3D=
+"margin-left: 141.6pt; margin-top: 0px; margin-bottom: 0px;" class=3D""><sp=
+an class=3D"colour" style=3D"color:rgb(31, 73, 125)"><span class=3D"font" s=
+tyle=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D"font-=
+size:9pt">&nbsp;</span></span></span><span class=3D"font" style=3D"font-fam=
+ily:Calibri, sans-serif"><span class=3D"size" style=3D"font-size:11pt"></sp=
+an></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0p=
+x;"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><span class=3D"=
+font" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=
+=3D"font-size:9pt"><img src=3D"cid:image003.png@01DBC7CB.3FA889A0" style=3D=
+"width: 1.7291in; height: 0.7291in" height=3D"70" width=3D"166" border=3D"0=
+"><span style=3D"">&nbsp;</span></span></span></span><span class=3D"font" s=
+tyle=3D"font-family:Calibri, sans-serif"><span class=3D"size" style=3D"font=
+-size:11pt"></span></span><br></p><p style=3D"text-align: justify; margin-t=
+op: 0px; margin-bottom: 0px;" class=3D""><span class=3D"colour" style=3D"co=
+lor:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-family:Tahoma, sans=
+-serif"><span class=3D"size" style=3D"font-size:8pt">Soci=C3=A9t=C3=A9 de G=
+estion du Terminal =C3=A0 Conteneurs de Doraleh (SGTD)</span></span></span>=
+<span class=3D"font" style=3D"font-family:Calibri, sans-serif"><span class=
+=3D"size" style=3D"font-size:11pt"></span></span><br></p><p style=3D"text-a=
+lign: justify; margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=
+=3D"colour" style=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"f=
+ont-family:Tahoma, sans-serif"><span class=3D"size" style=3D"font-size:8pt"=
+>Po Box: 2081</span></span></span><span class=3D"font" style=3D"font-family=
+:Calibri, sans-serif"><span class=3D"size" style=3D"font-size:11pt"></span>=
+</span><br></p><p style=3D"text-align: justify; margin-top: 0px; margin-bot=
+tom: 0px;" class=3D""><span class=3D"colour" style=3D"color:rgb(36, 64, 97)=
+"><span class=3D"font" style=3D"font-family:Tahoma, sans-serif"><span class=
+=3D"size" style=3D"font-size:8pt">Doraleh, Djibouti</span></span></span><sp=
+an class=3D"font" style=3D"font-family:Calibri, sans-serif"><span class=3D"=
+size" style=3D"font-size:11pt"></span></span><br></p><p class=3D"" style=3D=
+"margin-top: 0px; margin-bottom: 0px;"><span class=3D"colour" style=3D"colo=
+r:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-family:Tahoma, sans-s=
+erif"><span class=3D"size" style=3D"font-size:8pt">Republic of Djibouti</sp=
+an></span></span><span class=3D"font" style=3D"font-family:Calibri, sans-se=
+rif"><span class=3D"size" style=3D"font-size:11pt"></span></span><br></p><p=
+ class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;">&nbsp;<br></p><p=
+ class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;">&nbsp;<br></p><p=
+ class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;">&nbsp;<br></p><d=
+iv><div style=3D"border: none; border-top: solid rgb(225, 225, 225) 1pt; pa=
+dding: 3pt 0in 0in 0in"><p class=3D"" style=3D"margin-top: 0px; margin-bott=
+om: 0px;"><b><span class=3D"font" style=3D"font-family:Calibri, sans-serif"=
+><span class=3D"size" style=3D"font-size:11pt">From:</span></span></b><span=
+ class=3D"font" style=3D"font-family:Calibri, sans-serif"><span class=3D"si=
+ze" style=3D"font-size:11pt"> Tom Gituma &lt;<a target=3D"_blank" href=3D"m=
+ailto:tom.gituma@tomag.co.ke">tom.gituma@tomag.co.ke</a>&gt; <br> <b>Sent:<=
+/b> Friday, May 16, 2025 9:40 AM<br> <b>To:</b> Ayan Nouh Boeuh &lt;<a targ=
+et=3D"_blank" href=3D"mailto:ayan.Nouh@dct.dj">ayan.Nouh@dct.dj</a>&gt;<br>=
+ <b>Cc:</b> <a target=3D"_blank" href=3D"mailto:info@tomag.co.ke">info@toma=
+g.co.ke</a>; Hibo Hassan Osman &lt;<a target=3D"_blank" href=3D"mailto:Hibo=
+.Hassan@dct.dj">Hibo.Hassan@dct.dj</a>&gt;; Fadouma Farah Kaireh &lt;<a tar=
+get=3D"_blank" href=3D"mailto:fadouma.farah@dct.dj">fadouma.farah@dct.dj</a=
+>&gt;; Obakar Houmed Ahmed &lt;<a target=3D"_blank" href=3D"mailto:obakar.h=
+oumed@dct.dj">obakar.houmed@dct.dj</a>&gt;<br> <b>Subject:</b> RE: SGTD Req=
+uest for quotation MILLER</span></span></p></div></div><p class=3D"" style=
+=3D"margin-top: 0px; margin-bottom: 0px;">&nbsp;<br></p><table style=3D"wid=
+th: 100%" width=3D"100%" align=3D"left" cellpadding=3D"0" cellspacing=3D"0"=
+ border=3D"0" class=3D"x_477893277MsoNormalTable"><tbody><tr><td style=3D"b=
+ackground: rgb(0, 160, 210); padding: 5pt 2pt 5pt 2pt"><br></td><td style=
+=3D"width: 100%; background: rgb(229, 245, 250); padding: 5pt 4pt 5pt 12pt"=
+ width=3D"100%"><div><p style=3D"margin-top: 0px; margin-bottom: 0px;" clas=
+s=3D""><b><span class=3D"colour" style=3D"color:rgb(34, 34, 34)">Avertissem=
+ent:</span></b><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"> Ceci=
+ est e-mail externe. Veuillez faire attention lorsque vous cliquez sur des =
+liens ou ouvrez des pi=C3=A8ces jointes. En cas de doute, contactez <a targ=
+et=3D"_blank" href=3D"http://mailto:itcsecurity@dct.">ITC_Security</a></spa=
+n><br></p></div><div><p style=3D"margin-top: 0px; margin-bottom: 0px;" clas=
+s=3D""><b><span class=3D"colour" style=3D"color:rgb(34, 34, 34)">Caution:</=
+span></b><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"> This is an=
+ external email. Please be careful when clicking links or opening attachmen=
+ts. When in doubt, contact <a target=3D"_blank" href=3D"http://mailto:itcse=
+curity@dct.">ITC_Security</a></span><br></p></div></td></tr></tbody></table=
+><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;">&nbsp;<br></p=
+><div><div><div><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;=
+"><span class=3D"font" style=3D"font-family:Verdana, sans-serif"><span clas=
+s=3D"size" style=3D"font-size:10pt">Dear Mrs.Ayan,</span></span><br></p></d=
+iv><div><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span =
+class=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"siz=
+e" style=3D"font-size:10pt">I hope you are doing well. Kindly note that we =
+registered as a vendor on SGTD portal as you had requested. We are now fina=
+lizing on the quotation. Just a clarification on the&nbsp;</span></span><sp=
+an class=3D"x_477893277colour"><b><span class=3D"colour" style=3D"color:rgb=
+(36, 64, 97)"><span class=3D"font" style=3D"font-family:Tahoma, sans-serif"=
+><span class=3D"size" style=3D"font-size:10pt">6
+ units of air Dryer for the 2 desiccant ref 195117001. </span></span></span=
+></b></span><span class=3D"x_477893277colour"><span class=3D"colour" style=
+=3D"color:black"><span class=3D"font" style=3D"font-family:Tahoma, sans-ser=
+if"><span class=3D"size" style=3D"font-size:10pt">Do you need additional si=
+x? This is because the (195117001 AIR DRYER SYSTEM REAR PANEL MTG)
+ will come with the 2 machines. We will also include the service kits for b=
+oth the engine and the air compressor.&nbsp;</span></span></span></span><sp=
+an class=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"=
+size" style=3D"font-size:10pt"></span></span><br></p></div><div><blockquote=
+><div><div><div><p style=3D"margin-left: 0.25in; margin-top: 0px; margin-bo=
+ttom: 0px;" class=3D""><span class=3D"x_477893277font"><span class=3D"font"=
+ style=3D"font-family:&quot;Aptos Display&quot;, sans-serif"><span class=3D=
+"size" style=3D"font-size:10pt">&nbsp;</span></span></span><span class=3D"f=
+ont" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=
+=3D"font-size:10pt"></span></span><br></p></div></div></div></blockquote></=
+div><div><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span=
+ class=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"si=
+ze" style=3D"font-size:10pt">&nbsp;</span></span><br></p></div><div id=3D"x=
+_477893277Zm-_Id_-Sgn"><p class=3D"" style=3D"margin-top: 0px; margin-botto=
+m: 0px;"><span class=3D"x_477893277size"><span class=3D"highlight" style=3D=
+"background-color:white"><span class=3D"colour" style=3D"color:rgb(31, 73, =
+125)"><span class=3D"font" style=3D"font-family:SimSun"><span class=3D"size=
+" style=3D"font-size: 11pt; background-image: initial; background-position:=
+ initial; background-size: initial; background-repeat: initial; background-=
+attachment: initial; background-origin: initial; background-clip: initial;"=
+>Thanks and Best Regards</span></span></span></span></span><span class=3D"h=
+ighlight" style=3D"background-color:white"><span class=3D"colour" style=3D"=
+color:black"><span class=3D"font" style=3D"font-family:Lato, sans-serif"><s=
+pan class=3D"size" style=3D"font-size: 10.5pt; background-image: initial; b=
+ackground-position: initial; background-size: initial; background-repeat: i=
+nitial; background-attachment: initial; background-origin: initial; backgro=
+und-clip: initial;"><br> <br> </span></span></span></span><span class=3D"fo=
+nt" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D=
+"font-size:10pt"></span></span></p><p style=3D"orphans: 2; widows: 2; word-=
+spacing: 0px; margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=
+=3D"x_477893277size"><span class=3D"highlight" style=3D"background-color:wh=
+ite"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><span class=3D=
+"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D"font-size=
+: 11pt; background-image: initial; background-position: initial; background=
+-size: initial; background-repeat: initial; background-attachment: initial;=
+ background-origin: initial; background-clip: initial;">&nbsp;</span></span=
+></span></span></span><span class=3D"highlight" style=3D"background-color:w=
+hite"><span class=3D"colour" style=3D"color:black"><span class=3D"font" sty=
+le=3D"font-family:Lato, sans-serif"><span class=3D"size" style=3D"font-size=
+: 10.5pt; background-image: initial; background-position: initial; backgrou=
+nd-size: initial; background-repeat: initial; background-attachment: initia=
+l; background-origin: initial; background-clip: initial;"><br> <br> </span>=
+</span></span></span><span class=3D"font" style=3D"font-family:Verdana, san=
+s-serif"><span class=3D"size" style=3D"font-size:10pt"></span></span></p><p=
+ style=3D"orphans: 2; widows: 2; word-spacing: 0px; margin-top: 0px; margin=
+-bottom: 0px;" class=3D""><span class=3D"x_477893277size"><span class=3D"hi=
+ghlight" style=3D"background-color:white"><span class=3D"colour" style=3D"c=
+olor:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><s=
+pan class=3D"size" style=3D"font-size: 11pt; background-image: initial; bac=
+kground-position: initial; background-size: initial; background-repeat: ini=
+tial; background-attachment: initial; background-origin: initial; backgroun=
+d-clip: initial;">Tom Gituma</span></span></span></span></span><span class=
+=3D"highlight" style=3D"background-color:white"><span class=3D"colour" styl=
+e=3D"color:black"><span class=3D"font" style=3D"font-family:Lato, sans-seri=
+f"><span class=3D"size" style=3D"font-size: 10.5pt; background-image: initi=
+al; background-position: initial; background-size: initial; background-repe=
+at: initial; background-attachment: initial; background-origin: initial; ba=
+ckground-clip: initial;"><br> <br> </span></span></span></span><span class=
+=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" st=
+yle=3D"font-size:10pt"></span></span></p><p style=3D"orphans: 2; widows: 2;=
+ word-spacing: 0px; margin-top: 0px; margin-bottom: 0px;" class=3D""><span =
+class=3D"x_477893277size"><span class=3D"highlight" style=3D"background-col=
+or:white"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><span cla=
+ss=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D"font=
+-size: 11pt; background-image: initial; background-position: initial; backg=
+round-size: initial; background-repeat: initial; background-attachment: ini=
+tial; background-origin: initial; background-clip: initial;">General Manage=
+r</span></span></span></span></span><span class=3D"highlight" style=3D"back=
+ground-color:white"><span class=3D"colour" style=3D"color:black"><span clas=
+s=3D"font" style=3D"font-family:Lato, sans-serif"><span class=3D"size" styl=
+e=3D"font-size: 10.5pt; background-image: initial; background-position: ini=
+tial; background-size: initial; background-repeat: initial; background-atta=
+chment: initial; background-origin: initial; background-clip: initial;"><br=
+> <br> </span></span></span></span><span class=3D"font" style=3D"font-famil=
+y:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"></span=
+></span></p><p style=3D"orphans: 2; widows: 2; word-spacing: 0px; margin-to=
+p: 0px; margin-bottom: 0px;" class=3D""><span class=3D"x_477893277size"><sp=
+an class=3D"highlight" style=3D"background-color:white"><span class=3D"colo=
+ur" style=3D"color:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-fam=
+ily:SimSun"><span class=3D"size" style=3D"font-size: 11pt; background-image=
+: initial; background-position: initial; background-size: initial; backgrou=
+nd-repeat: initial; background-attachment: initial; background-origin: init=
+ial; background-clip: initial;">Tomag Enterprises Limited</span></span></sp=
+an></span></span><span class=3D"highlight" style=3D"background-color:white"=
+><span class=3D"colour" style=3D"color:black"><span class=3D"font" style=3D=
+"font-family:Lato, sans-serif"><span class=3D"size" style=3D"font-size: 10.=
+5pt; background-image: initial; background-position: initial; background-si=
+ze: initial; background-repeat: initial; background-attachment: initial; ba=
+ckground-origin: initial; background-clip: initial;"><br> <br> </span></spa=
+n></span></span><span class=3D"font" style=3D"font-family:Verdana, sans-ser=
+if"><span class=3D"size" style=3D"font-size:10pt"></span></span></p><p styl=
+e=3D"orphans: 2; widows: 2; word-spacing: 0px; margin-top: 0px; margin-bott=
+om: 0px;" class=3D""><span class=3D"x_477893277size"><span class=3D"highlig=
+ht" style=3D"background-color:white"><span class=3D"colour" style=3D"color:=
+rgb(31, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><span c=
+lass=3D"size" style=3D"font-size: 11pt; background-image: initial; backgrou=
+nd-position: initial; background-size: initial; background-repeat: initial;=
+ background-attachment: initial; background-origin: initial; background-cli=
+p: initial;">Delta Corner Tower, Chiromo Road</span></span></span></span></=
+span><span class=3D"highlight" style=3D"background-color:white"><span class=
+=3D"colour" style=3D"color:black"><span class=3D"font" style=3D"font-family=
+:Lato, sans-serif"><span class=3D"size" style=3D"font-size: 10.5pt; backgro=
+und-image: initial; background-position: initial; background-size: initial;=
+ background-repeat: initial; background-attachment: initial; background-ori=
+gin: initial; background-clip: initial;"><br> <br> </span></span></span></s=
+pan><span class=3D"font" style=3D"font-family:Verdana, sans-serif"><span cl=
+ass=3D"size" style=3D"font-size:10pt"></span></span></p><p style=3D"orphans=
+: 2; widows: 2; word-spacing: 0px; margin-top: 0px; margin-bottom: 0px;" cl=
+ass=3D""><span class=3D"x_477893277size"><span class=3D"highlight" style=3D=
+"background-color:white"><span class=3D"colour" style=3D"color:rgb(31, 73, =
+125)"><span class=3D"font" style=3D"font-family:SimSun"><span class=3D"size=
+" style=3D"font-size: 11pt; background-image: initial; background-position:=
+ initial; background-size: initial; background-repeat: initial; background-=
+attachment: initial; background-origin: initial; background-clip: initial;"=
+>6<sup>th</sup>&nbsp;Floor, Westlands</span></span></span></span></span><sp=
+an class=3D"highlight" style=3D"background-color:white"><span class=3D"colo=
+ur" style=3D"color:black"><span class=3D"font" style=3D"font-family:Lato, s=
+ans-serif"><span class=3D"size" style=3D"font-size: 10.5pt; background-imag=
+e: initial; background-position: initial; background-size: initial; backgro=
+und-repeat: initial; background-attachment: initial; background-origin: ini=
+tial; background-clip: initial;"><br> <br> </span></span></span></span><spa=
+n class=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"s=
+ize" style=3D"font-size:10pt"></span></span></p><p style=3D"orphans: 2; wid=
+ows: 2; word-spacing: 0px; margin-top: 0px; margin-bottom: 0px;" class=3D""=
+><span class=3D"x_477893277size"><span class=3D"highlight" style=3D"backgro=
+und-color:white"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><s=
+pan class=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=
+=3D"font-size: 11pt; background-image: initial; background-position: initia=
+l; background-size: initial; background-repeat: initial; background-attachm=
+ent: initial; background-origin: initial; background-clip: initial;">Nairob=
+i, Kenya</span></span></span></span></span><span class=3D"highlight" style=
+=3D"background-color:white"><span class=3D"colour" style=3D"color:black"><s=
+pan class=3D"font" style=3D"font-family:Lato, sans-serif"><span class=3D"si=
+ze" style=3D"font-size: 10.5pt; background-image: initial; background-posit=
+ion: initial; background-size: initial; background-repeat: initial; backgro=
+und-attachment: initial; background-origin: initial; background-clip: initi=
+al;"><br> <br> </span></span></span></span><span class=3D"font" style=3D"fo=
+nt-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt=
+"></span></span></p><p style=3D"orphans: 2; widows: 2; word-spacing: 0px; m=
+argin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"x_477893277s=
+ize"><span class=3D"highlight" style=3D"background-color:white"><span class=
+=3D"colour" style=3D"color:rgb(31, 73, 125)"><span class=3D"font" style=3D"=
+font-family:SimSun"><span class=3D"size" style=3D"font-size: 11pt; backgrou=
+nd-image: initial; background-position: initial; background-size: initial; =
+background-repeat: initial; background-attachment: initial; background-orig=
+in: initial; background-clip: initial;">Mobile +254 722 747 397</span></spa=
+n></span></span></span><span class=3D"highlight" style=3D"background-color:=
+white"><span class=3D"colour" style=3D"color:black"><span class=3D"font" st=
+yle=3D"font-family:Lato, sans-serif"><span class=3D"size" style=3D"font-siz=
+e: 10.5pt; background-image: initial; background-position: initial; backgro=
+und-size: initial; background-repeat: initial; background-attachment: initi=
+al; background-origin: initial; background-clip: initial;"><br> <br> </span=
+></span></span></span><span class=3D"font" style=3D"font-family:Verdana, sa=
+ns-serif"><span class=3D"size" style=3D"font-size:10pt"></span></span></p><=
+p style=3D"orphans: 2; widows: 2; word-spacing: 0px; margin-top: 0px; margi=
+n-bottom: 0px;" class=3D""><span class=3D"x_477893277size"><span class=3D"h=
+ighlight" style=3D"background-color:white"><span class=3D"colour" style=3D"=
+color:rgb(47, 84, 150)"><span class=3D"font" style=3D"font-family:SimSun"><=
+span class=3D"size" style=3D"font-size: 11pt; background-image: initial; ba=
+ckground-position: initial; background-size: initial; background-repeat: in=
+itial; background-attachment: initial; background-origin: initial; backgrou=
+nd-clip: initial;">Email:&nbsp;<u><a target=3D"_blank" href=3D"mailto:tom.g=
+ituma@tomag.co.ke"><span class=3D"x_477893277colour"><span class=3D"colour"=
+ style=3D"color:rgb(5, 99, 193)">tom.gituma@tomag.co.ke</span></span></a></=
+u></span></span></span></span></span><span class=3D"highlight" style=3D"bac=
+kground-color:white"><span class=3D"colour" style=3D"color:black"><span cla=
+ss=3D"font" style=3D"font-family:Lato, sans-serif"><span class=3D"size" sty=
+le=3D"font-size: 10.5pt; background-image: initial; background-position: in=
+itial; background-size: initial; background-repeat: initial; background-att=
+achment: initial; background-origin: initial; background-clip: initial;"><b=
+r> <br> </span></span></span></span><span class=3D"font" style=3D"font-fami=
+ly:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"></spa=
+n></span></p><p style=3D"orphans: 2; widows: 2; word-spacing: 0px; margin-t=
+op: 0px; margin-bottom: 0px;" class=3D""><span class=3D"x_477893277size"><s=
+pan class=3D"highlight" style=3D"background-color:white"><span class=3D"col=
+our" style=3D"color:rgb(47, 84, 150)"><span class=3D"font" style=3D"font-fa=
+mily:SimSun"><span class=3D"size" style=3D"font-size: 11pt; background-imag=
+e: initial; background-position: initial; background-size: initial; backgro=
+und-repeat: initial; background-attachment: initial; background-origin: ini=
+tial; background-clip: initial;">Website:&nbsp;<a target=3D"_blank" href=3D=
+"http://www.tomag.co.ke/"><span class=3D"x_477893277colour"><span class=3D"=
+colour" style=3D"color:rgb(5, 99, 193)">www.tomag.co.ke</span></span></a></=
+span></span></span></span></span><span class=3D"highlight" style=3D"backgro=
+und-color:white"><span class=3D"colour" style=3D"color:black"><span class=
+=3D"font" style=3D"font-family:Lato, sans-serif"><span class=3D"size" style=
+=3D"font-size: 10.5pt; background-image: initial; background-position: init=
+ial; background-size: initial; background-repeat: initial; background-attac=
+hment: initial; background-origin: initial; background-clip: initial;"><br>=
+ <br> </span></span></span></span><span class=3D"font" style=3D"font-family=
+:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"></span>=
+</span></p><p style=3D"orphans: 2; widows: 2; word-spacing: 0px; margin-top=
+: 0px; margin-bottom: 0px;" class=3D""><span class=3D"x_477893277size"><b><=
+span class=3D"highlight" style=3D"background-color:white"><span class=3D"co=
+lour" style=3D"color:rgb(68, 114, 196)"><span class=3D"font" style=3D"font-=
+family:Calibri, sans-serif"><span class=3D"size" style=3D"font-size: 36pt; =
+background-image: initial; background-position: initial; background-size: i=
+nitial; background-repeat: initial; background-attachment: initial; backgro=
+und-origin: initial; background-clip: initial;">TOMAG</span></span></span><=
+/span></b></span><span class=3D"highlight" style=3D"background-color:white"=
+><span class=3D"colour" style=3D"color:black"><span class=3D"font" style=3D=
+"font-family:Lato, sans-serif"><span class=3D"size" style=3D"font-size: 10.=
+5pt; background-image: initial; background-position: initial; background-si=
+ze: initial; background-repeat: initial; background-attachment: initial; ba=
+ckground-origin: initial; background-clip: initial;"><br> <br> </span></spa=
+n></span></span><span class=3D"font" style=3D"font-family:Verdana, sans-ser=
+if"><span class=3D"size" style=3D"font-size:10pt"></span></span></p><div><p=
+ class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"f=
+ont" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=
+=3D"font-size:10pt">&nbsp;</span></span><br></p></div></div><div><p class=
+=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"font" s=
+tyle=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"font=
+-size:10pt">&nbsp;</span></span><br></p></div><div style=3D"border: none; b=
+order-top: solid rgb(204, 204, 204) 1pt; padding: 0in 0in 0in 0in; margin-t=
+op: 7.5pt; margin-bottom: 7.5pt"><p style=3D"margin-top: 0px; margin-bottom=
+: 0px;" class=3D""><span class=3D"font" style=3D"font-family:Verdana, sans-=
+serif"><span class=3D"size" style=3D"font-size:10pt">&nbsp;</span></span><b=
+r></p></div><div><div><p class=3D"" style=3D"margin-top: 0px; margin-bottom=
+: 0px;"><span class=3D"font" style=3D"font-family:Verdana, sans-serif"><spa=
+n class=3D"size" style=3D"font-size:10pt">&nbsp;</span></span><br></p></div=
+><div id=3D"x_477893277Zm-_Id_-Sgn1"><p class=3D"" style=3D"margin-top: 0px=
+; margin-bottom: 0px;"><span class=3D"font" style=3D"font-family:Verdana, s=
+ans-serif"><span class=3D"size" style=3D"font-size:10pt">---- On Tue, 13 Ma=
+y 2025 10:04:30 +0300 <b>Ayan Nouh Boeuh &lt;<a target=3D"_blank" href=3D"m=
+ailto:ayan.Nouh@dct.dj">ayan.Nouh@dct.dj</a>&gt;</b> wrote ---</span></span=
+><br></p></div><div><p class=3D"" style=3D"margin-top: 0px; margin-bottom: =
+0px;"><span class=3D"font" style=3D"font-family:Verdana, sans-serif"><span =
+class=3D"size" style=3D"font-size:10pt">&nbsp;</span></span><br></p></div><=
+blockquote id=3D"x_477893277blockquote_zmail" style=3D"margin: 0px;"><div><=
+div><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span clas=
+s=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:10pt">Dear Tom,</span></span><br></p><p class=3D"" style=
+=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"font" style=3D"fon=
+t-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"=
+>&nbsp;</span></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin=
+-bottom: 0px;"><span class=3D"font" style=3D"font-family:Verdana, sans-seri=
+f"><span class=3D"size" style=3D"font-size:10pt">Thank for your swift feedb=
+ack.</span></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bo=
+ttom: 0px;"><span class=3D"font" style=3D"font-family:Verdana, sans-serif">=
+<span class=3D"size" style=3D"font-size:10pt">&nbsp;</span></span><br></p><=
+p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"=
+font" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=
+=3D"font-size:10pt">Please see attached our company registration ( only ava=
+ilable in French).</span></span><br></p><p class=3D"" style=3D"margin-top: =
+0px; margin-bottom: 0px;"><span class=3D"font" style=3D"font-family:Verdana=
+, sans-serif"><span class=3D"size" style=3D"font-size:10pt">&nbsp;</span></=
+span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><=
+span class=3D"x_477893277size"><b><span class=3D"colour" style=3D"color:rgb=
+(233, 113, 50)"><span class=3D"font" style=3D"font-family:Verdana, sans-ser=
+if"><span class=3D"size" style=3D"font-size:11pt">&nbsp;</span></span></spa=
+n></b></span><span class=3D"font" style=3D"font-family:Verdana, sans-serif"=
+><span class=3D"size" style=3D"font-size:10pt"></span></span><br></p><p cla=
+ss=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"x_477=
+893277size"><span class=3D"colour" style=3D"color:rgb(36, 64, 97)"><span cl=
+ass=3D"font" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" =
+style=3D"font-size:9pt">&nbsp;</span></span></span></span><span class=3D"fo=
+nt" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D=
+"font-size:10pt"></span></span><br></p><p class=3D"" style=3D"margin-top: 0=
+px; margin-bottom: 0px;"><span class=3D"x_477893277size"><span class=3D"col=
+our" style=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-fam=
+ily:Tahoma, sans-serif"><span class=3D"size" style=3D"font-size:9pt">Best R=
+egards</span></span></span></span><span class=3D"font" style=3D"font-family=
+:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"></span>=
+</span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"=
+><span class=3D"x_477893277size"><b><span class=3D"colour" style=3D"color:r=
+gb(28, 76, 119)"><span class=3D"font" style=3D"font-family:Tahoma, sans-ser=
+if"><span class=3D"size" style=3D"font-size:9pt">Mrs. Ayan Nouh Boeuh</span=
+></span></span></b></span><span class=3D"font" style=3D"font-family:Verdana=
+, sans-serif"><span class=3D"size" style=3D"font-size:10pt"></span></span><=
+br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span c=
+lass=3D"x_477893277size"><span class=3D"colour" style=3D"color:rgb(145, 145=
+, 145)"><span class=3D"font" style=3D"font-family:Tahoma, sans-serif"><span=
+ class=3D"size" style=3D"font-size:9pt">Procurement and Supply Chain depart=
+ement</span></span></span></span><span class=3D"font" style=3D"font-family:=
+Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"></span><=
+/span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;">=
+<span class=3D"colour" style=3D"color:rgb(28, 76, 119)"><span class=3D"font=
+" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D"fo=
+nt-size: 9pt; border: 1pt none windowtext; padding: 0in;"><img src=3D"cid:i=
+mage001.jpg@01DBC7CB.3FA889A0" style=3D"width: 0.1145in; height: 0.1145in" =
+height=3D"11" width=3D"11" border=3D"0"></span></span></span><span class=3D=
+"x_477893277size"><span class=3D"colour" style=3D"color:rgb(28, 76, 119)"><=
+span class=3D"font" style=3D"font-family:Tahoma, sans-serif"><span class=3D=
+"size" style=3D"font-size: 9pt; border: 1pt none windowtext; padding: 0in;"=
+>&nbsp;
+ +253 21 317916</span></span></span></span><span class=3D"font" style=3D"fo=
+nt-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt=
+"></span></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bott=
+om: 0px;"><span class=3D"colour" style=3D"color:rgb(5, 99, 193)"><span clas=
+s=3D"font" style=3D"font-family:Calibri, sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:10pt"><img src=3D"cid:image002.jpg@01DBC7CB.3FA889A0" sty=
+le=3D"width: 0.1354in; height: 0.1354in" height=3D"13" width=3D"13" border=
+=3D"0"></span></span></span><span class=3D"x_477893277size"><span class=3D"=
+colour" style=3D"color:rgb(31, 73, 125)"><span class=3D"font" style=3D"font=
+-family:Calibri, sans-serif"><span class=3D"size" style=3D"font-size:11pt">=
+&nbsp;&nbsp; </span></span></span></span><span class=3D"x_477893277size"><u=
+><span class=3D"colour" style=3D"color:rgb(5, 99, 193)"><span class=3D"font=
+" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D"fo=
+nt-size:9pt"><a target=3D"_blank" href=3D"mailto:Ayan.Nouh@dct.dj"><span cl=
+ass=3D"x_477893277colour"><span class=3D"colour" style=3D"color:rgb(5, 99, =
+193)">Ayan.Nouh@dct.dj</span></span></a></span></span></span></u></span><sp=
+an class=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"=
+size" style=3D"font-size:10pt"></span></span><br></p><p style=3D"margin-lef=
+t: 141.6pt; margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D=
+"x_477893277size"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><=
+span class=3D"font" style=3D"font-family:Tahoma, sans-serif"><span class=3D=
+"size" style=3D"font-size:9pt">&nbsp;</span></span></span></span><span clas=
+s=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:10pt"></span></span><br></p><p class=3D"" style=3D"margin=
+-top: 0px; margin-bottom: 0px;"><span class=3D"colour" style=3D"color:rgb(3=
+1, 73, 125)"><span class=3D"font" style=3D"font-family:Tahoma, sans-serif">=
+<span class=3D"size" style=3D"font-size:9pt"><img src=3D"cid:image003.png@0=
+1DBC7CB.3FA889A0" style=3D"width: 1.7291in; height: 0.7291in" height=3D"70"=
+ width=3D"166" border=3D"0"></span></span></span><span class=3D"x_477893277=
+size"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><span class=
+=3D"font" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" sty=
+le=3D"font-size:9pt">&nbsp;</span></span></span></span><span class=3D"font"=
+ style=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"fo=
+nt-size:10pt"></span></span><br></p><p style=3D"text-align: justify; margin=
+-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"x_477893277size">=
+<span class=3D"colour" style=3D"color:rgb(36, 64, 97)"><span class=3D"font"=
+ style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D"fon=
+t-size:8pt">Soci=C3=A9t=C3=A9 de Gestion du Terminal =C3=A0 Conteneurs de D=
+oraleh (SGTD)</span></span></span></span><span class=3D"font" style=3D"font=
+-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt">=
+</span></span><br></p><p style=3D"text-align: justify; margin-top: 0px; mar=
+gin-bottom: 0px;" class=3D""><span class=3D"x_477893277size"><span class=3D=
+"colour" style=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font=
+-family:Tahoma, sans-serif"><span class=3D"size" style=3D"font-size:8pt">Po=
+ Box: 2081</span></span></span></span><span class=3D"font" style=3D"font-fa=
+mily:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"></s=
+pan></span><br></p><p style=3D"text-align: justify; margin-top: 0px; margin=
+-bottom: 0px;" class=3D""><span class=3D"x_477893277size"><span class=3D"co=
+lour" style=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-fa=
+mily:Tahoma, sans-serif"><span class=3D"size" style=3D"font-size:8pt">Doral=
+eh, Djibouti</span></span></span></span><span class=3D"font" style=3D"font-=
+family:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"><=
+/span></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom:=
+ 0px;"><span class=3D"x_477893277size"><span class=3D"colour" style=3D"colo=
+r:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-family:Tahoma, sans-s=
+erif"><span class=3D"size" style=3D"font-size:8pt">Republic of Djibouti</sp=
+an></span></span></span><span class=3D"font" style=3D"font-family:Verdana, =
+sans-serif"><span class=3D"size" style=3D"font-size:10pt"></span></span><br=
+></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span cla=
+ss=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" =
+style=3D"font-size:10pt">&nbsp;</span></span><br></p><p class=3D"" style=3D=
+"margin-top: 0px; margin-bottom: 0px;"><span class=3D"font" style=3D"font-f=
+amily:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt">&n=
+bsp;</span></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bo=
+ttom: 0px;"><span class=3D"font" style=3D"font-family:Verdana, sans-serif">=
+<span class=3D"size" style=3D"font-size:10pt">&nbsp;</span></span><br></p><=
+div><div style=3D"border: none; border-top: solid rgb(225, 225, 225) 1pt; p=
+adding: 3pt 0in 0in 0in"><p class=3D"" style=3D"margin-top: 0px; margin-bot=
+tom: 0px;"><span class=3D"x_477893277size"><b><span class=3D"font" style=3D=
+"font-family:Calibri, sans-serif"><span class=3D"size" style=3D"font-size:1=
+1pt">From:</span></span></b></span><span class=3D"x_477893277size"><span cl=
+ass=3D"font" style=3D"font-family:Calibri, sans-serif"><span class=3D"size"=
+ style=3D"font-size:11pt"> <a target=3D"_blank" href=3D"mailto:info@tomag.c=
+o.ke">info@tomag.co.ke</a> <a target=3D"_blank" href=3D"mailto:info@tomag.c=
+o.ke"> info@tomag.co.ke</a> </span></span></span><span class=3D"font" style=
+=3D"font-family:Calibri, sans-serif"><span class=3D"size" style=3D"font-siz=
+e:11pt"><br> <span class=3D"x_477893277size"><b>Sent:</b> Tuesday, May 13, =
+2025 9:21 AM</span><br> <span class=3D"x_477893277size"><b>To:</b> Ayan Nou=
+h Boeuh &lt;<a target=3D"_blank" href=3D"mailto:ayan.Nouh@dct.dj">ayan.Nouh=
+@dct.dj</a>&gt;</span><br> <span class=3D"x_477893277size"><b>Cc:</b> Hibo =
+Hassan Osman &lt;<a target=3D"_blank" href=3D"mailto:Hibo.Hassan@dct.dj">Hi=
+bo.Hassan@dct.dj</a>&gt;; Fadouma Farah Kaireh &lt;<a target=3D"_blank" hre=
+f=3D"mailto:fadouma.farah@dct.dj">fadouma.farah@dct.dj</a>&gt;; Obakar Houm=
+ed Ahmed &lt;<a target=3D"_blank" href=3D"mailto:obakar.houmed@dct.dj">obak=
+ar.houmed@dct.dj</a>&gt;; <a target=3D"_blank" href=3D"mailto:tom.gituma@to=
+mag.co.ke">tom.gituma@tomag.co.ke</a></span><br> <span class=3D"x_477893277=
+size"><b>Subject:</b> RE: SGTD Request for quotation MILLER</span></span></=
+span><span class=3D"font" style=3D"font-family:Verdana, sans-serif"><span c=
+lass=3D"size" style=3D"font-size:10pt"></span></span></p></div></div><p cla=
+ss=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"font"=
+ style=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"fo=
+nt-size:10pt">&nbsp;</span></span><br></p><table style=3D"width: 100%" widt=
+h=3D"100%" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+class=3D"x_477893277MsoNormalTable"><tbody><tr><td style=3D"background: rgb=
+(0, 160, 210); padding: 5pt 2pt 5pt 2pt"><br></td><td style=3D"width: 100%;=
+ background: rgb(229, 245, 250); padding: 5pt 4pt 5pt 12pt" width=3D"100%">=
+<div><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span cla=
+ss=3D"x_477893277colour"><b><span class=3D"colour" style=3D"color:rgb(34, 3=
+4, 34)">Avertissement:</span></b><span class=3D"colour" style=3D"color:rgb(=
+34, 34, 34)"> Ceci est e-mail externe. Veuillez faire attention lorsque vou=
+s cliquez sur des liens ou ouvrez des pi=C3=A8ces jointes. En cas de doute,=
+ contactez <a target=3D"_blank" href=3D"http://mailto:itcsecurity@dct.">ITC=
+_Security</a></span></span><br></p></div><div><p style=3D"margin-top: 0px; =
+margin-bottom: 0px;" class=3D""><span class=3D"x_477893277colour"><b><span =
+class=3D"colour" style=3D"color:rgb(34, 34, 34)">Caution:</span></b><span c=
+lass=3D"colour" style=3D"color:rgb(34, 34, 34)"> This is an external email.=
+ Please be careful when clicking links or opening attachments. When in doub=
+t, contact <a target=3D"_blank" href=3D"http://mailto:itcsecurity@dct.">ITC=
+_Security</a></span></span><br></p></div></td></tr></tbody></table><p class=
+=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"font" s=
+tyle=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"font=
+-size:10pt">&nbsp;</span></span><br></p><div><p class=3D"" style=3D"margin-=
+top: 0px; margin-bottom: 0px;"><span class=3D"x_477893277font"><span class=
+=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D"font-s=
+ize:10pt">Dear Ayan,</span></span></span><span class=3D"font" style=3D"font=
+-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt">=
+</span></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom=
+: 0px;"><span class=3D"x_477893277font"><span class=3D"font" style=3D"font-=
+family:SimSun"><span class=3D"size" style=3D"font-size:10pt">Thanks for you=
+r email. We shall revert with the offer. Kindly share the company registrat=
+ion</span></span></span><span class=3D"font" style=3D"font-family:Verdana, =
+sans-serif"><span class=3D"size" style=3D"font-size:10pt"></span></span><br=
+></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span cla=
+ss=3D"x_477893277font"><span class=3D"font" style=3D"font-family:SimSun"><s=
+pan class=3D"size" style=3D"font-size:10pt">Thanks and Best Regards</span><=
+/span></span><span class=3D"font" style=3D"font-family:Verdana, sans-serif"=
+><span class=3D"size" style=3D"font-size:10pt"></span></span><br></p><p cla=
+ss=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"x_477=
+893277font"><span class=3D"font" style=3D"font-family:SimSun"><span class=
+=3D"size" style=3D"font-size:10pt">&nbsp;</span></span></span><span class=
+=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" st=
+yle=3D"font-size:10pt"></span></span><br></p><p class=3D"" style=3D"margin-=
+top: 0px; margin-bottom: 0px;"><span class=3D"x_477893277font"><span class=
+=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D"font-s=
+ize:10pt">Tom Gituma</span></span></span><span class=3D"font" style=3D"font=
+-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt">=
+</span></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom=
+: 0px;"><span class=3D"x_477893277font"><span class=3D"font" style=3D"font-=
+family:SimSun"><span class=3D"size" style=3D"font-size:10pt">General Manage=
+r</span></span></span><span class=3D"font" style=3D"font-family:Verdana, sa=
+ns-serif"><span class=3D"size" style=3D"font-size:10pt"></span></span><br><=
+/p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=
+=3D"x_477893277font"><span class=3D"font" style=3D"font-family:SimSun"><spa=
+n class=3D"size" style=3D"font-size:10pt">Tomag Enterprises Limited</span><=
+/span></span><span class=3D"font" style=3D"font-family:Verdana, sans-serif"=
+><span class=3D"size" style=3D"font-size:10pt"></span></span><br></p><p cla=
+ss=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"x_477=
+893277font"><span class=3D"font" style=3D"font-family:SimSun"><span class=
+=3D"size" style=3D"font-size:10pt">Delta Corner Tower, Chiromo Road</span><=
+/span></span><span class=3D"font" style=3D"font-family:Verdana, sans-serif"=
+><span class=3D"size" style=3D"font-size:10pt"></span></span><br></p><p cla=
+ss=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"x_477=
+893277font"><span class=3D"font" style=3D"font-family:SimSun"><span class=
+=3D"size" style=3D"font-size:10pt">6<sup>th</sup> Floor, Westlands</span></=
+span></span><span class=3D"font" style=3D"font-family:Verdana, sans-serif">=
+<span class=3D"size" style=3D"font-size:10pt"></span></span><br></p><p clas=
+s=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"x_4778=
+93277font"><span class=3D"font" style=3D"font-family:SimSun"><span class=3D=
+"size" style=3D"font-size:10pt">Nairobi, Kenya</span></span></span><span cl=
+ass=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"size"=
+ style=3D"font-size:10pt"></span></span><br></p><p class=3D"" style=3D"marg=
+in-top: 0px; margin-bottom: 0px;"><span class=3D"x_477893277font"><span cla=
+ss=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D"font=
+-size:10pt">Mobile +254 722 747 397</span></span></span><span class=3D"font=
+" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"f=
+ont-size:10pt"></span></span><br></p><p class=3D"" style=3D"margin-top: 0px=
+; margin-bottom: 0px;"><span class=3D"x_477893277font"><span class=3D"colou=
+r" style=3D"color:rgb(15, 71, 97)"><span class=3D"font" style=3D"font-famil=
+y:SimSun"><span class=3D"size" style=3D"font-size:10pt">Email: <u><a target=
+=3D"_blank" href=3D"mailto:tom.gituma@tomag.co.ke">tom.gituma@tomag.co.ke</=
+a></u></span></span></span></span><span class=3D"font" style=3D"font-family=
+:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"></span>=
+</span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"=
+><span class=3D"x_477893277font"><span class=3D"colour" style=3D"color:rgb(=
+15, 71, 97)"><span class=3D"font" style=3D"font-family:SimSun"><span class=
+=3D"size" style=3D"font-size:10pt">Website: <a target=3D"_blank" href=3D"ht=
+tp://www.tomag.co.ke/">www.tomag.co.ke</a></span></span></span></span><span=
+ class=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"si=
+ze" style=3D"font-size:10pt"></span></span><br></p><p class=3D"" style=3D"m=
+argin-top: 0px; margin-bottom: 0px;"><span class=3D"x_477893277size"><b><sp=
+an class=3D"colour" style=3D"color:rgb(68, 114, 196)"><span class=3D"font" =
+style=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"fon=
+t-size:36pt">TOMAG</span></span></span></b></span><span class=3D"font" styl=
+e=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-si=
+ze:10pt"></span></span><br></p><p class=3D"" style=3D"margin-top: 0px; marg=
+in-bottom: 0px;"><span class=3D"font" style=3D"font-family:Verdana, sans-se=
+rif"><span class=3D"size" style=3D"font-size:10pt">&nbsp;</span></span><br>=
+</p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span clas=
+s=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:10pt">&nbsp;</span></span><br></p><div><div style=3D"bord=
+er: none; border-top: solid rgb(225, 225, 225) 1pt; padding: 3pt 0in 0in 0i=
+n"><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=
+=3D"x_477893277size"><b><span class=3D"font" style=3D"font-family:Calibri, =
+sans-serif"><span class=3D"size" style=3D"font-size:11pt">From:</span></spa=
+n></b></span><span class=3D"x_477893277size"><span class=3D"font" style=3D"=
+font-family:Calibri, sans-serif"><span class=3D"size" style=3D"font-size:11=
+pt"> Ayan Nouh Boeuh &lt;<a target=3D"_blank" href=3D"mailto:ayan.Nouh@dct.=
+dj">ayan.Nouh@dct.dj</a>&gt; </span></span></span><span class=3D"font" styl=
+e=3D"font-family:Calibri, sans-serif"><span class=3D"size" style=3D"font-si=
+ze:11pt"><br> <span class=3D"x_477893277size"><b>Sent:</b> Tuesday, May 13,=
+ 2025 7:59 AM</span><br> <span class=3D"x_477893277size"><b>To:</b> <a targ=
+et=3D"_blank" href=3D"mailto:info@tomag.co.ke">info@tomag.co.ke</a></span><=
+br> <span class=3D"x_477893277size"><b>Cc:</b> Hibo Hassan Osman &lt;<a tar=
+get=3D"_blank" href=3D"mailto:Hibo.Hassan@dct.dj">Hibo.Hassan@dct.dj</a>&gt=
+;; Fadouma Farah Kaireh &lt;<a target=3D"_blank" href=3D"mailto:fadouma.far=
+ah@dct.dj">fadouma.farah@dct.dj</a>&gt;; Obakar Houmed Ahmed &lt;<a target=
+=3D"_blank" href=3D"mailto:obakar.houmed@dct.dj">obakar.houmed@dct.dj</a>&g=
+t;</span><br> <span class=3D"x_477893277size"><b>Subject:</b> SGTD Request =
+for quotation MILLER </span><br> <span class=3D"x_477893277size"><b>Importa=
+nce:</b> High</span></span></span><span class=3D"font" style=3D"font-family=
+:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"></span>=
+</span></p></div></div><p class=3D"" style=3D"margin-top: 0px; margin-botto=
+m: 0px;"><span class=3D"font" style=3D"font-family:Verdana, sans-serif"><sp=
+an class=3D"size" style=3D"font-size:10pt">&nbsp;</span></span><br></p><p c=
+lass=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"x_4=
+77893277size"><span class=3D"colour" style=3D"color:rgb(36, 64, 97)"><span =
+class=3D"font" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size=
+" style=3D"font-size:10pt">Greetings</span></span></span></span><span class=
+=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" st=
+yle=3D"font-size:10pt"></span></span><br></p><p class=3D"" style=3D"margin-=
+top: 0px; margin-bottom: 0px;"><span class=3D"x_477893277size"><span class=
+=3D"colour" style=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"f=
+ont-family:Tahoma, sans-serif"><span class=3D"size" style=3D"font-size:10pt=
+">&nbsp;</span></span></span></span><span class=3D"font" style=3D"font-fami=
+ly:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"></spa=
+n></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px=
+;"><span class=3D"x_477893277size"><span class=3D"colour" style=3D"color:rg=
+b(36, 64, 97)"><span class=3D"font" style=3D"font-family:Tahoma, sans-serif=
+"><span class=3D"size" style=3D"font-size:10pt">We have searched and found =
+on the website that your company TOMAG is the exclusive distributor for Mil=
+ler engines / equipment and accessories</span></span></span></span><span cl=
+ass=3D"x_477893277size"><span class=3D"font" style=3D"font-family:Tahoma, s=
+ans-serif"><span class=3D"size" style=3D"font-size:10pt">.</span></span></s=
+pan><span class=3D"font" style=3D"font-family:Verdana, sans-serif"><span cl=
+ass=3D"size" style=3D"font-size:10pt"></span></span><br></p><p class=3D"" s=
+tyle=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"x_477893277siz=
+e"><span class=3D"colour" style=3D"color:rgb(36, 64, 97)"><span class=3D"fo=
+nt" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D"=
+font-size:10pt">&nbsp;</span></span></span></span><span class=3D"font" styl=
+e=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-si=
+ze:10pt"></span></span><br></p><p class=3D"" style=3D"margin-top: 0px; marg=
+in-bottom: 0px;"><span class=3D"x_477893277size"><span class=3D"colour" sty=
+le=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-family:Taho=
+ma, sans-serif"><span class=3D"size" style=3D"font-size:10pt">We, SOCIETE D=
+E GESTION DU TERMINAL A CONTENEURS DE DORALEH(SGTD), are a container termin=
+al company located in Djibouti, East Africa. We are
+ one of the leading container Terminals in our region. We have 1.5 KM long =
+quay , 12 quay crane,30 RTG and 30 RMG and for further information about ou=
+r company, you could find as follow : <a target=3D"_blank" href=3D"https://=
+www.sgtd-terminal.com/">https://www.sgtd-terminal.com/</a></span></span></s=
+pan></span><span class=3D"font" style=3D"font-family:Verdana, sans-serif"><=
+span class=3D"size" style=3D"font-size:10pt"></span></span><br></p><p class=
+=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"x_47789=
+3277size"><span class=3D"colour" style=3D"color:rgb(36, 64, 97)"><span clas=
+s=3D"font" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" st=
+yle=3D"font-size:10pt">&nbsp;</span></span></span></span><span class=3D"fon=
+t" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"=
+font-size:10pt"></span></span><br></p><p class=3D"" style=3D"margin-top: 0p=
+x; margin-bottom: 0px;"><span class=3D"x_477893277size"><span class=3D"colo=
+ur" style=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-fami=
+ly:Tahoma, sans-serif"><span class=3D"size" style=3D"font-size:10pt">&nbsp;=
+</span></span></span></span><span class=3D"font" style=3D"font-family:Verda=
+na, sans-serif"><span class=3D"size" style=3D"font-size:10pt"></span></span=
+><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span=
+ class=3D"x_477893277size"><span class=3D"colour" style=3D"color:rgb(36, 64=
+, 97)"><span class=3D"font" style=3D"font-family:Tahoma, sans-serif"><span =
+class=3D"size" style=3D"font-size:10pt">We are launching a tender for the p=
+urchase of <b><u>welding machines along the equipment and accessories, </u>=
+</b>and we would like you to receive your quotation along the freight charg=
+es by sea freight to Djibouti.</span></span></span></span><span class=3D"fo=
+nt" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D=
+"font-size:10pt"></span></span><br></p><p class=3D"" style=3D"margin-top: 0=
+px; margin-bottom: 0px;"><span class=3D"x_477893277size"><span class=3D"col=
+our" style=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-fam=
+ily:Tahoma, sans-serif"><span class=3D"size" style=3D"font-size:10pt">&nbsp=
+;</span></span></span></span><span class=3D"font" style=3D"font-family:Verd=
+ana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"></span></spa=
+n><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><spa=
+n class=3D"x_477893277size"><span class=3D"colour" style=3D"color:rgb(36, 6=
+4, 97)"><span class=3D"font" style=3D"font-family:Tahoma, sans-serif"><span=
+ class=3D"size" style=3D"font-size:10pt">You will find enclosed the full de=
+scription of the enquiries.</span></span></span></span><span class=3D"font"=
+ style=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"fo=
+nt-size:10pt"></span></span><br></p><p class=3D"" style=3D"margin-top: 0px;=
+ margin-bottom: 0px;"><span class=3D"x_477893277size"><span class=3D"colour=
+" style=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-family=
+:Tahoma, sans-serif"><span class=3D"size" style=3D"font-size:10pt">&nbsp;</=
+span></span></span></span><span class=3D"font" style=3D"font-family:Verdana=
+, sans-serif"><span class=3D"size" style=3D"font-size:10pt"></span></span><=
+br></p><p style=3D"text-indent: 0.5in; margin-top: 0px; margin-bottom: 0px;=
+" class=3D""><span class=3D"x_477893277size"><b><span class=3D"colour" styl=
+e=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-family:Tahom=
+a, sans-serif"><span class=3D"size" style=3D"font-size:10pt">-2 units of En=
+gine-Driven welder ( ref BIG BLUE 800DUO Air Pack)</span></span></span></b>=
+</span><span class=3D"font" style=3D"font-family:Verdana, sans-serif"><span=
+ class=3D"size" style=3D"font-size:10pt"></span></span><br></p><p style=3D"=
+margin-left: 0.5in; margin-top: 0px; margin-bottom: 0px;" class=3D""><span =
+class=3D"x_477893277size"><b><span class=3D"colour" style=3D"color:rgb(36, =
+64, 97)"><span class=3D"font" style=3D"font-family:Tahoma, sans-serif"><spa=
+n class=3D"size" style=3D"font-size:10pt">-2 units of Engine drive trailers=
+ (ref 4 west Four-Wheel Steerable Off-Road trailer 042801)</span></span></s=
+pan></b></span><span class=3D"font" style=3D"font-family:Verdana, sans-seri=
+f"><span class=3D"size" style=3D"font-size:10pt"></span></span><br></p><p s=
+tyle=3D"text-indent: 0.5in; margin-top: 0px; margin-bottom: 0px;" class=3D"=
+"><span class=3D"x_477893277size"><b><span class=3D"colour" style=3D"color:=
+rgb(36, 64, 97)"><span class=3D"font" style=3D"font-family:Tahoma, sans-ser=
+if"><span class=3D"size" style=3D"font-size:10pt">-2 Units of desiccant Air=
+ dryer System-Rear Amount(Ref 195117001)</span></span></span></b></span><sp=
+an class=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"=
+size" style=3D"font-size:10pt"></span></span><br></p><p style=3D"text-inden=
+t: 0.5in; margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"x=
+_477893277size"><b><span class=3D"colour" style=3D"color:rgb(36, 64, 97)"><=
+span class=3D"font" style=3D"font-family:Tahoma, sans-serif"><span class=3D=
+"size" style=3D"font-size:10pt">-6 units of air Dryer for the 2 desiccant r=
+ef 195117001.</span></span></span></b></span><span class=3D"font" style=3D"=
+font-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10=
+pt"></span></span><br></p><p style=3D"margin-left: 0.25in; margin-top: 0px;=
+ margin-bottom: 0px;" class=3D""><span class=3D"x_477893277font"><span clas=
+s=3D"font" style=3D"font-family:&quot;Aptos Display&quot;, sans-serif"><spa=
+n class=3D"size" style=3D"font-size:10pt">&nbsp;</span></span></span><span =
+class=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"siz=
+e" style=3D"font-size:10pt"></span></span><br></p><p class=3D"" style=3D"ma=
+rgin-top: 0px; margin-bottom: 0px;"><span class=3D"x_477893277font"><span c=
+lass=3D"font" style=3D"font-family:&quot;Aptos Display&quot;, sans-serif"><=
+span class=3D"size" style=3D"font-size:10pt">&nbsp;</span></span></span><sp=
+an class=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"=
+size" style=3D"font-size:10pt"></span></span><br></p><p class=3D"" style=3D=
+"margin-top: 0px; margin-bottom: 0px;"><span class=3D"x_477893277size"><spa=
+n class=3D"colour" style=3D"color:rgb(36, 64, 97)"><span class=3D"font" sty=
+le=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D"font-si=
+ze:10pt">In addition, below you will find the link, please register, and co=
+nfirm us upon registration by sharing your company ID reference to invite
+ your company to participate to our future tenders.</span></span></span></s=
+pan><span class=3D"font" style=3D"font-family:Verdana, sans-serif"><span cl=
+ass=3D"size" style=3D"font-size:10pt"></span></span><br></p><p class=3D"" s=
+tyle=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"x_477893277siz=
+e"><span class=3D"colour" style=3D"color:rgb(36, 64, 97)"><span class=3D"fo=
+nt" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D"=
+font-size:10pt">&nbsp;</span></span></span></span><span class=3D"font" styl=
+e=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-si=
+ze:10pt"></span></span><br></p><p class=3D"" style=3D"margin-top: 0px; marg=
+in-bottom: 0px;"><span class=3D"x_477893277size"><span class=3D"colour" sty=
+le=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-family:Taho=
+ma, sans-serif"><span class=3D"size" style=3D"font-size:10pt">See follow th=
+e link for the registration: &nbsp;</span></span></span></span><span class=
+=3D"x_477893277x1977987154msohyperlink"><span class=3D"font" style=3D"font-=
+family:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"><=
+a target=3D"_blank" href=3D"https://sgtd-sourcing.bravosolution.com/web_en/=
+login.html"><span class=3D"x_477893277size"><span class=3D"font" style=3D"f=
+ont-family:Tahoma, sans-serif">https://sgtd-sourcing.bravosolution.com/web_=
+en/login.html</span></span></a></span></span></span><span class=3D"font" st=
+yle=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-=
+size:10pt"></span></span><br></p><p class=3D"" style=3D"margin-top: 0px; ma=
+rgin-bottom: 0px;"><span class=3D"x_477893277size"><span class=3D"colour" s=
+tyle=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-family:Ta=
+homa, sans-serif"><span class=3D"size" style=3D"font-size:10pt">&nbsp;</spa=
+n></span></span></span><span class=3D"font" style=3D"font-family:Verdana, s=
+ans-serif"><span class=3D"size" style=3D"font-size:10pt"></span></span><br>=
+</p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span clas=
+s=3D"x_477893277size"><span class=3D"colour" style=3D"color:rgb(36, 64, 97)=
+"><span class=3D"font" style=3D"font-family:Tahoma, sans-serif"><span class=
+=3D"size" style=3D"font-size:10pt">Wishing you a great day and looking forw=
+ard to your favorable response along your quotation.</span></span></span></=
+span><span class=3D"font" style=3D"font-family:Verdana, sans-serif"><span c=
+lass=3D"size" style=3D"font-size:10pt"></span></span><br></p><p class=3D"" =
+style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"x_477893277si=
+ze"><span class=3D"colour" style=3D"color:rgb(36, 64, 97)"><span class=3D"f=
+ont" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D=
+"font-size:10pt">&nbsp;</span></span></span></span><span class=3D"font" sty=
+le=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-s=
+ize:10pt"></span></span><br></p><p class=3D"" style=3D"margin-top: 0px; mar=
+gin-bottom: 0px;"><span class=3D"x_477893277size"><span class=3D"colour" st=
+yle=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-family:Tah=
+oma, sans-serif"><span class=3D"size" style=3D"font-size:10pt">Let us know =
+if you may have any questions or clarifications.</span></span></span></span=
+><span class=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=
+=3D"size" style=3D"font-size:10pt"></span></span><br></p><p class=3D"" styl=
+e=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"x_477893277size">=
+<span class=3D"colour" style=3D"color:rgb(36, 64, 97)"><span class=3D"font"=
+ style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D"fon=
+t-size:10pt">&nbsp;</span></span></span></span><span class=3D"font" style=
+=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-siz=
+e:10pt"></span></span><br></p><p class=3D"" style=3D"margin-top: 0px; margi=
+n-bottom: 0px;"><span class=3D"x_477893277size"><span class=3D"colour" styl=
+e=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-family:Tahom=
+a, sans-serif"><span class=3D"size" style=3D"font-size:10pt">&nbsp;</span><=
+/span></span></span><span class=3D"font" style=3D"font-family:Verdana, sans=
+-serif"><span class=3D"size" style=3D"font-size:10pt"></span></span><br></p=
+><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=
+=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" st=
+yle=3D"font-size:10pt">&nbsp;</span></span><br></p><p class=3D"" style=3D"m=
+argin-top: 0px; margin-bottom: 0px;"><span class=3D"x_477893277size"><b><sp=
+an class=3D"colour" style=3D"color:rgb(233, 113, 50)"><span class=3D"font" =
+style=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"fon=
+t-size:11pt">&nbsp;</span></span></span></b></span><span class=3D"font" sty=
+le=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-s=
+ize:10pt"></span></span><br></p><p class=3D"" style=3D"margin-top: 0px; mar=
+gin-bottom: 0px;"><span class=3D"x_477893277size"><span class=3D"colour" st=
+yle=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-family:Tah=
+oma, sans-serif"><span class=3D"size" style=3D"font-size:9pt">&nbsp;</span>=
+</span></span></span><span class=3D"font" style=3D"font-family:Verdana, san=
+s-serif"><span class=3D"size" style=3D"font-size:10pt"></span></span><br></=
+p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=
+=3D"x_477893277size"><span class=3D"colour" style=3D"color:rgb(36, 64, 97)"=
+><span class=3D"font" style=3D"font-family:Tahoma, sans-serif"><span class=
+=3D"size" style=3D"font-size:9pt">Best Regards</span></span></span></span><=
+span class=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=
+=3D"size" style=3D"font-size:10pt"></span></span><br></p><p class=3D"" styl=
+e=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"x_477893277size">=
+<b><span class=3D"colour" style=3D"color:rgb(28, 76, 119)"><span class=3D"f=
+ont" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D=
+"font-size:9pt">Mrs. Ayan Nouh Boeuh</span></span></span></b></span><span c=
+lass=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"size=
+" style=3D"font-size:10pt"></span></span><br></p><p class=3D"" style=3D"mar=
+gin-top: 0px; margin-bottom: 0px;"><span class=3D"x_477893277size"><span cl=
+ass=3D"colour" style=3D"color:rgb(145, 145, 145)"><span class=3D"font" styl=
+e=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D"font-siz=
+e:9pt">Procurement and Supply Chain departement</span></span></span></span>=
+<span class=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=
+=3D"size" style=3D"font-size:10pt"></span></span><br></p><p class=3D"" styl=
+e=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"colour" style=3D"=
+color:rgb(28, 76, 119)"><span class=3D"font" style=3D"font-family:Tahoma, s=
+ans-serif"><span class=3D"size" style=3D"font-size: 9pt; border: 1pt none w=
+indowtext; padding: 0in;"><img src=3D"cid:image001.jpg@01DBC7CB.3FA889A0" s=
+tyle=3D"width: 0.1145in; height: 0.1145in" height=3D"11" width=3D"11" borde=
+r=3D"0"></span></span></span><span class=3D"x_477893277size"><span class=3D=
+"colour" style=3D"color:rgb(28, 76, 119)"><span class=3D"font" style=3D"fon=
+t-family:Tahoma, sans-serif"><span class=3D"size" style=3D"font-size: 9pt; =
+border: 1pt none windowtext; padding: 0in;">&nbsp;
+ +253 21 317916</span></span></span></span><span class=3D"font" style=3D"fo=
+nt-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt=
+"></span></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bott=
+om: 0px;"><span class=3D"colour" style=3D"color:rgb(5, 99, 193)"><span clas=
+s=3D"font" style=3D"font-family:Calibri, sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:10pt"><img src=3D"cid:image002.jpg@01DBC7CB.3FA889A0" sty=
+le=3D"width: 0.1354in; height: 0.1354in" height=3D"13" width=3D"13" border=
+=3D"0"></span></span></span><span class=3D"x_477893277size"><span class=3D"=
+colour" style=3D"color:rgb(31, 73, 125)"><span class=3D"font" style=3D"font=
+-family:Calibri, sans-serif"><span class=3D"size" style=3D"font-size:11pt">=
+&nbsp;&nbsp; </span></span></span></span><span class=3D"x_477893277size"><u=
+><span class=3D"colour" style=3D"color:rgb(5, 99, 193)"><span class=3D"font=
+" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D"fo=
+nt-size:9pt"><a target=3D"_blank" href=3D"mailto:Ayan.Nouh@dct.dj"><span cl=
+ass=3D"x_477893277colour"><span class=3D"colour" style=3D"color:rgb(5, 99, =
+193)">Ayan.Nouh@dct.dj</span></span></a></span></span></span></u></span><sp=
+an class=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"=
+size" style=3D"font-size:10pt"></span></span><br></p><p style=3D"margin-lef=
+t: 141.6pt; margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D=
+"x_477893277size"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><=
+span class=3D"font" style=3D"font-family:Tahoma, sans-serif"><span class=3D=
+"size" style=3D"font-size:9pt">&nbsp;</span></span></span></span><span clas=
+s=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" s=
+tyle=3D"font-size:10pt"></span></span><br></p><p class=3D"" style=3D"margin=
+-top: 0px; margin-bottom: 0px;"><span class=3D"colour" style=3D"color:rgb(3=
+1, 73, 125)"><span class=3D"font" style=3D"font-family:Tahoma, sans-serif">=
+<span class=3D"size" style=3D"font-size:9pt"><img src=3D"cid:image003.png@0=
+1DBC7CB.3FA889A0" style=3D"width: 1.7291in; height: 0.7291in" height=3D"70"=
+ width=3D"166" border=3D"0"></span></span></span><span class=3D"x_477893277=
+size"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><span class=
+=3D"font" style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" sty=
+le=3D"font-size:9pt">&nbsp;</span></span></span></span><span class=3D"font"=
+ style=3D"font-family:Verdana, sans-serif"><span class=3D"size" style=3D"fo=
+nt-size:10pt"></span></span><br></p><p style=3D"text-align: justify; margin=
+-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"x_477893277size">=
+<span class=3D"colour" style=3D"color:rgb(36, 64, 97)"><span class=3D"font"=
+ style=3D"font-family:Tahoma, sans-serif"><span class=3D"size" style=3D"fon=
+t-size:8pt">Soci=C3=A9t=C3=A9 de Gestion du Terminal =C3=A0 Conteneurs de D=
+oraleh (SGTD)</span></span></span></span><span class=3D"font" style=3D"font=
+-family:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt">=
+</span></span><br></p><p style=3D"text-align: justify; margin-top: 0px; mar=
+gin-bottom: 0px;" class=3D""><span class=3D"x_477893277size"><span class=3D=
+"colour" style=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font=
+-family:Tahoma, sans-serif"><span class=3D"size" style=3D"font-size:8pt">Po=
+ Box: 2081</span></span></span></span><span class=3D"font" style=3D"font-fa=
+mily:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"></s=
+pan></span><br></p><p style=3D"text-align: justify; margin-top: 0px; margin=
+-bottom: 0px;" class=3D""><span class=3D"x_477893277size"><span class=3D"co=
+lour" style=3D"color:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-fa=
+mily:Tahoma, sans-serif"><span class=3D"size" style=3D"font-size:8pt">Doral=
+eh, Djibouti</span></span></span></span><span class=3D"font" style=3D"font-=
+family:Verdana, sans-serif"><span class=3D"size" style=3D"font-size:10pt"><=
+/span></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom:=
+ 0px;"><span class=3D"x_477893277size"><span class=3D"colour" style=3D"colo=
+r:rgb(36, 64, 97)"><span class=3D"font" style=3D"font-family:Tahoma, sans-s=
+erif"><span class=3D"size" style=3D"font-size:8pt">Republic of Djibouti</sp=
+an></span></span></span><span class=3D"font" style=3D"font-family:Verdana, =
+sans-serif"><span class=3D"size" style=3D"font-size:10pt"></span></span><br=
+></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span cla=
+ss=3D"font" style=3D"font-family:Verdana, sans-serif"><span class=3D"size" =
+style=3D"font-size:10pt">&nbsp;</span></span><br></p></div></div></div></bl=
+ockquote></div><div><p class=3D"" style=3D"margin-top: 0px; margin-bottom: =
+0px;"><span class=3D"font" style=3D"font-family:Verdana, sans-serif"><span =
+class=3D"size" style=3D"font-size:10pt">&nbsp;</span></span><br></p></div><=
+/div><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;">&nbsp;<br=
+></p></div></div></div></blockquote></div><div><br></div></div><br></body><=
+/html>
+------=_Part_4787615_1204958478.1747634109066
+Content-Type: image/jpeg; name=1.jpg
+Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename=1.jpg
+Content-ID: <image001.jpg@01DBC7CB.3FA889A0>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAALAAsDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD0bW/F
++jaYL20n1DyryKP/AFaKWk3MPlCjGC3I4pnhPSL6y8MWMOoXlz9qCFpAz5ILMWwT6jOPwqvpOkWN
+z9j1me2STUnUk3D5LZyRn0zgAZrqq1lJRXLElJt3Z//Z
+------=_Part_4787615_1204958478.1747634109066
+Content-Type: image/jpeg; name=2.jpg
+Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename=2.jpg
+Content-ID: <image002.jpg@01DBC7CB.3FA889A0>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAANAA0DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDa0/wj
+HrFsL6/1CRJZyzElQ2cHHJ9aqXtpeeGLrydNvpljmQSEj5c8kcj1rVke50yeW1t7uVI0YgBTirGn
+6T/bZlmurmQupAyRkmvc9pOPv1JXh2/I+aWJjP8Ad04+/wD1c//Z
+------=_Part_4787615_1204958478.1747634109066
+Content-Type: image/png; name=3.png
+Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename=3.png
+Content-ID: <image003.png@01DBC7CB.3FA889A0>
+
+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
+wP8BUXPsV2wfrhoAAAAASUVORK5CYII=
+------=_Part_4787615_1204958478.1747634109066--
+
+------=_Part_4787614_2123607106.1747634109048--
+

@@ -1,0 +1,94 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of bamburigroup.com designates 209.85.219.45 as permitted sender) client-ip=209.85.219.45; envelope-from=joseph.oguk.ext@bamburigroup.com; helo=mail-qv1-f45.google.com;
+Authentication-Results: mx.zohomail.com;
+	spf=pass (zohomail.com: domain of bamburigroup.com designates 209.85.219.45 as permitted sender)  smtp.mailfrom=joseph.oguk.ext@bamburigroup.com
+Return-Path: <joseph.oguk.ext@bamburigroup.com>
+Received: from mail-qv1-f45.google.com (mail-qv1-f45.google.com [209.85.219.45]) by mx.zohomail.com
+	with SMTPS id 1747124571771251.6766328313896; Tue, 13 May 2025 01:22:51 -0700 (PDT)
+Received: by mail-qv1-f45.google.com with SMTP id 6a1803df08f44-6f53c54df75so72066596d6.3
+        for <info@tomag.co.ke>; Tue, 13 May 2025 01:22:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=bamburigroup.com; s=google; t=1747124571; x=1747729371; darn=tomag.co.ke;
+        h=cc:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=/Q56f2lcpze9pZ53YAHU6a9InjSNw09MxHS2R3TWiR0=;
+        b=eJrpeZfK9LzNF1gJUjB0Io4uZFl6Xnma+773Ftee9dvLkRM7Ba6OF/EbEnrh92L45F
+         iya89qNbqlfZaxLX5S1Y7dnp7ocq8sAbS83gQOFKm3yYwi+1+u9s3iJZBQd1RC2hn7FM
+         qBVR3K0r/S83VRbJyQyeBFkSx1nw0bB9NK7NH9Z75t6sDZpcDtXBsexHjCzzvXcoBDQd
+         V/ZbF1s4Li5Irb6JWV92Gi8qRVl6uDohw28awDUZ6szkm4DPj7V4+jseV3aitJSIhDYt
+         49IHpY3ZwvYws1eEiDE0gc02jC/kYXr/y09dgRvgnglZ1PYGq3Y6CwKoJGbxBIO+wVO1
+         +ChA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1747124571; x=1747729371;
+        h=cc:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=/Q56f2lcpze9pZ53YAHU6a9InjSNw09MxHS2R3TWiR0=;
+        b=rg5V3pGBnXtm+tRNmHJUcehZUuMwg8uZwkBktTK82Vr4jskg8DUs+uysIp4macmxOy
+         QeS2I6jf+SmNkaKA87dq70UQT/o0Xt45DcETHW+VdJQ7dYofspjHlVN7azfCnTn69Dl3
+         Zzv9bK8mUredI1X6WcrtmPudTw+O5dhmfAXLAgQS8g2cJigWwuU9c9/aCkSwmHuso43e
+         LpFLlN11/6hwP3laSMdhSHLFHb0DekqQ13zGuMYl0R4nIILeRu+oSzECfz2Rzvq+azTm
+         R7TnzRntJAulrO3psY2QhVug/vFQOq5F1M0WX8lYYJG7yQxyTODfbBxPqL+eb6M0qiRE
+         JWIg==
+X-Forwarded-Encrypted: i=1; AJvYcCXFuNtJdkYhHXCjxSVWgFe6hKR5Re8SClYHWTwb93WAYu9wk/OkdYwzCEV9QtqQ0eQskX7c@tomag.co.ke
+X-Gm-Message-State: AOJu0Yx6B9DFa4WCWY5zgqXUnmfl5qG4XSt1PLEWiekD0oxv1AB7wfdh
+	Sh5BcEI6QBCVq5E1gTNGxHvY/wL0qokNVI9oyrPdxHN29Bg0fHA/H6bOjAHD2QUNVGaFpkXbn50
+	28/QVJ6xjHrUsbozTcRT7Bs+z8mh7/oxnatuh+K+EpjBDVkx2qEo=
+X-Gm-Gg: ASbGncsfxXvi+apOqqzjd5DeotpvsU09/hrlq2Os2R+rEkq7ZP+gjienz/iSdpGcxr4
+	G7j3L8Yq7fI3nFuaJkG5ytgp1KqNyImzeDW0TuP+FjgGFi2AkOU9nLk1QFg2JyNufoixkSSY3CF
+	HN/lEXgI+lNCDJpwqIZKA0iUtAhMtKponIoQ==
+X-Received: by 2002:a05:6214:242e:b0:6f2:d45c:4a1d with SMTP id
+ 6a1803df08f44-6f6e4810b84mt337026216d6.38.1747124557756; Tue, 13 May 2025
+ 01:22:37 -0700 (PDT)
+MIME-Version: 1.0
+From: Joseph Oguk <joseph.oguk.ext@bamburigroup.com>
+Date: Tue, 13 May 2025 11:22:25 +0300
+X-Gm-Features: AX0GCFtTydXF0c7nehazr3ieu57LRawGGOpYZcZi4iYO8V4XHXFHUk3XGpmsh7s
+Message-ID:<CAKcs9XiPVeowBpNDXya5VyW9U1RESh=o0HL57+UHu0oykuRa5g@mail.gmail.com>
+Subject: RFQ - 12951108
+Cc: Tormoi KIPRONO <ceasar.kiprono@bamburigroup.com>
+Content-Type: multipart/alternative; boundary="0000000000006effa50635002339"
+Bcc: info@tomag.co.ke
+X-ZM-MESSAGEID: 1747124574596030400
+X-ZohoMail-Status: 1
+
+
+--0000000000006effa50635002339
+Content-Type: text/plain; charset="UTF-8"
+
+Dear sir/madam,
+Kindly quote for
+
+*Industrial floodlights LED type,50 Watts*
+*QTY 20*
+
+*Lamp;LED Floodlight;200W:24V DC*
+*QTY 20*
+
+Kind regards,
+Joseph Oguk
+Procurement
+Bamburi Cement PLC
+Old Mombasa Road - Off Namanga Road
+P.O Box 524 - 00204, Athi River, Kenya
+Email; Joseph.oguk.ext@Bamburigroup.com
+www.bamburigroup.com
+A Member of Amsons Group
+
+--0000000000006effa50635002339
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Dear sir/madam,</div><div>Kindly quote for=C2=A0</div=
+><div><br></div><div><b>Industrial floodlights LED type,50 Watts</b></div><=
+div><b>QTY 20</b></div><div><b><br></b></div><div><b>Lamp;LED Floodlight;20=
+0W:24V DC</b></div><div><b>QTY 20</b></div><div><br></div><div><div dir=3D"=
+ltr" class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=
+=3D"ltr"><div>Kind regards,</div><div>Joseph Oguk</div><div>Procurement</di=
+v><div>Bamburi Cement PLC</div><div>Old Mombasa Road - Off Namanga Road</di=
+v><div>P.O Box 524 - 00204, Athi River, Kenya</div><div>Email; Joseph.oguk.=
+ext@Bamburigroup.com</div><div><a href=3D"http://www.bamburigroup.com" targ=
+et=3D"_blank">www.bamburigroup.com</a></div><div>A Member of Amsons Group</=
+div><div></div><div><div><b><br></b></div><div><b><br></b></div><div><br></=
+div><div><br></div></div><div><br></div></div></div></div></div>
+
+--0000000000006effa50635002339--

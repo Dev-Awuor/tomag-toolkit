@@ -1,0 +1,82 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of sc.com designates 66.159.234.156 as permitted sender) client-ip=66.159.234.156; envelope-from=bouncetracking.mdis@sc.com; helo=mx08-001ac206.pphosted.com;
+Authentication-Results: mx.zohomail.com;
+	spf=pass (zohomail.com: domain of sc.com designates 66.159.234.156 as permitted sender)  smtp.mailfrom=bouncetracking.mdis@sc.com;
+	dmarc=pass(p=reject dis=none)  header.from=sc.com
+ARC-Seal: i=1; a=rsa-sha256; t=1741543266; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=Evx6qhUYwvnrCUmU/n8xRFzo7/OGoy1TDsO3EJghp0VCYU68SNdyD4iSf7gKscNJtC6wFvPBt3TyjaHddzwsnKGKtjjy+nAx4MwJ+p3MnosJHZg+CcmPYiSNe/HKgSXupMkPmL3rgZG9I7FPsQnt3ptsEyePdNR3UbzYjEuTa34=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1741543266; h=Content-Type:Date:Date:From:From:MIME-Version:Message-ID:Subject:Subject:To:To:Message-Id:Reply-To:Cc; 
+	bh=+ByrKK3ll6LrZ8BtHZ1peqQ4ttEXQ+Hi7u4qSvmJvOs=; 
+	b=mxnm/h2yDA9IhBT6YArurdcrwpbbGQB8TBH5k2obNiQe8eiOnC7DQSM+TYSWWNWclRd2Z9tEDJWDRgIz8osV27Nntu+Zbgq2/Rviup1TaRMNvAoEobtaZ/cd5cKVQmu20Olx9N3j1op6KCplXp7kmfZjfAx0wNtMY23Nlf9wN6w=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	spf=pass (zohomail.com: domain of sc.com designates 66.159.234.156 as permitted sender)  smtp.mailfrom=bouncetracking.mdis@sc.com;
+	dmarc=pass header.from=<S2BWeb.Admin@sc.com> (p=reject dis=none)
+Return-Path: <bouncetracking.mdis@sc.com>
+Received: from mx08-001ac206.pphosted.com (mx08-001ac206.pphosted.com [66.159.234.156]) by mx.zohomail.com
+	with SMTPS id 174154326666218.076642000776133; Sun, 9 Mar 2025 11:01:06 -0700 (PDT)
+Received: from pps.filterd (m0378864.ppops.net [127.0.0.1])
+	by mx08-001ac206.pphosted.com (8.18.1.2/8.18.1.2) with ESMTP id 529Hlcvs010187
+	for <info@tomag.co.ke>; Sun, 9 Mar 2025 18:01:04 GMT
+Received: from smtp-eu.ser.proofpoint.com (pmta-euc.ser.proofpoint.com [3.74.92.163])
+	by mx08-001ac206.pphosted.com (PPS) with ESMTPS id 4592w687va-268
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <info@tomag.co.ke>; Sun, 09 Mar 2025 18:01:04 +0000 (GMT)
+Received: from HKWPIPEDG006.sc.com ([203.191.3.233])
+	by cmsmtp with ESMTPSA
+	id rKx9tVOr4cokbrKxTt9fKv; Sun, 09 Mar 2025 18:01:04 +0000
+Received: from HKLVAPAPP409 (10.23.38.129) by HKWPIPEDG006.sc.com
+ (10.23.38.194) with Microsoft SMTP Server id 15.1.2507.44; Mon, 10 Mar 2025
+ 02:00:22 +0800
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sc.com; h=
+	content-type:date:from:message-id:mime-version:subject:to; s=
+	k05k24gbledmsc; bh=+ByrKK3ll6LrZ8BtHZ1peqQ4ttEXQ+Hi7u4qSvmJvOs=; b=
+	iRNufrrTM6Pj83M6BRx2EnyGtDWSv0R4EBfn1hhzl+7CZYszOxC5NHdpx8wpyMDz
+	q7QEDZpNTHx0Ln90HUdGnq9NrQseigY4ag14nUhzOXwFAkXYuWMQcRi1RSKVxn4c
+	oKkFuMwtFfCMesO7zlJDNd3HtuAzn8G1vcVGIj+GOrdLmuM/K75DetzXlfZInufo
+	AyqQLKhbswOAEuwW7FUxlD98/zLLBl/pKU3yPKwQ58qr8FDklCUWeEwMGPN9deFT
+	06FIbXrXayZLK5soFfWDiBO59AZp8tmdRh/sEsre3e9unLBgDmkV5vlzQcYbtTtQ
+	64K+jzFbawyqia5lnXHjzw==
+X-Mailer: SER-dfad3d9f3da710d2734f8a010a9df8d15e32e48fd37309da1ee83d59c41053df
+X-Cloudmark-MID: rKx9tVOr4cokbrKxTt9fKv
+X-Proofpoint-CID: 6c2e44a9-1797-66f5-3afb-27d831bb30b7
+Date: Mon, 10 Mar 2025 02:00:22 +0800
+From: <S2BWeb.Admin@sc.com>
+To: <info@tomag.co.ke>
+Message-ID:7e0a6258-537e-4a70-87cc-c988e3c1e4c3
+Subject: Straight2Bank User Expiry Alert
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_Part_104959874_128566677.1741543222937"
+X-Proofpoint-GUID: sgE9a4tJckU42YVDuNBWiNSup2UeYuxh
+X-Proofpoint-ORIG-GUID: sgE9a4tJckU42YVDuNBWiNSup2UeYuxh
+X-Proofpoint-Virus-Version: vendor=baseguard
+ engine=ICAP:2.0.293,Aquarius:18.0.1093,Hydra:6.0.680,FMLib:17.12.68.34
+ definitions=2025-03-09_07,2025-03-07_03,2024-11-22_01
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 adultscore=0 spamscore=0
+ mlxlogscore=297 phishscore=0 malwarescore=0 mlxscore=0 suspectscore=0
+ bulkscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.19.0-2502100000 definitions=main-2503090146
+X-ZohoMail-Owner: 7e0a6258-537e-4a70-87cc-c988e3c1e4c3+zmo_0_bouncetracking.mdis@sc.com
+X-ZM-MESSAGEID: 1741543269380018600
+X-ZohoMail-Status: 1
+
+
+------=_Part_104959874_128566677.1741543222937
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+Dear TOM GITUMA GITONGA MUKINDIA of TOMAG ENTERPRISES LIMITED,
+
+Your Straight2Bank User ID has been inactive for some time.   For security =
+reasons, all User IDs with no activities in the last 180 days will be suspe=
+nded.   In order to keep your User ID active, please log in to Straight2Ban=
+k within the next 7 day(s).
+
+You can ignore this email if you have logged in to Straight2Bank in the las=
+t 24 hours. =C2=A0 This is a system generated e-mail. Please do not reply t=
+o this message.  For further assistance, please contact the Client Service =
+Groups in your country.
+------=_Part_104959874_128566677.1741543222937--

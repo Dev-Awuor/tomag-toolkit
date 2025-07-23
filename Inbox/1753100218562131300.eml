@@ -1,0 +1,1359 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of agce.co.ke designates 44.202.169.39 as permitted sender) client-ip=44.202.169.39; envelope-from=dan@agce.co.ke; helo=omta040.useast.a.cloudfilter.net;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of agce.co.ke designates 44.202.169.39 as permitted sender)  smtp.mailfrom=dan@agce.co.ke
+ARC-Seal: i=1; a=rsa-sha256; t=1753100216; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=Nsa0ulifnmFLnmAOCZ3Bqg52ZDsBbk+RpTm25hPFdUltObovmiz+6ALZm3lqgDk7gtqLVftcZoCKcqS6pu/W5XW5ywEgM2ZHu2/8njP8FdTmkwRR1tnb0fD8mEy+MIsgUTlUgmwi6QfaBUOG/h3XkVeNhsf1nFZqnbDLil69Tqo=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1753100216; h=Content-Type:Cc:Cc:Date:Date:From:From:In-Reply-To:MIME-Version:Message-ID:References:Subject:Subject:To:To:Message-Id:Reply-To; 
+	bh=09mlPxaI/n2XI94ycQFDwFvbvlrNG6OKN6MeFvkpUDE=; 
+	b=Q4U800QrQoTIUOge6rJ8OMStHq4tNRhw4xmUH/aT3xQN4TUMKpC7V5HJcsNeThkZ6Pssju86nzlO9qkMSMGAoZ7+LV39ZPRN3LAy0PfeGM6GNkTi2agd8B5pkk+yvri9O1X74MZHPG8/uUBxpvgEunMijPvFEhU30eoyHlStlXs=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of agce.co.ke designates 44.202.169.39 as permitted sender)  smtp.mailfrom=dan@agce.co.ke
+Return-Path: <dan@agce.co.ke>
+Received: from omta040.useast.a.cloudfilter.net (omta040.useast.a.cloudfilter.net [44.202.169.39]) by mx.zohomail.com
+	with SMTPS id 175310021619760.1623356549502; Mon, 21 Jul 2025 05:16:56 -0700 (PDT)
+Received: from eig-obgw-6008a.ext.cloudfilter.net ([10.0.30.227])
+	by cmsmtp with ESMTPS
+	id djZEuJMj1VkcRdpRvuxJ4W; Mon, 21 Jul 2025 12:16:55 +0000
+Received: from omni.websitewelcome.com ([192.185.2.124])
+	by cmsmtp with ESMTPS
+	id dpRtuRgcNXiq1dpRtudM0t; Mon, 21 Jul 2025 12:16:53 +0000
+Received: from [41.90.172.110] (port=13737 helo=Accounts)
+	by omni.websitewelcome.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.98.1)
+	(envelope-from <dan@agce.co.ke>)
+	id 1udpRr-00000003dhT-3d8m;
+	Mon, 21 Jul 2025 07:16:52 -0500
+X-Authority-Analysis: v=2.4 cv=WeQKaVhX c=1 sm=1 tr=0 ts=687e2fb6
+ a=EKijWjQ8pAGD/XUD9Ba8pQ==:117 a=nHSHiBOYjJkxkHQDuIIbkQ==:17
+ a=Wb1JkmetP80A:10 a=KEu1jJ4xPdcA:10 a=DAwyPP_o2Byb1YXLmDAA:9 a=ysEo4VtBAAAA:8
+ a=NzYx8QdCARVK6kLyO6gA:9 a=QEXdDO2ut3YA:10 a=yMhMjlubAAAA:8 a=SSmOFEACAAAA:8
+ a=-1Jpx4uMK9xCLkGrfyIA:9 a=tS3kglzuMVtdSRPO:21 a=gKO2Hq4RSVkA:10
+ a=UiCQ7L4-1S4A:10 a=hTZeC7Yk6K0A:10 a=frz4AuCg-hUA:10 a=lqcHg5cX4UMA:10
+ a=HHRtBl1YYiXoZuyma6wA:9 a=HXjIzolwW10A:10 a=T6a71-JsGAwA:10
+ a=hx9x1eE_Dd5y-g52EDlt:22 a=zhECgLt3HXfSsRPKguXe:22
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=agce.co.ke;
+	s=default; h=Content-Type:MIME-Version:Message-ID:Date:Subject:In-Reply-To:
+	References:Cc:To:From:Sender:Reply-To:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:List-Id:List-Help:List-Unsubscribe:List-Subscribe:
+	List-Post:List-Owner:List-Archive;
+	bh=09mlPxaI/n2XI94ycQFDwFvbvlrNG6OKN6MeFvkpUDE=; b=d78GL+Am/YA/OLyS8m5YGElH89
+	aBbSt8sIBhLN6jtKKKN5Uc9XGAO189cS8fCou0LcY1dVaOGPYsKbjXM4lcg024mXsDSnHwmIcINe7
+	YWdsle7jevOmmLlGsz0R1Al/Ef+NgCoLHFjaDdCyu0iPPIQQsL0nX5w/zMOoIw5mD7VfVlPA30SoM
+	rTmB0W15teAis/Y523jJD7QJwp/QRUZ82UI3r9x1BliBvFithqPc/O6ae1ZUDIOa6zcdzb/B0RCgB
+	v5VZ6W6ju26CJXScwXz2Kd+zZgu4ZIu7N6MKNj4G+bmQAlpcsgdLfPj6UHBK7ftNSZdXomsodWHkF
+	nclmcnXg==;
+From: "Dan Bett" <dan@agce.co.ke>
+To: "'Tom Gituma'" <tom.gituma@tomag.co.ke>
+Cc: "'Tomag Enterprises Limited'" <info@tomag.co.ke>,
+	"'kibet'" <kibet@agce.co.ke>,
+	"'Silvester'" <silvester@agce.co.ke>,
+	"'tirop'" <tirop@agce.co.ke>,
+	"'Vincent Chumo'" <vincent@agce.co.ke>
+References: <005d01dbfa07$dd40fb20$97c2f160$@agce.co.ke> <1982c6e1973.756e9d661743385.4320990374232398636@tomag.co.ke> <1982cbcc15f.40b9dcb91816443.3185659871709160713@tomag.co.ke> <00d101dbfa35$12f5a220$38e0e660$@agce.co.ke> <1982ce75905.13c397161849098.3574511263493733176@tomag.co.ke>
+In-Reply-To: <1982ce75905.13c397161849098.3574511263493733176@tomag.co.ke>
+Subject: RE: PNEUMATIC PARTS - FESTO Parts ( Cylinder Solenoid Valve & Coil)
+Date: Mon, 21 Jul 2025 15:16:44 +0300
+Organization: AGCE
+Message-ID:<00e201dbfa39$56dbd910$04938b30$@agce.co.ke>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_00E3_01DBFA52.7C2C6C70"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AQICp8SoQnq6PRykZhUAb8KHx35V0gIF+b8CAtJdkh0CZx4hygIo0VLFs6Pgp+A=
+Content-Language: en-ke
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - omni.websitewelcome.com
+X-AntiAbuse: Original Domain - tomag.co.ke
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - agce.co.ke
+X-BWhitelist: no
+X-Source-IP: 41.90.172.110
+X-Source-L: No
+X-Exim-ID: 1udpRr-00000003dhT-3d8m
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Source-Sender: (Accounts) [41.90.172.110]:13737
+X-Source-Auth: dan@agce.co.ke
+X-Email-Count: 2
+X-Org: HG=hgreseller;ORG=hostgator;
+X-Source-Cap: YWdjZWNvO2thcm90ZWNoO29tbmkud2Vic2l0ZXdlbGNvbWUuY29t
+X-Local-Domain: yes
+X-CMAE-Envelope: MS4xfPCK7FzwyjpJrxz8//GF54eaWWDbfLCL1McdgN6Wxhe4Wfq8isnoQyn4wDlPgqdnQ6dlIfZVfodmof4AIL2v6t6XBCAut7QqpqIV9nAxGEQNorwf0gc6
+ Mzw/6IbgfCS4FztyAQMTL3tJHefhfuSmosKMz91QxqyB+iiMYgRywuk5iOhZbo0SGGldClzR9Ot2/Q==
+X-Zoho-Virus-Status: 1
+X-Zoho-Virus-Status: 1
+X-Zoho-AV-Stamp: zmail-av-1.4.2/253.82.46
+X-ZohoMail-DKIM: pass (identity @agce.co.ke)
+X-ZM-MESSAGEID: 1753100218562131300
+X-ZohoMail-Status: 0
+
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_00E3_01DBFA52.7C2C6C70
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_00E4_01DBFA52.7C2C9380"
+
+
+------=_NextPart_001_00E4_01DBFA52.7C2C9380
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Tom,
+
+=20
+
+Thank you for the quote.
+
+Kindly attach payment details so that we can arrange for payment.
+
+=20
+
+Regards
+
+=20
+
+Dan Bett
+
+=20
+
+
+
+=20
+
+=20
+
+=20
+
+From: Tom Gituma <tom.gituma@tomag.co.ke>=20
+Sent: Monday, 21 July 2025 15:14
+To: Dan Bett <dan@agce.co.ke>
+Cc: 'Tomag Enterprises Limited' <info@tomag.co.ke>; 'kibet' =
+<kibet@agce.co.ke>; 'Silvester' <silvester@agce.co.ke>; 'tirop' =
+<tirop@agce.co.ke>; 'Vincent Chumo' <vincent@agce.co.ke>
+Subject: RE: PNEUMATIC PARTS - FESTO Parts ( Cylinder Solenoid Valve & =
+Coil)
+
+=20
+
+Dear Dan,
+
+Thanks for your e-mail. Kindly find the attached with a small discount =
+that we could manage.=20
+
+=20
+
+Thanks and Best Regards
+
+
+
+=20
+
+
+
+Tom Gituma
+
+
+
+General Manager
+
+
+
+Tomag Enterprises Limited
+
+
+
+Delta Corner Tower, Chiromo Road
+
+
+
+6th Floor, Westlands
+
+
+
+Nairobi, Kenya
+
+
+
+Mobile +254 722 747 397
+
+
+
+Email:  <mailto:tom.gituma@tomag.co.ke> tom.gituma@tomag.co.ke
+
+
+
+Website:  <http://www.tomag.co.ke/> www.tomag.co.ke
+
+
+
+TOMAG
+
+
+
+=20
+
+=20
+
+=20
+
+=20
+
+---- On Mon, 21 Jul 2025 14:46:09 +0300 Dan Bett <dan@agce.co.ke =
+<mailto:dan@agce.co.ke> > wrote ---
+
+=20
+
+Dear Tom,
+
+=20
+
+We need one of each.
+
+=20
+
+Regards
+
+=20
+
+Dan Bett
+
+=20
+
+
+
+=20
+
+=20
+
+=20
+
+From: Tom Gituma <tom.gituma@tomag.co.ke <mailto:tom.gituma@tomag.co.ke> =
+>=20
+Sent: Monday, 21 July 2025 14:27
+To: Tomag Enterprises Limited <info@tomag.co.ke =
+<mailto:info@tomag.co.ke> >
+Cc: Dan Bett <dan@agce.co.ke <mailto:dan@agce.co.ke> >; kibet =
+<kibet@agce.co.ke <mailto:kibet@agce.co.ke> >; 'Silvester' =
+<silvester@agce.co.ke <mailto:silvester@agce.co.ke> >; tirop =
+<tirop@agce.co.ke <mailto:tirop@agce.co.ke> >; 'Vincent Chumo' =
+<vincent@agce.co.ke <mailto:vincent@agce.co.ke> >
+Subject: Re: PNEUMATIC PARTS - FESTO Parts ( Cylinder Solenoid Valve & =
+Coil)
+
+=20
+
+Dear Dan,
+
+Kindly let us know the quantities you are planning to buy.=20
+
+=20
+
+Thanks and Best Regards
+
+
+
+
+=20
+
+
+
+
+Tom Gituma
+
+
+
+
+General Manager
+
+
+
+
+Tomag Enterprises Limited
+
+
+
+
+Delta Corner Tower, Chiromo Road
+
+
+
+
+6th Floor, Westlands
+
+
+
+
+Nairobi, Kenya
+
+
+
+
+Mobile +254 722 747 397
+
+
+
+
+Email:  <mailto:tom.gituma@tomag.co.ke> tom.gituma@tomag.co.ke
+
+
+
+
+Website:  <http://www.tomag.co.ke/> www.tomag.co.ke
+
+
+
+
+TOMAG
+
+
+
+
+=20
+
+=20
+
+=20
+
+=20
+
+---- On Mon, 21 Jul 2025 13:01:09 +0300 Tomag Enterprises Limited =
+<info@tomag.co.ke <mailto:info@tomag.co.ke> > wrote ---
+
+=20
+
+Dear Dan,
+
+Thanks for your email. We shall revert ASAP.
+
+=20
+
+Thanks and Best Regards
+
+
+
+
+=20
+
+
+
+
+Boniface Murithi
+
+
+
+
+Sales Support Engineer
+
+
+
+
+Tomag Enterprises Limited
+
+
+
+
+Delta Corner Tower, Chiromo Road
+
+
+
+
+6th Floor, Westlands
+
+
+
+
+Nairobi, Kenya
+
+
+
+
+Mobile +254 708 984579
+
+
+
+
+Email:  <mailto:info@tomag.co.ke> info@tomag.co.ke
+
+
+
+
+Website:www.tomag.co.ke <http://www.tomag.co.ke>=20
+
+TOMAG
+
+
+
+
+=20
+
+=20
+
+=20
+
+=20
+
+---- On Mon, 21 Jul 2025 09:22:36 +0300 Dan Bett <dan@agce.co.ke =
+<mailto:dan@agce.co.ke> > wrote ---
+
+=20
+
+Good morning,
+
+=20
+
+The attached quote refers.
+
+Please give us your best price and send a PFI.
+
+Looking forward to your favorable consideration.
+
+=20
+
+Regards
+
+=20
+
+Dan Bett
+
+=20
+
+
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+
+------=_NextPart_001_00E4_01DBFA52.7C2C9380
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 15 (filtered medium)"><!--[if =
+!mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Aptos;}
+@font-face
+	{font-family:"PT Sans";}
+@font-face
+	{font-family:Lato;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+span.colour
+	{mso-style-name:colour;}
+span.font
+	{mso-style-name:font;}
+span.size
+	{mso-style-name:size;}
+span.EmailStyle26
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;
+	mso-ligatures:none;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3Den-KE link=3Dblue =
+vlink=3Dpurple style=3D'word-wrap:break-word'><div =
+class=3DWordSection1><p class=3DMsoNormal><span lang=3Den-KE =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'>Dear Tom,<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3Den-KE =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3Den-KE =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'>Thank you for the quote.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3Den-KE =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'>Kindly attach payment details so that we can arrange for =
+payment.<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3Den-KE =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'><o:p>&nbsp;</o:p></span></p><div><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-ligatures:=
+standardcontextual'>Regards<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-ligatures:=
+standardcontextual'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-ligatures:=
+standardcontextual'>Dan Bett<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-ligatures:=
+standardcontextual'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'><img =
+width=3D81 height=3D60 style=3D'width:.8437in;height:.625in' =
+id=3D"Picture_x0020_412682965" =
+src=3D"cid:image001.png@01DBFA52.77A02D90" alt=3DAGCE><span =
+style=3D'mso-ligatures:standardcontextual'><o:p></o:p></span></span></p><=
+p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-ligatures:=
+standardcontextual'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3Den-KE =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-ligatures:=
+standardcontextual'><o:p>&nbsp;</o:p></span></p></div><p =
+class=3DMsoNormal><span lang=3Den-KE =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'><o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>From:</span><=
+/b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'> Tom Gituma =
+&lt;tom.gituma@tomag.co.ke&gt; <br><b>Sent:</b> Monday, 21 July 2025 =
+15:14<br><b>To:</b> Dan Bett &lt;dan@agce.co.ke&gt;<br><b>Cc:</b> 'Tomag =
+Enterprises Limited' &lt;info@tomag.co.ke&gt;; 'kibet' =
+&lt;kibet@agce.co.ke&gt;; 'Silvester' &lt;silvester@agce.co.ke&gt;; =
+'tirop' &lt;tirop@agce.co.ke&gt;; 'Vincent Chumo' =
+&lt;vincent@agce.co.ke&gt;<br><b>Subject:</b> RE: PNEUMATIC PARTS - =
+FESTO Parts ( Cylinder Solenoid Valve &amp; =
+Coil)<o:p></o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><div><div><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>Dear =
+Dan,<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>Thanks for =
+your e-mail. Kindly find the attached with a small discount that we =
+could manage.&nbsp;<o:p></o:p></span></p></div><div><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p>&nbsp;</=
+o:p></span></p></div><div id=3D"Zm-_Id_-Sgn"><p class=3DMsoNormal><span =
+class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>Thanks and Best Regards</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>&nbsp;</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>Tom Gituma</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>General Manager</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>Tomag Enterprises Limited</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>Delta Corner Tower, Chiromo Road</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>6<sup>th</sup>&nbsp;Floor, Westlands</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>Nairobi, Kenya</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>Mobile +254 722 747 397</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#2F5496;background:whi=
+te'>Email:&nbsp;<u><a href=3D"mailto:tom.gituma@tomag.co.ke" =
+target=3D"_blank"><span class=3Dcolour><span =
+style=3D'color:#0563C1'>tom.gituma@tomag.co.ke</span></span></a></u></spa=
+n></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#2F5496;background:whi=
+te'>Website:&nbsp;<a href=3D"http://www.tomag.co.ke/" =
+target=3D"_blank"><span class=3Dcolour><span =
+style=3D'color:#0563C1'>www.tomag.co.ke</span></span></a></span></span><s=
+pan =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><b><span =
+style=3D'font-size:36.0pt;font-family:"Calibri",sans-serif;color:#4472C4;=
+background:white'>TOMAG</span></b></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><div><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p>&nbsp;</=
+o:p></span></p></div></div><div><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p>&nbsp;</=
+o:p></span></p></div><div style=3D'border:none;border-top:solid #CCCCCC =
+1.0pt;padding:0cm 0cm 0cm 0cm;margin-top:7.5pt;margin-bottom:7.5pt'><p =
+class=3DMsoNormal style=3D'mso-line-height-alt:0pt'><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p>&nbsp;</=
+o:p></span></p></div><div><div><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p>&nbsp;</=
+o:p></span></p></div><div id=3D"Zm-_Id_-Sgn1"><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>---- On Mon, =
+21 Jul 2025 14:46:09 +0300 <b>Dan Bett &lt;<a =
+href=3D"mailto:dan@agce.co.ke">dan@agce.co.ke</a>&gt;</b> wrote =
+---<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p>&nbsp;</=
+o:p></span></p></div><blockquote id=3D"blockquote_zmail"><div><div><p =
+class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>Dear =
+Tom,</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>We need one =
+of each.</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>Regards</span=
+></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>Dan =
+Bett</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'><img =
+border=3D0 width=3D81 height=3D60 style=3D'width:.8437in;height:.625in' =
+id=3D"Picture_x0020_2" src=3D"cid:image001.png@01DBFA52.77A02D90" =
+alt=3DAGCE></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><div><div style=3D'border:none;border-top:solid #E1E1E1 =
+1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal><span =
+class=3Dsize><b><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>From:</span><=
+/b></span><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'> Tom Gituma =
+&lt;<a href=3D"mailto:tom.gituma@tomag.co.ke" =
+target=3D"_blank">tom.gituma@tomag.co.ke</a>&gt; </span></span><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'><br><span =
+class=3Dsize><b>Sent:</b> Monday, 21 July 2025 14:27</span><br><span =
+class=3Dsize><b>To:</b> Tomag Enterprises Limited &lt;<a =
+href=3D"mailto:info@tomag.co.ke" =
+target=3D"_blank">info@tomag.co.ke</a>&gt;</span><br><span =
+class=3Dsize><b>Cc:</b> Dan Bett &lt;<a href=3D"mailto:dan@agce.co.ke" =
+target=3D"_blank">dan@agce.co.ke</a>&gt;; kibet &lt;<a =
+href=3D"mailto:kibet@agce.co.ke" =
+target=3D"_blank">kibet@agce.co.ke</a>&gt;; 'Silvester' &lt;<a =
+href=3D"mailto:silvester@agce.co.ke" =
+target=3D"_blank">silvester@agce.co.ke</a>&gt;; tirop &lt;<a =
+href=3D"mailto:tirop@agce.co.ke" =
+target=3D"_blank">tirop@agce.co.ke</a>&gt;; 'Vincent Chumo' &lt;<a =
+href=3D"mailto:vincent@agce.co.ke" =
+target=3D"_blank">vincent@agce.co.ke</a>&gt;</span><br><span =
+class=3Dsize><b>Subject:</b> Re: PNEUMATIC PARTS - FESTO Parts ( =
+Cylinder Solenoid Valve &amp; Coil)</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div></div><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;<o:p></=
+o:p></span></p><div><div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>Dear =
+Dan,</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>Kindly let =
+us know the quantities you are planning to buy.&nbsp;</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div id=3D"x_506332965Zm-_Id_-Sgn"><p =
+class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>Thanks and Best Regards</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>&nbsp;</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>Tom Gituma</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>General Manager</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>Tomag Enterprises Limited</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>Delta Corner Tower, Chiromo Road</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>6<sup>th</sup>&nbsp;Floor, Westlands</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>Nairobi, Kenya</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#1F497D;background:whi=
+te'>Mobile +254 722 747 397</span></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#2F5496;background:whi=
+te'>Email:&nbsp;<u><a href=3D"mailto:tom.gituma@tomag.co.ke" =
+target=3D"_blank"><span class=3Dcolour><span =
+style=3D'color:#0563C1'>tom.gituma@tomag.co.ke</span></span></a></u></spa=
+n></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><span =
+style=3D'font-size:11.0pt;font-family:SimSun;color:#2F5496;background:whi=
+te'>Website:&nbsp;<a href=3D"http://www.tomag.co.ke/" =
+target=3D"_blank"><span class=3Dcolour><span =
+style=3D'color:#0563C1'>www.tomag.co.ke</span></span></a></span></span><s=
+pan =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'orphans: 2;widows: =
+2;word-spacing:0px'><span class=3Dsize><b><span =
+style=3D'font-size:36.0pt;font-family:"Calibri",sans-serif;color:#4472C4;=
+background:white'>TOMAG</span></b></span><span =
+style=3D'font-size:10.5pt;font-family:"Lato",sans-serif;color:black;backg=
+round:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div></div><div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div style=3D'border:none;border-top:solid #CCCCCC =
+1.0pt;padding:0cm 0cm 0cm 0cm;margin-top:7.5pt;margin-bottom:7.5pt'><p =
+class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div><div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div id=3D"x_506332965Zm-_Id_-Sgn1"><p =
+class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>---- On Mon, =
+21 Jul 2025 13:01:09 +0300 <b>Tomag Enterprises Limited &lt;<a =
+href=3D"mailto:info@tomag.co.ke" =
+target=3D"_blank">info@tomag.co.ke</a>&gt;</b> wrote =
+---</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><blockquote =
+id=3D"x_506332965blockquote_zmail"><div><div><div><p =
+class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>Dear =
+Dan,</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>Thanks for =
+your email. We shall revert ASAP.</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div id=3D"x_1126103012Zm-_Id_-Sgn"><p =
+style=3D'margin:0cm'><span class=3Dfont><span =
+style=3D'font-size:10.0pt;font-family:SimSun;color:black;background:white=
+'>Thanks and Best Regards</span></span><span =
+style=3D'font-size:10.5pt;font-family:"PT =
+Sans",sans-serif;color:black;background:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p style=3D'margin:0cm;word-spacing:0px'><span =
+class=3Dfont><span =
+style=3D'font-size:10.0pt;font-family:SimSun;color:black;background:white=
+'>&nbsp;</span></span><span style=3D'font-size:10.5pt;font-family:"PT =
+Sans",sans-serif;color:black;background:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p style=3D'margin:0cm;word-spacing:0px'><span =
+class=3Dfont><span =
+style=3D'font-size:10.0pt;font-family:SimSun;color:black;background:white=
+'>Boniface Murithi</span></span><span =
+style=3D'font-size:10.5pt;font-family:"PT =
+Sans",sans-serif;color:black;background:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p style=3D'margin:0cm;word-spacing:0px'><span =
+class=3Dfont><span =
+style=3D'font-size:10.0pt;font-family:SimSun;color:black;background:white=
+'>Sales Support Engineer</span></span><span =
+style=3D'font-size:10.5pt;font-family:"PT =
+Sans",sans-serif;color:black;background:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p style=3D'margin:0cm;word-spacing:0px'><span =
+class=3Dfont><span =
+style=3D'font-size:10.0pt;font-family:SimSun;color:black;background:white=
+'>Tomag Enterprises Limited</span></span><span =
+style=3D'font-size:10.5pt;font-family:"PT =
+Sans",sans-serif;color:black;background:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p style=3D'margin:0cm;word-spacing:0px'><span =
+class=3Dfont><span =
+style=3D'font-size:10.0pt;font-family:SimSun;color:black;background:white=
+'>Delta Corner Tower, Chiromo Road</span></span><span =
+style=3D'font-size:10.5pt;font-family:"PT =
+Sans",sans-serif;color:black;background:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p style=3D'margin:0cm;word-spacing:0px'><span =
+class=3Dfont><span =
+style=3D'font-size:10.0pt;font-family:SimSun;color:black;background:white=
+'>6<sup>th</sup>&nbsp;Floor, Westlands</span></span><span =
+style=3D'font-size:10.5pt;font-family:"PT =
+Sans",sans-serif;color:black;background:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p style=3D'margin:0cm;word-spacing:0px'><span =
+class=3Dfont><span =
+style=3D'font-size:10.0pt;font-family:SimSun;color:black;background:white=
+'>Nairobi, Kenya</span></span><span =
+style=3D'font-size:10.5pt;font-family:"PT =
+Sans",sans-serif;color:black;background:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p style=3D'margin:0cm;word-spacing:0px'><span =
+class=3Dfont><span =
+style=3D'font-size:10.0pt;font-family:SimSun;color:black;background:white=
+'>Mobile +254 708 984579</span></span><span =
+style=3D'font-size:10.5pt;font-family:"PT =
+Sans",sans-serif;color:black;background:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p style=3D'margin:0cm;word-spacing:0px'><span =
+class=3Dfont><span =
+style=3D'font-size:10.0pt;font-family:SimSun;color:#0F4761;background:whi=
+te'>Email:&nbsp;</span></span><span class=3Dfont><u><span =
+style=3D'font-size:10.0pt;font-family:SimSun;color:#0563C1;background:whi=
+te'><a href=3D"mailto:info@tomag.co.ke" target=3D"_blank"><span =
+class=3Dcolour><span =
+style=3D'color:#0563C1'>info@tomag.co.ke</span></span></a></span></u></sp=
+an><span style=3D'font-size:10.5pt;font-family:"PT =
+Sans",sans-serif;color:black;background:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p style=3D'margin:0cm;word-spacing:0px'><span =
+class=3Dfont><span =
+style=3D'font-size:10.0pt;font-family:SimSun;color:#0F4761;background:whi=
+te'>Website:<u><a href=3D"http://www.tomag.co.ke" =
+target=3D"_blank">www.tomag.co.ke</a></u></span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><div><p class=3DMsoNormal><span class=3Dsize><b><span =
+style=3D'font-size:36.0pt;font-family:"Verdana",sans-serif;color:#4472C4;=
+background:white'>TOMAG</span></b></span><span =
+style=3D'font-size:10.5pt;font-family:"PT =
+Sans",sans-serif;color:black;background:white'><br><br><br></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div></div><div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div style=3D'border:none;border-top:solid #CCCCCC =
+1.0pt;padding:0cm 0cm 0cm =
+0cm;margin-top:7.5pt;margin-bottom:7.5pt;min-height: 0px'><p =
+class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div><div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div id=3D"x_1126103012Zm-_Id_-Sgn1"><p =
+class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>---- On Mon, =
+21 Jul 2025 09:22:36 +0300 <b>Dan Bett &lt;<a =
+href=3D"mailto:dan@agce.co.ke" =
+target=3D"_blank">dan@agce.co.ke</a>&gt;</b> wrote =
+---</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div><blockquote =
+id=3D"x_1126103012blockquote_zmail"><div><div><p class=3DMsoNormal><span =
+class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>Good =
+morning,</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>The attached =
+quote refers.</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>Please give =
+us your best price and send a PFI.</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>Looking =
+forward to your favorable consideration.</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>Regards</span=
+></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>Dan =
+Bett</span></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><img =
+border=3D0 width=3D81 height=3D60 style=3D'width:.8437in;height:.625in' =
+id=3D"Picture_x0020_1" src=3D"cid:image001.png@01DBFA52.77A02D90" =
+alt=3DAGCE></span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div></div></blockquote></div><div><p class=3DMsoNormal><span =
+class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div></div><p class=3DMsoNormal><span class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div></blockquote></div><div><p class=3DMsoNormal><span =
+class=3Dsize><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;</span>=
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></=
+span></p></div></div><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'>&nbsp;<o:p></=
+o:p></span></p></div></div></blockquote></div><div><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif'><o:p>&nbsp;</=
+o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_001_00E4_01DBFA52.7C2C9380--
+
+------=_NextPart_000_00E3_01DBFA52.7C2C6C70
+Content-Type: image/png;
+	name="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.png@01DBFA52.77A02D90>
+
+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
+SUVORK5CYII=
+
+------=_NextPart_000_00E3_01DBFA52.7C2C6C70--
+
