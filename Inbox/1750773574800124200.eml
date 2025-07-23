@@ -1,0 +1,492 @@
+Delivered-To: info@tomag.co.ke
+Return-Path: <tom.gituma@tomag.co.ke>
+ARC-Seal: i=1; a=rsa-sha256; t=1750773574; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=XFH+FhCCWmYH9S5VbfXz+NBOTtodsiGcCIJ5jPFsliI1uacKDzxSwPC21CWHHMcFVd64jlvajneY5519qkPenhhzJ7DujDp5JNL9jNlwIF3DtV8fwqeRVPqAXQr6QY4vjE7gBoKCjdMccaLt/A3abugsgA85wChtvger95LDrjM=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1750773574; h=Content-Type:Cc:Cc:Date:Date:From:From:In-Reply-To:MIME-Version:Message-ID:References:Subject:Subject:To:To:Message-Id:Reply-To; 
+	bh=JH8IZVDFucxHUOE+RJ0CjE5I7NNckIbH+Axwb4iCBz0=; 
+	b=OXx3TPEIr6Lfd0Uvunzl3KoGYWhqHgd2MdUT8au67UwQfZ46iTflx6qM3r5p6WODiXrgldWAbe4bfXxmLTeMVC2NR4Pvt2YbB07W09JXhoWcbAy46oiL8Y8x40WdxQV+O7P28k1hHMwW7i0jb5h+ek5sprZQpxvBDWZBtZaKzys=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass  header.i=tomag.co.ke;
+	spf=pass  smtp.mailfrom=tom.gituma@tomag.co.ke;
+	dmarc=pass header.from=<tom.gituma@tomag.co.ke>
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1750773574;
+	s=zoho; d=tomag.co.ke; i=tom.gituma@tomag.co.ke;
+	h=Date:Date:From:From:To:To:Cc:Cc:Message-Id:Message-Id:In-Reply-To:References:Subject:Subject:MIME-Version:Content-Type:Reply-To;
+	bh=JH8IZVDFucxHUOE+RJ0CjE5I7NNckIbH+Axwb4iCBz0=;
+	b=TGoXCwdbUVeUhxE0TbwRGLfTDRwGekjuA6p+vWfeCeAm5DF79T3frSssNmmGBgaO
+	U2Sk28JSIUzNdx59y7PRyO0n01q63dXV7ew1VS3bZVwoiTJ3D/HSXNNK63AHvArA2vB
+	C8JUBslhvX6f9Ei+fTbU1RhwnTecZF4RDEQqr05o=
+Received: from mail.zoho.com by mx.zohomail.com
+	with SMTP id 1750773571992288.5254659499617; Tue, 24 Jun 2025 06:59:31 -0700 (PDT)
+Date: Tue, 24 Jun 2025 16:59:31 +0300
+From: Tom Gituma <tom.gituma@tomag.co.ke>
+To: "naanotooankrah" <naanotooankrah@gmail.com>
+Cc: "Tomag Enterprises Limited" <info@tomag.co.ke>,
+	"Faith Langat" <faith.langat@festo.com>
+Message-ID:<197a23ca144.bf983b691923427.4039091464651026249@tomag.co.ke>
+In-Reply-To: <197a23a7ca2.bbb51b632013593.2598188014284553180@tomag.co.ke>
+References: <CAKY=UWCLPnHD5Au2YuZJNRVmhKFtMfCvK-b19Qo-nwBZVACGcQ@mail.gmail.com> <197a23a7ca2.bbb51b632013593.2598188014284553180@tomag.co.ke>
+Subject: Re: Inquiry Regarding Supply of TVET Equipment and Training
+ Services
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6192379_1662666685.1750773571909"
+Importance: Medium
+User-Agent: Zoho Mail
+X-Mailer: Zoho Mail
+X-ZM-MESSAGEID: 1750773574800124200
+X-ZohoMail-Status: 1
+
+
+------=_Part_6192379_1662666685.1750773571909
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Naan,
+
+Thanks for your esteemed enquiry we shall revert with the proposal. Please =
+share your contacts details.=C2=A0
+
+
+Thanks and Best Regards
+
+=C2=A0
+
+Tom Gituma
+
+General Manager
+
+Tomag Enterprises Limited
+
+Delta Corner Tower, Chiromo Road
+
+6th=C2=A0Floor, Westlands
+
+Nairobi, Kenya
+
+Mobile +254 722 747 397
+
+Email:=C2=A0 mailto:tom.gituma@tomag.co.ke=20
+
+Website:=C2=A0 http://www.tomag.co.ke/=20
+
+TOMAG
+
+
+
+
+
+
+
+
+
+
+---- On Tue, 24 Jun 2025 16:57:11 +0300 Tomag Enterprises Limited <info@tom=
+ag.co.ke> wrote ---
+
+
+
+
+
+
+
+
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Forwarded message =3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D
+From: naanotoo ankrah < mailto:naanotooankrah@gmail.com >
+To: < mailto:info@tomag.co.ke >
+Date: Tue, 24 Jun 2025 15:13:27 +0300
+Subject: Inquiry Regarding Supply of TVET Equipment and Training Services
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Forwarded message =3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D
+
+
+
+Hello,
+
+I am reaching out to inquire about your company's capabilities to supply TV=
+ET equipment, along with installation and training services, for some Techn=
+ical and Vocational Education and Training institutions in Kenya. We are pa=
+rticularly interested in equipment and training for the following departmen=
+ts and technologies:
+
+Automotive and Mechatronics:
+
+Equipment for engine/transmission, chassis/brakes/tyres/suspension/steering=
+, car electric/electronics/AC, and bodyworks.
+
+Training on new technologies such as electric mobility, safety in high-volt=
+age environments, and emergency service training.
+
+
+
+Photovoltaic (PV) Systems:
+
+Equipment for advanced PV system installation, maintenance, and monitoring.
+
+Training on remote monitoring of PV systems and PV heat generation.
+
+
+
+Refrigeration and Cold Store Mechatronics + Air Conditioning:
+
+Equipment for refrigeration systems, cold store design, and air conditionin=
+g units.
+
+Training on energy-efficient systems, sustainable refrigerants, and smart c=
+ontrols.
+
+
+
+Tea Plant Technician:
+
+Equipment for sustainable tea production.
+
+
+
+
+We looking for suppliers who can provide comprehensive solutions, including=
+ the supply of equipment, installation services, and relevant training for =
+our teaching staff.
+
+Could you please provide us with the following information:
+
+A catalog or list of equipment you can supply for the mentioned departments=
+.
+
+Details of any installation services you offer.
+
+Information on training programs you can provide for our teaching staff, in=
+cluding duration, and content.
+
+Pricing details for the equipment, installation, and training services.
+
+
+We look forward to the possibility of working together.
+
+Thank you for your time and consideration. Please feel free to contact me i=
+f you need any further information.
+
+Best regards,
+
+N. Otoo.
+------=_Part_6192379_1662666685.1750773571909
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>=
+<meta content=3D"text/html;charset=3DUTF-8" http-equiv=3D"Content-Type"></h=
+ead><body ><div style=3D"font-family: Verdana, Arial, Helvetica, sans-serif=
+; font-size: 10pt;"><div>Dear Naan,<br></div><div>Thanks for your esteemed =
+enquiry we shall revert with the proposal. Please share your contacts detai=
+ls.&nbsp;</div><div><br></div><div id=3D"Zm-_Id_-Sgn" data-sigid=3D"3897000=
+000000041001" data-zbluepencil-ignore=3D"true"><p style=3D"margin: 0px; fon=
+t-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text=
+-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-sp=
+acing: 0px" class=3D""><span class=3D"highlight" style=3D"background-color:=
+rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><sp=
+an class=3D"font" style=3D"font-family:Lato"><span class=3D"size" style=3D"=
+font-size: 14px; margin: 0px; font-style: normal; font-weight: 400; letter-=
+spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-=
+space: normal; widows: 2; word-spacing: 0px;"><span class=3D"colour" style=
+=3D"color:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-family:SimSu=
+n"><span class=3D"size" style=3D"font-size:11pt">Thanks and Best Regards</s=
+pan></span></span><br></span></span></span></span></p><p style=3D"margin: 0=
+px; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: =
+2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; =
+word-spacing: 0px" class=3D""><span class=3D"highlight" style=3D"background=
+-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, =
+0)"><span class=3D"font" style=3D"font-family:Lato"><span class=3D"size" st=
+yle=3D"font-size: 14px; margin: 0px; font-style: normal; font-weight: 400; =
+letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none;=
+ white-space: normal; widows: 2; word-spacing: 0px;"><span class=3D"colour"=
+ style=3D"color:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-family=
+:SimSun"><span class=3D"size" style=3D"font-size:11pt">&nbsp;</span></span>=
+</span><br></span></span></span></span></p><p style=3D"margin: 0px; font-st=
+yle: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-ind=
+ent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacin=
+g: 0px" class=3D""><span class=3D"highlight" style=3D"background-color:rgb(=
+255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span c=
+lass=3D"font" style=3D"font-family:Lato"><span class=3D"size" style=3D"font=
+-size: 14px; margin: 0px; font-style: normal; font-weight: 400; letter-spac=
+ing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-spac=
+e: normal; widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"c=
+olor:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><s=
+pan class=3D"size" style=3D"font-size:11pt">Tom Gituma</span></span></span>=
+<br></span></span></span></span></p><p style=3D"margin: 0px; font-style: no=
+rmal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0p=
+x; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px"=
+ class=3D""><span class=3D"highlight" style=3D"background-color:rgb(255, 25=
+5, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D=
+"font" style=3D"font-family:Lato"><span class=3D"size" style=3D"font-size: =
+14px; margin: 0px; font-style: normal; font-weight: 400; letter-spacing: no=
+rmal; orphans: 2; text-indent: 0px; text-transform: none; white-space: norm=
+al; widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"color:rg=
+b(31, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><span cla=
+ss=3D"size" style=3D"font-size:11pt">General Manager</span></span></span><b=
+r></span></span></span></span></p><p style=3D"margin: 0px; font-style: norm=
+al; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px;=
+ text-transform: none; white-space: normal; widows: 2; word-spacing: 0px" c=
+lass=3D""><span class=3D"highlight" style=3D"background-color:rgb(255, 255,=
+ 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"f=
+ont" style=3D"font-family:Lato"><span class=3D"size" style=3D"font-size: 14=
+px; margin: 0px; font-style: normal; font-weight: 400; letter-spacing: norm=
+al; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal=
+; widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"color:rgb(=
+31, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><span class=
+=3D"size" style=3D"font-size:11pt">Tomag Enterprises Limited</span></span><=
+/span><br></span></span></span></span></p><p style=3D"margin: 0px; font-sty=
+le: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-inde=
+nt: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing=
+: 0px" class=3D""><span class=3D"highlight" style=3D"background-color:rgb(2=
+55, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span cl=
+ass=3D"font" style=3D"font-family:Lato"><span class=3D"size" style=3D"font-=
+size: 14px; margin: 0px; font-style: normal; font-weight: 400; letter-spaci=
+ng: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space=
+: normal; widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"co=
+lor:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><sp=
+an class=3D"size" style=3D"font-size:11pt">Delta Corner Tower, Chiromo Road=
+</span></span></span><br></span></span></span></span></p><p style=3D"margin=
+: 0px; font-style: normal; font-weight: 400; letter-spacing: normal; orphan=
+s: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: =
+2; word-spacing: 0px" class=3D""><span class=3D"highlight" style=3D"backgro=
+und-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, =
+0, 0)"><span class=3D"font" style=3D"font-family:Lato"><span class=3D"size"=
+ style=3D"font-size: 14px; margin: 0px; font-style: normal; font-weight: 40=
+0; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: no=
+ne; white-space: normal; widows: 2; word-spacing: 0px;"><span class=3D"colo=
+ur" style=3D"color:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-fam=
+ily:SimSun"><span class=3D"size" style=3D"font-size:11pt">6<sup>th</sup><sp=
+an>&nbsp;</span>Floor, Westlands</span></span></span><br></span></span></sp=
+an></span></p><p style=3D"margin: 0px; font-style: normal; font-weight: 400=
+; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: non=
+e; white-space: normal; widows: 2; word-spacing: 0px" class=3D""><span clas=
+s=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=
+=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font=
+-family:Lato"><span class=3D"size" style=3D"font-size: 14px; margin: 0px; f=
+ont-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; te=
+xt-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-=
+spacing: 0px;"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><spa=
+n class=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D=
+"font-size:11pt">Nairobi, Kenya</span></span></span><br></span></span></spa=
+n></span></p><p style=3D"margin: 0px; font-style: normal; font-weight: 400;=
+ letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none=
+; white-space: normal; widows: 2; word-spacing: 0px" class=3D""><span class=
+=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D=
+"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-fa=
+mily:Lato"><span class=3D"size" style=3D"font-size: 14px; margin: 0px; font=
+-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-=
+indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spa=
+cing: 0px;"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><span c=
+lass=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D"fo=
+nt-size:11pt">Mobile +254 722 747 397</span></span></span><br></span></span=
+></span></span></p><p style=3D"margin: 0px; font-style: normal; font-weight=
+: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform=
+: none; white-space: normal; widows: 2; word-spacing: 0px" class=3D""><span=
+ class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span cl=
+ass=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"f=
+ont-family:Lato"><span class=3D"size" style=3D"font-size: 14px; margin: 0px=
+; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2;=
+ text-indent: 0px; text-transform: none; white-space: normal; widows: 2; wo=
+rd-spacing: 0px;"><span class=3D"colour" style=3D"color:rgb(47, 84, 150)"><=
+span class=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=
+=3D"font-size:11pt">Email:<span>&nbsp;</span><u><a target=3D"_blank" href=
+=3D"mailto:tom.gituma@tomag.co.ke" style=3D"color: rgb(89, 143, 222); curso=
+r: pointer"><span class=3D"colour" style=3D"color:rgb(5, 99, 193)">tom.gitu=
+ma@tomag.co.ke</span></a></u></span></span></span><br></span></span></span>=
+</span></p><p style=3D"margin: 0px; font-style: normal; font-weight: 400; l=
+etter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: 2; word-spacing: 0px" class=3D""><span class=
+=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D=
+"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-fa=
+mily:Lato"><span class=3D"size" style=3D"font-size: 14px; margin: 0px; font=
+-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-=
+indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spa=
+cing: 0px;"><span class=3D"colour" style=3D"color:rgb(47, 84, 150)"><span c=
+lass=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D"fo=
+nt-size:11pt">Website:<span>&nbsp;</span><a target=3D"_blank" href=3D"http:=
+//www.tomag.co.ke/" style=3D"color: rgb(89, 143, 222); cursor: pointer"><sp=
+an class=3D"colour" style=3D"color:rgb(5, 99, 193)">www.tomag.co.ke</span><=
+/a></span></span></span><br></span></span></span></span></p><p style=3D"mar=
+gin: 0px; font-style: normal; font-weight: 400; letter-spacing: normal; orp=
+hans: 2; text-indent: 0px; text-transform: none; white-space: normal; widow=
+s: 2; word-spacing: 0px" class=3D""><span class=3D"highlight" style=3D"back=
+ground-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(=
+0, 0, 0)"><span class=3D"font" style=3D"font-family:Lato"><span class=3D"si=
+ze" style=3D"font-size: 14px; margin: 0px; font-style: normal; font-weight:=
+ 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform:=
+ none; white-space: normal; widows: 2; word-spacing: 0px;"><b><span class=
+=3D"colour" style=3D"color:rgb(68, 114, 196)"><span class=3D"font" style=3D=
+"font-family:Calibri, sans-serif"><span class=3D"size" style=3D"font-size:3=
+6pt">TOMAG</span></span></span></b><br></span></span></span></span></p><div=
+><br></div></div><div><br></div><div class=3D"zmail_extra_hr" style=3D"bord=
+er-top: 1px solid rgb(204, 204, 204); height: 0px; margin-top: 10px; margin=
+-bottom: 10px; line-height: 0px;"><br></div><div class=3D"zmail_extra" data=
+-zbluepencil-ignore=3D"true"><div><br></div><div id=3D"Zm-_Id_-Sgn1">---- O=
+n Tue, 24 Jun 2025 16:57:11 +0300 <b>Tomag Enterprises Limited &lt;info@tom=
+ag.co.ke&gt;</b> wrote ---<br></div><div><br></div><blockquote id=3D"blockq=
+uote_zmail" style=3D"margin: 0px;"><div><div style=3D"font-family: Verdana,=
+ Arial, Helvetica, sans-serif; font-size: 10pt"><div><br></div><div><br></d=
+iv><div style=3D"border-top: 1px solid rgb(204, 204, 204); min-height: 0px;=
+ margin-top: 10px; margin-bottom: 10px; line-height: 0px" class=3D"x_187815=
+8037zmail_extra_hr"><br></div><div class=3D"x_1878158037zmail_extra"><div><=
+br></div><div id=3D"x_18781580371">=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D For=
+warded message =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>From: naanotoo ankra=
+h &lt;<a target=3D"_blank" href=3D"mailto:naanotooankrah@gmail.com">naanoto=
+oankrah@gmail.com</a>&gt;<br>To: &lt;<a target=3D"_blank" href=3D"mailto:in=
+fo@tomag.co.ke">info@tomag.co.ke</a>&gt;<br>Date: Tue, 24 Jun 2025 15:13:27=
+ +0300<br>Subject: Inquiry Regarding Supply of TVET Equipment and Training =
+Services<br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Forwarded message =3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br></div><div><br></div><blockquote id=3D"x_=
+1878158037blockquote_zmail" style=3D"margin: 0px"><div><div dir=3D"ltr"><di=
+v dir=3D"ltr"><p dir=3D"auto" style=3D"box-sizing: border-box; border: 0px =
+solid rgba(39, 39, 42, 0.098); margin: 1.25em 0px 10px; padding: 0px"><span=
+ class=3D"highlight" style=3D"background-color:rgb(250, 250, 249)"><span cl=
+ass=3D"font" style=3D"font-family:ui-sans-serif, system-ui, sans-serif, &qu=
+ot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symb=
+ol&quot;, &quot;Noto Color Emoji&quot;"><span class=3D"size" style=3D"font-=
+size: 16px; box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.09=
+8); margin: 1.25em 0px 10px; padding: 0px;">Hello,</span></span></span><br>=
+</p><p dir=3D"auto" style=3D"box-sizing: border-box; border: 0px solid rgba=
+(39, 39, 42, 0.098); margin: 1.25em 0px 10px; padding: 0px"><span class=3D"=
+highlight" style=3D"background-color:rgb(250, 250, 249)"><span class=3D"fon=
+t" style=3D"font-family:ui-sans-serif, system-ui, sans-serif, &quot;Apple C=
+olor Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, =
+&quot;Noto Color Emoji&quot;"><span class=3D"size" style=3D"font-size: 16px=
+; box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); margin=
+: 1.25em 0px 10px; padding: 0px;">I am reaching out to inquire about your c=
+ompany's capabilities to supply TVET equipment, along with installation and=
+ training services, for some Technical and Vocational Education and Trainin=
+g institutions in Kenya. We are particularly interested in equipment and tr=
+aining for the following departments and technologies:</span></span></span>=
+<br></p><ol style=3D"box-sizing: border-box; border: 0px solid rgba(39, 39,=
+ 42, 0.098); margin: 0px; padding: 0px; width: 696px; font-family: ui-sans-=
+serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI=
+ Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; fo=
+nt-size: 16px; background-color: rgb(250, 250, 249)"><li style=3D"margin: 0=
+.5em 0px; box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098)=
+; padding: 0px"><p dir=3D"auto" style=3D"box-sizing: border-box; border: 0p=
+x solid rgba(39, 39, 42, 0.098); margin: 0px 0px 10px; padding: 0px"><b sty=
+le=3D"box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); ma=
+rgin: 0px; padding: 0px">Automotive and Mechatronics:</b><br></p><ul style=
+=3D"box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); marg=
+in: 0.75em 0px; padding: 0px; list-style: disc; width: 658px"><li style=3D"=
+margin: 0.5em 0px; box-sizing: border-box; border: 0px solid rgba(39, 39, 4=
+2, 0.098); padding: 0px">Equipment for engine/transmission, chassis/brakes/=
+tyres/suspension/steering, car electric/electronics/AC, and bodyworks.<br><=
+/li><li style=3D"margin: 0.25em 0px 0.5em; box-sizing: border-box; border: =
+0px solid rgba(39, 39, 42, 0.098); padding: 0px">Training on new technologi=
+es such as electric mobility, safety in high-voltage environments, and emer=
+gency service training.<br></li></ul></li><li style=3D"margin: 0.25em 0px 0=
+.5em; box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); pa=
+dding: 0px"><p dir=3D"auto" style=3D"box-sizing: border-box; border: 0px so=
+lid rgba(39, 39, 42, 0.098); margin: 0px 0px 10px; padding: 0px"><b style=
+=3D"box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); marg=
+in: 0px; padding: 0px">Photovoltaic (PV) Systems:</b><br></p><ul style=3D"b=
+ox-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); margin: 0=
+.75em 0px; padding: 0px; list-style: disc; width: 658px"><li style=3D"margi=
+n: 0.5em 0px; box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.=
+098); padding: 0px">Equipment for advanced PV system installation, maintena=
+nce, and monitoring.<br></li><li style=3D"margin: 0.25em 0px 0.5em; box-siz=
+ing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); padding: 0px">T=
+raining on remote monitoring of PV systems and PV heat generation.<br></li>=
+</ul></li><li style=3D"margin: 0.25em 0px 0.5em; box-sizing: border-box; bo=
+rder: 0px solid rgba(39, 39, 42, 0.098); padding: 0px"><p dir=3D"auto" styl=
+e=3D"box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); mar=
+gin: 0px 0px 10px; padding: 0px"><b style=3D"box-sizing: border-box; border=
+: 0px solid rgba(39, 39, 42, 0.098); margin: 0px; padding: 0px">Refrigerati=
+on and Cold Store Mechatronics + Air Conditioning:</b><br></p><ul style=3D"=
+box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); margin: =
+0.75em 0px; padding: 0px; list-style: disc; width: 658px"><li style=3D"marg=
+in: 0.5em 0px; box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0=
+.098); padding: 0px">Equipment for refrigeration systems, cold store design=
+, and air conditioning units.<br></li><li style=3D"margin: 0.25em 0px 0.5em=
+; box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); paddin=
+g: 0px">Training on energy-efficient systems, sustainable refrigerants, and=
+ smart controls.<br></li></ul></li><li style=3D"margin: 0.25em 0px 0.5em; b=
+ox-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); padding: =
+0px"><p dir=3D"auto" style=3D"box-sizing: border-box; border: 0px solid rgb=
+a(39, 39, 42, 0.098); margin: 0px 0px 10px; padding: 0px"><b style=3D"box-s=
+izing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); margin: 0px; =
+padding: 0px">Tea Plant Technician:</b><br></p><ul style=3D"box-sizing: bor=
+der-box; border: 0px solid rgba(39, 39, 42, 0.098); margin: 0.75em 0px; pad=
+ding: 0px; list-style: disc; width: 658px"><li style=3D"margin: 0.5em 0px; =
+box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); padding:=
+ 0px">Equipment for sustainable tea production.<br></li></ul></li></ol><p d=
+ir=3D"auto" style=3D"box-sizing: border-box; border: 0px solid rgba(39, 39,=
+ 42, 0.098); margin: 1.25em 0px 10px; padding: 0px"><span class=3D"highligh=
+t" style=3D"background-color:rgb(250, 250, 249)"><span class=3D"font" style=
+=3D"font-family:ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emo=
+ji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;No=
+to Color Emoji&quot;"><span class=3D"size" style=3D"font-size: 16px; box-si=
+zing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); margin: 1.25em=
+ 0px 10px; padding: 0px;">We looking for suppliers who can provide comprehe=
+nsive solutions, including the supply of equipment, installation services, =
+and relevant training for our teaching staff.</span></span></span><br></p><=
+p dir=3D"auto" style=3D"box-sizing: border-box; border: 0px solid rgba(39, =
+39, 42, 0.098); margin: 1.25em 0px 10px; padding: 0px"><span class=3D"highl=
+ight" style=3D"background-color:rgb(250, 250, 249)"><span class=3D"font" st=
+yle=3D"font-family:ui-sans-serif, system-ui, sans-serif, &quot;Apple Color =
+Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot=
+;Noto Color Emoji&quot;"><span class=3D"size" style=3D"font-size: 16px; box=
+-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); margin: 1.2=
+5em 0px 10px; padding: 0px;">Could you please provide us with the following=
+ information:</span></span></span><br></p><ul style=3D"box-sizing: border-b=
+ox; border: 0px solid rgba(39, 39, 42, 0.098); margin: 0px; padding: 0px; w=
+idth: 696px; font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple=
+ Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;=
+, &quot;Noto Color Emoji&quot;; font-size: 16px; background-color: rgb(250,=
+ 250, 249)"><li style=3D"margin: 0.5em 0px; box-sizing: border-box; border:=
+ 0px solid rgba(39, 39, 42, 0.098); padding: 0px">A catalog or list of equi=
+pment you can supply for the mentioned departments.<br></li><li style=3D"ma=
+rgin: 0.25em 0px 0.5em; box-sizing: border-box; border: 0px solid rgba(39, =
+39, 42, 0.098); padding: 0px">Details of any installation services you offe=
+r.<br></li><li style=3D"margin: 0.25em 0px 0.5em; box-sizing: border-box; b=
+order: 0px solid rgba(39, 39, 42, 0.098); padding: 0px">Information on trai=
+ning programs you can provide for our teaching staff, including duration, a=
+nd content.<br></li><li style=3D"margin: 0.25em 0px 0.5em; box-sizing: bord=
+er-box; border: 0px solid rgba(39, 39, 42, 0.098); padding: 0px">Pricing de=
+tails for the equipment, installation, and training services.<br></li></ul>=
+<p dir=3D"auto" style=3D"box-sizing: border-box; border: 0px solid rgba(39,=
+ 39, 42, 0.098); margin: 1.25em 0px 10px; padding: 0px"><span class=3D"high=
+light" style=3D"background-color:rgb(250, 250, 249)"><span class=3D"font" s=
+tyle=3D"font-family:ui-sans-serif, system-ui, sans-serif, &quot;Apple Color=
+ Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quo=
+t;Noto Color Emoji&quot;"><span class=3D"size" style=3D"font-size: 16px; bo=
+x-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); margin: 1.=
+25em 0px 10px; padding: 0px;">We look forward to the possibility of working=
+ together.</span></span></span><br></p><p dir=3D"auto" style=3D"box-sizing:=
+ border-box; border: 0px solid rgba(39, 39, 42, 0.098); margin: 1.25em 0px =
+10px; padding: 0px"><span class=3D"highlight" style=3D"background-color:rgb=
+(250, 250, 249)"><span class=3D"font" style=3D"font-family:ui-sans-serif, s=
+ystem-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&q=
+uot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;"><span clas=
+s=3D"size" style=3D"font-size: 16px; box-sizing: border-box; border: 0px so=
+lid rgba(39, 39, 42, 0.098); margin: 1.25em 0px 10px; padding: 0px;">Thank =
+you for your time and consideration. Please feel free to contact me if you =
+need any further information.</span></span></span><br></p><p dir=3D"auto" s=
+tyle=3D"box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); =
+margin: 1.25em 0px 10px; padding: 0px"><span class=3D"highlight" style=3D"b=
+ackground-color:rgb(250, 250, 249)"><span class=3D"font" style=3D"font-fami=
+ly:ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &qu=
+ot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoj=
+i&quot;"><span class=3D"size" style=3D"font-size: 16px; box-sizing: border-=
+box; border: 0px solid rgba(39, 39, 42, 0.098); margin: 1.25em 0px 10px; pa=
+dding: 0px;">Best regards,</span></span></span><br></p><p dir=3D"auto" styl=
+e=3D"box-sizing: border-box; border: 0px solid rgba(39, 39, 42, 0.098); mar=
+gin: 1.25em 0px 10px; padding: 0px"><span class=3D"highlight" style=3D"back=
+ground-color:rgb(250, 250, 249)"><span class=3D"font" style=3D"font-family:=
+ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;=
+Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&q=
+uot;"><span class=3D"size" style=3D"font-size: 16px; box-sizing: border-box=
+; border: 0px solid rgba(39, 39, 42, 0.098); margin: 1.25em 0px 10px; paddi=
+ng: 0px;">N. Otoo.</span></span></span><br></p></div></div></div></blockquo=
+te></div></div><br></div></blockquote></div><div><br></div></div><br></body=
+></html>
+------=_Part_6192379_1662666685.1750773571909--
+

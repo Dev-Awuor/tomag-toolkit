@@ -1,0 +1,2820 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of envelope1.digikey.com designates 199.15.212.117 as permitted sender) client-ip=199.15.212.117; envelope-from=144-NCB-030.0.996008.0.0.116460.9.16460499@envelope1.digikey.com; helo=envelope2.digikey.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=@e.digikey.com;
+	spf=pass (zohomail.com: domain of envelope1.digikey.com designates 199.15.212.117 as permitted sender)  smtp.mailfrom=144-NCB-030.0.996008.0.0.116460.9.16460499@envelope1.digikey.com;
+	dmarc=pass(p=reject dis=none)  header.from=e.digikey.com
+ARC-Seal: i=1; a=rsa-sha256; t=1742368570; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=NpliFjBgDafw461jM7CIbMeM0jb7HuX1jiqBBtmt2rygZklvtqE52NG6JDT0uoPuHgWME5uwSQqe6J2+MuPOinuJzallQYaQ4J7DIEZCurok1Qm5LHTmE4t95i6TruI2Y1J3NOWN+yU9LYHMaKKsBEIX4ZiwHepUUNPf3cd4xrw=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1742368570; h=Content-Type:Date:Date:From:From:List-Unsubscribe:MIME-Version:Message-ID:Reply-To:Reply-To:Subject:Subject:To:To:Message-Id:Cc; 
+	bh=d2ncWHuos9Ofqb5kgaRu5jOix+8sGyQk6WvYgOUvVn4=; 
+	b=mrCy4aEIYnJFfNF+6Wc/mqK2KMQBM1Sn8rN/5FalY7SYQCX/q1Gx82N8yFF6Pf2Kt2awfTNRF9uXQFMS58HTr+IWxz7u+tn4KM9auyse7bf9vxsfTWUUQH0WKfoa/rbIWrcC4/rGPya2zc/cdiQNpHOF0nnL+74FeLdsnWtiQas=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass  header.i=@e.digikey.com;
+	spf=pass (zohomail.com: domain of envelope1.digikey.com designates 199.15.212.117 as permitted sender)  smtp.mailfrom=144-NCB-030.0.996008.0.0.116460.9.16460499@envelope1.digikey.com;
+	dmarc=pass header.from=<reply-to@e.digikey.com> (p=reject dis=none)
+Received: from envelope2.digikey.com (envelope2.digikey.com [199.15.212.117]) by mx.zohomail.com
+	with SMTPS id 1742368570104806.738137705077; Wed, 19 Mar 2025 00:16:10 -0700 (PDT)
+Return-Path: <144-NCB-030.0.996008.0.0.116460.9.16460499@envelope1.digikey.com>
+X-MSFBL: R1FOQF99uHFGo9ttJkqEy1znTdmhNq7kvlak8OQFdx0=|eyJnIjoiYmctYWJkLTE
+	3MSIsInIiOiJpbmZvQHRvbWFnLmNvLmtlIiwidSI6IjE0NC1OQ0ItMDMwOjA6MTc
+	4NTMyOjYzMzYzMzoxMDUzNzE1OjExNjQ2MDo5Ojk5NjAwODoxNjQ2MDQ5OSIsImI
+	iOiJkdnAtMTk5LTE1LTIxMi0xMTcifQ==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1742368553;
+	s=m2; d=e.digikey.com; i=@e.digikey.com;
+	h=List-Unsubscribe:List-Unsubscribe-Post:Content-Type:MIME-Version:Subject:To:From:Date;
+	bh=d2ncWHuos9Ofqb5kgaRu5jOix+8sGyQk6WvYgOUvVn4=;
+	b=J+07qpbbmv0jVjr+J2MwCp+GHvKH4KAGU82kGwBH+lUI2cSa+qMvL5KTUVlH6KmT
+	bdw1tfmH5nxe7P1wukWxnSdxbypuJhakS3FQOCwYVkJB9eI030IiJYeJFh8VxYyRLJ5
+	V1ljOOSSbnNwA/SBV01BIasoMKlkf92AaDLEEfPiDlySSl6kIGYV2RtS3eoWhDZoc8e
+	hjBDsLtkdks3jcQ7pvy2A292YvYiUZ1TMluwj1kPPlpcDRxnMcro+IJ5atc/Rzoko9L
+	hCQlP5/MhrMzR+3h6MmKfeL6NpmX4bbXGt0aXz5F2OB6djW94We4Q1mkmgDIhryIGqk
+	jL9ZpdUMyQ==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1742368553;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=List-Unsubscribe:List-Unsubscribe-Post:Content-Type:MIME-Version:Subject:To:From:Date;
+	bh=d2ncWHuos9Ofqb5kgaRu5jOix+8sGyQk6WvYgOUvVn4=;
+	b=gIdgC5GViUSLozmfPA+re0gb8qtc3qHjPScb6b86vhk+6F4elffjr4luWZktUVaZ
+	v2CE2IkFy7msWVewpAvFStJXt3M/iIpTsJDvGKP7ZBNPgF85pw4zeksQ7J4S0e9Th0w
+	vdUqbt1WwP6l4epTgQ6RERnMKQdr4bT+KLPBXfBk=
+Date: Wed, 19 Mar 2025 02:15:53 -0500 (CDT)
+From: DigiKey <reply-to@e.digikey.com>
+Reply-To: reply-to@e.digikey.com
+To: info@tomag.co.ke
+Message-ID:<1126280058.134681778.1742368553850@abmktmail-batch1a.marketo.org>
+Subject: Come see what's new
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_134681776_540716542.1742368553849"
+X-Binding: bg-abd-171
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://c.digikey.com/u/MTQ0LU5DQi0wMzAAAAGZTDrrZ4MCLrBfF-d_MhZjm0nKg0FhlDH2ZX_uW4M1489YFn_QQ1qeM869odWbMntPggi56aA=?emailAddress=MTQ0LU5DQi0wMzAAAAGZTDrrZ5jWNjft_TUw59RcOLQHaXMrehfgYO7njFvV_JA8ZnvHGC_sowcil4PC0TP7>, <mailto:LFCW6UZYHF2XET2EOEYESYLOMV2W2QLDJ5AT2PI=.996008.116460.9@unsub-ab.mktomail.com>
+X-MarketoID: 144-NCB-030:0:178532:633633:1053715:116460:9:996008:16460499
+X-Mailfrom: 144-NCB-030.0.996008.0.0.116460.9.16460499@envelope1.digikey.com
+X-MktArchive: false
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-ZohoMail-DKIM: pass (identity @e.digikey.com)
+X-ZohoMail-Owner: <1126280058.134681778.1742368553850@abmktmail-batch1a.marketo.org>+zmo_0_144-NCB-030.0.996008.0.0.116460.9.16460499@envelope1.digikey.com
+X-ZM-MESSAGEID: 1742368574064018600
+X-ZohoMail-Status: 1
+
+
+------=_Part_134681776_540716542.1742368553849
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+.
+
+------=_Part_134681776_540716542.1742368553849
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" lang=3D"en" xml:lang=3D"en">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />=
+=20
+<!--[if !mso]><!-->=20
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />=20
+<!--<![endif]-->=20
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0" />=20
+<title>DigiKey</title>=20
+<!--[if (gte mso 9)|(IE)]><!-->=20
+<link rel=3D"preconnect" href=3D"https://fonts.googleapis.com" />=20
+<link rel=3D"preconnect" href=3D"https://fonts.gstatic.com" crossorigin=3D"=
+" />=20
+<link rel=3D"stylesheet" href=3D"https://fonts.googleapis.com/css2?family=
+=3DRoboto:ital,wght@0,400;0,700;1,400;1,700&amp;display=3Dswap" />=20
+<link rel=3D"stylesheet" href=3D"https://fonts.googleapis.com/css2?family=
+=3DRoboto+Mono:wght@400;700&amp;family=3DRoboto:ital,wght@0,400;0,700;1,400=
+;1,700&amp;display=3Dswap" />=20
+<!--<![endif]-->=20
+<style type=3D"text/css">
+=09/*iOS Blue Links */=09
+=09=09a[x-apple-data-detectors] {
+=09=09=09color:inherit !important;
+=09=09=09text-decoration:none !important;
+=09=09=09font-size:inherit !important;
+=09=09=09font-family: inherit !important;
+=09=09=09font-weight: inherit !important;
+=09=09=09line-height: inherit !important;
+=09=09}
+=09/* Outlook */
+=09=09a,=20
+=09=09a:link,=20
+=09=09a:visited,=20
+=09=09a:active,=20
+=09=09a:focus {=20
+=09=09color: #480bbe;=20
+=09=09}=20
+=09/* Samsung Blue Links */
+=09=09#MessageViewBody a {
+=09=09=09color:inherit;
+=09=09=09text-decoration: none;
+=09=09=09font-size: inherit;
+=09=09=09font-family: inherit;
+=09=09=09font-weight: inherit;
+=09=09=09line-height: inherit;
+=09=09}=09
+=09/* Samsung Center Email */
+=09=09#MessageViewBody {
+=09=09=09Margin: 0 auto !important;
+=09=09}=09
+=09</style>=20
+<style type=3D"text/css">
+=09=09a,
+=09=09body,
+=09=09table,
+=09=09td,
+=09=09th {
+=09=09=09-webkit-text-size-adjust: 100%;
+=09=09=09-ms-text-size-adjust: 100%;
+=09=09=09box-sizing: border-box !important;
+=09=09}
+=09=09table,
+=09=09td {
+=09=09=09mso-table-lspace: 0;
+=09=09=09mso-table-rspace: 0;
+=09=09}
+=09=09img {
+=09=09=09-ms-interpolation-mode:bicubic;
+=09=09=09border: 0;
+=09=09=09height: auto;
+=09=09=09line-height: 100%;
+=09=09=09outline: 0;
+=09=09=09text-decoration: none;
+=09=09}
+=09=09body {
+=09=09=09height: 100% !important;
+=09=09=09margin: 0 !important;
+=09=09=09padding: 0 !important;
+=09=09=09width: 100% !important;
+=09=09}
+=09=09sup {
+=09=09=09*vertical-align: baseline;
+=09=09=09*position: relative;
+=09=09=09*bottom: 0.75em;
+=09=09=09font-size: 0.65em;
+=09=09=09line-height: 0;
+=09=09}
+=09=09p {
+=09=09=09margin-top: 8px;
+=09=09=09margin-bottom: 16px;
+=09=09=09/* helps with paragraph spacing in Yahoo! */
+=09=09}
+=09=09th {
+=09=09=09font-weight:normal !important;
+=09=09}
+=09=09td.vertical-card {
+=09=09=09height:380px;
+  =09=09=09width:266px;
+  =09=09=09text-align:center;
+=09=09}
+=09=09@media all and (max-width: 600px) {
+=09=09=09.outer-shell {
+=09=09=09=09width: 100% !important;
+=09=09=09}
+=09=09=09.full-width {
+=09=09=09=09width: 100% !important;
+=09=09=09=09display: block;
+=09=09=09}
+=09=09=09u~div #full-width { min-width: 100vw }
+=09=09=09.p0 {
+=09=09=09=09padding: 0px !important;
+=09=09=09}
+=09=09=09.p0-l {
+=09=09=09=09padding-left: 0px !important;
+=09=09=09}
+=09=09=09.p0-r {
+=09=09=09=09padding-right: 0px !important;
+=09=09=09}
+=09=09=09.p0-t {
+=09=09=09=09padding-top: 0px !important;
+=09=09=09}
+=09=09=09.p0-b {
+=09=09=09=09padding-bottom: 0px !important;
+=09=09=09}
+=09=09=09.p0-h {
+=09=09=09=09padding-left: 0px !important;
+=09=09=09=09padding-right: 0px !important;
+=09=09=09}
+=09=09=09.p8 {
+=09=09=09=09padding: 8px !important;
+=09=09=09}
+=09=09=09.p8-l {
+=09=09=09=09padding-left: 8px !important;
+=09=09=09}
+=09=09=09.p8-r {
+=09=09=09=09padding-right: 8px !important;
+=09=09=09}
+=09=09=09.p8-t {
+=09=09=09=09padding-top: 8px !important;
+=09=09=09}
+=09=09=09.p8-b {
+=09=09=09=09padding-bottom: 8px !important;
+=09=09=09}
+=09=09=09.p8-h {
+=09=09=09=09padding-left: 8px !important;
+=09=09=09=09padding-right: 8px !important;
+=09=09=09}
+=09=09=09.p16 {
+=09=09=09=09padding: 16px !important;
+=09=09=09}
+=09=09=09.p16-l {
+=09=09=09=09padding-left: 16px !important;
+=09=09=09}
+=09=09=09.p16-r {
+=09=09=09=09padding-right: 16px !important;
+=09=09=09}
+=09=09=09.p16-t {
+=09=09=09=09padding-top: 16px !important;
+=09=09=09}
+=09=09=09.p16-b {
+=09=09=09=09padding-bottom: 16px !important;
+=09=09=09}
+=09=09=09.p16-h {
+=09=09=09=09padding-left: 16px !important;
+=09=09=09=09padding-right: 16px !important;
+=09=09=09}
+=09=09=09.p24 {
+=09=09=09=09padding: 24px !important;
+=09=09=09}
+=09=09=09.p24-l {
+=09=09=09=09padding-left: 24px !important;
+=09=09=09}
+=09=09=09.p24-r {
+=09=09=09=09padding-right: 24px !important;
+=09=09=09}
+=09=09=09.p24-t {
+=09=09=09=09padding-top: 24px !important;
+=09=09=09}
+=09=09=09.p24-b {
+=09=09=09=09padding-bottom: 24px !important;
+=09=09=09}
+=09=09=09.p24-h {
+=09=09=09=09padding-left: 24px !important;
+=09=09=09=09padding-right: 24px !important;
+=09=09=09}
+=09=09=09.p32 {
+=09=09=09=09padding: 32px !important;
+=09=09=09}
+=09=09=09.p32-l {
+=09=09=09=09padding-left: 32px !important;
+=09=09=09}
+=09=09=09.p32-r {
+=09=09=09=09padding-right: 32px !important;
+=09=09=09}
+=09=09=09.p32-t {
+=09=09=09=09padding-top: 32px !important;
+=09=09=09}
+=09=09=09.p32-b {
+=09=09=09=09padding-bottom: 32px !important;
+=09=09=09}
+=09=09=09.p32-h {
+=09=09=09=09padding-left: 32px !important;
+=09=09=09=09padding-right: 32px !important;
+=09=09=09}
+=09=09=09.mobile-show {
+=09=09=09=09display: block !important;
+=09=09=09=09max-height: none !important;
+=09=09=09=09overflow: visible !important;
+=09=09=09}
+=09=09=09.mobile-hide {
+=09=09=09=09display: none !important;
+=09=09=09}
+=09=09=09.width100 {
+=09=09=09=09width: 100% !important;
+=09=09=09}
+=09=09=09.center {
+=09=09=09=09margin: 0 auto !important;
+=09=09=09}
+=09=09=09.center-align {
+=09=09=09=09text-align: center !important;
+=09=09=09}
+=09=09=09.left-align {
+=09=09=09=09text-align: left !important;
+=09=09=09}
+=09=09=09.right-align {
+=09=09=09=09text-align: right !important;
+=09=09=09}
+=09=09=09.mobile-stack {
+=09=09=09=09display:block !important;
+=09=09=09}
+=09=09=09.cta.mobile-stack a {
+=09=09=09=09width: 100% !important;
+=09=09=09}
+=09=09=09td.vertical-card {
+=09=09=09=09height:auto !important;
+  =09=09=09=09width:auto !important;
+  =09=09=09=09text-align:center !important;
+=09=09=09}
+=09=09=09.imgscale-50 {
+=09=09=09=09width:50% !important;
+=09=09=09=09height: auto !important;
+=09=09=09=09margin: auto !important;
+=09=09=09}
+=09=09=09.imgscale-75 {=20
+                width: 75% !important;=20
+                height: auto !important;
+=09            margin: auto !important;
+=09=09    }
+            .imgretain {
+                margin: auto !important;
+            }
+=09=09=09.mobile-illustration-md {
+=09=09=09=09width:180px !important;
+=09=09=09}
+=09=09=09p.newsletter-header-md {
+=09=09=09=09font-size:24px !important;
+=09=09=09=09line-height:28px !important;
+=09=09=09}
+=09=09=09p.newsletter-issue-md {
+=09=09=09=09font-size:18px !important;
+=09=09=09=09line-height:25.2px !important;
+=09=09=09}
+=09=09=09.border-right-hide {
+=09=09=09=09border-right-style: none !important;
+=09=09=09=09border-right-color: none !important;
+=09=09=09=09border-right-width: 0px !important;
+=09=09=09}
+=09=09=09.border-bottom-hide {
+=09=09=09=09border-bottom-style: none !important;
+=09=09=09=09border-bottom-color: none !important;
+=09=09=09=09border-bottom-width: 0px !important;
+=09=09=09}
+=09=09}
+=09=09@media all and (max-width: 450px) {
+=09=09=09.mobile-illustration-sm {
+=09=09=09=09width:140px !important;
+=09=09=09}
+=09=09=09p.newsletter-header-sm {
+=09=09=09=09font-size:20px !important;
+=09=09=09=09line-height:28px !important;
+=09=09=09}
+=09=09=09p.newsletter-issue-sm {
+=09=09=09=09font-size:16px !important;
+=09=09=09=09line-height:22.4px !important;
+=09=09=09}
+=09=09}
+        @media all and (max-width: 400px) {
+=09=09=09.mobile-illustration-sm {
+=09=09=09=09width:120px !important;
+=09=09=09}
+            .mobile-stack-sm {
+                display: block !important;
+            }
+            .p16-b-sm {
+                padding-bottom:16px !important;
+            }
+            .p24-b-sm {
+                padding-bottom:24px !important;
+            }
+        }
+=09=09@media all and (max-width: 350px) {
+=09=09=09.mobile-hide-sm {
+=09=09=09=09display: none !important;
+=09=09=09}
+=09=09}
+</style>=20
+<!--[if (gte mso 9)|(IE)]>
+=09<style type=3D"text/css">
+=09=09table {
+=09=09=09border-collapse: collapse;
+=09=09=09border-spacing: 0;
+=09=09=09}
+=09=09td {
+=09=09=09mso-padding-alt: inherit;
+=09=09=09}
+=09</style>
+<![endif]-->=20
+<!--[if gte mso 9]>
+=09=09<xml>
+=09=09=09<o:OfficeDocumentSettings>
+=09=09=09<o:AllowPNG/>
+=09=09=09<o:PixelsPerInch>96</o:PixelsPerInch>
+=09=09=09</o:OfficeDocumentSettings>
+=09=09</xml>
+<![endif]-->=20
+<!--[if gte mso 9]>
+=09<style>
+=09=09li=20
+            {
+=09=09=09text-align:-webkit-match-parent; display:list-item;text-indent: -1=
+em; /* Normalizes space between bullets and text */
+=09=09=09}
+        ul, ol
+            {
+            margin-left: 16px !important;
+            }
+        ul.nested-1 {
+            margin-left: 32px !important;}
+=09</style>
+<![endif]-->=20
+<!--[if gte mso 15]>=20
+=09<style type=3D"text/css">=20
+=09table {   }=20
+=09</style>=20
+<![endif]-->=20
+</head>=20
+<body text=3D"#000000" alink=3D"#480bbe" link=3D"#480bbe" vlink=3D"#480bbe"=
+ bgcolor=3D"#ffffff" style=3D"margin:0;padding:0;"><style type=3D"text/css"=
+>div#emailPreHeader{ display: none !important; }</style><div id=3D"emailPre=
+Header" style=3D"mso-hide:all; visibility:hidden; opacity:0; color:transpar=
+ent; mso-line-height-rule:exactly; line-height:0; font-size:0px; overflow:h=
+idden; border-width:0; display:none !important;">Check out the latest produ=
+cts that can elevate your designs.</div>=20
+<span style=3D"display:none;max-height:0px;overflow:hidden;"></span>
+<div style=3D"display:none;max-height:0px;overflow:hidden;">
+ &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp;=
+ =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=
+=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nb=
+sp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=
+=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C =
+&nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =
+=E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=
+=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nb=
+sp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=
+=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C =
+&nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =
+=E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=
+=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nb=
+sp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=
+=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C =
+&nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =
+=E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=
+=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nb=
+sp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=
+=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C =
+&nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =
+=E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=
+=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nb=
+sp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=
+=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C =
+&nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp;=
+=20
+</div>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td class=3D"p0-t" style=3D"padding:16px 0 0;" align=3D"center" valign=3D"t=
+op">
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09<table width=3D"600" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presenta=
+tion">
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"left" valign=3D"top">
+=09=09=09=09=09=09<![endif]-->=20
+<table align=3D"center" bgcolor=3D"#ffffff" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top">=20
+<table align=3D"left" bgcolor=3D"#ff2100" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" width=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p32-h" style=3D"padding:0;" align=3D"center" valign=3D"top">=
+=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"center-align p0-l p16-r" style=3D"padding:32px 16px 32px 32px;=
+" align=3D"left" valign=3D"middle"> <a target=3D"_blank" title=3D"DigiKey" =
+href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV9nNtZQO1jxRzf1W6lxQOrldN1slX=
+4Pja2kPprrwGl5vKmuM2xtE40RkzVGXx6etVwI24KbAwASHDjWfRrhSJAkGOI-RYY6GVFds9v0S=
+MWh0cA6qjYEI_JU6GA65Wk5HDJrfVCugow0gub7ALfMYZG2ZfiJDW5W5rcI4nITTxRRn/MTQ0LU=
+5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty=
+_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/DigiKey_w.png?=
+version=3D0" style=3D"font-family:'Roboto', Arial, sans-serif;color:#000000=
+;font-size:20px;display:block;width:143px;height:40px;" width=3D"143" alt=
+=3D"DigiKey" /> </a> </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" valign=3D"bottom" style=3D"padding:0px 0px 8px;">=20
+<table align=3D"left" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p0-h" align=3D"left" valign=3D"bottom" style=3D"padding:0px 32=
+px;"> <p class=3D"newsletter-header-md newsletter-header-sm" style=3D"font-=
+family: 'Roboto', Arial, sans-serif; font-weight: bold; font-size: 32px; co=
+lor: #ffffff; line-height: 32px; mso-line-height-rule: exactly; direction: =
+ltr;"><span>New product alert</span></p> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-h" align=3D"left" valign=3D"bottom" style=3D"padding:0px 32=
+px 0px;"> <p class=3D"newsletter-issue-md newsletter-issue-sm" style=3D"fon=
+t-family: 'Roboto', Arial, sans-serif; font-weight: bold; font-size: 20px; =
+line-height: 16px; color: #ffffff; mso-line-height-rule: exactly; direction=
+: ltr;"><span></span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+<td class=3D"p0-h" align=3D"left" valign=3D"bottom" style=3D"padding:8px 32=
+px 0px 0px;">=20
+<table align=3D"right" width=3D"" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td align=3D"right" valign=3D"bottom" style=3D"padding:16px 0 0;"> <img cla=
+ss=3D"mobile-illustration-md mobile-illustration-sm" src=3D"https://info.di=
+gikey.com/rs/144-NCB-030/images/Component_automation_white_NPA2503A.png?ver=
+sion=3D0" style=3D"font-family:'Roboto', Arial, sans-serif;color:#000000;fo=
+nt-size:20px;line-height:20px;mso-line-height-rule:exactly;display:block;wi=
+dth:200px;" width=3D"200" alt=3D"" /> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09</td></tr></table>
+=09=09=09=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#ff2100" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p16-h" align=3D"center" valign=3D"top" style=3D"padding: 8px 3=
+2px 0px;">=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#d4d8fb" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p16-h" align=3D"center" valign=3D"top" style=3D"padding: 0px 3=
+2px;">=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"mobile-stack width100 " align=3D"left" valign=3D"top" style=3D=
+"padding:8px 0px 0px;"> <p style=3D"font-size: 28px; line-height: 33.6px; f=
+ont-weight: bold; color: #000000; font-family: 'Roboto', Arial, sans-serif;=
+ text-align: left; direction: ltr;"><span style=3D"color: #000000;"><b>Disc=
+over what=E2=80=99s new at DigiKey</b></span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#FFFFFF" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p16-h" align=3D"center" valign=3D"top" style=3D"padding: 4px 3=
+2px 0px;">=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09<table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation">
+=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09<td align=3D"left" valign=3D"top">
+=09=09=09=09<![endif]-->=20
+<table align=3D"center" bgcolor=3D"#d4d8fb" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"center-align" style=3D"font-size: 0; padding: 0px;" align=3D"l=
+eft" valign=3D"top" dir=3D"rtl">
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09 <table cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" role=3D"presentation" style=3D"width: 100%;">
+=09=09=09=09=09=09=09=09 <tr>
+=09=09=09=09=09=09=09=09 <td valign=3D"top" style=3D"width: 300px;">
+=09=09=09=09=09=09=09 <![endif]-->=20
+<div style=3D"display:inline-block;vertical-align:top;">=20
+<table class=3D"width100" align=3D"left" cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" style=3D"width:300px;" role=3D"presentation" dir=3D"ltr">=20
+<tbody>
+<tr>=20
+<td class=3D"p0-h center" align=3D"center" valign=3D"top" style=3D"padding:=
+ 0px;"> <a target=3D"_blank" style=3D"text-decoration:none;" title=3D"Disco=
+ver what's new at DigiKey" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV4Yln45Zvpj_UdEo0gTbx5hy2CZ_L=
+skmPbK-EC3Fz1XDstGoIg23m9_cgsby62twSdNX4E_YCWzajdkcx6kjoFOOPhvRy_z1m5q9TBdA=
+azpFFYWs9j-0oW4x8_ZSRD-6nYKu3bWacuyEV5YHxYutGbdrbTR0MHlaI35BBqd9wXc-3Z4LL_G=
+Ws09wI9iDFJSW7w=3D=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B7_2KTi8=
+UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img class=3D"width100" src=3D"https://info.digikey.com/rs/144-NCB-030/im=
+ages/Hero_image_NPA2503A.jpg?version=3D0" style=3D"font-family: 'Roboto', A=
+rial, sans-serif; color: #000000; font-size: 20px; display: block; width: 3=
+00px; direction: ltr;" width=3D"300" alt=3D"Discover what's new at DigiKey"=
+ /> </a> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+</div>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09=09 </td><td valign=3D"top" style=3D"width:300px;">
+=09=09=09=09=09=09=09 <![endif]-->=20
+<div class=3D"width100 left-align" style=3D"display:inline-block;vertical-a=
+lign:top;">=20
+<table class=3D"width100 p0-t p0-b" align=3D"center" cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0" style=3D"width: 300px; padding: 32px 0px 0px;" r=
+ole=3D"presentation" dir=3D"ltr">=20
+<tbody>
+<tr>=20
+<td class=3D"p0-b p16-t p16-h" align=3D"" valign=3D"top" style=3D"direction=
+: ltr; mso-padding-alt: 32px 16px 0px 32px; padding: 0px 16px 0px 32px;"> <=
+p style=3D"font-size: 20px; line-height: 24.0px; color: #000000; font-famil=
+y: 'Roboto', Arial, sans-serif; text-decoration: none; direction: ltr; font=
+-weight: normal;"> <span>Explore the latest additions to DigiKey=E2=80=99s =
+extensive inventory=E2=80=94designed to meet your evolving project needs.</=
+span> </p> </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" class=3D"mobile-stack cta center-align width100 p16-h" s=
+tyle=3D"padding: 0px 16px 16px 32px;" valign=3D"top">=20
+<table class=3D"center-align width100" width=3D"250" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td style=3D"border: 2px solid #ff2100; background-color:#ff2100;mso-paddin=
+g-alt:12px;" bgcolor=3D"#ff2100" align=3D"center">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top"> <a target=3D"_blank" style=3D"font-fam=
+ily: 'Roboto', Arial, sans-serif; text-align: center; font-size: 20px; font=
+-weight: bold; line-height: 44px; mso-line-height-rule: exactly; mso-paddin=
+g-alt: 20px 0px; text-decoration: none; color: #ffffff; -webkit-text-size-a=
+djust: none; direction: ltr;" title=3D"Shop now" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV4Yln45Zvpj_UdEo0gTbx5hy2CZ_L=
+skmPbK-EC3Fz1XDstGoIg23m9_cgsby62twSdNX4E_YCWzajdkcx6kjoFOOPhvRy_z1m5q9TBdA=
+azpFFYWs9j-0oW4x8_ZSRD-6nb725HqeShrQIYOO7opLablQ-T31Mc4zrUr3YZcrtBskU-qvris=
+2eqDqrx6LroqcLg=3D=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B7_2KTi8=
+UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <strong><span>Shop now</span></strong></a> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+</div>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09=09 </td>
+=09=09=09=09=09=09=09 </tr>
+=09=09=09=09=09=09=09 </table>
+=09=09=09=09=09=09=09 <![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09</td></tr></table>
+=09=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#FFFFFF" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p16-h" align=3D"center" valign=3D"top" style=3D"padding: 4px 3=
+2px 0px;">=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09<table width=3D"600" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presenta=
+tion">
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"left" valign=3D"top">
+=09=09=09=09=09<![endif]-->=20
+<table align=3D"center" bgcolor=3D"#ffffff" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"padding:0px;">=20
+<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wi=
+dth=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"padding:0px;"> <img class=3D"w=
+idth100" src=3D"https://info.digikey.com/rs/144-NCB-030/images/Schematic_Li=
+ghtPurpleBkgrd_BlackComp_Decorative.png?version=3D0" style=3D"display: bloc=
+k; width: 600px; font-family: 'Roboto', Arial, sans-serif; color: #000000; =
+font-size: 20px; direction: ltr;" width=3D"600" alt=3D"Full width image alt=
+ text" /> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09</td></tr></table>
+=09=09=09=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#FFFFFF" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p16-h" align=3D"center" valign=3D"top" style=3D"padding: 4px 3=
+2px 0px;">=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#080623" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p16-h" align=3D"center" valign=3D"top" style=3D"padding: 0px 3=
+2px;">=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"mobile-stack width100 " align=3D"left" valign=3D"top" style=3D=
+"padding:8px 0px 0px;"> <p style=3D"font-size: 28px; line-height: 33.6px; f=
+ont-weight: bold; color: #000000; font-family: 'Roboto', Arial, sans-serif;=
+ text-align: left; direction: ltr;"><span style=3D"color: #FFFFFF;">Feature=
+d products</span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#FFFFFF" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p16-h" align=3D"center" valign=3D"top" style=3D"padding: 0px 3=
+2px;">=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"mobile-stack width100 " align=3D"left" valign=3D"top" style=3D=
+"padding:8px 0px 0px;"> <p style=3D"font-size: 24px; line-height: 28.8px; f=
+ont-weight: normal; color: #000000; font-family: 'Roboto', Arial, sans-seri=
+f; text-align: left; direction: ltr;"><span style=3D"color: #000000;"></spa=
+n></p> <p style=3D"font-size: 20px; line-height: 24.0px; font-weight: norma=
+l; color: #000000; font-family: 'Roboto', Arial, sans-serif; text-align: le=
+ft; direction: ltr;"><span style=3D"color: #000000;"></span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09<table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation">
+=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09<td align=3D"left" valign=3D"top">
+=09=09=09=09<![endif]-->=20
+<table align=3D"center" bgcolor=3D"#ffffff" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"center-align" style=3D"font-size: 0; padding: 0px 0px 16px;" a=
+lign=3D"left" valign=3D"top" dir=3D"ltr">
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09 <table cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" role=3D"presentation" style=3D"width: 100%;">
+=09=09=09=09=09=09=09=09 <tr>
+=09=09=09=09=09=09=09=09 <td valign=3D"top" style=3D"width: 300px;">
+=09=09=09=09=09=09=09 <![endif]-->=20
+<div style=3D"display:inline-block;vertical-align:top;">=20
+<table class=3D"" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"width:300px;" role=3D"presentation" dir=3D"ltr">=20
+<tbody>
+<tr>=20
+<td class=3D"p16-h center" align=3D"center" valign=3D"top" style=3D"padding=
+: 0px 16px 0px 32px;"> <a target=3D"_blank" style=3D"text-decoration:none;"=
+ title=3D"Same Sky" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhmLmSsr=
+-MrHnFG5NssDljvUXveNUUC1ZmMVF2dBlqLmLZEPfky8WU1S6r8FuIDPq2fTqHRcTnhGvri6Qao=
+jaS9w7FzPoVLQMFMsC1yT0hDouqZGjToxhBfYRbf-PESbT5fp9BAkPD983tSO_1qdzlwyc-nsZB=
+Z-qscf7Xfr2CMRRDCSUYIJI9VMFhEMQUSSQbVq573zduxvn7lxTgDaTLkLUMezk_mUzQ7pyrSgh=
+DH88M-pmqOGwwn4uEI9vwIFo0=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img class=3D"center" src=3D"https://info.digikey.com/rs/144-NCB-030/imag=
+es/same_sky_color_EMAIL.jpg?version=3D0" style=3D"font-family: 'Roboto', Ar=
+ial, sans-serif; color: #000000; font-size: 20px; display: block; width: 21=
+6; direction: ltr;" width=3D"216" alt=3D"Same Sky" /> </a> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p16-h p8-t center" align=3D"center" valign=3D"top" style=3D"pa=
+dding: 16px 16px 0px 32px;"> <a target=3D"_blank" style=3D"text-decoration:=
+none;" title=3D"Thermoelectric Generators (TEGs)" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhmLmSsr=
+-MrHnFG5NssDljvUXveNUUC1ZmMVF2dBlqLmLZEPfky8WU1S6r8FuIDPq2fTqHRcTnhGvri6Qao=
+jaS9w7FzPoVLQMFMsC1yT0hDouqZGjToxhBfYRbf-PESbT5fp9BAkPD983tSO_1qdzlwyc-nsZB=
+Z-qscf7Xfr2CMRX4xuOYx26KpsSS4LD8d2jVSrfV15ipS3X9dipRsW2z5K5MEdqgbfb4nTZPYaM=
+550ps5lmHUCw14bdaj8mQXEMc=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://sc-c.digikeyassets.com/-/media/Images/Product%20Highl=
+ights/S/Same%20Sky/Thermoelectric%20Generators/same-sky-tegs-240.jpg?la=3De=
+n&amp;ts=3D1c66cb0a-94fe-475d-a935-a7690a8f4094" style=3D"font-family: 'Rob=
+oto', Arial, sans-serif; color: #000000; font-size: 20px; display: block; w=
+idth: 200px; direction: ltr;" width=3D"200" alt=3D"Thermoelectric Generator=
+s (TEGs)" /> </a> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+</div>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09=09 </td><td valign=3D"top" style=3D"width:300px;">
+=09=09=09=09=09=09=09 <![endif]-->=20
+<div class=3D"width100 left-align" style=3D"display:inline-block;vertical-a=
+lign:top;">=20
+<table class=3D"width100 p0-t p0-b" align=3D"center" cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0" style=3D"width: 300px; padding: 0px;" role=3D"pr=
+esentation" dir=3D"ltr">=20
+<tbody>
+<tr>=20
+<td class=3D"p0-b p16-t p16-h" align=3D"" valign=3D"top" style=3D"direction=
+: ltr; mso-padding-alt: 0px 32px 0px 16px; padding: 0px 32px 0px 16px;"> <p=
+ style=3D"font-size: 24px; line-height: 28.8px; color: #ff2100; font-family=
+: 'Roboto', Arial, sans-serif; text-decoration: none; direction: ltr; font-=
+weight: normal;"> <a target=3D"_blank" style=3D"color: #ff2100; text-decora=
+tion: none;" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhmLmSsr=
+-MrHnFG5NssDljvUXveNUUC1ZmMVF2dBlqLmLZEPfky8WU1S6r8FuIDPq2fTqHRcTnhGvri6Qao=
+jaS9w7FzPoVLQMFMsC1yT0hDouqZGjToxhBfYRbf-PESbT5fp9BAkPD983tSO_1qdzlwyc-nsZB=
+Z-qscf7Xfr2CMRWKYR2iEsQwa6i-bdf1_Fb-thaKSAPvR47qmRyw-EY8rlpdya9CiejXPP1or4y=
+DQUZ7Ho7o2KF41sGMbyST970s=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+><span>Thermoelectric Generators (TEGs)</span></a> </p> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-b p8-t p16-h" align=3D"" valign=3D"top" style=3D"direction:=
+ ltr; mso-padding-alt: 0px 32px 0px 16px; padding: 0px 32px 0px 16px;"> <p =
+style=3D"font-size: 16px; line-height: 22.4px; color: #000000; font-family:=
+ 'Roboto', Arial, sans-serif; direction: ltr;"><span>Utilizing temperature =
+differences to generate usable power and provide increased energy efficienc=
+y, these models offer output power from 5.4&nbsp;W&nbsp;to 21.6&nbsp;W and =
+open circuit voltages from 8&nbsp;V<sub>DC</sub>&nbsp;to 17.7&nbsp;V<sub>DC=
+</sub>.</span></p> </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" class=3D"mobile-stack cta center-align width100 p16-h" s=
+tyle=3D"padding: 0px 32px 16px 16px;" valign=3D"top">=20
+<table class=3D"center-align width100" width=3D"250" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td style=3D"border: 2px solid #ff2100; background-color:#ff2100;mso-paddin=
+g-alt:12px;" bgcolor=3D"#ff2100" align=3D"center">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top"> <a target=3D"_blank" style=3D"font-fam=
+ily: 'Roboto', Arial, sans-serif; text-align: center; font-size: 20px; font=
+-weight: bold; line-height: 44px; mso-line-height-rule: exactly; mso-paddin=
+g-alt: 20px 0px; text-decoration: none; color: #ffffff; -webkit-text-size-a=
+djust: none; direction: ltr;" title=3D"Learn more" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhmLmSsr=
+-MrHnFG5NssDljvUXveNUUC1ZmMVF2dBlqLmLZEPfky8WU1S6r8FuIDPq2fTqHRcTnhGvri6Qao=
+jaS9w7FzPoVLQMFMsC1yT0hDouqZGjToxhBfYRbf-PESbT5fp9BAkPD983tSO_1qdzlwyc-nsZB=
+Z-qscf7Xfr2CMRcxvKMFpiklWanxE63nPXiDejU2Rv3ZX_74hGlEcuhKbXS67pRSfLJDm7ftNFj=
+_MIWot-4Nu2ppPFKHWf9Di3AM=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <strong><span>Learn more</span></strong></a> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+</div>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09=09 </td>
+=09=09=09=09=09=09=09 </tr>
+=09=09=09=09=09=09=09 </table>
+=09=09=09=09=09=09=09 <![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09</td></tr></table>
+=09=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#FFFFFF" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p16-h" align=3D"center" valign=3D"top" style=3D"padding: 20px =
+32px 32px;">=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p0-t" align=3D"center" valign=3D"top" style=3D"line-height: 0;=
+ border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color:=
+ #ff2100; padding: 0px;"> &nbsp; </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09<table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation">
+=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09<td align=3D"left" valign=3D"top">
+=09=09=09=09<![endif]-->=20
+<table align=3D"center" bgcolor=3D"#ffffff" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"center-align" style=3D"font-size: 0; padding: 0px 0px 16px;" a=
+lign=3D"left" valign=3D"top" dir=3D"rtl">
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09 <table cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" role=3D"presentation" style=3D"width: 100%;">
+=09=09=09=09=09=09=09=09 <tr>
+=09=09=09=09=09=09=09=09 <td valign=3D"top" style=3D"width: 300px;">
+=09=09=09=09=09=09=09 <![endif]-->=20
+<div style=3D"display:inline-block;vertical-align:top;">=20
+<table class=3D"" align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"width:300px;" role=3D"presentation" dir=3D"ltr">=20
+<tbody>
+<tr>=20
+<td class=3D"p16-h center" align=3D"center" valign=3D"top" style=3D"padding=
+: 0px 32px 0px 16px;"> <a target=3D"_blank" style=3D"text-decoration:none;"=
+ title=3D"Bourns" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhJF7w0F=
+ZRPfNPPZTFd6TrdTRXbjAEM1947PCw9YhgcT9br79_7uejjgzRawgDBTGbZsW80SX2THh54AznB=
+ZHii8Y2642U5eK5fbY0hD3NoXqXz5bS4XFHo9AEz7rbzzrOp6zCTC9QKIQXRMVZXVEXD6rcbWRL=
+4ZqDmqvQWeZfTxkCvW6xMu4QxhQBM98xWrV49o5QWzA2a6u4wIDdrOCCazhCIn1R_81C58Q5fyL=
+xzEoI8W7wVtCvo5EpwhN9EanM=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img class=3D"center" src=3D"https://info.digikey.com/rs/144-NCB-030/imag=
+es/bourns_color_EMAIL.jpg" style=3D"font-family: 'Roboto', Arial, sans-seri=
+f; color: #000000; font-size: 20px; display: block; width: 216; direction: =
+ltr;" width=3D"216" alt=3D"Bourns" /> </a> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p16-h p8-t center" align=3D"center" valign=3D"top" style=3D"pa=
+dding: 16px 32px 0px 16px;"> <a target=3D"_blank" style=3D"text-decoration:=
+none;" title=3D"CSI Series Shunts" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhJF7w0F=
+ZRPfNPPZTFd6TrdTRXbjAEM1947PCw9YhgcT9br79_7uejjgzRawgDBTGbZsW80SX2THh54AznB=
+ZHii8Y2642U5eK5fbY0hD3NoXqXz5bS4XFHo9AEz7rbzzrOp6zCTC9QKIQXRMVZXVEXD6rcbWRL=
+4ZqDmqvQWeZfTxkCvW6xMu4QxhQBM98xWrV4ojFUHhMuzo6h61f7ie4Ak7FpZ2qNyfJibHUNdDI=
+9Hvfb_5z37civsnsFEharLeEA=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://www.digikey.com/-/media/Images/Product%20Highlights/B=
+/Bourns%20Inc/Metal%20Strip%20Shunt%20Resistors%20CSI%20Series/Bourns-CSI-S=
+eries-Resisters-240.jpg?la=3Den&amp;ts=3Da52c8fb9-005b-4367-aa40-48814de6c3=
+56" style=3D"font-family: 'Roboto', Arial, sans-serif; color: #000000; font=
+-size: 20px; display: block; width: 200px; direction: ltr;" width=3D"200" a=
+lt=3D"CSI Series Shunts" /> </a> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+</div>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09=09 </td><td valign=3D"top" style=3D"width:300px;">
+=09=09=09=09=09=09=09 <![endif]-->=20
+<div class=3D"width100 left-align" style=3D"display:inline-block;vertical-a=
+lign:top;">=20
+<table class=3D"width100 p0-t p0-b" align=3D"center" cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0" style=3D"width: 300px; padding: 0px;" role=3D"pr=
+esentation" dir=3D"ltr">=20
+<tbody>
+<tr>=20
+<td class=3D"p0-b p16-t p16-h" align=3D"" valign=3D"top" style=3D"direction=
+: ltr; mso-padding-alt: 0px 16px 0px 32px; padding: 0px 16px 0px 32px;"> <p=
+ style=3D"font-size: 24px; line-height: 28.8px; color: #ff2100; font-family=
+: 'Roboto', Arial, sans-serif; text-decoration: none; direction: ltr; font-=
+weight: normal;"> <a target=3D"_blank" style=3D"color: #ff2100; text-decora=
+tion: none;" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhJF7w0F=
+ZRPfNPPZTFd6TrdTRXbjAEM1947PCw9YhgcT9br79_7uejjgzRawgDBTGbZsW80SX2THh54AznB=
+ZHii8Y2642U5eK5fbY0hD3NoXqXz5bS4XFHo9AEz7rbzzrOp6zCTC9QKIQXRMVZXVEXD6rcbWRL=
+4ZqDmqvQWeZfTxkCvW6xMu4QxhQBM98xWrV6v7ORtBBnTbCPmTDaFNdcqpQtHC44OZQ9qRxSsTJ=
+yGdOHYhz6cnxXI-jGPKoqPhE8=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+><span>CSI Series Shunts</span></a> </p> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-b p8-t p16-h" align=3D"" valign=3D"top" style=3D"direction:=
+ ltr; mso-padding-alt: 0px 16px 0px 32px; padding: 0px 16px 0px 32px;"> <p =
+style=3D"font-size: 16px; line-height: 22.4px; color: #000000; font-family:=
+ 'Roboto', Arial, sans-serif; direction: ltr;"><span>CSI series surface-mou=
+nt shunt resistors, which feature up to 15&nbsp;W power ratings and low tem=
+perature coefficients of resistance (TCR), are designed to accommodate a wi=
+de range of industrial and consumer applications.</span></p> </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"left" class=3D"mobile-stack cta center-align width100 p16-h" s=
+tyle=3D"padding: 0px 16px 16px 32px;" valign=3D"top">=20
+<table class=3D"center-align width100" width=3D"250" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td style=3D"border: 2px solid #ff2100; background-color:#ff2100;mso-paddin=
+g-alt:12px;" bgcolor=3D"#ff2100" align=3D"center">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top"> <a target=3D"_blank" style=3D"font-fam=
+ily: 'Roboto', Arial, sans-serif; text-align: center; font-size: 20px; font=
+-weight: bold; line-height: 44px; mso-line-height-rule: exactly; mso-paddin=
+g-alt: 20px 0px; text-decoration: none; color: #ffffff; -webkit-text-size-a=
+djust: none; direction: ltr;" title=3D"Learn more" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhJF7w0F=
+ZRPfNPPZTFd6TrdTRXbjAEM1947PCw9YhgcT9br79_7uejjgzRawgDBTGbZsW80SX2THh54AznB=
+ZHii8Y2642U5eK5fbY0hD3NoXqXz5bS4XFHo9AEz7rbzzrOp6zCTC9QKIQXRMVZXVEXD6rcbWRL=
+4ZqDmqvQWeZfTxkCvW6xMu4QxhQBM98xWrV6aaBiDjycfTmzUjQlZwK02ChtWe5eF9iMpl-uKj_=
+7-UskC9DtFdP8nkzF_5BhjSfs=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <strong><span>Learn more</span></strong></a> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+</div>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09=09 </td>
+=09=09=09=09=09=09=09 </tr>
+=09=09=09=09=09=09=09 </table>
+=09=09=09=09=09=09=09 <![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09</td></tr></table>
+=09=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#480bbe" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p16-h" align=3D"center" valign=3D"top" style=3D"padding: 0px 3=
+2px;">=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"mobile-stack width100 " align=3D"left" valign=3D"top" style=3D=
+"padding:8px 0px 0px;"> <p style=3D"font-size: 24px; line-height: 28.8px; f=
+ont-weight: bold; color: #000000; font-family: 'Roboto', Arial, sans-serif;=
+ text-align: left; direction: ltr;"><span style=3D"color: #ffffff;">Check o=
+ut additional new products</span></p> <p style=3D"font-size: 16px; line-hei=
+ght: 22.4px; font-weight: normal; color: #000000; font-family: 'Roboto', Ar=
+ial, sans-serif; text-align: left; direction: ltr;"><span style=3D"color: #=
+ffffff;"></span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td class=3D"p0-b" style=3D"padding:0px;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#d4d8fb" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>
+<!--[if (gte mso 9)|(IE)]>
+                =09=09<th align=3D"center" valign=3D"top" style=3D"width:26=
+6px;">
+            =09=09<![endif]-->=20
+<th class=3D"mobile-stack width100" align=3D"center" valign=3D"top" style=
+=3D"width:266px;padding:16px;">=20
+<table class=3D"width100" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" role=3D"presentation" style=3D"border-top: 2px solid #d4d8=
+fb;border-left: 2px solid #d4d8fb; border-right: 2px solid #d4d8fb;backgrou=
+nd-color:#ffffff;width:266px;" width=3D"266">=20
+<tbody>
+<tr>=20
+<td class=3D"vertical-card" align=3D"left" valign=3D"top" style=3D"height:3=
+50px;">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"left" valign=3D"top" style=3D"height:32px;"> &nbsp; </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"padding: 21px 16px;"> <a targe=
+t=3D"_blank" style=3D"text-decoration:none;" title=3D"Amphenol LTW" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOh5lrlqF=
+YAjifh4MVPC4PUq4NEXXfweVH8C4gEVv3wzGjouuHkByb1mwho63pypWe3X1nwlbnaUvjfYYVn0=
+d9aiVhTcsy7l12roxgqvKFkOx8c1i-ZR-PrUaX_EhOozkF31ScAHWpyH4QiG2ylzM7BQSFESe8H=
+b_GfhnHrzADflMheiDDZO101OwszbzFfJWqlG7IZnj8J3NvqdbjbrkARp_7AUvtE0nh6n53weXi=
+OsT87XDyS4-0dfZi4XOqXY_CM=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/amphenol_color=
+_EMAIL.jpg" style=3D"font-family: 'Roboto', Arial, sans-serif; color: #0000=
+00; display: block; width: 190px; direction: ltr;" width=3D"190" alt=3D"Amp=
+henol LTW" /> </a> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" class=3D"p24-t" style=3D"padding: 0px 3=
+2px;"> <a target=3D"_blank" style=3D"text-decoration:none;" title=3D"Compre=
+hensive Series: Circular Metric Connector, M8, M12 Distribution Box" href=
+=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOh5lrlqF=
+YAjifh4MVPC4PUq4NEXXfweVH8C4gEVv3wzGjouuHkByb1mwho63pypWe3X1nwlbnaUvjfYYVn0=
+d9aiVhTcsy7l12roxgqvKFkOx8c1i-ZR-PrUaX_EhOozkF31ScAHWpyH4QiG2ylzM7BQSFESe8H=
+b_GfhnHrzADflMsMOjHvV_NSBVbfzvCeVShpf1GBHXbqEyx-1LqPMjbdfeiBbZmdQp_3-DXxAp_=
+mb06cm8VG2aFiPYEMYrlbI-O0=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://sc-b.digikeyassets.com/-/media/Images/Product%20Highl=
+ights/A/Amphenol%20LTW/M%20Series%20Sensor%20Connectors/M-Series-200.jpg?la=
+=3Den" style=3D"font-family: 'Roboto', Arial, sans-serif; color: #000000; f=
+ont-size: 20px; display: block; width: 180px; direction: ltr;" width=3D"180=
+" alt=3D"Comprehensive Series: Circular Metric Connector, M8, M12 Distribut=
+ion Box" /> </a> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-b p8-t p16-h left-align" align=3D"left" valign=3D"bottom" s=
+tyle=3D"direction: ltr; padding: 62px 16px 0px;"> <p style=3D"font-size: 16=
+px; line-height: 22.4px; color: #000000; font-family: 'Roboto', Arial, sans=
+-serif; direction: ltr;"><span>Comprehensive Series: Circular Metric Connec=
+tor, M8, M12 Distribution Box</span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"background-color: #480bbe; mso=
+-padding-alt: 12px;"> <a target=3D"_blank" style=3D"font-family: 'Roboto', =
+Arial, sans-serif; text-align: center; font-size: 20px; font-weight: bold; =
+line-height: 44px; mso-line-height-rule: exactly; mso-padding-alt: 18px 0px=
+; text-decoration: none; color: #ffffff; -webkit-text-size-adjust: none; di=
+rection: ltr;" title=3D"Learn more" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOh5lrlqF=
+YAjifh4MVPC4PUq4NEXXfweVH8C4gEVv3wzGjouuHkByb1mwho63pypWe3X1nwlbnaUvjfYYVn0=
+d9aiVhTcsy7l12roxgqvKFkOx8c1i-ZR-PrUaX_EhOozkF31ScAHWpyH4QiG2ylzM7BQSFESe8H=
+b_GfhnHrzADflMrDMuBEmd2u6Hp3wMA2mRf8KLvFXb1iOs0tYi9Kde1CEsglzNqAO7pGW_Y4WgK=
+Hcc6gsFt46FyHOzAR54Ucn4UU=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <strong><span>Learn more</span></strong></a> </td>=20
+</tr>=20
+</tbody>
+</table> </th>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09</th>
+=09=09=09=09=09<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+                =09=09<th align=3D"center" valign=3D"top" style=3D"width:26=
+6px;">
+            =09=09<![endif]-->=20
+<th class=3D"mobile-stack width100" align=3D"center" valign=3D"top" style=
+=3D"width:266px;padding:16px;">=20
+<table class=3D"width100" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" role=3D"presentation" style=3D"border-top: 2px solid #d4d8=
+fb;border-left: 2px solid #d4d8fb; border-right: 2px solid #d4d8fb;backgrou=
+nd-color:#ffffff;width:266px;" width=3D"266">=20
+<tbody>
+<tr>=20
+<td class=3D"vertical-card" align=3D"left" valign=3D"top" style=3D"height:3=
+50px;">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"left" valign=3D"top" style=3D"height:32px;"> &nbsp; </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"padding: 18px 16px;"> <a targe=
+t=3D"_blank" style=3D"text-decoration:none;" title=3D"Molex Inc" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOgv7qkb3=
+bc90K5Jro-RxHNJrkcRuwMth_OMesuDtoq_ENMiIOcalvmlcLEHbSTNEKP1xFWy4Cd7nvR4dYxr=
+EbcXR1pzrmPtHShtyxnm51zJw1rP8I2meDP6DGGdWqcIxE5mhpyOx0KgmDss58jpacjt0e_BD76=
+FlpEIANEgPEKhe_1s-S0HbfkiSnynAPQQgwElA2TjLCLCkuOZMNi2mDWw2jnQuHq1Oc2aD0rSeu=
+k-Mi3nl3t9F1hQ8XkAgZadh_A=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/molex_color_EM=
+AIL.jpg" style=3D"font-family: 'Roboto', Arial, sans-serif; color: #000000;=
+ display: block; width: 180px; direction: ltr;" width=3D"180" alt=3D"Molex =
+Inc" /> </a> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" class=3D"p24-t" style=3D"padding: 0px 3=
+2px;"> <a target=3D"_blank" style=3D"text-decoration:none;" title=3D"Micro-=
+Fit+ PCIe Connectors" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOgv7qkb3=
+bc90K5Jro-RxHNJrkcRuwMth_OMesuDtoq_ENMiIOcalvmlcLEHbSTNEKP1xFWy4Cd7nvR4dYxr=
+EbcXR1pzrmPtHShtyxnm51zJw1rP8I2meDP6DGGdWqcIxE5mhpyOx0KgmDss58jpacjt0e_BD76=
+FlpEIANEgPEKhe2pEf6k95UDSjggkcmrXfu4eJ70N7uIsni0AC-xqpuqOUjTbKazdt9iPtP3dqW=
+w5ao9U4tk1lb4NP7CaRumVqFA=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://sc-a.digikeyassets.com/-/media/Images/Product%20Highl=
+ights/M/Molex%20Corporation/Micro-Fit%20Plus%20PCIe%205%20Connectors/pcie5-=
+240.jpg?la=3Den" style=3D"font-family: 'Roboto', Arial, sans-serif; color: =
+#000000; font-size: 20px; display: block; width: 180px; direction: ltr;" wi=
+dth=3D"180" alt=3D"Micro-Fit+ PCIe Connectors" /> </a> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-b p8-t p16-h left-align" align=3D"left" valign=3D"bottom" s=
+tyle=3D"direction: ltr; padding: 8px 16px 0px;"> <p style=3D"font-size: 16p=
+x; line-height: 22.4px; color: #000000; font-family: 'Roboto', Arial, sans-=
+serif; direction: ltr;"><span>Micro-Fit+ PCIe Connectors</span></p> </td>=
+=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"background-color: #480bbe; mso=
+-padding-alt: 12px;"> <a target=3D"_blank" style=3D"font-family: 'Roboto', =
+Arial, sans-serif; text-align: center; font-size: 20px; font-weight: bold; =
+line-height: 44px; mso-line-height-rule: exactly; mso-padding-alt: 18px 0px=
+; text-decoration: none; color: #ffffff; -webkit-text-size-adjust: none; di=
+rection: ltr;" title=3D"Learn more" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOgv7qkb3=
+bc90K5Jro-RxHNJrkcRuwMth_OMesuDtoq_ENMiIOcalvmlcLEHbSTNEKP1xFWy4Cd7nvR4dYxr=
+EbcXR1pzrmPtHShtyxnm51zJw1rP8I2meDP6DGGdWqcIxE5mhpyOx0KgmDss58jpacjt0e_BD76=
+FlpEIANEgPEKhe9L7wW1DHe7-rVwpMthfETvEXx5tQtVNTQYLEkPAjBSXnSd9x0dFKd-Nh2_ZuZ=
+4lzplsfSDtVboPlnl5YA2iyWE=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <strong><span>Learn more</span></strong></a> </td>=20
+</tr>=20
+</tbody>
+</table> </th>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09</th>
+=09=09=09=09=09<![endif]-->=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td class=3D"p0-b" style=3D"padding:0px;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#d4d8fb" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>
+<!--[if (gte mso 9)|(IE)]>
+                =09=09<th align=3D"center" valign=3D"top" style=3D"width:26=
+6px;">
+            =09=09<![endif]-->=20
+<th class=3D"mobile-stack width100" align=3D"center" valign=3D"top" style=
+=3D"width:266px;padding:16px;">=20
+<table class=3D"width100" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" role=3D"presentation" style=3D"border-top: 2px solid #d4d8=
+fb;border-left: 2px solid #d4d8fb; border-right: 2px solid #d4d8fb;backgrou=
+nd-color:#ffffff;width:266px;" width=3D"266">=20
+<tbody>
+<tr>=20
+<td class=3D"vertical-card" align=3D"left" valign=3D"top" style=3D"height:3=
+29px;">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"left" valign=3D"top" style=3D"height:32px;"> &nbsp; </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"padding: 1px 16px;"> <a target=
+=3D"_blank" style=3D"text-decoration:none;" title=3D"ECS Inc" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhM4EEju=
+DGC31g_2JxJiqo1rsOgc-LsjEb0XKgHwb6Iy1eU8Q_EOyC3oSEcBBIaUPgaiWGHthr5Otx7gYQZ=
+Id_rLbH358E5blkl1uV7OpOsI30ND9pJb9y_up51tEh2taYopUUAKJF7efeDUSDtTvRzb28c2jq=
+1BYNVmlFGTCShhQYVqJXfAPiesYBqOvNKbx1crAMuGtP2eaSdflrJYJ0xAR-ymjOWmZD8Ne_W0Y=
+vPbA=3D=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiN=
+bbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/ecs-inc-intern=
+ational-words-horizontal_EMAIL.jpg" style=3D"font-family: 'Roboto', Arial, =
+sans-serif; color: #000000; display: block; width: 215px; direction: ltr;" =
+width=3D"215" alt=3D"ECS Inc" /> </a> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" class=3D"p24-t" style=3D"padding: 0px 3=
+2px;"> <a target=3D"_blank" style=3D"text-decoration:none;" title=3D"ECX-16=
+ Compact Surface-Mount 32.768 kHz Tuning Fork" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhM4EEju=
+DGC31g_2JxJiqo1rsOgc-LsjEb0XKgHwb6Iy1eU8Q_EOyC3oSEcBBIaUPgaiWGHthr5Otx7gYQZ=
+Id_rLbH358E5blkl1uV7OpOsI30ND9pJb9y_up51tEh2taYopUUAKJF7efeDUSDtTvRzb28c2jq=
+1BYNVmlFGTCShhdyA_HdPbsvVODVsoHoQTM2xvySR6r5AQ_UGg7kKuSCi6B4CtiHknxfy87EkuW=
+WjKA=3D=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiN=
+bbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://sc-b.digikeyassets.com/-/media/Images/Product%20Highl=
+ights/E/ECS%20Inc%20International/ECX-16%2032%20768%20KHz%20Quartz%20Crysta=
+l/ecs-ecs-16-32-768-khz-quartz-crystal-240.jpg?la=3Den" style=3D"font-famil=
+y: 'Roboto', Arial, sans-serif; color: #000000; font-size: 20px; display: b=
+lock; width: 180px; direction: ltr;" width=3D"180" alt=3D"ECX-16 Compact Su=
+rface-Mount 32.768 kHz Tuning Fork" /> </a> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-b p8-t p16-h left-align" align=3D"left" valign=3D"bottom" s=
+tyle=3D"direction: ltr; padding: 8px 16px 0px;"> <p style=3D"font-size: 16p=
+x; line-height: 22.4px; color: #000000; font-family: 'Roboto', Arial, sans-=
+serif; direction: ltr;"><span>ECX-16 Compact Surface-Mount 32.768 kHz Tunin=
+g Fork</span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"background-color: #480bbe; mso=
+-padding-alt: 12px;"> <a target=3D"_blank" style=3D"font-family: 'Roboto', =
+Arial, sans-serif; text-align: center; font-size: 20px; font-weight: bold; =
+line-height: 44px; mso-line-height-rule: exactly; mso-padding-alt: 18px 0px=
+; text-decoration: none; color: #ffffff; -webkit-text-size-adjust: none; di=
+rection: ltr;" title=3D"Learn more" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhM4EEju=
+DGC31g_2JxJiqo1rsOgc-LsjEb0XKgHwb6Iy1eU8Q_EOyC3oSEcBBIaUPgaiWGHthr5Otx7gYQZ=
+Id_rLbH358E5blkl1uV7OpOsI30ND9pJb9y_up51tEh2taYopUUAKJF7efeDUSDtTvRzb28c2jq=
+1BYNVmlFGTCShhfFqqe6qCC42Z1E7dTEc3x3OAK3zFUIX_0Y8kRiS2JTZa2u0nYHEVYrV8u6Yne=
+UvyQ=3D=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiN=
+bbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <strong><span>Learn more</span></strong></a> </td>=20
+</tr>=20
+</tbody>
+</table> </th>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09</th>
+=09=09=09=09=09<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+                =09=09<th align=3D"center" valign=3D"top" style=3D"width:26=
+6px;">
+            =09=09<![endif]-->=20
+<th class=3D"mobile-stack width100" align=3D"center" valign=3D"top" style=
+=3D"width:266px;padding:16px;">=20
+<table class=3D"width100" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" role=3D"presentation" style=3D"border-top: 2px solid #d4d8=
+fb;border-left: 2px solid #d4d8fb; border-right: 2px solid #d4d8fb;backgrou=
+nd-color:#ffffff;width:266px;" width=3D"266">=20
+<tbody>
+<tr>=20
+<td class=3D"vertical-card" align=3D"left" valign=3D"top" style=3D"height:3=
+29px;">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"left" valign=3D"top" style=3D"height:32px;"> &nbsp; </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"padding: 14px 16px;"> <a targe=
+t=3D"_blank" style=3D"text-decoration:none;" title=3D"Omnetics" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOi5LTyjO=
+mUA-w5EIwuWwxLVOtNbcYadtVrZhfJkat4pHW5z7-K-P7z5THVWWX271SDX9Ldu7iAFRYavXr7-=
+GyaRIl3sc_0RkcKJdx47mapPj8dCfhdfoCf-3ZIrrChkBdsJRZCDhRZEcby__WD7RIS0Om2aRRT=
+aFrKBtJopMowqxcsxmJbde3s_eRqKKmMm2mULKHvmvoLmUBv7DYMz2awPBB_UChCBsizXtUWBnn=
+EdNZFCj8i__nmkh8njh2Fpj0U=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/omnetics_conne=
+ctor_corporation_color_EMAIL.jpg" style=3D"font-family: 'Roboto', Arial, sa=
+ns-serif; color: #000000; display: block; width: 220px; direction: ltr;" wi=
+dth=3D"220" alt=3D"Omnetics" /> </a> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" class=3D"p24-t" style=3D"padding: 0px 3=
+2px;"> <a target=3D"_blank" style=3D"text-decoration:none;" title=3D"Pre-Wi=
+red Crimped Nano-D Connectors" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOi5LTyjO=
+mUA-w5EIwuWwxLVOtNbcYadtVrZhfJkat4pHW5z7-K-P7z5THVWWX271SDX9Ldu7iAFRYavXr7-=
+GyaRIl3sc_0RkcKJdx47mapPj8dCfhdfoCf-3ZIrrChkBdsJRZCDhRZEcby__WD7RIS0Om2aRRT=
+aFrKBtJopMowqxcsxmJbde3s_eRqKKmMm2mUf1tAwHgpvrUPNpng3LnuHCnTG-3N6rFEFgeYQVI=
+G_tes63Wz9IViZXVPHIwHnBgE=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://sc-b.digikeyassets.com/-/media/Images/Product%20Highl=
+ights/O/Omnetics/Pre-Wired%20Crimped%20Nano-D%20Connectors/pre-240.jpg?la=
+=3Den" style=3D"font-family: 'Roboto', Arial, sans-serif; color: #000000; f=
+ont-size: 20px; display: block; width: 180px; direction: ltr;" width=3D"180=
+" alt=3D"Pre-Wired Crimped Nano-D Connectors" /> </a> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-b p8-t p16-h left-align" align=3D"left" valign=3D"bottom" s=
+tyle=3D"direction: ltr; padding: 8px 16px 0px;"> <p style=3D"font-size: 16p=
+x; line-height: 22.4px; color: #000000; font-family: 'Roboto', Arial, sans-=
+serif; direction: ltr;"><span>Pre-Wired Crimped Nano-D Connectors</span></p=
+> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"background-color: #480bbe; mso=
+-padding-alt: 12px;"> <a target=3D"_blank" style=3D"font-family: 'Roboto', =
+Arial, sans-serif; text-align: center; font-size: 20px; font-weight: bold; =
+line-height: 44px; mso-line-height-rule: exactly; mso-padding-alt: 18px 0px=
+; text-decoration: none; color: #ffffff; -webkit-text-size-adjust: none; di=
+rection: ltr;" title=3D"Learn more" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOi5LTyjO=
+mUA-w5EIwuWwxLVOtNbcYadtVrZhfJkat4pHW5z7-K-P7z5THVWWX271SDX9Ldu7iAFRYavXr7-=
+GyaRIl3sc_0RkcKJdx47mapPj8dCfhdfoCf-3ZIrrChkBdsJRZCDhRZEcby__WD7RIS0Om2aRRT=
+aFrKBtJopMowqxcsxmJbde3s_eRqKKmMm2mU6T3B9dSoKiO4EIIFpkr33A6r1FFMbzey6mXMxFC=
+rlLFF2bpZPraJYpKUQOJHg5o0=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <strong><span>Learn more</span></strong></a> </td>=20
+</tr>=20
+</tbody>
+</table> </th>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09</th>
+=09=09=09=09=09<![endif]-->=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td class=3D"p0-b" style=3D"padding:0px;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#d4d8fb" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>
+<!--[if (gte mso 9)|(IE)]>
+                =09=09<th align=3D"center" valign=3D"top" style=3D"width:26=
+6px;">
+            =09=09<![endif]-->=20
+<th class=3D"mobile-stack width100" align=3D"center" valign=3D"top" style=
+=3D"width:266px;padding:16px;">=20
+<table class=3D"width100" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" role=3D"presentation" style=3D"border-top: 2px solid #d4d8=
+fb;border-left: 2px solid #d4d8fb; border-right: 2px solid #d4d8fb;backgrou=
+nd-color:#ffffff;width:266px;" width=3D"266">=20
+<tbody>
+<tr>=20
+<td class=3D"vertical-card" align=3D"left" valign=3D"top" style=3D"height:3=
+54px;">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"left" valign=3D"top" style=3D"height:32px;"> &nbsp; </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"padding: 8px 16px;"> <a target=
+=3D"_blank" style=3D"text-decoration:none;" title=3D"Omron Automation" href=
+=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOi5LTyjO=
+mUA-w5EIwuWwxLVestHEJVpgVe2pWWRIGk7ePnCN7WQjgBVkembHKChTg2YAmAvBW6CHSXOfXDk=
+DdN_Hr4F_uyaikVrkLFwcjDiSLvp9DJM8KIgBn5smgiUS9ZP8n41TdZXWMSpE_o-kM52fk8xE5a=
+9-AI34UXYtIJfAGE526z1ByKWhRi4W5bnFbMdYnb7lEs6-uxlxjOvve1RKWjJThuW_NITyoN4Qz=
+8EOr7RyDx8ncPV3BkHO0xZvR24CxrZ0v2Wev6kqQxWYYUtk2uwdjiQBVIa0tYp8YDENA=3D=3D/=
+MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_=
+BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/omron_automati=
+on_color_EMAIL.jpg" style=3D"font-family: 'Roboto', Arial, sans-serif; colo=
+r: #000000; display: block; width: 204px; direction: ltr;" width=3D"204" al=
+t=3D"Omron Automation" /> </a> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" class=3D"p24-t" style=3D"padding: 0px 3=
+2px;"> <a target=3D"_blank" style=3D"text-decoration:none;" title=3D"Robust=
+ Long-Range Proximity Sensor: Designed to Optimize Production Uptime" href=
+=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOi5LTyjO=
+mUA-w5EIwuWwxLVestHEJVpgVe2pWWRIGk7ePnCN7WQjgBVkembHKChTg2YAmAvBW6CHSXOfXDk=
+DdN_Hr4F_uyaikVrkLFwcjDiSLvp9DJM8KIgBn5smgiUS9ZP8n41TdZXWMSpE_o-kM52fk8xE5a=
+9-AI34UXYtIJfAGE526z1ByKWhRi4W5bnFbMdYnb7lEs6-uxlxjOvve1REYgysnwQLSrUJEx7Kw=
+pWc3aHpKwmEZ7i8051Q-zX9j11rZoVDSUlxg7qnTPe2l5CqfCVzl-smI-RXR-GjxK42g=3D=3D/=
+MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_=
+BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://sc-c.digikeyassets.com/-/media/Images/Product%20Highl=
+ights/O/Omron%20Automation%20and%20Safety/E2E%20NEXT%20Inductive%20Proximit=
+y%20Sensors/omronautomation_E2E-NEXT-Inductive-Proximity-Sensors_image.jpg?=
+la=3Den" style=3D"font-family: 'Roboto', Arial, sans-serif; color: #000000;=
+ font-size: 20px; display: block; width: 180px; direction: ltr;" width=3D"1=
+80" alt=3D"Robust Long-Range Proximity Sensor: Designed to Optimize Product=
+ion Uptime" /> </a> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-b p8-t p16-h left-align" align=3D"left" valign=3D"bottom" s=
+tyle=3D"direction: ltr; padding: 19px 16px 0px;"> <p style=3D"font-size: 16=
+px; line-height: 22.4px; color: #000000; font-family: 'Roboto', Arial, sans=
+-serif; direction: ltr;"><span>Robust Long-Range Proximity Sensor: Designed=
+ to Optimize Production Uptime</span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"background-color: #480bbe; mso=
+-padding-alt: 12px;"> <a target=3D"_blank" style=3D"font-family: 'Roboto', =
+Arial, sans-serif; text-align: center; font-size: 20px; font-weight: bold; =
+line-height: 44px; mso-line-height-rule: exactly; mso-padding-alt: 18px 0px=
+; text-decoration: none; color: #ffffff; -webkit-text-size-adjust: none; di=
+rection: ltr;" title=3D"Learn more" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOi5LTyjO=
+mUA-w5EIwuWwxLVestHEJVpgVe2pWWRIGk7ePnCN7WQjgBVkembHKChTg2YAmAvBW6CHSXOfXDk=
+DdN_Hr4F_uyaikVrkLFwcjDiSLvp9DJM8KIgBn5smgiUS9ZP8n41TdZXWMSpE_o-kM52fk8xE5a=
+9-AI34UXYtIJfAGE526z1ByKWhRi4W5bnFbMdYnb7lEs6-uxlxjOvve1Rvi4_DX9md7IUWTrhsg=
+w-pYNNzSJZk3safZFwFLEzJDTCwFcrLCccAx0WDFohkT36YyfiEmL8_fD2_mKdz1r_qA=3D=3D/=
+MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_=
+BNe8Ty_31JTe4V30=3D"
+> <strong><span>Learn more</span></strong></a> </td>=20
+</tr>=20
+</tbody>
+</table> </th>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09</th>
+=09=09=09=09=09<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+                =09=09<th align=3D"center" valign=3D"top" style=3D"width:26=
+6px;">
+            =09=09<![endif]-->=20
+<th class=3D"mobile-stack width100" align=3D"center" valign=3D"top" style=
+=3D"width:266px;padding:16px;">=20
+<table class=3D"width100" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" role=3D"presentation" style=3D"border-top: 2px solid #d4d8=
+fb;border-left: 2px solid #d4d8fb; border-right: 2px solid #d4d8fb;backgrou=
+nd-color:#ffffff;width:266px;" width=3D"266">=20
+<tbody>
+<tr>=20
+<td class=3D"vertical-card" align=3D"left" valign=3D"top" style=3D"height:3=
+54px;">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"left" valign=3D"top" style=3D"height:32px;"> &nbsp; </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"padding: 3px 16px;"> <a target=
+=3D"_blank" style=3D"text-decoration:none;" title=3D"Bulgin" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhJF7w0F=
+ZRPfNPPZTFd6Trd8VtntfoWYwa_GiBRu7UCgDG3R7ULANd1tKdCBZWuvlqC6IuCEZSC2Q3WWvd0=
+ipEWcsUfCIZ6IMobmb49WqYk7MkG_JZt6yo0VtFDOD69qmgHGhErVP7pN1T4iyQHejTE55PUqFH=
+iWfN5_-tcjfJnoOWPWmz-4vHChzjT1FjdXkawcSTZ-roqzWx-R0d7_0IDr91FdwuzkBmS_RdSXW=
+FqUyDud6dFDSBPsrkYveGPSfU=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/bulgin_color_E=
+MAIL.jpg?version=3D1" style=3D"font-family: 'Roboto', Arial, sans-serif; co=
+lor: #000000; display: block; width: 218px; direction: ltr;" width=3D"218" =
+alt=3D"Bulgin" /> </a> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" class=3D"p24-t" style=3D"padding: 0px 3=
+2px;"> <a target=3D"_blank" style=3D"text-decoration:none;" title=3D"Single=
+-Pair Ethernet 4000 Series Connectors and Cables" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhJF7w0F=
+ZRPfNPPZTFd6Trd8VtntfoWYwa_GiBRu7UCgDG3R7ULANd1tKdCBZWuvlqC6IuCEZSC2Q3WWvd0=
+ipEWcsUfCIZ6IMobmb49WqYk7MkG_JZt6yo0VtFDOD69qmgHGhErVP7pN1T4iyQHejTE55PUqFH=
+iWfN5_-tcjfJnoJv5sxPBQdv6YZ5_Og7QGej29hT8Fpk8dOd9T8jqgDCAM5qSX5rpw_PsohEShR=
+uf5OJioHWWC-dSVwnhYC1iVKY=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://sc-a.digikeyassets.com/-/media/Images/Product%20Highl=
+ights/B/Bulgin/Single%20Pair%20Ethernet%204000%20Series/Single-Pair-Etherne=
+t-4000-Series-240.jpg?la=3Den" style=3D"font-family: 'Roboto', Arial, sans-=
+serif; color: #000000; font-size: 20px; display: block; width: 180px; direc=
+tion: ltr;" width=3D"180" alt=3D"Single-Pair Ethernet 4000 Series Connector=
+s and Cables" /> </a> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-b p8-t p16-h left-align" align=3D"left" valign=3D"bottom" s=
+tyle=3D"direction: ltr; padding: 8px 16px 0px;"> <p style=3D"font-size: 16p=
+x; line-height: 22.4px; color: #000000; font-family: 'Roboto', Arial, sans-=
+serif; direction: ltr;"><span>Single-Pair Ethernet 4000 Series Connectors a=
+nd Cables</span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"background-color: #480bbe; mso=
+-padding-alt: 12px;"> <a target=3D"_blank" style=3D"font-family: 'Roboto', =
+Arial, sans-serif; text-align: center; font-size: 20px; font-weight: bold; =
+line-height: 44px; mso-line-height-rule: exactly; mso-padding-alt: 18px 0px=
+; text-decoration: none; color: #ffffff; -webkit-text-size-adjust: none; di=
+rection: ltr;" title=3D"Learn more" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhJF7w0F=
+ZRPfNPPZTFd6Trd8VtntfoWYwa_GiBRu7UCgDG3R7ULANd1tKdCBZWuvlqC6IuCEZSC2Q3WWvd0=
+ipEWcsUfCIZ6IMobmb49WqYk7MkG_JZt6yo0VtFDOD69qmgHGhErVP7pN1T4iyQHejTE55PUqFH=
+iWfN5_-tcjfJnoBg2MNaansFXK-GpSPa38tHsfzUlV3zXPhAMf0tgpXiw7QrjSloOZImE9QdAgs=
+BRwNN3fhqUDgtiOQzzjuTTC-4=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <strong><span>Learn more</span></strong></a> </td>=20
+</tr>=20
+</tbody>
+</table> </th>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09</th>
+=09=09=09=09=09<![endif]-->=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td class=3D"p0-b" style=3D"padding:0px;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#d4d8fb" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>
+<!--[if (gte mso 9)|(IE)]>
+                =09=09<th align=3D"center" valign=3D"top" style=3D"width:26=
+6px;">
+            =09=09<![endif]-->=20
+<th class=3D"mobile-stack width100" align=3D"center" valign=3D"top" style=
+=3D"width:266px;padding:16px;">=20
+<table class=3D"width100" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" role=3D"presentation" style=3D"border-top: 2px solid #d4d8=
+fb;border-left: 2px solid #d4d8fb; border-right: 2px solid #d4d8fb;backgrou=
+nd-color:#ffffff;width:266px;" width=3D"266">=20
+<tbody>
+<tr>=20
+<td class=3D"vertical-card" align=3D"left" valign=3D"top" style=3D"height:3=
+38px;">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"left" valign=3D"top" style=3D"height:32px;"> &nbsp; </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"padding: 9px 16px;"> <a target=
+=3D"_blank" style=3D"text-decoration:none;" title=3D"Samtec Inc" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhmLmSsr=
+-MrHnFG5NssDljv0AxtSV5us8CmyvRggchdnuJoN-V3KwtV3B2MV9QBuO-AZZ1rJekeiXOsiwBI=
+r3mrcqgujVJ4-VGg50WdziaCZnvVE5BY2QvVJ7VaYaJa_9l8415XZquFDiwy149zX891dfCrJuM=
+fGh-mKXnQL_C0lxNkMTn0jtH6cn90Z6s7KScpFlhB4Guwu3U9Qw-6ZvRJiZNck-qU7rWq_bfizs=
+qnIzRgqkKaeQG4iyQfLV7QAVw=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/samtec_color_E=
+MAIL.jpg" style=3D"font-family: 'Roboto', Arial, sans-serif; color: #000000=
+; display: block; width: 210px; direction: ltr;" width=3D"210" alt=3D"Samte=
+c Inc" /> </a> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" class=3D"p24-t" style=3D"padding: 0px 3=
+2px;"> <a target=3D"_blank" style=3D"text-decoration:none;" title=3D"URSA=
+=C2=AE I/O Ultra Rugged Cable System" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhmLmSsr=
+-MrHnFG5NssDljv0AxtSV5us8CmyvRggchdnuJoN-V3KwtV3B2MV9QBuO-AZZ1rJekeiXOsiwBI=
+r3mrcqgujVJ4-VGg50WdziaCZnvVE5BY2QvVJ7VaYaJa_9l8415XZquFDiwy149zX891dfCrJuM=
+fGh-mKXnQL_C0l9bLtf2TLM2TgK6rucBTYX0C7_v915KFkqZPJFRdG_k5qE8P7s5Q5ElRex2FM8=
+ZFRTRamas82Nhca08np7UIdQM=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://sc-a.digikeyassets.com/-/media/Images/Product%20Highl=
+ights/S/Samtec%20Inc/URSA%20IO%20Ultra%20Rugged%20Cable%20System/b1sdt-10-b=
+ox.jpg?lang=3Den" style=3D"font-family: 'Roboto', Arial, sans-serif; color:=
+ #000000; font-size: 20px; display: block; width: 180px; direction: ltr;" w=
+idth=3D"180" alt=3D"URSA=C2=AE I/O Ultra Rugged Cable System" /> </a> </td>=
+=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-b p8-t p16-h left-align" align=3D"left" valign=3D"bottom" s=
+tyle=3D"direction: ltr; padding: 20px 16px 0px;"> <p style=3D"font-size: 16=
+px; line-height: 22.4px; color: #000000; font-family: 'Roboto', Arial, sans=
+-serif; direction: ltr;"><span>URSA=C2=AE I/O Ultra Rugged Cable System</sp=
+an></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"background-color: #480bbe; mso=
+-padding-alt: 12px;"> <a target=3D"_blank" style=3D"font-family: 'Roboto', =
+Arial, sans-serif; text-align: center; font-size: 20px; font-weight: bold; =
+line-height: 44px; mso-line-height-rule: exactly; mso-padding-alt: 18px 0px=
+; text-decoration: none; color: #ffffff; -webkit-text-size-adjust: none; di=
+rection: ltr;" title=3D"Learn more" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhmLmSsr=
+-MrHnFG5NssDljv0AxtSV5us8CmyvRggchdnuJoN-V3KwtV3B2MV9QBuO-AZZ1rJekeiXOsiwBI=
+r3mrcqgujVJ4-VGg50WdziaCZnvVE5BY2QvVJ7VaYaJa_9l8415XZquFDiwy149zX891dfCrJuM=
+fGh-mKXnQL_C0l68XKSg829W0QeDX1B9kPY6nyBr6V0gHyscMlqnTbfSReIqsCLixT6MnCkmVNh=
+rxbx1VfGMABb-QzfNdoib66xE=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B=
+7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <strong><span>Learn more</span></strong></a> </td>=20
+</tr>=20
+</tbody>
+</table> </th>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09</th>
+=09=09=09=09=09<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+                =09=09<th align=3D"center" valign=3D"top" style=3D"width:26=
+6px;">
+            =09=09<![endif]-->=20
+<th class=3D"mobile-stack width100" align=3D"center" valign=3D"top" style=
+=3D"width:266px;padding:16px;">=20
+<table class=3D"width100" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" role=3D"presentation" style=3D"border-top: 2px solid #d4d8=
+fb;border-left: 2px solid #d4d8fb; border-right: 2px solid #d4d8fb;backgrou=
+nd-color:#ffffff;width:266px;" width=3D"266">=20
+<tbody>
+<tr>=20
+<td class=3D"vertical-card" align=3D"left" valign=3D"top" style=3D"height:3=
+38px;">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"left" valign=3D"top" style=3D"height:32px;"> &nbsp; </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"padding: 22px 16px;"> <a targe=
+t=3D"_blank" style=3D"text-decoration:none;" title=3D"Siemens" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhmLmSsr=
+-MrHnFG5NssDljvo5Y49GnzVYtc9Mrg0WMC3YUccOJ4VyCVTm_teqm4UilpgoInRvT1hkBXmQP8=
+6vZ9L1u0BRbk-0rKBobgI40n66sTKuGBc1-Y-H1huya3SRAfpirWqlE6ULVt_ESeJ1wRlF-dne7=
+f_GvYNQ7k7Ck30fdwSQOznlS9jDM8AWfe8_EsjwxkG72PyHGQOeAAD-1qNxn728MjCNZnZlNmVH=
+-VRfFGCLMr4-ciLLNN2x8qo_OvobcAZe4u-kESfv7id6CB/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-=
+sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/siemens_color_=
+EMAIL.jpg" style=3D"font-family: 'Roboto', Arial, sans-serif; color: #00000=
+0; display: block; width: 201px; direction: ltr;" width=3D"201" alt=3D"Siem=
+ens" /> </a> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" class=3D"p24-t" style=3D"padding: 0px 3=
+2px;"> <a target=3D"_blank" style=3D"text-decoration:none;" title=3D"SIRIUS=
+ Coupling Relays and Signal Converters" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhmLmSsr=
+-MrHnFG5NssDljvo5Y49GnzVYtc9Mrg0WMC3YUccOJ4VyCVTm_teqm4UilpgoInRvT1hkBXmQP8=
+6vZ9L1u0BRbk-0rKBobgI40n66sTKuGBc1-Y-H1huya3SRAfpirWqlE6ULVt_ESeJ1wRlF-dne7=
+f_GvYNQ7k7Ck30fdwSQOznlS9jDM8AWfe8_GiYi0WztFt9Tp629goHRDQ99VRG71pbrmB6YsKYb=
+AkIIOCUqOuYjcRQSmymas4lXk_mMYa4UnQ8kXKkpo6A5ur/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-=
+sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://sc-b.digikeyassets.com/-/media/Images/Product%20Highl=
+ights/S/Siemens/SIRIUS%20Coupling%20Relays%20and%20Signal%20Converters/siem=
+ens-sirius-coupling-relays-and-signal-converters-240.jpg?la=3Den" style=3D"=
+font-family: 'Roboto', Arial, sans-serif; color: #000000; font-size: 20px; =
+display: block; width: 180px; direction: ltr;" width=3D"180" alt=3D"SIRIUS =
+Coupling Relays and Signal Converters" /> </a> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-b p8-t p16-h left-align" align=3D"left" valign=3D"bottom" s=
+tyle=3D"direction: ltr; padding: 17px 16px 0px;"> <p style=3D"font-size: 16=
+px; line-height: 22.4px; color: #000000; font-family: 'Roboto', Arial, sans=
+-serif; direction: ltr;"><span>SIRIUS Coupling Relays and Signal Converters=
+</span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"background-color: #480bbe; mso=
+-padding-alt: 12px;"> <a target=3D"_blank" style=3D"font-family: 'Roboto', =
+Arial, sans-serif; text-align: center; font-size: 20px; font-weight: bold; =
+line-height: 44px; mso-line-height-rule: exactly; mso-padding-alt: 18px 0px=
+; text-decoration: none; color: #ffffff; -webkit-text-size-adjust: none; di=
+rection: ltr;" title=3D"Learn more" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOhmLmSsr=
+-MrHnFG5NssDljvo5Y49GnzVYtc9Mrg0WMC3YUccOJ4VyCVTm_teqm4UilpgoInRvT1hkBXmQP8=
+6vZ9L1u0BRbk-0rKBobgI40n66sTKuGBc1-Y-H1huya3SRAfpirWqlE6ULVt_ESeJ1wRlF-dne7=
+f_GvYNQ7k7Ck30fdwSQOznlS9jDM8AWfe8_GfuyvzzlDqYhJYK2pSKbBs-cNHAr5g2Dbaf4YsOg=
+mwEZg232QMUm5QUxS-bD__J68r5Bf1DQxPBSPC3rAfkLI7/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-=
+sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <strong><span>Learn more</span></strong></a> </td>=20
+</tr>=20
+</tbody>
+</table> </th>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09</th>
+=09=09=09=09=09<![endif]-->=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td class=3D"p0-b" style=3D"padding:0px;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#d4d8fb" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>
+<!--[if (gte mso 9)|(IE)]>
+                =09=09<th align=3D"center" valign=3D"top" style=3D"width:26=
+6px;">
+            =09=09<![endif]-->=20
+<th class=3D"mobile-stack width100" align=3D"center" valign=3D"top" style=
+=3D"width:266px;padding:16px;">=20
+<table class=3D"width100" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" role=3D"presentation" style=3D"border-top: 2px solid #d4d8=
+fb;border-left: 2px solid #d4d8fb; border-right: 2px solid #d4d8fb;backgrou=
+nd-color:#ffffff;width:266px;" width=3D"266">=20
+<tbody>
+<tr>=20
+<td class=3D"vertical-card" align=3D"left" valign=3D"top" style=3D"height:3=
+52px;">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"left" valign=3D"top" style=3D"height:32px;"> &nbsp; </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"padding: 12px 16px;"> <a targe=
+t=3D"_blank" style=3D"text-decoration:none;" title=3D"Nexperia" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOgaI9yu-=
+nuZzuVbwiQNRoGaS-ySQyizdtufwQSTldA13-Z1gAor2-KkZe0sRctKY7L0kMRyFf0FqF17-scY=
+URo6vZ_K3z7XqtcwfZrsHvjdCCSMwjydSreeyTMyaihhWbGqRfxR3-mRNKndh7BaKsP_VTIxX4S=
+LA13PuIjZSHF0ETZepGL4OuUuMBycB0gQ0iBT6KOByoV4bkT23Vu-WN9Wda7ryQAR0Qn_Uhev4w=
+8ptgw_GwDiCYF2CUKwQA4kLyVunmon1CFrYEm1gQ3RXLcjasSTo8EEWTzPNWV3IiqRVw=3D=3D/=
+MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_=
+BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/nexperia_color=
+_EMAIL.jpg" style=3D"font-family: 'Roboto', Arial, sans-serif; color: #0000=
+00; display: block; width: 216px; direction: ltr;" width=3D"216" alt=3D"Nex=
+peria" /> </a> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" class=3D"p24-t" style=3D"padding: 0px 3=
+2px;"> <a target=3D"_blank" style=3D"text-decoration:none;" title=3D"Advanc=
+ed N-Channel Application-Specific Field-Effect Transistors (ASFETs)" href=
+=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOgaI9yu-=
+nuZzuVbwiQNRoGaS-ySQyizdtufwQSTldA13-Z1gAor2-KkZe0sRctKY7L0kMRyFf0FqF17-scY=
+URo6vZ_K3z7XqtcwfZrsHvjdCCSMwjydSreeyTMyaihhWbGqRfxR3-mRNKndh7BaKsP_VTIxX4S=
+LA13PuIjZSHF0ETZepGL4OuUuMBycB0gQ0iBT6KOByoV4bkT23Vu-WN9WdK6X6z8EYeOfdmdbXV=
+fkIJpndLdKTKCrkRIzdCbSb0DW-87Y3f2pf6Z96_ut45wfnvHPUAFl4MOfI16QOfq-fQ=3D=3D/=
+MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_=
+BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://sc-c.digikeyassets.com/-/media/Images/Product%20Highl=
+ights/N/Nexperia/PSMN047-100NSE%20PSMN071-100NSE%20Advanced%20N-channel%20A=
+SFETs/nexperia-psmn047-100nse-psmn071-100nse-n-channel-asfet-240.jpg?la=3De=
+n" style=3D"font-family: 'Roboto', Arial, sans-serif; color: #000000; font-=
+size: 20px; display: block; width: 180px; direction: ltr;" width=3D"180" al=
+t=3D"Advanced N-Channel Application-Specific Field-Effect Transistors (ASFE=
+Ts)" /> </a> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-b p8-t p16-h left-align" align=3D"left" valign=3D"bottom" s=
+tyle=3D"direction: ltr; padding: 8px 16px 0px;"> <p style=3D"font-size: 16p=
+x; line-height: 22.4px; color: #000000; font-family: 'Roboto', Arial, sans-=
+serif; direction: ltr;"><span>Advanced N-Channel Application-Specific Field=
+-Effect Transistors (ASFETs)</span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"background-color: #480bbe; mso=
+-padding-alt: 12px;"> <a target=3D"_blank" style=3D"font-family: 'Roboto', =
+Arial, sans-serif; text-align: center; font-size: 20px; font-weight: bold; =
+line-height: 44px; mso-line-height-rule: exactly; mso-padding-alt: 18px 0px=
+; text-decoration: none; color: #ffffff; -webkit-text-size-adjust: none; di=
+rection: ltr;" title=3D"Learn more" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOgaI9yu-=
+nuZzuVbwiQNRoGaS-ySQyizdtufwQSTldA13-Z1gAor2-KkZe0sRctKY7L0kMRyFf0FqF17-scY=
+URo6vZ_K3z7XqtcwfZrsHvjdCCSMwjydSreeyTMyaihhWbGqRfxR3-mRNKndh7BaKsP_VTIxX4S=
+LA13PuIjZSHF0ETZepGL4OuUuMBycB0gQ0iBT6KOByoV4bkT23Vu-WN9WSgw6R3pBX9IrGucul8=
+89wYhhkkDBH3dwJjTDyIliOA0rrM8TSxkzA5FYYvLXuU1N/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-=
+sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <strong><span>Learn more</span></strong></a> </td>=20
+</tr>=20
+</tbody>
+</table> </th>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09</th>
+=09=09=09=09=09<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+                =09=09<th align=3D"center" valign=3D"top" style=3D"width:26=
+6px;">
+            =09=09<![endif]-->=20
+<th class=3D"mobile-stack width100" align=3D"center" valign=3D"top" style=
+=3D"width:266px;padding:16px;">=20
+<table class=3D"width100" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+align=3D"center" role=3D"presentation" style=3D"border-top: 2px solid #d4d8=
+fb;border-left: 2px solid #d4d8fb; border-right: 2px solid #d4d8fb;backgrou=
+nd-color:#ffffff;width:266px;" width=3D"266">=20
+<tbody>
+<tr>=20
+<td class=3D"vertical-card" align=3D"left" valign=3D"top" style=3D"height:3=
+52px;">=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"left" valign=3D"top" style=3D"height:32px;"> &nbsp; </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"padding: 12px 16px;"> <a targe=
+t=3D"_blank" style=3D"text-decoration:none;" title=3D"Diodes Incorporated" =
+href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOgMg6XKk=
+hnVVcAF9zQWV0ezjODOksxGntTSHek0pWX1CaA0HONTAEHpSRjIqA08voeoha4FbeSvP6qEe6qm=
+lzQ8pJC-VvjQerCzqEp8IDUIizRnCUs44PzXWx9S7bBaAVDnGSE05CRWbB9zypeyl4mzSt6AInM=
+zjAnMHjl1vF2wD5FVrtHhaK6CqrjVOjdsJ6ICSaCH1utxMTnzLZcwac0FfiKBVNhE1kI00SM569=
+ZombZxwbU8Lt3xIP0SJtuYpfT4ZgdIAFAMu6HqhBLMPVgA/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-=
+sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/diodes_color_E=
+MAIL.jpg" style=3D"font-family: 'Roboto', Arial, sans-serif; color: #000000=
+; display: block; width: 216px; direction: ltr;" width=3D"216" alt=3D"Diode=
+s Incorporated" /> </a> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" class=3D"p24-t" style=3D"padding: 0px 3=
+2px;"> <a target=3D"_blank" style=3D"text-decoration:none;" title=3D"36-Cha=
+nnel Linear LED Driver With RGB Registers for Automotive Lighting" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOgMg6XKk=
+hnVVcAF9zQWV0ezjODOksxGntTSHek0pWX1CaA0HONTAEHpSRjIqA08voeoha4FbeSvP6qEe6qm=
+lzQ8pJC-VvjQerCzqEp8IDUIizRnCUs44PzXWx9S7bBaAVDnGSE05CRWbB9zypeyl4mzSt6AInM=
+zjAnMHjl1vF2wD5FVrtHhaK6CqrjVOjdsJ6JKxhl2_s3yNYra9jH9z2sZCQkIMkK8qwesU8ponr=
+Qns48VJV1tNWGeMkayKJ7uSwyvPvWI8Znxp_vngAGhtawa/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-=
+sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://sc-c.digikeyassets.com/-/media/Images/Product%20Highl=
+ights/D/Diodes%20Incorporated/AL5887Q%20Advanced%2036-Channel%20Automotive%=
+20LED%20Driver/AL5887Q-Advanced-36-Channel-Automotive-LED-Driver_240.jpg?la=
+=3Den" style=3D"font-family: 'Roboto', Arial, sans-serif; color: #000000; f=
+ont-size: 20px; display: block; width: 180px; direction: ltr;" width=3D"180=
+" alt=3D"36-Channel Linear LED Driver With RGB Registers for Automotive Lig=
+hting" /> </a> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-b p8-t p16-h left-align" align=3D"left" valign=3D"bottom" s=
+tyle=3D"direction: ltr; padding: 8px 16px 0px;"> <p style=3D"font-size: 16p=
+x; line-height: 22.4px; color: #000000; font-family: 'Roboto', Arial, sans-=
+serif; direction: ltr;"><span>36-Channel Linear LED Driver With RGB Registe=
+rs for Automotive Lighting</span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" ro=
+le=3D"presentation" width=3D"100%">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"background-color: #480bbe; mso=
+-padding-alt: 12px;"> <a target=3D"_blank" style=3D"font-family: 'Roboto', =
+Arial, sans-serif; text-align: center; font-size: 20px; font-weight: bold; =
+line-height: 44px; mso-line-height-rule: exactly; mso-padding-alt: 18px 0px=
+; text-decoration: none; color: #ffffff; -webkit-text-size-adjust: none; di=
+rection: ltr;" title=3D"Learn more" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOgMg6XKk=
+hnVVcAF9zQWV0ezjODOksxGntTSHek0pWX1CaA0HONTAEHpSRjIqA08voeoha4FbeSvP6qEe6qm=
+lzQ8pJC-VvjQerCzqEp8IDUIizRnCUs44PzXWx9S7bBaAVDnGSE05CRWbB9zypeyl4mzSt6AInM=
+zjAnMHjl1vF2wD5FVrtHhaK6CqrjVOjdsJ6KqWNfay5LHDiqXUzkLYvrimn26N1Xe3gUT8YUjYc=
+geyIAMLTG-z9f-AdvSgS1bYFDXc6C7OJ6VEI6hzdzBdZ2U/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-=
+sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <strong><span>Learn more</span></strong></a> </td>=20
+</tr>=20
+</tbody>
+</table> </th>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09</th>
+=09=09=09=09=09<![endif]-->=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#FFFFFF" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p16-h" align=3D"center" valign=3D"top" style=3D"padding: 8px 3=
+2px;">=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"padding:8px 0px 0px;"> <p styl=
+e=3D"font-size: 24px; line-height: 28.8px; font-weight: normal; color: #000=
+000; font-family: 'Roboto', Arial, sans-serif; text-align: center; directio=
+n: ltr;"><span style=3D"color: #ff2100;">Here's the DigiKey difference</spa=
+n></p> <p style=3D"font-size: 16px; line-height: 22.4px; font-weight: norma=
+l; color: #000000; font-family: 'Roboto', Arial, sans-serif; text-align: ce=
+nter; direction: ltr;"><span style=3D"color: #000000;"></span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#ffffff" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<th class=3D"mobile-stack width100 p16-t p16-b border-right-hide" align=3D"=
+center" valign=3D"top" style=3D"border-right-width: 1px; border-right-color=
+: #080623; border-right-style: solid; padding: 0px 16px;" width=3D"33%">=20
+<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wi=
+dth=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"Liquid error: internal" align=3D"center" valign=3D"top" style=
+=3D"height: auto;">=20
+<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wi=
+dth=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"center-align" align=3D"center" valign=3D"middle"> <a target=3D=
+"_blank" style=3D"font-family:'Roboto', Arial, sans-serif;text-align:center=
+;font-size:20px;font-weight:bold;line-height:30px;mso-line-height-rule:exac=
+tly;text-decoration: underline;color: #480bbe;-webkit-text-size-adjust:none=
+;" title=3D"You can trust that all our parts are certified as authentic." h=
+ref=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV0tyjPpU7Tu4KUcJkMIkLR7BOn5Vl=
+GLEyHm4y_SlbpPspNwvzEogQiep4svrA07dcACHQ52Pf3iSS8sk2gSIN90Jnq6uOQ0_IcMbzyaE=
+zHfU5gVx9WLBbsSKULBe00k9hHnFzWkgRV_IoPSOFeDgd2NGmU-AKsrFtQj7k9H4zCOcL0l0UiF=
+ScdGKksct-EuZLeYfz0ANoCYEAU_akVBK4i8=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZ=
+XxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/red_dark_blurp=
+le_Products.png?version=3D1" style=3D"font-family: 'Roboto', Arial, sans-se=
+rif; color: #000000; font-size: 20px; width: 64; direction: ltr;" width=3D"=
+64" alt=3D"You can trust that all our parts are certified as authentic." />=
+ </a> </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"center" valign=3D"top"> <p style=3D"font-size: 14px; line-heig=
+ht: 19.6px; font-weight: normal; color: #000000; font-family: 'Roboto', Ari=
+al, sans-serif; text-align: center; direction: ltr;"><span>You can trust th=
+at all our parts are certified as authentic.</span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+<tr>=20
+</tr>=20
+</tbody>
+</table> </th>=20
+<th class=3D"mobile-stack width100 p8-t p16-b border-right-hide" align=3D"c=
+enter" valign=3D"top" style=3D"border-right-width: 1px; border-right-color:=
+ #080623; border-right-style: solid; padding: 0px 16px;" width=3D"33%">=20
+<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wi=
+dth=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"Liquid error: internal" align=3D"center" valign=3D"top" style=
+=3D"height: auto;">=20
+<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wi=
+dth=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"center-align" align=3D"center" valign=3D"middle"> <a target=3D=
+"_blank" style=3D"font-family:'Roboto', Arial, sans-serif;text-align:center=
+;font-size:20px;font-weight:bold;line-height:30px;mso-line-height-rule:exac=
+tly;text-decoration: underline;color: #480bbe;-webkit-text-size-adjust:none=
+;" title=3D"We ship to where you are...fast!" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV-XOAj6hqiAOsLBjnrKQu9MW-eI8E=
+OjH_gbs_O9QX_AhI-r4QNPL4uMCQxDjmzDrCznxN8r7CbGOg8M3XexJd59af0-XrcVnxndSjPoZ=
+YzUb7uEDerQRwHo_fjUODK5SucXHpO2myUIu6vUXvyvhvSam5LBwKNzTi2l6wxRi6C0H6PJWUk3=
+F4KSFQ8JFmVvWMKDmw3X41fG4jnqpZIq_L1SfkKkjfMwuIvWkbBPS5gQWV_cZiGKhq4b3LuV-p8=
+y0Yw=3D=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B7_2KTi8UkMF9KNBBiN=
+bbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/red_dark_blurp=
+le_Shipping.png?version=3D1" style=3D"font-family: 'Roboto', Arial, sans-se=
+rif; color: #000000; font-size: 20px; width: 64; direction: ltr;" width=3D"=
+64" alt=3D"We ship to where you are...fast!" /> </a> </td>=20
+</tr>=20
+<tr>=20
+<td align=3D"center" valign=3D"top"> <p style=3D"font-size: 14px; line-heig=
+ht: 19.6px; font-weight: normal; color: #000000; font-family: 'Roboto', Ari=
+al, sans-serif; text-align: center; direction: ltr;"><span>We ship to where=
+ you are...fast!</span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+<tr>=20
+</tr>=20
+</tbody>
+</table> </th>=20
+<th class=3D"mobile-stack width100 p8-t p16-b" align=3D"center" valign=3D"t=
+op" style=3D"padding: 0px 16px;" width=3D"33%">=20
+<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wi=
+dth=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"Liquid error: internal" align=3D"center" valign=3D"top" style=
+=3D"height: auto;">=20
+<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wi=
+dth=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"center-align" align=3D"center" valign=3D"middle"> <a target=3D=
+"_blank" style=3D"font-family:'Roboto', Arial, sans-serif;text-align:center=
+;font-size:20px;font-weight:bold;line-height:30px;mso-line-height-rule:exac=
+tly;text-decoration: underline;color: #480bbe;-webkit-text-size-adjust:none=
+;" title=3D"You design it. We've got the parts you need to build it." href=
+=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV8RZCk3_pDjqBP2xgOPjfOiLaPPvj=
+Ijd1lgEC4dvpW_5TT1K-EBL_Hr3t00sZia-vgbAHEPsc-EmSyw3mEZf2WkX9fgSV1zap0YPs25M=
+W7DRQsGuHeA6G0bYF2KNkHyIGhxMIHRsV-WBJ6DMNbZEPDlZW8G252PrhOD3_IstR7Mbob43dE1=
+pdNRqrTHZQqRVnQ=3D=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B7_2KTi8=
+UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/red_dark_blurp=
+le_Buying.png?version=3D1" style=3D"font-family: 'Roboto', Arial, sans-seri=
+f; color: #000000; font-size: 20px; width: 64; direction: ltr;" width=3D"64=
+" alt=3D"You design it. We've got the parts you need to build it." /> </a> =
+</td>=20
+</tr>=20
+<tr>=20
+<td align=3D"center" valign=3D"top"> <p style=3D"font-size: 14px; line-heig=
+ht: 19.6px; font-weight: normal; color: #000000; font-family: 'Roboto', Ari=
+al, sans-serif; text-align: center; direction: ltr;"><span>You design it. W=
+e've got the parts you need to build it.</span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+<tr>=20
+</tr>=20
+</tbody>
+</table> </th>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+                <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"presentation"=
+>
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+            <![endif]-->=20
+<table align=3D"center" bgcolor=3D"#FFFFFF" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p16-h" align=3D"center" valign=3D"top" style=3D"padding: 8px 3=
+2px 0px;">=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top" style=3D"padding:8px 0px 0px;"> <p styl=
+e=3D"font-size: 24px; line-height: 28.8px; font-weight: normal; color: #000=
+000; font-family: 'Roboto', Arial, sans-serif; text-align: center; directio=
+n: ltr;"><span style=3D"color: #000000;"></span></p> <p style=3D"font-size:=
+ 16px; line-height: 22.4px; font-weight: normal; color: #000000; font-famil=
+y: 'Roboto', Arial, sans-serif; text-align: center; direction: ltr;"><span =
+style=3D"color: #000000;"></span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09</td></tr></table>
+=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>=20
+<table align=3D"center" class=3D"width100" bgcolor=3D"#ffffff" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=3D"presentation">=
+=20
+<tbody>
+<tr>=20
+<td style=3D"padding:0;" align=3D"center" valign=3D"top">
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09=09<table width=3D"600" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" bgcolor=3D"#ffffff" style=3D"width:600px;" role=3D"pres=
+entation">
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td align=3D"left" valign=3D"top">
+=09=09=09=09=09=09=09<![endif]-->=20
+<table align=3D"center" bgcolor=3D"#ffffff" class=3D"outer-shell" style=3D"=
+max-width:600px;" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td align=3D"center" valign=3D"top">=20
+<table align=3D"left" bgcolor=3D"#080623" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" width=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p32-h" style=3D"padding:0;" align=3D"center" valign=3D"top">=
+=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p0-l" style=3D"padding:32px;" align=3D"left" valign=3D"top"> <=
+a target=3D"_blank" title=3D"DigiKey" href=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV9nNtZQO1jxRzf1W6lxQOrldN1slX=
+4Pja2kPprrwGl5vKmuM2xtE40RkzVGXx6etVwI24KbAwASHDjWfRrhSJAkGOI-RYY6GVFds9v0S=
+MWh0cA6qjYEI_JU6GA65Wk5HDPY7DrsfnQiP-7LD__IglJ1wQzTNxMLz9hd9g9w0HI9GUh-k8_K=
+eQxe-4yZL_-AIdA=3D=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZXxYUOpzMV_B7_2KTi8=
+UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/DigiKey_r.png?=
+version=3D1" style=3D"font-family:'Roboto', Arial, sans-serif;color:#ffffff=
+;font-size:20px;display:block;width:143px;" width=3D"143" alt=3D"DigiKey" /=
+> </a> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-h" style=3D"padding:0px 16px 16px 32px;" align=3D"left" val=
+ign=3D"top">=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"250" style=3D"max-width:250px;background-color:#080623;" role=3D"prese=
+ntation">=20
+<tbody>
+<tr>=20
+<td style=3D"padding: 0 28px 0 0;" align=3D"left" valign=3D"top"> <a href=
+=3D
+"https://c.digikey.com/MTQ0LU5DQi0wMzAAAAGZTDrraMECR31h38LRO_Wzf1hXT8XDLaQT=
+fX2XaOScblF7Bp5ztRqWATIH_jKZcOtSmgSTTaE=3D" target=3D"_blank"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/f_logo_RGB-Whi=
+te_58.png" style=3D"font-family:'Roboto', Arial, sans-serif;color:#ffffff;f=
+ont-size:20px;display:block;width:28px;" width=3D"28" alt=3D"Facebook" /> <=
+/a> </td>=20
+<td style=3D"padding: 0 28px 0 0;" align=3D"left" valign=3D"top"> <a href=
+=3D
+"https://c.digikey.com/MTQ0LU5DQi0wMzAAAAGZTDrraJVaHtRuRJA9L9Yc0eEGCY583eAa=
+oz9RgPlGtt_w5Il5aiYzK1b1kOx5NC9oI5me94g=3D" target=3D"_blank"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/logo-white%201=
+.png" style=3D"font-family:'Roboto', Arial, sans-serif;color:#ffffff;font-s=
+ize:20px;display:block;width:24px;" width=3D"24" alt=3D"X" /> </a> </td>=20
+<td style=3D"padding: 0 28px 0 0;" align=3D"left" valign=3D"top"> <a href=
+=3D
+"https://c.digikey.com/MTQ0LU5DQi0wMzAAAAGZTDrrZ77B3BYFAgknOtEZ9R1x8Nxf4Xuj=
+FaDZaO79RbXYJx1a7mmvvJDqDgn7PKtlBbl8pP8=3D" target=3D"_blank"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/yt_icon_mono_d=
+ark%201.png" style=3D"font-family:'Roboto', Arial, sans-serif;color:#ffffff=
+;font-size:20px;display:block;width:34px;" width=3D"34" alt=3D"Youtube" /> =
+</a> </td>=20
+<td style=3D"padding: 0 28px 0 0;" align=3D"left" valign=3D"top"> <a href=
+=3D
+"https://c.digikey.com/MTQ0LU5DQi0wMzAAAAGZTDrrZ8XC9XIHtKDWdTgdgwNYLaZiGchE=
+SEGyiixHx-s0LhG8ZThS5MmTFLB1iv1LDr9qFWI=3D" target=3D"_blank"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/Instagram_Glyp=
+h_White%201.png" style=3D"font-family:'Roboto', Arial, sans-serif;color:#ff=
+ffff;font-size:20px;display:block;width:24px;" width=3D"24" alt=3D"Instagra=
+m" /> </a> </td>=20
+<td align=3D"left" valign=3D"top"> <a href=3D
+"https://c.digikey.com/MTQ0LU5DQi0wMzAAAAGZTDrraBbJo2-6_msqF4S2b8QxMt4eeDWN=
+2LVTiIKy3gOk0mxB-vVddUXfWpYGauLKJImwZw0=3D" target=3D"_blank"
+> <img src=3D"https://info.digikey.com/rs/144-NCB-030/images/In-White-48%40=
+2x%201.png" style=3D"font-family:'Roboto', Arial, sans-serif;color:#ffffff;=
+font-size:20px;display:block;width:24px;" width=3D"24" alt=3D"LinkedIn" /> =
+</a> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-h" style=3D"padding:0px 32px 16px;" align=3D"left" valign=
+=3D"top"> <p style=3D"font-size:14px;line-height:21px;color:#ffffff;font-fa=
+mily:'Roboto', Arial, sans-serif;">=C2=A9 2025 DigiKey<br aria-hidden=3D"tr=
+ue" />701 Brooks Avenue South<br aria-hidden=3D"true" />Thief River Falls, =
+MN 56701</p> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"p0-h" style=3D"direction: ltr; padding: 0px 32px 16px;" align=
+=3D"left" valign=3D"top"> <p style=3D"font-size: 14px; line-height: 21px; c=
+olor: #ffffff; font-family: 'Roboto', Arial, sans-serif; direction: ltr;">T=
+his email is an advertisement and has been sent to you as a result of your =
+purchase, email sign-up, or inquiry of products or services from DigiKey.</=
+p> </td>=20
+</tr>=20
+<tr>=20
+<td>=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p0-h" style=3D"direction: ltr; padding: 0px 32px 32px;" align=
+=3D"left" valign=3D"top"> <p style=3D"font-size: 14px; line-height: 21px; c=
+olor: #ffffff; font-family: 'Roboto', Arial, sans-serif; direction: ltr;"><=
+a target=3D"_blank" style=3D"text-decoration:underline;color:#ffffff;" href=
+=3D
+"https://c.digikey.com/dc/KnEa49LIxePFwHl32X6QV4Rkwu2Sm8WNyKWMi_Q9KE_mZ_RHW=
+EutpypIViqcWWnoBEmjrXjB4QNOCSZZRl-BgQ21M5ZyuG417Cwwo2f51-v5L5R-iz6zKFrrG8jR=
+pgpzB63l-BH9v0atRta1oo-E4lBlvcKfPEViX9EH4p9pATB-MI-I8pJs6z3LAJlGbXRj9wpaf8G=
+BRsgrkBebi5WjvjkGJ9fSwlFudq6DajCsdE8=3D/MTQ0LU5DQi0wMzAAAAGZTDrrZ0U-sco-vPZ=
+XxYUOpzMV_B7_2KTi8UkMF9KNBBiNbbkSsh5H4q_BNe8Ty_31JTe4V30=3D"
+><span>Privacy notice</span></a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;=
+&nbsp;<a class=3D"mktNoTrack" style=3D"text-decoration:underline;color:#fff=
+fff;" href=3D
+"https://www.digikey.com/classic/EmailUnsubscribe.aspx?lang=3Den&amp;e=3Din=
+fo@tomag.co.ke&amp;x=3D16398704&amp;subscriberid=3D13406139&amp;jobid=3D178=
+532&amp;mktid=3D16460499&amp;program=3DNPA2503A.ROW&amp;mkt_tok=3DMTQ0LU5DQ=
+i0wMzAAAAGZTDrraHJuxDB3qPlr5zBmqzdkZ5D2ivmiTVdeyvTLxNelw7Jd_98tkbpGa4Wc4cgC=
+7kE6lkPXGhjViK0zosSFbdxqRQD-1tTdAqcLj7qGLXmnB6H_GQ"
+><span>Unsubscribe</span></a></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+<tr>=20
+<td>=20
+<table align=3D"left" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" widt=
+h=3D"100%" role=3D"presentation">=20
+<tbody>
+<tr>=20
+<td class=3D"p0-h" style=3D"padding:0px 32px 32px;" align=3D"left" valign=
+=3D"top"> <p style=3D"font-size:14px;line-height:21px;color:#ffffff;font-fa=
+mily:'Roboto', Arial, sans-serif;"><span>NPA2503A</span><span> - </span><sp=
+an>ROW</span></p> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table> </td>=20
+</tr>=20
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09=09</td></tr></table>
+=09=09=09=09=09=09=09=09<![endif]--> </td>=20
+</tr>=20
+</tbody>
+</table>  =20
+<a href=3D
+"https://c.digikey.com/MTQ0LU5DQi0wMzAAAAGZTDrraJ6zFn5Sna9gRCQPc2kuPDhxyuv6=
+jlznhYEWebbIr_BNBjJHxhQOE_FRca_AJrMWNv8=3D"
+></a>
+<img src=3D"https://c.digikey.com/trk?t=3D1&mid=3DMTQ0LU5DQi0wMzAAAAGZTDrra=
+LKM-JPw8z1H_UxEDAFPG_y8WlwaCFMxQjmiDWnV4OHHPchZ9yVvl52fFDFYO0uYs-shXmUTbZaI=
+plIDAhsArc1nl6OGRAqdoP19G2VTuiRSDYsR1Fn2fvHN35Eih5XtrTbbpCikPLpl3A" width=
+=3D"1" height=3D"1" style=3D"display:none !important;" alt=3D"" />
+
+&nbsp;
+</body>
+</html>
+------=_Part_134681776_540716542.1742368553849--

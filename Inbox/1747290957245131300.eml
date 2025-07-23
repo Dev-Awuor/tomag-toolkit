@@ -1,0 +1,700 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of newsletter.edibon.com designates 82.199.156.96 as permitted sender) client-ip=82.199.156.96; envelope-from=b-w87nk1mktmdy2r-el9zjhal-y3xzq@newsletter.edibon.com; helo=mail-cr.s156.mailrelay-iv.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=edibon-africa@edibon-africa.com;
+	spf=pass (zohomail.com: domain of newsletter.edibon.com designates 82.199.156.96 as permitted sender)  smtp.mailfrom=b-w87nk1mktmdy2r-el9zjhal-y3xzq@newsletter.edibon.com;
+	dmarc=pass(p=none dis=none)  header.from=edibon-africa.com
+ARC-Seal: i=1; a=rsa-sha256; t=1747290955; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=Jgg+nhEuFp5lEC0ZvOnxAS5ZE72Mva/conLZWbyxrWJWY1aoTmlrBUQvcpKErQap19tF/Bzin3kzDOc5ZLDbvi5Gtfa2saVNlFq7LPJZGWrT5m8wx1sBXkIX6Xvqd/FqT+embECSNKZTlb7EHKxTfMJ0ND8o9xh1DmanBj5c1Vo=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1747290955; h=Content-Type:Content-Transfer-Encoding:Date:Date:From:From:List-Unsubscribe:MIME-Version:Message-ID:Subject:Subject:To:To:Message-Id:Reply-To:Cc; 
+	bh=7WP51uRT4q7V7Xu8XlEU1hS5lRvRfIhL76TDdOTeInk=; 
+	b=k/jDmZ5jNUJN/Ps2oOZSw7Jl9p0qcllqYH27NuMONPvNDln9OeuA//vnNsZRgc2tM2V7wKqQJsc0gPpTGDFQKgQO8EGsTpaykjChp5AvtQt/E3W8effCyCqxb8VwoyZuwAuTVwT3xLWfyKy+3VdHN/TCICyp2KTGH4IPiWN/xr8=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass  header.i=edibon-africa@edibon-africa.com;
+	spf=pass (zohomail.com: domain of newsletter.edibon.com designates 82.199.156.96 as permitted sender)  smtp.mailfrom=b-w87nk1mktmdy2r-el9zjhal-y3xzq@newsletter.edibon.com;
+	dmarc=pass header.from=<edibon-africa@edibon-africa.com> (p=none dis=none)
+Received: from mail-cr.s156.mailrelay-iv.com (mail-cr.s156.mailrelay-iv.com [82.199.156.96]) by mx.zohomail.com
+	with SMTPS id 1747290954994875.6054026719767; Wed, 14 May 2025 23:35:54 -0700 (PDT)
+Return-Path: <b-w87nk1mktmdy2r-el9zjhal-y3xzq@newsletter.edibon.com>
+Return-Path: <b-w87nk1mktmdy2r-el9zjhal-y3xzq@newsletter.edibon.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=ipz; d=edibon-africa.com;
+ h=From:To:Message-ID:Subject:MIME-Version:Content-Type:
+ Content-Transfer-Encoding:List-Unsubscribe:List-Unsubscribe-Post:Date;
+ i=edibon-africa@edibon-africa.com;
+ bh=7WP51uRT4q7V7Xu8XlEU1hS5lRvRfIhL76TDdOTeInk=;
+ b=CcN7CXLCTL/QYXvDJf00qC/Co611SVuVNe8ZiyoOjq66EP55O6Mae3rH+36bW5bNVtHrUDu+AMfo
+   cib9ON7T9sRNR5CaPYlsGQE9ozygZfEt4StVKOBU+gmSkVqwBrkOfcUdpEi+P3CoH3KjL+d8HrS+
+   zO9w0A+zrURxZIL775G3Dr8EWeInYzXeH3b9GtIHc7oeCm+R3uSIGsDymdjjrPXvI8um9aJkbSyo
+   7Ec8FRCk3j6cMjZoOxT9A+WimvEVDFy4NMyCAkGnneTOTRLq2gRsr1mvQkRZNpIqNprB63qKYC4+
+   pSB7brz5X5AQzbPqwQKdqlWC1zMMBD90EJMBGw==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=ipzs1; d=mrelayip.com;
+ h=From:To:Message-ID:Subject:MIME-Version:Content-Type:
+ Content-Transfer-Encoding:List-Unsubscribe:List-Unsubscribe-Post:Date;
+ bh=7WP51uRT4q7V7Xu8XlEU1hS5lRvRfIhL76TDdOTeInk=;
+ b=NDp8p7M7VqUgdjDjsIp73+FHC4sbcOl168D/bG9ucpR2U4RxHrRvsDsXXRO/2KPS49DjxEdEfalD
+   sqFuYyFs6GR1QI5SxIu6Qd2Ek0eDHuIQGiuu/ojQf2onpjQCSE7eukPy4rg8BTrva5r8HHW3+7ul
+   7iViILTUVSrxSVtPUaYdxDJKFAf/D96o/4OYK4WOZa3AzXav5CS+b3bt1gGN06ccrNbhJpKCHK6e
+   AOETiomnv23CysXykceJfEpOYPYwuhc/sYfrlvDDtjIcLezz5j8dNF04qWumu+tmyrgup8XbJcEH
+   GQ4IRgHXLxXB0tuDvumfXDXw+dahhseInoNHLA==
+From: EDIBON-AFRICA <edibon-africa@edibon-africa.com>
+To: info@tomag.co.ke
+Message-ID:<1_MPYJ6eTwzVK@newsletter.edibon.com>
+Subject: EDIBON Latest News May 2025.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_68258b492eb0d_13bf2e040924673";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-SEID: 1_MPYJ6eTwzVK
+List-Unsubscribe: <mailto:w87nk1mktmdy2r-el9zjhal-y3xzq@newsletter.edibon.com>,
+ <https://newsletter.edibon.com/unsubscribe/xe9r65r/list_unsubscribe?token=0q080yj2&unsubscribe_token=el9zjhal-y3xzq>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: 117093:117093-3404:campaign:IPZMR
+Date: Thu, 15 May 2025 06:35:54 +0000
+X-ZohoMail-DKIM: pass (identity edibon-africa@edibon-africa.com)
+X-ZohoMail-Owner: <1_MPYJ6eTwzVK@newsletter.edibon.com>+zmo_1_b-w87nk1mktmdy2r-el9zjhal-y3xzq@newsletter.edibon.com
+X-ZM-MESSAGEID: 1747290957245131300
+X-ZohoMail-Status: 1
+
+
+
+----==_mimepart_68258b492eb0d_13bf2e040924673
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Having trouble reading this email? View it in your browser =
+
+( https://newsletter.edibon.com/web_version/xe9r65r/0q080yj2 ). Not
+interested anymore? Unsubscribe Instantly =
+
+( https://newsletter.edibon.com/unsubscribe/xe9r65r/click?token=3D0q080yj=
+2 )
+
+
+Turning THEORY into PRACTICE
+
+Latest News at EDIBON
+
+Setting up at the
+
+DEPT OF CHEMICAL ENGINEERING of the University of Florida
+[USA] =
+
+( https://newsletter.edibon.com/c/xe9r65r/0q080yj2/kvqrkzwexem )
+
+NEW ENERGY CATALOG! =
+
+( https://newsletter.edibon.com/c/xe9r65r/0q080yj2/i4wmos14aka )
+
+Setting up at the
+
+OU SCHOOL OF AEROSPACE AND MECHANICAL ENGINEERING
+
+[USA] =
+
+( https://newsletter.edibon.com/c/xe9r65r/0q080yj2/71wkpq1z-cm )
+
+New Webinar Available:
+
+EXPLORE OUR AEL-ACEM UNIT =
+
+( https://newsletter.edibon.com/c/xe9r65r/0q080yj2/qyqrxjbdknk )
+
+Setting up at
+
+KIMYO INTERNATIONAL UNIVERSITY
+
+[UZBEKISTAN] =
+
+( https://newsletter.edibon.com/c/xe9r65r/0q080yj2/wxp-8tkq0fg )
+
+The FUTURE OF PROCESS CONTROL:
+
+Innovation, training, and the industry 4.0 revolution =
+
+( https://newsletter.edibon.com/c/xe9r65r/0q080yj2/t8fediwphhy )
+
+AFTER-SALES SERVICE
+
+A Service that makes a difference =
+
+( https://newsletter.edibon.com/c/xe9r65r/0q080yj2/ddyg2nls3jw )
+
+What do they say about us?
+
+"EDIBON has been our trusted partner in technical training
+equipment for over 15 years, and their support has been truly
+commendable. Their clear teaching student guides make practical
+exercises easy to understand, and the EDIBON SCADA technology
+provides a real-time industrial system experience, making
+learning more interactive and effective. What sets EDIBON apart
+is their commitment to quality and innovation. Their team ensures
+that every training system meets industry standards, delivering
+cutting-edge solutions tailored to educational needs." =
+
+( https://newsletter.edibon.com/c/xe9r65r/0q080yj2/bpra0gohlzi )
+
+Review verified and validated by Google. =
+
+( https://newsletter.edibon.com/c/xe9r65r/0q080yj2/d1p83ufwb08 )
+
+"Through my experience with EDIBON equipment, I have found
+their solutions to be highly accurate, informative, and
+efficient. Their systems not only support hands-on learning but
+also facilitate clear understanding of complex concepts, making
+them an invaluable tool in both teaching and research. I
+appreciate EDIBON=E2=80=99s commitment to quality and innovation, and I
+wish the company continued success in all its areas of
+development." =
+
+( https://newsletter.edibon.com/c/xe9r65r/0q080yj2/biqzkawnpc4 )
+
+[BAHRAIN]
+
+Review verified and validated by Google. =
+
+( https://newsletter.edibon.com/c/xe9r65r/0q080yj2/xvgei7oxb0o )
+
+QUALITY CERTIFICATES:
+
+WARRANTIES:
+
+Follow us on:
+
+Not interested anymore? Unsubscribe Instantly =
+
+( https://newsletter.edibon.com/unsubscribe/xe9r65r/form?token=3D0q080yj2=
+ )
+
+
+EDIBON will process your data to send you commercial
+communications of interest to you. EDIBON has no plans to
+transfer your data. The legitimate basis for processing is your
+consent, the contractual compliance and the legitimate interest.
+You may exercise the right of access, rectification, erasure,
+objection, restriction to processing and portability by email to
+the address legal@edibon.com (
+legal@edibon.com?utm_source=3Dnewsletter&utm_medium=3Demail&utm_campaign=3D=
+LNEWS0525&utm_id=3D3224
+) or by mail to C / Julio Cervera 10; Parque Tecnol=C3=B3gico de
+M=C3=B3stoles; 28935 M=C3=B3stoles. Madrid. Espa=C3=B1a. Read our privacy=
+ policy
+( https://newsletter.edibon.com/c/xe9r65r/0q080yj2/6oe52ojqfcg )
+for more information. Click here Unsubscribe Instantly =
+
+( https://newsletter.edibon.com/unsubscribe/xe9r65r/form?token=3D0q080yj2=
+ )
+ to unsubscribe from our mailing list.
+
+If you want to print this email please think if you need to do
+it.=
+
+----==_mimepart_68258b492eb0d_13bf2e040924673
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www=
+.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+
+	<title>EDIBON Latest News May 2025.</title>
+	=
+
+<style>body {
+background-color: #d8d9dd;
+}
+.hover-effect:hover {
+background-color: #C11133; background: linear-gradient(180deg, #C11133 5%=
+, #C11133 95%); transition: all .3s; transform: scale(1.05); color: #FFFF=
+FF;
+}
+</style>
+</head>
+<body style=3D"" bgcolor=3D"#d8d9dd">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"width: 620px; border-collapse: collapse;" bgcolor=3D"#d3ebf7">
+	<tbody>
+<!--Cabezera-->
+		<tr>
+			<td colspan=3D"5" style=3D"font-size: 11px; color: #696969; font-famil=
+y: arial; padding-top: 10px; padding-bottom: 10px;" align=3D"center" bgco=
+lor=3D"#eeeeee" valign=3D"middle">Having trouble reading this email? <b><=
+a href=3D"https://newsletter.edibon.com/web_version/xe9r65r/0q080yj2" sty=
+le=3D"color: rgb(136, 136, 136); text-decoration: underline;">View it in =
+your browser</a></b>. Not interested anymore? <b><a href=3D"https://newsl=
+etter.edibon.com/unsubscribe/xe9r65r/click?token=3D0q080yj2" style=3D"col=
+or: rgb(136, 136, 136); text-decoration: underline;">Unsubscribe Instantl=
+y</a></b>
+</td>
+		</tr>
+		<!--Logo Cabezera-->
+		<tr>
+			<td colspan=3D"5" style=3D"padding-bottom: 10px;"><a href=3D"https://n=
+ewsletter.edibon.com/c/xe9r65r/0q080yj2/_t0riktc94a" style=3D"text-decora=
+tion: none; color: #FFFFFF;"><img alt=3D"" src=3D"https://www.edibon.com/=
+img/cms/Newsletter/GIF_EDIBON_.gif" style=3D"width: 635px; height: 200px;=
+ margin: 0px; border-style: solid; border-width: 0px;" width=3D"635" heig=
+ht=3D"200" align=3D"left"></a></td>
+		</tr>
+		<!--Texto justo debajo del logo-->
+		<tr>
+			<td colspan=3D"5" style=3D"font-size: 30px; line-height: 1.45; color: =
+#007cb0; padding-bottom: 10px; font-family: arial;" align=3D"center"><b>T=
+urning <span style=3D"color: #C11133;"><i>THEORY</i></span> into <span st=
+yle=3D"color: #C11133;"><i>PRACTICE</i></span></b></td>
+		</tr>
+		<!--Latest News at EDIBON-->
+		<tr>
+			<td colspan=3D"5" style=3D"font-size: 20px; tex line-height: 1.45; col=
+or: #FFFFFF; padding-bottom: 5px; padding-top: 5px; font-family: arial;" =
+align=3D"center" bgcolor=3D"#C11133" valign=3D"Center"><b><i>Latest News =
+at EDIBON</i></b></td>
+		</tr>
+		<tr>
+			<td colspan=3D"5">=C2=A0</td>
+		</tr>
+		<!--1=C2=BA fila de noticias-->
+		<tr rowspan=3D"2">
+			<td style=3D"padding-left: 10px;">=C2=A0</td>
+			<!--IMAGEN 1-->
+			<th align=3D"center;" rowspan=3D"2" style=3D"width: 215px; height: 170=
+px;" valign=3D"bottom">
+			<center><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/eg=
+1xt4unu70" style=3D"text-decoration: none; color: #FFFFFF;"><img alt=3D""=
+ src=3D"https://newsletter.edibon.com/data/90d7a3a4ac699d3145e3dbd3412ce7=
+698546610d/media_files/1630/original/1.Energy_catalog.jpg" style=3D"width=
+: 290px; height: 232px; text-align: center; display: block; padding: 0px;=
+" width=3D"290" height=3D"232"></a></center>
+			</th>
+			<td style=3D"padding-left: 10px; padding-right: 10px;">=C2=A0</td>
+			<!--TEXTO 2-->
+			<td align=3D"center;" class=3D"hover-effect" style=3D"line-height: 120=
+%; font-family: arial; width: 300px; height: 50px; font-size: 20px; color=
+: #FFFFFF; transition: all .3s; background-image: linear-gradient(180deg,=
+ #0b2b4e 5%, #63aacf 95%); padding: 8px;" bgcolor=3D"#0b2b4e">
+			<center><span style=3D"font-size: 13px;"><a href=3D"https://newsletter=
+.edibon.com/c/xe9r65r/0q080yj2/kvqrkzwexem" style=3D"text-decoration: non=
+e; color: #FFFFFF;"><font color=3D"#ffffff">Setting up at the=C2=A0<br>
+			<strong>DEPT OF CHEMICAL ENGINEERING</strong></font><b>=C2=A0</b>of th=
+e University of Florida [USA]</a></span></center>
+			</td>
+			<td style=3D"padding-right: 10px;">=C2=A0</td>
+		</tr>
+		<tr>
+			<td>=C2=A0</td>
+			<td>=C2=A0</td>
+			<!--IMAGEN 2-->
+			<th align=3D"center" rowspan=3D"2" style=3D"overflow: hidden;" valign=3D=
+"top"><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/qtngwdh=
+8jbs" style=3D"text-decoration: none; color: #FFFFFF;"><img alt=3D"" src=3D=
+"https://newsletter.edibon.com/data/90d7a3a4ac699d3145e3dbd3412ce76985466=
+10d/media_files/1631/original/2.Univ_Flor.jpg" style=3D"width: 260px; tex=
+t-align: center; vertical-align: top; display: block; height: 208px; padd=
+ing: 0px;" width=3D"260" height=3D"208"></a></th>
+		</tr>
+		<tr>
+			<td>=C2=A0</td>
+			<!--TEXTO 1-->
+			<td align=3D"center;" class=3D"hover-effect" style=3D"line-height: 120=
+%; font-family: arial; text-decoration: none; font-size: 20px; color: #FF=
+FFFF; transition: all .3s; background-image: linear-gradient(180deg, #0b2=
+b4e 5%, #63aacf 95%); padding: 8px;" bgcolor=3D"#0b2b4e">
+			<center><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/i4=
+wmos14aka" style=3D"text-decoration: none; color: #FFFFFF;"><span style=3D=
+"font-size: 14px; text-decoration: none;"><font color=3D"#ffffff"><span s=
+tyle=3D"font-size: 14px; text-decoration: none;"><span style=3D"font-size=
+: 15px; text-decoration: none;"><b>NEW ENERGY CATALOG!</b></span>=C2=A0</=
+span></font></span></a></center>
+			</td>
+			<td>=C2=A0</td>
+			<td>=C2=A0</td>
+		</tr>
+		<tr>
+			<td colspan=3D"5">=C2=A0</td>
+		</tr>
+		<!--2=C2=BA fila de noticias-->
+		<tr rowspan=3D"2">
+			<td style=3D"padding-left: 10px;">=C2=A0</td>
+			<!--IMAGEN 3-->
+			<th align=3D"center;" rowspan=3D"2" style=3D"width: 215px; height: 170=
+px;" valign=3D"bottom">
+			<center><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/xc=
+5jfvm4wjm" style=3D"text-decoration: none; color: #FFFFFF;"><img alt=3D""=
+ src=3D"https://newsletter.edibon.com/data/90d7a3a4ac699d3145e3dbd3412ce7=
+698546610d/media_files/1632/original/3.AEL-ACEM.png" style=3D"width: 290p=
+x; height: 226px; text-align: center; display: block; padding: 0px;" widt=
+h=3D"290" height=3D"226"></a></center>
+			</th>
+			<td style=3D"padding-left: 10px; padding-right: 10px;">=C2=A0</td>
+			<!--TEXTO 4-->
+			<td align=3D"center;" class=3D"hover-effect" style=3D"line-height: 120=
+%; font-family: arial; width: 300px; height: 50px; font-size: 20px; color=
+: #FFFFFF; transition: all .3s; background-image: linear-gradient(180deg,=
+ #0b2b4e 5%, #63aacf 95%); padding: 8px;" bgcolor=3D"#0b2b4e">
+			<center><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/71=
+wkpq1z-cm" style=3D"text-decoration: none; color: #FFFFFF;"><span style=3D=
+"font-size: 13px;"><font color=3D"#ffffff">Setting up at the<br>
+			<strong>OU SCHOOL OF AEROSPACE AND MECHANICAL ENGINEERING</strong><br>=
+
+			[USA]</font></span></a></center>
+			</td>
+			<td style=3D"padding-right: 10px;">=C2=A0</td>
+		</tr>
+		<tr>
+			<td>=C2=A0</td>
+			<td>=C2=A0</td>
+			<!--IMAGEN 4-->
+			<th align=3D"center" rowspan=3D"2" style=3D"overflow: hidden;" valign=3D=
+"top"><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/hkzwc9-=
+ddiu" style=3D"text-decoration: none; color: #FFFFFF;"><img alt=3D"" src=3D=
+"https://newsletter.edibon.com/data/90d7a3a4ac699d3145e3dbd3412ce76985466=
+10d/media_files/1633/original/4.OU_Aerospace.jpg" style=3D"width: 260px; =
+text-align: center; vertical-align: top; display: block; height: 208px; p=
+adding: 0px;" width=3D"260" height=3D"208"></a></th>
+		</tr>
+		<tr>
+			<td>=C2=A0</td>
+			<!--TEXTO 3-->
+			<td align=3D"center;" class=3D"hover-effect" style=3D"line-height: 120=
+%; font-family: arial; text-decoration: none; font-size: 20px; color: #FF=
+FFFF; transition: all .3s; background-image: linear-gradient(180deg, #0b2=
+b4e 5%, #63aacf 95%); padding: 8px 8px 10px;" bgcolor=3D"#0b2b4e">
+			<center><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/qy=
+qrxjbdknk" style=3D"text-decoration: none; color: #FFFFFF;"><span style=3D=
+"font-size: 14px;"><span style=3D"text-decoration: none;"><font color=3D"=
+#ffffff"><span style=3D"font-size: 14px;"><span style=3D"text-decoration:=
+ none;"><span style=3D"font-size: 15px;"><span style=3D"text-decoration: =
+none;">New Webinar Available:</span></span></span></span></font></span></=
+span><span style=3D"font-size: 14px; text-decoration: none;"><font color=3D=
+"#ffffff"><span style=3D"font-size: 14px; text-decoration: none;">=C2=A0<=
+br>
+			<span style=3D"font-size: 15px; text-decoration: none;"><b>EXPLORE OUR=
+ AEL-ACEM UNIT</b></span></span></font></span></a></center>
+			</td>
+			<td>=C2=A0</td>
+			<td>=C2=A0</td>
+		</tr>
+		<tr>
+			<td colspan=3D"5">=C2=A0</td>
+		</tr>
+		<!--4=C2=BA fila de noticias-->
+		<tr rowspan=3D"2">
+			<td style=3D"padding-left: 10px;">=C2=A0</td>
+			<!--IMAGEN 6-->
+			<th align=3D"center;" rowspan=3D"2" style=3D"width: 215px; height: 170=
+px;" valign=3D"bottom">
+			<center><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/kp=
+lyc6jgjos" style=3D"text-decoration: none; color: #FFFFFF;"><img alt=3D""=
+ src=3D"https://newsletter.edibon.com/data/90d7a3a4ac699d3145e3dbd3412ce7=
+698546610d/media_files/1635/original/6.Process_Control.jpg" style=3D"widt=
+h: 290px; height: 232px; text-align: center; display: block; padding: 0px=
+;" width=3D"290" height=3D"232"></a></center>
+			</th>
+			<td style=3D"padding-left: 10px; padding-right: 10px;">=C2=A0</td>
+			<!--TEXTO 7-->
+			<td align=3D"center;" class=3D"hover-effect" style=3D"line-height: 120=
+%; font-family: arial; width: 300px; height: 50px; font-size: 20px; color=
+: #FFFFFF; transition: all .3s; background-image: linear-gradient(180deg,=
+ #0b2b4e 5%, #63aacf 95%); padding: 8px;" bgcolor=3D"#0b2b4e">
+			<center><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/wx=
+p-8tkq0fg" style=3D"text-decoration: none; color: #FFFFFF;"><span style=3D=
+"font-size: 13px;"><font color=3D"#ffffff">Setting up at<br>
+			<strong>KIMYO INTERNATIONAL UNIVERSITY</strong>=C2=A0<br>
+			[UZBEKISTAN]</font></span></a></center>
+			</td>
+			<td style=3D"padding-right: 10px;">=C2=A0</td>
+		</tr>
+		<tr>
+			<td>=C2=A0</td>
+			<td>=C2=A0</td>
+			<!--IMAGEN 7-->
+			<th align=3D"center" rowspan=3D"2" style=3D"overflow: hidden;" valign=3D=
+"top"><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/j6meydh=
+9jja" style=3D"text-decoration: none; color: #FFFFFF;"><img alt=3D"" src=3D=
+"https://newsletter.edibon.com/data/90d7a3a4ac699d3145e3dbd3412ce76985466=
+10d/media_files/1636/original/7.Kimyo_Uzbekistan.jpg" style=3D"width: 260=
+px; text-align: center; vertical-align: top; display: block; height: 208p=
+x; padding: 0px;" width=3D"260" height=3D"208"></a></th>
+		</tr>
+		<tr>
+			<td>=C2=A0</td>
+			<!--TEXTO 6-->
+			<td align=3D"center;" class=3D"hover-effect" style=3D"line-height: 120=
+%; font-family: arial; text-decoration: none; font-size: 20px; color: #FF=
+FFFF; transition: all .3s; background-image: linear-gradient(180deg, #0b2=
+b4e 5%, #63aacf 95%); padding: 8px;" bgcolor=3D"#0b2b4e">
+			<center>
+<a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/t8fediwphhy" =
+style=3D"text-decoration: none; color: #FFFFFF;"><span style=3D"font-size=
+: 14px; text-decoration: none;"><font color=3D"#ffffff"><span style=3D"fo=
+nt-size: 14px; text-decoration: none;">The=C2=A0<span style=3D"font-size:=
+ 15px; text-decoration: none;"><b>FUTURE OF PROCESS CONTROL:</b><br>
+			Innovation, training, and the industry 4.0 revolution</span></span></f=
+ont></span></a>=C2=A0</center>
+			</td>
+			<td>=C2=A0</td>
+			<td>=C2=A0</td>
+		</tr>
+		<tr>
+			<td colspan=3D"5">=C2=A0</td>
+		</tr>
+		<!--5=C2=BA fila de noticias - FILA INTERMEDIA--><!--EQUIPO 8/IMAGEN-->=
+
+		<tr>
+			<td colspan=3D"5" rowspan=3D"1" style=3D"padding-top: 10PX;" align=3D"=
+center" valign=3D"bottom">
+			<div style=3D"" align=3D"center">
+			<center><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/40=
+yni3izg8g" style=3D"text-decoration: none; color: #FFFFFF;"><img alt=3D""=
+ src=3D"https://newsletter.edibon.com/data/90d7a3a4ac699d3145e3dbd3412ce7=
+698546610d/media_files/1637/original/8.Aftersale_service.jpg" style=3D"wi=
+dth: 600px; height: 400px; display: block; margin: 0px;" width=3D"600" he=
+ight=3D"400"></a></center>
+			</div>
+			</td>
+		</tr>
+		<tr>
+<!--EQUIPO 8/TITULO-->
+			<td align=3D"center;" class=3D"hover-effect" colspan=3D"5" style=3D"fo=
+nt-family: arial; width: 300px; height: 50px; font-size: 15px; line-heigh=
+t: 150%; color: #FFFFFF; transition: all .3s; background-image: linear-gr=
+adient(180deg, #0b2b4e 5%, #63aacf 95%); margin: 0; padding: 10px 8px;" b=
+gcolor=3D"#0b2b4e">
+			<center><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/dd=
+yg2nls3jw" style=3D"text-decoration: none; color: #FFFFFF;"><font color=3D=
+"#ffffff"><b>AFTER-SALES SERVICE</b></font><br>
+			<font color=3D"#ffffff"><span style=3D"font-size: 15px;">A Service tha=
+t makes a difference</span></font></a></center>
+			</td>
+		</tr>
+		<tr>
+			<td colspan=3D"5" style=3D"" bgcolor=3D"#d3ebf7">=C2=A0</td>
+		</tr>
+		<tr>
+<!--WHAT DO THEY SAY ABOUT US?-->
+			<td colspan=3D"5" style=3D"font-size: 20px; tex line-height: 1.45; col=
+or: #FFFFFF; padding-bottom: 9px; padding-top: 9px; font-family: arial;" =
+align=3D"center" bgcolor=3D"#C11133" valign=3D"Center"><strong><i>What do=
+ they say about us?</i></strong></td>
+		</tr>
+		<tr>
+			<td colspan=3D"5">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"width: 630px; border-collapse: collapse;" bgcolor=3D"#d3ebf7"=
+>
+				<tbody>
+					<tr style=3D"" bgcolor=3D"#d3ebf7">
+						<td>=C2=A0</td>
+						<!--Comentario 1-->
+						<td style=3D"line-height: 110%; font-family: arial; padding: 10px;"=
+ align=3D"le" bgcolor=3D"#d3ebf7">
+						<div style=3D"min-width: 100%; border: 2px dashed rgba(0,124,176,0.=
+4);">
+						<p style=3D"font-family: Montserrat; color: #999999; font-size: 11p=
+x; background-color: #d3ebf7; padding: 8px;" align=3D"justify"><a href=3D=
+"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/bpra0gohlzi" style=3D"t=
+ext-decoration: none; color: #FFFFFF;"><span style=3D"color: #999999; fon=
+t-size: 11px; padding-right: 8px;"><i>"EDIBON has been our trusted partne=
+r in technical training equipment for over 15 years, and their support ha=
+s been truly commendable. Their clear teaching student guides make practi=
+cal exercises easy to understand, and the EDIBON SCADA technology provide=
+s a real-time industrial system experience, making learning more interact=
+ive and effective. What sets EDIBON apart is their commitment to quality =
+and innovation. Their team ensures that every training system meets indus=
+try standards, delivering cutting-edge solutions tailored to educational =
+needs."</i></span></a></p>
+
+						<p style=3D"font-family: Montserrat; padding-left: 8px; background-=
+color: #d3ebf7;"><span style=3D"font-size: 14px;"><font color=3D"#1d1c1a"=
+><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/d1p83ufwb08"=
+ style=3D"text-decoration: none; color: #FFFFFF;"><span style=3D"color: #=
+999999; font-size: 10px; padding-right: 8px;">Review verified and validat=
+ed by Google.</span></a></font></span></p>
+						</div>
+						</td>
+						<td>=C2=A0</td>
+						<!--Comentario 2-->
+						<td style=3D"line-height: 110%; font-family: arial; padding: 10px;"=
+ align=3D"left" bgcolor=3D"#d3ebf7">
+						<div style=3D"min-width: 100%; border: 2px dashed rgba(0,124,176,0.=
+4);">
+						<p style=3D"font-family: Montserrat; color: #999999; font-size: 11p=
+x; background-color: #d3ebf7; padding: 8px;" align=3D"justify"><a href=3D=
+"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/biqzkawnpc4" style=3D"t=
+ext-decoration: none; color: #FFFFFF;"><span style=3D"color: #999999; fon=
+t-size: 11px; padding-right: 8px;"><i>"Through my experience with EDIBON =
+equipment, I have found their solutions to be highly accurate, informativ=
+e, and efficient. Their systems not only support hands-on learning but al=
+so facilitate clear understanding of complex concepts, making them an inv=
+aluable tool in both teaching and research. I appreciate EDIBON=E2=80=99s=
+ commitment to quality and innovation, and I wish the company continued s=
+uccess in all its areas of development."</i></span></a></p>
+
+						<p style=3D"font-family: Montserrat; padding-left: 8px; background-=
+color: #d3ebf7; color: #999999;"><span style=3D"font-size: 13px color=3D =
+#1d1c1a;"><font color=3D"#1d1c1a">[BAHRAIN]</font><br>
+						<a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/xvgei7o=
+xb0o" style=3D"text-decoration: none; color: #FFFFFF;"><font color=3D"#99=
+9999"><span style=3D"color: #999999; font-size: 10px; padding-right: 8px;=
+">Review verified and validated by Google.</span></font></a></span></p>
+						</div>
+						</td>
+						<td>=C2=A0</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+<!--Banner del final-->
+			<td colspan=3D"5" style=3D"padding-top: 15px; padding-bottom: 8px;"><a=
+ href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/bb27k2lnunu" st=
+yle=3D"text-decoration: none; color: #FFFFFF;"><img alt=3D"" src=3D"https=
+://newsletter.edibon.com/data/90d7a3a4ac699d3145e3dbd3412ce7698546610d/me=
+dia_files/1394/original/InsideEDIBON_EN_ed2024_V2.jpg" style=3D"width: 63=
+5px; height: 120px;" width=3D"635" height=3D"120"></a></td>
+		</tr>
+		<tr>
+<!--Textos garantias y Certificados-->
+			<td>=C2=A0</td>
+			<td style=3D"padding-left: 10px; padding-bottom: 10px; padding-top: 5p=
+x; font-family: arial; font-size: 13px; color: #C11133;"><strong>QUALITY =
+CERTIFICATES:</strong></td>
+			<td>=C2=A0</td>
+			<td style=3D"padding-left: 10px; padding-bottom: 10px; padding-top: 5p=
+x; font-family: arial; font-size: 13px; color: #C11133;"><strong>WARRANTI=
+ES:</strong></td>
+			<td>=C2=A0</td>
+		</tr>
+		<tr>
+<!--Imagenes garantias y Certificados-->
+			<td>=C2=A0</td>
+			<td style=3D"padding-bottom: 10px;"><a href=3D"https://newsletter.edib=
+on.com/c/xe9r65r/0q080yj2/rwphrlrk6nc" style=3D"text-decoration: none; co=
+lor: #FFFFFF;"><img alt=3D"" src=3D"https://newsletter.edibon.com/data/90=
+d7a3a4ac699d3145e3dbd3412ce7698546610d/media_files/1355/original/certific=
+adosCalidad_%281%29.png" style=3D"width: 325px; height: 112px;" width=3D"=
+325" height=3D"112"></a></td>
+			<td>=C2=A0</td>
+			<td style=3D"align: top; padding-bottom: 10px;"><a href=3D"https://new=
+sletter.edibon.com/c/xe9r65r/0q080yj2/ozdhdovigfo" style=3D"text-decorati=
+on: none; color: #FFFFFF;"><img alt=3D"" src=3D"https://newsletter.edibon=
+.com/data/90d7a3a4ac699d3145e3dbd3412ce7698546610d/media_files/1359/origi=
+nal/certificadosGarantia.png" style=3D"width: 235px; height: 75px;" width=
+=3D"235" height=3D"75"></a></td>
+			<td>=C2=A0</td>
+		</tr>
+		<!--Pie de p=C3=A1gina-->
+		<tr>
+			<td colspan=3D"5" style=3D"" align=3D"center" valign=3D"middle">
+			<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"width: 630px; border-collapse: collapse;">
+				<tbody>
+					<tr>
+						<td>=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0</td>=
+
+						<td><span style=3D"color: #d0112e;"><span style=3D"font-size: 13px;=
+"><span style=3D"font-family: arial;">Follow us on:</span></span></span><=
+/td>
+						<td>=C2=A0</td>
+						<td><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/72y=
+omtmkf2w" style=3D"text-decoration: none; color: #FFFFFF;"><img alt=3D"" =
+src=3D"https://newsletter.edibon.com/data/90d7a3a4ac699d3145e3dbd3412ce76=
+98546610d/media_files/1163/original/Face_icon.png" style=3D"width: 25px; =
+height: 25px;" width=3D"25" height=3D"25"></a></td>
+						<td>=C2=A0</td>
+						<td><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/c2u=
+izyje49s" style=3D"text-decoration: none; color: #FFFFFF;"><img alt=3D"" =
+src=3D"https://newsletter.edibon.com/data/90d7a3a4ac699d3145e3dbd3412ce76=
+98546610d/media_files/1169/original/twitter_icom.png" style=3D"width: 23p=
+x; height: 23px;" width=3D"23" height=3D"23"></a></td>
+						<td>=C2=A0</td>
+						<td rowspan=3D"1"><a href=3D"https://newsletter.edibon.com/c/xe9r65=
+r/0q080yj2/pm_zrtc5h08" style=3D"text-decoration: none; color: #FFFFFF;">=
+<img alt=3D"" src=3D"https://newsletter.edibon.com/data/90d7a3a4ac699d314=
+5e3dbd3412ce7698546610d/media_files/1161/original/yt_icon.png" style=3D"w=
+idth: 25px; height: 25px;" width=3D"25" height=3D"25"></a></td>
+						<td>=C2=A0</td>
+						<td><a href=3D"https://newsletter.edibon.com/c/xe9r65r/0q080yj2/vxg=
+zlcytnho" style=3D"text-decoration: none; color: #FFFFFF;"><img alt=3D"" =
+src=3D"https://newsletter.edibon.com/data/90d7a3a4ac699d3145e3dbd3412ce76=
+98546610d/media_files/1160/original/linkedin_icon.png" style=3D"width: 25=
+px; height: 25px;" width=3D"25" height=3D"25"></a></td>
+						<td>=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td colspan=3D"5" style=3D"" align=3D"center" valign=3D"middle"><img a=
+lt=3D"" src=3D"https://newsletter.edibon.com/data/90d7a3a4ac699d3145e3dbd=
+3412ce7698546610d/media_files/1205/original/foto15.png" style=3D"width: 6=
+35px; height: 18px;" width=3D"635" height=3D"18"></td>
+		</tr>
+		<tr style=3D"" bgcolor=3D"#d3ebf7">
+			<td>=C2=A0</td>
+			<td colspan=3D"3" style=3D"" bgcolor=3D"#d3ebf7">
+			<p style=3D"font-size: 11px; color: rgb(100, 100, 100); background-col=
+or: #d3ebf7; margin: 0px; padding: 20px 0px;" align=3D"center"><span styl=
+e=3D"font-family: arial;"><span style=3D"font-size: 11px;"><span style=3D=
+"color: rgb(136, 136, 136); font-style: normal; font-variant-caps: normal=
+; text-align: center;">Not interested anymore?=C2=A0</span><a href=3D"htt=
+ps://newsletter.edibon.com/unsubscribe/xe9r65r/form?token=3D0q080yj2" sty=
+le=3D"text-decoration: none; color: #FFFFFF;"><span style=3D"color: #A9A9=
+A9;"><strong><u>Unsubscribe Instantly</u></strong></span></a></span></spa=
+n></p>
+
+			<div style=3D"background-color: #d3ebf7;" align=3D"justify">
+<span style=3D"font-size: 8px;"><span style=3D"font-family: arial, helvet=
+ica, sans-serif; color: rgb(68, 68, 68); text-align: center;">EDIBON will=
+ process your data to send you commercial communications of interest to y=
+ou. EDIBON has no plans to transfer your data. The legitimate basis for p=
+rocessing is your consent, the contractual compliance and the legitimate =
+interest. You may exercise the right of access, rectification, erasure, o=
+bjection, restriction to processing and portability by email to the addre=
+ss </span><strong style=3D"font-family: arial, helvetica, sans-serif; fon=
+t-size: 8px;"><a href=3D"mailto:legal@edibon.com?utm_source=3Dnewsletter&=
+amp;utm_medium=3Demail&amp;utm_campaign=3DLNEWS0525&amp;utm_id=3D3224" st=
+yle=3D"text-decoration: none; color: #FFFFFF;"><span style=3D"color: #444=
+444;">legal@edibon.com</span></a></strong><span style=3D"font-family: ari=
+al, helvetica, sans-serif; color: rgb(68, 68, 68);"> or by mail to C / Ju=
+lio Cervera 10; Parque Tecnol=C3=B3gico de M=C3=B3stoles; 28935 M=C3=B3st=
+oles. Madrid. Espa=C3=B1a. Read our </span><a href=3D"https://newsletter.=
+edibon.com/c/xe9r65r/0q080yj2/6oe52ojqfcg" style=3D"font-family: arial, h=
+elvetica, sans-serif; font-size: 8px; text-decoration: none; color: #FFFF=
+FF;"><span style=3D"color: #444444;">privacy policy</span></a><span style=
+=3D"font-family: arial, helvetica, sans-serif; color: rgb(68, 68, 68);"> =
+for more information. Click here=C2=A0</span><a href=3D"https://newslette=
+r.edibon.com/unsubscribe/xe9r65r/form?token=3D0q080yj2" style=3D"font-fam=
+ily: arial, helvetica, sans-serif; font-size: 8px; text-decoration: none;=
+ color: #FFFFFF;"><span style=3D"color: #444444;"><strong><u>Unsubscribe =
+Instantly</u></strong></span></a><span style=3D"font-family: arial, helve=
+tica, sans-serif; color: rgb(68, 68, 68);"> to unsubscribe from our maili=
+ng list.</span></span><br>
+			<br>
+			<span style=3D"font-size: 8px;"><span style=3D"font-family: arial;"><e=
+m><span style=3D"color: #006400;"><span style=3D"font-size: 10px; text-al=
+ign: center;">If you want to print this email please think if you need to=
+ do it.</span></span></em></span></span><br>
+			=C2=A0</div>
+			</td>
+			<td>=C2=A0</td>
+		</tr>
+	</tbody>
+</table>
+<img src=3D"https://newsletter.edibon.com/i/xe9r65r/0q080yj2.gif" width=3D=
+"1" height=3D"1" alt=3D"">
+</body>
+</html>
+
+----==_mimepart_68258b492eb0d_13bf2e040924673--

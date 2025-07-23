@@ -1,0 +1,96 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of bamburigroup.com designates 209.85.218.44 as permitted sender) client-ip=209.85.218.44; envelope-from=joseph.oguk.ext@bamburigroup.com; helo=mail-ej1-f44.google.com;
+Authentication-Results: mx.zohomail.com;
+	spf=pass (zohomail.com: domain of bamburigroup.com designates 209.85.218.44 as permitted sender)  smtp.mailfrom=joseph.oguk.ext@bamburigroup.com
+Return-Path: <joseph.oguk.ext@bamburigroup.com>
+Received: from mail-ej1-f44.google.com (mail-ej1-f44.google.com [209.85.218.44]) by mx.zohomail.com
+	with SMTPS id 1744606939270711.8121188850226; Sun, 13 Apr 2025 22:02:19 -0700 (PDT)
+Received: by mail-ej1-f44.google.com with SMTP id a640c23a62f3a-abf3d64849dso758627266b.3
+        for <info@tomag.co.ke>; Sun, 13 Apr 2025 22:02:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=bamburigroup.com; s=google; t=1744606937; x=1745211737; darn=tomag.co.ke;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=hevk5EhOoViSt/0BR1lRAgTmQuLIJYHtczgzT6Fr9hU=;
+        b=kPi88GMHU/MMPp/a94jr4cgCK/Cd0AcjGOZww8AD12i+dBrMkmMMPvuo2OneoSjoLP
+         BXaT5MXJw0xNvtc9DK/2R3gT0/ZGKF67Tx9pgdCnwGWD3wQ/JpBoLUoIaBWtgVNFASXD
+         e5FmooK/vfLlwQyvicFQ6QLIrDcbmjiWSyAalHy76YfCFgon5VUNSlb6nSoobRXGgK2g
+         Gyu6f+GJ3jJZrKjgX8t0lwVChsOYlgppNA7i3MoEFc8X9EHLpL7bMMyQp1brD5+OJGVL
+         3zqlPLl4TEFYT8DHB/Dc0Ku832tnstdgE2mNf/7kv1JKG2pSx70vEa8IF5yqeOEurBxX
+         vsyw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1744606937; x=1745211737;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=hevk5EhOoViSt/0BR1lRAgTmQuLIJYHtczgzT6Fr9hU=;
+        b=Q15culD9Xuxj1rfYQFnFgUp9bMC8f+x2BdA3O1mgcpBM3520DT0R+AreL869RTOzbA
+         WFHWnjAXN6hbfXj3tp0u4O/3o4G6GCAcwaFQMSN7G+tCfm/VrwLftuII4GNHa+W1nx3U
+         MDUcmUeogeAa/g3hszYvzbEEffYNiAz1XBSuTtTEL1lJQRy4U+Hik+biDmyoYMFCIatm
+         eERf5o3USJabLgGtjPTAL4m50FtTpfbK/jxFIrARxjhAGR2pth/bYLRVT7/JF/L30O4L
+         uNfWob6Jfpw/MLmkPtsIldQUprTQUqD2abuyPfOwTFstKtJp3xApyUQbJuHl1BnjQ+B7
+         MpXA==
+X-Gm-Message-State: AOJu0Yx9iI+mPbN15xnXuPMZMQhXdFFpTmRSnVVCLxkcUW/q1UJ9ALbE
+	niAGlelGh3Px06Z8xW3KxacVJYnPYFVMZDWKPSvyDC/SvoM3Lh/dFtzbDfsA0s4TSSy11Dl1VEu
+	Gwhga9rGt625C0tnA/mrBbjF6GMbYUjUIgJGjV7E3fGGGeI8P6dA=
+X-Gm-Gg: ASbGnctepfLNjCP8VOsdAx5e+S+cRgzShIj6O7YY8fson4EU4y3p2q/Hw/y8zC9Raz6
+	WprAL2LE2qYpPLttsZc2NMN0adFryzt+gVNnLMJcHu5Kau/9dwcsD0ODMBzdO+C/khBkzcmOLqB
+	GPIHbOBoF/XOaMZAJqtVFnqlY=
+X-Google-Smtp-Source: AGHT+IEcJ4RMuzI2bZVTHPJRS5OpW0KeSB6JXrIT5t+Usf45M22b93Aknv4KwesbItpaNYLOVvT60eiVcPOLfc3if6g=
+X-Received: by 2002:a17:906:f58d:b0:ac3:ccf7:3a11 with SMTP id
+ a640c23a62f3a-acad36a3f6bmr867168066b.44.1744606937270; Sun, 13 Apr 2025
+ 22:02:17 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAKcs9XjxE7SXNNMPx980D8CgArO2=J75BFRWVa9pHuRMQGmxbA@mail.gmail.com>
+In-Reply-To: <CAKcs9XjxE7SXNNMPx980D8CgArO2=J75BFRWVa9pHuRMQGmxbA@mail.gmail.com>
+From: Joseph Oguk <joseph.oguk.ext@bamburigroup.com>
+Date: Mon, 14 Apr 2025 08:02:05 +0300
+X-Gm-Features: ATxdqUGuFbCpJNTrdoWxneDBgzGLw8scVv-lb6LMRDCgHLUm0LWHrgiuVgYb4gk
+Message-ID:<CAKcs9XjofugjjjWSk_6RvUwwwfpvmF-gbtfK2TC5Gf=J5afq0Q@mail.gmail.com>
+Subject: Re: REQUEST FOR QUOTATION - 12919550
+To: "info@tomag.co.ke" <info@tomag.co.ke>
+Content-Type: multipart/alternative; boundary="000000000000c4e1380632b5f42d"
+X-ZM-MESSAGEID: 1744606941937030400
+X-ZohoMail-Status: 1
+
+
+--000000000000c4e1380632b5f42d
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Kind reminder
+
+On Mon, Apr 7, 2025 at 9:16=E2=80=AFAM Joseph Oguk <joseph.oguk.ext@bamburi=
+group.com>
+wrote:
+
+> Dear sir/madam
+> Kindly quote for
+>
+> *UNDERVOLTAGE RELEASE COIL 24VDC FOR SF1 (MERLIN GERIN) R=3D5.5/134.1*
+> *Qty 5*
+>
+>
+>
+>
+> *Kind regards*
+> *Joseph Oguk*
+>
+
+--000000000000c4e1380632b5f42d
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Kind reminder</div><br><div class=3D"gmail_quote gmail_quo=
+te_container"><div dir=3D"ltr" class=3D"gmail_attr">On Mon, Apr 7, 2025 at =
+9:16=E2=80=AFAM Joseph Oguk &lt;<a href=3D"mailto:joseph.oguk.ext@bamburigr=
+oup.com">joseph.oguk.ext@bamburigroup.com</a>&gt; wrote:<br></div><blockquo=
+te class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px =
+solid rgb(204,204,204);padding-left:1ex"><div dir=3D"ltr">Dear sir/madam<di=
+v>Kindly quote for</div><div><br></div><div><b>UNDERVOLTAGE RELEASE COIL 24=
+VDC FOR SF1 (MERLIN GERIN) R=3D5.5/134.1</b></div><div><b>Qty 5</b></div><d=
+iv><b><br></b></div><div><b><br></b></div><div><b><br></b></div><div><b><br=
+></b></div><div><b>Kind regards</b></div><div><b>Joseph Oguk</b></div></div=
+>
+</blockquote></div>
+
+--000000000000c4e1380632b5f42d--

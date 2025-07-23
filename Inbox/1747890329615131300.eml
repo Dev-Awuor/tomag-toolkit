@@ -1,0 +1,1456 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of mlsend.com designates 185.225.161.10 as permitted sender) client-ip=185.225.161.10; envelope-from=bounce-155073979726431407a986171@mlsend.com; helo=mail010.mlsend.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of mlsend.com designates 185.225.161.10 as permitted sender)  smtp.mailfrom=bounce-155073979726431407a986171@mlsend.com;
+	dmarc=pass(p=quarantine dis=none)  header.from=gpph.pl
+ARC-Seal: i=1; a=rsa-sha256; t=1747890324; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=RuDzCcJNwFeZu6Z3hMBS5L0WTbUj8dO/2VYvP+U6RTQcnwzd7PmfRuFrN08n8yVX+zB1WbaPe1QKMcwn3hekmDkfpWimO2rxC3CtcFanDpnIJ0IkanDEyzTk5ElGdGvPrluRGXVV2LKVsYgZwZ4aD7BbolbIZoe9KSRn8lTkh4U=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1747890324; h=Content-Type:Date:Date:From:From:List-Unsubscribe:MIME-Version:Message-ID:Reply-To:Reply-To:Subject:Subject:To:To:Message-Id:Cc; 
+	bh=w/c7KcZtbYp0PhRo9J+o5T0zt8EdO0U4kDofXlw47B0=; 
+	b=jDd8TYBonVuVFgaCDbTM759IJWK3mmVgITXUoF6/tTZn0PhgmGN7jSdO9WjyOzXf+xqO86JEjjk2V5Uhm77nXKY9ZgwLSMePDYkxPDxjhJ0hUCGGqyKIBYPJYj7u46w94BNB8bze1jqzVx/MICtvw1gCm7CSD13Ka0NNU3cRg1s=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of mlsend.com designates 185.225.161.10 as permitted sender)  smtp.mailfrom=bounce-155073979726431407a986171@mlsend.com;
+	dmarc=pass header.from=<gpph@gpph.pl> (p=quarantine dis=none)
+Return-Path: <bounce-155073979726431407a986171@mlsend.com>
+Received: from mail010.mlsend.com (mail010.mlsend.com [185.225.161.10]) by mx.zohomail.com
+	with SMTPS id 1747890324361814.8890040470106; Wed, 21 May 2025 22:05:24 -0700 (PDT)
+Received: from 10.36.55.21 by 10.164.0.44 with http; 22 May 2025 05:05:20 +0000
+DKIM-Signature: a=rsa-sha256; bh=w/c7KcZtbYp0PhRo9J+o5T0zt8EdO0U4kDofXlw47B0=;
+ c=relaxed/relaxed; d=gpph.pl;
+ h=DKIM-Signature:X-Mailer-Info:Subject:From:To:Date:Received:Message-ID:x-mailer-recipientid:Feedback-ID:List-Unsubscribe-Post:List-Unsubscribe:Precedence:X-Mailru-Msgtype:X-CampaignID:Reply-To:MIME-Version:Content-Type;
+ s=litesrv; t=1747890320; v=1;
+ b=XMWv+xRopan5UxJ7cYq6PsiAW8BjJGxdqTpZd3QUPFPS+4V4kxfsYFrxk/5KjZOa4bZVdhq4
+ W29sZhndlNEJ/id2XeU63Icc06I7UxORmsWTtxlGK2Qke4b3aCL50lKurBsnAzDFWPDQRE5jJXd
+ 9qnsMhOyPju2z4WT4QYt3T90=
+DKIM-Signature: a=rsa-sha256; bh=w/c7KcZtbYp0PhRo9J+o5T0zt8EdO0U4kDofXlw47B0=;
+ c=relaxed/relaxed; d=mlsend.com;
+ h=X-Mailer-Info:Subject:From:To:Date:Received:Message-ID:x-mailer-recipientid:Feedback-ID:List-Unsubscribe-Post:List-Unsubscribe:Precedence:X-Mailru-Msgtype:X-CampaignID:Reply-To:MIME-Version:Content-Type;
+ s=litesrv; t=1747890320; v=1;
+ b=BgHkKmKJOoo0KkiuDrpp06TcXmRUy+QhFrz5lfaQD/oS70/RA0gK9jq+klAq7+hRiDViisgO
+ 6H1c273u/c49qZv7u5Zm7GKv9K0/Je1pPLN+bWW+xYxe3gmWv1G9dWRkJJffhD8kGaCgBG3hKTz
+ gjDG1TtSp57Tid3u7dRE7Nvo=
+X-Mailer-Info: 10.MWYtBXYpdmb.MWYtBXYpdmbxUTNwAzN4UjN0QTO0IzMxAzM.QauZ2bAR3bt
+ F2ZuM2busWZ.QM1UDM3MTO3kzNyYDNzEDNwcTY5gjNxcTM....
+Subject: 15% OFF welding tables and fume extraction systems
+From: GPPH Welding Tables <gpph@gpph.pl>
+To: "info@tomag.co.ke" <info@tomag.co.ke>
+Date: 22 May 2025 05:05:20 -0000
+Message-ID:<155073979726431407a986171@mlsend.com>
+x-mailer-recipientid: 155073979726431407a986171
+Feedback-ID: campaign155007856431597310:986171:campaign:MailerLite
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://mzjqab.clicks.mlsend.com/tj/cl/eyJ2Ijoie1wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM5Mzk4MjkxNjMwOTgsXCJyXCI6MTU1MDczOTc5NzI2NDMxNDA3fSIsInMiOiI5MzcxMjFjNzYwZTNhYTUyIn0>
+Precedence: bulk
+X-Mailru-Msgtype: 155073979726431407
+X-CampaignID: 155007856449423103
+Reply-To: GPPH Welding Tables <gpph@gpph.pl>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==7c31f4fcbfd0eba69c1c786ccb4d43aa"
+X-ZohoMail-DKIM: pass (identity @mlsend.com) (identity @gpph.pl)
+X-ZohoMail-Owner: <155073979726431407a986171@mlsend.com>+zmo_0_bounce-155073979726431407a986171@mlsend.com
+X-ZM-MESSAGEID: 1747890329615131300
+X-ZohoMail-Status: 1
+
+
+This is a multi-part message in MIME format.
+
+--==7c31f4fcbfd0eba69c1c786ccb4d43aa
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Witam!
+
+Otrzyma=C5=82e=C5=9B newsletter od GPPH S. C. K. RZE=C5=B9NIK, W. PIECHO=
+TA. Niestety Twoja przegl=C4=85darka nie wy=C5=9Bwietla formatu HTML. Kl=
+iknij poni=C5=BCej, =C5=BCeby go odczyta=C4=87:
+
+https://mzjqab.clicks.mlsend.com/tj/cl/eyJ2Ijoie1wiYVwiOjk4NjE3MSxcImxcI=
+joxNTUwNzM5Mzk4NDU5NDAzMTksXCJyXCI6MTU1MDczOTc5NzI2NDMxNDA3fSIsInMiOiI5M=
+zExZjM5Nzg1MDJhZTNlIn0
+
+
+Otrzyma=C5=82e=C5=9B ten newsletter, poniewa=C5=BC wykaza=C5=82e=C5=9B z=
+ainteresowanie GPPH S. C. K. RZE=C5=B9NIK, W. PIECHOTA.
+Je=C5=BCeli chcesz zrezygnowa=C4=87 z otrzymywania newslettera, wejd=C5=BA=
+ na stron=C4=99 subskrypcji i wypisz si=C4=99:
+https://mzjqab.clicks.mlsend.com/tj/cl/eyJ2Ijoie1wiYVwiOjk4NjE3MSxcImxcI=
+joxNTUwNzM5Mzk4NDI3OTQ1OTAsXCJyXCI6MTU1MDczOTc5NzI2NDMxNDA3fSIsInMiOiI0M=
+jMyZGFkODIwZThhNzRhIn0
+
+--==7c31f4fcbfd0eba69c1c786ccb4d43aa
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html lang dir=3D"ltr" xmlns:o=3D"urn:schemas-microsoft-com:office:offic=
+e" xmlns:v=3D"urn:schemas-microsoft-com:vml"><head>
+    <meta charset=3D"utf-8">
+   =20
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sca=
+le=3D1, user-scalable=3Dyes">
+    <meta name=3D"format-detection" content=3D"telephone=3Dno, date=3Dno=
+, address=3Dno, email=3Dno, url=3Dno">
+    <meta name=3D"x-apple-disable-message-reformatting">
+    <!--[if !mso]>
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <![endif]-->
+    <!--[if mso]>
+    <style>
+        * { font-family: sans-serif !important; }
+    </style>
+    <noscript>
+        <xml>
+            <o:OfficeDocumentSettings>
+                <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+    </noscript>
+    <![endif]-->
+    <style type=3D"text/css">
+        /* Outlines the grids, remove when sending */
+        /*table td { border: 1px solid cyan; }*/
+        /* RESET STYLES */
+        html, body { margin: 0 !important; padding: 0 !important; width:=
+ 100% !important; height: 100% !important; }
+        body { -webkit-font-smoothing: antialiased; -moz-osx-font-smooth=
+ing: grayscale; text-rendering: optimizeLegibility;}
+        .document { margin: 0 !important; padding: 0 !important; width: =
+100% !important; }
+        img { border: 0; outline: none; text-decoration: none;  -ms-inte=
+rpolation-mode: bicubic; }
+        table { border-collapse: collapse; }
+        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+        body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; }
+        h1, h2, h3, h4, h5, p { margin:0; word-break: break-word;}
+        /* iOS BLUE LINKS */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+        /* ANDROID CENTER FIX */
+        div[style*=3D"margin: 16px 0;"] { margin: 0 !important; }
+        /* MEDIA QUERIES */
+        @media all and (max-width:639px){
+            .wrapper{ width:100%!important; }
+            .container{ width:100%!important; min-width:100%!important; =
+padding: 0 !important; }
+            .row{padding-left: 20px!important; padding-right: 20px!impor=
+tant;}
+            .col-mobile {width: 20px!important;}
+            .table-between-col-mobile {width:100%!important;}
+            .col{display: block!important; width: 100%!important;}
+            .col-feature{display: block!important; width: 100%!important=
+;}
+            .mobile-center{text-align: center!important; float: none!imp=
+ortant;}
+            .mobile-mx-auto {margin: 0 auto!important; float: none!impor=
+tant;}
+            .mobile-left{text-align: center!important; float: left!impor=
+tant;}
+            .mobile-hide{display: none!important;}
+            .img{ width:100% !important; height:auto !important; }
+            .ml-btn { width: 100% !important; max-width: 100%!important;=
+}
+            .ml-btn-container { width: 100% !important; max-width: 100%!=
+important;}
+            *[class=3D"mobileOff"] { width: 0px !important; display: non=
+e !important; }
+            *[class*=3D"mobileOn"] { display: block !important; max-heig=
+ht:none !important; }
+            .mlContentTable{ width: 100%!important; min-width: 10%!impor=
+tant; margin: 0!important; float: none!important; }
+            .mlContentButton a { display: block!important; width: auto!i=
+mportant; }
+            .mlContentOuter { padding-bottom: 0px!important; padding-lef=
+t: 15px!important; padding-right: 15px!important; padding-top: 0px!impor=
+tant; }
+            .mlContentSurvey { float: none!important; margin-bottom: 10p=
+x!important; width:100%!important; }
+            .multiple-choice-item-table { width: 100% !important; min-wi=
+dth: 10% !important; float: none !important; }
+            .ml-default, .ml-card, .ml-fullwidth { width: 100%; min-widt=
+h: 100%; }
+        }
+
+        @media screen and (max-width: 600px) {
+            .col-feature {
+                margin-bottom: 30px;
+            }
+        }
+
+        /* Carousel style */
+        @media screen and (-webkit-min-device-pixel-ratio: 0) {
+            .webkit {
+                display: block !important;
+            }
+        }  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+            .non-webkit {
+                display: none !important;
+            }
+        }  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+            /* TARGET OUTLOOK.COM */
+            [class=3D"x_non-webkit"] {
+                display: block !important;
+            }
+        }  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+            [class=3D"x_webkit"] {
+                display: none !important;
+            }
+        }
+    </style>
+   =20
+    <style type=3D"text/css">@import url("https://assets.mlcdn.com/fonts=
+-v2.css?version=3D1747643");</style>
+<style type=3D"text/css">
+            @media screen {
+                body {
+                    font-family: 'Inter', sans-serif;
+                }
+            }
+        </style><meta name=3D"robots" content=3D"noindex, nofollow">
+<title>15% OFF welding tables and fume extraction systems</title>
+</head>
+<body style=3D"margin: 0 !important; padding: 0 !important; background-c=
+olor:#F4F7FA;">
+
+   =20
+       =20
+       =20
+   =20
+
+   =20
+
+       =20
+           =20
+
+           =20
+           =20
+           =20
+           =20
+           =20
+           =20
+       =20
+
+       =20
+           =20
+
+           =20
+       =20
+
+       =20
+           =20
+
+           =20
+       =20
+
+   =20
+
+   =20
+
+       =20
+
+       =20
+
+       =20
+           =20
+           =20
+           =20
+           =20
+           =20
+       =20
+
+       =20
+           =20
+           =20
+           =20
+           =20
+           =20
+       =20
+
+       =20
+           =20
+           =20
+           =20
+           =20
+           =20
+       =20
+
+       =20
+           =20
+           =20
+           =20
+           =20
+           =20
+       =20
+
+       =20
+           =20
+           =20
+           =20
+           =20
+           =20
+       =20
+
+       =20
+           =20
+           =20
+           =20
+           =20
+           =20
+       =20
+
+       =20
+           =20
+           =20
+           =20
+           =20
+       =20
+
+       =20
+           =20
+           =20
+       =20
+
+       =20
+           =20
+           =20
+           =20
+       =20
+
+       =20
+           =20
+           =20
+           =20
+           =20
+           =20
+           =20
+           =20
+           =20
+           =20
+           =20
+       =20
+
+       =20
+           =20
+           =20
+           =20
+           =20
+           =20
+           =20
+           =20
+           =20
+           =20
+           =20
+       =20
+
+       =20
+
+           =20
+               =20
+               =20
+               =20
+               =20
+               =20
+           =20
+
+           =20
+               =20
+               =20
+               =20
+           =20
+
+           =20
+               =20
+               =20
+               =20
+               =20
+               =20
+           =20
+
+           =20
+               =20
+               =20
+               =20
+               =20
+               =20
+           =20
+
+           =20
+               =20
+               =20
+               =20
+               =20
+               =20
+           =20
+
+           =20
+               =20
+               =20
+               =20
+               =20
+           =20
+
+           =20
+               =20
+               =20
+           =20
+
+           =20
+               =20
+               =20
+           =20
+
+       =20
+   =20
+
+    <div class=3D"document" role=3D"article" aria-roledescription=3D"ema=
+il" aria-label lang dir=3D"ltr" style=3D"background-color:#F4F7FA; line-=
+height: 100%; font-size:medium; font-size:max(16px, 1rem);">
+
+        <!--[if gte mso 9]>
+        <v:background xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"=
+t" if=3D"variable.bodyBackgroundImage.value">
+            <v:fill type=3D"tile" src=3D"" color=3D"#F4F7FA"/>
+        </v:background>
+        <![endif]-->
+
+       =20
+
+        <table width=3D"100%" align=3D"center" cellspacing=3D"0" cellpad=
+ding=3D"0" border=3D"0">
+            <tr>
+                <td class background bgcolor=3D"#F4F7FA" align=3D"center=
+" valign=3D"top" style=3D"padding: 0 8px;">
+
+                    <table class=3D"container" align=3D"center" width=3D=
+"640" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"max-widt=
+h: 640px;">
+    <tr>
+        <td align=3D"center">
+           =20
+
+               =20
+
+                <table align=3D"center" width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0">
+                    <tr>
+                        <td colspan=3D"2" height=3D"20" style=3D"line-he=
+ight: 20px"></td>
+                    </tr>
+                    <tr>
+                       =20
+                        <td align=3D"left" style=3D"font-family: 'Inter'=
+, sans-serif; color: #111111; font-size: 12px; line-height: 18px;">
+                            All GPPH products now 15% OFF!
+                           =20
+                        </td>
+                        <td style=3D"display:none;font-size:0px;color:#F=
+4F7FA;line-height:0px;max-height:0px;max-width:0px;opacity:0;overflow:hi=
+dden;mso-hide:all;">
+                            =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=
+=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=
+=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F=
+ =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=
+=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=
+=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F=
+ =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=
+=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=
+=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F=
+ =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=
+=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=
+=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F=
+ =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=
+=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=
+=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F=
+ =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=
+=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=
+=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F=
+ =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=
+=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=
+=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=
+=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=
+=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F =E2=80=87=CD=8F=
+=20
+                            =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+=20
+                            &nbsp;
+                        </td>
+                        <td align=3D"right" style=3D"font-family: 'Inter=
+', sans-serif; color: #111111; font-size: 12px; line-height: 18px;">
+                            <a style=3D"color: #111111; font-weight: nor=
+mal; font-style: normal; text-decoration: underline;" href=3D"https://mz=
+jqab.clicks.mlsend.com/tj/cl/eyJ2Ijoie1wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM=
+5Mzk3NDEwODI2OTQsXCJyXCI6MTU1MDczOTc5NzI2NDMxNDA3fSIsInMiOiJkZGM4OWMzNzJ=
+kYTY5NDZjIn0" data-link-id=3D"155073939741082694" data-link-type=3D"webv=
+iew">Email not displaying correctly? View it in your browser!</a>&nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan=3D"2" height=3D"20" style=3D"line-he=
+ight: 20px;"></td>
+                    </tr>
+                </table>
+
+               =20
+
+               =20
+                   =20
+                   =20
+                   =20
+               =20
+
+               =20
+                   =20
+                   =20
+               =20
+
+           =20
+        </td>
+    </tr>
+</table>
+
+
+                    <table width=3D"640" class=3D"wrapper" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"
+                        max-width: 640px;
+                        border:1px solid #EAECED;
+                        border-radius:8px; border-collapse: separate!imp=
+ortant; overflow: hidden;
+                        ">
+                        <tr>
+                            <td align=3D"center">
+
+                               =20
+    <!--  -->
+<table class=3D"ml-default" width=3D"100%" bgcolor border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td style>
+           =20
+               =20
+               =20
+
+               =20
+               =20
+
+                <table class=3D"container ml-4 ml-default-border" width=3D=
+"640" bgcolor=3D"#ffffff" align=3D"center" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" style=3D"color: #515856; width: 640px; min-width: 64=
+0px;">
+                    <tr>
+                        <td class=3D"ml-default-border container" height=
+=3D"20" style=3D"line-height: 20px; min-width: 640px;"></td>
+                    </tr>
+                    <tr>
+                        <td class=3D"row" style=3D"padding: 0 50px;">
+
+   =20
+   =20
+   =20
+   =20
+    <table align=3D"center" width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0">
+        <tr>
+            <td class=3D"col mobile-center" align=3D"left" width=3D"250"=
+>
+               =20
+
+   =20
+
+
+
+
+
+
+<img src=3D"https://storage.mlcdn.com/account_image/986171/iN3qldrH2QoiB=
+pjni0sybEiS05cayhgMweKbghE9.png" border=3D"0" alt width=3D"212.436363636=
+36364" class=3D"logo" style=3D"max-width: 212.43636363636364px; display:=
+ inline-block;">
+
+
+
+
+
+
+            </td>
+            <td class=3D"col" width=3D"40" height=3D"20px" style=3D"line=
+-height: 20px;"></td>
+            <td class=3D"col mobile-center" align=3D"right" style=3D"tex=
+t-align: right;">
+                <h3 style=3D"font-family: 'Inter', sans-serif; color: #0=
+00000; font-size: 10px; line-height: 125%; font-weight: normal; font-sty=
+le: normal; text-decoration: none; ;margin-bottom: 8px; margin-bottom: 0=
+;"><br></h3>
+            </td>
+        </tr>
+    </table>
+
+
+
+
+   =20
+   =20
+   =20
+   =20
+   =20
+
+
+
+
+
+                            </td>
+                    </tr>
+                    <tr>
+                        <td height=3D"10" style=3D"line-height: 10px;"><=
+/td>
+                    </tr>
+                </table>
+               =20
+                   =20
+                   =20
+               =20
+           =20
+        </td>
+    </tr>
+</table>
+<!--  -->
+
+
+    <!--  -->
+<table class=3D"ml-default" width=3D"100%" bgcolor border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td style>
+           =20
+               =20
+               =20
+
+               =20
+               =20
+
+                <table class=3D"container ml-6 ml-default-border" width=3D=
+"640" bgcolor=3D"#ffffff" align=3D"center" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" style=3D"color: #515856; width: 640px; min-width: 64=
+0px;">
+                    <tr>
+                        <td class=3D"ml-default-border container" height=
+=3D"30" style=3D"line-height: 30px; min-width: 640px;"></td>
+                    </tr>
+                    <tr>
+                        <td class=3D"row" style=3D"padding: 0 50px;">
+
+   =20
+   =20
+
+
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+        <tr>
+            <td align=3D"center">
+               =20
+
+   =20
+    <img src=3D"https://storage.mlcdn.com/account_image/986171/C6RPZ5Gcd=
+u2W0l8ZFGDi8mDh7FAu8qZteLGSmKez.png" border=3D"0" alt width=3D"540" clas=
+s=3D"img" style=3D"display: block;">
+
+
+
+            </td>
+        </tr>
+       =20
+    </table>
+
+
+
+   =20
+   =20
+   =20
+   =20
+   =20
+
+
+
+   =20
+   =20
+   =20
+   =20
+   =20
+
+
+
+   =20
+   =20
+   =20
+   =20
+   =20
+
+
+
+   =20
+   =20
+   =20
+   =20
+   =20
+
+
+
+   =20
+   =20
+   =20
+   =20
+
+
+
+   =20
+   =20
+
+
+
+
+
+   =20
+   =20
+   =20
+
+
+
+
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+
+
+
+
+
+
+
+
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+
+
+
+
+
+
+
+
+                            </td>
+                    </tr>
+                   =20
+                </table>
+               =20
+                   =20
+                   =20
+               =20
+           =20
+        </td>
+    </tr>
+</table>
+<!--  -->
+
+
+   =20
+   =20
+    <!--  -->
+<table class=3D"ml-default" width=3D"100%" bgcolor border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td style>
+           =20
+               =20
+               =20
+
+               =20
+               =20
+
+                <table class=3D"container ml-11 ml-default-border" width=
+=3D"640" bgcolor=3D"#ffffff" align=3D"center" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"color: #000000; width: 640px; min-width: =
+640px;">
+                   =20
+                    <tr>
+                        <td class=3D"row" style=3D"padding: 0 50px;">
+
+   =20
+    <p style=3D"font-family: 'Inter', sans-serif; color: #000000; font-s=
+ize: 12px; line-height: 165%; margin-top: 0; margin-bottom: 10px;"><br><=
+/p>
+<p style=3D"font-family: 'Inter', sans-serif; color: #000000; font-size:=
+ 12px; line-height: 165%; margin-top: 0; margin-bottom: 10px;"><strong><=
+/strong></p>
+<p style=3D"font-family: 'Inter', sans-serif; color: #000000; font-size:=
+ 12px; line-height: 165%; margin-top: 0; margin-bottom: 10px;">We are pl=
+eased to inform you that until <strong>May 31st</strong>, we=E2=80=99re =
+offering a <strong>15% discount on all our products</strong>!</p>
+<p style=3D"font-family: 'Inter', sans-serif; color: #000000; font-size:=
+ 12px; line-height: 165%; margin-top: 0; margin-bottom: 10px;">This is a=
+ perfect opportunity to upgrade your workshop with professional <strong>=
+welding tables</strong>, tools, and <strong>fume extraction systems</str=
+ong> (hoods and extraction arms), which ensure clean and safe working co=
+nditions.</p>
+<p style=3D"font-family: 'Inter', sans-serif; color: #000000; font-size:=
+ 12px; line-height: 165%; margin-top: 0; margin-bottom: 10px;"><strong>E=
+xample?</strong><br>
+The <strong>SMART 2000x1000 mm</strong> welding table now costs only <st=
+rong>1 037 EUR net</strong> instead of 1 220 EUR net!</p>
+<p style=3D"font-family: 'Inter', sans-serif; color: #000000; font-size:=
+ 12px; line-height: 165%; margin-top: 0; margin-bottom: 10px;">=F0=9F=91=
+=89 You can place your order directly through our online store:<br>
+<strong><a data-start=3D"673" data-end=3D"705" rel=3D"noopener" target=3D=
+"_new" style=3D"color: #38b6ff; font-weight: normal; font-style: normal;=
+ text-decoration: underline;" href></a><a href=3D"https://mzjqab.clicks.=
+mlsend.com/tj/cl/eyJ2Ijoie1wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM5Mzk3NTA1MTk=
+4ODAsXCJyXCI6MTU1MDczOTc5NzI2NDMxNDA3fSIsInMiOiI3N2Q5YjAzY2UyZTk5YjJjIn0=
+" target=3D"_blank" style=3D"color: #38b6ff; font-weight: normal; font-s=
+tyle: normal; text-decoration: underline;" data-link-id=3D"1550739397505=
+19880">https://gpph-group.com/en/store/</a></strong><br>
+or via our Sales Department:<br>
+<strong><a data-start=3D"743" data-end=3D"777" rel=3D"noopener" target=3D=
+"_new" style=3D"color: #38b6ff; font-weight: normal; font-style: normal;=
+ text-decoration: underline;" href></a><a href=3D"https://mzjqab.clicks.=
+mlsend.com/tj/cl/eyJ2Ijoie1wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM5Mzk3NTg5MDg=
+0ODksXCJyXCI6MTU1MDczOTc5NzI2NDMxNDA3fSIsInMiOiIyZmZkY2I0MjgxMmVkZmNjIn0=
+" target=3D"_blank" style=3D"color: #38b6ff; font-weight: normal; font-s=
+tyle: normal; text-decoration: underline;" data-link-id=3D"1550739397589=
+08489">https://gpph-group.com/en/contact/</a></strong></p>
+<p style=3D"font-family: 'Inter', sans-serif; color: #000000; font-size:=
+ 12px; line-height: 165%; margin-top: 0; margin-bottom: 10px;"><strong><=
+a data-start=3D"743" data-end=3D"777" rel=3D"noopener" target=3D"_new" s=
+tyle=3D"color: #38b6ff; font-weight: normal; font-style: normal; text-de=
+coration: underline;" href><br></a></strong></p>
+<h3 style=3D"font-family: 'Inter', sans-serif; color: #000000; font-size=
+: 15px; line-height: 125%; font-weight: bold; font-style: normal; text-d=
+ecoration: none; ;margin-bottom: 8px;">Why take advantage of this promot=
+ion?</h3>
+<p style=3D"font-family: 'Inter', sans-serif; color: #000000; font-size:=
+ 12px; line-height: 165%; margin-top: 0; margin-bottom: 10px;">=E2=9C=85=
+ <strong>Real savings</strong> =E2=80=93 15% off means real money you ca=
+n invest in other workshop needs.</p>
+<p style=3D"font-family: 'Inter', sans-serif; color: #000000; font-size:=
+ 12px; line-height: 165%; margin-top: 0; margin-bottom: 10px;">=E2=9C=85=
+ <strong>The best time to invest</strong> =E2=80=93 growing your busines=
+s means higher efficiency and a competitive edge. Better equipment =3D f=
+aster and more precise work.</p>
+<p style=3D"font-family: 'Inter', sans-serif; color: #000000; font-size:=
+ 12px; line-height: 165%; margin-top: 0; margin-bottom: 10px;">=E2=9C=85=
+ <strong>Full range at a lower price</strong> =E2=80=93 the promotion co=
+vers <strong>all products</strong>: welding tables, tools, accessories, =
+and fume extraction systems that improve workplace safety and comfort.</=
+p>
+<p style=3D"font-family: 'Inter', sans-serif; color: #000000; font-size:=
+ 12px; line-height: 165%; margin-top: 0; margin-bottom: 10px;">=E2=9C=85=
+ <strong>Proven GPPH quality</strong> =E2=80=93 you=E2=80=99re investing=
+ in reliable, long-lasting equipment trusted by professionals around the=
+ world.</p>
+<p style=3D"font-family: 'Inter', sans-serif; color: #000000; font-size:=
+ 12px; line-height: 165%; margin-top: 0; margin-bottom: 10px;">If you ha=
+ve any questions, feel free to contact us.</p>
+<p style=3D"font-family: 'Inter', sans-serif; color: #000000; font-size:=
+ 12px; line-height: 165%; margin-top: 0; margin-bottom: 0;"><br></p>
+
+
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+
+
+
+   =20
+   =20
+   =20
+   =20
+   =20
+
+
+
+   =20
+   =20
+   =20
+   =20
+   =20
+
+
+
+   =20
+   =20
+   =20
+   =20
+   =20
+
+
+
+   =20
+   =20
+   =20
+   =20
+
+
+
+   =20
+   =20
+
+
+
+
+                            </td>
+                    </tr>
+                   =20
+                </table>
+               =20
+                   =20
+                   =20
+               =20
+           =20
+        </td>
+    </tr>
+</table>
+<!--  -->
+
+
+   =20
+   =20
+    <!--  -->
+<table class=3D"ml-default" width=3D"100%" bgcolor border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td style>
+           =20
+
+               =20
+               =20
+
+               =20
+               =20
+
+                <table class=3D"container ml-13 ml-default-border" width=
+=3D"640" bgcolor=3D"#ffffff" align=3D"center" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"
+                width: 640px; min-width: 640px;
+                ;
+               =20
+                ">
+                    <tr>
+                        <td class=3D"ml-default-border container" height=
+=3D"20" style=3D"line-height: 20px; min-width: 640px;"></td>
+                    </tr>
+                    <tr>
+                        <td class=3D"row mobile-center" align=3D"center"=
+ style=3D"padding: 0 50px;">
+
+   =20
+   =20
+   =20
+
+   =20
+   =20
+   =20
+   =20
+
+    <table class=3D"ml-btn-container" cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" align=3D"center" width=3D"auto">
+    <tr>
+        <td align=3D"center" valign=3D"middle">
+           =20
+           =20
+           =20
+           =20
+            <!-- Primary button starting -->
+            <div>
+                <!--[if mso]>
+                <v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" x=
+mlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"https://gpph-gr=
+oup.com/pl" target=3D"_blank"
+                         style=3D"width: 281px;
+                         v-text-anchor:middle;" arcsize=3D"12%" stroke=3D=
+"f" strokecolor=3D"#000000" strokeweight=3D"2px">
+                    <v:fill color=3D"#38b6ff" opacity=3D"100%"/>
+                    <w:anchorlock/>
+                    <v:shadow on=3D"f" color=3D"#000000" offset=3D"0px 2=
+px 0px 0px"></v:shadow>
+                    <v:textbox inset=3D"25px,14px,25px,14px" style=3D"ms=
+o-fit-shape-to-text:true;">
+                        <center>
+                            <span style=3D"font-family:sans-serif;color:=
+#ffffff;font-size:14px;line-height:14px;mso-line-height-rule:exactly;fon=
+t-weight: normal; font-style: normal; text-decoration: none;">
+                                <div><strong>Learn more about GPPH produ=
+cts</strong></div>
+                            </span>
+                        </center>
+                    </v:textbox>
+                </v:roundrect>
+                <![endif]-->
+            </div>
+            <!-- Primary button ending -->
+           =20
+           =20
+           =20
+            <!-- Secondary button start -->
+           =20
+            <!-- Secondary button end -->
+
+            <!-- Desktop button start -->
+           =20
+                        <!--[if !mso]>-->
+                            <table class=3D"ml-btn ml-btn-primary ml-btn=
+-filled" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"border-collapse: separate; width: auto;">
+                    <tr>
+                        <th align=3D"center" valign=3D"middle" style=3D"=
+background-color: #38b6ff; border-radius: 6px; mso-padding-top-alt: 14px=
+; mso-padding-bottom-alt: 14px; mso-padding-left-alt: 25px; mso-padding-=
+right-alt: 25px; -webkit-font-smoothing: auto; word-break: break-all;">
+                            <!-- Firefox fix -->
+                           =20
+                            <!-- /Firefox fix -->
+
+                            <a href=3D"https://mzjqab.clicks.mlsend.com/=
+tj/cl/eyJ2Ijoie1wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM5Mzk3NjUxOTk5NDYsXCJyXC=
+I6MTU1MDczOTc5NzI2NDMxNDA3fSIsInMiOiI0MDg2NmVhZjcyZDAwZGJmIn0" target=3D=
+"_blank" style=3D"display: block; padding: 14px 25px; font-family: 'Inte=
+r', sans-serif; color: #ffffff; font-size: 14px; letter-spacing: 0.025em=
+; text-decoration: none; border-radius: 6px; line-height: 16px; mso-line=
+-height-rule: at-least; word-wrap: break-word; word-break: break-word; o=
+verflow-wrap: break-word; min-width: 70px; font-weight: normal; font-sty=
+le: normal;" data-link-id=3D"155073939765199946">
+                                <div><strong>Learn more about GPPH produ=
+cts</strong></div>
+                            </a>
+                        </th>
+                    </tr>
+                </table>
+                        <!--<![endif]-->
+                        <!-- Desktop button end -->
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+
+   =20
+
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+
+
+
+
+
+
+   =20
+
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+
+
+
+
+
+
+                            </td>
+                    </tr>
+                    <tr>
+                        <td height=3D"20" style=3D"line-height: 20px;"><=
+/td>
+                    </tr>
+                </table>
+               =20
+                   =20
+                   =20
+               =20
+           =20
+        </td>
+    </tr>
+</table>
+<!--  -->
+
+
+    <!--  -->
+<table class=3D"ml-default" width=3D"100%" bgcolor border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td style>
+           =20
+
+               =20
+               =20
+
+               =20
+               =20
+
+                <table class=3D"container ml-15 ml-default-border" width=
+=3D"640" bgcolor=3D"#002A3A" align=3D"center" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"
+                width: 640px; min-width: 640px;
+                ;
+               =20
+                ">
+                    <tr>
+                        <td class=3D"ml-default-border container" height=
+=3D"40" style=3D"line-height: 40px; min-width: 640px;"></td>
+                    </tr>
+                    <tr>
+                        <td class=3D"row" style=3D"padding: 0 50px;">
+
+
+   =20
+   =20
+
+<table align=3D"center" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0">
+    <tr>
+        <td class=3D"col" align=3D"left" width=3D"250" valign=3D"top" st=
+yle=3D"text-align: left!important;">
+           =20
+                <h5 style=3D"font-family: 'Inter', sans-serif; color: #f=
+fffff; font-size: 12px; line-height: 125%; font-weight: bold; font-style=
+: normal; text-decoration: none; margin-bottom: 6px;">GPPH S. C. K. RZE=C5=
+=B9NIK, W. PIECHOTA</h5>
+           =20
+            <p style=3D"font-family: 'Inter', sans-serif; color: #ffffff=
+; font-size: 10px; line-height: 150%; margin-bottom: 6px;">phone:+48 <a =
+href=3D"tel:573-568-355" title=3D"tel:573-568-355" style=3D"color: #D1D3=
+D3; font-weight: normal; font-style: normal; text-decoration: underline;=
+">573-568-355</a></p>
+
+<div><p style=3D"font-family: 'Inter', sans-serif; color: #ffffff; font-=
+size: 10px; line-height: 150%; margin-bottom: 0;">e-mail: <a href=3D"mai=
+lto:gpph@gpph.pl" title=3D"mailto:gpph@gpph.pl" style=3D"color: #D1D3D3;=
+ font-weight: normal; font-style: normal; text-decoration: underline;">g=
+pph@gpph.pl</a></p></div>
+<div><span style=3D"font-size: 10px;"><span style=3D"color: #ffffff">ont=
+akt:&nbsp;<span class=3D"ml-rte-link-wrapper"><a href=3D"https://mzjqab.=
+clicks.mlsend.com/tj/cl/eyJ2Ijoie1wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM5Mzk3=
+NzI1Mzk5NzksXCJyXCI6MTU1MDczOTc5NzI2NDMxNDA3fSIsInMiOiJjNGMzMDk0ZWRjYTY5=
+MmUwIn0" style=3D"text-decoration: none;" data-link-id=3D"15507393977253=
+9979"></a></span></span><span style=3D"color: #D1D3D3"><span class=3D"ml=
+-rte-link-wrapper"><a href=3D"https://mzjqab.clicks.mlsend.com/tj/cl/eyJ=
+2Ijoie1wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM5Mzk3Nzc3ODI4NjAsXCJyXCI6MTU1MDc=
+zOTc5NzI2NDMxNDA3fSIsInMiOiJlMTQwNDJkOWRhM2I1MDc1In0" style=3D"text-deco=
+ration: none;" data-link-id=3D"155073939777782860"></a></span></span><sp=
+an style=3D"color: #D1D3D3"><span class=3D"ml-rte-link-wrapper"><a href=3D=
+"https://mzjqab.clicks.mlsend.com/tj/cl/eyJ2Ijoie1wiYVwiOjk4NjE3MSxcImxc=
+IjoxNTUwNzM5Mzk3ODMwMjU3NDIsXCJyXCI6MTU1MDczOTc5NzI2NDMxNDA3fSIsInMiOiI5=
+MTQ0NjU4ODNlNDRiODU5In0" style=3D"text-decoration: none;" data-link-id=3D=
+"155073939783025742"></a></span></span><strong><a data-start=3D"743" dat=
+a-end=3D"777" rel=3D"noopener" target=3D"_new" style=3D"text-decoration:=
+ none;" href></a><a href=3D"https://mzjqab.clicks.mlsend.com/tj/cl/eyJ2I=
+joie1wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM5Mzk3ODkzMTcxOTksXCJyXCI6MTU1MDczO=
+Tc5NzI2NDMxNDA3fSIsInMiOiI5ODMyMDhlNTVkYjBlZGU2In0" target=3D"_blank" st=
+yle=3D"text-decoration: none;" data-link-id=3D"155073939789317199">https=
+://gpph-group.com/en/contact/</a></strong><span class=3D"ml-rte-link-wra=
+pper"></span><br></span><table><tbody><tr></tr></tbody></table></div>
+
+            <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0">
+                <tr>
+                    <td height=3D"16" style=3D"line-height: 16px;"></td>=
+
+                </tr>
+                <tr>
+                    <td>
+                       =20
+
+
+
+
+<table class=3D"**$class**" role=3D"presentation" cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0">
+    <tr>
+        <td align=3D"center" valign=3D"middle" width=3D"18" ng-show=3D"s=
+link.link !=3D ''" style=3D"padding: 0 5px 0 0;">
+            <a href=3D"https://mzjqab.clicks.mlsend.com/tj/cl/eyJ2Ijoie1=
+wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM5Mzk3OTQ1NjAwODAsXCJyXCI6MTU1MDczOTc5Nz=
+I2NDMxNDA3fSIsInMiOiIxMjdiMzQ1Y2M5N2E3NGVmIn0" target=3D"blank" style=3D=
+"text-decoration: none;" data-link-id=3D"155073939794560080">
+                <img src=3D"https://assets.mlcdn.com/ml/images/icons/def=
+ault/round/white/facebook.png" width=3D"18" alt=3D"facebook">
+            </a>
+        </td><td align=3D"center" valign=3D"middle" width=3D"18" ng-show=
+=3D"slink.link !=3D ''" style=3D"padding: 0 5px;">
+            <a href=3D"https://mzjqab.clicks.mlsend.com/tj/cl/eyJ2Ijoie1=
+wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM5Mzk3OTk4MDI5NjEsXCJyXCI6MTU1MDczOTc5Nz=
+I2NDMxNDA3fSIsInMiOiIwZTA0NTkzOGM5NzgyMDM4In0" target=3D"blank" style=3D=
+"text-decoration: none;" data-link-id=3D"155073939799802961">
+                <img src=3D"https://assets.mlcdn.com/ml/images/icons/def=
+ault/round/white/instagram.png" width=3D"18" alt=3D"instagram">
+            </a>
+        </td><td align=3D"center" valign=3D"middle" width=3D"18" ng-show=
+=3D"slink.link !=3D ''" style=3D"padding: 0 5px;">
+            <a href=3D"https://mzjqab.clicks.mlsend.com/tj/cl/eyJ2Ijoie1=
+wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM5Mzk4MDUwNDU4NDIsXCJyXCI6MTU1MDczOTc5Nz=
+I2NDMxNDA3fSIsInMiOiIyZjA0YmNlYzIxZDJhYTQ1In0" target=3D"blank" style=3D=
+"text-decoration: none;" data-link-id=3D"155073939805045842">
+                <img src=3D"https://assets.mlcdn.com/ml/images/icons/def=
+ault/round/white/linkedin.png" width=3D"18" alt=3D"linkedin">
+            </a>
+        </td><td align=3D"center" valign=3D"middle" width=3D"18" ng-show=
+=3D"slink.link !=3D ''" style=3D"padding: 0 5px;">
+            <a href=3D"https://mzjqab.clicks.mlsend.com/tj/cl/eyJ2Ijoie1=
+wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM5Mzk4MTEzMzcyOTksXCJyXCI6MTU1MDczOTc5Nz=
+I2NDMxNDA3fSIsInMiOiJmNzcwYmMyM2RkZDFlZWFlIn0" target=3D"blank" style=3D=
+"text-decoration: none;" data-link-id=3D"155073939811337299">
+                <img src=3D"https://assets.mlcdn.com/ml/images/icons/def=
+ault/round/white/tiktok.png" width=3D"18" alt=3D"tiktok">
+            </a>
+        </td><td align=3D"center" valign=3D"middle" width=3D"18" ng-show=
+=3D"slink.link !=3D ''" style=3D"padding: 0 5px;">
+            <a href=3D"https://mzjqab.clicks.mlsend.com/tj/cl/eyJ2Ijoie1=
+wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM5Mzk4MTU1MzE2MDQsXCJyXCI6MTU1MDczOTc5Nz=
+I2NDMxNDA3fSIsInMiOiJmOTRjODkxNjBhNzEzMWM3In0" target=3D"blank" style=3D=
+"text-decoration: none;" data-link-id=3D"155073939815531604">
+                <img src=3D"https://assets.mlcdn.com/ml/images/icons/def=
+ault/round/white/x.png" width=3D"18" alt=3D"x">
+            </a>
+        </td><td align=3D"center" valign=3D"middle" width=3D"18" ng-show=
+=3D"slink.link !=3D ''" style=3D"padding: 0 0 0 5px;">
+            <a href=3D"https://mzjqab.clicks.mlsend.com/tj/cl/eyJ2Ijoie1=
+wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM5Mzk4MjI4NzE2MzksXCJyXCI6MTU1MDczOTc5Nz=
+I2NDMxNDA3fSIsInMiOiJlM2NkZTM1ZDI0MGM5NTYwIn0" target=3D"blank" style=3D=
+"text-decoration: none;" data-link-id=3D"155073939822871639">
+                <img src=3D"https://assets.mlcdn.com/ml/images/icons/def=
+ault/round/white/youtube.png" width=3D"18" alt=3D"youtube">
+            </a>
+        </td>
+    </tr>
+</table>
+
+                       =20
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td class=3D"col" width=3D"40" height=3D"30" style=3D"line-heigh=
+t: 30px;"></td>
+        <td class=3D"col" align=3D"left" width=3D"250" valign=3D"top" st=
+yle=3D"text-align: left!important;">
+            <p style=3D"font-family: 'Inter', sans-serif; color: #ffffff=
+; font-size: 10px; line-height: 150%; margin-bottom: 6px;">If you do not=
+ wish to receive information about our products, please click the link b=
+elow.</p>
+
+            <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0">
+                <tr>
+                    <td height=3D"8" style=3D"line-height: 8px;"></td>
+                </tr>
+                <tr>
+                    <td align=3D"left">
+                        <p style=3D"font-family: 'Inter', sans-serif; co=
+lor: #ffffff; font-size: 10px; line-height: 150%; margin-bottom: 0;">
+                            <a href=3D"https://mzjqab.clicks.mlsend.com/=
+tj/cl/eyJ2Ijoie1wiYVwiOjk4NjE3MSxcImxcIjoxNTUwNzM5Mzk4MjkxNjMwOTgsXCJyXC=
+I6MTU1MDczOTc5NzI2NDMxNDA3fSIsInMiOiI5MzcxMjFjNzYwZTNhYTUyIn0" style=3D"=
+color: #D1D3D3; font-weight: normal; font-style: normal; text-decoration=
+: underline;" data-link-id=3D"155073939829163098" data-link-type=3D"unsu=
+bscribe">I don=E2=80=99t want to receive content from GPPH.</a>
+                           =20
+                           =20
+                           =20
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+   =20
+   =20
+   =20
+   =20
+   =20
+
+
+
+   =20
+   =20
+   =20
+   =20
+
+
+
+   =20
+   =20
+
+
+
+
+
+   =20
+   =20
+   =20
+
+
+
+                            </td>
+                    </tr>
+                    <tr>
+                        <td height=3D"40" style=3D"line-height: 40px;"><=
+/td>
+                    </tr>
+                </table>
+               =20
+                   =20
+                   =20
+               =20
+           =20
+        </td>
+    </tr>
+</table>
+<!--  -->
+
+
+
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" align=3D"center" width=3D"640" style=3D"max-width: 640px; width: 100=
+%;">
+   =20
+   =20
+   =20
+</table>
+
+
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+   =20
+
+   =20
+
+<span style=3D"display:none"><img src=3D"https://mzjqab.clicks.mlsend.co=
+m/tj/o/eyJpdiI6IndPSDRFMERoT3pBMGw2Qmx2TmNmQmc9PSIsInZhbHVlIjoiU0wzWHBOd=
+TVCLzJxVmphWEhCQTBadHJaUTFMSDhZVW9XQytOUUZIbWhaaG96UU9YaGZWbURWVmZlSm1uW=
+k16RDdwd3Z6WFlLSW1EczhRdUxwNUZFNldGOVFJWVNJSDZva2JyTk93NzlFS0k9IiwibWFjI=
+joiM2YzZTM2YzNhN2I3N2U4OTc3ODY2OThkYjg1M2Y3NzhmYzQwMzQwNWY0N2E1YWI1YWU3Y=
+TczMWJmM2E4NTQ2NCIsInRhZyI6IiJ9?signature=3Dcaee145d119b4ce3cd109169fe92=
+353e189fc74c7d92b0840e6f1f4a4270caab" width=3D"1" height=3D"1" alt style=
+=3D"display:block;height:0px;width:0px;max-width:0px;max-height:0px;over=
+flow:hidden;" border=3D"0"></span></body>
+</html>
+
+--==7c31f4fcbfd0eba69c1c786ccb4d43aa--

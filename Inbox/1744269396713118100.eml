@@ -1,0 +1,873 @@
+Delivered-To: info@tomag.co.ke
+Return-Path: <tom.gituma@tomag.co.ke>
+ARC-Seal: i=1; a=rsa-sha256; t=1744269396; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=kC1oQ7/fkFvGULZMrzXOoJcaQD/z4fJ/MjN06V0ZNWkeKPM/TAfDD4bNDan4ylk/lfjs37jaKc9antgnRbAjlGxmxpUETWFF6ABBKMN5X8fiHmnD4VQHn6GrSOLb8tWNJhrpHJkzEKWG3oyRQvjQCHHUqdwG3l9Xiq/dGwlWO/c=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1744269396; h=Content-Type:Cc:Cc:Date:Date:From:From:In-Reply-To:MIME-Version:Message-ID:References:Subject:Subject:To:To:Message-Id:Reply-To; 
+	bh=zVY39IynwSVtDg6FzI5duPR06+l9QgLr6W02ZzbzTr4=; 
+	b=SWFUtln5OS2XH6JvG3yssk7YiY4d/eDfvxrfxq3sULH0pAz09TH0NKgnQ7ZjwurQdfQ+ashcL+zXGUxgJmmd0766mKjZwZdBnJldktuWP/nQFBrL3bE7hJ7Au2awHOCQEQk5wexALJVEgjsfF06A1+seO7F4tw0vwYyKSzrwmq4=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass  header.i=tomag.co.ke;
+	spf=pass  smtp.mailfrom=tom.gituma@tomag.co.ke;
+	dmarc=pass header.from=<tom.gituma@tomag.co.ke>
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1744269396;
+	s=zoho; d=tomag.co.ke; i=tom.gituma@tomag.co.ke;
+	h=Date:Date:From:From:To:To:Cc:Cc:Message-Id:Message-Id:In-Reply-To:References:Subject:Subject:MIME-Version:Content-Type:Reply-To;
+	bh=zVY39IynwSVtDg6FzI5duPR06+l9QgLr6W02ZzbzTr4=;
+	b=Nu1WXrbUbKfaG9vOT94EatNhZ5q//s4RCzDXyyrPAGHk6fodcrTCk8r/kpSnQwq7
+	Nl67oqI2DID0Acih7adHYvVmo6SeF8hGG2jVZ5cZsMe8fG5zN0TSXx2L0U2frRYHR5Y
+	w7vIDf0levtwzTZdAk30WZq7vf9jMJSbkNoV6pF0=
+Received: from mail.zoho.com by mx.zohomail.com
+	with SMTP id 1744269394477371.15621724293123; Thu, 10 Apr 2025 00:16:34 -0700 (PDT)
+Date: Thu, 10 Apr 2025 10:16:34 +0300
+From: Tom Gituma <tom.gituma@tomag.co.ke>
+To: "Derl Farm Fresh Limited" <sales@derlfarmfresh.com>
+Cc: "Tomag Enterprises Limited" <info@tomag.co.ke>
+Message-ID:<1961e8ec1b6.be07ea4d751988.6130700010063966548@tomag.co.ke>
+In-Reply-To: <001901dba975$1e94d620$5bbe8260$@derlfarmfresh.com>
+References: <001901dba975$1e94d620$5bbe8260$@derlfarmfresh.com>
+Subject: Re: Enquiry for Welding Materials - Derl Farm Fresh Limited
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2411233_1509088661.1744269394360"
+Importance: Medium
+User-Agent: Zoho Mail
+X-Mailer: Zoho Mail
+X-ZM-MESSAGEID: 1744269396713118100
+X-ZohoMail-Status: 1
+
+
+------=_Part_2411233_1509088661.1744269394360
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Catherine,
+
+I hope you are doing well. Thanks for the esteemed enquiry. We shall revert=
+ with the quotation.=C2=A0
+
+
+Thanks and Best Regards
+
+=C2=A0
+
+Tom Gituma
+
+General Manager
+
+Tomag Enterprises Limited
+
+Delta Corner Tower, Chiromo Road
+
+6th=C2=A0Floor, Westlands
+
+Nairobi, Kenya
+
+Mobile +254 722 747 397
+
+Email:=C2=A0mailto:tom.gituma@tomag.co.ke
+
+Website:=C2=A0http://www.tomag.co.ke/
+
+TOMAG
+
+
+
+
+
+
+
+
+
+
+---- On Wed, 09 Apr 2025 20:30:32 +0300 Derl Farm Fresh Limited <sales@derl=
+farmfresh.com> wrote ---
+
+
+
+Good morning,
+
+=C2=A0
+
+Please quote for the following items;
+
+=C2=A0
+
+=C2=A0
+
+S/No.
+
+
+Item description
+
+
+UOM
+
+
+QTY
+
+
+Unit Price
+
+
+Total Price
+
+
+
+1
+
+
+Angle Grinder
+
+
+EA
+
+
+20
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+
+2
+
+
+Welding electrodes E6010 2.5 x 350mm
+
+
+KG
+
+
+200
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+
+3
+
+
+Welding electrodes E7018 2.5 x 350mm
+
+
+KG
+
+
+200
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+
+4
+
+
+Welding electrodes E7018 3.15 x 450mm
+
+
+KG
+
+
+300
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+
+5
+
+
+Cutting discs 4.5" dia
+
+
+EA
+
+
+1000
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+
+6
+
+
+Grinding discs 4.5" dia
+
+
+EA
+
+
+200
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+
+7
+
+
+Slitting discs dia 4.5"
+
+
+EA
+
+
+300
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+
+8
+
+
+Cutting disc 7" dia
+
+
+EA
+
+
+500
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+=C2=A0
+
+
+
+
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+Catherine Njoki
+
+Derl Farm Fresh Limited
+
+P.O. Box 22905-00400
+
+Nairobi, Kenya.
+
+Tel: +254 720 761 599
+
+Email: mailto:sales@derlfarmfresh.com
+
+=C2=A0
+
+=C2=A0
+------=_Part_2411233_1509088661.1744269394360
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>=
+<meta content=3D"text/html;charset=3DUTF-8" http-equiv=3D"Content-Type"></h=
+ead><body ><div style=3D"font-family: Verdana, Arial, Helvetica, sans-serif=
+; font-size: 10pt;"><div>Dear Catherine,<br></div><div>I hope you are doing=
+ well. Thanks for the esteemed enquiry. We shall revert with the quotation.=
+&nbsp;</div><div><br></div><div id=3D"Zm-_Id_-Sgn" data-sigid=3D"3897000000=
+000041001" data-zbluepencil-ignore=3D"true"><p style=3D"margin: 0px; font-s=
+tyle: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-in=
+dent: 0px; text-transform: none; white-space: normal; widows: 2; word-spaci=
+ng: 0px" class=3D""><span class=3D"highlight" style=3D"background-color:rgb=
+(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span =
+class=3D"font" style=3D"font-family:Lato"><span class=3D"size" style=3D"fon=
+t-size: 14px; margin: 0px; font-style: normal; font-weight: 400; letter-spa=
+cing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-spa=
+ce: normal; widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"=
+color:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><=
+span class=3D"size" style=3D"font-size:11pt">Thanks and Best Regards</span>=
+</span></span><br></span></span></span></span></p><p style=3D"margin: 0px; =
+font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; t=
+ext-indent: 0px; text-transform: none; white-space: normal; widows: 2; word=
+-spacing: 0px" class=3D""><span class=3D"highlight" style=3D"background-col=
+or:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)">=
+<span class=3D"font" style=3D"font-family:Lato"><span class=3D"size" style=
+=3D"font-size: 14px; margin: 0px; font-style: normal; font-weight: 400; let=
+ter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; wh=
+ite-space: normal; widows: 2; word-spacing: 0px;"><span class=3D"colour" st=
+yle=3D"color:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-family:Si=
+mSun"><span class=3D"size" style=3D"font-size:11pt">&nbsp;</span></span></s=
+pan><br></span></span></span></span></p><p style=3D"margin: 0px; font-style=
+: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent=
+: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: =
+0px" class=3D""><span class=3D"highlight" style=3D"background-color:rgb(255=
+, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span clas=
+s=3D"font" style=3D"font-family:Lato"><span class=3D"size" style=3D"font-si=
+ze: 14px; margin: 0px; font-style: normal; font-weight: 400; letter-spacing=
+: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: =
+normal; widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"colo=
+r:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><span=
+ class=3D"size" style=3D"font-size:11pt">Tom Gituma</span></span></span><br=
+></span></span></span></span></p><p style=3D"margin: 0px; font-style: norma=
+l; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px" cl=
+ass=3D""><span class=3D"highlight" style=3D"background-color:rgb(255, 255, =
+255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"fo=
+nt" style=3D"font-family:Lato"><span class=3D"size" style=3D"font-size: 14p=
+x; margin: 0px; font-style: normal; font-weight: 400; letter-spacing: norma=
+l; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal;=
+ widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"color:rgb(3=
+1, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><span class=
+=3D"size" style=3D"font-size:11pt">General Manager</span></span></span><br>=
+</span></span></span></span></p><p style=3D"margin: 0px; font-style: normal=
+; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; t=
+ext-transform: none; white-space: normal; widows: 2; word-spacing: 0px" cla=
+ss=3D""><span class=3D"highlight" style=3D"background-color:rgb(255, 255, 2=
+55)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"fon=
+t" style=3D"font-family:Lato"><span class=3D"size" style=3D"font-size: 14px=
+; margin: 0px; font-style: normal; font-weight: 400; letter-spacing: normal=
+; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; =
+widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"color:rgb(31=
+, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><span class=
+=3D"size" style=3D"font-size:11pt">Tomag Enterprises Limited</span></span><=
+/span><br></span></span></span></span></p><p style=3D"margin: 0px; font-sty=
+le: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-inde=
+nt: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing=
+: 0px" class=3D""><span class=3D"highlight" style=3D"background-color:rgb(2=
+55, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, 0, 0)"><span cl=
+ass=3D"font" style=3D"font-family:Lato"><span class=3D"size" style=3D"font-=
+size: 14px; margin: 0px; font-style: normal; font-weight: 400; letter-spaci=
+ng: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space=
+: normal; widows: 2; word-spacing: 0px;"><span class=3D"colour" style=3D"co=
+lor:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-family:SimSun"><sp=
+an class=3D"size" style=3D"font-size:11pt">Delta Corner Tower, Chiromo Road=
+</span></span></span><br></span></span></span></span></p><p style=3D"margin=
+: 0px; font-style: normal; font-weight: 400; letter-spacing: normal; orphan=
+s: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: =
+2; word-spacing: 0px" class=3D""><span class=3D"highlight" style=3D"backgro=
+und-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(0, =
+0, 0)"><span class=3D"font" style=3D"font-family:Lato"><span class=3D"size"=
+ style=3D"font-size: 14px; margin: 0px; font-style: normal; font-weight: 40=
+0; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: no=
+ne; white-space: normal; widows: 2; word-spacing: 0px;"><span class=3D"colo=
+ur" style=3D"color:rgb(31, 73, 125)"><span class=3D"font" style=3D"font-fam=
+ily:SimSun"><span class=3D"size" style=3D"font-size:11pt">6<sup>th</sup><sp=
+an>&nbsp;</span>Floor, Westlands</span></span></span><br></span></span></sp=
+an></span></p><p style=3D"margin: 0px; font-style: normal; font-weight: 400=
+; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: non=
+e; white-space: normal; widows: 2; word-spacing: 0px" class=3D""><span clas=
+s=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=
+=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font=
+-family:Lato"><span class=3D"size" style=3D"font-size: 14px; margin: 0px; f=
+ont-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; te=
+xt-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-=
+spacing: 0px;"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><spa=
+n class=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D=
+"font-size:11pt">Nairobi, Kenya</span></span></span><br></span></span></spa=
+n></span></p><p style=3D"margin: 0px; font-style: normal; font-weight: 400;=
+ letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none=
+; white-space: normal; widows: 2; word-spacing: 0px" class=3D""><span class=
+=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D=
+"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-fa=
+mily:Lato"><span class=3D"size" style=3D"font-size: 14px; margin: 0px; font=
+-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-=
+indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spa=
+cing: 0px;"><span class=3D"colour" style=3D"color:rgb(31, 73, 125)"><span c=
+lass=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D"fo=
+nt-size:11pt">Mobile +254 722 747 397</span></span></span><br></span></span=
+></span></span></p><p style=3D"margin: 0px; font-style: normal; font-weight=
+: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform=
+: none; white-space: normal; widows: 2; word-spacing: 0px" class=3D""><span=
+ class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span cl=
+ass=3D"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"f=
+ont-family:Lato"><span class=3D"size" style=3D"font-size: 14px; margin: 0px=
+; font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2;=
+ text-indent: 0px; text-transform: none; white-space: normal; widows: 2; wo=
+rd-spacing: 0px;"><span class=3D"colour" style=3D"color:rgb(47, 84, 150)"><=
+span class=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=
+=3D"font-size:11pt">Email:<span>&nbsp;</span><u><a target=3D"_blank" href=
+=3D"mailto:tom.gituma@tomag.co.ke" style=3D"color: rgb(89, 143, 222); curso=
+r: pointer"><span class=3D"colour" style=3D"color:rgb(5, 99, 193)">tom.gitu=
+ma@tomag.co.ke</span></a></u></span></span></span><br></span></span></span>=
+</span></p><p style=3D"margin: 0px; font-style: normal; font-weight: 400; l=
+etter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: 2; word-spacing: 0px" class=3D""><span class=
+=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D=
+"colour" style=3D"color:rgb(0, 0, 0)"><span class=3D"font" style=3D"font-fa=
+mily:Lato"><span class=3D"size" style=3D"font-size: 14px; margin: 0px; font=
+-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-=
+indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spa=
+cing: 0px;"><span class=3D"colour" style=3D"color:rgb(47, 84, 150)"><span c=
+lass=3D"font" style=3D"font-family:SimSun"><span class=3D"size" style=3D"fo=
+nt-size:11pt">Website:<span>&nbsp;</span><a target=3D"_blank" href=3D"http:=
+//www.tomag.co.ke/" style=3D"color: rgb(89, 143, 222); cursor: pointer"><sp=
+an class=3D"colour" style=3D"color:rgb(5, 99, 193)">www.tomag.co.ke</span><=
+/a></span></span></span><br></span></span></span></span></p><p style=3D"mar=
+gin: 0px; font-style: normal; font-weight: 400; letter-spacing: normal; orp=
+hans: 2; text-indent: 0px; text-transform: none; white-space: normal; widow=
+s: 2; word-spacing: 0px" class=3D""><span class=3D"highlight" style=3D"back=
+ground-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(=
+0, 0, 0)"><span class=3D"font" style=3D"font-family:Lato"><span class=3D"si=
+ze" style=3D"font-size: 14px; margin: 0px; font-style: normal; font-weight:=
+ 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform:=
+ none; white-space: normal; widows: 2; word-spacing: 0px;"><b><span class=
+=3D"colour" style=3D"color:rgb(68, 114, 196)"><span class=3D"font" style=3D=
+"font-family:Calibri, sans-serif"><span class=3D"size" style=3D"font-size:3=
+6pt">TOMAG</span></span></span></b><br></span></span></span></span></p><div=
+><br></div></div><div><br></div><div class=3D"zmail_extra_hr" style=3D"bord=
+er-top: 1px solid rgb(204, 204, 204); height: 0px; margin-top: 10px; margin=
+-bottom: 10px; line-height: 0px;"><br></div><div class=3D"zmail_extra" data=
+-zbluepencil-ignore=3D"true"><div><br></div><div id=3D"Zm-_Id_-Sgn1">---- O=
+n Wed, 09 Apr 2025 20:30:32 +0300 <b>Derl Farm Fresh Limited &lt;sales@derl=
+farmfresh.com&gt;</b> wrote ---<br></div><div><br></div><blockquote id=3D"b=
+lockquote_zmail" style=3D"margin: 0px;"><div class=3D"zm_909683092114775389=
+1_parse_2587309594055235192" style=3D""><div class=3D"x_549509279WordSectio=
+n1"><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span clas=
+s=3D"font" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><spa=
+n class=3D"size" style=3D"font-size:12pt">Good morning,</span></span><br></=
+p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=
+=3D"font" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span=
+ class=3D"size" style=3D"font-size:12pt">&nbsp;</span></span><br></p><p cla=
+ss=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"font"=
+ style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span class=3D=
+"size" style=3D"font-size:12pt">Please quote for the following items;</span=
+></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;=
+">&nbsp;<br></p><p class=3D"" style=3D"margin-top: 0px; margin-bottom: 0px;=
+">&nbsp;<br></p><table style=3D"border-collapse: collapse; border: none; ma=
+rgin-left: 6.75pt; margin-right: 6.75pt" align=3D"left" cellpadding=3D"0" c=
+ellspacing=3D"0" border=3D"1" class=3D"x_549509279MsoTableGrid"><tbody><tr>=
+<td style=3D"width: 36.85pt; border: solid windowtext 1pt; padding: 0in 5.4=
+pt 0in 5.4pt" valign=3D"top" width=3D"49"><p style=3D"margin-top: 0px; marg=
+in-bottom: 0px;" class=3D""><b><span class=3D"font" style=3D"font-family:&q=
+uot;Footlight MT Light&quot;, serif"><span class=3D"size" style=3D"font-siz=
+e:12pt">S/No.</span></span></b><br></p></td><td style=3D"width: 188.95pt; b=
+order: solid windowtext 1pt; border-left: none; padding: 0in 5.4pt 0in 5.4p=
+t" valign=3D"top" width=3D"252"><p style=3D"margin-top: 0px; margin-bottom:=
+ 0px;" class=3D""><b><span class=3D"font" style=3D"font-family:&quot;Footli=
+ght MT Light&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">It=
+em description</span></span></b><br></p></td><td style=3D"width: 35.05pt; b=
+order: solid windowtext 1pt; border-left: none; padding: 0in 5.4pt 0in 5.4p=
+t" valign=3D"top" width=3D"47"><p style=3D"margin-top: 0px; margin-bottom: =
+0px;" class=3D""><b><span class=3D"font" style=3D"font-family:&quot;Footlig=
+ht MT Light&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">UOM=
+</span></span></b><br></p></td><td style=3D"width: 77.9pt; border: solid wi=
+ndowtext 1pt; border-left: none; padding: 0in 5.4pt 0in 5.4pt" valign=3D"to=
+p" width=3D"104"><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D=
+""><b><span class=3D"font" style=3D"font-family:&quot;Footlight MT Light&qu=
+ot;, serif"><span class=3D"size" style=3D"font-size:12pt">QTY</span></span>=
+</b><br></p></td><td style=3D"width: 77.95pt; border: solid windowtext 1pt;=
+ border-left: none; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"1=
+04"><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><b><span c=
+lass=3D"font" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><=
+span class=3D"size" style=3D"font-size:12pt">Unit Price</span></span></b><b=
+r></p></td><td style=3D"width: 77.95pt; border: solid windowtext 1pt; borde=
+r-left: none; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104"><p=
+ style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><b><span class=
+=3D"font" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span=
+ class=3D"size" style=3D"font-size:12pt">Total Price</span></span></b><br><=
+/p></td></tr><tr><td style=3D"width: 36.85pt; border: solid windowtext 1pt;=
+ border-top: none; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"49=
+"><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=
+=3D"font" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span=
+ class=3D"size" style=3D"font-size:12pt">1</span></span><br></p></td><td st=
+yle=3D"width: 188.95pt; border-top: none; border-left: none; border-bottom:=
+ solid windowtext 1pt; border-right: solid windowtext 1pt; padding: 0in 5.4=
+pt 0in 5.4pt" valign=3D"top" width=3D"252"><p style=3D"margin-top: 0px; mar=
+gin-bottom: 0px;" class=3D""><span class=3D"font" style=3D"font-family:&quo=
+t;Footlight MT Light&quot;, serif"><span class=3D"size" style=3D"font-size:=
+12pt">Angle Grinder</span></span><br></p></td><td style=3D"width: 35.05pt; =
+border-top: none; border-left: none; border-bottom: solid windowtext 1pt; b=
+order-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"=
+top" width=3D"47"><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=
+=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight MT Light&qu=
+ot;, serif"><span class=3D"size" style=3D"font-size:12pt">EA</span></span><=
+br></p></td><td style=3D"width: 77.9pt; border-top: none; border-left: none=
+; border-bottom: solid windowtext 1pt; border-right: solid windowtext 1pt; =
+padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104"><p style=3D"marg=
+in-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" style=3D"=
+font-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"size" sty=
+le=3D"font-size:12pt">20</span></span><br></p></td><td style=3D"width: 77.9=
+5pt; border-top: none; border-left: none; border-bottom: solid windowtext 1=
+pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valig=
+n=3D"top" width=3D"104"><p style=3D"margin-top: 0px; margin-bottom: 0px;" c=
+lass=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight MT Ligh=
+t&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">&nbsp;</span>=
+</span><br></p></td><td style=3D"width: 77.95pt; border-top: none; border-l=
+eft: none; border-bottom: solid windowtext 1pt; border-right: solid windowt=
+ext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104"><p styl=
+e=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" =
+style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"=
+size" style=3D"font-size:12pt">&nbsp;</span></span><br></p></td></tr><tr><t=
+d style=3D"width: 36.85pt; border: solid windowtext 1pt; border-top: none; =
+padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"49"><p style=3D"margi=
+n-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" style=3D"f=
+ont-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"size" styl=
+e=3D"font-size:12pt">2</span></span><br></p></td><td style=3D"width: 188.95=
+pt; border-top: none; border-left: none; border-bottom: solid windowtext 1p=
+t; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=
+=3D"top" width=3D"252"><p style=3D"margin-top: 0px; margin-bottom: 0px;" cl=
+ass=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight MT Light=
+&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">Welding electr=
+odes E6010 2.5 x 350mm</span></span><br></p></td><td style=3D"width: 35.05p=
+t; border-top: none; border-left: none; border-bottom: solid windowtext 1pt=
+; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=
+=3D"top" width=3D"47"><p style=3D"margin-top: 0px; margin-bottom: 0px;" cla=
+ss=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight MT Light&=
+quot;, serif"><span class=3D"size" style=3D"font-size:12pt">KG</span></span=
+><br></p></td><td style=3D"width: 77.9pt; border-top: none; border-left: no=
+ne; border-bottom: solid windowtext 1pt; border-right: solid windowtext 1pt=
+; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104"><p style=3D"ma=
+rgin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" style=
+=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"size"=
+ style=3D"font-size:12pt">200</span></span><br></p></td><td style=3D"width:=
+ 77.95pt; border-top: none; border-left: none; border-bottom: solid windowt=
+ext 1pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" =
+valign=3D"top" width=3D"104"><p style=3D"margin-top: 0px; margin-bottom: 0p=
+x;" class=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight MT=
+ Light&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">&nbsp;</=
+span></span><br></p></td><td style=3D"width: 77.95pt; border-top: none; bor=
+der-left: none; border-bottom: solid windowtext 1pt; border-right: solid wi=
+ndowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104"><p=
+ style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"f=
+ont" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span clas=
+s=3D"size" style=3D"font-size:12pt">&nbsp;</span></span><br></p></td></tr><=
+tr><td style=3D"width: 36.85pt; border: solid windowtext 1pt; border-top: n=
+one; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"49"><p style=3D"=
+margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" style=
+=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"size"=
+ style=3D"font-size:12pt">3</span></span><br></p></td><td style=3D"width: 1=
+88.95pt; border-top: none; border-left: none; border-bottom: solid windowte=
+xt 1pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" v=
+align=3D"top" width=3D"252"><p style=3D"margin-top: 0px; margin-bottom: 0px=
+;" class=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight MT =
+Light&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">Welding e=
+lectrodes E7018 2.5 x 350mm</span></span><br></p></td><td style=3D"width: 3=
+5.05pt; border-top: none; border-left: none; border-bottom: solid windowtex=
+t 1pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" va=
+lign=3D"top" width=3D"47"><p style=3D"margin-top: 0px; margin-bottom: 0px;"=
+ class=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight MT Li=
+ght&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">KG</span></=
+span><br></p></td><td style=3D"width: 77.9pt; border-top: none; border-left=
+: none; border-bottom: solid windowtext 1pt; border-right: solid windowtext=
+ 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104"><p style=
+=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" s=
+tyle=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"s=
+ize" style=3D"font-size:12pt">200</span></span><br></p></td><td style=3D"wi=
+dth: 77.95pt; border-top: none; border-left: none; border-bottom: solid win=
+dowtext 1pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4=
+pt" valign=3D"top" width=3D"104"><p style=3D"margin-top: 0px; margin-bottom=
+: 0px;" class=3D""><span class=3D"font" style=3D"font-family:&quot;Footligh=
+t MT Light&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">&nbs=
+p;</span></span><br></p></td><td style=3D"width: 77.95pt; border-top: none;=
+ border-left: none; border-bottom: solid windowtext 1pt; border-right: soli=
+d windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104=
+"><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=
+=3D"font" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span=
+ class=3D"size" style=3D"font-size:12pt">&nbsp;</span></span><br></p></td><=
+/tr><tr><td style=3D"width: 36.85pt; border: solid windowtext 1pt; border-t=
+op: none; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"49"><p styl=
+e=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" =
+style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"=
+size" style=3D"font-size:12pt">4</span></span><br></p></td><td style=3D"wid=
+th: 188.95pt; border-top: none; border-left: none; border-bottom: solid win=
+dowtext 1pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4=
+pt" valign=3D"top" width=3D"252"><p style=3D"margin-top: 0px; margin-bottom=
+: 0px;" class=3D""><span class=3D"font" style=3D"font-family:&quot;Footligh=
+t MT Light&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">Weld=
+ing electrodes E7018 3.15 x 450mm</span></span><br></p></td><td style=3D"wi=
+dth: 35.05pt; border-top: none; border-left: none; border-bottom: solid win=
+dowtext 1pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4=
+pt" valign=3D"top" width=3D"47"><p style=3D"margin-top: 0px; margin-bottom:=
+ 0px;" class=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight=
+ MT Light&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">KG</s=
+pan></span><br></p></td><td style=3D"width: 77.9pt; border-top: none; borde=
+r-left: none; border-bottom: solid windowtext 1pt; border-right: solid wind=
+owtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104"><p s=
+tyle=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"fon=
+t" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span class=
+=3D"size" style=3D"font-size:12pt">300</span></span><br></p></td><td style=
+=3D"width: 77.95pt; border-top: none; border-left: none; border-bottom: sol=
+id windowtext 1pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0=
+in 5.4pt" valign=3D"top" width=3D"104"><p style=3D"margin-top: 0px; margin-=
+bottom: 0px;" class=3D""><span class=3D"font" style=3D"font-family:&quot;Fo=
+otlight MT Light&quot;, serif"><span class=3D"size" style=3D"font-size:12pt=
+">&nbsp;</span></span><br></p></td><td style=3D"width: 77.95pt; border-top:=
+ none; border-left: none; border-bottom: solid windowtext 1pt; border-right=
+: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=
+=3D"104"><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span=
+ class=3D"font" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"=
+><span class=3D"size" style=3D"font-size:12pt">&nbsp;</span></span><br></p>=
+</td></tr><tr><td style=3D"width: 36.85pt; border: solid windowtext 1pt; bo=
+rder-top: none; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"49"><=
+p style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"=
+font" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span cla=
+ss=3D"size" style=3D"font-size:12pt">5</span></span><br></p></td><td style=
+=3D"width: 188.95pt; border-top: none; border-left: none; border-bottom: so=
+lid windowtext 1pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt =
+0in 5.4pt" valign=3D"top" width=3D"252"><p style=3D"margin-top: 0px; margin=
+-bottom: 0px;" class=3D""><span class=3D"font" style=3D"font-family:&quot;F=
+ootlight MT Light&quot;, serif"><span class=3D"size" style=3D"font-size:12p=
+t">Cutting discs 4.5" dia</span></span><br></p></td><td style=3D"width: 35.=
+05pt; border-top: none; border-left: none; border-bottom: solid windowtext =
+1pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" vali=
+gn=3D"top" width=3D"47"><p style=3D"margin-top: 0px; margin-bottom: 0px;" c=
+lass=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight MT Ligh=
+t&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">EA</span></sp=
+an><br></p></td><td style=3D"width: 77.9pt; border-top: none; border-left: =
+none; border-bottom: solid windowtext 1pt; border-right: solid windowtext 1=
+pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104"><p style=3D"=
+margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" style=
+=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"size"=
+ style=3D"font-size:12pt">1000</span></span><br></p></td><td style=3D"width=
+: 77.95pt; border-top: none; border-left: none; border-bottom: solid window=
+text 1pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt"=
+ valign=3D"top" width=3D"104"><p style=3D"margin-top: 0px; margin-bottom: 0=
+px;" class=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight M=
+T Light&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">&nbsp;<=
+/span></span><br></p></td><td style=3D"width: 77.95pt; border-top: none; bo=
+rder-left: none; border-bottom: solid windowtext 1pt; border-right: solid w=
+indowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104"><=
+p style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"=
+font" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span cla=
+ss=3D"size" style=3D"font-size:12pt">&nbsp;</span></span><br></p></td></tr>=
+<tr><td style=3D"width: 36.85pt; border: solid windowtext 1pt; border-top: =
+none; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"49"><p style=3D=
+"margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" styl=
+e=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"size=
+" style=3D"font-size:12pt">6</span></span><br></p></td><td style=3D"width: =
+188.95pt; border-top: none; border-left: none; border-bottom: solid windowt=
+ext 1pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" =
+valign=3D"top" width=3D"252"><p style=3D"margin-top: 0px; margin-bottom: 0p=
+x;" class=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight MT=
+ Light&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">Grinding=
+ discs 4.5" dia</span></span><br></p></td><td style=3D"width: 35.05pt; bord=
+er-top: none; border-left: none; border-bottom: solid windowtext 1pt; borde=
+r-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top"=
+ width=3D"47"><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D"">=
+<span class=3D"font" style=3D"font-family:&quot;Footlight MT Light&quot;, s=
+erif"><span class=3D"size" style=3D"font-size:12pt">EA</span></span><br></p=
+></td><td style=3D"width: 77.9pt; border-top: none; border-left: none; bord=
+er-bottom: solid windowtext 1pt; border-right: solid windowtext 1pt; paddin=
+g: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104"><p style=3D"margin-top=
+: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" style=3D"font-f=
+amily:&quot;Footlight MT Light&quot;, serif"><span class=3D"size" style=3D"=
+font-size:12pt">200</span></span><br></p></td><td style=3D"width: 77.95pt; =
+border-top: none; border-left: none; border-bottom: solid windowtext 1pt; b=
+order-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"=
+top" width=3D"104"><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=
+=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight MT Light&qu=
+ot;, serif"><span class=3D"size" style=3D"font-size:12pt">&nbsp;</span></sp=
+an><br></p></td><td style=3D"width: 77.95pt; border-top: none; border-left:=
+ none; border-bottom: solid windowtext 1pt; border-right: solid windowtext =
+1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104"><p style=3D=
+"margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" styl=
+e=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"size=
+" style=3D"font-size:12pt">&nbsp;</span></span><br></p></td></tr><tr><td st=
+yle=3D"width: 36.85pt; border: solid windowtext 1pt; border-top: none; padd=
+ing: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"49"><p style=3D"margin-to=
+p: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" style=3D"font-=
+family:&quot;Footlight MT Light&quot;, serif"><span class=3D"size" style=3D=
+"font-size:12pt">7</span></span><br></p></td><td style=3D"width: 188.95pt; =
+border-top: none; border-left: none; border-bottom: solid windowtext 1pt; b=
+order-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"=
+top" width=3D"252"><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=
+=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight MT Light&qu=
+ot;, serif"><span class=3D"size" style=3D"font-size:12pt">Slitting discs di=
+a 4.5"</span></span><br></p></td><td style=3D"width: 35.05pt; border-top: n=
+one; border-left: none; border-bottom: solid windowtext 1pt; border-right: =
+solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D=
+"47"><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span cla=
+ss=3D"font" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><sp=
+an class=3D"size" style=3D"font-size:12pt">EA</span></span><br></p></td><td=
+ style=3D"width: 77.9pt; border-top: none; border-left: none; border-bottom=
+: solid windowtext 1pt; border-right: solid windowtext 1pt; padding: 0in 5.=
+4pt 0in 5.4pt" valign=3D"top" width=3D"104"><p style=3D"margin-top: 0px; ma=
+rgin-bottom: 0px;" class=3D""><span class=3D"font" style=3D"font-family:&qu=
+ot;Footlight MT Light&quot;, serif"><span class=3D"size" style=3D"font-size=
+:12pt">300</span></span><br></p></td><td style=3D"width: 77.95pt; border-to=
+p: none; border-left: none; border-bottom: solid windowtext 1pt; border-rig=
+ht: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" widt=
+h=3D"104"><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><spa=
+n class=3D"font" style=3D"font-family:&quot;Footlight MT Light&quot;, serif=
+"><span class=3D"size" style=3D"font-size:12pt">&nbsp;</span></span><br></p=
+></td><td style=3D"width: 77.95pt; border-top: none; border-left: none; bor=
+der-bottom: solid windowtext 1pt; border-right: solid windowtext 1pt; paddi=
+ng: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104"><p style=3D"margin-to=
+p: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" style=3D"font-=
+family:&quot;Footlight MT Light&quot;, serif"><span class=3D"size" style=3D=
+"font-size:12pt">&nbsp;</span></span><br></p></td></tr><tr><td style=3D"wid=
+th: 36.85pt; border: solid windowtext 1pt; border-top: none; padding: 0in 5=
+.4pt 0in 5.4pt" valign=3D"top" width=3D"49"><p style=3D"margin-top: 0px; ma=
+rgin-bottom: 0px;" class=3D""><span class=3D"font" style=3D"font-family:&qu=
+ot;Footlight MT Light&quot;, serif"><span class=3D"size" style=3D"font-size=
+:12pt">8</span></span><br></p></td><td style=3D"width: 188.95pt; border-top=
+: none; border-left: none; border-bottom: solid windowtext 1pt; border-righ=
+t: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=
+=3D"252"><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span=
+ class=3D"font" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"=
+><span class=3D"size" style=3D"font-size:12pt">Cutting disc 7" dia</span></=
+span><br></p></td><td style=3D"width: 35.05pt; border-top: none; border-lef=
+t: none; border-bottom: solid windowtext 1pt; border-right: solid windowtex=
+t 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"47"><p style=
+=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" s=
+tyle=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"s=
+ize" style=3D"font-size:12pt">EA</span></span><br></p></td><td style=3D"wid=
+th: 77.9pt; border-top: none; border-left: none; border-bottom: solid windo=
+wtext 1pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt=
+" valign=3D"top" width=3D"104"><p style=3D"margin-top: 0px; margin-bottom: =
+0px;" class=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight =
+MT Light&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">500</s=
+pan></span><br></p></td><td style=3D"width: 77.95pt; border-top: none; bord=
+er-left: none; border-bottom: solid windowtext 1pt; border-right: solid win=
+dowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104"><p =
+style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"fo=
+nt" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span class=
+=3D"size" style=3D"font-size:12pt">&nbsp;</span></span><br></p></td><td sty=
+le=3D"width: 77.95pt; border-top: none; border-left: none; border-bottom: s=
+olid windowtext 1pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt=
+ 0in 5.4pt" valign=3D"top" width=3D"104"><p style=3D"margin-top: 0px; margi=
+n-bottom: 0px;" class=3D""><span class=3D"font" style=3D"font-family:&quot;=
+Footlight MT Light&quot;, serif"><span class=3D"size" style=3D"font-size:12=
+pt">&nbsp;</span></span><br></p></td></tr><tr><td style=3D"width: 36.85pt; =
+border: solid windowtext 1pt; border-top: none; padding: 0in 5.4pt 0in 5.4p=
+t" valign=3D"top" width=3D"49"><p style=3D"margin-top: 0px; margin-bottom: =
+0px;" class=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight =
+MT Light&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">&nbsp;=
+</span></span><br></p></td><td style=3D"width: 188.95pt; border-top: none; =
+border-left: none; border-bottom: solid windowtext 1pt; border-right: solid=
+ windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"252"=
+><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D""><span class=
+=3D"font" style=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span=
+ class=3D"size" style=3D"font-size:12pt">&nbsp;</span></span><br></p></td><=
+td style=3D"width: 35.05pt; border-top: none; border-left: none; border-bot=
+tom: solid windowtext 1pt; border-right: solid windowtext 1pt; padding: 0in=
+ 5.4pt 0in 5.4pt" valign=3D"top" width=3D"47"><p style=3D"margin-top: 0px; =
+margin-bottom: 0px;" class=3D""><span class=3D"font" style=3D"font-family:&=
+quot;Footlight MT Light&quot;, serif"><span class=3D"size" style=3D"font-si=
+ze:12pt">&nbsp;</span></span><br></p></td><td style=3D"width: 77.9pt; borde=
+r-top: none; border-left: none; border-bottom: solid windowtext 1pt; border=
+-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" valign=3D"top" =
+width=3D"104"><p style=3D"margin-top: 0px; margin-bottom: 0px;" class=3D"">=
+<span class=3D"font" style=3D"font-family:&quot;Footlight MT Light&quot;, s=
+erif"><span class=3D"size" style=3D"font-size:12pt">&nbsp;</span></span><br=
+></p></td><td style=3D"width: 77.95pt; border-top: none; border-left: none;=
+ border-bottom: solid windowtext 1pt; border-right: solid windowtext 1pt; p=
+adding: 0in 5.4pt 0in 5.4pt" valign=3D"top" width=3D"104"><p style=3D"margi=
+n-top: 0px; margin-bottom: 0px;" class=3D""><span class=3D"font" style=3D"f=
+ont-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"size" styl=
+e=3D"font-size:12pt">&nbsp;</span></span><br></p></td><td style=3D"width: 7=
+7.95pt; border-top: none; border-left: none; border-bottom: solid windowtex=
+t 1pt; border-right: solid windowtext 1pt; padding: 0in 5.4pt 0in 5.4pt" va=
+lign=3D"top" width=3D"104"><p style=3D"margin-top: 0px; margin-bottom: 0px;=
+" class=3D""><span class=3D"font" style=3D"font-family:&quot;Footlight MT L=
+ight&quot;, serif"><span class=3D"size" style=3D"font-size:12pt">&nbsp;</sp=
+an></span><br></p></td></tr></tbody></table><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;"><span class=3D"font" style=3D"font-family:&qu=
+ot;Footlight MT Light&quot;, serif"><span class=3D"size" style=3D"font-size=
+:12pt">Catherine Njoki</span></span><br></p><p class=3D"" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;"><span class=3D"font" style=3D"font-family:&qu=
+ot;Footlight MT Light&quot;, serif"><span class=3D"size" style=3D"font-size=
+:12pt">Derl Farm Fresh Limited</span></span><br></p><p class=3D"" style=3D"=
+margin-top: 0px; margin-bottom: 0px;"><span class=3D"font" style=3D"font-fa=
+mily:&quot;Footlight MT Light&quot;, serif"><span class=3D"size" style=3D"f=
+ont-size:12pt">P.O. Box 22905-00400</span></span><br></p><p class=3D"" styl=
+e=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"font" style=3D"fo=
+nt-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"size" style=
+=3D"font-size:12pt">Nairobi, Kenya.</span></span><br></p><p class=3D"" styl=
+e=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"font" style=3D"fo=
+nt-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"size" style=
+=3D"font-size:12pt">Tel: +254 720 761 599</span></span><br></p><p class=3D"=
+" style=3D"margin-top: 0px; margin-bottom: 0px;"><span class=3D"font" style=
+=3D"font-family:&quot;Footlight MT Light&quot;, serif"><span class=3D"size"=
+ style=3D"font-size:12pt">Email: </span></span><a target=3D"_blank" href=3D=
+"mailto:sales@derlfarmfresh.com"><span class=3D"colour" style=3D"color:blue=
+"><span class=3D"font" style=3D"font-family:&quot;Footlight MT Light&quot;,=
+ serif"><span class=3D"size" style=3D"font-size:12pt">sales@derlfarmfresh.c=
+om</span></span></span></a><span class=3D"font" style=3D"font-family:&quot;=
+Footlight MT Light&quot;, serif"><span class=3D"size" style=3D"font-size:12=
+pt"></span></span><br></p><p class=3D"" style=3D"margin-top: 0px; margin-bo=
+ttom: 0px;">&nbsp;<br></p><p class=3D"" style=3D"margin-top: 0px; margin-bo=
+ttom: 0px;">&nbsp;<br></p></div></div></blockquote></div><div><br></div></d=
+iv><br></body></html>
+------=_Part_2411233_1509088661.1744269394360--
+

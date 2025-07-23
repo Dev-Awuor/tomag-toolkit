@@ -1,0 +1,81 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of bamburigroup.com designates 209.85.218.52 as permitted sender) client-ip=209.85.218.52; envelope-from=joseph.oguk.ext@bamburigroup.com; helo=mail-ej1-f52.google.com;
+Authentication-Results: mx.zohomail.com;
+	spf=pass (zohomail.com: domain of bamburigroup.com designates 209.85.218.52 as permitted sender)  smtp.mailfrom=joseph.oguk.ext@bamburigroup.com
+Return-Path: <joseph.oguk.ext@bamburigroup.com>
+Received: from mail-ej1-f52.google.com (mail-ej1-f52.google.com [209.85.218.52]) by mx.zohomail.com
+	with SMTPS id 1743062230449840.7871970867432; Thu, 27 Mar 2025 00:57:10 -0700 (PDT)
+Received: by mail-ej1-f52.google.com with SMTP id a640c23a62f3a-aaf0f1adef8so97519966b.3
+        for <info@tomag.co.ke>; Thu, 27 Mar 2025 00:57:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=bamburigroup.com; s=google; t=1743062229; x=1743667029; darn=tomag.co.ke;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=x/edZNzMHJtzEg3tjEu8591iSL6xk3+cm6Uee8m62UQ=;
+        b=TDuoSt0SlRWJWBLD5j14PmToyBUJbPWGHSNWy8suhhFyegsrRuU+W+OFNvoyebRi/O
+         8xJe1G1GHsEYh+/V7jvW/C5M1t4mm98q1gsRpPrj2ztLvrJNw5OTZ6Vi4g8QWUx4Y9V2
+         eKseS1rJoS9oRmNcLaBCmIMTRAIzijGAAnKsbFSZ8cl9IVfmjkqbW6YX7HInUFOX4sig
+         Y6HWotrT36uu9R2RMl/Rk/XpP1+iedAEYLsaH7vM55+0PRGVpcNZcuOPwrpxG2OLMZ10
+         urY8B3tYVbDw3b/+BjqxJdSP9N8bttXxfV2qFyrBZzFl5FoHyPD0HXbPQfz1KVLw+hFD
+         nPfA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1743062229; x=1743667029;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=x/edZNzMHJtzEg3tjEu8591iSL6xk3+cm6Uee8m62UQ=;
+        b=R/BhX6xk2efybPaZxhLuFxxzJsQZZcyMDuKFFUps2fC4So2lRYAcojZtvPYylyaFmb
+         r87ainEsagNahTvra8LhdA6IENPc27D75rUK+jIyin0pJIRRZ2xqobUySgho1dRc8sC/
+         FnNwFigwK6PJismXKXpBMFIhskx6sHolbkfxnVpBr/tKycSVKmiZ1YWetiP0QFzwU6fW
+         f/m+ELQFa1ixtEhywrE0tY9GD3gGSgMDqQKVB7yzMMqLkvHKrnBHuIoFPmfO91u6SGDv
+         4/bsCpDaJPk3iwbwc63lx+vlvgISD9x8kBxjwze+hLu8IfJA6ZVIOJMYY+Q8k4ju9ywR
+         sZJQ==
+X-Forwarded-Encrypted: i=1; AJvYcCVxLK+9BP7rw8dNiEH/cL3LkW1XzrMNni9D4lBKJwddU5O1MkkDOOBJD/ruCOOZMkR5+YHb@tomag.co.ke
+X-Gm-Message-State: AOJu0YzssS6eMPJTlpf8meq9oLTfwSTdYQ7t2Vd5Hn1FjJrW+CNjfsfW
+	owl37rXAdhxKZaaBg/XcRxgoPVpjnhV92BmPZHs+EBy2lEn0qqxjw23zg5D2Jg0IBSQXHabzTix
+	I5sCahgPemEK4/Ix3aZO2bgyXbJ7l3579LL77PA==
+X-Gm-Gg: ASbGncuIpedYkgV6pYMi9LZhSpYXfvPSgAYeuIRfemDhCA36EIGd8KzL0aDn3NoD/9S
+	qwM1NZ3CTmUcGyFYFU3dyz+V8Et843bzea2Fpc/LXT3PNgoo3vmEHxxiVbvp6xUCqYAiYH1JjfM
+	ahZzNSrVh1KhEQ64RmemD8kAY95aQ=
+X-Google-Smtp-Source: AGHT+IF+bKiH5/NMrTobsmCDHD7GjH9J1FVazydwIMIIqIh1rWmmew4F59P/mdMLThpja9wyU92Selmn4ODHz3ohsLQ=
+X-Received: by 2002:a17:907:3d86:b0:abf:52e1:2615 with SMTP id
+ a640c23a62f3a-ac6faead93bmr199008366b.7.1743062228768; Thu, 27 Mar 2025
+ 00:57:08 -0700 (PDT)
+MIME-Version: 1.0
+From: Joseph Oguk <joseph.oguk.ext@bamburigroup.com>
+Date: Thu, 27 Mar 2025 10:56:57 +0300
+X-Gm-Features: AQ5f1Jr3E5dw0oe-ZVwGvbXgv1vTMkTcwUWZEmvG_cJ6YIBGs7hrn_ufdyULmJw
+Message-ID:<CAKcs9XhRCKXU34Orq7ECJV2D=0yh9R3ZWpZvBYhOgFDjs0SOOg@mail.gmail.com>
+Subject: URGENT REQUEST - 12907502
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="000000000000f7aebe06314e4c66"
+Bcc: info@tomag.co.ke
+X-ZohoMail-Owner: <CAKcs9XhRCKXU34Orq7ECJV2D=0yh9R3ZWpZvBYhOgFDjs0SOOg@mail.gmail.com>+zmo_0_joseph.oguk.ext@bamburigroup.com
+X-ZM-MESSAGEID: 1743062233430030400
+X-ZohoMail-Status: 1
+
+
+--000000000000f7aebe06314e4c66
+Content-Type: text/plain; charset="UTF-8"
+
+Dear sir/Madam
+Urgently quote for
+
+ELECTRODE WELRO 680 4 mm Electrode for Dissimilar Steels
+
+QTY 160
+
+
+
+Kind regards
+Joseph Oguk
+
+--000000000000f7aebe06314e4c66
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear sir/Madam<div>Urgently quote for</div><div><br></div>=
+<div>ELECTRODE WELRO 680 4 mm Electrode for Dissimilar Steels</div><div><br=
+></div><div>QTY 160</div><div><br></div><div><br></div><div><br></div><div>=
+Kind regards</div><div>Joseph Oguk</div></div>
+
+--000000000000f7aebe06314e4c66--

@@ -1,0 +1,929 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of bamburigroup.com designates 209.85.216.44 as permitted sender) client-ip=209.85.216.44; envelope-from=joseph.oguk.ext@bamburigroup.com; helo=mail-pj1-f44.google.com;
+Authentication-Results: mx.zohomail.com;
+	spf=pass (zohomail.com: domain of bamburigroup.com designates 209.85.216.44 as permitted sender)  smtp.mailfrom=joseph.oguk.ext@bamburigroup.com
+Return-Path: <joseph.oguk.ext@bamburigroup.com>
+Received: from mail-pj1-f44.google.com (mail-pj1-f44.google.com [209.85.216.44]) by mx.zohomail.com
+	with SMTPS id 1749102314473561.3509507876959; Wed, 4 Jun 2025 22:45:14 -0700 (PDT)
+Received: by mail-pj1-f44.google.com with SMTP id 98e67ed59e1d1-311c95ddfb5so479098a91.2
+        for <info@tomag.co.ke>; Wed, 04 Jun 2025 22:45:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=bamburigroup.com; s=google; t=1749102314; x=1749707114; darn=tomag.co.ke;
+        h=cc:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=kI4rB1xhXDB4mPMjWcH0Faew7q/TYJXbMsVVZEx9ERo=;
+        b=oq+aJGJAZ0rN0pSPe2E/33cub0t9RLMGkqxMmIFOe0K20zaa40ku1/LiJzJdUUIQZU
+         f+f3b6rXU+xWyxOLp+JidWM9EPmq5RiyGHMp7bcrlwA+BoolX6smZ715KdAewQE0O5mF
+         9jsTGrCVQLxz/Gi0Y+aBGYtLmDl2XwFoyvEJyCC6jOdnCvKM3FTA8Kbh+r4JikGXjolX
+         t1Och1s3GSzCY3j3etJJaZv9thOYviuxXhQL1sza0+nx7ls0Z+NXIzMt2E2d3mAKMvWf
+         nJOI27k3//CNzF9zYJzd4VGr0/LTczhiB1Z7V/hy+7EUvC4cCd1K3KebJ7ig3nUTC4Tl
+         XfKA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1749102314; x=1749707114;
+        h=cc:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=kI4rB1xhXDB4mPMjWcH0Faew7q/TYJXbMsVVZEx9ERo=;
+        b=ZN+n5pbb3VG8XPsmaXsGqRGf5KvDQ7weP4ckrSFkxDKXSZUUAiHkd2EJf7QB3zgMvC
+         BXT/lkGOezQIiOaJNSNTqVlBVtCJR6/cZj1ZBn3jIxH08fhUa2NCYnG4J9DPxQ0u6RBi
+         arxU6F0Lz9pRx9a1SkxWsNFkLdTI+8DflHLotZ8vluT4aHFh3XU7QCRGjkIoI6h91KIw
+         3pKFZV1H666kTYj/2RB9cf+okBjUEDVT/8PdDDGJNqgpf/lOBNPVOntmmYinciVBVh16
+         s6lpb0r5vGPIk6XhsnQcHz/PozaXudf27i1tiOPzsEqttgXxaoNmr8WF9zGDhahDjnY7
+         ih/g==
+X-Forwarded-Encrypted: i=1; AJvYcCUfESmcFDJmdZpVLXIKkzZkojMizefQDPk0gvrCxX58i0aLLnLD7IxM39+eEE0OI5rr8VsX@tomag.co.ke
+X-Gm-Message-State: AOJu0YyWCc2If2A8Lu8PrrtjpywitCrSQsw4bXRll8CO3Q5q/2zI9SK+
+	phpuSUpHtv0aw1bNrUyGvzauxvckhczGf77j7kIjP3N9YdluO5Lf62QKHAyJU13n1ifMPDK65hm
+	BdMjHhZ3n83qlA4vnMR+F//1Ybmk0sH1l69tqI2ygtw==
+X-Gm-Gg: ASbGnctR/jkGc0Jew6RDKeVapcSJ4a8pruU5Z1t7rO6x8o5cMEBLQggn7RRsHW+nVv5
+	dtFYpzcZDxstVqnKVuIe2LVUpmNhsb1NQoVHjFph3TUMZ5YJIEJzyZwgzIZAKm1ksq1VNQry9lZ
+	7NhCq6pM/4+kF8IIS/de0g9xKHT0RZzhEGefmdb1PTrGNR
+X-Received: by 2002:a17:90b:264c:b0:311:c596:5c6f with SMTP id
+ 98e67ed59e1d1-3130cd2b4aamt9054682a91.17.1749102313740; Wed, 04 Jun 2025
+ 22:45:13 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAKcs9XjbFwU3mc_cCVfQzL88=BccY03iF6fJf6dxZRRiK46R2Q@mail.gmail.com>
+ <AM8PR09MB53216F828F7587828DB0F28CF66CA@AM8PR09MB5321.eurprd09.prod.outlook.com>
+ <VI1PR09MB39973D28E6AF8A472FEAD890E96CA@VI1PR09MB3997.eurprd09.prod.outlook.com>
+In-Reply-To: <VI1PR09MB39973D28E6AF8A472FEAD890E96CA@VI1PR09MB3997.eurprd09.prod.outlook.com>
+From: Joseph Oguk <joseph.oguk.ext@bamburigroup.com>
+Date: Thu, 5 Jun 2025 08:45:01 +0300
+X-Gm-Features: AX0GCFvcV3A5qEto-fFHSKrpxKx3RiLCdLEtlryMT0Ps2c4Ga4tFlZQ9Ix9qH60
+Message-ID:<CAKcs9Xga4Sh99BDvZ39gX9sUQNmZGzSGzKJ6juyDMq93ph2Kgg@mail.gmail.com>
+Subject: Re: RFQ - 1kVA UPS for Rack Cabinets
+Cc: Tormoi KIPRONO <ceasar.kiprono@bamburigroup.com>, 
+	Dorcas Shikobe <dorcas.shikobe.ext@bamburigroup.com>
+Content-Type: multipart/alternative; boundary="00000000000018084b0636cc9ec9"
+Bcc: info@tomag.co.ke
+X-ZM-MESSAGEID: 1749102315430131300
+X-ZohoMail-Status: 1
+
+
+--00000000000018084b0636cc9ec9
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear sir/madam
+We bring into your attention  the following request for quotation. Kindly
+note the deadline for the submission of your offer is *10th June 2025*.
+*Kindly ignore the previous attachment*.
+
+No
+Part Number
+Description
+Qty
+1.0.0
+1.0.1
+SMT1000RMI2U
+APC Smart-UPS, Line Interactive,
+1000VA, Rackmount 2U, 230V, 4x
+IEC C13 outlets, SmartSlot, AVR,
+LCD
+30
+1.0.2 USB cable (included)
+1.0.3 Documentation CD (included)
+1.0.4 Installation guide(included)
+1.0.5 Rack mounting support rails (included)
+1.0.6 Smart UPS signalling RS-232 cable (included)
+
+Kind regards,
+Joseph Oguk
+Procurement
+Bamburi Cement PLC
+Old Mombasa Road - Off Namanga Road
+P.O Box 524 - 00204, Athi River, Kenya
+Email; Joseph.oguk.ext@Bamburigroup.com
+www.bamburigroup.com
+A Member of Amsons Group
+
+
+
+
+
+
+
+On Wed, Jun 4, 2025 at 5:28=E2=80=AFPM Fiona Munyaka <FMunyaka@proscene.co.=
+ke>
+wrote:
+
+> Hello Joseph,
+>
+> I hope this email finds you well.
+>
+> As per your request, please find attached the quotation for the APC UPSs.
+>
+> Feel free to contact us if you have any questions.
+>
+> Kind regards,
+>
+> *Fiona Munyaka*
+>
+> Sales Administrator
+>
+> *O:* +254 713 761269 | M: +254 707 742865
+>
+> Fmunyaka@proscene.co.ke | www. <http://www.proscene.co.ke/>proscene.co.ke
+> <http://www.proscene.co.ke/>
+>
+>
+>
+> ------------------------------
+>
+>
+>
+>
+> *From:* Joseph Oguk <joseph.oguk.ext@bamburigroup.com>
+> *Sent:* Wednesday, June 4, 2025 9:44 AM
+> *Cc:* Tormoi KIPRONO <ceasar.kiprono@bamburigroup.com>; Dorcas Shikobe <
+> dorcas.shikobe.ext@bamburigroup.com>
+> *Subject:* RFQ - 1kVA UPS for Rack Cabinets
+>
+>
+>
+> Dear sir/madam
+>
+> We bring into your attention  the following request for quotation. Kindly
+> note the deadline for the submission of your offer is 10th June 2025.
+>
+>
+>
+> *Analysis for APC 1kVA UPS to be Deployed in Rack Cabinets without Clean
+> Power*
+>
+> *No*
+>
+> *Part Number*
+>
+> *Description*
+>
+> *Qty*
+>
+> *Vendor1*
+>
+> *Vendor2*
+>
+> *Vendor3*
+>
+> *Vendor4*
+>
+> *Unit Cost*
+>
+> *Total Cost*
+>
+> *Unit Cost*
+>
+> *Total Cost*
+>
+> *Unit Cost*
+>
+> *Total Cost*
+>
+> *Unit Cost*
+>
+> *Total Cost*
+>
+> *1.0.0*
+>
+> 1.0.1
+>
+> SMT1000RMI2U
+>
+> APC Smart-UPS, Line Interactive,
+> 1000VA, Rackmount 2U, 230V, 4x
+> IEC C13 outlets, SmartSlot, AVR,
+> LCD
+>
+> 30
+>
+> 1.0.2
+>
+> USB cable (included)
+>
+> 1.0.3
+>
+> Documentation CD (included)
+>
+> 1.0.4
+>
+> Installation guide(included)
+>
+> 1.0.5
+>
+> Rack mounting support rails (included)
+>
+> 1.0.6
+>
+> Smart UPS signalling RS-232 cable (included)
+>
+> Kind regards,
+>
+> Joseph Oguk
+>
+> Procurement
+>
+> Bamburi Cement PLC
+>
+> Old Mombasa Road - Off Namanga Road
+>
+> P.O Box 524 - 00204, Athi River, Kenya
+>
+> Email; *Joseph.oguk.ext@Bamburigroup.com
+> <Joseph.oguk.ext@Bamburigroup.com>*
+>
+> *www.bamburigroup.com <http://www.bamburigroup.com>*
+>
+> A Member of Amsons Group
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+
+--00000000000018084b0636cc9ec9
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div>Dear sir/madam</div><div>We bring into your atte=
+ntion=C2=A0 the following request for quotation. Kindly note the deadline f=
+or the submission=C2=A0of your offer is <b>10th June 2025</b>.=C2=A0</div><=
+div><b>Kindly ignore the previous attachment</b>.</div><div><br></div></div=
+><div><table cellspacing=3D"0" cellpadding=3D"0" dir=3D"ltr" border=3D"1" s=
+tyle=3D"table-layout:fixed;font-size:10pt;font-family:Arial;width:0px;borde=
+r-collapse:collapse;border:none"><colgroup><col width=3D"59"><col width=3D"=
+141"><col width=3D"285"><col width=3D"100"></colgroup><tbody><tr style=3D"h=
+eight:21px"><td style=3D"border-width:1px 1px 1px 2px;border-style:solid;bo=
+rder-color:rgb(153,153,153) rgb(153,153,153) rgb(153,153,153) rgb(0,0,0);ov=
+erflow:hidden;padding:2px 3px;vertical-align:middle;background-color:rgb(23=
+0,145,56);font-family:Calibri;font-size:12pt;font-weight:bold;color:rgb(255=
+,255,255);text-align:center" rowspan=3D"2" colspan=3D"1"><div style=3D"max-=
+height:42px">No</div></td><td style=3D"border-width:1px;border-style:solid;=
+border-color:rgb(153,153,153) rgb(153,153,153) rgb(153,153,153) rgb(204,204=
+,204);overflow:hidden;padding:2px 3px;vertical-align:middle;background-colo=
+r:rgb(230,145,56);font-family:Calibri;font-size:12pt;font-weight:bold;color=
+:rgb(255,255,255);text-align:center" rowspan=3D"2" colspan=3D"1"><div style=
+=3D"max-height:42px">Part Number</div></td><td style=3D"border-width:1px;bo=
+rder-style:solid;border-color:rgb(153,153,153) rgb(153,153,153) rgb(153,153=
+,153) rgb(204,204,204);overflow:hidden;padding:2px 3px;vertical-align:middl=
+e;background-color:rgb(230,145,56);font-family:Calibri;font-size:12pt;font-=
+weight:bold;color:rgb(255,255,255);text-align:center" rowspan=3D"2" colspan=
+=3D"1"><div style=3D"max-height:42px">Description</div></td><td style=3D"bo=
+rder-width:1px;border-style:solid;border-color:rgb(153,153,153) rgb(153,153=
+,153) rgb(153,153,153) rgb(204,204,204);overflow:hidden;padding:2px 3px;ver=
+tical-align:middle;background-color:rgb(230,145,56);font-family:Calibri;fon=
+t-size:12pt;font-weight:bold;color:rgb(255,255,255);text-align:center" rows=
+pan=3D"2" colspan=3D"1"><div style=3D"max-height:42px">Qty</div></td></tr><=
+tr style=3D"height:21px"></tr><tr style=3D"height:21px"><td style=3D"border=
+-width:1px 1px 1px 2px;border-style:solid;border-color:rgb(204,204,204) rgb=
+(204,204,204) rgb(153,153,153) rgb(0,0,0);overflow:hidden;padding:2px 3px;v=
+ertical-align:middle;background-color:rgb(60,120,216);font-family:Calibri;f=
+ont-size:11pt;font-weight:bold;color:rgb(255,255,255);text-align:center">1.=
+0.0</td><td style=3D"border-width:1px;border-style:solid;border-color:rgb(2=
+04,204,204) rgb(153,153,153) rgb(153,153,153) rgb(204,204,204);overflow:hid=
+den;padding:2px 3px;vertical-align:middle;background-color:rgb(60,120,216)"=
+ rowspan=3D"1" colspan=3D"3"></td></tr><tr style=3D"height:21px"><td style=
+=3D"border-width:1px 1px 1px 2px;border-style:solid;border-color:rgb(204,20=
+4,204) rgb(153,153,153) rgb(153,153,153) rgb(0,0,0);overflow:hidden;padding=
+:2px 3px;vertical-align:middle;font-family:Calibri;font-size:11pt;text-alig=
+n:center">1.0.1</td><td style=3D"border-width:1px 1px 2px;border-style:soli=
+d;border-color:rgb(204,204,204) rgb(153,153,153) rgb(0,0,0) rgb(204,204,204=
+);overflow:hidden;padding:2px 3px;vertical-align:middle;font-family:Calibri=
+;font-size:11pt" rowspan=3D"6" colspan=3D"1"><div style=3D"max-height:126px=
+">SMT1000RMI2U</div></td><td style=3D"border-width:1px;border-style:solid;b=
+order-color:rgb(204,204,204) rgb(153,153,153) rgb(153,153,153) rgb(204,204,=
+204);overflow:hidden;padding:2px 3px;vertical-align:middle;font-family:Cali=
+bri;font-size:11pt"> APC Smart-UPS, Line Interactive,
+<br>1000VA, Rackmount 2U, 230V, 4x
+<br>IEC C13 outlets, SmartSlot, AVR,
+<br>LCD</td><td style=3D"border-width:1px 1px 2px;border-style:solid;border=
+-color:rgb(204,204,204) rgb(153,153,153) rgb(0,0,0) rgb(204,204,204);overfl=
+ow:hidden;padding:2px 3px;vertical-align:middle;font-family:Calibri;font-si=
+ze:11pt;text-align:center" rowspan=3D"6" colspan=3D"1"><div style=3D"max-he=
+ight:126px">30</div></td></tr><tr style=3D"height:21px"><td style=3D"border=
+-width:1px 1px 1px 2px;border-style:solid;border-color:rgb(204,204,204) rgb=
+(153,153,153) rgb(153,153,153) rgb(0,0,0);overflow:hidden;padding:2px 3px;v=
+ertical-align:middle;font-family:Calibri;font-size:11pt;text-align:center">=
+1.0.2</td><td style=3D"border-width:1px;border-style:solid;border-color:rgb=
+(204,204,204) rgb(153,153,153) rgb(153,153,153) rgb(204,204,204);overflow:h=
+idden;padding:2px 3px;vertical-align:middle;font-family:Calibri;font-size:1=
+1pt">USB cable (included)</td></tr><tr style=3D"height:21px"><td style=3D"b=
+order-width:1px 1px 1px 2px;border-style:solid;border-color:rgb(204,204,204=
+) rgb(153,153,153) rgb(153,153,153) rgb(0,0,0);overflow:hidden;padding:2px =
+3px;vertical-align:middle;font-family:Calibri;font-size:11pt;text-align:cen=
+ter">1.0.3</td><td style=3D"border-width:1px;border-style:solid;border-colo=
+r:rgb(204,204,204) rgb(153,153,153) rgb(153,153,153) rgb(204,204,204);overf=
+low:hidden;padding:2px 3px;vertical-align:middle;font-family:Calibri;font-s=
+ize:11pt">Documentation CD (included)</td></tr><tr style=3D"height:21px"><t=
+d style=3D"border-width:1px 1px 1px 2px;border-style:solid;border-color:rgb=
+(204,204,204) rgb(153,153,153) rgb(153,153,153) rgb(0,0,0);overflow:hidden;=
+padding:2px 3px;vertical-align:middle;font-family:Calibri;font-size:11pt;te=
+xt-align:center">1.0.4</td><td style=3D"border-width:1px;border-style:solid=
+;border-color:rgb(204,204,204) rgb(153,153,153) rgb(153,153,153) rgb(204,20=
+4,204);overflow:hidden;padding:2px 3px;vertical-align:middle;font-family:Ca=
+libri;font-size:11pt">Installation guide(included)</td></tr><tr style=3D"he=
+ight:21px"><td style=3D"border-width:1px 1px 1px 2px;border-style:solid;bor=
+der-color:rgb(204,204,204) rgb(153,153,153) rgb(153,153,153) rgb(0,0,0);ove=
+rflow:hidden;padding:2px 3px;vertical-align:middle;font-family:Calibri;font=
+-size:11pt;text-align:center">1.0.5</td><td style=3D"border-width:1px;borde=
+r-style:solid;border-color:rgb(204,204,204) rgb(153,153,153) rgb(153,153,15=
+3) rgb(204,204,204);overflow:hidden;padding:2px 3px;vertical-align:middle;f=
+ont-family:Calibri;font-size:11pt">Rack mounting support rails (included)</=
+td></tr><tr style=3D"height:21px"><td style=3D"border-width:1px 1px 2px 2px=
+;border-style:solid;border-color:rgb(204,204,204) rgb(153,153,153) rgb(0,0,=
+0) rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:middle;font-fa=
+mily:Calibri;font-size:11pt;text-align:center">1.0.6</td><td style=3D"borde=
+r-width:1px 1px 2px;border-style:solid;border-color:rgb(204,204,204) rgb(15=
+3,153,153) rgb(0,0,0) rgb(204,204,204);overflow:hidden;padding:2px 3px;vert=
+ical-align:middle;font-family:Calibri;font-size:11pt">Smart UPS signalling =
+RS-232 cable (included)</td></tr></tbody></table><br></div><div><br></div><=
+div><div dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"gmail_sign=
+ature"><div dir=3D"ltr"><div>Kind regards,</div><div>Joseph Oguk</div><div>=
+Procurement</div><div>Bamburi Cement PLC</div><div>Old Mombasa Road - Off N=
+amanga Road</div><div>P.O Box 524 - 00204, Athi River, Kenya</div><div>Emai=
+l; Joseph.oguk.ext@Bamburigroup.com</div><div><a href=3D"http://www.bamburi=
+group.com" target=3D"_blank">www.bamburigroup.com</a></div><div>A Member of=
+ Amsons Group</div><div></div><div><div><b><br></b></div><div><b><br></b></=
+div><div><br></div><div><br></div></div><div><br></div></div></div></div><b=
+r></div><br><div class=3D"gmail_quote gmail_quote_container"><div dir=3D"lt=
+r" class=3D"gmail_attr">On Wed, Jun 4, 2025 at 5:28=E2=80=AFPM Fiona Munyak=
+a &lt;<a href=3D"mailto:FMunyaka@proscene.co.ke">FMunyaka@proscene.co.ke</a=
+>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px=
+ 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1ex">
+
+
+
+
+
+
+<div dir=3D"ltr">
+<div style=3D"font-family:Calibri,Helvetica,sans-serif;font-size:11pt;color=
+:rgb(0,0,0)">
+Hello Joseph,</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif;font-size:11pt;color=
+:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif;font-size:11pt;color=
+:rgb(0,0,0)">
+I hope this email finds=C2=A0you well.</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif;font-size:11pt;color=
+:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif;font-size:11pt;color=
+:rgb(0,0,0)">
+As per your request, please find=C2=A0attached the quotation for the APC UP=
+Ss.</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif;font-size:11pt;color=
+:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif;font-size:11pt;color=
+:rgb(0,0,0)">
+Feel free to contact us if you=C2=A0have any questions.</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif;font-size:11pt;color=
+:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif;font-size:11pt;color=
+:rgb(0,0,0)">
+Kind regards,</div>
+<div id=3D"m_5160288554151606360Signature">
+<div style=3D"font-family:Calibri,Helvetica,sans-serif;font-size:11pt;color=
+:rgb(0,0,0)">
+<br>
+</div>
+<p style=3D"text-align:left;text-indent:0px;line-height:22px;background-col=
+or:white;margin:0px">
+<span style=3D"font-family:Arial,sans-serif;font-size:9pt;color:rgb(0,30,98=
+);line-height:18px"><b>Fiona Munyaka</b></span></p>
+<p style=3D"text-align:left;text-indent:0px;background-color:white;margin:0=
+px">
+<span style=3D"font-family:Arial,sans-serif;font-size:9pt;color:rgb(0,30,98=
+);line-height:18px">Sales=C2=A0Administrator=C2=A0</span></p>
+<p style=3D"text-align:left;text-indent:0px;background-color:white;margin:0=
+px">
+<span style=3D"font-family:Arial,sans-serif;font-size:9pt;color:rgb(0,30,98=
+);line-height:18px"><b>O:</b>=C2=A0+254 713 761269 |=C2=A0M:=C2=A0+254 707 =
+742865</span></p>
+<p style=3D"text-align:left;text-indent:0px;line-height:22px;background-col=
+or:white;margin:0px">
+<span style=3D"font-family:Arial,sans-serif;font-size:9pt;color:black;line-=
+height:18px"><a href=3D"mailto:Fmunyaka@proscene.co.ke" id=3D"m_51602885541=
+51606360OWA7c464f92-13d8-8469-e6de-aa7c0e3c8748" title=3D"mailto:Fmunyaka@p=
+roscene.co.ke" style=3D"margin:0px" target=3D"_blank">Fmunyaka@proscene.co.=
+ke</a></span><span style=3D"font-family:&quot;Times New Roman&quot;,serif;f=
+ont-size:9pt;color:black;line-height:18px">=C2=A0</span><span style=3D"font=
+-family:Arial,sans-serif;font-size:9pt;color:rgb(68,114,196);line-height:18=
+px">|
+</span><span style=3D"font-family:Arial,sans-serif;font-size:9pt;color:blac=
+k;line-height:18px"><a href=3D"http://www.proscene.co.ke/" id=3D"m_51602885=
+54151606360OWA6870adc1-3d46-0287-ad19-972109db5598" title=3D"http://www.pro=
+scene.co.ke/" rel=3D"noopener noreferrer" style=3D"margin:0px" target=3D"_b=
+lank">www.</a></span><span style=3D"font-family:Arial,sans-serif;font-size:=
+9pt;color:black;background-color:white;line-height:18px"><a href=3D"http://=
+www.proscene.co.ke/" id=3D"m_5160288554151606360OWA60cee009-1b48-c3f4-ed76-=
+c1ae0cd279db" title=3D"http://www.proscene.co.ke/" rel=3D"noopener noreferr=
+er" style=3D"margin:0px" target=3D"_blank">proscene.co.ke</a></span></p>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif;font-size:12pt;color=
+:rgb(0,0,0)">
+<br>
+</div>
+</div>
+<div id=3D"m_5160288554151606360appendonsend"></div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif;font-size:11pt;color=
+:rgb(0,0,0)">
+<br>
+</div><br>
+<hr style=3D"display:inline-block;width:98%">
+<div id=3D"m_5160288554151606360divRplyFwdMsg">
+<div style=3D"direction:ltr;font-family:Aptos,sans-serif;font-size:12pt;col=
+or:rgb(0,0,0)">
+=C2=A0</div>
+</div>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">=C2=A0<=
+/p>
+<div style=3D"padding:3pt 0in 0in">
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt"><span s=
+tyle=3D"font-family:Calibri,sans-serif;font-size:11pt"><b>From:</b>=C2=A0Jo=
+seph Oguk &lt;<a href=3D"mailto:joseph.oguk.ext@bamburigroup.com" target=3D=
+"_blank">joseph.oguk.ext@bamburigroup.com</a>&gt;<br>
+<b>Sent:</b>=C2=A0Wednesday, June 4, 2025 9:44 AM<br>
+<b>Cc:</b>=C2=A0Tormoi KIPRONO &lt;<a href=3D"mailto:ceasar.kiprono@bamburi=
+group.com" target=3D"_blank">ceasar.kiprono@bamburigroup.com</a>&gt;; Dorca=
+s Shikobe &lt;<a href=3D"mailto:dorcas.shikobe.ext@bamburigroup.com" target=
+=3D"_blank">dorcas.shikobe.ext@bamburigroup.com</a>&gt;<br>
+<b>Subject:</b>=C2=A0RFQ - 1kVA UPS for Rack Cabinets</span></p>
+</div>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">=C2=A0<=
+/p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">Dear si=
+r/madam</p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">We brin=
+g into your attention=C2=A0 the following request for quotation. Kindly not=
+e the deadline for the submission=C2=A0of your offer is 10th June 2025.</p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">=C2=A0<=
+/p>
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"box-sizing:border-box;b=
+order-collapse:collapse;border-spacing:0px">
+<tbody>
+<tr>
+<td colspan=3D"12" style=3D"border-width:1.5pt 1.5pt 1pt;border-style:solid=
+;border-color:black black rgb(153,153,153);background-color:aqua;padding:1.=
+5pt 2.25pt;height:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;font-size:14pt;color:black"><=
+b>Analysis for APC 1kVA UPS to be Deployed in Rack Cabinets without Clean P=
+ower</b></span></p>
+</td>
+</tr>
+<tr>
+<td rowspan=3D"2" style=3D"border-right:1pt solid rgb(153,153,153);border-b=
+ottom:1pt solid rgb(153,153,153);border-left:1.5pt solid black;background-c=
+olor:rgb(230,145,56);padding:1.5pt 2.25pt;height:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>No</b></span>=
+</p>
+</td>
+<td rowspan=3D"2" style=3D"border-right:1pt solid rgb(153,153,153);border-b=
+ottom:1pt solid rgb(153,153,153);background-color:rgb(230,145,56);padding:1=
+.5pt 2.25pt;height:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Part Number</=
+b></span></p>
+</td>
+<td rowspan=3D"2" style=3D"border-right:1pt solid rgb(153,153,153);border-b=
+ottom:1pt solid rgb(153,153,153);background-color:rgb(230,145,56);padding:1=
+.5pt 2.25pt;height:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Description</=
+b></span></p>
+</td>
+<td rowspan=3D"2" style=3D"border-right:1pt solid rgb(153,153,153);border-b=
+ottom:1pt solid rgb(153,153,153);background-color:rgb(230,145,56);padding:1=
+.5pt 2.25pt;height:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Qty</b></span=
+></p>
+</td>
+<td colspan=3D"2" style=3D"border-right:1pt solid rgb(153,153,153);border-b=
+ottom:1pt solid rgb(153,153,153);background-color:rgb(230,145,56);padding:1=
+.5pt 2.25pt;height:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Vendor1</b></=
+span></p>
+</td>
+<td colspan=3D"2" style=3D"border-right:1pt solid rgb(153,153,153);border-b=
+ottom:1pt solid rgb(153,153,153);background-color:rgb(230,145,56);padding:1=
+.5pt 2.25pt;height:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Vendor2</b></=
+span></p>
+</td>
+<td colspan=3D"2" style=3D"border-right:1pt solid rgb(153,153,153);border-b=
+ottom:1pt solid rgb(153,153,153);background-color:rgb(230,145,56);padding:1=
+.5pt 2.25pt;height:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Vendor3</b></=
+span></p>
+</td>
+<td colspan=3D"2" style=3D"border-right:1pt solid rgb(153,153,153);border-b=
+ottom:1pt solid rgb(153,153,153);background-color:rgb(230,145,56);padding:1=
+.5pt 2.25pt;height:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Vendor4</b></=
+span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);background-color:rgb(230,145,56);padding:1.5pt 2.25pt;he=
+ight:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Unit Cost</b>=
+</span></p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);background-color:rgb(230,145,56);padding:1.5pt 2.25pt;he=
+ight:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Total Cost</b=
+></span></p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);background-color:rgb(230,145,56);padding:1.5pt 2.25pt;he=
+ight:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Unit Cost</b>=
+</span></p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);background-color:rgb(230,145,56);padding:1.5pt 2.25pt;he=
+ight:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Total Cost</b=
+></span></p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);background-color:rgb(230,145,56);padding:1.5pt 2.25pt;he=
+ight:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Unit Cost</b>=
+</span></p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);background-color:rgb(230,145,56);padding:1.5pt 2.25pt;he=
+ight:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Total Cost</b=
+></span></p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);background-color:rgb(230,145,56);padding:1.5pt 2.25pt;he=
+ight:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Unit Cost</b>=
+</span></p>
+</td>
+<td style=3D"border-right:1.5pt solid black;border-bottom:1pt solid rgb(153=
+,153,153);background-color:rgb(230,145,56);padding:1.5pt 2.25pt;height:15.7=
+5pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;color:white"><b>Total Cost</b=
+></span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"border-right:1pt solid rgb(204,204,204);border-bottom:1pt soli=
+d rgb(153,153,153);border-left:1.5pt solid black;background-color:rgb(60,12=
+0,216);padding:1.5pt 2.25pt;height:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;font-size:11pt;color:white"><=
+b>1.0.0</b></span></p>
+</td>
+<td colspan=3D"3" style=3D"border-right:1pt solid rgb(153,153,153);border-b=
+ottom:1pt solid rgb(153,153,153);background-color:rgb(60,120,216);padding:1=
+.5pt 2.25pt;height:15.75pt">
+</td>
+<td colspan=3D"8" style=3D"border-right:1.5pt solid black;border-bottom:1pt=
+ solid rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+</tr>
+<tr>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);border-left:1.5pt solid black;padding:1.5pt 2.25pt;heigh=
+t:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;font-size:11pt">1.0.1</span><=
+/p>
+</td>
+<td rowspan=3D"6" style=3D"border-right:1pt solid rgb(153,153,153);border-b=
+ottom:1.5pt solid black;padding:1.5pt 2.25pt;height:15.75pt">
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt"><span s=
+tyle=3D"font-family:Calibri,sans-serif;font-size:11pt">SMT1000RMI2U</span><=
+/p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt"><span s=
+tyle=3D"font-family:Calibri,sans-serif;font-size:11pt">APC Smart-UPS, Line =
+Interactive,<br>
+1000VA, Rackmount 2U, 230V, 4x<br>
+IEC C13 outlets, SmartSlot, AVR,<br>
+LCD</span></p>
+</td>
+<td rowspan=3D"6" style=3D"border-right:1pt solid rgb(153,153,153);border-b=
+ottom:1.5pt solid black;padding:1.5pt 2.25pt;height:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;font-size:11pt">30</span></p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1.5pt solid black;border-bottom:1pt solid rgb(153=
+,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+</tr>
+<tr>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);border-left:1.5pt solid black;padding:1.5pt 2.25pt;heigh=
+t:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;font-size:11pt">1.0.2</span><=
+/p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt"><span s=
+tyle=3D"font-family:Calibri,sans-serif;font-size:11pt">USB cable (included)=
+</span></p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1.5pt solid black;border-bottom:1pt solid rgb(153=
+,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+</tr>
+<tr>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);border-left:1.5pt solid black;padding:1.5pt 2.25pt;heigh=
+t:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;font-size:11pt">1.0.3</span><=
+/p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt"><span s=
+tyle=3D"font-family:Calibri,sans-serif;font-size:11pt">Documentation CD (in=
+cluded)</span></p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d black;padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1.5pt solid black;border-bottom:1pt solid rgb(153=
+,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+</tr>
+<tr>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);border-left:1.5pt solid black;padding:1.5pt 2.25pt;heigh=
+t:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;font-size:11pt">1.0.4</span><=
+/p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt"><span s=
+tyle=3D"font-family:Calibri,sans-serif;font-size:11pt">Installation guide(i=
+ncluded)</span></p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid black;border-bottom:1pt solid rgb(153,1=
+53,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid black;border-bottom:1pt solid black;pad=
+ding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1.5pt solid black;border-bottom:1pt solid rgb(153=
+,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+</tr>
+<tr>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);border-left:1.5pt solid black;padding:1.5pt 2.25pt;heigh=
+t:15.75pt">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;font-size:11pt">1.0.5</span><=
+/p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt"><span s=
+tyle=3D"font-family:Calibri,sans-serif;font-size:11pt">Rack mounting suppor=
+t rails (included)</span></p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1pt soli=
+d rgb(153,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1.5pt solid black;border-bottom:1pt solid rgb(153=
+,153,153);padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+</tr>
+<tr>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1.5pt so=
+lid black;border-left:1.5pt solid black;padding:1.5pt 2.25pt;height:15.75pt=
+">
+<p style=3D"text-align:center;margin:0in;font-family:Aptos,sans-serif;font-=
+size:12pt">
+<span style=3D"font-family:Calibri,sans-serif;font-size:11pt">1.0.6</span><=
+/p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1.5pt so=
+lid black;padding:1.5pt 2.25pt;height:15.75pt">
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt"><span s=
+tyle=3D"font-family:Calibri,sans-serif;font-size:11pt">Smart UPS signalling=
+ RS-232 cable (included)</span></p>
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1.5pt so=
+lid black;padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1.5pt so=
+lid black;padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1.5pt so=
+lid black;padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1.5pt so=
+lid black;padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1.5pt so=
+lid black;padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1.5pt so=
+lid black;padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1pt solid rgb(153,153,153);border-bottom:1.5pt so=
+lid black;padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+<td style=3D"border-right:1.5pt solid black;border-bottom:1.5pt solid black=
+;padding:1.5pt 2.25pt;height:15.75pt">
+</td>
+</tr>
+</tbody>
+</table>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">Kind re=
+gards,</p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">Joseph =
+Oguk</p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">Procure=
+ment</p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">Bamburi=
+ Cement PLC</p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">Old Mom=
+basa Road - Off Namanga Road</p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">P.O Box=
+ 524 - 00204, Athi River, Kenya</p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">Email; =
+<span style=3D"color:blue">
+<u><a href=3D"mailto:Joseph.oguk.ext@Bamburigroup.com" id=3D"m_516028855415=
+1606360OWAfba2d163-5e35-b829-572f-522e62beaa8d" style=3D"color:blue;margin-=
+top:0px;margin-bottom:0px" target=3D"_blank">Joseph.oguk.ext@Bamburigroup.c=
+om</a></u></span></p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt"><span s=
+tyle=3D"color:blue"><u><a href=3D"http://www.bamburigroup.com" id=3D"m_5160=
+288554151606360OWAdd30026f-ce93-3afa-b575-db0cfab7ac50" style=3D"color:blue=
+;margin-top:0px;margin-bottom:0px" target=3D"_blank">www.bamburigroup.com</=
+a></u></span></p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">A Membe=
+r of Amsons Group</p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">=C2=A0<=
+/p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">=C2=A0<=
+/p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">=C2=A0<=
+/p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">=C2=A0<=
+/p>
+<p style=3D"margin:0in;font-family:Aptos,sans-serif;font-size:12pt">=C2=A0<=
+/p>
+</div>
+
+</blockquote></div>
+
+--00000000000018084b0636cc9ec9--

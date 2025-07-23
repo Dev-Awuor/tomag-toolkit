@@ -1,0 +1,528 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of mail.ecuworldwide.com designates 202.162.243.115 as permitted sender) client-ip=202.162.243.115; envelope-from=campaign-ecuworldwidesmt-106001-1300001-7305-i-e=tomag.co.ke@mail.ecuworldwide.com; helo=newmta7-243.115.ncdelivery08.com;
+Authentication-Results: mx.zohomail.com;
+	spf=pass (zohomail.com: domain of mail.ecuworldwide.com designates 202.162.243.115 as permitted sender)  smtp.mailfrom=campaign-ecuworldwidesmt-106001-1300001-7305-i-e=tomag.co.ke@mail.ecuworldwide.com;
+	dmarc=pass(p=reject dis=none)  header.from=ecuworldwide.com
+ARC-Seal: i=1; a=rsa-sha256; t=1747655717; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=UKlsvIo1otfVOutxqRdC5ve2ycmjZqNrAVD7n7ZQpAW9RjGiPFLXCvuriJQaxfTktOKo5ebpQ1wmgP8LoHdZc+L+NddBaspd1yqnqtBBc+jiN0G7E9WrrivpHgIGJTw97YjeKKlxWD3K3uxOJyryxhNHwDp0KY5gSmaUoKsNEOI=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1747655717; h=Content-Type:Date:Date:From:From:List-Unsubscribe:MIME-Version:Message-ID:Reply-To:Reply-To:Subject:Subject:To:To:Message-Id:Cc; 
+	bh=jzPaFLXER5IAIPCvVOfokE3xy1bGx0aJp3Yv56cIS2g=; 
+	b=htC4R3BNHjRAQGPaWcBVX0pEInYQXXLZjUXoO8VXS9CiEnDEP5vhjEhIzx7FOc20MWJtOmU7G32iREwnUKekfBbjk5eO31olxztxRPH4a4xKQbsc2TPAJvEN6UxREgUh1Kyv1RAkDSAqWtSHeWtVLvBE2jWQxJUabOAcDec8sdw=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	spf=pass (zohomail.com: domain of mail.ecuworldwide.com designates 202.162.243.115 as permitted sender)  smtp.mailfrom=campaign-ecuworldwidesmt-106001-1300001-7305-i-e=tomag.co.ke@mail.ecuworldwide.com;
+	dmarc=pass header.from=<communications@ecuworldwide.com> (p=reject dis=none)
+Received: from newmta7-243.115.ncdelivery08.com (newmta7-243.115.ncdelivery08.com [202.162.243.115]) by mx.zohomail.com
+	with SMTP id 1747655717438948.3589455155901; Mon, 19 May 2025 04:55:17 -0700 (PDT)
+Return-Path: <campaign-ecuworldwidesmt-106001-1300001-7305-i-e=tomag.co.ke@mail.ecuworldwide.com>
+To: info@tomag.co.ke
+From: =?UTF-8?B?RUNVMzYwIENvbW11bmljYXRpb25zIERlc2s=?= <communications@ecuworldwide.com>
+Reply-To: =?UTF-8?B?RUNVMzYwIENvbW11bmljYXRpb25zIERlc2s=?= <communications@ecuworldwide.com>
+Subject: Cross Trade - Your Next Steps
+Message-ID:<22409690367305@mail.ecuworldwide.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://unsub-cee.netcorecloud.net/vtrack?ul=DwNTAkRVGVpbUlpxFl8IVFZNW14ZWVFJRRpQ&ml=CQNTBwhVVE8FSEk=&sl=ekwsdG0ZMGBJZ3hlHkAEW1QPWR9SUUFCVhQNXBJRVQMeB1lVHQk=&clientid=106001&c=000>, <mailto:uns-ecuworldwidesmt-106001-1300001-7305-i-eecdb33fa86cbcf5005543ae0ebd6878@mail.ecuworldwide.com?subject=Unsubscribe>
+X-Mailer: NetcoreCloud Mailer
+Feedback-ID: 1300:106001:20250519172508:nczc
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_76e1d9795619779ae8e748eef78293b8"
+Date: Mon, 19 May 2025 17:25:17 +0530
+X-ZohoMail-Owner: <22409690367305@mail.ecuworldwide.com>+zmo_0_campaign-ecuworldwidesmt-106001-1300001-7305-i-e=tomag.co.ke@mail.ecuworldwide.com
+X-ZM-MESSAGEID: 1747655722954131300
+X-ZohoMail-Status: 1
+
+
+
+
+
+--b1_76e1d9795619779ae8e748eef78293b8
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Cross Trade - Your Next Steps
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+Dear Customer,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+You recently showed interest in our 
+
+Cross Trade services.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+We noticed your engagement and are eager to assist you further.
+
+ 
+
+ 
+
+ 
+
+ 
+
+To help us connect you with the most suitable specialist, could you please share a few details about your requirements? For example, 
+
+which countries you're looking to ship between, or if this is a general inquiry to explore our services
+
+ in more detail.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Please reply to this mail with your requirement and we will find our best agent to support you with your need.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Look forward to guiding you through the next steps.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Best regards,
+
+ 
+
+
+Ian Mccarthy
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+@2025 | ECU Worldwide | All Rights Reserved
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+--Click Here to unsubscribe from this newsletter.
+
+
+--b1_76e1d9795619779ae8e748eef78293b8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta name="x-apple-disable-message-reformatting">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="telephone=no" name="format-detection">
+<title>
+Cross Trade - Your Next Steps
+</title>
+<!--[if (mso 16)]>
+<style type="text/css">
+a {text-decoration: none;} 
+</style>
+<![endif]-->
+<!--[if gte mso 9]>
+<style>
+sup { font-size: 100% !important; }
+</style>
+<![endif]-->
+<!--[if gte mso 9]>
+<noscript>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG>
+</o:AllowPNG>
+<o:PixelsPerInch>
+96 
+</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+</noscript>
+<![endif]-->
+<!--[if mso]>
+<xml>
+<w:WordDocument xmlns:w="urn:schemas-microsoft-com:office:word">
+<w:DontUseAdvancedTypographyReadingMail>
+</w:DontUseAdvancedTypographyReadingMail>
+</w:WordDocument>
+</xml>
+<![endif]-->
+<!--[if !mso]>
+<!-- -->
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+<!--<![endif]-->
+<style type="text/css">
+#outlook a { padding: 0; } .a { mso-style-priority: 100!important; text-decoration: none!important; } a[x-apple-data-detectors] { color: inherit!important; text-decoration: none!important; font-size: inherit!important; font-family: inherit!important; font-weight: inherit!important; line-height: inherit!important; } .bo { display: none; float: left; overflow: hidden; width: 0; max-height: 0; line-height: 0; mso-hide: all; } @media only screen and (max-width: 600px) { p, ul li, ol li, a { line-height: 150%!important } h1, h2, h3, h1 a, h2 a, h3 a { line-height: 120%!important } h1 { font-size:
+30px!important; text-align: left } h2 { font-size: 24px!important; text-align: left } h3 { font-size: 20px!important; text-align: left } .co p, .co ul li, .co ol li, .co a { font-size: 16px!important } .cn p, .cn ul li, .cn ol li, .cn a { font-size: 12px!important } *[class="gmail-fix"] { display: none!important } .cl, .cl h1, .cl h2, .cl h3 { text-align: left!important } .cj img, .ck img, .cl img { display: inline!important } .cc table, .cd table, .ce table, .cc, .ce, .cd { width: 100%!important; max-width: 600px!important } .adapt-img { width: 100%!important; height: auto!important } .bz {
+padding-right: 0!important } .bv { padding-bottom: 20px!important } .w { padding-right: 20px!important } .v { padding-left: 20px!important } } @media screen and (max-width: 384px) { .mail-message-content { width: 414px!important } } 
+</style>
+</head>
+<body data-new-gr-c-s-loaded="14.1233.0" style="width:100%;font-family:'Work Sans', Arial, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0">
+<div dir="ltr" class="es-wrapper-color" lang="en" style="background-color:#FAFAFA">
+<!--[if gte mso 9]>
+<v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+<v:fill type="tile" color="#fafafa">
+</v:fill>
+</v:background>
+<![endif]-->
+<table class="es-wrapper" width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;padding:0;Margin:0;width:100%;height:100%;background-repeat:repeat;background-position:center top;background-color:#FAFAFA">
+<tr>
+<td valign="top" style="padding:0;Margin:0">
+<table class="cc" cellspacing="0" cellpadding="0" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
+<tr>
+<td align="center" style="padding:0;Margin:0">
+<table class="co" cellspacing="0" cellpadding="0" bgcolor="#DCE8F3" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#DCE8F3;background-repeat:no-repeat;width:650px;background-image:url(https://fkmbpj.stripocdn.email/content/guids/CABINET_5d2b8b5aac0614877da8c45cf6d4244ca2e131afbff2d666f94a99f8745b70af/images/bg_1.png);background-position:center top" background="https://fkmbpj.stripocdn.email/content/guids/CABINET_5d2b8b5aac0614877da8c45cf6d4244ca2e131afbff2d666f94a99f8745b70af/images/bg_1.png">
+<tr>
+<td class="w v" align="left" bgcolor="#ffffff" style="padding:30px;Margin:0;background-color:#ffffff">
+<table cellspacing="0" cellpadding="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+<tr>
+<td class="bz" valign="top" align="center" style="padding:0;Margin:0;width:590px">
+<table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+<tr>
+<td align="left" class="cl" style="padding:0;Margin:0;font-size:0px">
+<a target="_blank" href="https://panela.ecuworldwide.com/vtrack?clientid=106001&ul=
+DwNTAkRVGVpbUlpxFl8IVFZNW14ZWVFJRRpQ&ml=CQNTBwhVVE8FSAYIWwkZ&sl=ekwgS202GWB4YElBA14AWVBNXVJCRVtHVQIWUQFdHwVfCUoI&pp=0&ga=utm_source%3DNetcore%26utm_campaign%3DCross%2BTrade%2BAFDC%2BASDC%2B19%2BMay%26utm_medium%3DEmail%26utm_content%3DTrucking%2B2&fl=UEQXR0tfShxDXVBGEUQXXEEMFlRaU11Z&ext="  style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#00356C;font-size:14px">
+<img src="https://fkmbpj.stripocdn.email/content/guids/CABINET_7ccba10136ae2dee57f2b1bcd979caa57ed70e53d244abf9397559e92b2e08dc/images/worldwide_logo_5_1.png" alt="Logo" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" height="65" title="Logo">
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="w v" align="left" bgcolor="#ffffff" style="padding:0;Margin:0;padding-left:40px;padding-right:40px;background-color:#ffffff">
+<table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+<tr>
+<td class="bz bv" valign="top" align="center" style="padding:0;Margin:0;width:570px">
+<table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+<tr>
+<td align="left" style="padding:0;Margin:0;padding-bottom:15px">
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#00356C;font-size:14px">
+<strong>
+Dear Customer,
+</strong>
+</p>
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#00356C;font-size:14px">
+<br>
+</p>
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#00356C;font-size:14px">
+You recently showed interest in our 
+<strong>
+Cross Trade services.
+</strong>
+</p>
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#00356C;font-size:14px">
+<br>
+</p>
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#00356C;font-size:14px">
+We noticed your engagement and are eager to assist you further.
+</p>
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#00356C;font-size:14px">
+<br>
+</p>
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#00356C;font-size:14px">
+To help us connect you with the most suitable specialist, could you please share a few details about your requirements? For example, 
+<strong>
+which countries you're looking to ship between, or if this is a general inquiry to explore our services
+</strong>
+in more detail.
+</p>
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#00356C;font-size:14px">
+<br>
+</p>
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#00356C;font-size:14px">
+Please reply to this mail with your requirement and we will find our best agent to support you with your need.
+</p>
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#00356C;font-size:14px">
+<br>
+</p>
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#00356C;font-size:14px">
+Look forward to guiding you through the next steps.
+</p>
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
+<br>
+</p>
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px;display:none">
+<br>
+</p>
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#00356C;font-size:14px">
+Best regards,
+</p>
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#00356C;font-size:14px">
+<strong>
+Ian Mccarthy
+</strong>
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellpadding="0" cellspacing="0" class="ce" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%;background-color:transparent;background-repeat:repeat;background-position:center top">
+<tr>
+<td align="center" style="padding:0;Margin:0">
+<table class="cn" cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#00356C;width:650px">
+<tr>
+<td align="left" bgcolor="#0b5394" style="Margin:0;padding-top:20px;padding-bottom:20px;padding-left:30px;padding-right:30px;background-color:#0b5394">
+<table cellspacing="0" cellpadding="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+<tr>
+<td align="left" style="padding:0;Margin:0;width:590px">
+<table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+<tr>
+<td align="center" style="padding:0;Margin:0;padding-top:5px;padding-bottom:5px">
+<p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#ffffff;font-size:12px">
+<strong>
+@2025 | ECU Worldwide | All Rights Reserved
+</strong>
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<br/>
+<div><p style='font-size: 12px;line-height: normal;font-family: arial;text-align: center;' >--<br><a href="https://panela.ecuworldwide.com/vtrack?clientid=106001&ul=
+DwNTAkRVGVpbUlpxFl8IVFZNW14ZWVFJRRpQ&ml=CQNTBwhVVE8FSAABVQEZ&sl=ekw2S202GWB4YElBA14AWVBNXVJCRVtHVQIWUQFdHwVfCUoI&pp=0&ga=utm_source%3DNetcore%26utm_campaign%3DCross%2BTrade%2BAFDC%2BASDC%2B19%2BMay%26utm_medium%3DEmail%26utm_content%3DTrucking%2B2&fl=UEQXRwJKSkNUWlBdAx4AVkQUV0NbVkNcXQNPWwpVHgNTEUFXE1VdQVBXUEpZEUw=&ext=cD1zbXVuc3ViJm1pZD0xMzAwJnVpZD1bVU5JUUlEXSZ3dmlkPTAwMQ=="  >Click Here</a> to unsubscribe from this newsletter.<br><br></div><img border="0" src="https://panela.ecuworldwide.com/vtrack?clientid=106001&ul=
+DwNTAkRVGVpbUlpxFl8IVFZNW14ZWVFJRRpQ&ml=CQNTBwhVVE8FSAVN&sl=ekwsS202GWB4YElBA14AWVBNXVJCRVtHVQIWUQFdHwVfCUoI&c=0000" >
+</body>
+</html>
+
+
+
+--b1_76e1d9795619779ae8e748eef78293b8--
+

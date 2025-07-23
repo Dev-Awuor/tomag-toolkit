@@ -1,0 +1,1631 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of mail18.atl261.mcdlv.net designates 198.2.142.18 as permitted sender) client-ip=198.2.142.18; envelope-from=bounce-mc.us1_152923466.11033966-ce187d7de2@mail18.atl261.mcdlv.net; helo=mail18.atl261.mcdlv.net;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass  header.i=canada=3Dafricanimpactinitiative.com@mailchimpapp.net;
+	spf=pass (zohomail.com: domain of mail18.atl261.mcdlv.net designates 198.2.142.18 as permitted sender)  smtp.mailfrom=bounce-mc.us1_152923466.11033966-ce187d7de2@mail18.atl261.mcdlv.net
+ARC-Seal: i=1; a=rsa-sha256; t=1749101394; cv=none; 
+	d=zohomail.com; s=zohoarc; 
+	b=N7Fk+JhMkODGT5dsf/nVib01f5mQxw/+3e9Zw3xnqmmU6Ww51FGBZGDA5k05zwJ00Q2EK2EyRZ2DqBS2IDFzTpJukKnjDrIjCw6+vptANKVksSszyj+q9xHnXTXWHBl5bAeIEdIZhzPbywewBIYnjUqOhVBPR2dEI/0JW9bzaWg=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1749101394; h=Content-Type:Date:Date:From:From:List-Id:List-Unsubscribe:MIME-Version:Message-ID:Reply-To:Reply-To:Subject:Subject:To:To:Message-Id:Cc; 
+	bh=jA/WbSh1aqnWidg6bgQpgojTpzPf6J/bZI1CUp4Xn7Y=; 
+	b=ZT0rwX76mhkwTdDRVKCLHZ8+QUezV2dcWdjsdO5BxUSE2CDNQ8gbqqEzbKFG7UsCEp18RewW6f3DoITTDapF/1wi2HI6Z9jzwyqdoDkelHYk8b9mk34w/Cx+BIPOa11KjnY+qFX6riNclX35DTZMwHOg+L2pSo3DNtwV0mgaG8c=
+ARC-Authentication-Results: i=1; mx.zohomail.com;
+	dkim=pass  header.i=canada=3Dafricanimpactinitiative.com@mailchimpapp.net;
+	spf=pass (zohomail.com: domain of mail18.atl261.mcdlv.net designates 198.2.142.18 as permitted sender)  smtp.mailfrom=bounce-mc.us1_152923466.11033966-ce187d7de2@mail18.atl261.mcdlv.net
+Return-Path: <bounce-mc.us1_152923466.11033966-ce187d7de2@mail18.atl261.mcdlv.net>
+Received: from mail18.atl261.mcdlv.net (mail18.atl261.mcdlv.net [198.2.142.18]) by mx.zohomail.com
+	with SMTPS id 1749101394510757.984805665201; Wed, 4 Jun 2025 22:29:54 -0700 (PDT)
+Received: from localhost (localhost [127.0.0.1])
+	by mail18.atl261.mcdlv.net (Mailchimp) with ESMTP id 4bCY1F0kpzzLfWsMP
+	for <info@tomag.co.ke>; Thu,  5 Jun 2025 05:29:53 +0000 (GMT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mailchimpapp.net;
+	s=k3; t=1749101393; x=1749371393;
+	i=canada=3Dafricanimpactinitiative.com@mailchimpapp.net;
+	bh=jA/WbSh1aqnWidg6bgQpgojTpzPf6J/bZI1CUp4Xn7Y=;
+	h=Subject:From:Reply-To:To:Date:Message-ID:X-MC-User:Feedback-ID:
+	 List-ID:List-Unsubscribe:List-Unsubscribe-Post:Content-Type:
+	 MIME-Version:CC:Date:Subject:From;
+	b=bigEbp/82EuTinjlDretprIYHLERnFIBhz26MV0tG/xNWns3ylmpk0Nk1EVTiQkZV
+	 7pHYPMC+JmUOXF3rjpLUCDvU84l1V5h/qCWAIGPzuNP3dbwTgO2hvXuBZc+aH7+O0B
+	 kszT924jI39+tNvEjv/8kfpaxY/JWa+/9kX1m2uBDCw3xXD7fQk32lc2nheHZZdJyz
+	 W8ihdK/PqmoqMfAk2CrTBvoIwcW3/Bqx9HdGhnBhYQq5kUns6JclnYD5Ccez7yofL+
+	 X0sM+uLZ0EhMb4t514fyQbPe9RXvfxIJmF1vrRqkHuAwkrjsSfc652640xAz7cGTrf
+	 0PY4pWolwVmTw==
+Subject: =?utf-8?Q?Be=20A=20Part=20of=20The=20African=20Impact=20Challenge=20Virtual=20Demo=20Day=F0=9F=98=83?=
+From: African Impact Initiative <canada@africanimpactinitiative.com>
+Reply-To: =?utf-8?Q?African=20Impact=20Initiative?= <canada@africanimpactinitiative.com>
+To: =?utf-8?Q?Agnes?= <info@tomag.co.ke>
+Date: Thu,  5 Jun 2025 05:29:45 +0000
+Message-ID:<c2a17277a916926b6b5f98a04.ce187d7de2.20250605052937.ef5428fd82.488339d9@mail18.atl261.mcdlv.net>
+X-Mailer: Mailchimp Mailer - **CIDef5428fd82ce187d7de2**
+X-Campaign: mailchimpc2a17277a916926b6b5f98a04.ef5428fd82
+X-campaignid: mailchimpc2a17277a916926b6b5f98a04.ef5428fd82
+X-Report-Abuse: Please report abuse for this campaign here: https://mailchimp.com/contact/abuse/?u=c2a17277a916926b6b5f98a04&id=ef5428fd82&e=ce187d7de2
+X-MC-User: c2a17277a916926b6b5f98a04
+Feedback-ID: 152923466:152923466.11033966:us1:mc
+List-ID: c2a17277a916926b6b5f98a04mc list <c2a17277a916926b6b5f98a04.1506222.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <https://africanimpact.us1.list-manage.com/unsubscribe?u=c2a17277a916926b6b5f98a04&id=3af1b0ecfa&t=h&e=ce187d7de2&c=ef5428fd82>, <mailto:unsubscribe-mc.us1_c2a17277a916926b6b5f98a04.ef5428fd82-ce187d7de2@unsubscribe.mailchimpapp.net?subject=unsubscribe>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_908638760"
+MIME-Version: 1.0
+X-ZohoMail-DKIM: pass (identity canada=africanimpactinitiative.com@mailchimpapp.net)
+X-ZohoMail-Owner: <c2a17277a916926b6b5f98a04.ce187d7de2.20250605052937.ef5428fd82.488339d9@mail18.atl261.mcdlv.net>+zmo_0_bounce-mc.us1_152923466.11033966-ce187d7de2@mail18.atl261.mcdlv.net
+X-ZM-MESSAGEID: 1749101397621131300
+X-ZohoMail-Status: 1
+
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_908638760
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+https://africanimpact.ca
+
+View this email in your browser (https://mailchi.mp/d28b4588bee1/be-the-ar=
+chitect-of-change-lead-africas-impact-revolution-11033966?e=3Dce187d7de2)
+
+Greetings Agnes=2C
+
+Welcome to the May edition of the African Impact Initiative (https://www.a=
+fricanimpact.ca/) Monthly Newsletter!
+
+We witnessed the power of community=2C collaboration=2C and storytelling i=
+n full force. From the Builders Summit in Lagos (https://foundersconnect.p=
+ixieset.com/thebuilderssummit2025/) =2C where ideas turned into blueprints=
+ for Africa=E2=80=99s future=2C to a historic Africa Day convening in Toro=
+nto (https://luckyosunbiyi.passgallery.com/-africanday2025/gallery) =2C wh=
+ere dialogue met action=E2=80=94we=E2=80=99ve been reminded that transform=
+ation doesn=E2=80=99t happen in silos. It takes all of us.
+
+We also released a brand-new documentary spotlighting Motobrixx (https://w=
+ww.youtube.com/watch?v=3DmraJEAJ8CrM&t=3D21s) =2C one of our incredible AI=
+C alumni=2C and we=E2=80=99re gearing up for the highly anticipated Virtua=
+l Demo Day (https://us06web.zoom.us/webinar/register/WN_FiLZ04XQRq2BeP18B8=
+tDiQ#/registration) =2C where our current cohort will pitch their bold sol=
+utions to the world.
+
+Each moment this May reaffirmed our belief in the brilliance of African ch=
+angemakers=E2=80=94and the power of global partnerships in amplifying thei=
+r work.
+
+Let=E2=80=99s dive into the highlights!
+
+Mark Your Calendars- You Sure Don=E2=80=99t Want To Miss Out On This!
+
+African Impact Challenge Virtual Demo Day
+https://us06web.zoom.us/webinar/register/WN_FiLZ04XQRq2BeP18B8tDiQ#/regist=
+ration
+
+We=E2=80=99re thrilled to announce that the African Impact Challenge (AIC)=
+ Virtual Demo Day 2025 (https://us06web.zoom.us/webinar/register/WN_FiLZ04=
+XQRq2BeP18B8tDiQ#/registration) is happening on Friday=2C June 27 from 10:=
+00 AM =E2=80=93 12:15 PM EST! Join us online from any part of the world as=
+ our 2024 African Impact Challenge cohort (https://www.africanimpact.ca/af=
+rican-impact-challenge-2024) of founders pitch their bold=2C high-impact v=
+entures to a global audience of investors=2C partners=2C and innovation le=
+aders.
+
+Be among the first to witness the next generation of African changemakers=
+=E2=80=94RSVP now and secure your spot! (https://us06web.zoom.us/webinar/r=
+egister/WN_FiLZ04XQRq2BeP18B8tDiQ#/registration)
+
+Register Today (https://us06web.zoom.us/webinar/register/WN_FiLZ04XQRq2BeP=
+18B8tDiQ#/registration)
+https://events.rwandapreneur.com/#events
+
+As Africa faces reduced international aid=2C increased trade protectionism=
+=2C and declining global investment=2C strategic collaboration is crucial=
+ to address emerging priority issues. Despite these external shocks=2C man=
+y African countries continue to demonstrate resiliency and adaptability by=
+ boosting regional trade=2C innovation and local investment.
+
+The African diaspora in Canada can be a major driver of economic resilienc=
+y by unlocking strategic investment and collaboration opportunities.
+
+Join us on Thursday June 26=2C 2025 (12:30pm-4pm) at Entrepreneurs Point -=
+ 117 Peter St Toronto=2C Canada for the Rwandapreneur =E2=80=93 Africa Tra=
+de & Investment Forum: Diaspora Edition=2C get to meet our founder- Efosa=
+ Obano (https://www.linkedin.com/in/efosa-kc-obano-83089685/) who will be=
+ one of the panelists.
+
+This exclusive=2C high-impact gathering will bring together industry leade=
+rs=2C ecosystem partners=2C founders=2C and investors to explore emerging=
+ opportunities for the African diaspora community in Canada and global par=
+tners to collaborate on trade and investment across the continent.
+
+This intimate=2C high-level forum will feature:
+* =EF=B8=8FVIP roundtable sessions
+* Diaspora led investment strategies
+* Emerging trends & opportunities - AI=2C trade=2C infrastructure=2C tech=
+=2C and more
+* Engaging networking
+
+Reserve your spot and learn more here (limited tickets available): Rwandap=
+reneur =E2=80=93 Africa Trade & Investment Forum: Diaspora Edition (https:=
+//events.rwandapreneur.com/#events)
+
+As a valued member of our community you get to enjoy exclusive access usin=
+g this promo code for tickets: #RATIF25
+
+Register Now (https://events.rwandapreneur.com/#events)
+
+Africa Day 2025 Recap: From Strategy to Action
+https://luckyosunbiyi.passgallery.com/-africanday2025/gallery
+
+This year=2C we celebrated Africa Day in a truly historic way.
+
+Under the theme =E2=80=9CBeyond Strategy: Driving Canada-Africa Impact=2C=
+=E2=80=9D we convened a powerful two-day gathering that brought together v=
+oices from across the continent and diaspora=E2=80=94representing over 40=
+ African countries. The conversations were honest=2C inclusive=2C and refr=
+eshingly open=E2=80=94finally taking place not behind closed doors=2C but=
+ out in the community where they belong.
+
+More than just dialogue=2C the convening laid the groundwork for real acti=
+on. We explored how to build a win-win Canada-Africa partnership=2C rooted=
+ in inclusion=2C collaboration=2C and shared purpose. It was a reminder th=
+at building a future that works for all of us will truly take a village.
+
+We=E2=80=99re deeply grateful to everyone who joined and engaged with pass=
+ion=E2=80=94from grassroots leaders to global policymakers. Special thanks=
+ to our co-hosts The ONE Campaign (https://www.one.org/us/) and African St=
+udies Centre at University of Toronto=2C and our partners Tribe Network (h=
+ttps://www.tribenetwork.ca/) =2C Grand Challenges Canada (https://www.gran=
+dchallenges.ca/) =2C Black Wealth Club (https://www.theala.ca/blackwealthc=
+lub) =2C and ALA (https://www.theala.ca/) for helping make it all possible=
+=2E
+
+Missed the open town hall on Day 2?
+
+You can still share your thoughts and get involved here (https://form.type=
+form.com/to/GahynyPB?typeform-source=3Dlnkd.in) .
+
+=F0=9F=93=B8 Explore the moments that made it special:
+
+Check out our public photo album here (https://luckyosunbiyi.passgallery.c=
+om/-africanday2025/gallery) .
+
+There=E2=80=99s still so much work to be done to turn strategies into tang=
+ible impact=E2=80=94but this gathering gave us hope. And as our founder=2C=
+ Efosa Obano said best=2C we=E2=80=99re trusting that what=E2=80=99s been=
+ started will grow in its own perfect time.
+
+The Builders Summit 2025 =E2=80=94 Momentum in Motion Recap
+https://foundersconnect.pixieset.com/thebuilderssummit2025/
+
+We are so happy to have been a headline sponsor in this year=E2=80=99s Bui=
+lders Summit that brought together founders=2C ecosystem enablers=2C inves=
+tors=2C mentors=2C and thought leaders from across Africa and the diaspora=
+=2E We tackled big questions around sustainability=2C innovation=2C and ecos=
+ystem growth while spotlighting the changemakers shaping the future of the=
+ continent.
+
+Highlights included:
+
+* Insightful panels on local-led solutions and founder resilience
+* Networking that sparked future collaborations
+* Hundreds of brilliant entrepreneurs who are building businesses that are=
+ working to solve some of the biggest challenges that Africa is grappling=
+ with
+* Keynote speeches that inspired us to build bigger and better
+
+Catch a glimpse of the energy and brilliance that filled the room in the e=
+vent gallery here. (https://foundersconnect.pixieset.com/thebuilderssummit=
+2025/)
+
+
+** Alumni Success Story: Motobrix: Transforming Waste into Clean Energy fo=
+r Kenyan Communities
+------------------------------------------------------------
+https://www.youtube.com/watch?v=3DmraJEAJ8CrM&t=3D21s
+
+In the heart of Mathare=2C Nairobi=2C Motobrix (https://www.facebook.com/M=
+otobrixlimited/) is pioneering a sustainable solution to energy poverty an=
+d environmental degradation. This social enterprise collects organic waste=
+ and transforms it into clean=2C affordable briquettes=2C providing a reli=
+able energy source for slum-dwellers. By converting waste into fuel=2C Mot=
+obrix (https://www.facebook.com/Motobrixlimited/) not only addresses waste=
+ management challenges but also offers an eco-friendly alternative to trad=
+itional charcoal and wood=2C contributing to climate action and community=
+ empowerment.
+
+Supported by the African Impact Initiative (https://www.africanimpact.ca/)=
+ through the 2021 African Impact Challenge (https://www.africanimpact.ca/a=
+frican-impact-challenge-2021) =2C Motobrix exemplifies youth-led innovatio=
+n driving positive change in Africa.
+
+Let=E2=80=99s Continue to Ignite Change Together!
+
+As we look ahead=2C we encourage you to stay connected with the African Im=
+pact Initiative (https://www.africanimpact.ca/) community. Whether you are=
+ a founder=2C investor=2C mentor=2C or supporter=2C your engagement is vit=
+al in driving positive change.
+
+Here=E2=80=99s how you can stay involved:
+
+Spread the Word: Share this newsletter with your network and help us grow=
+ this community.
+Join the Conversation: Follow us on LinkedIn (https://www.linkedin.com/com=
+pany/10938343/admin/dashboard/) =2C Twitter (https://x.com/africanimpactin=
+) =2C and Instagram (https://www.instagram.com/africanimpactin/) for real-=
+time updates and discussions.
+Get Involved: Whether through mentorship=2C funding=2C or collaboration=2C=
+ your support can help shape the future of African entrepreneurship.
+
+Thank you for being part of this journey. We look forward to sharing more=
+ updates and celebrating more milestones with you in the coming months.
+
+Become A Partner (https://form.typeform.com/to/WeQQILmB)
+https://facebook.com/africanimpactinitiative
+https://instagram.com/africanimpactin
+https://twitter.com/africanimpactin
+https://linkedin.com/company/african-impact-initiative
+https://www.africanimpact.ca/
+
+Subscribe (https://c98f5dc4.sibforms.com/serve/MUIEAHlNBkUt8kquaj3xswb5_1g=
+vLciIB5Zuj7MdvhYIct7u-6e2XqEumOydbzQQgclfGLYUoau3A03yj30gmhFmxFa-VNd_-D-cL=
+snX16CFvNRUUpv2qdWk2K-85P--RsMHSyJA5bftaVg2luiOs9AzjGqR-IJfFS0v0TJ03FmkiXl=
+aDb0l2L964ZNttIDjKQjJFndjVxH02v-J)
+https://africanimpact.ca
+
+Copyright (C) 2025 African Impact Initiative. All rights reserved.
+You are receiving this email because you opted in via our website.
+Our mailing address is:
+African Impact Initiative
+1265 Military Trail
+Toronto=2C Ontario M1C 1A4
+Canada
+Want to change how you receive these emails?
+You can update your preferences (https://africanimpact.us1.list-manage.com=
+/profile?u=3Dc2a17277a916926b6b5f98a04&id=3D3af1b0ecfa&e=3Dce187d7de2&c=3Def=
+5428fd82) or unsubscribe (https://africanimpact.us1.list-manage.com/unsubs=
+cribe?u=3Dc2a17277a916926b6b5f98a04&id=3D3af1b0ecfa&t=3Db&e=3Dce187d7de2&c=
+=3Def5428fd82)
+--_----------=_MCPart_908638760
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn=
+:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:of=
+fice"><head>
+<!--[if gte mso 15]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<meta charset=3D"UTF-8" />
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+<meta name=3D"viewport" content=3D"width=3Ddevice-width=2C initial-scale=
+=3D1" />
+<title>Be A Part of The African Impact Challenge Virtual Demo Day=F0=9F=98=
+=83</title>
+<link rel=3D"preconnect" href=3D"https://fonts.googleapis.com" />
+<link rel=3D"preconnect" href=3D"https://fonts.gstatic.com" crossorigin=3D=
+"" />
+<!--[if !mso]><!--><link rel=3D"stylesheet" type=3D"text/css" id=3D"newGo=
+ogleFontsStatic" href=3D"https://fonts.googleapis.com/css?family=3DDM+Sans=
+:400=2C400i=2C700=2C700i=2C900=2C900i" /><!--<![endif]--><style>        =
+  img{-ms-interpolation-mode:bicubic;}
+          table=2C td{mso-table-lspace:0pt; mso-table-rspace:0pt;}
+          .mceStandardButton=2C .mceStandardButton td=2C .mceStandardButto=
+n td a{mso-hide:all !important;}
+          p=2C a=2C li=2C td=2C blockquote{mso-line-height-rule:exactly;}
+          p=2C a=2C li=2C td=2C body=2C table=2C blockquote{-ms-text-size-=
+adjust:100%; -webkit-text-size-adjust:100%;}
+          @media only screen and (max-width: 480px){
+            body=2C table=2C td=2C p=2C a=2C li=2C blockquote{-webkit-text=
+-size-adjust:none !important;}
+          }
+          .mcnPreviewText{display: none !important;}
+          .bodyCell{margin:0 auto; padding:0; width:100%;}
+          .ExternalClass=2C .ExternalClass p=2C .ExternalClass td=2C .Exte=
+rnalClass div=2C .ExternalClass span=2C .ExternalClass font{line-height:10=
+0%;}
+          .ReadMsgBody{width:100%;} .ExternalClass{width:100%;}
+          a[x-apple-data-detectors]{color:inherit !important; text-decora=
+tion:none !important; font-size:inherit !important; font-family:inherit !i=
+mportant; font-weight:inherit !important; line-height:inherit !important;}
+            body{height:100%; margin:0; padding:0; width:100%; background:=
+ #ffffff;}
+            p{margin:0; padding:0;}
+            table{border-collapse:collapse;}
+            td=2C p=2C a{word-break:break-word;}
+            h1=2C h2=2C h3=2C h4=2C h5=2C h6{display:block; margin:0; padd=
+ing:0;}
+            img=2C a img{border:0; height:auto; outline:none; text-decorat=
+ion:none;}
+            a[href^=3D"tel"]=2C a[href^=3D"sms"]{color:inherit; cursor:d=
+efault; text-decoration:none;}
+            li p {margin: 0 !important;}
+            .ProseMirror a {
+                pointer-events: none;
+            }
+                  .mceColumn .mceButtonLink=2C
+                  .mceColumn-1 .mceButtonLink=2C
+                  .mceColumn-2 .mceButtonLink=2C
+                  .mceColumn-3 .mceButtonLink=2C
+                  .mceColumn-4 .mceButtonLink {min-width:30px;}
+            @media only screen and (max-width: 640px){
+                .mceClusterLayout td{padding: 4px !important;}
+            }
+            @media only screen and (max-width: 480px){
+                body{width:100% !important; min-width:100% !important; }
+                body.mobile-native {
+                    -webkit-user-select: none; user-select: none; transiti=
+on: transform 0.2s ease-in; transform-origin: top center;
+                }
+                body.mobile-native.selection-allowed a=2C body.mobile-nati=
+ve.selection-allowed .ProseMirror {
+                    user-select: auto;
+                    -webkit-user-select: auto;
+                }
+                colgroup{display: none;}
+                img{height: auto !important;}
+                .mceWidthContainer{max-width: 660px !important;}
+                .mceColumn{display: block !important; width: 100% !importa=
+nt;}
+                .mceColumn-forceSpan{display: table-cell !important; width=
+: auto !important;}
+                .mceColumn-forceSpan .mceButton a{min-width:0 !important;}
+                                  .mceReverseStack {display:table; width:=
+ 100%;}
+                             .mceColumn-1 {display:table-footer-group; wid=
+th: 100% !important;}
+                             .mceColumn-2 {display: block !important; widt=
+h: 100% !important;}
+                             .mceColumn-3 {display:table-header-group; wid=
+th: 100% !important;}
+                             .mceColumn-4 {display:table-caption; width: 1=
+00% !important;}
+                             .mceKeepColumns .mceButtonLink {min-width:0px=
+;}
+                .mceBlockContainer{padding-right:16px !important; padding-=
+left:16px !important;}
+                .mceTextBlockContainer{padding-right:16px !important; padd=
+ing-left:16px !important;}
+                .mceBlockContainerE2E{padding-right:0px; padding-left:0px;=
+}
+                .mceSpacing-24{padding-right:16px !important; padding-left=
+:16px !important;}
+                .mceImage=2C .mceLogo{width: 100% !important; height: auto=
+ !important;}
+                .mceFooterSection .mceText=2C .mceFooterSection .mceText p=
+{font-size: 16px !important; line-height: 140% !important;}
+            }
+            div[contenteditable=3D"true"] {outline: 0;}
+            .ProseMirror h1.empty-node:only-child::before=2C
+            .ProseMirror h2.empty-node:only-child::before=2C
+            .ProseMirror h3.empty-node:only-child::before=2C
+            .ProseMirror h4.empty-node:only-child::before {
+                content: 'Heading';
+            }
+            .ProseMirror p.empty-node:only-child::before=2C .ProseMirror:e=
+mpty::before {
+                content: 'Start typing...';
+            }
+            .mceImageBorder {display: inline-block;}
+            .mceImageBorder img {border: 0 !important;}
+body=2C #bodyTable { background-color: rgb(250=2C 175=2C 64); }.mceText=2C=
+ .mcnTextContent=2C .mceLabel { font-family: "Helvetica Neue"=2C Helvetica=
+=2C Arial=2C Verdana=2C sans-serif; }.mceText=2C .mcnTextContent=2C .mceLa=
+bel { color: rgb(0=2C 0=2C 0); }.mceSpacing-24 label { margin-bottom: 24px=
+; }.mceSpacing-24 input { margin-bottom: 24px; }.mceSpacing-24 .mceInput +=
+ .mceErrorMessage { margin-top: -12px; }.mceSpacing-12 label { margin-bott=
+om: 12px; }.mceSpacing-12 input { margin-bottom: 12px; }.mceSpacing-12 .mc=
+eInput + .mceErrorMessage { margin-top: -6px; }.mceInput { background-colo=
+r: transparent; border: 2px solid rgb(208=2C 208=2C 208); width: 60%; colo=
+r: rgb(77=2C 77=2C 77); display: block; }.mceInput[type=3D"radio"]=2C .mc=
+eInput[type=3D"checkbox"] { float: left; margin-right: 12px; display: inl=
+ine; width: auto !important; }.mceLabel > .mceInput { margin-bottom: 0px;=
+ margin-top: 2px; }.mceLabel { display: block; }.mceText p=2C .mcnTextCont=
+ent p { color: rgb(0=2C 0=2C 0); font-family: "Helvetica Neue"=2C Helvetic=
+a=2C Arial=2C Verdana=2C sans-serif; font-size: 16px; font-weight: normal;=
+ line-height: 1.5; mso-line-height-alt: 150%; text-align: left; letter-spa=
+cing: 0px; direction: ltr; margin: 0px; }.mceText h1=2C .mcnTextContent h1=
+ { color: rgb(0=2C 0=2C 0); font-family: "Helvetica Neue"=2C Helvetica=2C=
+ Arial=2C Verdana=2C sans-serif; font-size: 31px; font-weight: bold; line-=
+height: 1.5; mso-line-height-alt: 150%; text-align: left; letter-spacing:=
+ 0px; direction: ltr; }.mceText a=2C .mcnTextContent a { color: rgb(0=2C 0=
+=2C 0); font-style: normal; font-weight: normal; text-decoration: underlin=
+e; direction: ltr; }.mceSectionBody .mceText h1=2C .mceSectionBody .mcnTex=
+tContent h1 { }.mceSectionBody .mceText p=2C .mceSectionBody .mcnTextConte=
+nt p { }.mceSectionBody .mceText a=2C .mceSectionBody .mcnTextContent a {=
+ font-style: normal; }.mceSectionFooter .mceText p=2C .mceSectionFooter .m=
+cnTextContent p { }.mceSectionFooter .mceText a=2C .mceSectionFooter .mcnT=
+extContent a { font-style: normal; }
+@media only screen and (max-width: 480px) {
+            .mceText p { margin: 0px; font-size: 16px !important; line-hei=
+ght: 1.5 !important; mso-line-height-alt: 150%; }
+          }
+@media only screen and (max-width: 480px) {
+            .mceText h1 { font-size: 31px !important; line-height: 1.5 !im=
+portant; mso-line-height-alt: 150%; }
+          }
+@media only screen and (max-width: 480px) {
+            .bodyCell { padding-left: 16px !important; padding-right: 16px=
+ !important; }
+          }
+@media only screen and (max-width: 480px) {
+            .mceButtonContainer { width: fit-content !important; max-width=
+: fit-content !important; }
+          }
+@media only screen and (max-width: 480px) {
+            .mceButtonLink { padding: 18px 28px !important; font-size: 16p=
+x !important; }
+          }
+@media only screen and (max-width: 480px) {
+            .mceDividerBlock { border-top-width: 2px !important; }
+          }
+@media only screen and (max-width: 480px) {
+            .mceDividerContainer { width: 100% !important; }
+          }
+#dataBlockId-33 p=2C #dataBlockId-33 h1=2C #dataBlockId-33 h2=2C #dataBloc=
+kId-33 h3=2C #dataBlockId-33 h4=2C #dataBlockId-33 ul { text-align: center=
+; }#dataBlockId-5 p=2C #dataBlockId-5 h1=2C #dataBlockId-5 h2=2C #dataBloc=
+kId-5 h3=2C #dataBlockId-5 h4=2C #dataBlockId-5 ul { text-align: center; }=
+#dataBlockId-7 p=2C #dataBlockId-7 h1=2C #dataBlockId-7 h2=2C #dataBlockId=
+-7 h3=2C #dataBlockId-7 h4=2C #dataBlockId-7 ul { text-align: center; }</s=
+tyle></head>
+<body>
+<!--
+-->
+<!--[if !gte mso 9]><!----><span class=3D"mcnPreviewText" style=3D"displa=
+y:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opa=
+city:0; overflow:hidden; visibility:hidden; mso-hide:all;">Join us for an=
+ exciting African Impact Challenge Virtual Demo Day this June=2C get to me=
+et brilliant African changemakers shaping the future of Africa!</span><!--=
+<![endif]-->
+<!--
+-->
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">=CD=8F=
+ =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C=
+ =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0=
+ =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=
+  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+ =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F=
+ =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C=
+ =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0=
+ =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=
+  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+ =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F=
+ =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C=
+ =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0=
+ =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=
+  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+ =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F=
+ =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C=
+ =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0=
+ =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=
+  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+ =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F=
+ =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C=
+ =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0=
+ =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=
+  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+ =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F=
+ =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C=
+ =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0=
+ =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=
+  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+ =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F=
+ =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C=
+ =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0=
+ =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=
+  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+ =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F=
+ =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C=
+ =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0=
+ =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=
+  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+ =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F=
+ =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C=
+ =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0=
+ =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=
+  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+ =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F=
+ =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C=
+ =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0=
+ =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=
+  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+ =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F=
+ =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C=
+ =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0=
+ =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=
+  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+ =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F=
+ =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C=
+ =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0=
+ =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=
+  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+ =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F=
+ =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C=
+ =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0=
+ =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=
+  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+ =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F=
+ =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C=
+ =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0=
+ =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=
+  =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+ =CD=8F =E2=80=8C =C2=A0 =E2=80=87  =CD=8F =E2=80=8C =C2=A0 =E2=80=87=C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD=
+ =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=
+=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD =C2=AD</div><div styl=
+e=3D"display:none;"><img src=3D"https://africanimpact.us1.list-manage.com/=
+track/open.php?u=3Dc2a17277a916926b6b5f98a04&id=3Def5428fd82&e=3Dce187d7de2" height=3D"1" width=3D"1" style=3D"display:none;" alt=3D""></div>
+<center>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"100%" wi=
+dth=3D"100%" id=3D"bodyTable" style=3D"background-color: rgb(250=2C 175=2C=
+ 64);">
+<tbody><tr>
+<td class=3D"bodyCell" align=3D"center" valign=3D"top">
+<table id=3D"root" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%"><tbody data-block-id=3D"4" class=3D"mceWrapper"><tr><td style=3D=
+"background-color:#583300" valign=3D"top" align=3D"center" class=3D"mceSec=
+tionHeader"><!--[if (gte mso 9)|(IE)]><table align=3D"center" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" width=3D"660" style=3D"width:660px;"=
+><tr><td><![endif]--><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" width=3D"100%" style=3D"max-width:660px" role=3D"presentation"><tbody>=
+<tr><td style=3D"background-color:#ffffff" valign=3D"top" class=3D"mceWrap=
+perInner"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"100%" role=3D"presentation" data-block-id=3D"3"><tbody><=
+tr class=3D"mceRow"><td style=3D"background-position:center;background-rep=
+eat:no-repeat;background-size:cover" valign=3D"top"><table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentation"><tb=
+ody><tr><td style=3D"padding-top:0;padding-bottom:0" valign=3D"top" class=
+=3D"mceColumn" id=3D"mceColumnId--7" data-block-id=3D"-7" colspan=3D"12" w=
+idth=3D"100%"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"100%" role=3D"presentation"><tbody><tr><td style=3D"background-color:=
+transparent" valign=3D"top" id=3D"blockContainerId-1"><table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentation"=
+ data-block-id=3D"1"><tbody><tr><td valign=3D"top" class=3D"mceSpacerBlock=
+" height=3D"20"></td></tr></tbody></table></td></tr><tr><td style=3D"paddi=
+ng-top:12px;padding-bottom:12px;padding-right:0;padding-left:0" valign=3D"=
+top" class=3D"mceImageBlockContainer" align=3D"center" id=3D"blockContaine=
+rId-2"><div><!--[if !mso]><!--></div><a href=3D"https://africanimpact.us1=
+=2Elist-manage.com/track/click?u=3Dc2a17277a916926b6b5f98a04&id=3Dcfb902902d=
+&e=3Dce187d7de2" style=3D"display:block" target=3D"_blank" data-block-id=
+=3D"2"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" style=3D"border-collapse:separate;margin:0;vertical-=
+align:top;max-width:183.33333333333334px;width:100%;height:auto" role=3D"p=
+resentation" data-testid=3D"image-2"><tbody><tr><td style=3D"border:0;bord=
+er-radius:0;margin:0" valign=3D"top"><img alt=3D"Logo" src=3D"https://mcus=
+ercontent.com/c2a17277a916926b6b5f98a04/images/90dec1c0-1ab5-48e1-a40e-92a=
+4eba51eac.png" width=3D"183.33333333333334" height=3D"auto" style=3D"displ=
+ay:block;max-width:100%;height:auto;border-radius:0" class=3D"mceLogo" /><=
+/td></tr></tbody></table></a><div><!--<![endif]--></div><div>
+<!--[if mso]>
+<a href=3D"https://africanimpact.ca"><span class=3D"mceImageBorder" style=
+=3D"border:0;vertical-align:top;margin:0"><img role=3D"presentation" class=
+=3D"mceLogo" src=3D"https://mcusercontent.com/c2a17277a916926b6b5f98a04/im=
+ages/90dec1c0-1ab5-48e1-a40e-92a4eba51eac.png" alt=3D"Logo" width=3D"183.3=
+3333333333334" height=3D"auto" style=3D"display:block;max-width:183.333333=
+33333334px;width:183.33333333333334px;height:auto"/></span></a>
+<![endif]-->
+</div></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbod=
+y></table></td></tr></tbody></table><!--[if (gte mso 9)|(IE)]></td></tr><=
+/table><![endif]--></td></tr></tbody><tbody data-block-id=3D"31" class=3D=
+"mceWrapper"><tr><td style=3D"background-color:#583300" valign=3D"top" ali=
+gn=3D"center" class=3D"mceSectionBody"><!--[if (gte mso 9)|(IE)]><table a=
+lign=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"=
+660" style=3D"width:660px;"><tr><td><![endif]--><table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"max-width:660px" ro=
+le=3D"presentation"><tbody><tr><td style=3D"background-color:#ffffff" vali=
+gn=3D"top" class=3D"mceWrapperInner"><table align=3D"center" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentation"=
+ data-block-id=3D"30"><tbody><tr class=3D"mceRow"><td style=3D"background-=
+position:center;background-repeat:no-repeat;background-size:cover" valign=
+=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"=
+100%" role=3D"presentation"><tbody><tr><td style=3D"padding-top:0;padding-=
+bottom:0" valign=3D"top" class=3D"mceColumn" id=3D"mceColumnId--8" data-bl=
+ock-id=3D"-8" colspan=3D"12" width=3D"100%"><table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentation"><tbody><tr>=
+<td style=3D"padding-top:0;padding-bottom:0;padding-right:0;padding-left:0=
+" valign=3D"top" id=3D"blockContainerId-5"><table width=3D"100%" style=3D"=
+border:0;border-radius:0;border-collapse:separate"><tbody><tr><td style=3D=
+"padding-left:24px;padding-right:24px;padding-top:12px;padding-bottom:12px=
+" class=3D"mceTextBlockContainer"><div data-block-id=3D"5" class=3D"mceTex=
+t" id=3D"dataBlockId-5" style=3D"width:100%"><p class=3D"last-child"><a hr=
+ef=3D"https://mailchi.mp/d28b4588bee1/be-the-architect-of-change-lead-afri=
+cas-impact-revolution-11033966?e=3Dce187d7de2">View this email in your brows=
+er</a></p></div></td></tr></tbody></table></td></tr><tr><td style=3D"paddi=
+ng-top:0;padding-bottom:0;padding-right:0;padding-left:0" valign=3D"top" i=
+d=3D"blockContainerId-7"><table width=3D"100%" style=3D"border:0;border-ra=
+dius:0;border-collapse:separate"><tbody><tr><td style=3D"padding-left:24px=
+;padding-right:24px;padding-top:12px;padding-bottom:12px" class=3D"mceText=
+BlockContainer"><div data-block-id=3D"7" class=3D"mceText" id=3D"dataBlock=
+Id-7" style=3D"width:100%"><p style=3D"text-align: left;"><span style=3D"c=
+olor:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">Greeti=
+ngs Agnes=2C</span></span></p><p style=3D"text-align: left;"><b=
+r /></p><p style=3D"text-align: left;"><span style=3D"color:rgb(88=2C 51=
+=2C 0);"><span style=3D"font-family: 'DM Sans'=2C sans-serif">Welcome to t=
+he May edition of the </span></span><a href=3D"https://africanimpact.us1.l=
+ist-manage.com/track/click?u=3Dc2a17277a916926b6b5f98a04&id=3D07ab8167bc&e=
+=3Dce187d7de2" target=3D"_blank" style=3D"color: #583300;"><span style=3D=
+"font-family: 'DM Sans'=2C sans-serif">African Impact Initiative</span></a=
+><span style=3D"color:rgb(88=2C 51=2C 0);"><span style=3D"font-family: 'DM=
+ Sans'=2C sans-serif"> Monthly Newsletter!</span></span></p><p style=3D"te=
+xt-align: left;"><br /></p><p style=3D"text-align: left;"><span style=3D"c=
+olor:rgb(88=2C 51=2C 0);"><span style=3D"font-family: 'DM Sans'=2C sans-se=
+rif">We witnessed the power of community=2C collaboration=2C and storytell=
+ing in full force. From the </span></span><a href=3D"https://africanimpact=
+=2Eus1.list-manage.com/track/click?u=3Dc2a17277a916926b6b5f98a04&id=3Db1bbf3=
+08a2&e=3Dce187d7de2" target=3D"_blank" style=3D"color: #583300;"><span st=
+yle=3D"color:rgb(88=2C 51=2C 0);"><span style=3D"font-family: 'DM Sans'=2C=
+ sans-serif">Builders Summit in Lagos</span></span></a><span style=3D"colo=
+r:rgb(88=2C 51=2C 0);"><span style=3D"font-family: 'DM Sans'=2C sans-serif=
+">=2C where ideas turned into blueprints for Africa=E2=80=99s future=2C to=
+ a historic </span></span><a href=3D"https://africanimpact.us1.list-manage=
+=2Ecom/track/click?u=3Dc2a17277a916926b6b5f98a04&id=3Dcf79fa9273&e=3Dce187d7de2" target=3D"_blank" style=3D"color: #583300;"><span style=3D"font-fami=
+ly: 'DM Sans'=2C sans-serif">Africa Day convening in Toronto</span></a><sp=
+an style=3D"color:rgb(88=2C 51=2C 0);"><span style=3D"font-family: 'DM San=
+s'=2C sans-serif">=2C where dialogue met action=E2=80=94we=E2=80=99ve been=
+ reminded that transformation doesn=E2=80=99t happen in silos. It takes al=
+l of us.</span></span></p><p style=3D"text-align: left;"><br /></p><p styl=
+e=3D"text-align: left;"><span style=3D"color:rgb(88=2C 51=2C 0);"><span st=
+yle=3D"font-family: 'DM Sans'=2C sans-serif">We also released a brand-new=
+ documentary spotlighting </span></span><a href=3D"https://africanimpact.u=
+s1.list-manage.com/track/click?u=3Dc2a17277a916926b6b5f98a04&id=3D132585d9=
+ac&e=3Dce187d7de2" target=3D"_blank" style=3D"color: #583300;"><span styl=
+e=3D"font-family: 'DM Sans'=2C sans-serif">Motobrixx</span></a><span style=
+=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">=
+=2C</span></span><span style=3D"color:rgb(88=2C 51=2C 0);"><span style=3D"=
+font-family: 'DM Sans'=2C sans-serif"> one of our incredible AIC alumni=2C=
+ and we=E2=80=99re gearing up for the highly anticipated </span></span><a=
+ href=3D"https://africanimpact.us1.list-manage.com/track/click?u=3Dc2a1727=
+7a916926b6b5f98a04&id=3Db72663dcbe&e=3Dce187d7de2" target=3D"_blank" styl=
+e=3D"color: #583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif"=
+>Virtual Demo Day</span></a><span style=3D"color:rgb(88=2C 51=2C 0);"><spa=
+n style=3D"font-family: 'DM Sans'=2C sans-serif">=2C where our current coh=
+ort will pitch their bold solutions to the world.</span></span></p><p styl=
+e=3D"text-align: left;"><br /></p><p style=3D"text-align: left;"><span sty=
+le=3D"color:rgb(88=2C 51=2C 0);"><span style=3D"font-family: 'DM Sans'=2C=
+ sans-serif">Each moment this May reaffirmed our belief in the brilliance=
+ of African changemakers=E2=80=94and the power of global partnerships in a=
+mplifying their work.</span></span></p><p style=3D"text-align: left;"><br=
+ /></p><p style=3D"text-align: left;" class=3D"last-child"><span style=3D"=
+color:rgb(88=2C 51=2C 0);"><span style=3D"font-family: 'DM Sans'=2C sans-s=
+erif">Let=E2=80=99s dive into the highlights!</span></span></p></div></td>=
+</tr></tbody></table></td></tr><tr><td style=3D"padding-top:0;padding-bott=
+om:0;padding-right:0;padding-left:0" valign=3D"top" id=3D"blockContainerId=
+-76"><table width=3D"100%" style=3D"border:0;border-radius:0;border-collap=
+se:separate"><tbody><tr><td style=3D"padding-left:24px;padding-right:24px;=
+padding-top:12px;padding-bottom:12px" class=3D"mceTextBlockContainer"><div=
+ data-block-id=3D"76" class=3D"mceText" id=3D"dataBlockId-76" style=3D"wid=
+th:100%"><p class=3D"last-child"><strong><span style=3D"color:#583300;"><s=
+pan style=3D"font-size: 25px"><span style=3D"font-family: 'DM Sans'=2C san=
+s-serif">Mark Your Calendars- You Sure Don=E2=80=99t Want To Miss Out On T=
+his!</span></span></span></strong></p></div></td></tr></tbody></table></td=
+></tr><tr><td style=3D"padding-top:0;padding-bottom:0;padding-right:0;padd=
+ing-left:0" valign=3D"top" id=3D"blockContainerId-90"><table width=3D"100%=
+" style=3D"border:0;border-radius:0;border-collapse:separate"><tbody><tr><=
+td style=3D"padding-left:24px;padding-right:24px;padding-top:12px;padding-=
+bottom:12px" class=3D"mceTextBlockContainer"><div data-block-id=3D"90" cla=
+ss=3D"mceText" id=3D"dataBlockId-90" style=3D"width:100%"><p class=3D"last=
+-child"><strong><span style=3D"color:#583300;"><span style=3D"font-size: 2=
+5px"><span style=3D"font-family: 'DM Sans'=2C sans-serif">African Impact C=
+hallenge Virtual Demo Day</span></span></span></strong></p></div></td></tr=
+></tbody></table></td></tr><tr><td style=3D"padding-top:12px;padding-botto=
+m:12px;padding-right:0;padding-left:0" valign=3D"top" class=3D"mceImageBlo=
+ckContainer" align=3D"center" id=3D"blockContainerId-93"><div><!--[if !ms=
+o]><!--></div><a href=3D"https://africanimpact.us1.list-manage.com/track/c=
+lick?u=3Dc2a17277a916926b6b5f98a04&id=3Dd1300f861d&e=3Dce187d7de2" style=
+=3D"display:block" target=3D"_blank" data-block-id=3D"93"><table align=3D"=
+center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"85%" sty=
+le=3D"border-collapse:separate;margin:0;vertical-align:top;max-width:85%;w=
+idth:85%;height:auto" role=3D"presentation" data-testid=3D"image-93"><tbod=
+y><tr><td style=3D"border:0;border-radius:0;margin:0" valign=3D"top"><img=
+ alt=3D"" src=3D"https://mcusercontent.com/c2a17277a916926b6b5f98a04/image=
+s/1cb51155-689f-3ba6-93e2-93c04e593aa5.png" width=3D"561" height=3D"auto"=
+ style=3D"display:block;max-width:100%;height:auto;border-radius:0" class=
+=3D"imageDropZone mceImage" /></td></tr></tbody></table></a><div><!--<![e=
+ndif]--></div><div>
+<!--[if mso]>
+<a href=3D"https://us06web.zoom.us/webinar/register/WN_FiLZ04XQRq2BeP18B8t=
+DiQ#/registration"><span class=3D"mceImageBorder" style=3D"border:0;vertic=
+al-align:top;margin:0"><img role=3D"presentation" class=3D"imageDropZone m=
+ceImage" src=3D"https://mcusercontent.com/c2a17277a916926b6b5f98a04/images=
+/1cb51155-689f-3ba6-93e2-93c04e593aa5.png" alt=3D"" width=3D"561" height=
+=3D"auto" style=3D"display:block;max-width:561px;width:561px;height:auto"/=
+></span></a>
+<![endif]-->
+</div></td></tr><tr><td style=3D"padding-top:0;padding-bottom:0;padding-ri=
+ght:0;padding-left:0" valign=3D"top" id=3D"blockContainerId-91"><table wid=
+th=3D"100%" style=3D"border:0;border-radius:0;border-collapse:separate"><t=
+body><tr><td style=3D"padding-left:24px;padding-right:24px;padding-top:12p=
+x;padding-bottom:12px" class=3D"mceTextBlockContainer"><div data-block-id=
+=3D"91" class=3D"mceText" id=3D"dataBlockId-91" style=3D"width:100%"><p><s=
+pan style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans=
+-serif">We=E2=80=99re thrilled to announce that the </span></span><a href=
+=3D"https://africanimpact.us1.list-manage.com/track/click?u=3Dc2a17277a916=
+926b6b5f98a04&id=3Dc4d30e4eba&e=3Dce187d7de2" target=3D"_blank" style=3D"=
+color: #583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">Afri=
+can Impact Challenge (AIC) Virtual Demo Day 2025</span></a><strong><span s=
+tyle=3D"color:rgb(88=2C 51=2C 0);"><span style=3D"font-family: 'DM Sans'=
+=2C sans-serif"> is happening on </span></span><span style=3D"color:#58330=
+0;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">Friday=2C June 27=
+</span></span></strong><span style=3D"color:#583300;"><span style=3D"font-=
+family: 'DM Sans'=2C sans-serif"> from </span></span><strong><span style=
+=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">1=
+0:00 AM =E2=80=93 12:15 PM EST</span></span></strong><span style=3D"color:=
+#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">! Join us o=
+nline from any part of the world as our </span></span><a href=3D"https://a=
+fricanimpact.us1.list-manage.com/track/click?u=3Dc2a17277a916926b6b5f98a04=
+&id=3D1624800a8d&e=3Dce187d7de2" target=3D"_blank" style=3D"color: #58330=
+0;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">2024 African Impa=
+ct Challenge cohort</span></a><span style=3D"color:#583300;"><span style=
+=3D"font-family: 'DM Sans'=2C sans-serif"> of founders pitch their bold=2C=
+ high-impact ventures to a global audience of investors=2C partners=2C and=
+ innovation leaders.</span></span></p><p><br /></p><p><span style=3D"color=
+:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">Be among t=
+he first to witness the next generation of African changemakers=E2=80=94</=
+span></span><a href=3D"https://africanimpact.us1.list-manage.com/track/cli=
+ck?u=3Dc2a17277a916926b6b5f98a04&id=3D6edafa2e0c&e=3Dce187d7de2" target=
+=3D"_blank" style=3D"color: #583300;"><strong><span style=3D"font-family:=
+ 'DM Sans'=2C sans-serif">RSVP now and secure your spot!</span></strong></=
+a></p><p class=3D"last-child"><br /></p></div></td></tr></tbody></table></=
+td></tr><tr><td style=3D"padding-top:12px;padding-bottom:12px;padding-righ=
+t:24px;padding-left:24px" valign=3D"top" class=3D"mceButtonBlockContainer"=
+ align=3D"center" id=3D"blockContainerId-92"><div><!--[if !mso]><!--></di=
+v><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" data-block-id=3D"92" class=3D"mceButtonContainer"><=
+tbody><tr class=3D"mceStandardButton"><td style=3D"background-color:#faaf4=
+0;border-radius:50px;text-align:center" valign=3D"top" class=3D"mceButton"=
+><a href=3D"https://africanimpact.us1.list-manage.com/track/click?u=3Dc2a1=
+7277a916926b6b5f98a04&id=3D8e640b7831&e=3Dce187d7de2" target=3D"_blank" c=
+lass=3D"mceButtonLink" style=3D"background-color:#faaf40;border-radius:50p=
+x;border:2px solid #ffffff;color:#583300;display:block;font-family:'DM San=
+s'=2C sans-serif;font-size:16px;font-weight:normal;font-style:normal;paddi=
+ng:16px 28px;text-decoration:none;text-align:center;direction:ltr;letter-s=
+pacing:0px" rel=3D"noreferrer">Register Today</a></td></tr></tbody></table=
+><div><!--<![endif]--></div><table align=3D"center" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation" data-block-id=3D"92" cla=
+ss=3D"mceButtonContainer"><tbody><tr>
+<!--[if mso]>
+<td align=3D"center">
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"
+href=3D"https://us06web.zoom.us/webinar/register/WN_FiLZ04XQRq2BeP18B8tDiQ=
+#/registration"
+style=3D"v-text-anchor:middle; width:167.57px; height:56.15px;"
+arcsize=3D"30%"
+strokecolor=3D"#ffffff"
+strokeweight=3D"2px"
+fillcolor=3D"#faaf40">
+<v:stroke dashstyle=3D"solid"/>
+<w:anchorlock />
+<center style=3D"
+color: #583300;
+display: block;
+font-family: 'DM Sans'=2C sans-serif;
+font-size: 16;
+font-style: normal;
+font-weight: normal;
+letter-spacing: 0px;
+text-decoration: none;
+text-align: center;
+direction: ltr;"
+>
+Register Today
+</center>
+</v:roundrect>
+</td>
+<![endif]-->
+</tr></tbody></table></td></tr><tr><td style=3D"padding-top:12px;padding-b=
+ottom:12px;padding-right:0;padding-left:0" valign=3D"top" class=3D"mceImag=
+eBlockContainer" align=3D"center" id=3D"blockContainerId-94"><div><!--[if=
+ !mso]><!--></div><a href=3D"https://africanimpact.us1.list-manage.com/tra=
+ck/click?u=3Dc2a17277a916926b6b5f98a04&id=3D7d9190ee5d&e=3Dce187d7de2" st=
+yle=3D"display:block" target=3D"_blank" data-block-id=3D"94"><table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"85%"=
+ style=3D"border-collapse:separate;margin:0;vertical-align:top;max-width:8=
+5%;width:85%;height:auto" role=3D"presentation" data-testid=3D"image-94"><=
+tbody><tr><td style=3D"border:0;border-radius:0;margin:0" valign=3D"top"><=
+img alt=3D"" src=3D"https://mcusercontent.com/c2a17277a916926b6b5f98a04/im=
+ages/fa72ba27-7dc0-090a-0981-6c0a79b3a854.png" width=3D"561" height=3D"aut=
+o" style=3D"display:block;max-width:100%;height:auto;border-radius:0" clas=
+s=3D"imageDropZone mceImage" /></td></tr></tbody></table></a><div><!--<![=
+endif]--></div><div>
+<!--[if mso]>
+<a href=3D"https://events.rwandapreneur.com/#events"><span class=3D"mceIma=
+geBorder" style=3D"border:0;vertical-align:top;margin:0"><img role=3D"pres=
+entation" class=3D"imageDropZone mceImage" src=3D"https://mcusercontent.co=
+m/c2a17277a916926b6b5f98a04/images/fa72ba27-7dc0-090a-0981-6c0a79b3a854.pn=
+g" alt=3D"" width=3D"561" height=3D"auto" style=3D"display:block;max-width=
+:561px;width:561px;height:auto"/></span></a>
+<![endif]-->
+</div></td></tr><tr><td style=3D"padding-top:0;padding-bottom:0;padding-ri=
+ght:0;padding-left:0" valign=3D"top" id=3D"blockContainerId-95"><table wid=
+th=3D"100%" style=3D"border:0;border-radius:0;border-collapse:separate"><t=
+body><tr><td style=3D"padding-left:24px;padding-right:24px;padding-top:12p=
+x;padding-bottom:12px" class=3D"mceTextBlockContainer"><div data-block-id=
+=3D"95" class=3D"mceText" id=3D"dataBlockId-95" style=3D"width:100%"><p><s=
+pan style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans=
+-serif">As Africa faces reduced international aid=2C increased trade prote=
+ctionism=2C and declining global investment=2C strategic collaboration is=
+ crucial to address emerging priority issues. Despite these external shock=
+s=2C many African countries continue to demonstrate resiliency and adaptab=
+ility by boosting regional trade=2C innovation and local investment.</span=
+></span></p><p><br /></p><p><span style=3D"color:#583300;"><span style=3D"=
+font-family: 'DM Sans'=2C sans-serif">The African diaspora in Canada can b=
+e a major driver of economic resiliency by unlocking strategic investment=
+ and collaboration opportunities.</span></span></p><p><br /></p><p><span s=
+tyle=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-seri=
+f">Join us on Thursday June 26=2C 2025 (12:30pm-4pm) at Entrepreneurs Poin=
+t - 117 Peter St Toronto=2C Canada for the Rwandapreneur =E2=80=93 Africa=
+ Trade &amp; Investment Forum: Diaspora Edition=2C get to meet our founder=
+- </span></span><a href=3D"https://africanimpact.us1.list-manage.com/track=
+/click?u=3Dc2a17277a916926b6b5f98a04&id=3Db625b05194&e=3Dce187d7de2" targ=
+et=3D"_blank" style=3D"color: #583300;"><span style=3D"font-family: 'DM Sa=
+ns'=2C sans-serif">Efosa Obano</span></a><span style=3D"color:#583300;"><s=
+pan style=3D"font-family: 'DM Sans'=2C sans-serif"> who will be one of the=
+ panelists.</span></span></p><p><br /></p><p><span style=3D"color:#583300;=
+"><span style=3D"font-family: 'DM Sans'=2C sans-serif">This exclusive=2C h=
+igh-impact gathering will bring together industry leaders=2C ecosystem par=
+tners=2C founders=2C and investors to explore emerging opportunities for t=
+he African diaspora community in Canada and global partners to collaborate=
+ on trade and investment across the continent.</span></span></p><p><br /><=
+/p><p><span style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=
+=2C sans-serif">This intimate=2C high-level forum will feature:</span></sp=
+an></p><ul><li><p><span style=3D"color:#583300;"><span style=3D"font-famil=
+y: 'DM Sans'=2C sans-serif">=EF=B8=8FVIP roundtable sessions</span></span>=
+</p></li><li><p><span style=3D"color:#583300;"><span style=3D"font-family:=
+ 'DM Sans'=2C sans-serif">Diaspora led investment strategies</span></span>=
+</p></li><li><p><span style=3D"color:#583300;"><span style=3D"font-family:=
+ 'DM Sans'=2C sans-serif">Emerging trends &amp; opportunities - AI=2C trad=
+e=2C infrastructure=2C tech=2C and more</span></span></p></li><li><p><span=
+ style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-se=
+rif">Engaging networking</span></span></p></li></ul><p><span style=3D"colo=
+r:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">Reserve y=
+our spot and learn more here (limited tickets available): </span></span><a=
+ href=3D"https://africanimpact.us1.list-manage.com/track/click?u=3Dc2a1727=
+7a916926b6b5f98a04&id=3Da25dfc0870&e=3Dce187d7de2" target=3D"_blank" styl=
+e=3D"color: #583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif"=
+>Rwandapreneur =E2=80=93 Africa Trade &amp; Investment Forum: Diaspora Edi=
+tion</span></a></p><p><br /></p><p><span style=3D"color:#583300;"><span st=
+yle=3D"font-family: 'DM Sans'=2C sans-serif">As a valued member of our com=
+munity you get to enjoy exclusive access using this promo code for tickets=
+: </span></span><strong><span style=3D"color:#583300;"><span style=3D"font=
+-family: 'DM Sans'=2C sans-serif">#RATIF25</span></span></strong></p><p cl=
+ass=3D"last-child"><br /></p></div></td></tr></tbody></table></td></tr><tr=
+><td style=3D"padding-top:12px;padding-bottom:12px;padding-right:24px;padd=
+ing-left:24px" valign=3D"top" class=3D"mceButtonBlockContainer" align=3D"c=
+enter" id=3D"blockContainerId-96"><div><!--[if !mso]><!--></div><table al=
+ign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" data-block-id=3D"96" class=3D"mceButtonContainer"><tbody><tr c=
+lass=3D"mceStandardButton"><td style=3D"background-color:#faaf40;border-ra=
+dius:50px;text-align:center" valign=3D"top" class=3D"mceButton"><a href=3D=
+"https://africanimpact.us1.list-manage.com/track/click?u=3Dc2a17277a916926=
+b6b5f98a04&id=3D37b2d608b2&e=3Dce187d7de2" target=3D"_blank" class=3D"mce=
+ButtonLink" style=3D"background-color:#faaf40;border-radius:50px;border:2p=
+x solid #ffffff;color:#583300;display:block;font-family:'DM Sans'=2C sans-=
+serif;font-size:16px;font-weight:normal;font-style:normal;padding:16px 28p=
+x;text-decoration:none;text-align:center;direction:ltr;letter-spacing:0px"=
+ rel=3D"noreferrer">Register Now</a></td></tr></tbody></table><div><!--<![=
+endif]--></div><table align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" data-block-id=3D"96" class=3D"mceButt=
+onContainer"><tbody><tr>
+<!--[if mso]>
+<td align=3D"center">
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"
+href=3D"https://events.rwandapreneur.com/#events"
+style=3D"v-text-anchor:middle; width:155.6px; height:56.15px;"
+arcsize=3D"32%"
+strokecolor=3D"#ffffff"
+strokeweight=3D"2px"
+fillcolor=3D"#faaf40">
+<v:stroke dashstyle=3D"solid"/>
+<w:anchorlock />
+<center style=3D"
+color: #583300;
+display: block;
+font-family: 'DM Sans'=2C sans-serif;
+font-size: 16;
+font-style: normal;
+font-weight: normal;
+letter-spacing: 0px;
+text-decoration: none;
+text-align: center;
+direction: ltr;"
+>
+Register Now
+</center>
+</v:roundrect>
+</td>
+<![endif]-->
+</tr></tbody></table></td></tr><tr><td style=3D"padding-top:0;padding-bott=
+om:0;padding-right:0;padding-left:0" valign=3D"top" id=3D"blockContainerId=
+-89"><table width=3D"100%" style=3D"border:0;border-radius:0;border-collap=
+se:separate"><tbody><tr><td style=3D"padding-left:24px;padding-right:24px;=
+padding-top:12px;padding-bottom:12px" class=3D"mceTextBlockContainer"><div=
+ data-block-id=3D"89" class=3D"mceText" id=3D"dataBlockId-89" style=3D"wid=
+th:100%"><p style=3D"text-align: left;" class=3D"last-child"><strong><span=
+ style=3D"color:#583300;"><span style=3D"font-size: 25px"><span style=3D"f=
+ont-family: 'DM Sans'=2C sans-serif">Africa Day 2025 Recap: </span></span>=
+</span><span style=3D"color:rgb(88=2C 51=2C 0);"><span style=3D"font-size:=
+ 25px"><span style=3D"font-family: 'DM Sans'=2C sans-serif">From Strategy=
+ to Action</span></span></span></strong></p></div></td></tr></tbody></tabl=
+e></td></tr><tr><td style=3D"background-color:transparent" valign=3D"top"=
+ id=3D"blockContainerId-18"><table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"100%" role=3D"presentation" data-block-id=3D"18"><tbody=
+><tr><td valign=3D"top" class=3D"mceSpacerBlock" height=3D"20"></td></tr><=
+/tbody></table></td></tr><tr><td style=3D"padding-top:12px;padding-bottom:=
+12px;padding-right:0;padding-left:0" valign=3D"top" class=3D"mceImageBlock=
+Container" align=3D"center" id=3D"blockContainerId-84"><div><!--[if !mso]=
+><!--></div><a href=3D"https://africanimpact.us1.list-manage.com/track/cli=
+ck?u=3Dc2a17277a916926b6b5f98a04&id=3D2922a434ad&e=3Dce187d7de2" style=3D=
+"display:block" target=3D"_blank" data-block-id=3D"84"><table align=3D"cen=
+ter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"85%" style=
+=3D"border-collapse:separate;margin:0;vertical-align:top;max-width:85%;wid=
+th:85%;height:auto" role=3D"presentation" data-testid=3D"image-84"><tbody>=
+<tr><td style=3D"border:0;border-radius:0;margin:0" valign=3D"top"><img al=
+t=3D"" src=3D"https://mcusercontent.com/c2a17277a916926b6b5f98a04/images/c=
+c94eaaf-ce90-a590-c400-55b0fdcf0a1e.png" width=3D"561" height=3D"auto" sty=
+le=3D"display:block;max-width:100%;height:auto;border-radius:0" class=3D"i=
+mageDropZone mceImage" /></td></tr></tbody></table></a><div><!--<![endif]=
+--></div><div>
+<!--[if mso]>
+<a href=3D"https://luckyosunbiyi.passgallery.com/-africanday2025/gallery">=
+<span class=3D"mceImageBorder" style=3D"border:0;vertical-align:top;margin=
+:0"><img role=3D"presentation" class=3D"imageDropZone mceImage" src=3D"htt=
+ps://mcusercontent.com/c2a17277a916926b6b5f98a04/images/cc94eaaf-ce90-a590=
+-c400-55b0fdcf0a1e.png" alt=3D"" width=3D"561" height=3D"auto" style=3D"di=
+splay:block;max-width:561px;width:561px;height:auto"/></span></a>
+<![endif]-->
+</div></td></tr><tr><td style=3D"padding-top:0;padding-bottom:0;padding-ri=
+ght:0;padding-left:0" valign=3D"top" id=3D"blockContainerId-21"><table wid=
+th=3D"100%" style=3D"border:0;border-radius:0;border-collapse:separate"><t=
+body><tr><td style=3D"padding-left:24px;padding-right:24px;padding-top:12p=
+x;padding-bottom:12px" class=3D"mceTextBlockContainer"><div data-block-id=
+=3D"21" class=3D"mceText" id=3D"dataBlockId-21" style=3D"width:100%"><p><s=
+pan style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans=
+-serif">This year=2C we celebrated Africa Day in a truly historic way.</sp=
+an></span></p><p><br /></p><p><span style=3D"color:#583300;"><span style=
+=3D"font-family: 'DM Sans'=2C sans-serif">Under the theme =E2=80=9CBeyond=
+ Strategy: Driving Canada-Africa Impact=2C=E2=80=9D we convened a powerful=
+ two-day gathering that brought together voices from across the continent=
+ and diaspora=E2=80=94representing over 40 African countries. The conversa=
+tions were honest=2C inclusive=2C and refreshingly open=E2=80=94finally ta=
+king place not behind closed doors=2C but out in the community where they=
+ belong.</span></span></p><p><br /></p><p><span style=3D"color:#583300;"><=
+span style=3D"font-family: 'DM Sans'=2C sans-serif">More than just dialogu=
+e=2C the convening laid the groundwork for real action. We explored how to=
+ build a win-win Canada-Africa partnership=2C rooted in inclusion=2C colla=
+boration=2C and shared purpose. It was a reminder that building a future t=
+hat works for all of us will truly take a village.</span></span></p><p><br=
+ /></p><p><span style=3D"color:#583300;"><span style=3D"font-family: 'DM S=
+ans'=2C sans-serif">We=E2=80=99re deeply grateful to everyone who joined a=
+nd engaged with passion=E2=80=94from grassroots leaders to global policyma=
+kers. Special thanks to our co-hosts </span></span><a href=3D"https://afri=
+canimpact.us1.list-manage.com/track/click?u=3Dc2a17277a916926b6b5f98a04&id=
+=3D4e149b554b&e=3Dce187d7de2" target=3D"_blank" style=3D"color: #583300;"=
+><span style=3D"font-family: 'DM Sans'=2C sans-serif">The ONE Campaign</sp=
+an></a><span style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans=
+'=2C sans-serif"> and African Studies Centre at University of Toronto=2C a=
+nd our partners </span></span><a href=3D"https://africanimpact.us1.list-ma=
+nage.com/track/click?u=3Dc2a17277a916926b6b5f98a04&id=3Df8a24a4b1b&e=3Dce187d7de2" target=3D"_blank" style=3D"color: #583300;"><span style=3D"font-=
+family: 'DM Sans'=2C sans-serif">Tribe Network</span></a><span style=3D"co=
+lor:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">=2C </s=
+pan></span><a href=3D"https://africanimpact.us1.list-manage.com/track/clic=
+k?u=3Dc2a17277a916926b6b5f98a04&id=3D86a77ef895&e=3Dce187d7de2" target=3D=
+"_blank" style=3D"color: #583300;"><span style=3D"font-family: 'DM Sans'=
+=2C sans-serif">Grand Challenges Canada</span></a><span style=3D"color:#58=
+3300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">=2C </span></s=
+pan><a href=3D"https://africanimpact.us1.list-manage.com/track/click?u=3Dc=
+2a17277a916926b6b5f98a04&id=3D809ee5a830&e=3Dce187d7de2" target=3D"_blank=
+" style=3D"color: #583300;"><span style=3D"font-family: 'DM Sans'=2C sans-=
+serif">Black Wealth Club</span></a><span style=3D"color:#583300;"><span st=
+yle=3D"font-family: 'DM Sans'=2C sans-serif">=2C and </span></span><a href=
+=3D"https://africanimpact.us1.list-manage.com/track/click?u=3Dc2a17277a916=
+926b6b5f98a04&id=3Dd7064278f9&e=3Dce187d7de2" target=3D"_blank" style=3D"=
+color: #583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">ALA<=
+/span></a><span style=3D"color:#583300;"><span style=3D"font-family: 'DM S=
+ans'=2C sans-serif"> for helping make it all possible.</span></span></p><p=
+><br /></p><p><span style=3D"color:#583300;"><span style=3D"font-family: '=
+DM Sans'=2C sans-serif">Missed the open town hall on Day 2?</span></span><=
+/p><p><br /></p><p><span style=3D"color:#583300;"><span style=3D"font-fami=
+ly: 'DM Sans'=2C sans-serif">You can still share your thoughts and get inv=
+olved </span></span><a href=3D"https://africanimpact.us1.list-manage.com/t=
+rack/click?u=3Dc2a17277a916926b6b5f98a04&id=3D649b2186ba&e=3Dce187d7de2"=
+ target=3D"_blank" style=3D"color: #583300;"><span style=3D"font-family: '=
+DM Sans'=2C sans-serif">here</span></a><span style=3D"color:#583300;"><spa=
+n style=3D"font-family: 'DM Sans'=2C sans-serif">.</span></span></p><p><br=
+ /></p><p><span style=3D"color:#583300;"><span style=3D"font-family: 'DM S=
+ans'=2C sans-serif">=F0=9F=93=B8 Explore the moments that made it special:=
+</span></span></p><p><br /></p><p><span style=3D"color:#583300;"><span sty=
+le=3D"font-family: 'DM Sans'=2C sans-serif">Check out our public photo alb=
+um </span></span><a href=3D"https://africanimpact.us1.list-manage.com/trac=
+k/click?u=3Dc2a17277a916926b6b5f98a04&id=3Dbc58fdb07f&e=3Dce187d7de2" tar=
+get=3D"_blank" style=3D"color: #583300;"><span style=3D"font-family: 'DM S=
+ans'=2C sans-serif">here</span></a><span style=3D"color:#583300;"><span st=
+yle=3D"font-family: 'DM Sans'=2C sans-serif">.</span></span></p><p><br /><=
+/p><p><span style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=
+=2C sans-serif">There=E2=80=99s still so much work to be done to turn stra=
+tegies into tangible impact=E2=80=94but this gathering gave us hope. And a=
+s our founder=2C Efosa Obano said best=2C we=E2=80=99re trusting that what=
+=E2=80=99s been started will grow in its own perfect time.</span></span></=
+p><p class=3D"last-child"><br /></p></div></td></tr></tbody></table></td><=
+/tr><tr><td style=3D"padding-top:0;padding-bottom:0;padding-right:0;paddin=
+g-left:0" valign=3D"top" id=3D"blockContainerId-13"><table width=3D"100%"=
+ style=3D"border:0;border-radius:0;border-collapse:separate"><tbody><tr><t=
+d style=3D"padding-left:24px;padding-right:24px;padding-top:12px;padding-b=
+ottom:12px" class=3D"mceTextBlockContainer"><div data-block-id=3D"13" clas=
+s=3D"mceText" id=3D"dataBlockId-13" style=3D"width:100%"><p class=3D"last-=
+child"><strong><span style=3D"color:#583300;"><span style=3D"font-size: 25=
+px"><span style=3D"font-family: 'DM Sans'=2C sans-serif">The Builders Summ=
+it 2025 =E2=80=94 Momentum in Motion Recap</span></span></span></strong></=
+p></div></td></tr></tbody></table></td></tr><tr><td style=3D"padding-top:1=
+2px;padding-bottom:12px;padding-right:0;padding-left:0" valign=3D"top" cla=
+ss=3D"mceImageBlockContainer" align=3D"center" id=3D"blockContainerId-14">=
+<div><!--[if !mso]><!--></div><a href=3D"https://africanimpact.us1.list-m=
+anage.com/track/click?u=3Dc2a17277a916926b6b5f98a04&id=3Df0006fda7f&e=3Dce187d7de2" style=3D"display:block" target=3D"_blank" data-block-id=3D"14">=
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"85%" style=3D"border-collapse:separate;margin:0;vertical-align:top=
+;max-width:85%;width:85%;height:auto" role=3D"presentation" data-testid=3D=
+"image-14"><tbody><tr><td style=3D"border:0;border-radius:0;margin:0" vali=
+gn=3D"top"><img alt=3D"" src=3D"https://mcusercontent.com/c2a17277a916926b=
+6b5f98a04/images/0b1fc1c2-a343-ac1e-caa3-ae09f4050893.png" width=3D"561" h=
+eight=3D"auto" style=3D"display:block;max-width:100%;height:auto;border-ra=
+dius:0" class=3D"imageDropZone mceImage" /></td></tr></tbody></table></a><=
+div><!--<![endif]--></div><div>
+<!--[if mso]>
+<a href=3D"https://foundersconnect.pixieset.com/thebuilderssummit2025/"><s=
+pan class=3D"mceImageBorder" style=3D"border:0;vertical-align:top;margin:0=
+"><img role=3D"presentation" class=3D"imageDropZone mceImage" src=3D"https=
+://mcusercontent.com/c2a17277a916926b6b5f98a04/images/0b1fc1c2-a343-ac1e-c=
+aa3-ae09f4050893.png" alt=3D"" width=3D"561" height=3D"auto" style=3D"disp=
+lay:block;max-width:561px;width:561px;height:auto"/></span></a>
+<![endif]-->
+</div></td></tr><tr><td style=3D"padding-top:0;padding-bottom:0;padding-ri=
+ght:0;padding-left:0" valign=3D"top" id=3D"blockContainerId-15"><table wid=
+th=3D"100%" style=3D"border:0;border-radius:0;border-collapse:separate"><t=
+body><tr><td style=3D"padding-left:24px;padding-right:24px;padding-top:12p=
+x;padding-bottom:12px" class=3D"mceTextBlockContainer"><div data-block-id=
+=3D"15" class=3D"mceText" id=3D"dataBlockId-15" style=3D"width:100%"><p><s=
+pan style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans=
+-serif">We are so happy to have been a headline sponsor in this year=E2=80=
+=99s Builders Summit that brought together founders=2C ecosystem enablers=
+=2C investors=2C mentors=2C and thought leaders from across Africa and the=
+ diaspora. We tackled big questions around sustainability=2C innovation=2C=
+ and ecosystem growth while spotlighting the changemakers shaping the futu=
+re of the continent.</span></span></p><p><br /></p><p><span style=3D"color=
+:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">Highlights=
+ included:</span></span></p><p><br /></p><ul><li><p><span style=3D"color:#=
+583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">Insightful p=
+anels on local-led solutions and founder resilience</span></span></p></li>=
+<li><p><span style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans=
+'=2C sans-serif">Networking that sparked future collaborations</span></spa=
+n></p></li><li><p><span style=3D"color:#583300;"><span style=3D"font-famil=
+y: 'DM Sans'=2C sans-serif">Hundreds of brilliant entrepreneurs who are bu=
+ilding businesses that are working to solve some of the biggest challenges=
+ that Africa is grappling with</span></span></p></li><li><p><span style=3D=
+"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">Keyn=
+ote speeches that inspired us to build bigger and better</span></span></p>=
+</li></ul><p><br /></p><p><span style=3D"color:#583300;"><span style=3D"fo=
+nt-family: 'DM Sans'=2C sans-serif">Catch a glimpse of the energy and bril=
+liance that filled the room in the event gallery </span></span><a href=3D"=
+https://africanimpact.us1.list-manage.com/track/click?u=3Dc2a17277a916926b=
+6b5f98a04&id=3Df3a34cc99f&e=3Dce187d7de2" target=3D"_blank" style=3D"colo=
+r: #583300;"><span style=3D"color:rgb(88=2C 51=2C 0);"><span style=3D"font=
+-family: 'DM Sans'=2C sans-serif">here.</span></span></a></p><p class=3D"l=
+ast-child"><br /></p></div></td></tr></tbody></table></td></tr><tr><td sty=
+le=3D"padding-top:0;padding-bottom:0;padding-right:0;padding-left:0" valig=
+n=3D"top" id=3D"blockContainerId-88"><table width=3D"100%" style=3D"border=
+:0;border-radius:0;border-collapse:separate"><tbody><tr><td style=3D"paddi=
+ng-left:24px;padding-right:24px;padding-top:12px;padding-bottom:12px" clas=
+s=3D"mceTextBlockContainer"><div data-block-id=3D"88" class=3D"mceText" id=
+=3D"dataBlockId-88" style=3D"width:100%"><h1 class=3D"last-child"><span st=
+yle=3D"color:#583300;"><span style=3D"font-size: 25px"><span style=3D"font=
+-family: 'DM Sans'=2C sans-serif">Alumni Success Story: Motobrix: Transfor=
+ming Waste into Clean Energy for Kenyan Communities</span></span></span></=
+h1></div></td></tr></tbody></table></td></tr><tr><td style=3D"padding-top:=
+12px;padding-bottom:12px;padding-right:24px;padding-left:24px" valign=3D"t=
+op" class=3D"mceImageBlockContainer" align=3D"center" id=3D"blockContainer=
+Id-86"><div><!--[if !mso]><!--></div><a href=3D"https://africanimpact.us1=
+=2Elist-manage.com/track/click?u=3Dc2a17277a916926b6b5f98a04&id=3D2aedbc6830=
+&e=3Dce187d7de2" style=3D"display:block" target=3D"_blank" data-block-id=
+=3D"86"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" style=3D"border-collapse:separate;margin:0;vertical-=
+align:top;max-width:520.1999999999999px;width:100%;height:auto" role=3D"pr=
+esentation" data-testid=3D"image-86"><tbody><tr><td style=3D"border:0;bord=
+er-radius:0;margin:0" valign=3D"top"><img alt=3D"" src=3D"https://mcuserco=
+ntent.com/c2a17277a916926b6b5f98a04/video_thumbnails_new/adcebbaf61e0d2486=
+36a61f32ec09275.png" width=3D"520.1999999999999" height=3D"auto" style=3D"=
+display:block;max-width:100%;height:auto;border-radius:0" class=3D"imageDr=
+opZone mceImage" /></td></tr></tbody></table></a><div><!--<![endif]--></d=
+iv><div>
+<!--[if mso]>
+<a href=3D"https://www.youtube.com/watch?v=3DmraJEAJ8CrM&t=3D21s"><span cl=
+ass=3D"mceImageBorder" style=3D"border:0;vertical-align:top;margin:0"><img=
+ role=3D"presentation" class=3D"imageDropZone mceImage" src=3D"https://mcu=
+sercontent.com/c2a17277a916926b6b5f98a04/video_thumbnails_new/adcebbaf61e0=
+d248636a61f32ec09275.png" alt=3D"" width=3D"520.1999999999999" height=3D"a=
+uto" style=3D"display:block;max-width:520.1999999999999px;width:520.199999=
+9999999px;height:auto"/></span></a>
+<![endif]-->
+</div></td></tr><tr><td style=3D"padding-top:0;padding-bottom:0;padding-ri=
+ght:0;padding-left:0" valign=3D"top" id=3D"blockContainerId-87"><table wid=
+th=3D"100%" style=3D"border:0;border-radius:0;border-collapse:separate"><t=
+body><tr><td style=3D"padding-left:24px;padding-right:24px;padding-top:12p=
+x;padding-bottom:12px" class=3D"mceTextBlockContainer"><div data-block-id=
+=3D"87" class=3D"mceText" id=3D"dataBlockId-87" style=3D"width:100%"><p><s=
+pan style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans=
+-serif">In the heart of Mathare=2C Nairobi=2C </span></span><a href=3D"htt=
+ps://africanimpact.us1.list-manage.com/track/click?u=3Dc2a17277a916926b6b5=
+f98a04&id=3D87b4d6204b&e=3Dce187d7de2" target=3D"_blank" style=3D"color:=
+ #583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">Motobrix</=
+span></a><span style=3D"color:#583300;"><span style=3D"font-family: 'DM Sa=
+ns'=2C sans-serif"> is pioneering a sustainable solution to energy poverty=
+ and environmental degradation. This social enterprise collects organic wa=
+ste and transforms it into clean=2C affordable briquettes=2C providing a r=
+eliable energy source for slum-dwellers. By converting waste into fuel=2C=
+ </span></span><a href=3D"https://africanimpact.us1.list-manage.com/track/=
+click?u=3Dc2a17277a916926b6b5f98a04&id=3D44d7b32c84&e=3Dce187d7de2" targe=
+t=3D"_blank" style=3D"color: #583300;"><span style=3D"font-family: 'DM San=
+s'=2C sans-serif">Motobrix </span></a><span style=3D"color:#583300;"><span=
+ style=3D"font-family: 'DM Sans'=2C sans-serif">not only addresses waste m=
+anagement challenges but also offers an eco-friendly alternative to tradit=
+ional charcoal and wood=2C contributing to climate action and community em=
+powerment.</span></span></p><p><br /></p><p class=3D"last-child"><span sty=
+le=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif"=
+>Supported by the </span></span><a href=3D"https://africanimpact.us1.list-=
+manage.com/track/click?u=3Dc2a17277a916926b6b5f98a04&id=3D755a3f45e7&e=3Dce187d7de2" target=3D"_blank" style=3D"color: #583300;"><span style=3D"fon=
+t-family: 'DM Sans'=2C sans-serif">African Impact Initiative</span></a><sp=
+an style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-=
+serif"> through the </span></span><a href=3D"https://africanimpact.us1.lis=
+t-manage.com/track/click?u=3Dc2a17277a916926b6b5f98a04&id=3Db7094b32cf&e=
+=3Dce187d7de2" target=3D"_blank" style=3D"color: #583300;"><span style=3D=
+"font-family: 'DM Sans'=2C sans-serif">2021 African Impact Challenge</span=
+></a><span style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=
+=2C sans-serif">=2C Motobrix exemplifies youth-led innovation driving posi=
+tive change in Africa.</span></span></p></div></td></tr></tbody></table></=
+td></tr><tr><td style=3D"padding-top:0;padding-bottom:0;padding-right:0;pa=
+dding-left:0" valign=3D"top" id=3D"blockContainerId-70"><table width=3D"10=
+0%" style=3D"border:0;border-radius:0;border-collapse:separate"><tbody><tr=
+><td style=3D"padding-left:24px;padding-right:24px;padding-top:12px;paddin=
+g-bottom:12px" class=3D"mceTextBlockContainer"><div data-block-id=3D"70" c=
+lass=3D"mceText" id=3D"dataBlockId-70" style=3D"width:100%"><p style=3D"te=
+xt-align: justify;" class=3D"last-child"><strong><span style=3D"color:#583=
+300;"><span style=3D"font-size: 25px"><span style=3D"font-family: 'DM Sans=
+'=2C sans-serif">Let=E2=80=99s Continue to Ignite Change Together!</span><=
+/span></span></strong></p></div></td></tr></tbody></table></td></tr><tr><t=
+d style=3D"padding-top:0;padding-bottom:0;padding-right:0;padding-left:0"=
+ valign=3D"top" id=3D"blockContainerId-24"><table width=3D"100%" style=3D"=
+border:0;border-radius:0;border-collapse:separate"><tbody><tr><td style=3D=
+"padding-left:24px;padding-right:24px;padding-top:12px;padding-bottom:12px=
+" class=3D"mceTextBlockContainer"><div data-block-id=3D"24" class=3D"mceTe=
+xt" id=3D"dataBlockId-24" style=3D"width:100%"><p style=3D"text-align: lef=
+t;"><span style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=
+=2C sans-serif">As we look ahead=2C we encourage you to stay connected wit=
+h the </span></span><a href=3D"https://africanimpact.us1.list-manage.com/t=
+rack/click?u=3Dc2a17277a916926b6b5f98a04&id=3D793a166cf8&e=3Dce187d7de2"=
+ target=3D"_blank" style=3D"color: #583300;"><strong><span style=3D"font-f=
+amily: 'DM Sans'=2C sans-serif">African Impact Initiative</span></strong><=
+/a><span style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C=
+ sans-serif"> community. Whether you are a founder=2C investor=2C mentor=
+=2C or supporter=2C your engagement is vital in driving positive change.</=
+span></span></p><p style=3D"text-align: left;"><br /></p><p style=3D"text-=
+align: left;"><span style=3D"color:#583300;"><span style=3D"font-family: '=
+DM Sans'=2C sans-serif">Here=E2=80=99s how you can stay involved:</span></=
+span></p><p style=3D"text-align: left;"><span style=3D"color:#583300;"><sp=
+an style=3D"font-family: 'DM Sans'=2C sans-serif"><br /></span></span><str=
+ong><span style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=
+=2C sans-serif">Spread the Word:</span></span></strong><span style=3D"colo=
+r:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif"> Share th=
+is newsletter with your network and help us grow this community.<br /></sp=
+an></span><strong><span style=3D"color:#583300;"><span style=3D"font-famil=
+y: 'DM Sans'=2C sans-serif">Join the Conversation:</span></span></strong><=
+span style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C san=
+s-serif"> Follow us on </span></span><a href=3D"https://africanimpact.us1.=
+list-manage.com/track/click?u=3Dc2a17277a916926b6b5f98a04&id=3D095538619d&=
+e=3Dce187d7de2" target=3D"_blank" style=3D"color: #583300;"><span style=
+=3D"font-family: 'DM Sans'=2C sans-serif">LinkedIn</span></a><span style=
+=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif">=
+=2C </span></span><a href=3D"https://africanimpact.us1.list-manage.com/tra=
+ck/click?u=3Dc2a17277a916926b6b5f98a04&id=3D3a37d4b546&e=3Dce187d7de2" ta=
+rget=3D"_blank" style=3D"color: #583300;"><span style=3D"font-family: 'DM=
+ Sans'=2C sans-serif">Twitter</span></a><span style=3D"color:#583300;"><sp=
+an style=3D"font-family: 'DM Sans'=2C sans-serif">=2C and </span></span><a=
+ href=3D"https://africanimpact.us1.list-manage.com/track/click?u=3Dc2a1727=
+7a916926b6b5f98a04&id=3D96d9a29385&e=3Dce187d7de2" target=3D"_blank" styl=
+e=3D"color: #583300;"><span style=3D"font-family: 'DM Sans'=2C sans-serif"=
+>Instagram </span></a><span style=3D"color:#583300;"><span style=3D"font-f=
+amily: 'DM Sans'=2C sans-serif">for real-time updates and discussions.<br=
+ /></span></span><strong><span style=3D"color:#583300;"><span style=3D"fon=
+t-family: 'DM Sans'=2C sans-serif">Get Involved:</span></span></strong><sp=
+an style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=2C sans-=
+serif"> Whether through mentorship=2C funding=2C or collaboration=2C your=
+ support can help shape the future of African entrepreneurship.</span></sp=
+an></p><p style=3D"text-align: left;"><br /></p><p style=3D"text-align: le=
+ft;"><span style=3D"color:#583300;"><span style=3D"font-family: 'DM Sans'=
+=2C sans-serif">Thank you for being part of this journey. We look forward=
+ to sharing more updates and celebrating more milestones with you in the c=
+oming months.</span></span></p><p style=3D"text-align: left;" class=3D"las=
+t-child"><br /></p></div></td></tr></tbody></table></td></tr><tr><td style=
+=3D"padding-top:12px;padding-bottom:12px;padding-right:24px;padding-left:2=
+4px" valign=3D"top" class=3D"mceButtonBlockContainer" align=3D"center" id=
+=3D"blockContainerId-75"><div><!--[if !mso]><!--></div><table align=3D"ce=
+nter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentatio=
+n" data-block-id=3D"75" class=3D"mceButtonContainer"><tbody><tr class=3D"m=
+ceStandardButton"><td style=3D"background-color:#faaf40;border-radius:50px=
+;text-align:center" valign=3D"top" class=3D"mceButton"><a href=3D"https://=
+africanimpact.us1.list-manage.com/track/click?u=3Dc2a17277a916926b6b5f98a0=
+4&id=3Dfead7d1fcc&e=3Dce187d7de2" target=3D"_blank" class=3D"mceButtonLin=
+k" style=3D"background-color:#faaf40;border-radius:50px;border:2px solid #=
+ffffff;color:#583300;display:block;font-family:'DM Sans'=2C sans-serif;fon=
+t-size:16px;font-weight:bold;font-style:normal;padding:16px 28px;text-deco=
+ration:none;text-align:center;direction:ltr;letter-spacing:0px" rel=3D"nor=
+eferrer">Become A Partner</a></td></tr></tbody></table><div><!--<![endif]=
+--></div><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" data-block-id=3D"75" class=3D"mceButtonConta=
+iner"><tbody><tr>
+<!--[if mso]>
+<td align=3D"center">
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"
+href=3D"https://form.typeform.com/to/WeQQILmB"
+style=3D"v-text-anchor:middle; width:200.42000000000002px; height:56.15px;=
+"
+arcsize=3D"25%"
+strokecolor=3D"#ffffff"
+strokeweight=3D"2px"
+fillcolor=3D"#faaf40">
+<v:stroke dashstyle=3D"solid"/>
+<w:anchorlock />
+<center style=3D"
+color: #583300;
+display: block;
+font-family: 'DM Sans'=2C sans-serif;
+font-size: 16;
+font-style: normal;
+font-weight: bold;
+letter-spacing: 0px;
+text-decoration: none;
+text-align: center;
+direction: ltr;"
+>
+Become A Partner
+</center>
+</v:roundrect>
+</td>
+<![endif]-->
+</tr></tbody></table></td></tr><tr><td style=3D"padding-top:12px;padding-b=
+ottom:12px;padding-right:0;padding-left:0" valign=3D"top" class=3D"mceLayo=
+utContainer" id=3D"blockContainerId-27"><table align=3D"center" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentation=
+" data-block-id=3D"27"><tbody><tr class=3D"mceRow"><td style=3D"background=
+-position:center;background-repeat:no-repeat;background-size:cover" valign=
+=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"24" width=3D=
+"100%" role=3D"presentation"><tbody><tr><td valign=3D"top" class=3D"mceCol=
+umn" id=3D"mceColumnId--6" data-block-id=3D"-6" colspan=3D"12" width=3D"10=
+0%"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+ role=3D"presentation"><tbody><tr><td valign=3D"top" class=3D"mceSocialFol=
+lowBlockContainer" id=3D"blockContainerId--5"><table align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" class=
+=3D"mceSocialFollowBlock" data-block-id=3D"-5"><tbody><tr><td valign=3D"mi=
+ddle" align=3D"center"><!--[if mso]><table align=3D"left" border=3D"0" ce=
+llspacing=3D "0" cellpadding=3D"0"><tr><![endif]--><!--[if mso]><td alig=
+n=3D"center" valign=3D"top"><![endif]--><table align=3D"left" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" style=3D"display:inline;float:left"=
+ role=3D"presentation"><tbody><tr><td style=3D"padding-top:3px;padding-bot=
+tom:3px;padding-left:12px;padding-right:12px" valign=3D"top" class=3D"mceS=
+ocialFollowIcon" align=3D"center" width=3D"40"><a href=3D"https://africani=
+mpact.us1.list-manage.com/track/click?u=3Dc2a17277a916926b6b5f98a04&id=3D1=
+be958ec53&e=3Dce187d7de2" target=3D"_blank" rel=3D"noreferrer"><img class=
+=3D"mceSocialFollowImage" width=3D"40" height=3D"40" alt=3D"Facebook icon"=
+ src=3D"https://cdn-images.mailchimp.com/icons/social-block-v3/block-icons=
+-v3/facebook-filled-dark-40.png" /></a></td></tr></tbody></table><!--[if=
+ mso]></td><![endif]--><!--[if mso]><td align=3D"center" valign=3D"top">=
+<![endif]--><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"display:inline;float:left" role=3D"presentation"><tbody=
+><tr><td style=3D"padding-top:3px;padding-bottom:3px;padding-left:12px;pad=
+ding-right:12px" valign=3D"top" class=3D"mceSocialFollowIcon" align=3D"cen=
+ter" width=3D"40"><a href=3D"https://africanimpact.us1.list-manage.com/tra=
+ck/click?u=3Dc2a17277a916926b6b5f98a04&id=3Dfe7e86ee3d&e=3Dce187d7de2" ta=
+rget=3D"_blank" rel=3D"noreferrer"><img class=3D"mceSocialFollowImage" wid=
+th=3D"40" height=3D"40" alt=3D"Instagram icon" src=3D"https://cdn-images.m=
+ailchimp.com/icons/social-block-v3/block-icons-v3/instagram-filled-dark-40=
+=2Epng" /></a></td></tr></tbody></table><!--[if mso]></td><![endif]--><!--=
+[if mso]><td align=3D"center" valign=3D"top"><![endif]--><table align=3D=
+"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"display:i=
+nline;float:left" role=3D"presentation"><tbody><tr><td style=3D"padding-to=
+p:3px;padding-bottom:3px;padding-left:12px;padding-right:12px" valign=3D"t=
+op" class=3D"mceSocialFollowIcon" align=3D"center" width=3D"40"><a href=3D=
+"https://africanimpact.us1.list-manage.com/track/click?u=3Dc2a17277a916926=
+b6b5f98a04&id=3D059a1f0674&e=3Dce187d7de2" target=3D"_blank" rel=3D"noref=
+errer"><img class=3D"mceSocialFollowImage" width=3D"40" height=3D"40" alt=
+=3D"Twitter icon" src=3D"https://cdn-images.mailchimp.com/icons/social-blo=
+ck-v3/block-icons-v3/twitter-filled-dark-40.png" /></a></td></tr></tbody><=
+/table><!--[if mso]></td><![endif]--><!--[if mso]><td align=3D"center"=
+ valign=3D"top"><![endif]--><table align=3D"left" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" style=3D"display:inline;float:left" role=3D"pres=
+entation"><tbody><tr><td style=3D"padding-top:3px;padding-bottom:3px;paddi=
+ng-left:12px;padding-right:12px" valign=3D"top" class=3D"mceSocialFollowIc=
+on" align=3D"center" width=3D"40"><a href=3D"https://africanimpact.us1.lis=
+t-manage.com/track/click?u=3Dc2a17277a916926b6b5f98a04&id=3D2497da8e02&e=
+=3Dce187d7de2" target=3D"_blank" rel=3D"noreferrer"><img class=3D"mceSoci=
+alFollowImage" width=3D"40" height=3D"40" alt=3D"LinkedIn icon" src=3D"htt=
+ps://cdn-images.mailchimp.com/icons/social-block-v3/block-icons-v3/linkedi=
+n-filled-dark-40.png" /></a></td></tr></tbody></table><!--[if mso]></td><=
+![endif]--><!--[if mso]><td align=3D"center" valign=3D"top"><![endif]--=
+><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"display:inline;float:left" role=3D"presentation"><tbody><tr><td sty=
+le=3D"padding-top:3px;padding-bottom:3px;padding-left:12px;padding-right:1=
+2px" valign=3D"top" class=3D"mceSocialFollowIcon" align=3D"center" width=
+=3D"40"><a href=3D"https://africanimpact.us1.list-manage.com/track/click?u=
+=3Dc2a17277a916926b6b5f98a04&id=3D2c12b93cea&e=3Dce187d7de2" target=3D"_b=
+lank" rel=3D"noreferrer"><img class=3D"mceSocialFollowImage" width=3D"40"=
+ height=3D"40" alt=3D"Website icon" src=3D"https://cdn-images.mailchimp.co=
+m/icons/social-block-v3/block-icons-v3/website-filled-dark-40.png" /></a><=
+/td></tr></tbody></table><!--[if mso]></td><![endif]--><!--[if mso]></t=
+r></table><![endif]--></td></tr></tbody></table></td></tr></tbody></table=
+></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td sty=
+le=3D"background-color:transparent;padding-top:15px;padding-bottom:15px;pa=
+dding-right:24px;padding-left:24px" valign=3D"top" class=3D"mceDividerBloc=
+kContainer" id=3D"blockContainerId-28"><table align=3D"center" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"background-c=
+olor:transparent;width:100%" role=3D"presentation" class=3D"mceDividerCont=
+ainer" data-block-id=3D"28"><tbody><tr><td style=3D"min-width:100%;border-=
+top-width:2px;border-top-style:solid;border-top-color:#000000;line-height:=
+0;font-size:0" valign=3D"top" class=3D"mceDividerBlock">=C2=A0</td></tr></=
+tbody></table></td></tr><tr><td style=3D"padding-top:12px;padding-bottom:1=
+2px;padding-right:24px;padding-left:24px" valign=3D"top" class=3D"mceButto=
+nBlockContainer" align=3D"center" id=3D"blockContainerId-29"><div><!--[if=
+ !mso]><!--></div><table align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" data-block-id=3D"29" class=3D"mceBu=
+ttonContainer"><tbody><tr class=3D"mceStandardButton"><td style=3D"backgro=
+und-color:#faaf40;border-radius:50px;text-align:center" valign=3D"top" cla=
+ss=3D"mceButton"><a href=3D"https://africanimpact.us1.list-manage.com/trac=
+k/click?u=3Dc2a17277a916926b6b5f98a04&id=3D95a1a58fda&e=3Dce187d7de2" tar=
+get=3D"_blank" class=3D"mceButtonLink" style=3D"background-color:#faaf40;b=
+order-radius:50px;border:1px solid #000000;color:#000000;display:block;fon=
+t-family:'DM Sans'=2C sans-serif;font-size:16px;font-weight:normal;font-st=
+yle:normal;padding:16px 28px;text-decoration:none;text-align:center;direct=
+ion:ltr;letter-spacing:0px" rel=3D"noreferrer">Subscribe</a></td></tr></tb=
+ody></table><div><!--<![endif]--></div><table align=3D"center" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" data-block-id=
+=3D"29" class=3D"mceButtonContainer"><tbody><tr>
+<!--[if mso]>
+<td align=3D"center">
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"
+href=3D"https://c98f5dc4.sibforms.com/serve/MUIEAHlNBkUt8kquaj3xswb5_1gvLc=
+iIB5Zuj7MdvhYIct7u-6e2XqEumOydbzQQgclfGLYUoau3A03yj30gmhFmxFa-VNd_-D-cLsnX=
+16CFvNRUUpv2qdWk2K-85P--RsMHSyJA5bftaVg2luiOs9AzjGqR-IJfFS0v0TJ03FmkiXlaDb=
+0l2L964ZNttIDjKQjJFndjVxH02v-J"
+style=3D"v-text-anchor:middle; width:132.2px; height:54.480000000000004px;=
+"
+arcsize=3D"38%"
+strokecolor=3D"#000000"
+strokeweight=3D"1px"
+fillcolor=3D"#faaf40">
+<v:stroke dashstyle=3D"solid"/>
+<w:anchorlock />
+<center style=3D"
+color: #000000;
+display: block;
+font-family: 'DM Sans'=2C sans-serif;
+font-size: 16;
+font-style: normal;
+font-weight: normal;
+letter-spacing: 0px;
+text-decoration: none;
+text-align: center;
+direction: ltr;"
+>
+Subscribe
+</center>
+</v:roundrect>
+</td>
+<![endif]-->
+</tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><=
+/td></tr></tbody></table></td></tr></tbody></table><!--[if (gte mso 9)|(I=
+E)]></td></tr></table><![endif]--></td></tr></tbody><tbody data-block-id=
+=3D"37" class=3D"mceWrapper"><tr><td style=3D"background-color:#583300" va=
+lign=3D"top" align=3D"center" class=3D"mceSectionFooter"><!--[if (gte mso=
+ 9)|(IE)]><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"660" style=3D"width:660px;"><tr><td><![endif]--><table=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"=
+max-width:660px" role=3D"presentation"><tbody><tr><td style=3D"background-=
+color:#ffffff" valign=3D"top" class=3D"mceWrapperInner"><table align=3D"ce=
+nter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=
+=3D"presentation" data-block-id=3D"36"><tbody><tr class=3D"mceRow"><td sty=
+le=3D"background-position:center;background-repeat:no-repeat;background-si=
+ze:cover" valign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" role=3D"presentation"><tbody><tr><td style=3D"paddin=
+g-top:0;padding-bottom:0" valign=3D"top" class=3D"mceColumn" id=3D"mceColu=
+mnId--9" data-block-id=3D"-9" colspan=3D"12" width=3D"100%"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presenta=
+tion"><tbody><tr><td style=3D"padding-top:8px;padding-bottom:8px;padding-r=
+ight:8px;padding-left:8px" valign=3D"top" id=3D"blockContainerId-35"><tabl=
+e align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" role=3D"presentation" data-block-id=3D"35" id=3D"section_239e292=
+5e4c73e149489a55b13cc66e2" class=3D"mceFooterSection"><tbody><tr class=3D"=
+mceRow"><td style=3D"background-position:center;background-repeat:no-repea=
+t;background-size:cover" valign=3D"top"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"12" width=3D"100%" role=3D"presentation"><tbody><tr><td=
+ style=3D"padding-top:0;padding-bottom:0" valign=3D"top" class=3D"mceColum=
+n" id=3D"mceColumnId--3" data-block-id=3D"-3" colspan=3D"12" width=3D"100%=
+"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" r=
+ole=3D"presentation"><tbody><tr><td style=3D"padding-top:12px;padding-bott=
+om:12px;padding-right:0;padding-left:0" valign=3D"top" class=3D"mceImageBl=
+ockContainer" align=3D"center" id=3D"blockContainerId-32"><div><!--[if !m=
+so]><!--></div><a href=3D"https://africanimpact.us1.list-manage.com/track/=
+click?u=3Dc2a17277a916926b6b5f98a04&id=3Dcc3d60409d&e=3Dce187d7de2" style=
+=3D"display:block" target=3D"_blank" data-block-id=3D"32"><table align=3D"=
+center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" st=
+yle=3D"border-collapse:separate;margin:0;vertical-align:top;max-width:153.=
+6231884057971px;width:100%;height:auto" role=3D"presentation" data-testid=
+=3D"image-32"><tbody><tr><td style=3D"border:0;border-radius:0;margin:0" v=
+align=3D"top"><img alt=3D"Logo" src=3D"https://mcusercontent.com/c2a17277a=
+916926b6b5f98a04/images/90dec1c0-1ab5-48e1-a40e-92a4eba51eac.png" width=3D=
+"153.6231884057971" height=3D"auto" style=3D"display:block;max-width:100%;=
+height:auto;border-radius:0" class=3D"mceLogo" /></td></tr></tbody></table=
+></a><div><!--<![endif]--></div><div>
+<!--[if mso]>
+<a href=3D"https://africanimpact.ca"><span class=3D"mceImageBorder" style=
+=3D"border:0;vertical-align:top;margin:0"><img role=3D"presentation" class=
+=3D"mceLogo" src=3D"https://mcusercontent.com/c2a17277a916926b6b5f98a04/im=
+ages/90dec1c0-1ab5-48e1-a40e-92a4eba51eac.png" alt=3D"Logo" width=3D"153.6=
+231884057971" height=3D"auto" style=3D"display:block;max-width:153.6231884=
+057971px;width:153.6231884057971px;height:auto"/></span></a>
+<![endif]-->
+</div></td></tr><tr><td style=3D"padding-top:0;padding-bottom:0;padding-ri=
+ght:0;padding-left:0" valign=3D"top" align=3D"center" id=3D"blockContainer=
+Id-33"><table width=3D"100%" style=3D"border:0;border-radius:0;border-coll=
+apse:separate"><tbody><tr><td style=3D"padding-left:16px;padding-right:16p=
+x;padding-top:12px;padding-bottom:12px" class=3D"mceTextBlockContainer"><d=
+iv data-block-id=3D"33" class=3D"mceText" id=3D"dataBlockId-33" style=3D"d=
+isplay:inline-block;width:100%"><p class=3D"last-child"><em><span style=3D=
+"font-size: 12px">Copyright (C) 2025 African Impact Initiative. All rights=
+ reserved.</span></em><br /><span style=3D"font-size: 12px">
+You are receiving this email because you opted in via our website.
+</span><br /><br /><span style=3D"font-size: 12px">Our mailing address is:=
+</span><br /><span style=3D"font-size: 12px">
+<div class=3D"vcard"><span class=3D"org fn">African Impact Initiative</spa=
+n><div class=3D"adr"><div class=3D"street-address">1265 Military Trail</di=
+v><span class=3D"locality">Toronto</span>=2C <span class=3D"region">Ontari=
+o</span> <span class=3D"postal-code">M1C 1A4</span> <div class=3D"country-=
+name">Canada</div></div><br><a href=3D"https://africanimpact.us1.list-mana=
+ge.com/vcard?u=3Dc2a17277a916926b6b5f98a04&id=3D3af1b0ecfa" class=3D"hcard=
+-download">Add us to your address book</a></div>
+</span><br /><br /><span style=3D"font-size: 12px">Want to change how you=
+ receive these emails?</span><br /><span style=3D"font-size: 12px">You can=
+ </span><a href=3D"https://africanimpact.us1.list-manage.com/profile?u=3Dc=
+2a17277a916926b6b5f98a04&id=3D3af1b0ecfa&e=3Dce187d7de2&c=3Def5428fd82"><spa=
+n style=3D"font-size: 12px">update your preferences</span></a><span style=
+=3D"font-size: 12px"> or </span><a href=3D"https://africanimpact.us1.list-=
+manage.com/unsubscribe?u=3Dc2a17277a916926b6b5f98a04&id=3D3af1b0ecfa&t=3Db=
+&e=3Dce187d7de2&c=3Def5428fd82"><span style=3D"font-size: 12px">unsubscribe<=
+/span></a></p></div></td></tr></tbody></table></td></tr><tr><td valign=3D"=
+top" class=3D"mceLayoutContainer" align=3D"center" id=3D"blockContainerId-=
+-2"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"100%" role=3D"presentation" data-block-id=3D"-2"><tbody><tr cl=
+ass=3D"mceRow"><td style=3D"background-position:center;background-repeat:n=
+o-repeat;background-size:cover;padding-top:0px;padding-bottom:0px" valign=
+=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"24" width=3D=
+"100%" role=3D"presentation"><tbody></tbody></table></td></tr></tbody></ta=
+ble></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody>=
+</table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tb=
+ody></table></td></tr></tbody></table><!--[if (gte mso 9)|(IE)]></td></tr=
+></table><![endif]--></td></tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+</center>
+</body></html>
+--_----------=_MCPart_908638760--

@@ -1,0 +1,136 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of fix.co.ke designates 209.85.218.46 as permitted sender) client-ip=209.85.218.46; envelope-from=awuor@fix.co.ke; helo=mail-ej1-f46.google.com;
+Authentication-Results: mx.zohomail.com;
+	spf=pass (zohomail.com: domain of fix.co.ke designates 209.85.218.46 as permitted sender)  smtp.mailfrom=awuor@fix.co.ke
+Return-Path: <awuor@fix.co.ke>
+Received: from mail-ej1-f46.google.com (mail-ej1-f46.google.com [209.85.218.46]) by mx.zohomail.com
+	with SMTPS id 1748506226127226.2269623335784; Thu, 29 May 2025 01:10:26 -0700 (PDT)
+Received: by mail-ej1-f46.google.com with SMTP id a640c23a62f3a-ad55464ba80so6089866b.0
+        for <info@tomag.co.ke>; Thu, 29 May 2025 01:10:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=fix.co.ke; s=google; t=1748506224; x=1749111024; darn=tomag.co.ke;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=AtRQLVcxZp1BB8WyYJMNSiLI0heI1bbGSlHKISNLs3Y=;
+        b=bnYcvGQoNKbMOCfd1K++3D+937xFy+Z6kpp6EGG2qX2g1q5UBVeD4fpxQ6QVru26HP
+         ItZclCAJFf3bqVVNkQXayejzzvB3W/ohkauPM/hM3Lo/Ue7hOCcLJbPkCuBh9psX9hgq
+         K6Q+v+JHPLtFQel//Vy13a97bB2MH9yvG3GWxj58sTEfaMBd3mGN8mmIo20peiSsxj23
+         E295Q3P5pq1I8UUGpR1cGHlm1O1fo4OIpJUQH/RVoBpicaHe6c78leb9Z3LEMIt+1SwI
+         /kvSFCGTDf3JksIMDwwGXHPISkDtTKw2h6HXG2jGNa5no71i8Pc68YNuyflrYcwRhYq1
+         B0Gw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1748506224; x=1749111024;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=AtRQLVcxZp1BB8WyYJMNSiLI0heI1bbGSlHKISNLs3Y=;
+        b=hJP8Q7OZBW1TqSso44rgA5pYwLZQvmH3G3qDnCUppZAuoReQGP2U9sjFMgiqrMeCui
+         OHaj+Y4N3XNZN7Mk59CaRPNzRRNDMsCTGLfiOJMmrHY46XImP/jdWK8tuAwSiBT+7zlq
+         1CDHxZ3N16H+rzNKArXbtJuXfQjAV5rRv3VxxI/RTam3SKVZYMMsd3Ku1bwMqJo5FI0/
+         nhuiRK7rEb7BF1KsGfr7ZjksKvm8fwXH19ZEkkViUjY5Drel3ZQLqjZQcoOKIV0TRwWS
+         /5WtCb7/MPTdL2qzqOiOUV/VRvMdlbg3nk65FJGT+vHlbGj3CNb53+8A0hNFnxsAKAaz
+         Xy3g==
+X-Gm-Message-State: AOJu0Yy2KuOyag1Ql+6FW1ssvohi7JNrVE4wpz9XXCkqr66DR4aFZWAn
+	Hr7wTEcpJorbqe32TDpb2pp3GANevVhXQ8zWz8ddceIWkcM3aqYnKD+NeqADN+Nz3mPpIreqMjF
+	TCL1gfxzJxAePwQa0nAQLWTg3MZ7WJzH2h4c3LqctOqLIxdOR6AghNVv/yQ==
+X-Gm-Gg: ASbGnctepUoXfunNKKWiZLBbxzSIeY+scbwbS9AKt9zPplb/1X28oH7F6H7Y7N8E3na
+	L658485NePecilR+6gdBi3kPf3g+bDjoGyhLdRHnU6JERrJhpColcgA+cDek+wEEFGDNlv4u93j
+	zKskhvWuyvBKEHLjlQe3xIcsw/VgityxW5vYAl2u63KA==
+X-Google-Smtp-Source: AGHT+IGLuCBkKkcrONP1rbRl7pmgljRbzRXow5D9V5ZFQmsU5FQJdpFUKAQC3rMDwwstxNAaTVXvzLBvRNRo/oVCCzg=
+X-Received: by 2002:a17:906:4590:b0:ad8:83ba:adf4 with SMTP id
+ a640c23a62f3a-ad883bab0c2mr345673266b.7.1748506223698; Thu, 29 May 2025
+ 01:10:23 -0700 (PDT)
+MIME-Version: 1.0
+From: Lloyd Awuor <awuor@fix.co.ke>
+Date: Thu, 29 May 2025 11:10:11 +0300
+X-Gm-Features: AX0GCFvJlGCzz-GWT2uLLKWjL-35PUYZP-4LdlrTT5aEVbHmq7DZ4MxHPlD6bZo
+Message-ID:<CA+1yz44t5TgmVhm1b=1UPHx8uBxQG69vr=jsyz1GzxzECnJWDQ@mail.gmail.com>
+Subject: LINK TO JOIN TODAY'S MEETING
+To: info@tomag.co.ke, luyali@fix.co.ke
+Content-Type: multipart/alternative; boundary="00000000000059f705063641d48a"
+X-ZM-MESSAGEID: 1748506227607131300
+X-ZohoMail-Status: 1
+
+
+--00000000000059f705063641d48a
+Content-Type: text/plain; charset="UTF-8"
+
+Greetings,
+Thank you for confirming your availability.
+We look forward to meeting with you today, from 11:30 pm. Please find the
+Google Meet link below for the meeting:
+meet.google.com/qji-qggh-jwa
+content_copy
+Copy conference info
+
+Best regards,
+Lloyd Awuor
+Fix Kenya Ltd.
+
+--00000000000059f705063641d48a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style=3D"margin-top:1em;margin-bottom:1em;font-family=
+:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif;=
+font-size:12pt;color:rgb(0,0,0)">Greetings,</div><div style=3D"margin-top:1=
+em;margin-bottom:1em;font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontServi=
+ce,Calibri,Helvetica,sans-serif;font-size:12pt;color:rgb(0,0,0)">Thank you =
+for confirming your availability.</div><div style=3D"margin-top:1em;margin-=
+bottom:1em;font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri=
+,Helvetica,sans-serif;font-size:12pt;color:rgb(0,0,0)">We look forward to m=
+eeting with you today, from 11:30 pm. Please find the Google Meet link belo=
+w for the meeting:</div><div style=3D"margin-top:1em;margin-bottom:1em;font=
+-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans=
+-serif;font-size:12pt;color:rgb(0,0,0)"><div class=3D"gmail-nBzcnc gmail-Oj=
+Z2cc gmail-A0N0L gmail-owQVGf gmail-R7b0Hb gmail-sMVRZe" id=3D"gmail-xDetDl=
+gVideo" style=3D"width:448px;display:flex;min-height:40px;padding-right:16p=
+x;box-sizing:border-box;outline:none"><div class=3D"gmail-toUqff gmail-HRaT=
+6d" style=3D"color:rgb(31,31,31);font-size:0.875rem;line-height:1.25rem;pad=
+ding-bottom:6px;padding-top:6px;overflow:visible;text-overflow:ellipsis;fon=
+t-family:&quot;Google Sans&quot;,Roboto,Arial,sans-serif;letter-spacing:0px=
+"><div class=3D"gmail-bgOWSb" style=3D"line-height:normal;overflow:visible"=
+><div class=3D"gmail-AzuXid gmail-O2VjS" style=3D"color:rgb(68,71,70);font-=
+size:0.75rem;line-height:18px;overflow:hidden;text-overflow:ellipsis;letter=
+-spacing:0.00625rem"><a href=3D"http://meet.google.com/qji-qggh-jwa">meet.g=
+oogle.com/qji-qggh-jwa</a><br></div></div></div><div class=3D"gmail-zZj8Pb =
+gmail-uLZ20b" style=3D"display:flex;max-height:50px;width:auto;overflow:vis=
+ible"><div class=3D"gmail-HaHl0c" style=3D"display:flex"><button class=3D"g=
+mail-pYTkkf-Bz112c-LgbsSe gmail-pYTkkf-Bz112c-LgbsSe-OWXEXe-SfQLQb-suEOdc g=
+mail-Ze7p2d" aria-label=3D"Copy conference info" style=3D"background-image:=
+initial;background-position:initial;background-size:initial;background-repe=
+at:initial;background-origin:initial;background-clip:initial;border-width:i=
+nitial;border-style:none;border-color:initial;display:inline-flex;line-heig=
+ht:inherit;outline:none;color:rgb(68,71,70)"><span class=3D"gmail-RBHQF-ksK=
+sZd" style=3D"overflow:hidden;outline:none;width:32px;height:32px"></span><=
+span aria-hidden=3D"true" class=3D"gmail-pYTkkf-Bz112c-kBDsod-Rtc0Jf" style=
+=3D"display:inline-block;line-height:0"><span class=3D"gmail-google-materia=
+l-icons gmail-notranslate gmail-VfPpkd-kBDsod" aria-hidden=3D"true" style=
+=3D"font-family:&quot;Google Material Icons&quot;;font-size:20px;line-heigh=
+t:1;display:inline-block;direction:ltr;font-feature-settings:&quot;liga&quo=
+t;">content_copy</span></span><div class=3D"gmail-pYTkkf-Bz112c-RLmnJb" sty=
+le=3D"block-size: 32px; inline-size: 32px; left: auto; top: 16px; transform=
+: translateY(-50%); z-index: 1;"></div></button><div class=3D"gmail-ne2Ple-=
+oshW8e-V67aGc" role=3D"tooltip" aria-hidden=3D"true" id=3D"gmail-tt-c580" s=
+tyle=3D"height:1px;overflow:hidden">Copy conference info</div></div></div><=
+/div><div class=3D"gmail-nBzcnc gmail-OjZ2cc gmail-A0N0L gmail-yvZHEd" id=
+=3D"gmail-xDetDlgPhone" style=3D"width:448px;display:flex;min-height:40px;p=
+adding-right:16px;box-sizing:border-box;outline:none"><div aria-hidden=3D"t=
+rue" class=3D"gmail-zZj8Pb gmail-EaVNbc" style=3D"display:flex;max-height:5=
+2px;width:40px;padding-left:28px;color:rgb(68,71,70);font-family:&quot;Goog=
+le Sans Text&quot;,&quot;Google Sans&quot;,Helvetica,Arial,sans-serif;font-=
+size:14px;background-color:rgb(240,244,249)"><span class=3D"gmail-notransla=
+te gmail-BxAwwb gmail-Cy2M2" aria-hidden=3D"true" style=3D"font-size:0px"><=
+/span></div><div class=3D"gmail-toUqff" style=3D"color:rgb(31,31,31);font-s=
+ize:14px;line-height:1.25rem;padding-bottom:6px;padding-top:6px;display:fle=
+x;font-family:&quot;Google Sans&quot;,Roboto,Arial,sans-serif;background-co=
+lor:rgb(240,244,249)"><div class=3D"gmail-bgOWSb" style=3D"line-height:norm=
+al;overflow:hidden"><br class=3D"gmail-Apple-interchange-newline"></div></d=
+iv></div></div><div style=3D"margin-top:1em;margin-bottom:1em;font-family:A=
+ptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif;fo=
+nt-size:12pt;color:rgb(0,0,0)"><span style=3D"font-size:12pt">Best regards,=
+</span></div><span class=3D"gmail-im" style=3D"color:rgb(80,0,80)"><div sty=
+le=3D"margin-top:1em;margin-bottom:1em;font-family:Aptos,Aptos_EmbeddedFont=
+,Aptos_MSFontService,Calibri,Helvetica,sans-serif;font-size:12pt;color:rgb(=
+0,0,0)">Lloyd Awuor<br>Fix Kenya Ltd.</div></span></div>
+
+--00000000000059f705063641d48a--

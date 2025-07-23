@@ -1,0 +1,3057 @@
+Delivered-To: info@tomag.co.ke
+Received-SPF: pass (zohomail.com: domain of dayliff.com designates 40.107.247.126 as permitted sender) client-ip=40.107.247.126; envelope-from=Dickson.Marangu@dayliff.com; helo=EUR02-AM0-obe.outbound.protection.outlook.com;
+Authentication-Results: mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of dayliff.com designates 40.107.247.126 as permitted sender)  smtp.mailfrom=Dickson.Marangu@dayliff.com;
+	arc=pass (i=1 dmarc=pass fromdomain=dayliff.com);
+	dmarc=pass(p=none dis=none)  header.from=dayliff.com
+ARC-Seal: i=2; a=rsa-sha256; t=1742293461; cv=pass; 
+	d=zohomail.com; s=zohoarc; 
+	b=DF2NsBFSOWn8qy0lwY1rq072Canm5agiS1fHR9khelvEyFZd5ZPKwvR9R35xEVX+h5YoHzMP7i/22/jKFBIWwDUd+YCH9wrOjYqWZ9a7Bc59bX6cUAwyXDD2oNTBd/2eLk+FDUVoYxXLAEzLbNFAySCyTf3Wnmk8HZntVpDpvXc=
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.com; s=zohoarc; 
+	t=1742293461; h=Content-Type:Cc:Cc:Date:Date:From:From:In-Reply-To:MIME-Version:Message-ID:References:Subject:Subject:To:To:Message-Id:Reply-To; 
+	bh=2CjFlx/GFS0wq4pc1gvqv86NAvb1cerZZ+ty9wc4B2c=; 
+	b=HtM3eajT5QMBB5WNdk1bo76K3pTYf/EfC12i7TxK4YikpM0EQzfZREaipZ0w9t3dOH3BiDhKfPldGFL7VkYf0xOYTbfY2dvH7UHskmKNXBR0rJ9zXHpWBlMa+5t0NTBurYQcyJtK9lkM33aSfb9sSaLy2rlj8553WkegIJgnWXs=
+ARC-Authentication-Results: i=2; mx.zohomail.com;
+	dkim=pass;
+	spf=pass (zohomail.com: domain of dayliff.com designates 40.107.247.126 as permitted sender)  smtp.mailfrom=Dickson.Marangu@dayliff.com;
+	arc=pass (i=1 dmarc=pass fromdomain=dayliff.com);
+	dmarc=pass header.from=<Dickson.Marangu@dayliff.com> (p=none dis=none)
+Return-Path: <Dickson.Marangu@dayliff.com>
+Received: from EUR02-AM0-obe.outbound.protection.outlook.com (mail-am0eur02on2126.outbound.protection.outlook.com [40.107.247.126]) by mx.zohomail.com
+	with SMTPS id 1742293460980987.3888959284109; Tue, 18 Mar 2025 03:24:20 -0700 (PDT)
+Received: from AM6PR04MB4792.eurprd04.prod.outlook.com (2603:10a6:20b:2::13)
+ by DU2PR04MB8630.eurprd04.prod.outlook.com (2603:10a6:10:2dd::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8534.33; Tue, 18 Mar
+ 2025 10:24:15 +0000
+Received: from AM6PR04MB4792.eurprd04.prod.outlook.com
+ ([fe80::2c0a:f87f:ab55:82be]) by AM6PR04MB4792.eurprd04.prod.outlook.com
+ ([fe80::2c0a:f87f:ab55:82be%3]) with mapi id 15.20.8511.031; Tue, 18 Mar 2025
+ 10:24:14 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=YjrDeVI2X9HkiBDCAOjXWVsq0boc9kW9jPbgmy+MIbn/1bjfvsEi3Zf4k2VM8Kaj1abCK6F11tLkBkjPCK5I2Vl0AXdZSV0jmDVYBFGkwhBZh2enTu3sURaQ2YOiLtOrksWq5REpH0//EuooVn+TIvaJAl4m/YgDxDNiJdK+xirISByzCPdZc7LX037az0q6qoHZ0AXhLA7PaI4kVMB3ExKqrBT0eIQTJSj8iPKPph5FLVAJO6MeE8CNDv40aWOUF0JKhmUdmOMvJLz2LmGVpPDNggk5iNFr2dYmiBCaTGu88kZxq+m1VlckW9bzT6P4jUsmMGz18rHfcm1hIOW+VQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=2CjFlx/GFS0wq4pc1gvqv86NAvb1cerZZ+ty9wc4B2c=;
+ b=ZpafnMDFh9PceENAYPwedsC3PqUUXMgE8KOlCyL7UW4ByDaPpgKeFqcH5VuO0NgYiCWqUccaTkiusByHRbJV9d6edGutdCAapPx/JbvkHU2djjQoX18lKuIFzJic3KjUoh/Xx1j+XhGT7qzs6rxzYAZzbj0+dIlUEMRqToNOylRn2uEJ3OTWsCxy0+330p9QPetY/NJmkPt+V2Q9im8R3Nb9w/b0rJSRKiMO1CAL2sQQD6tOLHbddOXCgH48DOaWrQ2VmWUErIn4hjBVESHIUzWgzZArYCi5YnFK845iQe96hni9PFiHIyriuB5pvUZabHqBcpnSjwcJh/6+JzYs+g==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=dayliff.com; dmarc=pass action=none header.from=dayliff.com;
+ dkim=pass header.d=dayliff.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=dayliff.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=2CjFlx/GFS0wq4pc1gvqv86NAvb1cerZZ+ty9wc4B2c=;
+ b=iQ3rs41wth0Ea1GxpWv9x4ZAW4Lv6jbLtu6lDLXqOusqSLVTmi1Tf9vxAq7J++Sw81FkFtNZmNoTb5pVhF8V4xIse+ZCjqSY92GYITACqmMptNIaZWwKM7vMSyKXadD5Dq8e74OoIwbrjjltXRM9GOd7diLGesNTGe8cFJrOQK8=
+From: Dickson Marangu <Dickson.Marangu@dayliff.com>
+To: Tom Gituma <tom.gituma@tomag.co.ke>
+CC: Tomag Enterprises Limited <info@tomag.co.ke>, Reuben Masoo
+	<Reuben.Masoo@dayliff.com>, "Department, Procurement, Local"
+	<HOProcLocal@dayliff.com>, James Muraya <James.Muraya@dayliff.com>, Winfred
+ Macharia <Winfred.Macharia@dayliff.com>, Rachael Irungu
+	<Rachael.Irungu@dayliff.com>
+Subject: Re: Quotation for Repair - POWERMIG Welding Machine - Rewinding the
+ Primary Side of the 1st Coil.
+Thread-Topic: Quotation for Repair - POWERMIG Welding Machine - Rewinding the
+ Primary Side of the 1st Coil.
+Thread-Index: AQHbfSpYrndI014Cr0WJWb11EM7nXrNFN3VygAAMdICADClWPYAnMUWAgAAEwC8=
+Date: Tue, 18 Mar 2025 10:24:14 +0000
+Message-ID:<AM6PR04MB47920EE42F0FE97F79EA0486F6DE2@AM6PR04MB4792.eurprd04.prod.outlook.com>
+References: <AM6PR04MB4792B4F05E5D1DF7B2DCDE49F6282@AM6PR04MB4792.eurprd04.prod.outlook.com>
+ <DU2PR04MB90687EEEF05218CD258B5E7B9B292@DU2PR04MB9068.eurprd04.prod.outlook.com>
+ <19372403e63.129f959041512532.6130144471814068662@tomag.co.ke>
+ <DU2PR04MB906882F062FE44A764E4526F9B362@DU2PR04MB9068.eurprd04.prod.outlook.com>
+ <194456677c4.10c8b694d413427.173005251822652780@tomag.co.ke>
+ <AM9PR04MB8179B7FF30115895C024509F80E92@AM9PR04MB8179.eurprd04.prod.outlook.com>
+ <194f95422c0.ee921ba5474630.488962035869836923@tomag.co.ke>
+ <AM6PR04MB4792B4CA7FE9FC6958C70ABCF6FF2@AM6PR04MB4792.eurprd04.prod.outlook.com>
+ <194ff990939.1023627bd1038238.4434818436461413539@tomag.co.ke>
+ <AM6PR04MB4792E588555174DD9AAC95EEF6C72@AM6PR04MB4792.eurprd04.prod.outlook.com>
+ <195a7dfd820.c2f629012395893.8855585918227563669@tomag.co.ke>
+In-Reply-To: <195a7dfd820.c2f629012395893.8855585918227563669@tomag.co.ke>
+Accept-Language: en-KE, en-GB, en-US
+Content-Language: aa
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+msip_labels: MSIP_Label_85fe8dcb-6147-4658-ac84-b2106d8ef0ca_Enabled=True;MSIP_Label_85fe8dcb-6147-4658-ac84-b2106d8ef0ca_SiteId=e9e12402-b3ab-458f-a106-d7b5007b75fc;MSIP_Label_85fe8dcb-6147-4658-ac84-b2106d8ef0ca_SetDate=2025-03-18T10:24:13.880Z;MSIP_Label_85fe8dcb-6147-4658-ac84-b2106d8ef0ca_Name=General
+ public - For any internal and external
+ persons;MSIP_Label_85fe8dcb-6147-4658-ac84-b2106d8ef0ca_ContentBits=0;MSIP_Label_85fe8dcb-6147-4658-ac84-b2106d8ef0ca_Method=Privileged;
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=dayliff.com;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: AM6PR04MB4792:EE_|DU2PR04MB8630:EE_
+x-ms-office365-filtering-correlation-id: 1ddfe62f-a326-4699-448a-08dd6607084b
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;ARA:13230040|1800799024|376014|366016|19033499003|13003099007|8096899003|7053199007|38070700018;
+x-microsoft-antispam-message-info: =?Windows-1252?Q?Z6Mbf0WsuLkEB5RUpQmBmsjbTKMgmEX1heOdOjk2B0hkSlGECBe2KvHd?=
+ =?Windows-1252?Q?HVSsB7/2mIVT5HreNQkRcm/pR7dDu+AcGArAWqp/kVHbgBKVl5qVmUA3?=
+ =?Windows-1252?Q?GWG4PBntXEOYP7z+9WI8RALHjTitUXSdtN619HfdChBbzSRTrTWnexeh?=
+ =?Windows-1252?Q?CtetM9ftRI01Z8dCTtLHHWRBWIDCUK/gPzheqs0sLVW0fSJT8mGccain?=
+ =?Windows-1252?Q?QiNf43N8BkPbEYpn9rR7vRCAMGcxtsnwjPXJpoKJRpDVpunkyd1nD/lU?=
+ =?Windows-1252?Q?33lOBmQH/WQeTRM0UqjjzaIoE7gsQU+tYQXBtfEv2CMt3Ld6NgqSdGmX?=
+ =?Windows-1252?Q?YvSgf9wqW9QZKVm7DAyzr0vdr8zUO0nR6cKZ9P9kKh3WQO6tNLZEXEBl?=
+ =?Windows-1252?Q?DTAdDBBCffxeZ4q6WKQMbgsXGhdiswUCJCWF1Que8mE6QnllrTlfIVSf?=
+ =?Windows-1252?Q?wNpawwrP/3VlwXAOmC8nxUUhIa/5/NANGmRrf0I8CNTF+9SsiVUKhYlA?=
+ =?Windows-1252?Q?9In3CDs9v/tJbeTwXM90Ys9vMEgNV/pZopds67E8j0nFpJRh/e1AKJjL?=
+ =?Windows-1252?Q?9PeI1egErzM6TSClhOc5kaDBr8085rlRA72tfpv+2+I3T+3WeZpW5LYX?=
+ =?Windows-1252?Q?x4gHsBOGKhIBLHQMOsrurZI9jazXCPdnUCtT2wWRZdUpsnYbejN+ed9g?=
+ =?Windows-1252?Q?FJqnNtXA00v+32dhQ8Mod9B07r5oGBPaAMrU/T1NtvUAGFfxob0Xq7Bd?=
+ =?Windows-1252?Q?LIHvd+PU3QsKkp2vRF6WJPTYcYGnJ0wTKs0J32USPp5/XuwtEjcbTG8S?=
+ =?Windows-1252?Q?H6pIvU3i43M6cmDsyklNxm31x2WDUL34qgp8+ylCsx9WWCC3Sz/chaRo?=
+ =?Windows-1252?Q?bvNEp1fUfw8Gs5ySyBxUHLG9FB90na/N+934j5clOklZTFQPl10kdDJL?=
+ =?Windows-1252?Q?0qnOIcjZ2waxUTqOfa7wOE8+WFdfuxEVJLVOypQ/HqyOp4ERqeDQvv6/?=
+ =?Windows-1252?Q?zOBlpBZgpPMGpk6HV2IBIzWTJKqZLBxzwBbTs66tuZ0vq/rxzINXOoCp?=
+ =?Windows-1252?Q?2UfarKsVKz/nnQS+Ohm1Gh3yjDj/GBX2ToQsCGYwMeJ4TXkMm2GpMtD/?=
+ =?Windows-1252?Q?6OgDJu6NKugkA/NwwZnav3QJZzXVXC08kg0HA+NrlinNiR++ycxdVB29?=
+ =?Windows-1252?Q?iswF8ZI2b+zSA1epUv/AZUg269t3vJbyJrZOHoSwGC/pPHj61ES6Fofw?=
+ =?Windows-1252?Q?+BofbF48N+6s9gk5SCUahnx7PHVXdXGbMwxOjm1T+UQE118wzUsTiaxv?=
+ =?Windows-1252?Q?UcfJY43/gpOtX+UZFaS68hZGmIu5xyF68eoB6laRQI4z0Oup3mlmn+rg?=
+ =?Windows-1252?Q?pCpEGzgxitiYorXSpo4rmLUPaMzvJjesuwJbOxiTAExwn3S0ZmS/U1l1?=
+ =?Windows-1252?Q?52PTNaj5OUAz6/HLhohg7Q/hUJ9BiJaRkb6t3QlTNzPFhJddQ89W7y66?=
+ =?Windows-1252?Q?JOPhrS63+pIcP032cjbAwgeFrgGyVA=3D=3D?=
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:AM6PR04MB4792.eurprd04.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230040)(1800799024)(376014)(366016)(19033499003)(13003099007)(8096899003)(7053199007)(38070700018);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?Windows-1252?Q?wn1BokNCRBpW4P2mJBXP6Dv+bv8WfuTckoS1VjqOHSC8O8tCfF4J7d1Q?=
+ =?Windows-1252?Q?W/aHk3XYRZKkHvESDHX/0HLHE6JItJ/HOKpyXZEEcTNJt9fAmuvTIqCv?=
+ =?Windows-1252?Q?KoniIJvDgm1Zt3S+ZQcRRWuS4Qd0WzkvCIfaTmzjl+jyL+/W9kkBEZK5?=
+ =?Windows-1252?Q?79bW8pJb86RC4Psl/mq/umnY5bKgYV0LjRxlBnm+VBhcu5++JssThCLH?=
+ =?Windows-1252?Q?Zgy4H2PZfxFBSjYv3SlTWoe7Pl4LoIJ1gH85fXDRoowCG0bDfPU2F33Q?=
+ =?Windows-1252?Q?9wcLeHSJRkEqHUTvf9OmwT+T73S07sUzMD2AhoWvR/qwvZkdXRvh0IKc?=
+ =?Windows-1252?Q?7BC7emHvpwcGFCiq1KDpO7Bnel1MKUopWO/MeTEp9wFNkzjwqatdjT5k?=
+ =?Windows-1252?Q?mkWh8vRWXnnUHJj+RkdXdz0wYj0fj8nkMi0CSJhDvr+fReV2liidbFa6?=
+ =?Windows-1252?Q?/RaXdERdg8BnRVvllzy4xw4qKySHCAx5i0Cpeb3rHLExkoEJpzaZS1UG?=
+ =?Windows-1252?Q?0JD6CdUki/ifAajGotWA/4ylu9sMPZxLcHXsudMKAiwa5umCIDl3PND5?=
+ =?Windows-1252?Q?v1CYrL4ARhqzL8Q6Vs4Ht1bsH9/EE7nCM77tzFFDZmvowThHF4cBpbBP?=
+ =?Windows-1252?Q?x+YwtNfBy2HXrpM77fbsGtcEF3jJWjzmx6b/TTeAdfGn5wB76S67icTo?=
+ =?Windows-1252?Q?oTw73i49SpPktXac0DaHry+MFPoZXD5vXE1YOkouqKmRoJ4kR/B5/exF?=
+ =?Windows-1252?Q?dqLyP+DWEJXaRsOtrJd2pyPDGX/hiuxNQubX0lYiLArpbHlsUoH7vpvO?=
+ =?Windows-1252?Q?vuwU+/t+fuSwy0jcZPp7yVkhaY9h0F1Z8FvEK1SbVRuTSuXhI21T2vCP?=
+ =?Windows-1252?Q?DixUqQ+gZQw9xdA6LuIL2OIK75lRcI+/8YIIG4ehQvVU26eXzb7ijGtB?=
+ =?Windows-1252?Q?F71OEcOvSjpgF4yqd9osvOYEbJbnTQ0A/9ehrQPoM0K+DtBuEvSbxixV?=
+ =?Windows-1252?Q?ViFEZWp8tOgmlQICMGcyN6269fHXH6ofqVMvn9UoY7Kpbrzi7Wzs3rKy?=
+ =?Windows-1252?Q?6J8raxhDrb9Iz93Fod2Yf6aP3nW04uJbHR/CE3TVWj72XxQ9t0aXeIyL?=
+ =?Windows-1252?Q?uBd0w6QHjodAjXneHwsRh/pQvikf7p56nMUWbYkIqQi4U+Wx7T6e6InG?=
+ =?Windows-1252?Q?52cP+jbCqSzf5kaQoNkYtIOGQ0yYeduBQxorIG/PwQETIRUqb55uic0r?=
+ =?Windows-1252?Q?6BMePUWAdJ1G/JlbFjo6ImMU/S+zIBA3WyIPy1Y2FMW4yg9DL3jIi/KJ?=
+ =?Windows-1252?Q?b9G/TofQgVcMqzbdj07LEpKka+WHkuCtBlvtr2NGjC9yyiGtb/gJj361?=
+ =?Windows-1252?Q?TcU+Lo1z3mLJ4ab+EaQLVr6H0+DnHIHpzteIga3H1nkXtMpfI3ymM67b?=
+ =?Windows-1252?Q?VeVRiEtdRDsLGnPO6f6QJcDNkc4cCp2JI9CO/1i3BA0DVtuRO/aoJinR?=
+ =?Windows-1252?Q?LTWERvPlQ4y7inTiHYsEE0AetFXsUcdxo5rl0TWDRgRWcCWkdBLqhXaF?=
+ =?Windows-1252?Q?FdX4Hc5Pz4zUnYnuDe3hZmz/Kf2SpcdrfH9xFmjJdNBs6Woq731EEylH?=
+ =?Windows-1252?Q?61VjwUpUufkIRNdmfx3QTP7f7uUi/qOkZ+MVN+CX83kmCWzOMgkUcyTk?=
+ =?Windows-1252?Q?fd43qzkPDN+lBarrOmhL+bQj+Uebban0?=
+Content-Type: multipart/alternative;
+	boundary="_000_AM6PR04MB47920EE42F0FE97F79EA0486F6DE2AM6PR04MB4792eurp_"
+MIME-Version: 1.0
+X-OriginatorOrg: dayliff.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: AM6PR04MB4792.eurprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 1ddfe62f-a326-4699-448a-08dd6607084b
+X-MS-Exchange-CrossTenant-originalarrivaltime: 18 Mar 2025 10:24:14.6130
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: e9e12402-b3ab-458f-a106-d7b5007b75fc
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: 5dLZ9QqdW9rSH90ipmiWy1n0Hovb9UUoHsEw5OF2pkqTWoDdtLJexe3AACOI7UgRAhtwf8ZjVAbFSM4qx1+6uA==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DU2PR04MB8630
+X-ZohoMail-DKIM: pass (identity @dayliff.com)
+X-ZM-MESSAGEID: 1742293463262124500
+X-ZohoMail-Status: 1
+
+
+--_000_AM6PR04MB47920EE42F0FE97F79EA0486F6DE2AM6PR04MB4792eurp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Tom - We will be sharing the PO within the week. We were doing some test=
+ runs on it and it's working fine.
+
+Rgds
+
+
+________________________________
+From: Tom Gituma <tom.gituma@tomag.co.ke>
+Sent: Tuesday, 18 March 2025 09:10
+To: Dickson Marangu <Dickson.Marangu@dayliff.com>
+Cc: Tomag Enterprises Limited <info@tomag.co.ke>; Reuben Masoo <Reuben.Maso=
+o@dayliff.com>; Department, Procurement, Local <HOProcLocal@dayliff.com>; J=
+ames Muraya <James.Muraya@dayliff.com>; Winfred Macharia <Winfred.Macharia@=
+dayliff.com>; Rachael Irungu <Rachael.Irungu@dayliff.com>
+Subject: Re: Quotation for Repair - POWERMIG Welding Machine - Rewinding th=
+e Primary Side of the 1st Coil.
+
+Dear Eng. Dickson,
+I hope you are doing well. Kindly note that we haven't received the LPO for=
+ the above mentioned as per the attached quotation. The machine was picked =
+up and repaired as per your e-mail below. POWERMIG Welding Machine - Rewind=
+ing the Primary Side of the 1st Coil.
+
+
+Thanks and Best Regards
+
+
+
+Tom Gituma
+
+General Manager
+
+Tomag Enterprises Limited
+
+Delta Corner Tower, Chiromo Road
+
+6th Floor, Westlands
+
+Nairobi, Kenya
+
+Mobile +254 722 747 397
+
+Email: tom.gituma@tomag.co.ke<mailto:tom.gituma@tomag.co.ke>
+
+Website: www.tomag.co.ke<http://www.tomag.co.ke/>
+
+TOMAG
+
+
+
+
+---- On Fri, 21 Feb 2025 10:40:52 +0300 Dickson Marangu <Dickson.Marangu@da=
+yliff.com> wrote ---
+
+Morning Tom - Please have the machine collected and have it repaired.
+
+Rgds
+
+________________________________
+From: Tom Gituma <tom.gituma@tomag.co.ke<mailto:tom.gituma@tomag.co.ke>>
+Sent: Thursday, 13 February 2025 16:56
+To: Dickson Marangu <Dickson.Marangu@dayliff.com<mailto:Dickson.Marangu@day=
+liff.com>>
+Cc: Tomag Enterprises Limited <info@tomag.co.ke<mailto:info@tomag.co.ke>>; =
+Reuben Masoo <Reuben.Masoo@dayliff.com<mailto:Reuben.Masoo@dayliff.com>>; D=
+epartment, Procurement, Local <HOProcLocal@dayliff.com<mailto:HOProcLocal@d=
+ayliff.com>>; James Muraya <James.Muraya@dayliff.com<mailto:James.Muraya@da=
+yliff.com>>; Winfred Macharia <Winfred.Macharia@dayliff.com<mailto:Winfred.=
+Macharia@dayliff.com>>; Rachael Irungu <Rachael.Irungu@dayliff.com<mailto:R=
+achael.Irungu@dayliff.com>>
+Subject: Re: Quotation for Repair - POWERMIG Welding Machine - Rewinding th=
+e Primary Side of the 1st Coil.
+
+Dear Eng. Dickson,
+Thanks for your e-mail. Kindly find the attached revised quotation with a 1=
+0% discount. Please let us know if the technician can come pick up the weld=
+er for the repairs.
+
+
+
+Thanks and Best Regards
+
+
+
+Tom Gituma
+
+General Manager
+
+Tomag Enterprises Limited
+
+Delta Corner Tower, Chiromo Road
+
+6th Floor, Westlands
+
+Nairobi, Kenya
+
+Mobile +254 722 747 397
+
+Email: tom.gituma@tomag.co.ke<mailto:tom.gituma@tomag.co.ke>
+
+Website: www.tomag.co.ke<http://www.tomag.co.ke/>
+
+TOMAG
+
+
+
+
+---- On Thu, 13 Feb 2025 16:14:49 +0300 Dickson Marangu <Dickson.Marangu@da=
+yliff.com<mailto:Dickson.Marangu@dayliff.com>> wrote ---
+
+Hi Tom - The pricing seems quite high; Could you extend some discounts plea=
+se.
+
+Rgds
+
+________________________________
+From: Tom Gituma <tom.gituma@tomag.co.ke<mailto:tom.gituma@tomag.co.ke>>
+Sent: Wednesday, 12 February 2025 11:43
+To: Dickson Marangu <Dickson.Marangu@dayliff.com<mailto:Dickson.Marangu@day=
+liff.com>>
+Cc: Tomag Enterprises Limited <info@tomag.co.ke<mailto:info@tomag.co.ke>>; =
+Reuben Masoo <Reuben.Masoo@dayliff.com<mailto:Reuben.Masoo@dayliff.com>>; D=
+epartment, Procurement, Local <HOProcLocal@dayliff.com<mailto:HOProcLocal@d=
+ayliff.com>>; James Muraya <James.Muraya@dayliff.com<mailto:James.Muraya@da=
+yliff.com>>; Winfred Macharia <Winfred.Macharia@dayliff.com<mailto:Winfred.=
+Macharia@dayliff.com>>; Rachael Irungu <Rachael.Irungu@dayliff.com<mailto:R=
+achael.Irungu@dayliff.com>>
+Subject: Re: Quotation for Repair - POWERMIG Welding Machine - Rewinding th=
+e Primary Side of the 1st Coil.
+
+Dear Dickson,
+Kindly find the attached quotation. Please let us know if the technician ca=
+n come pick up the welder for the repairs.
+
+
+Thanks and Best Regards
+
+
+
+Tom Gituma
+
+General Manager
+
+Tomag Enterprises Limited
+
+Delta Corner Tower, Chiromo Road
+
+6th Floor, Westlands
+
+Nairobi, Kenya
+
+Mobile +254 722 747 397
+
+Email: tom.gituma@tomag.co.ke<mailto:tom.gituma@tomag.co.ke>
+
+Website: www.tomag.co.ke<http://www.tomag.co.ke/>
+
+TOMAG
+
+
+
+
+---- On Thu, 30 Jan 2025 11:10:09 +0300 Rachael Irungu <Rachael.Irungu@dayl=
+iff.com<mailto:Rachael.Irungu@dayliff.com>> wrote ---
+
+
+Good morning,
+
+
+
+Kindly find attached our new order and supply
+
+
+
+Please do not remove the emails copied when replying to emails; reply all w=
+hen responding
+
+
+
+NB; Deliver to Head Office Main Stores-Dundori
+
+
+
+Please take note of the following;
+
+Invoice details
+
+  1.  Kindly ensure all invoices contain the following mandatory fields. We=
+ will not schedule an invoice for payment if any of the fields are missing.
+  2.  All orders should have  the LPO number indicated on the invoice, deli=
+very note, or credit note
+  3.  D&S KRA PIN (P000591252N) on the invoice and ETR
+  4.  Valid QR code, Control Unit invoice number, and serial number.
+
+
+
+Payment details
+
+  1.  Note that payment is only scheduled when we receive a statement sent =
+on or before the 5th of every month for 30 days or 60 days accounts and by =
+Wednesdays for any other payment terms.
+  2.  For all payment enquires (statements, withholding tax certificates, V=
+AT claims, remittance advice, payment delays, etc.) please contact HelpDesk=
+.Payments@dayliff.com<mailto:HelpDesk.Payments@dayliff.com>  and cc payment=
+s@dayliff.com<mailto:payments@dayliff.com>
+
+
+
+
+
+Kind regards
+
+Rachael Irungu | Procurement Department | Davis & Shirtliff Ltd
+
+=95 Direct Line +254 711 079 473 / 020 6968473
+
+=95 Mobile; 0712 260 204/ 0737 765 092
+
+
+
+
+
+
+
+From: Tom Gituma <tom.gituma@tomag.co.ke<mailto:tom.gituma@tomag.co.ke>>
+Sent: Wednesday, January 8, 2025 1:12 PM
+To: Dickson Marangu <Dickson.Marangu@dayliff.com<mailto:Dickson.Marangu@day=
+liff.com>>
+Cc: Reuben Masoo <Reuben.Masoo@dayliff.com<mailto:Reuben.Masoo@dayliff.com>=
+>; Department, Procurement, Local <HOProcLocal@dayliff.com<mailto:HOProcLoc=
+al@dayliff.com>>; Anne Nyambura <Anne.Nyambura@dayliff.com<mailto:Anne.Nyam=
+bura@dayliff.com>>; Winfred Macharia <Winfred.Macharia@dayliff.com<mailto:W=
+infred.Macharia@dayliff.com>>; Tomag Enterprises Limited <info@tomag.co.ke<=
+mailto:info@tomag.co.ke>>
+Subject: Re: Repair Control Card - MigMatic 250- Miller - S/N - MG282593D -=
+Davis & Shirtliff-
+
+
+
+
+Some people who received this message don't often get email from tom.gituma=
+@tomag.co.ke<mailto:tom.gituma@tomag.co.ke>. Learn why this is important<ht=
+tps://aka.ms/LearnAboutSenderIdentification>
+
+
+Dear Eng. Dickson,
+
+Kindly share the Purchase order for the above mentioned so that we can issu=
+e the invoice.
+
+
+
+Thanks and Best Regards
+
+
+
+
+
+Tom Gituma
+
+
+General Manager
+
+
+Tomag Enterprises Limited
+
+
+Delta Corner Tower, Chiromo Road
+
+
+6th Floor, Westlands
+
+
+Nairobi, Kenya
+
+
+Mobile +254 722 747 397
+
+
+Email: tom.gituma@tomag.co.ke<mailto:tom.gituma@tomag.co.ke>
+
+
+Website: www.tomag.co.ke<http://www.tomag.co.ke/>
+
+
+TOMAG
+
+
+
+
+
+
+
+
+
+
+---- On Tue, 03 Dec 2024 12:41:57 +0300 Winfred Macharia <Winfred.Macharia@=
+dayliff.com<mailto:Winfred.Macharia@dayliff.com>> wrote ---
+
+
+
+Hi Tom,
+
+
+
+Kindly assist signing the Code of Conduct.
+
+
+
+
+
+
+
+Kind Regards,
+
+
+
+Winfred Macharia| Procurement Department | Davis & Shirtliff Ltd
+
+=95PO Box
+
+41762 - 00100
+
+ Nairobi, Kenya
+
+=95:Direct line;+254 020 6968000 / 0725129176
+
+=95Mobile:  0717 968 374
+
+www.davisandshirtliff.com<http://www.davisandshirtliff.com/>
+
+
+
+
+
+
+
+
+
+
+
+________________________________
+
+
+From: Tom Gituma <tom.gituma@tomag.co.ke<mailto:tom.gituma@tomag.co.ke>>
+Sent: Thursday, November 28, 2024 1:10 PM
+To: Winfred Macharia <Winfred.Macharia@dayliff.com<mailto:Winfred.Macharia@=
+dayliff.com>>
+Cc: Reuben Masoo <Reuben.Masoo@dayliff.com<mailto:Reuben.Masoo@dayliff.com>=
+>; Department, Procurement, Local <HOProcLocal@dayliff.com<mailto:HOProcLoc=
+al@dayliff.com>>; Anne Nyambura <Anne.Nyambura@dayliff.com<mailto:Anne.Nyam=
+bura@dayliff.com>>; Dickson Marangu <Dickson.Marangu@dayliff.com<mailto:Dic=
+kson.Marangu@dayliff.com>>
+Subject: Re: TOMAG
+
+
+
+Dear Winfred,
+
+Kindly find the attached filled forms and the company documents as requeste=
+d.
+
+
+
+Thanks and Best Regards
+
+
+
+
+
+Tom Gituma
+
+
+General Manager
+
+
+Tomag Enterprises Limited
+
+
+Delta Corner Tower, Chiromo Road
+
+
+6th Floor, Westlands
+
+
+Nairobi, Kenya
+
+
+Mobile +254 722 747 397
+
+
+Email: tom.gituma@tomag.co.ke<mailto:tom.gituma@tomag.co.ke>
+
+
+Website: www.tomag.co.ke<http://www.tomag.co.ke/>
+
+
+TOMAG
+
+
+
+
+
+
+
+
+
+
+---- On Thu, 28 Nov 2024 08:06:19 +0300 Winfred Macharia <Winfred.Macharia@=
+dayliff.com<mailto:Winfred.Macharia@dayliff.com>> wrote ---
+
+
+
+Good morning, Tom,
+
+Kindly assist by completing the attached Supplier Information Form
+
+If you require any further information or assistance with the form,  feel f=
+ree to reach out
+
+Kindly revert  filled form and attach the below:
+
+1. Certificate of incorporation.
+
+2. KRA pin certificate.
+
+3. VAT Registration certificate (if available).
+
+4. ISO certificate (ISO 9001:2015 (QMS), ISO 14001:2015 (EMS), & ISO45001:2=
+018 (OHSMS) (if available).
+
+5. OSHA Certificate or equivalent. (if available).
+
+6. Environment management Certificate i.e., NEMA(KEN) & UGA, ZEMA(ZAM) NEMC=
+ (TZA). (if available).
+
+7. Any other relevant certification
+
+8. Sign the attached code of conduct
+
+
+
+Points to note.
+
+=B7        Invoices should be KRA TIMS compliant i.e., Our KRA PIN (P000591=
+252N) on the invoice and ETR, Valid QR code, Control Unit invoice number, a=
+nd serial number.
+
+=B7        Please note all payments are only made when we get statements se=
+nt to this email address; HelpDesk.Payments@dayliff.com<mailto:HelpDesk.Pay=
+ments@dayliff.com>;  and cc payments@dayliff.com<mailto:payments@dayliff.co=
+m>;
+
+
+
+
+
+Kind Regards,
+
+
+
+Winfred Macharia| Procurement Department | Davis & Shirtliff Ltd
+
+=95PO Box
+
+41762 - 00100
+
+ Nairobi, Kenya
+
+=95:Direct line;+254 020 6968000 / 0725129176
+
+=95Mobile:  0717 968 374
+
+www.davisandshirtliff.com<http://www.davisandshirtliff.com/>
+
+
+
+
+
+
+
+
+
+
+
+________________________________
+
+
+From: Dickson Marangu <Dickson.Marangu@dayliff.com<mailto:Dickson.Marangu@d=
+ayliff.com>>
+Sent: Wednesday, November 27, 2024 2:19 PM
+To: Winfred Macharia <Winfred.Macharia@dayliff.com<mailto:Winfred.Macharia@=
+dayliff.com>>
+Cc: Reuben Masoo <Reuben.Masoo@dayliff.com<mailto:Reuben.Masoo@dayliff.com>=
+>; Tom Gituma <tom.gituma@tomag.co.ke<mailto:tom.gituma@tomag.co.ke>>
+Subject: TOMAG
+
+
+
+Hi Winfred - We got the above supplier, and we would like to start engaging=
+ them for machine servicing and supplies especially welding. Kindly assist =
+in opening an account.
+
+Copied is Tom who can help with documentation you might require.
+
+
+
+Rgds
+
+Dickson Marangu | Production Manager | Engineering
+DAVIS & SHIRTLIFF LTD
+=95 PO Box 41762 =96 00100 Nairobi, Kenya | =95 +254 711 079000 / 0730 079 =
+000
+=95 Direct Line: +254 711 079 344 | =95 Mobile: 020 6968 344 | Dickson.Mara=
+ngu@dayliff.com<mailto:Dickson.Marangu@dayliff.com>
+=FC https://www.davisandshirtliff.com<https://www.davisandshirtliff.com/>
+
+WATER PUMPS<https://www.davisandshirtliff.com/product-manual-flipbook> | <h=
+ttps://www.davisandshirtliff.com/product-manual-flipbook> BOREHOLE SERVICE<=
+https://www.davisandshirtliff.com/product-manual-flipbook> | <https://www.d=
+avisandshirtliff.com/product-manual-flipbook> GENERATORS<https://www.davisa=
+ndshirtliff.com/product-manual-flipbook> | <https://www.davisandshirtliff.c=
+om/product-manual-flipbook> SWIMMING POOLS<https://www.davisandshirtliff.co=
+m/product-manual-flipbook> | <https://www.davisandshirtliff.com/product-man=
+ual-flipbook> SOLAR SOLUTIONS<https://www.davisandshirtliff.com/product-man=
+ual-flipbook> | <https://www.davisandshirtliff.com/product-manual-flipbook>=
+ WATER TREATMENT<https://www.davisandshirtliff.com/product-manual-flipbook>=
+ | <https://www.davisandshirtliff.com/product-manual-flipbook> IRRIGATION<h=
+ttps://www.davisandshirtliff.com/product-manual-flipbook>
+
+
+Download D&S FLO<https://www.davisandshirtliff.com/product-manual-flipbook>
+
+
+Watch the latest D&S Video: <https://www.davisandshirtliff.com/product-manu=
+al-flipbook> Solar Borehole for the Jumbos at Selenkay Conservancy<https://=
+www.davisandshirtliff.com/product-manual-flipbook>
+
+
+
+Caution:<https://www.davisandshirtliff.com/product-manual-flipbook> This em=
+ail was sent by a person(s) outside the organization and may contain suspic=
+ious content, links or attachments. Kindly be cautious when clicking on any=
+ of the links or opening any of the attached documents. If in doubt, please=
+ contact ICT<https://www.davisandshirtliff.com/product-manual-flipbook>
+
+
+
+Caution:<https://www.davisandshirtliff.com/product-manual-flipbook> This em=
+ail was sent by a person(s) outside the organization and may contain suspic=
+ious content, links or attachments. Kindly be cautious when clicking on any=
+ of the links or opening any of the attached documents. If in doubt, please=
+ contact ICT<https://www.davisandshirtliff.com/product-manual-flipbook>
+
+
+
+Rachael Irungu | Administrator | Procurement
+DAVIS & SHIRTLIFF LTD
+=95 PO Box 41762 =96 00100 Nairobi, Kenya | =95 +254 711 079000 / 0730 079 =
+000
+=95 Direct Line: +254 711 079 473 | =95 Mobile: 020 6968 473 | Rachael.Irun=
+gu@dayliff.com<mailto:Rachael.Irungu@dayliff.com>
+=FC https://www.davisandshirtliff.com<https://www.davisandshirtliff.com/>
+[Product Manual 2025]<https://www.davisandshirtliff.com/product-manual-flip=
+book>
+WATER PUMPS<https://www.davisandshirtliff.com/water-pumps> | BOREHOLE SERVI=
+CE<https://www.davisandshirtliff.com/borehole-solutions> | GENERATORS<https=
+://www.davisandshirtliff.com/generators> | SWIMMING POOLS<https://www.davis=
+andshirtliff.com/swimming-pools> | SOLAR SOLUTIONS<https://www.davisandshir=
+tliff.com/solar-solutions> | WATER TREATMENT<https://www.davisandshirtliff.=
+com/water-treatment> | IRRIGATION<https://www.davisandshirtliff.com/irrigat=
+ion>
+Download D&S FLO
+[Google Play]<https://play.google.com/store/apps/details?id=3Dcom.davisands=
+hirtliff.flo>
+[Apple App Store]<https://apps.apple.com/us/app/d-s-flo/id1355672141?ls=3D1=
+>
+Watch the latest D&S Video: Solar Borehole for the Jumbos at Selenkay Conse=
+rvancy<https://www.youtube.com/watch?v=3DIPirFsdzsIY>
+
+
+
+
+
+Caution: This email was sent by a person(s) outside the organization and ma=
+y contain suspicious content, links or attachments. Kindly be cautious when=
+ clicking on any of the links or opening any of the attached documents. If =
+in doubt, please contact ICT
+
+
+
+
+
+
+Caution: This email was sent by a person(s) outside the organization and ma=
+y contain suspicious content, links or attachments. Kindly be cautious when=
+ clicking on any of the links or opening any of the attached documents. If =
+in doubt, please contact ICT
+
+
+
+
+
+Caution: This email was sent by a person(s) outside the organization and ma=
+y contain suspicious content, links or attachments. Kindly be cautious when=
+ clicking on any of the links or opening any of the attached documents. If =
+in doubt, please contact ICT
+
+
+--_000_AM6PR04MB47920EE42F0FE97F79EA0486F6DE2AM6PR04MB4792eurp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+Hi Tom - We will be sharing the PO within the week. We were doing some test=
+ runs on it and it's working fine.</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+Rgds</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div id=3D"appendonsend"></div>
+<hr style=3D"display: inline-block; width: 98%;">
+<div dir=3D"ltr" id=3D"divRplyFwdMsg"><span style=3D"font-family: Calibri, =
+sans-serif; font-size: 11pt; color: rgb(0, 0, 0);"><b>From:</b>&nbsp;Tom Gi=
+tuma &lt;tom.gituma@tomag.co.ke&gt;<br>
+<b>Sent:</b>&nbsp;Tuesday, 18 March 2025 09:10<br>
+<b>To:</b>&nbsp;Dickson Marangu &lt;Dickson.Marangu@dayliff.com&gt;<br>
+<b>Cc:</b>&nbsp;Tomag Enterprises Limited &lt;info@tomag.co.ke&gt;; Reuben =
+Masoo &lt;Reuben.Masoo@dayliff.com&gt;; Department, Procurement, Local &lt;=
+HOProcLocal@dayliff.com&gt;; James Muraya &lt;James.Muraya@dayliff.com&gt;;=
+ Winfred Macharia &lt;Winfred.Macharia@dayliff.com&gt;; Rachael Irungu
+ &lt;Rachael.Irungu@dayliff.com&gt;<br>
+<b>Subject:</b>&nbsp;Re: Quotation for Repair - POWERMIG Welding Machine - =
+Rewinding the Primary Side of the 1st Coil.</span>
+<div>&nbsp;</div>
+</div>
+<div style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-size=
+: 10pt;">
+Dear Eng. Dickson,</div>
+<div style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-size=
+: 10pt;">
+I hope you are doing well. Kindly note that we haven't received the LPO for=
+ the above mentioned as per the attached quotation. The machine was picked =
+up and repaired as per your e-mail below.<span style=3D"background-color: r=
+gb(0, 255, 0);">&nbsp;POWERMIG Welding
+ Machine - Rewinding the Primary Side of the 1st Coil.</span></div>
+<div style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-size=
+: 10pt;">
+<br>
+</div>
+<div data-zbluepencil-ignore=3D"true" data-sigid=3D"3897000000000041001" id=
+=3D"x_Zm-_Id_-Sgn">
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Thanks and Best Regards</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">&nbsp;</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Tom Gituma</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">General Manager</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Tomag Enterprises Limited</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Delta Corner Tower, Chiromo Road</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">6<sup>th</sup>&nbsp;Floor, Westlands</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Nairobi, Kenya</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Mobile +254 722 747 397</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(47, 84, 150); background-color: rgb(255, 2=
+55, 255);">Email:
+</span><span style=3D"font-family: SimSun; font-size: 11pt; color: rgb(5, 9=
+9, 193); background-color: rgb(255, 255, 255);"><u><a href=3D"mailto:tom.gi=
+tuma@tomag.co.ke" id=3D"OWAb943ad84-835c-5426-b151-95851eee43f4" class=3D"O=
+WAAutoLink" style=3D"color: rgb(5, 99, 193); margin-top: 0px; margin-bottom=
+: 0px;">tom.gituma@tomag.co.ke</a></u></span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(47, 84, 150); background-color: rgb(255, 2=
+55, 255);">Website:
+</span><span style=3D"font-family: SimSun; font-size: 11pt; color: rgb(5, 9=
+9, 193); background-color: rgb(255, 255, 255);"><a href=3D"http://www.tomag=
+.co.ke/" id=3D"OWAb4d3de37-cb6a-b539-4406-60dcbdb771c4" class=3D"OWAAutoLin=
+k" originalsrc=3D"http://www.tomag.co.ke/" data-auth=3D"NotApplicable" styl=
+e=3D"color: rgb(5, 99, 193); margin-top: 0px; margin-bottom: 0px;">www.toma=
+g.co.ke</a></span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Cal=
+ibri, sans-serif; font-size: 36pt; color: rgb(68, 114, 196); background-col=
+or: rgb(255, 255, 255);"><b>TOMAG</b></span></p>
+<div><br>
+</div>
+</div>
+<div style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-size=
+: 10pt;">
+<br>
+</div>
+<div style=3D"line-height: 0px; margin-top: 10px; margin-bottom: 10px; bord=
+er-top: 1px solid rgb(204, 204, 204); font-family: Verdana, Arial, Helvetic=
+a, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-size=
+: 10pt;">
+<br>
+</div>
+<div id=3D"x_Zm-_Id_-Sgn1">---- On Fri, 21 Feb 2025 10:40:52 +0300 <b>Dicks=
+on Marangu &lt;Dickson.Marangu@dayliff.com&gt;</b>&nbsp;wrote ---<br>
+</div>
+<div style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-size=
+: 10pt;">
+<br>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Morning Tom - Please have the machine collected and have it repaired.</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Rgds</div>
+<div id=3D"x_x_230537992appendonsend"><br>
+</div>
+<hr style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; display: =
+inline-block; width: 98%;">
+<div id=3D"x_x_230537992divRplyFwdMsg" dir=3D"ltr"><span style=3D"font-fami=
+ly: Calibri, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);"><b>From:</b=
+>&nbsp;Tom Gituma &lt;<a href=3D"mailto:tom.gituma@tomag.co.ke" id=3D"OWA3f=
+3194e5-ec19-a093-72c7-0634655c88a3" class=3D"OWAAutoLink">tom.gituma@tomag.=
+co.ke</a>&gt;<br>
+<b>Sent:</b>&nbsp;Thursday, 13 February 2025 16:56<br>
+<b>To:</b>&nbsp;Dickson Marangu &lt;<a href=3D"mailto:Dickson.Marangu@dayli=
+ff.com" id=3D"OWA84970a40-e73f-a3a7-77cb-a1ccbd7bd7d2" class=3D"OWAAutoLink=
+">Dickson.Marangu@dayliff.com</a>&gt;<br>
+<b>Cc:</b>&nbsp;Tomag Enterprises Limited &lt;<a href=3D"mailto:info@tomag.=
+co.ke" id=3D"OWAb49ef78e-c8f0-6485-8b46-42a2396029c5" class=3D"OWAAutoLink"=
+>info@tomag.co.ke</a>&gt;; Reuben Masoo &lt;<a href=3D"mailto:Reuben.Masoo@=
+dayliff.com" id=3D"OWA98aed159-e32d-b963-7d9b-a2eeb8a58015" class=3D"OWAAut=
+oLink">Reuben.Masoo@dayliff.com</a>&gt;;
+ Department, Procurement, Local &lt;<a href=3D"mailto:HOProcLocal@dayliff.c=
+om" id=3D"OWAd2633275-7937-f5aa-0e69-4f05edb0d15f" class=3D"OWAAutoLink">HO=
+ProcLocal@dayliff.com</a>&gt;; James Muraya &lt;<a href=3D"mailto:James.Mur=
+aya@dayliff.com" id=3D"OWA0de00b86-61ea-0764-4eb5-7145b731413c" class=3D"OW=
+AAutoLink">James.Muraya@dayliff.com</a>&gt;;
+ Winfred Macharia &lt;<a href=3D"mailto:Winfred.Macharia@dayliff.com" id=3D=
+"OWAccd8f630-17e2-2543-1749-d9cb042c4ae3" class=3D"OWAAutoLink">Winfred.Mac=
+haria@dayliff.com</a>&gt;; Rachael Irungu &lt;<a href=3D"mailto:Rachael.Iru=
+ngu@dayliff.com" id=3D"OWAcec5ef38-622f-17aa-fc14-185e66ec8bda" class=3D"OW=
+AAutoLink">Rachael.Irungu@dayliff.com</a>&gt;<br>
+<b>Subject:</b>&nbsp;Re: Quotation for Repair - POWERMIG Welding Machine - =
+Rewinding the Primary Side of the 1st Coil.</span>
+<div>&nbsp;</div>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+Dear Eng. Dickson,</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+Thanks for your e-mail. Kindly find the attached revised quotation with a 1=
+0% discount. Please let us know if the technician can come pick up the weld=
+er for the repairs.&nbsp;</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div id=3D"x_x_Zm-_Id_-Sgn">
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Thanks and Best Regards</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">&nbsp;</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Tom Gituma</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">General Manager</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Tomag Enterprises Limited</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Delta Corner Tower, Chiromo Road</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">6<sup>th</sup>&nbsp;Floor, Westlands</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Nairobi, Kenya</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Mobile +254 722 747 397</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(47, 84, 150); background-color: rgb(255, 2=
+55, 255);">Email:
+</span><span style=3D"font-family: SimSun; font-size: 11pt; color: rgb(5, 9=
+9, 193); background-color: rgb(255, 255, 255);"><u><a href=3D"mailto:tom.gi=
+tuma@tomag.co.ke" id=3D"OWA52afd31c-5be0-a530-d0cd-dcacdd38f3a7" class=3D"O=
+WAAutoLink" style=3D"color: rgb(5, 99, 193); margin-top: 0px; margin-bottom=
+: 0px;">tom.gituma@tomag.co.ke</a></u></span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(47, 84, 150); background-color: rgb(255, 2=
+55, 255);">Website:
+</span><span style=3D"font-family: SimSun; font-size: 11pt; color: rgb(5, 9=
+9, 193); background-color: rgb(255, 255, 255);"><a href=3D"http://www.tomag=
+.co.ke/" id=3D"OWAb6664336-6918-7d89-e4d7-89f83a98ae22" class=3D"OWAAutoLin=
+k" originalsrc=3D"http://www.tomag.co.ke/" data-auth=3D"NotApplicable" styl=
+e=3D"color: rgb(5, 99, 193); margin-top: 0px; margin-bottom: 0px;">www.toma=
+g.co.ke</a></span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Cal=
+ibri, sans-serif; font-size: 36pt; color: rgb(68, 114, 196); background-col=
+or: rgb(255, 255, 255);"><b>TOMAG</b></span></p>
+<div><br>
+</div>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div style=3D"direction: ltr; line-height: 0px; margin: 10px 0px; border-to=
+p: 1px solid rgb(204, 204, 204); min-height: 0px; font-family: Verdana, Ari=
+al, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div id=3D"x_x_Zm-_Id_-Sgn1">---- On Thu, 13 Feb 2025 16:14:49 +0300 <b>Dic=
+kson Marangu &lt;<a href=3D"mailto:Dickson.Marangu@dayliff.com" id=3D"OWA24=
+a0a9d6-2c47-ab96-3ff2-05c2e622865d" class=3D"OWAAutoLink">Dickson.Marangu@d=
+ayliff.com</a>&gt;</b>&nbsp;wrote ---<br>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Hi Tom - The pricing seems quite high; Could you extend some discounts plea=
+se.</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sa=
+ns-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Rgds</div>
+<div id=3D"x_x_x_1417697791appendonsend"><br>
+</div>
+<hr style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; display: =
+inline-block; width: 98%;">
+<div dir=3D"ltr" id=3D"x_x_x_1417697791divRplyFwdMsg"><span style=3D"font-f=
+amily: Calibri, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);"><b>From:=
+</b>&nbsp;Tom Gituma &lt;<a href=3D"mailto:tom.gituma@tomag.co.ke" id=3D"OW=
+Aa83ffdc0-bea9-5c0e-1e55-e756626e0b3a" class=3D"OWAAutoLink">tom.gituma@tom=
+ag.co.ke</a>&gt;<br>
+<b>Sent:</b>&nbsp;Wednesday, 12 February 2025 11:43<br>
+<b>To:</b>&nbsp;Dickson Marangu &lt;<a href=3D"mailto:Dickson.Marangu@dayli=
+ff.com" id=3D"OWA15f9642f-f40f-4f9e-6c10-0302a194d65f" class=3D"OWAAutoLink=
+">Dickson.Marangu@dayliff.com</a>&gt;<br>
+<b>Cc:</b>&nbsp;Tomag Enterprises Limited &lt;<a href=3D"mailto:info@tomag.=
+co.ke" id=3D"OWA00130f1f-cc41-8968-45ce-f840187d24ea" class=3D"OWAAutoLink"=
+>info@tomag.co.ke</a>&gt;; Reuben Masoo &lt;<a href=3D"mailto:Reuben.Masoo@=
+dayliff.com" id=3D"OWA8bde8a10-0c88-4b6e-2895-5d44ef4d0918" class=3D"OWAAut=
+oLink">Reuben.Masoo@dayliff.com</a>&gt;;
+ Department, Procurement, Local &lt;<a href=3D"mailto:HOProcLocal@dayliff.c=
+om" id=3D"OWA40b7d25c-2db5-23e5-813d-a08730eb0876" class=3D"OWAAutoLink">HO=
+ProcLocal@dayliff.com</a>&gt;; James Muraya &lt;<a href=3D"mailto:James.Mur=
+aya@dayliff.com" id=3D"OWA76803c14-fc65-8c87-cdc3-534c5ae02ba6" class=3D"OW=
+AAutoLink">James.Muraya@dayliff.com</a>&gt;;
+ Winfred Macharia &lt;<a href=3D"mailto:Winfred.Macharia@dayliff.com" id=3D=
+"OWAf1a5aa19-44d1-3756-a592-1e90a279c7a8" class=3D"OWAAutoLink">Winfred.Mac=
+haria@dayliff.com</a>&gt;; Rachael Irungu &lt;<a href=3D"mailto:Rachael.Iru=
+ngu@dayliff.com" id=3D"OWAad55404b-ddb6-b202-42be-00bb045e631b" class=3D"OW=
+AAutoLink">Rachael.Irungu@dayliff.com</a>&gt;<br>
+<b>Subject:</b>&nbsp;Re: Quotation for Repair - POWERMIG Welding Machine - =
+Rewinding the Primary Side of the 1st Coil.</span>
+<div>&nbsp;</div>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+Dear Dickson,</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+Kindly find the attached quotation. Please let us know if the technician ca=
+n come pick up the welder for the repairs.&nbsp;</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div id=3D"x_x_x_Zm-_Id_-Sgn">
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Thanks and Best Regards</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">&nbsp;</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Tom Gituma</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">General Manager</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Tomag Enterprises Limited</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Delta Corner Tower, Chiromo Road</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">6<sup>th</sup>&nbsp;Floor, Westlands</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Nairobi, Kenya</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(31, 73, 125); background-color: rgb(255, 2=
+55, 255);">Mobile +254 722 747 397</span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(47, 84, 150); background-color: rgb(255, 2=
+55, 255);">Email:
+</span><span style=3D"font-family: SimSun; font-size: 11pt; color: rgb(5, 9=
+9, 193); background-color: rgb(255, 255, 255);"><u><a href=3D"mailto:tom.gi=
+tuma@tomag.co.ke" id=3D"OWA631af366-2403-5e8f-35af-52b9655edbdf" class=3D"O=
+WAAutoLink" style=3D"color: rgb(5, 99, 193); margin-top: 0px; margin-bottom=
+: 0px;">tom.gituma@tomag.co.ke</a></u></span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Sim=
+Sun; font-size: 11pt; color: rgb(47, 84, 150); background-color: rgb(255, 2=
+55, 255);">Website:
+</span><span style=3D"font-family: SimSun; font-size: 11pt; color: rgb(5, 9=
+9, 193); background-color: rgb(255, 255, 255);"><a href=3D"http://www.tomag=
+.co.ke/" id=3D"OWA548d7d30-1972-519e-d357-43dcd5c2c9d7" class=3D"OWAAutoLin=
+k" originalsrc=3D"http://www.tomag.co.ke/" data-auth=3D"NotApplicable" styl=
+e=3D"color: rgb(5, 99, 193); margin-top: 0px; margin-bottom: 0px;">www.toma=
+g.co.ke</a></span></p>
+<p style=3D"text-indent: 0px; margin: 0px;"><span style=3D"font-family: Cal=
+ibri, sans-serif; font-size: 36pt; color: rgb(68, 114, 196); background-col=
+or: rgb(255, 255, 255);"><b>TOMAG</b></span></p>
+<div><br>
+</div>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div style=3D"direction: ltr; line-height: 0px; margin: 10px 0px; border-to=
+p: 1px solid rgb(204, 204, 204); min-height: 0px; font-family: Verdana, Ari=
+al, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div id=3D"x_x_x_Zm-_Id_-Sgn1">---- On Thu, 30 Jan 2025 11:10:09 +0300 <b>R=
+achael Irungu &lt;<a href=3D"mailto:Rachael.Irungu@dayliff.com" id=3D"OWA32=
+baadc8-3931-cb33-ed05-038cf2c78691" class=3D"OWAAutoLink">Rachael.Irungu@da=
+yliff.com</a>&gt;</b>&nbsp;wrote ---<br>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: rgb(0, 32, 96); back=
+ground-color: white;">Good morning,</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: rgb(0, 32, 96); back=
+ground-color: white;">&nbsp;</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: rgb(0, 32, 96); back=
+ground-color: white;">Kindly find attached&nbsp;our new order and supply</s=
+pan></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: rgb(0, 32, 96); back=
+ground-color: white;">&nbsp;</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: blue; background-col=
+or: white;">Please do not remove the emails copied when replying to emails;=
+ reply all when responding</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: rgb(0, 32, 96); back=
+ground-color: white;">&nbsp;&nbsp;</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: rgb(0, 32, 96); back=
+ground-color: white;"><u>NB; Deliver to Head Office Main Stores-Dundori</u>=
+&nbsp;</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: rgb(0, 32, 96); back=
+ground-color: white;"><u>&nbsp;</u></span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: rgb(0, 32, 96);">Ple=
+ase take note of the following;</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: rgb(0, 32, 96);"><b>=
+Invoice details</b></span></p>
+<ol start=3D"1" style=3D"direction: ltr; margin-top: 0in;">
+<li style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-size:=
+ 10pt; color: rgb(0, 32, 96); direction: ltr;">
+<span style=3D"font-family: &quot;Times New Roman&quot;, serif;">Kindly ens=
+ure all invoices contain the following mandatory fields. We will not schedu=
+le an invoice for payment if any of the fields are missing.</span><br>
+</li><li style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-=
+size: 10pt; color: rgb(0, 32, 96); direction: ltr;">
+<span style=3D"font-family: &quot;Times New Roman&quot;, serif;">All orders=
+ should have&nbsp; the LPO number indicated on the invoice, delivery note, =
+or credit note</span><br>
+</li><li style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-=
+size: 10pt; color: rgb(0, 32, 96); direction: ltr;">
+<span style=3D"font-family: &quot;Times New Roman&quot;, serif;">D&amp;S KR=
+A PIN (P000591252N)&nbsp;on the invoice and ETR</span><br>
+</li><li style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-=
+size: 10pt; color: rgb(0, 32, 96); direction: ltr;">
+<span style=3D"font-family: &quot;Times New Roman&quot;, serif;">Valid QR c=
+ode, Control Unit invoice number, and serial number.</span><br>
+</li></ol>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: rgb(0, 32, 96);">&nb=
+sp;</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: rgb(0, 32, 96);"><b>=
+Payment details</b></span></p>
+<ol start=3D"1" style=3D"direction: ltr; margin-top: 0in;">
+<li style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-size:=
+ 10pt; color: rgb(0, 32, 96); direction: ltr;">
+<span style=3D"font-family: &quot;Times New Roman&quot;, serif;">Note that =
+payment is only scheduled when we receive a statement sent on or before the=
+ 5<sup>th</sup>&nbsp;of every month for 30 days or 60 days accounts and by =
+Wednesdays for any other payment terms.&nbsp;</span><br>
+</li><li style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-=
+size: 10pt; color: rgb(0, 32, 96); direction: ltr;">
+<span style=3D"font-family: &quot;Times New Roman&quot;, serif;">For all pa=
+yment enquires (statements, withholding tax certificates, VAT claims, remit=
+tance advice, payment delays, etc.) please contact
+<a href=3D"mailto:HelpDesk.Payments@dayliff.com" id=3D"OWA0735e117-6d18-262=
+8-c61d-6d3308e8bcbc" class=3D"OWAAutoLink">
+HelpDesk.Payments@dayliff.com</a>&nbsp; and cc <a href=3D"mailto:payments@d=
+ayliff.com" id=3D"OWA9b477944-1616-b91a-7376-dda7d39f95de" class=3D"OWAAuto=
+Link">
+payments@dayliff.com</a></span><br>
+</li></ol>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 10pt; color: rgb(0, 32, 96); b=
+ackground-color: white;">&nbsp;</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Segoe UI&quot;, sans-serif; font-size: 9pt; color: rgb(0, 32, 96);">&nbsp;=
+</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: rgb(0, 32, 96); back=
+ground-color: white;">Kind regards</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: rgb(0, 32, 96); back=
+ground-color: white;">Rachael Irungu<b>&nbsp;|
+</b>Procurement Department <b>| </b>Davis &amp; Shirtliff Ltd</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Wingd=
+ings; font-size: 10pt; color: red; background-color: white;"><b>(</b></span=
+><span style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-si=
+ze: 10pt; color: rgb(0, 36, 81); background-color: white;"><b>&nbsp;</b></s=
+pan><span style=3D"font-family: &quot;Times New Roman&quot;, serif; font-si=
+ze: 10pt; color: rgb(0, 36, 81); background-color: white;">Direct
+ Line </span><span style=3D"font-family: &quot;Times New Roman&quot;, serif=
+; font-size: 10pt; color: rgb(0, 32, 96); background-color: white;">+254 71=
+1 079 473
+<b>/ </b>020 6968473</span><span style=3D"font-family: Verdana, Arial, Helv=
+etica, sans-serif; font-size: 10pt; color: rgb(0, 32, 96); background-color=
+: white;">&nbsp;</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Wingd=
+ings; font-size: 10pt; color: red; background-color: white;"><b>(</b></span=
+><span style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-si=
+ze: 10pt; color: rgb(0, 36, 81); background-color: white;"><b>&nbsp;</b></s=
+pan><span style=3D"font-family: &quot;Times New Roman&quot;, serif; font-si=
+ze: 10pt; color: rgb(0, 36, 81); background-color: white;">Mobile;
+</span><span style=3D"font-family: &quot;Times New Roman&quot;, serif; font=
+-size: 10pt; color: rgb(0, 32, 96); background-color: white;">0712 260 204<=
+b>/
+</b>0737 765 092</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 10pt; color: rgb(0, 32, 96);">=
+&nbsp;</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 10pt; color: rgb(0, 32, 96);">=
+&nbsp;</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;, serif; font-size: 10pt; color: rgb(0, 32, 96);">&nb=
+sp;</span></p>
+<div style=3D"margin-right: 0px; margin-left: 0px; padding: 3pt 0in 0in; bo=
+rder-top: 1pt solid rgb(225, 225, 225);">
+<p style=3D"direction: ltr; margin-top: 0px; margin-bottom: 0px;"><span sty=
+le=3D"font-family: Calibri, sans-serif; font-size: 11pt;"><b>From:</b>&nbsp=
+;Tom Gituma &lt;<a href=3D"mailto:tom.gituma@tomag.co.ke" id=3D"OWAb9039b46=
+-83e3-f920-ff53-e50db5a9382e" class=3D"OWAAutoLink" style=3D"margin-top: 0p=
+x; margin-bottom: 0px;">tom.gituma@tomag.co.ke</a>&gt;<br>
+<b>Sent:</b>&nbsp;Wednesday, January 8, 2025 1:12 PM<br>
+<b>To:</b>&nbsp;Dickson Marangu &lt;<a href=3D"mailto:Dickson.Marangu@dayli=
+ff.com" id=3D"OWA602ef2e6-c7e0-a8de-3c61-73a5339b68b8" class=3D"OWAAutoLink=
+" style=3D"margin-top: 0px; margin-bottom: 0px;">Dickson.Marangu@dayliff.co=
+m</a>&gt;<br>
+<b>Cc:</b>&nbsp;Reuben Masoo &lt;<a href=3D"mailto:Reuben.Masoo@dayliff.com=
+" id=3D"OWA263e3158-1b5b-12bc-730c-f61fffd9bd4f" class=3D"OWAAutoLink" styl=
+e=3D"margin-top: 0px; margin-bottom: 0px;">Reuben.Masoo@dayliff.com</a>&gt;=
+; Department, Procurement, Local &lt;<a href=3D"mailto:HOProcLocal@dayliff.=
+com" id=3D"OWAe9695ec2-6372-9dfd-f8c6-125406c43b61" class=3D"OWAAutoLink" s=
+tyle=3D"margin-top: 0px; margin-bottom: 0px;">HOProcLocal@dayliff.com</a>&g=
+t;;
+ Anne Nyambura &lt;<a href=3D"mailto:Anne.Nyambura@dayliff.com" id=3D"OWA12=
+c18d5a-0361-89fa-2145-33cee36c7201" class=3D"OWAAutoLink" style=3D"margin-t=
+op: 0px; margin-bottom: 0px;">Anne.Nyambura@dayliff.com</a>&gt;; Winfred Ma=
+charia &lt;<a href=3D"mailto:Winfred.Macharia@dayliff.com" id=3D"OWA80cb42f=
+d-f202-a539-6032-dddc3e490f19" class=3D"OWAAutoLink" style=3D"margin-top: 0=
+px; margin-bottom: 0px;">Winfred.Macharia@dayliff.com</a>&gt;;
+ Tomag Enterprises Limited &lt;<a href=3D"mailto:info@tomag.co.ke" id=3D"OW=
+A50570129-d652-a6f8-4e51-09f7baa1b049" class=3D"OWAAutoLink" style=3D"margi=
+n-top: 0px; margin-bottom: 0px;">info@tomag.co.ke</a>&gt;<br>
+<b>Subject:</b>&nbsp;Re: Repair Control Card - MigMatic 250- Miller - S/N -=
+ MG282593D -Davis &amp; Shirtliff-</span></p>
+</div>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+<table align=3D"left" cellspacing=3D"0" cellpadding=3D"0" style=3D"directio=
+n: ltr; width: 100%; box-sizing: border-box; border-collapse: collapse; bor=
+der-spacing: 0px;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; background-color: rgb(166, 166, 166); padding:=
+ 5.25pt 1.5pt; width: 0.3pt; height: 35.6px;">
+<div style=3D"direction: ltr; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 10pt;">
+<br>
+</div>
+</td>
+<td style=3D"direction: ltr; border-width: revert; border-style: revert; bo=
+rder-color: revert; background-color: revert; padding: 5.25pt 3.75pt 5.25pt=
+ 11.25pt; color: revert; width: 100%; height: 35.6px;">
+<p style=3D"direction: ltr; margin-top: 0px; margin-bottom: 0px;"><span sty=
+le=3D"font-family: &quot;Segoe UI&quot;, sans-serif; font-size: 9pt; color:=
+ rgb(33, 33, 33);">Some people who received this message don't often get em=
+ail from
+</span><span style=3D"font-family: &quot;Segoe UI&quot;, sans-serif; font-s=
+ize: 9pt; color: black;"><a href=3D"mailto:tom.gituma@tomag.co.ke" id=3D"OW=
+A0ff29842-e550-911e-0159-e85fc19d977c" class=3D"OWAAutoLink" style=3D"margi=
+n-top: 0px; margin-bottom: 0px;">tom.gituma@tomag.co.ke</a></span><span sty=
+le=3D"font-family: &quot;Segoe UI&quot;, sans-serif; font-size: 9pt; color:=
+ rgb(33, 33, 33);">.
+</span><span style=3D"font-family: &quot;Segoe UI&quot;, sans-serif; font-s=
+ize: 9pt; color: black;"><a href=3D"https://aka.ms/LearnAboutSenderIdentifi=
+cation" id=3D"OWA8805c6e3-09dc-fb8d-4e64-07748cb760af" class=3D"OWAAutoLink=
+" data-auth=3D"NotApplicable" style=3D"margin-top: 0px; margin-bottom: 0px;=
+">Learn
+ why this is important</a></span></p>
+</td>
+<td style=3D"direction: ltr; border-width: revert; border-style: revert; bo=
+rder-color: revert; background-color: revert; padding: 5.25pt 3.75pt; color=
+: revert; width: 56.25pt; height: 35.6px;">
+<div style=3D"direction: ltr; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 10pt;">
+<br>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, sans-serif; font-size: 10pt; color: black; background-color: white;">De=
+ar Eng. Dickson,</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, sans-serif; font-size: 10pt; color: black; background-color: white;">Ki=
+ndly share the Purchase order for the above mentioned so that we can issue =
+the invoice.</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+<div id=3D"x_x_x_x_41700203Zm-_Id_-Sgn">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">Thanks and Best Regards</span><span style=3D"font-family: Lato, sans-se=
+rif; font-size: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">&nbsp;</span><span style=3D"font-family: Lato, sans-serif; font-size: 1=
+0.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">Tom Gituma</span><span style=3D"font-family: Lato, sans-serif; font-siz=
+e: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">General Manager</span><span style=3D"font-family: Lato, sans-serif; fon=
+t-size: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">Tomag Enterprises Limited</span><span style=3D"font-family: Lato, sans-=
+serif; font-size: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">Delta Corner Tower, Chiromo Road</span><span style=3D"font-family: Lato=
+, sans-serif; font-size: 10.5pt; color: black; background-color: white;"><b=
+r>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">6<sup>th</sup>&nbsp;Floor, Westlands</span><span style=3D"font-family: =
+Lato, sans-serif; font-size: 10.5pt; color: black; background-color: white;=
+"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">Nairobi, Kenya</span><span style=3D"font-family: Lato, sans-serif; font=
+-size: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">Mobile +254 722 747 397</span><span style=3D"font-family: Lato, sans-se=
+rif; font-size: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(47, 84, 150); background-color: whit=
+e;">Email:
+</span><span style=3D"font-family: SimSun; font-size: 11pt; color: rgb(5, 9=
+9, 193); background-color: white;"><a href=3D"mailto:tom.gituma@tomag.co.ke=
+" id=3D"OWA45d40964-e2bb-c966-fb27-b9542c96f51c" class=3D"OWAAutoLink" styl=
+e=3D"color: rgb(5, 99, 193); margin-top: 0px; margin-bottom: 0px;">tom.gitu=
+ma@tomag.co.ke</a></span><span style=3D"font-family: Lato, sans-serif; font=
+-size: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(47, 84, 150); background-color: whit=
+e;">Website:
+</span><span style=3D"font-family: SimSun; font-size: 11pt; color: rgb(5, 9=
+9, 193); background-color: white;"><a href=3D"http://www.tomag.co.ke/" id=
+=3D"OWAce81114b-e399-077e-6b0c-83ac44681e7c" class=3D"OWAAutoLink" original=
+src=3D"http://www.tomag.co.ke/" data-auth=3D"NotApplicable" style=3D"color:=
+ rgb(5, 99, 193); margin-top: 0px; margin-bottom: 0px;">www.tomag.co.ke</a>=
+</span><span style=3D"font-family: Lato, sans-serif; font-size: 10.5pt; col=
+or: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Calibri, sans-serif; font-size: 36pt; color: rgb(68, 114, 196); backgrou=
+nd-color: white;"><b>TOMAG</b></span><span style=3D"font-family: Lato, sans=
+-serif; font-size: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+</div>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+<div style=3D"margin: 7.5pt 0px; padding: 0in; border-top: 1pt solid rgb(20=
+4, 204, 204);">
+<p style=3D"direction: ltr; margin-top: 0px; margin-bottom: 0px;"><span sty=
+le=3D"font-family: Verdana, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+</div>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+<div id=3D"x_x_x_x_41700203Zm-_Id_-Sgn1">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt;">---- On Tue, 03 Dec 2024 12:41:57=
+ +0300
+<b>Winfred Macharia &lt;<a href=3D"mailto:Winfred.Macharia@dayliff.com" id=
+=3D"OWA83e29796-9484-974f-102d-1f83c82ea06b" class=3D"OWAAutoLink" style=3D=
+"margin-top: 0px; margin-bottom: 0px;">Winfred.Macharia@dayliff.com</a>&gt;=
+</b>&nbsp;wrote ---</span></p>
+</div>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 10pt; color: rgb(31, 78, 121);=
+"><i>Hi Tom,</i></span></p>
+<div id=3D"x_x_x_x_13770510Signature">
+<p style=3D"margin: 0in;"><span style=3D"font-family: Verdana, sans-serif; =
+font-size: 10pt;">&nbsp;</span></p>
+<p style=3D"margin: 0in;"><span style=3D"color: rgb(31, 78, 121); backgroun=
+d-color: white;"><i>Kindly assist signing the Code of Conduct.</i></span></=
+p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Verdana, sans-serif; =
+font-size: 10pt;">&nbsp;</span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Verdana, sans-serif; =
+font-size: 10pt;">&nbsp;</span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Verdana, sans-serif; =
+font-size: 10pt;">&nbsp;</span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Calibri, sans-serif; =
+color: rgb(0, 36, 81); background-color: white;"><i>Kind Regards,</i></span=
+></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Calibri, sans-serif; =
+font-size: 5pt; color: black; background-color: white;"><i>&nbsp;</i></span=
+></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Calibri, sans-serif; =
+color: rgb(31, 73, 125); background-color: white;"><b><i>Winfred Macharia| =
+Procurement Department</i></b></span><span style=3D"font-family: Calibri, s=
+ans-serif; font-size: 9pt; color: rgb(31, 73, 125); background-color: white=
+;"><b><i>&nbsp;|
+</i></b></span><span style=3D"font-family: Calibri, sans-serif; color: rgb(=
+31, 73, 125); background-color: white;"><b><i>Davis &amp; Shirtliff Ltd</i>=
+</b></span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Wingdings; font-size:=
+ 9pt; color: red; background-color: white;"><i>*</i></span><span style=3D"f=
+ont-family: Calibri, sans-serif; font-size: 11pt; color: rgb(31, 73, 125); =
+background-color: white;"><i>PO Box</i></span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt;"><i>41762 - 00100</i></span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt;"><i>&nbsp;Nairobi, Kenya</i></span=
+></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Wingdings; font-size:=
+ 9pt; color: red; background-color: white;"><i>(</i></span><span style=3D"f=
+ont-family: Calibri, sans-serif; font-size: 11pt; color: rgb(31, 73, 125); =
+background-color: white;"><i>:Direct line;</i></span><span style=3D"font-fa=
+mily: Calibri, sans-serif; font-size: 11pt; color: red; background-color: w=
+hite;"><i>+</i></span><span style=3D"font-family: Calibri, sans-serif; font=
+-size: 10.5pt; color: rgb(31, 78, 121); background-color: white;"><i>254
+ 020 6968000 / 0725129176</i></span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Wingdings; font-size:=
+ 9pt; color: red; background-color: white;"><i>(</i></span><span style=3D"f=
+ont-family: Calibri, sans-serif; font-size: 11pt; color: rgb(31, 73, 125); =
+background-color: white;"><i>Mobile:
+</i></span><span style=3D"font-family: Calibri, sans-serif; font-size: 10.5=
+pt; color: rgb(31, 73, 125); background-color: white;"><i>&nbsp;0717 968 37=
+4</i></span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Calibri, sans-serif; =
+font-size: 11pt; color: rgb(5, 99, 193); background-color: white;"><i><a hr=
+ef=3D"http://www.davisandshirtliff.com/" id=3D"OWA23022351-0d65-d526-6da5-d=
+d5a939554be" class=3D"OWAAutoLink" originalsrc=3D"http://www.davisandshirtl=
+iff.com/" data-auth=3D"NotApplicable" style=3D"color: rgb(5, 99, 193); marg=
+in-top: 0px; margin-bottom: 0px;">www.davisandshirtliff.com</a></i></span><=
+/p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Verdana, sans-serif; =
+font-size: 10pt;">&nbsp;</span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Verdana, sans-serif; =
+font-size: 10pt;">&nbsp;</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+</div>
+<div id=3D"x_x_x_x_13770510appendonsend">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+</div>
+<hr align=3D"center" style=3D"direction: ltr; margin-right: 0px; margin-lef=
+t: 0px; width: 98%;">
+<div style=3D"direction: ltr; text-align: center; margin-right: 0px; margin=
+-left: 0px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: =
+10pt;">
+<br>
+</div>
+<div id=3D"x_x_x_x_13770510divRplyFwdMsg">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Calibri, sans-serif; font-size: 11pt; color: black;"><b>From:</b>&nbsp;T=
+om Gituma &lt;</span><span style=3D"font-family: Calibri, sans-serif; font-=
+size: 11pt;"><a href=3D"mailto:tom.gituma@tomag.co.ke" id=3D"OWA4d906a5f-a2=
+c5-7910-a5a2-387e6a983bfc" class=3D"OWAAutoLink" style=3D"margin-top: 0px; =
+margin-bottom: 0px;">tom.gituma@tomag.co.ke</a></span><span style=3D"font-f=
+amily: Calibri, sans-serif; font-size: 11pt; color: black;">&gt;<br>
+<b>Sent:</b>&nbsp;Thursday, November 28, 2024 1:10 PM<br>
+<b>To:</b>&nbsp;Winfred Macharia &lt;</span><span style=3D"font-family: Cal=
+ibri, sans-serif; font-size: 11pt;"><a href=3D"mailto:Winfred.Macharia@dayl=
+iff.com" id=3D"OWA82e40a43-0702-515a-44eb-6deb740d1741" class=3D"OWAAutoLin=
+k" style=3D"margin-top: 0px; margin-bottom: 0px;">Winfred.Macharia@dayliff.=
+com</a></span><span style=3D"font-family: Calibri, sans-serif; font-size: 1=
+1pt; color: black;">&gt;<br>
+<b>Cc:</b>&nbsp;Reuben Masoo &lt;</span><span style=3D"font-family: Calibri=
+, sans-serif; font-size: 11pt;"><a href=3D"mailto:Reuben.Masoo@dayliff.com"=
+ id=3D"OWAd1839d1b-0cb4-94e9-30cd-53b660cd9965" class=3D"OWAAutoLink" style=
+=3D"margin-top: 0px; margin-bottom: 0px;">Reuben.Masoo@dayliff.com</a></spa=
+n><span style=3D"font-family: Calibri, sans-serif; font-size: 11pt; color: =
+black;">&gt;;
+ Department, Procurement, Local &lt;</span><span style=3D"font-family: Cali=
+bri, sans-serif; font-size: 11pt;"><a href=3D"mailto:HOProcLocal@dayliff.co=
+m" id=3D"OWA79e089d0-95cc-9e52-fddc-7478902d266e" class=3D"OWAAutoLink" sty=
+le=3D"margin-top: 0px; margin-bottom: 0px;">HOProcLocal@dayliff.com</a></sp=
+an><span style=3D"font-family: Calibri, sans-serif; font-size: 11pt; color:=
+ black;">&gt;;
+ Anne Nyambura &lt;</span><span style=3D"font-family: Calibri, sans-serif; =
+font-size: 11pt;"><a href=3D"mailto:Anne.Nyambura@dayliff.com" id=3D"OWA66c=
+e9edd-eaa9-fd8a-ea89-c17b2746361c" class=3D"OWAAutoLink" style=3D"margin-to=
+p: 0px; margin-bottom: 0px;">Anne.Nyambura@dayliff.com</a></span><span styl=
+e=3D"font-family: Calibri, sans-serif; font-size: 11pt; color: black;">&gt;=
+;
+ Dickson Marangu &lt;</span><span style=3D"font-family: Calibri, sans-serif=
+; font-size: 11pt;"><a href=3D"mailto:Dickson.Marangu@dayliff.com" id=3D"OW=
+Afb53eff9-8cc2-adf8-d73f-3cb611817532" class=3D"OWAAutoLink" style=3D"margi=
+n-top: 0px; margin-bottom: 0px;">Dickson.Marangu@dayliff.com</a></span><spa=
+n style=3D"font-family: Calibri, sans-serif; font-size: 11pt; color: black;=
+">&gt;<br>
+<b>Subject:</b>&nbsp;Re: TOMAG</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+</div>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, sans-serif; font-size: 10pt;">Dear Winfred,</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, sans-serif; font-size: 10pt;">Kindly find the attached filled forms and=
+ the company documents as requested.&nbsp;</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+<div id=3D"x_x_x_x_Zm-_Id_-Sgn">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">Thanks and Best Regards</span><span style=3D"font-family: Lato, sans-se=
+rif; font-size: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">&nbsp;</span><span style=3D"font-family: Lato, sans-serif; font-size: 1=
+0.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">Tom Gituma</span><span style=3D"font-family: Lato, sans-serif; font-siz=
+e: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">General Manager</span><span style=3D"font-family: Lato, sans-serif; fon=
+t-size: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">Tomag Enterprises Limited</span><span style=3D"font-family: Lato, sans-=
+serif; font-size: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">Delta Corner Tower, Chiromo Road</span><span style=3D"font-family: Lato=
+, sans-serif; font-size: 10.5pt; color: black; background-color: white;"><b=
+r>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">6<sup>th</sup>&nbsp;Floor, Westlands</span><span style=3D"font-family: =
+Lato, sans-serif; font-size: 10.5pt; color: black; background-color: white;=
+"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">Nairobi, Kenya</span><span style=3D"font-family: Lato, sans-serif; font=
+-size: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(31, 73, 125); background-color: whit=
+e;">Mobile +254 722 747 397</span><span style=3D"font-family: Lato, sans-se=
+rif; font-size: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(47, 84, 150); background-color: whit=
+e;">Email:
+</span><span style=3D"font-family: SimSun; font-size: 11pt; color: rgb(5, 9=
+9, 193); background-color: white;"><a href=3D"mailto:tom.gituma@tomag.co.ke=
+" id=3D"OWA1cd10f1c-b0f9-34c7-9482-902fc57f0fb8" class=3D"OWAAutoLink" styl=
+e=3D"color: rgb(5, 99, 193); margin-top: 0px; margin-bottom: 0px;">tom.gitu=
+ma@tomag.co.ke</a></span><span style=3D"font-family: Lato, sans-serif; font=
+-size: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: SimSun; font-size: 11pt; color: rgb(47, 84, 150); background-color: whit=
+e;">Website:
+</span><span style=3D"font-family: SimSun; font-size: 11pt; color: rgb(5, 9=
+9, 193); background-color: white;"><a href=3D"http://www.tomag.co.ke/" id=
+=3D"OWA9070df86-0ab6-bdf6-27ed-7d043076e128" class=3D"OWAAutoLink" original=
+src=3D"http://www.tomag.co.ke/" data-auth=3D"NotApplicable" style=3D"color:=
+ rgb(5, 99, 193); margin-top: 0px; margin-bottom: 0px;">www.tomag.co.ke</a>=
+</span><span style=3D"font-family: Lato, sans-serif; font-size: 10.5pt; col=
+or: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Calibri, sans-serif; font-size: 36pt; color: rgb(68, 114, 196); backgrou=
+nd-color: white;"><b>TOMAG</b></span><span style=3D"font-family: Lato, sans=
+-serif; font-size: 10.5pt; color: black; background-color: white;"><br>
+<br>
+</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+</div>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+<div style=3D"margin: 7.5pt 0px; padding: 0in; border-top: 1pt solid rgb(20=
+4, 204, 204); min-height: 0px;">
+<p style=3D"direction: ltr; margin-top: 0px; margin-bottom: 0px;"><span sty=
+le=3D"font-family: Verdana, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+</div>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+<div id=3D"x_x_x_x_Zm-_Id_-Sgn1">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt;">---- On Thu, 28 Nov 2024 08:06:19=
+ +0300
+<b>Winfred Macharia &lt;<a href=3D"mailto:Winfred.Macharia@dayliff.com" id=
+=3D"OWAa344b70b-a8a6-b4d0-36a1-3313e2adbb11" class=3D"OWAAutoLink" style=3D=
+"margin-top: 0px; margin-bottom: 0px;">Winfred.Macharia@dayliff.com</a>&gt;=
+</b>&nbsp;wrote ---</span></p>
+</div>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+<div style=3D"margin: 12pt 0px;">
+<p style=3D"direction: ltr; margin-top: 0px; margin-bottom: 0px;"><span sty=
+le=3D"font-family: &quot;Calibri Light&quot;, sans-serif; font-size: 10pt; =
+color: rgb(68, 84, 106); background-color: white;">G</span><span style=3D"f=
+ont-family: &quot;Calibri Light&quot;, sans-serif; font-size: 10pt; color: =
+black; background-color: white;">ood
+ morning, Tom,</span></p>
+</div>
+<div style=3D"margin: 12pt 0px;">
+<p style=3D"direction: ltr; margin-top: 0px; margin-bottom: 0px;"><span sty=
+le=3D"font-family: &quot;Calibri Light&quot;, sans-serif; font-size: 10pt; =
+color: black; background-color: white;">Kindly assist by completing the att=
+ached Supplier Information Form</span></p>
+</div>
+<div style=3D"margin: 12pt 0px;">
+<p style=3D"direction: ltr; margin-top: 0px; margin-bottom: 0px;"><span sty=
+le=3D"font-family: &quot;Calibri Light&quot;, sans-serif; font-size: 10pt; =
+color: black; background-color: white;">If you require any further informat=
+ion or assistance with the form,&nbsp; feel free to
+ reach out</span></p>
+</div>
+<div id=3D"x_x_x_x_x_427363803Signature">
+<div style=3D"margin-top: 12pt; margin-bottom: 12pt;">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-size:=
+ 11pt; color: black; background-color: white;"><b>Kindly revert&nbsp; fille=
+d&nbsp;form&nbsp;and attach the below:</b></span></p>
+</div>
+<p style=3D"margin: 0in;"><span style=3D"font-size: 11pt; color: black; bac=
+kground-color: white;">1. Certificate of incorporation.</span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-size: 11pt; color: black; bac=
+kground-color: white;">2. KRA pin certificate.</span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-size: 11pt; color: black; bac=
+kground-color: white;">3. VAT Registration certificate (if available).</spa=
+n></p>
+<p style=3D"margin: 0in;"><span style=3D"font-size: 11pt; color: black; bac=
+kground-color: white;">4. ISO certificate (ISO 9001:2015 (QMS), ISO 14001:2=
+015 (EMS), &amp; ISO45001:2018 (OHSMS) (if available).</span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-size: 11pt; color: black; bac=
+kground-color: white;">5. OSHA Certificate or equivalent. (if available).</=
+span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-size: 11pt; color: black; bac=
+kground-color: white;">6. Environment management Certificate i.e., NEMA(KEN=
+) &amp; UGA, ZEMA(ZAM) NEMC (TZA). (if available).</span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-size: 11pt; color: black; bac=
+kground-color: white;">7. Any other relevant certification</span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-size: 11pt; color: black; bac=
+kground-color: white;">8. Sign the attached code of conduct</span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Verdana, sans-serif; =
+font-size: 10pt;">&nbsp;</span></p>
+<p style=3D"line-height: 12.6pt; margin: 0in;"><span style=3D"font-size: 11=
+pt; color: black; background-color: white;"><b>Points to note.</b></span></=
+p>
+<p style=3D"text-indent: -0.25in; margin: 0px 0in 0in 0.25in;"><span style=
+=3D"font-size: 11pt; color: black; background-color: white;">=B7&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Invoices should be KRA TIMS compliant i.e.,=
+ Our<i>&nbsp;KRA PIN (</i>P000591252N)<i>&nbsp;on the invoice and ETR, Vali=
+d QR code,
+ Control Unit invoice number, and serial number.</i></span></p>
+<p style=3D"text-indent: -0.25in; margin: 0px 0in 0in 0.25in;"><span style=
+=3D"font-size: 11pt; color: black; background-color: white;">=B7&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Please note all payments are only made when=
+ we get statements sent to this email address;
+<a href=3D"mailto:HelpDesk.Payments@dayliff.com" id=3D"OWA6148f593-d9fd-c28=
+8-ca4a-fe5d2601bc6b" class=3D"OWAAutoLink" style=3D"color: black; margin-to=
+p: 0px; margin-bottom: 0px;">
+HelpDesk.Payments@dayliff.com</a>; &nbsp;and cc <a href=3D"mailto:payments@=
+dayliff.com" id=3D"OWAb6f0f12d-0157-0e2e-0533-7d22cf82e9e4" class=3D"OWAAut=
+oLink" style=3D"color: black; margin-top: 0px; margin-bottom: 0px;">
+payments@dayliff.com</a>;</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Arial, sans-serif; color: black; background-color: white;">&nbsp;</span>=
+</p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Verdana, sans-serif; =
+font-size: 10pt;">&nbsp;</span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Calibri, sans-serif; =
+color: black; background-color: white;"><i>Kind Regards,</i></span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Calibri, sans-serif; =
+font-size: 5pt; color: black; background-color: white;"><i>&nbsp;</i></span=
+></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Calibri, sans-serif; =
+color: black; background-color: white;"><b><i>Winfred Macharia| Procurement=
+ Department</i></b></span><span style=3D"font-family: Calibri, sans-serif; =
+font-size: 9pt; color: black; background-color: white;"><b><i>&nbsp;|
+</i></b></span><span style=3D"font-family: Calibri, sans-serif; color: blac=
+k; background-color: white;"><b><i>Davis &amp; Shirtliff Ltd</i></b></span>=
+</p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Wingdings; font-size:=
+ 9pt; color: black; background-color: white;"><i>*</i></span><span style=3D=
+"font-family: Calibri, sans-serif; font-size: 11pt; color: black; backgroun=
+d-color: white;"><i>PO Box</i></span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt; color: black;">41762 - 00100</span=
+></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt; color: black;"><i>&nbsp;Nairobi, K=
+enya</i></span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Wingdings; font-size:=
+ 9pt; color: black; background-color: white;"><i>(</i></span><span style=3D=
+"font-family: Calibri, sans-serif; font-size: 11pt; color: black; backgroun=
+d-color: white;"><i>:Direct line;+</i></span><span style=3D"font-family: Ca=
+libri, sans-serif; font-size: 10.5pt; color: black; background-color: white=
+;"><i>254
+ 020 6968000 / 0725129176</i></span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Wingdings; font-size:=
+ 9pt; color: black; background-color: white;"><i>(</i></span><span style=3D=
+"font-family: Calibri, sans-serif; font-size: 11pt; color: black; backgroun=
+d-color: white;"><i>Mobile:
+</i></span><span style=3D"font-family: Calibri, sans-serif; font-size: 10.5=
+pt; color: black; background-color: white;"><i>&nbsp;0717 968 374</i></span=
+></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Calibri, sans-serif; =
+font-size: 11pt; color: black; background-color: white;"><i><a href=3D"http=
+://www.davisandshirtliff.com/" id=3D"OWA55f18e10-be8d-de59-8419-c476630a21d=
+6" class=3D"OWAAutoLink" originalsrc=3D"http://www.davisandshirtliff.com/" =
+data-auth=3D"NotApplicable" style=3D"color: black; margin-top: 0px; margin-=
+bottom: 0px;">www.davisandshirtliff.com</a></i></span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Verdana, sans-serif; =
+font-size: 10pt;">&nbsp;</span></p>
+<p style=3D"margin: 0in;"><span style=3D"font-family: Verdana, sans-serif; =
+font-size: 10pt;">&nbsp;</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+</div>
+<div id=3D"x_x_x_x_x_427363803appendonsend">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+</div>
+<hr align=3D"center" style=3D"direction: ltr; margin-right: 0px; margin-lef=
+t: 0px; width: 98%;">
+<div style=3D"direction: ltr; text-align: center; margin-right: 0px; margin=
+-left: 0px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: =
+10pt;">
+<br>
+</div>
+<div id=3D"x_x_x_x_x_427363803divRplyFwdMsg">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Calibri, sans-serif; font-size: 11pt; color: black;"><b>From:</b>&nbsp;D=
+ickson Marangu &lt;</span><span style=3D"font-family: Calibri, sans-serif; =
+font-size: 11pt;"><a href=3D"mailto:Dickson.Marangu@dayliff.com" id=3D"OWAb=
+af3244d-5eaa-8364-95e4-f86bd39e14dd" class=3D"OWAAutoLink" style=3D"margin-=
+top: 0px; margin-bottom: 0px;">Dickson.Marangu@dayliff.com</a></span><span =
+style=3D"font-family: Calibri, sans-serif; font-size: 11pt; color: black;">=
+&gt;<br>
+<b>Sent:</b>&nbsp;Wednesday, November 27, 2024 2:19 PM<br>
+<b>To:</b>&nbsp;Winfred Macharia &lt;</span><span style=3D"font-family: Cal=
+ibri, sans-serif; font-size: 11pt;"><a href=3D"mailto:Winfred.Macharia@dayl=
+iff.com" id=3D"OWAe403c3fe-94a5-403c-382a-b775bc142aa3" class=3D"OWAAutoLin=
+k" style=3D"margin-top: 0px; margin-bottom: 0px;">Winfred.Macharia@dayliff.=
+com</a></span><span style=3D"font-family: Calibri, sans-serif; font-size: 1=
+1pt; color: black;">&gt;<br>
+<b>Cc:</b>&nbsp;Reuben Masoo &lt;</span><span style=3D"font-family: Calibri=
+, sans-serif; font-size: 11pt;"><a href=3D"mailto:Reuben.Masoo@dayliff.com"=
+ id=3D"OWAa734a6a9-0772-86eb-5952-4b5871f08b76" class=3D"OWAAutoLink" style=
+=3D"margin-top: 0px; margin-bottom: 0px;">Reuben.Masoo@dayliff.com</a></spa=
+n><span style=3D"font-family: Calibri, sans-serif; font-size: 11pt; color: =
+black;">&gt;;
+ Tom Gituma &lt;</span><span style=3D"font-family: Calibri, sans-serif; fon=
+t-size: 11pt;"><a href=3D"mailto:tom.gituma@tomag.co.ke" id=3D"OWAfa55b5a7-=
+8aaa-e6fb-c10a-a222112a6aea" class=3D"OWAAutoLink" style=3D"margin-top: 0px=
+; margin-bottom: 0px;">tom.gituma@tomag.co.ke</a></span><span style=3D"font=
+-family: Calibri, sans-serif; font-size: 11pt; color: black;">&gt;<br>
+<b>Subject:</b>&nbsp;TOMAG</span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D"font-famil=
+y: Verdana, sans-serif; font-size: 10pt;">&nbsp;</span></p>
+</div>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 10pt; color: black;">Hi Winfre=
+d - We got the above supplier, and we would like to start engaging them for=
+ machine servicing and supplies especially
+ welding. Kindly assist in opening an account.&nbsp;</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 10pt; color: black;">Copied is=
+ Tom who can help with documentation you might require.</span></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 10pt; color: black;">&nbsp;</s=
+pan></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 10pt; color: black;">Rgds</spa=
+n></p>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Arial=
+, sans-serif; font-size: 9pt; color: navy;"><b>Dickson Marangu | Production=
+ Manager | Engineering</b><br>
+<b>DAVIS &amp; SHIRTLIFF LTD</b><br>
+</span><span style=3D"font-family: Wingdings; font-size: 9pt; color: red;">=
+*</span><span style=3D"font-family: Arial, sans-serif; font-size: 9pt; colo=
+r: navy;">&nbsp;PO Box 41762 =96 00100 Nairobi, Kenya |
+</span><span style=3D"font-family: Wingdings; font-size: 9pt; color: red;">=
+(</span><span style=3D"font-family: Arial, sans-serif; font-size: 9pt; colo=
+r: navy;">&nbsp;+254 711 079000 / 0730 079 000<br>
+</span><span style=3D"font-family: Wingdings; font-size: 9pt; color: red;">=
+(</span><span style=3D"font-family: Arial, sans-serif; font-size: 9pt; colo=
+r: navy;">&nbsp;Direct Line: +254 711 079 344 |
+</span><span style=3D"font-family: Wingdings; font-size: 9pt; color: red;">=
+(</span><span style=3D"font-family: Arial, sans-serif; font-size: 9pt; colo=
+r: navy;">&nbsp;Mobile: 020 6968 344 |
+</span><span style=3D"font-family: Arial, sans-serif; font-size: 9pt;"><a h=
+ref=3D"mailto:Dickson.Marangu@dayliff.com" id=3D"OWAd5a9da5f-e727-9062-c2d0=
+-4c6986863675" class=3D"OWAAutoLink" style=3D"margin-top: 0px; margin-botto=
+m: 0px;">Dickson.Marangu@dayliff.com</a></span><span style=3D"font-family: =
+Arial, sans-serif; font-size: 9pt; color: navy;"><br>
+</span><span style=3D"font-family: Webdings; font-size: 9pt; color: red;">=
+=FC</span><span style=3D"font-family: Arial, sans-serif; font-size: 9pt; co=
+lor: navy;">
+</span><span style=3D"font-family: Arial, sans-serif; font-size: 9pt;"><a h=
+ref=3D"https://www.davisandshirtliff.com/" id=3D"OWA097aca4b-b6f6-378a-9af8=
+-28d5ad710712" class=3D"OWAAutoLink" originalsrc=3D"https://www.davisandshi=
+rtliff.com/" data-auth=3D"NotApplicable" style=3D"margin-top: 0px; margin-b=
+ottom: 0px;">https://www.davisandshirtliff.com</a></span></p>
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"direction: ltr; box-siz=
+ing: border-box; border-collapse: collapse; border-spacing: 0px;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; border-top: 2.25pt solid rgb(0, 130, 214); bor=
+der-bottom: 2.25pt solid rgb(0, 130, 214); padding: 5.25pt 7.5pt; width: 91=
+1.562px; height: 43px;">
+<p style=3D"direction: ltr; margin-top: 0px; margin-bottom: 3.75pt;"><span =
+style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt=
+; color: navy;"><b><a href=3D"https://www.davisandshirtliff.com/product-man=
+ual-flipbook" id=3D"OWA853f5bd2-cc8b-9278-0e91-6d43c9ab95a4" class=3D"OWAAu=
+toLink" originalsrc=3D"https://www.davisandshirtliff.com/product-manual-fli=
+pbook" data-auth=3D"NotApplicable" style=3D"color: navy; margin-top: 0px; m=
+argin-bottom: 0px;">WATER
+ PUMPS</a></b></span><span style=3D"font-family: Verdana, Arial, Helvetica,=
+ sans-serif; font-size: 9pt; color: rgb(0, 130, 214);"><b><a href=3D"https:=
+//www.davisandshirtliff.com/product-manual-flipbook" id=3D"OWA9fa9600a-c83a=
+-1930-2bf0-de08cc30fef4" class=3D"OWAAutoLink" originalsrc=3D"https://www.d=
+avisandshirtliff.com/product-manual-flipbook" data-auth=3D"NotApplicable" s=
+tyle=3D"color: rgb(0, 130, 214); margin-top: 0px; margin-bottom: 0px;">&nbs=
+p;|
+</a></b></span><span style=3D"font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 9pt; color: navy;"><b><a href=3D"https://www.davisandshir=
+tliff.com/product-manual-flipbook" id=3D"OWAfe8eeaa9-b707-83c5-498a-69f8304=
+60f66" class=3D"OWAAutoLink" originalsrc=3D"https://www.davisandshirtliff.c=
+om/product-manual-flipbook" data-auth=3D"NotApplicable" style=3D"color: nav=
+y; margin-top: 0px; margin-bottom: 0px;">BOREHOLE
+ SERVICE</a></b></span><span style=3D"font-family: Verdana, Arial, Helvetic=
+a, sans-serif; font-size: 9pt; color: rgb(0, 130, 214);"><b><a href=3D"http=
+s://www.davisandshirtliff.com/product-manual-flipbook" id=3D"OWAeb1f9d46-a4=
+ea-3f62-a840-6bdfa2c72bf0" class=3D"OWAAutoLink" originalsrc=3D"https://www=
+.davisandshirtliff.com/product-manual-flipbook" data-auth=3D"NotApplicable"=
+ style=3D"color: rgb(0, 130, 214); margin-top: 0px; margin-bottom: 0px;">&n=
+bsp;|
+</a></b></span><span style=3D"font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 9pt; color: navy;"><b><a href=3D"https://www.davisandshir=
+tliff.com/product-manual-flipbook" id=3D"OWAfae90046-94c2-4704-9fc4-81516a2=
+1352e" class=3D"OWAAutoLink" originalsrc=3D"https://www.davisandshirtliff.c=
+om/product-manual-flipbook" data-auth=3D"NotApplicable" style=3D"color: nav=
+y; margin-top: 0px; margin-bottom: 0px;">GENERATORS</a></b></span><span sty=
+le=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; c=
+olor: rgb(0, 130, 214);"><b><a href=3D"https://www.davisandshirtliff.com/pr=
+oduct-manual-flipbook" id=3D"OWAf0eca5d6-ab81-3871-c8d4-9340469ba4bb" class=
+=3D"OWAAutoLink" originalsrc=3D"https://www.davisandshirtliff.com/product-m=
+anual-flipbook" data-auth=3D"NotApplicable" style=3D"color: rgb(0, 130, 214=
+); margin-top: 0px; margin-bottom: 0px;">&nbsp;|
+</a></b></span><span style=3D"font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 9pt; color: navy;"><b><a href=3D"https://www.davisandshir=
+tliff.com/product-manual-flipbook" id=3D"OWA8977715f-c3d5-4578-ab1f-8def5f1=
+9bbac" class=3D"OWAAutoLink" originalsrc=3D"https://www.davisandshirtliff.c=
+om/product-manual-flipbook" data-auth=3D"NotApplicable" style=3D"color: nav=
+y; margin-top: 0px; margin-bottom: 0px;">SWIMMING
+ POOLS</a></b></span><span style=3D"font-family: Verdana, Arial, Helvetica,=
+ sans-serif; font-size: 9pt; color: rgb(0, 130, 214);"><b><a href=3D"https:=
+//www.davisandshirtliff.com/product-manual-flipbook" id=3D"OWAf5171922-b6ff=
+-d508-3928-ad36b80aaa2b" class=3D"OWAAutoLink" originalsrc=3D"https://www.d=
+avisandshirtliff.com/product-manual-flipbook" data-auth=3D"NotApplicable" s=
+tyle=3D"color: rgb(0, 130, 214); margin-top: 0px; margin-bottom: 0px;">&nbs=
+p;|
+</a></b></span><span style=3D"font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 9pt; color: navy;"><b><a href=3D"https://www.davisandshir=
+tliff.com/product-manual-flipbook" id=3D"OWA80133b37-1487-693a-f263-8b76dfc=
+81c66" class=3D"OWAAutoLink" originalsrc=3D"https://www.davisandshirtliff.c=
+om/product-manual-flipbook" data-auth=3D"NotApplicable" style=3D"color: nav=
+y; margin-top: 0px; margin-bottom: 0px;">SOLAR
+ SOLUTIONS</a></b></span><span style=3D"font-family: Verdana, Arial, Helvet=
+ica, sans-serif; font-size: 9pt; color: rgb(0, 130, 214);"><b><a href=3D"ht=
+tps://www.davisandshirtliff.com/product-manual-flipbook" id=3D"OWA02643890-=
+556e-88ee-d065-51f1d950184a" class=3D"OWAAutoLink" originalsrc=3D"https://w=
+ww.davisandshirtliff.com/product-manual-flipbook" data-auth=3D"NotApplicabl=
+e" style=3D"color: rgb(0, 130, 214); margin-top: 0px; margin-bottom: 0px;">=
+&nbsp;|
+</a></b></span><span style=3D"font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 9pt; color: navy;"><b><a href=3D"https://www.davisandshir=
+tliff.com/product-manual-flipbook" id=3D"OWA6000164f-194e-c767-9f37-82f2de9=
+0778f" class=3D"OWAAutoLink" originalsrc=3D"https://www.davisandshirtliff.c=
+om/product-manual-flipbook" data-auth=3D"NotApplicable" style=3D"color: nav=
+y; margin-top: 0px; margin-bottom: 0px;">WATER
+ TREATMENT</a></b></span><span style=3D"font-family: Verdana, Arial, Helvet=
+ica, sans-serif; font-size: 9pt; color: rgb(0, 130, 214);"><b><a href=3D"ht=
+tps://www.davisandshirtliff.com/product-manual-flipbook" id=3D"OWA88692be6-=
+e28a-0d76-e46a-f43a39b0b542" class=3D"OWAAutoLink" originalsrc=3D"https://w=
+ww.davisandshirtliff.com/product-manual-flipbook" data-auth=3D"NotApplicabl=
+e" style=3D"color: rgb(0, 130, 214); margin-top: 0px; margin-bottom: 0px;">=
+&nbsp;|
+</a></b></span><span style=3D"font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 9pt; color: navy;"><b><a href=3D"https://www.davisandshir=
+tliff.com/product-manual-flipbook" id=3D"OWAc7ceab29-c5ad-64d3-ce1b-c2a88e9=
+d897b" class=3D"OWAAutoLink" originalsrc=3D"https://www.davisandshirtliff.c=
+om/product-manual-flipbook" data-auth=3D"NotApplicable" style=3D"color: nav=
+y; margin-top: 0px; margin-bottom: 0px;">IRRIGATION</a></b></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 10pt;"><br>
+</span></p>
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"direction: ltr; box-siz=
+ing: border-box; border-collapse: collapse; border-spacing: 0px;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; padding: 3.75pt 3.75pt 3.75pt 1.2pt; width: 13=
+6.537px; height: 36.5998px;">
+<p style=3D"direction: ltr; margin-top: 0px; margin-bottom: 3.75pt;"><span =
+style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt=
+; color: rgb(0, 0, 0);"><b><a href=3D"https://www.davisandshirtliff.com/pro=
+duct-manual-flipbook" id=3D"OWA8d80f03b-a6a7-9071-2636-8d81d5ef853b" class=
+=3D"OWAAutoLink" originalsrc=3D"https://www.davisandshirtliff.com/product-m=
+anual-flipbook" data-auth=3D"NotApplicable" style=3D"color: rgb(0, 0, 0); m=
+argin-top: 0px; margin-bottom: 0px;">Download
+ D&amp;S FLO</a></b></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 10pt;"><br>
+</span></p>
+<table cellspacing=3D"3" cellpadding=3D"0" style=3D"direction: ltr; box-siz=
+ing: border-box; border-collapse: collapse; border-spacing: 0px;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; padding: 0.75pt; width: 479.525px; height: 23.=
+6003px;">
+<p style=3D"direction: ltr; margin-top: 0px; margin-bottom: 0px;"><span sty=
+le=3D"font-family: Arial, sans-serif; font-size: 9pt; color: rgb(0, 0, 0);"=
+><a href=3D"https://www.davisandshirtliff.com/product-manual-flipbook" id=
+=3D"OWA382d33a1-c722-8966-61eb-c25269823d88" class=3D"OWAAutoLink" original=
+src=3D"https://www.davisandshirtliff.com/product-manual-flipbook" data-auth=
+=3D"NotApplicable" style=3D"color: rgb(0, 0, 0); margin-top: 0px; margin-bo=
+ttom: 0px;">Watch
+ the latest D&amp;S Video: </a></span><span style=3D"font-family: Arial, sa=
+ns-serif; font-size: 9pt; color: black;"><b><u><a href=3D"https://www.davis=
+andshirtliff.com/product-manual-flipbook" id=3D"OWA161fd5ca-9d1f-76b1-43b7-=
+045ff9866410" class=3D"OWAAutoLink" originalsrc=3D"https://www.davisandshir=
+tliff.com/product-manual-flipbook" data-auth=3D"NotApplicable" style=3D"col=
+or: black; margin-top: 0px; margin-bottom: 0px;">Solar
+ Borehole for the Jumbos at Selenkay Conservancy</a></u></b></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style=3D"direction: ltr; margin: 0px 0px 12pt;"><span style=3D"font-fami=
+ly: Verdana, sans-serif; font-size: 10pt; color: rgb(0, 0, 0);"><br>
+</span></p>
+<table align=3D"left" cellspacing=3D"0" cellpadding=3D"0" style=3D"directio=
+n: ltr; width: 100%; box-sizing: border-box; border-collapse: collapse; bor=
+der-spacing: 0px;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; background-color: rgb(0, 160, 210); padding: 5=
+pt 2pt; width: 5.32498px; height: 56.5252px;">
+<div style=3D"direction: ltr; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 10pt;">
+<br>
+</div>
+</td>
+<td style=3D"direction: ltr; background-color: rgb(229, 245, 250); padding:=
+ 5pt 4pt 5pt 12pt; width: 100%; height: 56.5252px;">
+<p style=3D"direction: ltr; margin-top: 0px; margin-bottom: 0px;"><span sty=
+le=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; =
+color: rgb(34, 34, 34);"><b><a href=3D"https://www.davisandshirtliff.com/pr=
+oduct-manual-flipbook" id=3D"OWA4edcd986-5cc7-f2e7-e09c-47438dcf434a" class=
+=3D"OWAAutoLink" originalsrc=3D"https://www.davisandshirtliff.com/product-m=
+anual-flipbook" data-auth=3D"NotApplicable" style=3D"color: rgb(34, 34, 34)=
+; margin-top: 0px; margin-bottom: 0px;">Caution:</a></b><a href=3D"https://=
+www.davisandshirtliff.com/product-manual-flipbook" id=3D"OWAc420b6e9-7ec8-9=
+b7e-7ffe-6a3bba46142d" class=3D"OWAAutoLink" originalsrc=3D"https://www.dav=
+isandshirtliff.com/product-manual-flipbook" data-auth=3D"NotApplicable" sty=
+le=3D"color: rgb(34, 34, 34); margin-top: 0px; margin-bottom: 0px;">&nbsp;T=
+his
+ email was sent by a person(s) outside the organization and may contain sus=
+picious content, links or attachments. Kindly be cautious when clicking on =
+any of the links or opening any of the attached documents. If in doubt, ple=
+ase contact ICT</a></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style=3D"direction: ltr; margin: 0px 0px 12pt;"><span style=3D"font-fami=
+ly: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: rgb(0, 0=
+, 0);"><br>
+</span></p>
+<table align=3D"left" cellspacing=3D"0" cellpadding=3D"0" style=3D"directio=
+n: ltr; width: 100%; box-sizing: border-box; border-collapse: collapse; bor=
+der-spacing: 0px;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; background-color: rgb(0, 160, 210); padding: 5=
+pt 2pt; width: 5.32498px; height: 56.5247px;">
+<div style=3D"direction: ltr; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 10pt;">
+<br>
+</div>
+</td>
+<td style=3D"direction: ltr; background-color: rgb(229, 245, 250); padding:=
+ 5pt 4pt 5pt 12pt; width: 100%; height: 56.5247px;">
+<p style=3D"direction: ltr; margin-top: 0px; margin-bottom: 0px;"><span sty=
+le=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; =
+color: rgb(34, 34, 34);"><b><a href=3D"https://www.davisandshirtliff.com/pr=
+oduct-manual-flipbook" id=3D"OWAa19a3602-188a-038b-be77-ecffbe70eb61" class=
+=3D"OWAAutoLink" originalsrc=3D"https://www.davisandshirtliff.com/product-m=
+anual-flipbook" data-auth=3D"NotApplicable" style=3D"color: rgb(34, 34, 34)=
+; margin-top: 0px; margin-bottom: 0px;">Caution:</a></b><a href=3D"https://=
+www.davisandshirtliff.com/product-manual-flipbook" id=3D"OWAb11b9879-8a53-f=
+4e6-a74e-6e44c6ad3cb0" class=3D"OWAAutoLink" originalsrc=3D"https://www.dav=
+isandshirtliff.com/product-manual-flipbook" data-auth=3D"NotApplicable" sty=
+le=3D"color: rgb(34, 34, 34); margin-top: 0px; margin-bottom: 0px;">&nbsp;T=
+his
+ email was sent by a person(s) outside the organization and may contain sus=
+picious content, links or attachments. Kindly be cautious when clicking on =
+any of the links or opening any of the attached documents. If in doubt, ple=
+ase contact ICT</a></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style=3D"direction: ltr; margin: 0px;"><span style=3D"font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 10pt; color: rgb(0, 0, 0);">&n=
+bsp;</span></p>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Arial; font-size: 9pt; color: navy;">
+<b>Rachael Irungu | Administrator | Procurement</b><br>
+<b>DAVIS &amp; SHIRTLIFF LTD</b><br>
+<span style=3D"font-family: Wingdings; color: red;">*</span>&nbsp;PO Box 41=
+762 =96 00100 Nairobi, Kenya |
+<span style=3D"font-family: Wingdings; color: red;">(</span>&nbsp;+254 711 =
+079000 / 0730 079 000<br>
+<span style=3D"font-family: Wingdings; color: red;">(</span>&nbsp;Direct Li=
+ne: +254 711 079 473 |
+<span style=3D"font-family: Wingdings; color: red;">(</span>&nbsp;Mobile: 0=
+20 6968 473 |
+<a href=3D"mailto:Rachael.Irungu@dayliff.com" id=3D"OWA7998ab1e-ed52-1891-7=
+4e0-edaa08505829" class=3D"OWAAutoLink">
+Rachael.Irungu@dayliff.com</a><br>
+<span style=3D"font-family: Webdings; color: red;">=FC</span> <span style=
+=3D"color: blue;">
+<a href=3D"https://www.davisandshirtliff.com/" id=3D"OWAd2c12be9-d172-1127-=
+bb4d-710e6b8ef837" class=3D"OWAAutoLink" originalsrc=3D"https://www.davisan=
+dshirtliff.com/" data-auth=3D"NotApplicable" style=3D"color: blue;">https:/=
+/www.davisandshirtliff.com</a></span></div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Arial; font-size: 9pt;">
+<a href=3D"https://www.davisandshirtliff.com/product-manual-flipbook" id=3D=
+"OWAb673abeb-e6b7-f57e-d82d-27519bc2abb9" class=3D"OWAAutoLink" originalsrc=
+=3D"https://www.davisandshirtliff.com/product-manual-flipbook" data-auth=3D=
+"NotApplicable"><img alt=3D"Product Manual 2025" style=3D"width: 100%; heig=
+ht: auto; max-width: 800pt;" src=3D"data:text/html;base64,PCFET0NUWVBFIGh0b=
+Ww+IDxodG1sIGRpcj1sdHIgeG1sbnM9aHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCB0cmFu=
+c2xhdGU9bm8+IDxoZWFkPiA8bWV0YSBjaGFyc2V0PXV0Zi04PiA8bWV0YSBodHRwLWVxdWl2PVg=
+tVUEtQ29tcGF0aWJsZSBjb250ZW50PSJJRT1lZGdlIj4gPG1ldGEgaHR0cC1lcXVpdj1wcmFnbW=
+EgY29udGVudD1uby1jYWNoZT4gPG1ldGEgbmFtZT12aWV3cG9ydCBjb250ZW50PSJ3aWR0aD1kZ=
+XZpY2Utd2lkdGgsaW5pdGlhbC1zY2FsZT0xLHVzZXItc2NhbGFibGU9MCI+IDxtZXRhIG5hbWU9=
+Z29vZ2xlIHZhbHVlPW5vdHJhbnNsYXRlPiA8bWV0YSBuYW1lPWZvcm1hdC1kZXRlY3Rpb24gY29=
+udGVudD0idGVsZXBob25lPW5vIj4gPG1ldGEgbmFtZT1zY3JpcHRWZXIgY29udGVudD0yMDI1MD=
+MwNzAwMi4xNj4gPG1ldGEgbmFtZT1oYXNoZWRQYXRoIGNvbnRlbnQ9aGFzaGVkLXYxPiA8bWV0Y=
+SBuYW1lPXBoeXNpY2FsUmluZyBjb250ZW50PVdXPiA8bWV0YSBuYW1lPWVudmlyb25tZW50IGNv=
+bnRlbnQ9UHJvZD4gPG1ldGEgbmFtZT1ib290RmxpZ2h0cyBjb250ZW50PWZ3ay1hbmFseXRpY3M=
+tYWRkb25zLGRldi1vZmZsaW5lTXVsdGlBY2NvdW50REIsY2FsLXdpZGdldHMtdXBuLXZhbGlkYX=
+Rpb24sYXV0aC1jYWNoZVRva2VuRm9yTWV0YU9zSHViLGF1dGgtdXNlQXV0aFRva2VuQ2xhaW1zR=
+m9yTWV0YU9zSHViLGF1dGgtY29kZUNoYWxsZW5nZSxjYWwtd2lkZ2V0cy1kaXNhYmxlV2lkZ2V0=
+cyxhdXRoLW1zYWxqcy1sYW5kaW5ncGFnZSxzaGVsbG11bHRpb3JpZ2luOjM5NDkyNyxjYWwtcGV=
+yZi1ldmVudHNpbnN0YXJ0dXBkYXRhOjUyNTQ5MixjYWwtcGVyZi11c2Vhc3N1bWVvZmZzZXQ6NT=
+IyMTQxLGNhbC1wZXJmLWV2ZW50c2lub2ZmbGluZXN0YXJ0dXBkYXRhOjU0OTk5OCxhY2N0LWFkZ=
+C1hY2NvdW50LWUxLWltcHJvdmVtZW50OjUxNTc4OCxhdXRoLWNhY2hldG9rZW5mb3JtZXRhb3No=
+dWI6NTc5MjY2LGNhbC1wZXJmLWV2ZW50c2luc3RhcnR1cGRhdGFieXZpZXd0eXBlOjU0MjQ1MSx=
+ib290ZmxpZ2h0YnVzaW5lc3N1c2VyOjY5ODAzNSx3b3JrZXJhc3luY2xvYWQ6NjM0OTIxLGF1dG=
+gtbXNhbGpzLWZpbmR0aW1lOjczMjY0NixhdXRoLW1zYWxqcy1wbGFjZXM6NjU3NTIzLGF1dGgtd=
+XNlYXV0aHRva2VuY2xhaW1zZm9ybWV0YW9zaHViOjY1MzQ2MCxhY2N0c3RhcnRkYXRhb3dhdjI6=
+NzAwODAxLGF1dGgtbXNhbGpzLXBsYWNlcy1zZXNzaW9uc3RvcmFnZTo2NTY0MTEsY2FsLXN0b3J=
+lLW5hdmJhcmRhdGE6NjgzODA5LGF1dGgtbXNhbGpzLXNlc3Npb25zdG9yZWFzY2FjaGVsb2NhdG=
+lvbjo2NzA3NDAsYWNjdHBlcnNpc3RlbnRpZGluZGV4ZXJ2Mjo3MTE5ODgsbW9ieC1jZjo3MzQ5N=
+DI+IDxtZXRhIG5hbWU9Y2RuVXJsIGNvbnRlbnQ9Ly9yZXMucHVibGljLm9uZWNkbi5zdGF0aWMu=
+bWljcm9zb2Z0Lz4gPG1ldGEgbmFtZT1iYWNrdXBDZG5VcmwgY29udGVudD0vL3Jlcy0xLmNkbi5=
+vZmZpY2UubmV0Lz4gPG1ldGEgbmFtZT1jZG5Db250YWluZXIgY29udGVudD1vd2FtYWlsLz4gPG=
+1ldGEgbmFtZT1kZXZDZG5VcmwgY29udGVudD0+IDxtZXRhIG5hbWU9YXJpYVVybCBjb250ZW50P=
+T4gPG1ldGEgbmFtZT13ZWJTZXJ2ZXJGb3Jlc3QgY29udGVudD1ldXJwcmQwND4gPG1ldGEgbmFt=
+ZT13ZWJTZXJ2ZXJDbGlxdWUgY29udGVudD1DTEVVUlBSRDA0REhSMDU+IDxtZXRhIG5hbWU9Y29=
+tcGFjdEFyaWFVcmwgY29udGVudD0+IDxtZXRhIG5hbWU9d2Nzc0ZyYW1lVXJsIGNvbnRlbnQ9aH=
+R0cHM6Ly93ZWJzaGVsbC5zdWl0ZS5vZmZpY2UuY29tPiA8bWV0YSBuYW1lPXdjc3NGcmFtZVVyb=
+HMgY29udGVudD17J0RlZmF1bHRVcmwnOidodHRwczovL3dlYnNoZWxsLnN1aXRlLm9mZmljZS5j=
+b20nLCdXd2RiVXJsJzonaHR0cHM6Ly93d2RiLndlYnNoZWxsLnN1aXRlLm9mZmljZS5jb20nLCd=
+FdWRiVXJsJzonaHR0cHM6Ly9ldWRiLndlYnNoZWxsLnN1aXRlLm9mZmljZS5jb20nfT4gPG1ldG=
+EgbmFtZT1zY3JpcHRQYXRoIGNvbnRlbnQ9c2NyaXB0cy8+IDxtZXRhIG5hbWU9b3dhSXNBdXRoZ=
+W50aWNhdGVkIGNvbnRlbnQ9e3tJc0F1dGhlbnRpY2F0ZWR9fT4gPG1ldGEgbmFtZT1qc1RpbWVz=
+dGFtcCBjb250ZW50PTE3NDIyOTMyMDQ4ODA+IDxtZXRhIG5hbWU9cHVibGljVXJsIGNvbnRlbnQ=
+9aHR0cHM6Ly9vdXRsb29rLm9mZmljZS5jb20+IDxtZXRhIG5hbWU9YWFkQXV0aG9yaXR5VXJsIG=
+NvbnRlbnQ9aHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29tLz4gPG1ldGEgbmFtZT1id=
+XNpbmVzc0Nhbm9uaWNhbEhvc3ROYW1lIGNvbnRlbnQ9b3V0bG9vay5vZmZpY2UzNjUuY29tPiA8=
+bWV0YSBuYW1lPWlzUlBTQXV0aENvb2tpZVByZXNlbnQgY29udGVudD1GYWxzZT4gPGxpbmsgcmV=
+sPXByZWNvbm5lY3QgaHJlZj0vL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpYy5taWNyb3NvZnQvIG=
+Nyb3Nzb3JpZ2luPWFub255bW91cz4gPGxpbmsgcmVsPXByZWNvbm5lY3QgaHJlZj1odHRwczovL=
+2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vIGNyb3Nzb3JpZ2luPWFub255bW91cz4gPGxpbmsg=
+cmVsPSJzaG9ydGN1dCBpY29uIiBocmVmPS9tYWlsL2Zhdmljb24uaWNvIHR5cGU9aW1hZ2UveC1=
+pY29uPiA8bGluayByZWw9YXBwbGUtdG91Y2gtaWNvbiBocmVmPS8vcmVzLnB1YmxpYy5vbmVjZG=
+4uc3RhdGljLm1pY3Jvc29mdC9hc3NldHMvbWFpbC9wd2EvdjEvcG5ncy9hcHBsZS10b3VjaC1pY=
+29uLnBuZz4gPG5vc2NyaXB0PkphdmFTY3JpcHQgbXVzdCBiZSBlbmFibGVkLjwvbm9zY3JpcHQ+=
+IDx0aXRsZT5PdXRsb29rPC90aXRsZT48bGluayBpbnRlZ3JpdHk9InNoYTI1Ni1pYmpNNUo2azB=
+3SnBEWnRFRmRVcGJBait5YnIwaGsrREtadUpjOGNWZkpRPSIgcmVsPSJwcmVsb2FkIiBocmVmPS=
+IvL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpYy5taWNyb3NvZnQvb3dhbWFpbC9oYXNoZWQtdjEvc=
+2NyaXB0cy9vd2EubWFpbC5ydW50aW1lLjdiYjdlNzQ4LmpzIiBhcz0ic2NyaXB0IiBjcm9zc29y=
+aWdpbj0iYW5vbnltb3VzIi8+PGxpbmsgaW50ZWdyaXR5PSJzaGEyNTYteUdTVjNJSXFxVE53ZXI=
+4WmxzbGpNd1V6aGxLc2JrSHZxOVovYUYwSEs1Yz0iIHJlbD0icHJlbG9hZCIgaHJlZj0iLy9yZX=
+MucHVibGljLm9uZWNkbi5zdGF0aWMubWljcm9zb2Z0L293YW1haWwvaGFzaGVkLXYxL3Njcmlwd=
+HMvb3dhLm1haWxpbmRleC44YjUzYWZkNC5qcyIgYXM9InNjcmlwdCIgY3Jvc3NvcmlnaW49ImFu=
+b255bW91cyIvPiA8c3R5bGU+QGZvbnQtZmFjZXtmb250LWZhbWlseTpGYWJyaWNNREwySWNvbnM=
+7c3JjOnVybCgnLy9yZXMucHVibGljLm9uZWNkbi5zdGF0aWMubWljcm9zb2Z0L293YW1haWwvMj=
+AyNTAzMDcwMDIuMTYvcmVzb3VyY2VzL2ZvbnRzL28zNjVpY29ucy1tZGwyLndvZmYnKSBmb3JtY=
+XQoJ3dvZmYnKTtmb250LXdlaWdodDo0MDA7Zm9udC1zdHlsZTpub3JtYWx9QGZvbnQtZmFjZXtm=
+b250LWZhbWlseTpvZmZpY2UzNjVpY29ucztzcmM6dXJsKCcvL3Jlcy5wdWJsaWMub25lY2RuLnN=
+0YXRpYy5taWNyb3NvZnQvb3dhbWFpbC8yMDI1MDMwNzAwMi4xNi9yZXNvdXJjZXMvZm9udHMvb2=
+ZmaWNlMzY1aWNvbnMud29mZj8nKSBmb3JtYXQoJ3dvZmYnKTtmb250LXdlaWdodDo0MDA7Zm9ud=
+C1zdHlsZTpub3JtYWx9I2xvYWRpbmdTY3JlZW57cG9zaXRpb246Zml4ZWQ7dG9wOjA7Ym90dG9t=
+OjA7bGVmdDowO3JpZ2h0OjA7YmFja2dyb3VuZC1jb2xvcjojZmZmfSNsb2FkaW5nTG9nb3twb3N=
+pdGlvbjpmaXhlZDt0b3A6Y2FsYyg1MHZoIC0gOTBweCk7bGVmdDpjYWxjKDUwdncgLSA5MHB4KT=
+t3aWR0aDoxODBweDtoZWlnaHQ6MTgwcHh9I01TTG9nb3twb3NpdGlvbjpmaXhlZDtib3R0b206M=
+zZweDtsZWZ0OmNhbGMoNTB2dyAtIDUwcHgpfS5kYXJrICNsb2FkaW5nU2NyZWVue2JhY2tncm91=
+bmQtY29sb3I6IzMzM30uZGFya05ldyAjbG9hZGluZ1NjcmVlbntiYWNrZ3JvdW5kLWNvbG9yOiM=
+xZjFmMWZ9PC9zdHlsZT4gPHNjcmlwdCBub25jZT1sT3pRSnJKWi9IcngrZ0Iyd1dQYi9BPT0+dH=
+J5eyFmdW5jdGlvbigpe2lmKCJsb2NhbFN0b3JhZ2UiaW4gd2luZG93KXt2YXIgZT0iVXNlcnNOb=
+3JtYWxpemVkVGhlbWUiLHQ9d2luZG93LmxvY2FsU3RvcmFnZSxhPXQuZ2V0SXRlbSgib2xrLSIr=
+ZSl8fHQuZ2V0SXRlbShlKTthJiYvXC5kYXJrJC8udGVzdChhKSYmZG9jdW1lbnQuZG9jdW1lbnR=
+FbGVtZW50LmNsYXNzTGlzdC5hZGQoImRhcmsiKSxhJiYvXC5kYXJrXC5uZXckLy50ZXN0KGEpJi=
+Zkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuY2xhc3NMaXN0LmFkZCgiZGFya05ldyIpO3ZhciBuP=
+XQuZ2V0SXRlbSgiUHdhVGhlbWUiKTtpZihuKXt2YXIgbz1kb2N1bWVudC5nZXRFbGVtZW50c0J5=
+TmFtZSgidGhlbWUtY29sb3IiKTtvJiZvLmxlbmd0aCYmb1swXS5zZXRBdHRyaWJ1dGUoImNvbnR=
+lbnQiLG4pfX19KCl9Y2F0Y2goZSl7fTwvc2NyaXB0PiA8c2NyaXB0IG5vbmNlPWxPelFKckpaL0=
+hyeCtnQjJ3V1BiL0E9PT5mdW5jdGlvbiBsb2dFcnJvcihuLG8sZSxyLGEsaSl7d2luZG93Lm93Y=
+UVycm9ySGFuZGxlcj93aW5kb3cub3dhRXJyb3JIYW5kbGVyKG4sbyxlLHIsYSxpKTp3aW5kb3cu=
+b3dhQmFja2ZpbGxlZEVycm9ycy5wdXNoKGFyZ3VtZW50cyl9ZnVuY3Rpb24gaGFzaENoYW5nZUh=
+hbmRsZXIoKXt3aW5kb3cub3dhTG9jYXRpb25IYXNoPXdpbmRvdy5sb2NhdGlvbj93aW5kb3cubG=
+9jYXRpb24uaGFzaDp2b2lkIDB9d2luZG93LkZhYnJpY0NvbmZpZz17Zm9udEJhc2VVcmw6bnVsb=
+H0sd2luZG93Lm93YUJhY2tmaWxsZWRFcnJvcnM9W10sd2luZG93Lm9uZXJyb3I9bG9nRXJyb3Is=
+Im9udW5oYW5kbGVkcmVqZWN0aW9uImluIHdpbmRvdyYmd2luZG93LmFkZEV2ZW50TGlzdGVuZXI=
+oInVuaGFuZGxlZHJlamVjdGlvbiIsKGZ1bmN0aW9uKG4pe3ZhciBvPW4mJm4ucmVhc29ufHwiW2=
+5vIHJlYXNvbiBnaXZlbl0iO28gaW5zdGFuY2VvZiBFcnJvcj9sb2dFcnJvcigiVW5oYW5kbGVkI=
+FJlamVjdGlvbjogIitvLCIiLDAsMCxvKTpvLnJlc3BvbnNlRXJyb3JNZXNzYWdlJiZvLmNhbGxz=
+dGFja0F0UmVxdWVzdCYmbyBpbnN0YW5jZW9mIFJlc3BvbnNlP2xvZ0Vycm9yKG8ucmVzcG9uc2V=
+FcnJvck1lc3NhZ2UsIiIsdm9pZCAwLHZvaWQgMCx2b2lkIDAsby5jYWxsc3RhY2tBdFJlcXVlc3=
+QpOmxvZ0Vycm9yKCJVbmhhbmRsZWQgUmVqZWN0aW9uOiAiKygic3RyaW5nIj09dHlwZW9mIG8/b=
+zpKU09OLnN0cmluZ2lmeShvKSkpfSkpLHdpbmRvdy5vbmxvYWQ9ZnVuY3Rpb24oKXt2YXIgbj1z=
+ZWxmLmxvY2F0aW9uOyFzZWxmLk93YSYmbiYmdm9pZCAwIT09bi5zZWFyY2gmJi0xPT1uLnNlYXJ=
+jaC5pbmRleE9mKCJndWxwIikmJi0xPT1uLnNlYXJjaC5pbmRleE9mKCJicmFuY2giKSYmKC0xPT=
+1uLnNlYXJjaC5pbmRleE9mKCJiTz0yIik/bi5zZWFyY2grPShuLnNlYXJjaD8iJiI6Ij8iKSsiY=
+k89MiI6bi5hc3NpZ24oIi9vd2EvYXV0aC9mcm93bnkuYXNweD9icmV0PWZhaWwmZXNyYz1JbmRl=
+eFBhZ2VJbmNvbXBsZXRlJmFwcD1NYWlsJmJPPTIiKSl9LGhhc2hDaGFuZ2VIYW5kbGVyKCksd2l=
+uZG93LmFkZEV2ZW50TGlzdGVuZXIoImhhc2hjaGFuZ2UiLGhhc2hDaGFuZ2VIYW5kbGVyKTwvc2=
+NyaXB0PiA8bGluayBpbnRlZ3JpdHk9InNoYTI1Ni1CQnQ1Rm9IYmpMVDk4TU4vVUtMQk9VNzhoN=
+E15T2poNEtoS2hZNjAzcFpFPSIgcmVsPSJwcmVsb2FkIiBocmVmPSIvL3Jlcy5wdWJsaWMub25l=
+Y2RuLnN0YXRpYy5taWNyb3NvZnQvb3dhbWFpbC9oYXNoZWQtdjEvc2NyaXB0cy9vd2EuMTI2ODU=
+ubS5jNWRkYWEyOS5qcyIgYXM9InNjcmlwdCIgY3Jvc3NvcmlnaW49ImFub255bW91cyIvPjxsaW=
+5rIGludGVncml0eT0ic2hhMjU2LW1tV2g1WVJvbmNMcDBEUjQ3ckdVOTVrVk9TcEt4RVhzQ0JBQ=
+1JVcEs4UVE9IiByZWw9InByZWxvYWQiIGhyZWY9Ii8vcmVzLnB1YmxpYy5vbmVjZG4uc3RhdGlj=
+Lm1pY3Jvc29mdC9vd2FtYWlsL2hhc2hlZC12MS9zY3JpcHRzL293YS40NzMwMS5tLjdkZjY1NWJ=
+lLmpzIiBhcz0ic2NyaXB0IiBjcm9zc29yaWdpbj0iYW5vbnltb3VzIi8+PGxpbmsgaW50ZWdyaX=
+R5PSJzaGEyNTYtUUtjNlBhajRtRE5EN2xHblA0bUV0bUpvTEt5eExGK1ROeFV5S3hVTXJWWT0iI=
+HJlbD0icHJlbG9hZCIgaHJlZj0iLy9yZXMucHVibGljLm9uZWNkbi5zdGF0aWMubWljcm9zb2Z0=
+L293YW1haWwvaGFzaGVkLXYxL3NjcmlwdHMvb3dhLkFwcEJvb3QubS5kYjU3M2MwZS5jc3MiIGF=
+zPSJzdHlsZSIgY3Jvc3NvcmlnaW49ImFub255bW91cyIvPjxsaW5rIGludGVncml0eT0ic2hhMj=
+U2LU81KzUzS09jeCtFVnpidGdYV1JKQ2tnbTdFLzNrVkpwNGR6RVVVcVdQWEE9IiByZWw9InByZ=
+WxvYWQiIGhyZWY9Ii8vcmVzLnB1YmxpYy5vbmVjZG4uc3RhdGljLm1pY3Jvc29mdC9vd2FtYWls=
+L2hhc2hlZC12MS9zY3JpcHRzL293YS5BcHBCb290Lm0uMWIwZGY5OWEuanMiIGFzPSJzY3JpcHQ=
+iIGNyb3Nzb3JpZ2luPSJhbm9ueW1vdXMiLz48bGluayBpbnRlZ3JpdHk9InNoYTI1Ni1rT1ZxcE=
+1yQ3Y4c2haTVd5SG9mdTEyWXlLYlpwMU95MnJYeS9JMExHZVR3PSIgcmVsPSJwcmVsb2FkIiBoc=
+mVmPSIvL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpYy5taWNyb3NvZnQvb3dhbWFpbC9oYXNoZWQt=
+djEvc2NyaXB0cy9vd2EuNzU0MzIubS42MWJmZjA0ZC5qcyIgYXM9InNjcmlwdCIgY3Jvc3Nvcml=
+naW49ImFub255bW91cyIvPjxsaW5rIGludGVncml0eT0ic2hhMjU2LUsvWTB4akpkRUhENmRmK0=
+9XZkxjTUVnL1dsSVJJaHpnbFlkTXBjaTluY0U9IiByZWw9InByZWxvYWQiIGhyZWY9Ii8vcmVzL=
+nB1YmxpYy5vbmVjZG4uc3RhdGljLm1pY3Jvc29mdC9vd2FtYWlsL2hhc2hlZC12MS9zY3JpcHRz=
+L293YS40NjIzNS5tLjE5MzJlMTNkLmpzIiBhcz0ic2NyaXB0IiBjcm9zc29yaWdpbj0iYW5vbnl=
+tb3VzIi8+PGxpbmsgaW50ZWdyaXR5PSJzaGEyNTYtQnl5MzJMdEFuSGFaTDhNTFlSVnhNYjN2Qk=
+pGYm9yRGdKRkJhUS9aU200QT0iIHJlbD0icHJlbG9hZCIgaHJlZj0iLy9yZXMucHVibGljLm9uZ=
+WNkbi5zdGF0aWMubWljcm9zb2Z0L293YW1haWwvaGFzaGVkLXYxL3NjcmlwdHMvb3dhLjYzMjU4=
+Lm0uYjExZDAwNTUuanMiIGFzPSJzY3JpcHQiIGNyb3Nzb3JpZ2luPSJhbm9ueW1vdXMiLz48bGl=
+uayBpbnRlZ3JpdHk9InNoYTI1Ni1aVnNEVFNUa0k5dzVmUjBHOXJVVVhFTDVKdk9PMlpQQ3VTSj=
+hrZ2hVZHI4PSIgcmVsPSJwcmVsb2FkIiBocmVmPSIvL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpY=
+y5taWNyb3NvZnQvb3dhbWFpbC9oYXNoZWQtdjEvc2NyaXB0cy9vd2EuMTAyMjIubS5jNDg0ODg4=
+Mi5qcyIgYXM9InNjcmlwdCIgY3Jvc3NvcmlnaW49ImFub255bW91cyIvPjxsaW5rIGludGVncml=
+0eT0ic2hhMjU2LUJ5b3VyRmtDdURrY0ZrWThKTVR2emxrNkUvVjFmTGxkSGJNRzI4cHk4N1k9Ii=
+ByZWw9InByZWxvYWQiIGhyZWY9Ii8vcmVzLnB1YmxpYy5vbmVjZG4uc3RhdGljLm1pY3Jvc29md=
+C9vd2FtYWlsL2hhc2hlZC12MS9zY3JpcHRzL293YS5Nc2FsQXV0aC5tLjcyZTg4ZmI0LmpzIiBh=
+cz0ic2NyaXB0IiBjcm9zc29yaWdpbj0iYW5vbnltb3VzIi8+PHNjcmlwdCBpbnRlZ3JpdHk9InN=
+oYTI1Ni1pYmpNNUo2azB3SnBEWnRFRmRVcGJBait5YnIwaGsrREtadUpjOGNWZkpRPSIgc3JjPS=
+IvL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpYy5taWNyb3NvZnQvb3dhbWFpbC9oYXNoZWQtdjEvc=
+2NyaXB0cy9vd2EubWFpbC5ydW50aW1lLjdiYjdlNzQ4LmpzIiBjcm9zc29yaWdpbj0iYW5vbnlt=
+b3VzIj48L3NjcmlwdD48c2NyaXB0IGludGVncml0eT0ic2hhMjU2LXlHU1YzSUlxcVROd2VyOFp=
+sc2xqTXdVemhsS3Nia0h2cTlaL2FGMEhLNWM9IiBzcmM9Ii8vcmVzLnB1YmxpYy5vbmVjZG4uc3=
+RhdGljLm1pY3Jvc29mdC9vd2FtYWlsL2hhc2hlZC12MS9zY3JpcHRzL293YS5tYWlsaW5kZXguO=
+GI1M2FmZDQuanMiIGNyb3Nzb3JpZ2luPSJhbm9ueW1vdXMiPjwvc2NyaXB0PjwvaGVhZD4gPGJv=
+ZHkgcm9sZT1hcHBsaWNhdGlvbiBjbGFzcz0ibXMtZm9udC1zIGRpc2FibGVUZXh0U2VsZWN0aW9=
+uIG1zLUZhYnJpYy0taXNGb2N1c0hpZGRlbiI+IDxkaXYgaWQ9YXBwPjwvZGl2PiA8ZGl2IGlkPW=
+xvYWRpbmdTY3JlZW4+IDxkaXYgaWQ9bG9hZGluZ0xvZ28gZGlyPWx0cj4gPHN0eWxlPjpyb290e=
+y0tczoxODBweDstLWVudlc6MTMwcHg7LS1lbnZIOjcxcHg7LS1jYWxXOjExOHB4Oy0tc3FXOmNh=
+bGModmFyKC0tY2FsVykgLyAzKTstLXNxSDozN3B4Oy0tY2FsSEg6MjBweDstLWNhbEg6Y2FsYyh=
+2YXIoLS1zcUgpICogMyArIHZhcigtLWNhbEhIKSk7LS1jYWxZOmNhbGModmFyKC0tY2FsSCkgKy=
+AyMHB4KTstLWNhbFlFeHQ6Y2FsYyh2YXIoLS1jYWxIKSAtIDgwcHgpOy0tY2FsWU92ZXJFeHQ6Y=
+2FsYyh2YXIoLS1jYWxIKSAtIDkycHgpOy0tZmxhcFM6OTZweDstLWZsYXBIOmNhbGMoMC41NSAq=
+IHZhcigtLWVudkgpKTstLWZsYXBTY2FsZVk6Y2FsYyh2YXIoLS1mbGFwSCkgLyB2YXIoLS1mbGF=
+wV2lkdGgpKTstLWR1cjo1c30jY29udGFpbmVye3dpZHRoOnZhcigtLXMpO2hlaWdodDp2YXIoLS=
+1zKTthbmltYXRpb246Ym91bmNlIHZhcigtLWR1cikgaW5maW5pdGV9QGtleWZyYW1lcyBib3VuY=
+2V7MCUsMTAwJSwxMi41JSwzMi41JSw3Ni4xJXt0cmFuc2Zvcm06dHJhbnNsYXRlWSgwKX0yMi41=
+JSw4NiV7dHJhbnNmb3JtOnRyYW5zbGF0ZVkoN3B4KX19I2xvZ297aGVpZ2h0OjE3OXB4O3dpZHR=
+oOjEzMHB4O292ZXJmbG93OmhpZGRlbjttYXJnaW4tdG9wOi01OXB4O21hcmdpbi1sZWZ0OjI1cH=
+h9I2NvbnRhaW5lclNoYWRvd3twb3NpdGlvbjpyZWxhdGl2ZTt0b3A6MTIwcHg7bGVmdDoyNXB4O=
+3dpZHRoOnZhcigtLWVudlcpO2hlaWdodDp2YXIoLS1lbnZIKTtib3JkZXItcmFkaXVzOjAgMCA3=
+cHggN3B4O2JveC1zaGFkb3c6cmdiYSgwLDAsMCwuMjUpIDAgNHB4IDVweDthbmltYXRpb246c2h=
+hZG93LWZhZGUgdmFyKC0tZHVyKSBpbmZpbml0ZX1Aa2V5ZnJhbWVzIHNoYWRvdy1mYWRlezAlLD=
+EwMCUsMjEuMiUsODAle29wYWNpdHk6MH00NyUsNzAle29wYWNpdHk6MX19I2ZsYXBDb250YWluZ=
+XJ7d2lkdGg6dmFyKC0tZW52Vyk7bWFyZ2luLXRvcDoxNzlweH0jZWZ7d2lkdGg6dmFyKC0tZW52=
+Vyk7aGVpZ2h0OnZhcigtLWVudkgpO2JvcmRlci1yYWRpdXM6MCAwIDdweCA3cHg7b3ZlcmZsb3c=
+6aGlkZGVuO21hcmdpbi10b3A6LTQxcHh9I2VmPi5se3dpZHRoOjI4N3B4O2hlaWdodDp2YXIoLS=
+1lbnZIKTtiYWNrZ3JvdW5kOiMyOGE4ZWE7dHJhbnNmb3JtOnRyYW5zbGF0ZSgtMTUzcHgsLTcwc=
+HgpIHJvdGF0ZSgyOGRlZyl9I2VmPi5ye3dpZHRoOjI4N3B4O2hlaWdodDp2YXIoLS1lbnZIKTti=
+YWNrZ3JvdW5kOiMxNDkwZGY7dHJhbnNmb3JtOnRyYW5zbGF0ZSgtMTIwcHgsNjNweCkgcm90YXR=
+lKC0yOGRlZyl9I2Vie3dpZHRoOnZhcigtLWVudlcpO2hlaWdodDo0MHB4O2JhY2tncm91bmQ6Iz=
+EyM2I2ZDttYXJnaW4tdG9wOi03MHB4fSNjYWx7ZGlzcGxheTpmbGV4O2ZsZXgtd3JhcDp3cmFwO=
+3dpZHRoOnZhcigtLWNhbFcpO2hlaWdodDp2YXIoLS1jYWxIKTtib3JkZXItcmFkaXVzOjdweDtv=
+dmVyZmxvdzpoaWRkZW47bWFyZ2luOjAgYXV0bzttYXJnaW4tdG9wOi0zMDZweDthbmltYXRpb24=
+6Y2FsLWJvdW5jZSB2YXIoLS1kdXIpIGluZmluaXRlO2FuaW1hdGlvbi10aW1pbmctZnVuY3Rpb2=
+46Y3ViaWMtYmV6aWVyKDAsMC41LDAsMSk7dHJhbnNmb3JtOnRyYW5zbGF0ZVkodmFyKC0tY2FsW=
+UV4dCkpIHNjYWxlWSgxKX1Aa2V5ZnJhbWVzIGNhbC1ib3VuY2V7MCUsMTAwJSwxNi41JSw3Ni4x=
+JXt0cmFuc2Zvcm06dHJhbnNsYXRlWSh2YXIoLS1jYWxZKSkgc2NhbGVZKDEpfTI4JXt0cmFuc2Z=
+vcm06dHJhbnNsYXRlWSh2YXIoLS1jYWxZT3ZlckV4dCkpIHNjYWxlWSgxKX0zMSV7dHJhbnNmb3=
+JtOnRyYW5zbGF0ZVkodmFyKC0tY2FsWUV4dCkpIHNjYWxlWSgxLjA1KX0zMyV7dHJhbnNmb3JtO=
+nRyYW5zbGF0ZVkodmFyKC0tY2FsWUV4dCkpIHNjYWxlWSguOTYpfTM0JSw2OC41JXt0cmFuc2Zv=
+cm06dHJhbnNsYXRlWSh2YXIoLS1jYWxZRXh0KSkgc2NhbGVZKDEpfTY4LjUle2FuaW1hdGlvbi1=
+0aW1pbmctZnVuY3Rpb246Y3ViaWMtYmV6aWVyKDAuNjYsLTAuMTYsMSwtMC4yOSl9fSNjYWw+Ln=
+R7d2lkdGg6dmFyKC0tY2FsVyk7aGVpZ2h0OmNhbGModmFyKC0tY2FsSEgpICsgMXB4KTttYXJna=
+W4tYm90dG9tOi0xcHg7YmFja2dyb3VuZDojMDM1OGE3fSNjYWw+LnJ7ZGlzcGxheTpmbGV4O3dp=
+ZHRoOnZhcigtLWNhbFcpO2hlaWdodDp2YXIoLS1zcUgpfS5ze3dpZHRoOnZhcigtLXNxVyk7aGV=
+pZ2h0OmNhbGModmFyKC0tc3FIKSArIDFweCl9LnMxe2JhY2tncm91bmQ6IzAwNzhkNH0uczJ7Ym=
+Fja2dyb3VuZDojMjhhOGVhfS5zM3tiYWNrZ3JvdW5kOiM1MGQ5ZmZ9LnM0e2JhY2tncm91bmQ6I=
+zAzNjRiOH0uczV7YmFja2dyb3VuZDojMTQ0NDdkfSNvcGVuZWRGbGFwe3dpZHRoOnZhcigtLWVu=
+dlcpO2hlaWdodDoxMDdweDthbmltYXRpb246b3BlbmVkLWZsYXAtc3dpbmcgdmFyKC0tZHVyKSB=
+pbmZpbml0ZTthbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOmN1YmljLWJlemllcigwLjMyLDAsMC=
+42NywwKTt0cmFuc2Zvcm0tb3JpZ2luOnRvcDt0cmFuc2Zvcm06dHJhbnNsYXRlWSgtNjhweCkgc=
+m90YXRlM2QoMSwwLDAsLTE4MGRlZyl9QGtleWZyYW1lcyBvcGVuZWQtZmxhcC1zd2luZ3swJSwx=
+MDAlLDE0LjUlLDc2JXt0cmFuc2Zvcm06dHJhbnNsYXRlWSgtNjhweCkgcm90YXRlM2QoMSwwLDA=
+sLTkwZGVnKX0xNi41JSw3NCV7dHJhbnNmb3JtOnRyYW5zbGF0ZVkoLTY4cHgpIHJvdGF0ZTNkKD=
+EsMCwwLC0xODBkZWcpfX0jY2xvc2VkRmxhcHt3aWR0aDp2YXIoLS1lbnZXKTthbmltYXRpb246Y=
+2xvc2VkLWZsYXAtc3dpbmcgdmFyKC0tZHVyKSBpbmZpbml0ZTthbmltYXRpb24tdGltaW5nLWZ1=
+bmN0aW9uOmN1YmljLWJlemllcigwLjMyLDAsMC42NywwKTt0cmFuc2Zvcm0tb3JpZ2luOnRvcDt=
+0cmFuc2Zvcm06dHJhbnNsYXRlWShjYWxjKC0xICogdmFyKC0tZW52SCkpKSByb3RhdGUzZCgxLD=
+AsMCw5MGRlZyl9QGtleWZyYW1lcyBjbG9zZWQtZmxhcC1zd2luZ3swJSwxMDAlLDc3JSw4LjUle=
+3RyYW5zZm9ybTp0cmFuc2xhdGVZKGNhbGMoLTEgKiB2YXIoLS1lbnZIKSkpIHJvdGF0ZTNkKDEs=
+MCwwLDApfTE0LjUlLDc2JXt0cmFuc2Zvcm06dHJhbnNsYXRlWShjYWxjKC0xICogdmFyKC0tZW5=
+2SCkpKSByb3RhdGUzZCgxLDAsMCw5MGRlZyl9fSNmbWFza3t3aWR0aDp2YXIoLS1lbnZXKTtoZW=
+lnaHQ6MTA3cHg7b3ZlcmZsb3c6aGlkZGVufS5mbGFwVHJpYW5nbGV7d2lkdGg6dmFyKC0tZmxhc=
+FMpO2hlaWdodDp2YXIoLS1mbGFwUyk7YmFja2dyb3VuZDojNTBkOWZmO21hcmdpbjotNDhweCBh=
+dXRvIDAgYXV0bztib3JkZXItcmFkaXVzOjdweDt0cmFuc2Zvcm06c2NhbGVZKC42KSByb3RhdGU=
+oNDVkZWcpfSNvcGVuZWRGbGFwIC5mbGFwVHJpYW5nbGV7YmFja2dyb3VuZDojMTIzYjZkfSNjbG=
+9zZWRGbGFwIC5mbGFwVHJpYW5nbGV7YmFja2dyb3VuZDojNTBkOWZmfTwvc3R5bGU+IDxkaXYga=
+WQ9Y29udGFpbmVyPiA8ZGl2IGlkPWNvbnRhaW5lclNoYWRvdz48L2Rpdj4gPGRpdiBpZD1sb2dv=
+PiA8ZGl2IGlkPWZsYXBDb250YWluZXI+IDxkaXYgaWQ9b3BlbmVkRmxhcD4gPGRpdiBpZD1mbWF=
+zaz48ZGl2IGNsYXNzPWZsYXBUcmlhbmdsZT48L2Rpdj48L2Rpdj4gPC9kaXY+IDxkaXYgaWQ9Y2=
+FsPiA8ZGl2IGNsYXNzPXQ+PC9kaXY+IDxkaXYgY2xhc3M9cj4gPGRpdiBjbGFzcz0icyBzMSI+P=
+C9kaXY+IDxkaXYgY2xhc3M9InMgczIiPjwvZGl2PiA8ZGl2IGNsYXNzPSJzIHMzIj48L2Rpdj4g=
+PC9kaXY+IDxkaXYgY2xhc3M9cj4gPGRpdiBjbGFzcz0icyBzNCI+PC9kaXY+IDxkaXYgY2xhc3M=
+9InMgczEiPjwvZGl2PiA8ZGl2IGNsYXNzPSJzIHMyIj48L2Rpdj4gPC9kaXY+IDxkaXYgY2xhc3=
+M9cj4gPGRpdiBjbGFzcz0icyBzNSI+PC9kaXY+IDxkaXYgY2xhc3M9InMgczQiPjwvZGl2PiA8Z=
+Gl2IGNsYXNzPSJzIHMxIj48L2Rpdj4gPC9kaXY+IDwvZGl2PiA8L2Rpdj4gPGRpdiBpZD1lYj48=
+L2Rpdj4gPGRpdiBpZD1lZj4gPGRpdiBjbGFzcz1yPjwvZGl2PiA8ZGl2IGNsYXNzPWw+PC9kaXY=
++IDwvZGl2PiA8ZGl2IGlkPWNsb3NlZEZsYXA+IDxkaXYgaWQ9Zm1hc2s+PGRpdiBjbGFzcz1mbG=
+FwVHJpYW5nbGU+PC9kaXY+PC9kaXY+IDwvZGl2PiA8L2Rpdj4gPC9kaXY+IDwvZGl2PiA8aW1nI=
+HNyYz0vL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpYy5taWNyb3NvZnQvYXNzZXRzL2ZyYW1ld29y=
+ay9taWNyb3NvZnQuc3ZnIGlkPU1TTG9nbyBhbHQ9TWljcm9zb2Z0PiA8L2Rpdj4gPC9ib2R5PiA=
+8L2h0bWw+IA=3D=3D"></a></div>
+<table cellspacing=3D"0" cellpadding=3D"2" style=3D"direction: ltr; margin-=
+bottom: 5px; color: rgb(0, 130, 214); box-sizing: border-box; border-collap=
+se: collapse; border-spacing: 0px;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; border-top: 3px solid rgb(0, 130, 214); border=
+-bottom: 3px solid rgb(0, 130, 214); padding: 7px 10px; color: rgb(0, 130, =
+214); width: 943.613px; height: 45.1997px;">
+<div style=3D"direction: ltr; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 9pt;">
+<span style=3D"color: navy;"><b><a href=3D"https://www.davisandshirtliff.co=
+m/water-pumps" id=3D"OWAf4a5cb94-b384-ce9b-376a-930a10c14160" class=3D"OWAA=
+utoLink" originalsrc=3D"https://www.davisandshirtliff.com/water-pumps" data=
+-auth=3D"NotApplicable" style=3D"color: navy; text-decoration: none; paddin=
+g-right: 5px;">WATER
+ PUMPS</a></b></span><b>&nbsp;| </b><span style=3D"color: navy;"><b><a href=
+=3D"https://www.davisandshirtliff.com/borehole-solutions" id=3D"OWAf098be18=
+-ac16-735a-a380-84101976c1fd" class=3D"OWAAutoLink" originalsrc=3D"https://=
+www.davisandshirtliff.com/borehole-solutions" data-auth=3D"NotApplicable" s=
+tyle=3D"color: navy; text-decoration: none; padding-right: 5px; padding-lef=
+t: 5px;">BOREHOLE
+ SERVICE</a></b></span><b>&nbsp;| </b><span style=3D"color: navy;"><b><a hr=
+ef=3D"https://www.davisandshirtliff.com/generators" id=3D"OWA047af766-c260-=
+a8f2-67c0-961acf046a93" class=3D"OWAAutoLink" originalsrc=3D"https://www.da=
+visandshirtliff.com/generators" data-auth=3D"NotApplicable" style=3D"color:=
+ navy; text-decoration: none; padding-right: 5px; padding-left: 5px;">GENER=
+ATORS</a></b></span><b>&nbsp;|
+</b><span style=3D"color: navy;"><b><a href=3D"https://www.davisandshirtlif=
+f.com/swimming-pools" id=3D"OWA3f9a70cf-033d-5e6c-66bf-34b696267d80" class=
+=3D"OWAAutoLink" originalsrc=3D"https://www.davisandshirtliff.com/swimming-=
+pools" data-auth=3D"NotApplicable" style=3D"color: navy; text-decoration: n=
+one; padding-right: 5px; padding-left: 5px;">SWIMMING
+ POOLS</a></b></span><b>&nbsp;| </b><span style=3D"color: navy;"><b><a href=
+=3D"https://www.davisandshirtliff.com/solar-solutions" id=3D"OWA9761d086-4d=
+07-0b75-aa37-54be8ab15991" class=3D"OWAAutoLink" originalsrc=3D"https://www=
+.davisandshirtliff.com/solar-solutions" data-auth=3D"NotApplicable" style=
+=3D"color: navy; text-decoration: none; padding-right: 5px; padding-left: 5=
+px;">SOLAR
+ SOLUTIONS</a></b></span><b>&nbsp;| </b><span style=3D"color: navy;"><b><a =
+href=3D"https://www.davisandshirtliff.com/water-treatment" id=3D"OWA890af18=
+b-a5cf-7b86-120a-f291100c0ee3" class=3D"OWAAutoLink" originalsrc=3D"https:/=
+/www.davisandshirtliff.com/water-treatment" data-auth=3D"NotApplicable" sty=
+le=3D"color: navy; text-decoration: none; padding-right: 5px; padding-left:=
+ 5px;">WATER
+ TREATMENT</a></b></span><b>&nbsp;| </b><span style=3D"color: navy;"><b><a =
+href=3D"https://www.davisandshirtliff.com/irrigation" id=3D"OWA4936a945-349=
+b-1ad4-43a1-30beb23de09f" class=3D"OWAAutoLink" originalsrc=3D"https://www.=
+davisandshirtliff.com/irrigation" data-auth=3D"NotApplicable" style=3D"colo=
+r: navy; text-decoration: none; padding-left: 5px;">IRRIGATION</a></b></spa=
+n></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellspacing=3D"0" cellpadding=3D"2" style=3D"direction: ltr; margin-=
+bottom: 5px; box-sizing: border-box; border-collapse: collapse; border-spac=
+ing: 0px;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; padding-top: 5px; padding-right: 5px; padding-=
+bottom: 5px; width: 136.938px; height: 31.6003px;">
+<div style=3D"direction: ltr; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 9pt;">
+<b>Download D&amp;S FLO</b></div>
+</td>
+<td style=3D"direction: ltr; padding: 5px;"><span style=3D"font-family: Ver=
+dana, Arial, Helvetica, sans-serif; font-size: 9pt; color: rgb(0, 0, 0);"><=
+b><u><a href=3D"https://play.google.com/store/apps/details?id=3Dcom.davisan=
+dshirtliff.flo" id=3D"OWA3fdbc6eb-0629-cf3b-2fa3-639189f49b70" class=3D"OWA=
+AutoLink" originalsrc=3D"https://play.google.com/store/apps/details?id=3Dco=
+m.davisandshirtliff.flo" data-auth=3D"NotApplicable" style=3D"color: rgb(0,=
+ 0, 0);"><img alt=3D"Google Play" src=3D"data:text/html;base64,PCFET0NUWVBF=
+IGh0bWw+IDxodG1sIGRpcj1sdHIgeG1sbnM9aHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCB=
+0cmFuc2xhdGU9bm8+IDxoZWFkPiA8bWV0YSBjaGFyc2V0PXV0Zi04PiA8bWV0YSBodHRwLWVxdW=
+l2PVgtVUEtQ29tcGF0aWJsZSBjb250ZW50PSJJRT1lZGdlIj4gPG1ldGEgaHR0cC1lcXVpdj1wc=
+mFnbWEgY29udGVudD1uby1jYWNoZT4gPG1ldGEgbmFtZT12aWV3cG9ydCBjb250ZW50PSJ3aWR0=
+aD1kZXZpY2Utd2lkdGgsaW5pdGlhbC1zY2FsZT0xLHVzZXItc2NhbGFibGU9MCI+IDxtZXRhIG5=
+hbWU9Z29vZ2xlIHZhbHVlPW5vdHJhbnNsYXRlPiA8bWV0YSBuYW1lPWZvcm1hdC1kZXRlY3Rpb2=
+4gY29udGVudD0idGVsZXBob25lPW5vIj4gPG1ldGEgbmFtZT1zY3JpcHRWZXIgY29udGVudD0yM=
+DI1MDMwNzAwMi4xNj4gPG1ldGEgbmFtZT1oYXNoZWRQYXRoIGNvbnRlbnQ9aGFzaGVkLXYxPiA8=
+bWV0YSBuYW1lPXBoeXNpY2FsUmluZyBjb250ZW50PVdXPiA8bWV0YSBuYW1lPWVudmlyb25tZW5=
+0IGNvbnRlbnQ9UHJvZD4gPG1ldGEgbmFtZT1ib290RmxpZ2h0cyBjb250ZW50PWZ3ay1hbmFseX=
+RpY3MtYWRkb25zLGRldi1vZmZsaW5lTXVsdGlBY2NvdW50REIsY2FsLXdpZGdldHMtdXBuLXZhb=
+GlkYXRpb24sYXV0aC1jYWNoZVRva2VuRm9yTWV0YU9zSHViLGF1dGgtdXNlQXV0aFRva2VuQ2xh=
+aW1zRm9yTWV0YU9zSHViLGF1dGgtY29kZUNoYWxsZW5nZSxjYWwtd2lkZ2V0cy1kaXNhYmxlV2l=
+kZ2V0cyxhdXRoLW1zYWxqcy1sYW5kaW5ncGFnZSxzaGVsbG11bHRpb3JpZ2luOjM5NDkyNyxjYW=
+wtcGVyZi1ldmVudHNpbnN0YXJ0dXBkYXRhOjUyNTQ5MixjYWwtcGVyZi11c2Vhc3N1bWVvZmZzZ=
+XQ6NTIyMTQxLGNhbC1wZXJmLWV2ZW50c2lub2ZmbGluZXN0YXJ0dXBkYXRhOjU0OTk5OCxhY2N0=
+LWFkZC1hY2NvdW50LWUxLWltcHJvdmVtZW50OjUxNTc4OCxhdXRoLWNhY2hldG9rZW5mb3JtZXR=
+hb3NodWI6NTc5MjY2LGNhbC1wZXJmLWV2ZW50c2luc3RhcnR1cGRhdGFieXZpZXd0eXBlOjU0Mj=
+Q1MSxib290ZmxpZ2h0YnVzaW5lc3N1c2VyOjY5ODAzNSx3b3JrZXJhc3luY2xvYWQ6NjM0OTIxL=
+GF1dGgtbXNhbGpzLWZpbmR0aW1lOjczMjY0NixhdXRoLW1zYWxqcy1wbGFjZXM6NjU3NTIzLGF1=
+dGgtdXNlYXV0aHRva2VuY2xhaW1zZm9ybWV0YW9zaHViOjY1MzQ2MCxhY2N0c3RhcnRkYXRhb3d=
+hdjI6NzAwODAxLGF1dGgtbXNhbGpzLXBsYWNlcy1zZXNzaW9uc3RvcmFnZTo2NTY0MTEsY2FsLX=
+N0b3JlLW5hdmJhcmRhdGE6NjgzODA5LGF1dGgtbXNhbGpzLXNlc3Npb25zdG9yZWFzY2FjaGVsb=
+2NhdGlvbjo2NzA3NDAsYWNjdHBlcnNpc3RlbnRpZGluZGV4ZXJ2Mjo3MTE5ODgsbW9ieC1jZjo3=
+MzQ5NDI+IDxtZXRhIG5hbWU9Y2RuVXJsIGNvbnRlbnQ9Ly9yZXMucHVibGljLm9uZWNkbi5zdGF=
+0aWMubWljcm9zb2Z0Lz4gPG1ldGEgbmFtZT1iYWNrdXBDZG5VcmwgY29udGVudD0vL3Jlcy0xLm=
+Nkbi5vZmZpY2UubmV0Lz4gPG1ldGEgbmFtZT1jZG5Db250YWluZXIgY29udGVudD1vd2FtYWlsL=
+z4gPG1ldGEgbmFtZT1kZXZDZG5VcmwgY29udGVudD0+IDxtZXRhIG5hbWU9YXJpYVVybCBjb250=
+ZW50PT4gPG1ldGEgbmFtZT13ZWJTZXJ2ZXJGb3Jlc3QgY29udGVudD1ldXJwcmQwND4gPG1ldGE=
+gbmFtZT13ZWJTZXJ2ZXJDbGlxdWUgY29udGVudD1DTEVVUlBSRDA0REhSMDU+IDxtZXRhIG5hbW=
+U9Y29tcGFjdEFyaWFVcmwgY29udGVudD0+IDxtZXRhIG5hbWU9d2Nzc0ZyYW1lVXJsIGNvbnRlb=
+nQ9aHR0cHM6Ly93ZWJzaGVsbC5zdWl0ZS5vZmZpY2UuY29tPiA8bWV0YSBuYW1lPXdjc3NGcmFt=
+ZVVybHMgY29udGVudD17J0RlZmF1bHRVcmwnOidodHRwczovL3dlYnNoZWxsLnN1aXRlLm9mZml=
+jZS5jb20nLCdXd2RiVXJsJzonaHR0cHM6Ly93d2RiLndlYnNoZWxsLnN1aXRlLm9mZmljZS5jb2=
+0nLCdFdWRiVXJsJzonaHR0cHM6Ly9ldWRiLndlYnNoZWxsLnN1aXRlLm9mZmljZS5jb20nfT4gP=
+G1ldGEgbmFtZT1zY3JpcHRQYXRoIGNvbnRlbnQ9c2NyaXB0cy8+IDxtZXRhIG5hbWU9b3dhSXNB=
+dXRoZW50aWNhdGVkIGNvbnRlbnQ9e3tJc0F1dGhlbnRpY2F0ZWR9fT4gPG1ldGEgbmFtZT1qc1R=
+pbWVzdGFtcCBjb250ZW50PTE3NDIyOTMyMDUxMjQ+IDxtZXRhIG5hbWU9cHVibGljVXJsIGNvbn=
+RlbnQ9aHR0cHM6Ly9vdXRsb29rLm9mZmljZS5jb20+IDxtZXRhIG5hbWU9YWFkQXV0aG9yaXR5V=
+XJsIGNvbnRlbnQ9aHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29tLz4gPG1ldGEgbmFt=
+ZT1idXNpbmVzc0Nhbm9uaWNhbEhvc3ROYW1lIGNvbnRlbnQ9b3V0bG9vay5vZmZpY2UzNjUuY29=
+tPiA8bWV0YSBuYW1lPWlzUlBTQXV0aENvb2tpZVByZXNlbnQgY29udGVudD1GYWxzZT4gPGxpbm=
+sgcmVsPXByZWNvbm5lY3QgaHJlZj0vL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpYy5taWNyb3NvZ=
+nQvIGNyb3Nzb3JpZ2luPWFub255bW91cz4gPGxpbmsgcmVsPXByZWNvbm5lY3QgaHJlZj1odHRw=
+czovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vIGNyb3Nzb3JpZ2luPWFub255bW91cz4gPGx=
+pbmsgcmVsPSJzaG9ydGN1dCBpY29uIiBocmVmPS9tYWlsL2Zhdmljb24uaWNvIHR5cGU9aW1hZ2=
+UveC1pY29uPiA8bGluayByZWw9YXBwbGUtdG91Y2gtaWNvbiBocmVmPS8vcmVzLnB1YmxpYy5vb=
+mVjZG4uc3RhdGljLm1pY3Jvc29mdC9hc3NldHMvbWFpbC9wd2EvdjEvcG5ncy9hcHBsZS10b3Vj=
+aC1pY29uLnBuZz4gPG5vc2NyaXB0PkphdmFTY3JpcHQgbXVzdCBiZSBlbmFibGVkLjwvbm9zY3J=
+pcHQ+IDx0aXRsZT5PdXRsb29rPC90aXRsZT48bGluayBpbnRlZ3JpdHk9InNoYTI1Ni1pYmpNNU=
+o2azB3SnBEWnRFRmRVcGJBait5YnIwaGsrREtadUpjOGNWZkpRPSIgcmVsPSJwcmVsb2FkIiBoc=
+mVmPSIvL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpYy5taWNyb3NvZnQvb3dhbWFpbC9oYXNoZWQt=
+djEvc2NyaXB0cy9vd2EubWFpbC5ydW50aW1lLjdiYjdlNzQ4LmpzIiBhcz0ic2NyaXB0IiBjcm9=
+zc29yaWdpbj0iYW5vbnltb3VzIi8+PGxpbmsgaW50ZWdyaXR5PSJzaGEyNTYteUdTVjNJSXFxVE=
+53ZXI4WmxzbGpNd1V6aGxLc2JrSHZxOVovYUYwSEs1Yz0iIHJlbD0icHJlbG9hZCIgaHJlZj0iL=
+y9yZXMucHVibGljLm9uZWNkbi5zdGF0aWMubWljcm9zb2Z0L293YW1haWwvaGFzaGVkLXYxL3Nj=
+cmlwdHMvb3dhLm1haWxpbmRleC44YjUzYWZkNC5qcyIgYXM9InNjcmlwdCIgY3Jvc3NvcmlnaW4=
+9ImFub255bW91cyIvPiA8c3R5bGU+QGZvbnQtZmFjZXtmb250LWZhbWlseTpGYWJyaWNNREwySW=
+NvbnM7c3JjOnVybCgnLy9yZXMucHVibGljLm9uZWNkbi5zdGF0aWMubWljcm9zb2Z0L293YW1ha=
+WwvMjAyNTAzMDcwMDIuMTYvcmVzb3VyY2VzL2ZvbnRzL28zNjVpY29ucy1tZGwyLndvZmYnKSBm=
+b3JtYXQoJ3dvZmYnKTtmb250LXdlaWdodDo0MDA7Zm9udC1zdHlsZTpub3JtYWx9QGZvbnQtZmF=
+jZXtmb250LWZhbWlseTpvZmZpY2UzNjVpY29ucztzcmM6dXJsKCcvL3Jlcy5wdWJsaWMub25lY2=
+RuLnN0YXRpYy5taWNyb3NvZnQvb3dhbWFpbC8yMDI1MDMwNzAwMi4xNi9yZXNvdXJjZXMvZm9ud=
+HMvb2ZmaWNlMzY1aWNvbnMud29mZj8nKSBmb3JtYXQoJ3dvZmYnKTtmb250LXdlaWdodDo0MDA7=
+Zm9udC1zdHlsZTpub3JtYWx9I2xvYWRpbmdTY3JlZW57cG9zaXRpb246Zml4ZWQ7dG9wOjA7Ym9=
+0dG9tOjA7bGVmdDowO3JpZ2h0OjA7YmFja2dyb3VuZC1jb2xvcjojZmZmfSNsb2FkaW5nTG9nb3=
+twb3NpdGlvbjpmaXhlZDt0b3A6Y2FsYyg1MHZoIC0gOTBweCk7bGVmdDpjYWxjKDUwdncgLSA5M=
+HB4KTt3aWR0aDoxODBweDtoZWlnaHQ6MTgwcHh9I01TTG9nb3twb3NpdGlvbjpmaXhlZDtib3R0=
+b206MzZweDtsZWZ0OmNhbGMoNTB2dyAtIDUwcHgpfS5kYXJrICNsb2FkaW5nU2NyZWVue2JhY2t=
+ncm91bmQtY29sb3I6IzMzM30uZGFya05ldyAjbG9hZGluZ1NjcmVlbntiYWNrZ3JvdW5kLWNvbG=
+9yOiMxZjFmMWZ9PC9zdHlsZT4gPHNjcmlwdCBub25jZT1sS0FZR2ZENHNUQ2o5YXczUXp3UmNnP=
+T0+dHJ5eyFmdW5jdGlvbigpe2lmKCJsb2NhbFN0b3JhZ2UiaW4gd2luZG93KXt2YXIgZT0iVXNl=
+cnNOb3JtYWxpemVkVGhlbWUiLHQ9d2luZG93LmxvY2FsU3RvcmFnZSxhPXQuZ2V0SXRlbSgib2x=
+rLSIrZSl8fHQuZ2V0SXRlbShlKTthJiYvXC5kYXJrJC8udGVzdChhKSYmZG9jdW1lbnQuZG9jdW=
+1lbnRFbGVtZW50LmNsYXNzTGlzdC5hZGQoImRhcmsiKSxhJiYvXC5kYXJrXC5uZXckLy50ZXN0K=
+GEpJiZkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuY2xhc3NMaXN0LmFkZCgiZGFya05ldyIpO3Zh=
+ciBuPXQuZ2V0SXRlbSgiUHdhVGhlbWUiKTtpZihuKXt2YXIgbz1kb2N1bWVudC5nZXRFbGVtZW5=
+0c0J5TmFtZSgidGhlbWUtY29sb3IiKTtvJiZvLmxlbmd0aCYmb1swXS5zZXRBdHRyaWJ1dGUoIm=
+NvbnRlbnQiLG4pfX19KCl9Y2F0Y2goZSl7fTwvc2NyaXB0PiA8c2NyaXB0IG5vbmNlPWxLQVlHZ=
+kQ0c1RDajlhdzNRendSY2c9PT5mdW5jdGlvbiBsb2dFcnJvcihuLG8sZSxyLGEsaSl7d2luZG93=
+Lm93YUVycm9ySGFuZGxlcj93aW5kb3cub3dhRXJyb3JIYW5kbGVyKG4sbyxlLHIsYSxpKTp3aW5=
+kb3cub3dhQmFja2ZpbGxlZEVycm9ycy5wdXNoKGFyZ3VtZW50cyl9ZnVuY3Rpb24gaGFzaENoYW=
+5nZUhhbmRsZXIoKXt3aW5kb3cub3dhTG9jYXRpb25IYXNoPXdpbmRvdy5sb2NhdGlvbj93aW5kb=
+3cubG9jYXRpb24uaGFzaDp2b2lkIDB9d2luZG93LkZhYnJpY0NvbmZpZz17Zm9udEJhc2VVcmw6=
+bnVsbH0sd2luZG93Lm93YUJhY2tmaWxsZWRFcnJvcnM9W10sd2luZG93Lm9uZXJyb3I9bG9nRXJ=
+yb3IsIm9udW5oYW5kbGVkcmVqZWN0aW9uImluIHdpbmRvdyYmd2luZG93LmFkZEV2ZW50TGlzdG=
+VuZXIoInVuaGFuZGxlZHJlamVjdGlvbiIsKGZ1bmN0aW9uKG4pe3ZhciBvPW4mJm4ucmVhc29uf=
+HwiW25vIHJlYXNvbiBnaXZlbl0iO28gaW5zdGFuY2VvZiBFcnJvcj9sb2dFcnJvcigiVW5oYW5k=
+bGVkIFJlamVjdGlvbjogIitvLCIiLDAsMCxvKTpvLnJlc3BvbnNlRXJyb3JNZXNzYWdlJiZvLmN=
+hbGxzdGFja0F0UmVxdWVzdCYmbyBpbnN0YW5jZW9mIFJlc3BvbnNlP2xvZ0Vycm9yKG8ucmVzcG=
+9uc2VFcnJvck1lc3NhZ2UsIiIsdm9pZCAwLHZvaWQgMCx2b2lkIDAsby5jYWxsc3RhY2tBdFJlc=
+XVlc3QpOmxvZ0Vycm9yKCJVbmhhbmRsZWQgUmVqZWN0aW9uOiAiKygic3RyaW5nIj09dHlwZW9m=
+IG8/bzpKU09OLnN0cmluZ2lmeShvKSkpfSkpLHdpbmRvdy5vbmxvYWQ9ZnVuY3Rpb24oKXt2YXI=
+gbj1zZWxmLmxvY2F0aW9uOyFzZWxmLk93YSYmbiYmdm9pZCAwIT09bi5zZWFyY2gmJi0xPT1uLn=
+NlYXJjaC5pbmRleE9mKCJndWxwIikmJi0xPT1uLnNlYXJjaC5pbmRleE9mKCJicmFuY2giKSYmK=
+C0xPT1uLnNlYXJjaC5pbmRleE9mKCJiTz0yIik/bi5zZWFyY2grPShuLnNlYXJjaD8iJiI6Ij8i=
+KSsiYk89MiI6bi5hc3NpZ24oIi9vd2EvYXV0aC9mcm93bnkuYXNweD9icmV0PWZhaWwmZXNyYz1=
+JbmRleFBhZ2VJbmNvbXBsZXRlJmFwcD1NYWlsJmJPPTIiKSl9LGhhc2hDaGFuZ2VIYW5kbGVyKC=
+ksd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoImhhc2hjaGFuZ2UiLGhhc2hDaGFuZ2VIYW5kbGVyK=
+Twvc2NyaXB0PiA8bGluayBpbnRlZ3JpdHk9InNoYTI1Ni1CQnQ1Rm9IYmpMVDk4TU4vVUtMQk9V=
+NzhoNE15T2poNEtoS2hZNjAzcFpFPSIgcmVsPSJwcmVsb2FkIiBocmVmPSIvL3Jlcy5wdWJsaWM=
+ub25lY2RuLnN0YXRpYy5taWNyb3NvZnQvb3dhbWFpbC9oYXNoZWQtdjEvc2NyaXB0cy9vd2EuMT=
+I2ODUubS5jNWRkYWEyOS5qcyIgYXM9InNjcmlwdCIgY3Jvc3NvcmlnaW49ImFub255bW91cyIvP=
+jxsaW5rIGludGVncml0eT0ic2hhMjU2LW1tV2g1WVJvbmNMcDBEUjQ3ckdVOTVrVk9TcEt4RVhz=
+Q0JBQ1JVcEs4UVE9IiByZWw9InByZWxvYWQiIGhyZWY9Ii8vcmVzLnB1YmxpYy5vbmVjZG4uc3R=
+hdGljLm1pY3Jvc29mdC9vd2FtYWlsL2hhc2hlZC12MS9zY3JpcHRzL293YS40NzMwMS5tLjdkZj=
+Y1NWJlLmpzIiBhcz0ic2NyaXB0IiBjcm9zc29yaWdpbj0iYW5vbnltb3VzIi8+PGxpbmsgaW50Z=
+WdyaXR5PSJzaGEyNTYtUUtjNlBhajRtRE5EN2xHblA0bUV0bUpvTEt5eExGK1ROeFV5S3hVTXJW=
+WT0iIHJlbD0icHJlbG9hZCIgaHJlZj0iLy9yZXMucHVibGljLm9uZWNkbi5zdGF0aWMubWljcm9=
+zb2Z0L293YW1haWwvaGFzaGVkLXYxL3NjcmlwdHMvb3dhLkFwcEJvb3QubS5kYjU3M2MwZS5jc3=
+MiIGFzPSJzdHlsZSIgY3Jvc3NvcmlnaW49ImFub255bW91cyIvPjxsaW5rIGludGVncml0eT0ic=
+2hhMjU2LU81KzUzS09jeCtFVnpidGdYV1JKQ2tnbTdFLzNrVkpwNGR6RVVVcVdQWEE9IiByZWw9=
+InByZWxvYWQiIGhyZWY9Ii8vcmVzLnB1YmxpYy5vbmVjZG4uc3RhdGljLm1pY3Jvc29mdC9vd2F=
+tYWlsL2hhc2hlZC12MS9zY3JpcHRzL293YS5BcHBCb290Lm0uMWIwZGY5OWEuanMiIGFzPSJzY3=
+JpcHQiIGNyb3Nzb3JpZ2luPSJhbm9ueW1vdXMiLz48bGluayBpbnRlZ3JpdHk9InNoYTI1Ni1rT=
+1ZxcE1yQ3Y4c2haTVd5SG9mdTEyWXlLYlpwMU95MnJYeS9JMExHZVR3PSIgcmVsPSJwcmVsb2Fk=
+IiBocmVmPSIvL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpYy5taWNyb3NvZnQvb3dhbWFpbC9oYXN=
+oZWQtdjEvc2NyaXB0cy9vd2EuNzU0MzIubS42MWJmZjA0ZC5qcyIgYXM9InNjcmlwdCIgY3Jvc3=
+NvcmlnaW49ImFub255bW91cyIvPjxsaW5rIGludGVncml0eT0ic2hhMjU2LUsvWTB4akpkRUhEN=
+mRmK09XZkxjTUVnL1dsSVJJaHpnbFlkTXBjaTluY0U9IiByZWw9InByZWxvYWQiIGhyZWY9Ii8v=
+cmVzLnB1YmxpYy5vbmVjZG4uc3RhdGljLm1pY3Jvc29mdC9vd2FtYWlsL2hhc2hlZC12MS9zY3J=
+pcHRzL293YS40NjIzNS5tLjE5MzJlMTNkLmpzIiBhcz0ic2NyaXB0IiBjcm9zc29yaWdpbj0iYW=
+5vbnltb3VzIi8+PGxpbmsgaW50ZWdyaXR5PSJzaGEyNTYtQnl5MzJMdEFuSGFaTDhNTFlSVnhNY=
+jN2QkpGYm9yRGdKRkJhUS9aU200QT0iIHJlbD0icHJlbG9hZCIgaHJlZj0iLy9yZXMucHVibGlj=
+Lm9uZWNkbi5zdGF0aWMubWljcm9zb2Z0L293YW1haWwvaGFzaGVkLXYxL3NjcmlwdHMvb3dhLjY=
+zMjU4Lm0uYjExZDAwNTUuanMiIGFzPSJzY3JpcHQiIGNyb3Nzb3JpZ2luPSJhbm9ueW1vdXMiLz=
+48bGluayBpbnRlZ3JpdHk9InNoYTI1Ni1aVnNEVFNUa0k5dzVmUjBHOXJVVVhFTDVKdk9PMlpQQ=
+3VTSjhrZ2hVZHI4PSIgcmVsPSJwcmVsb2FkIiBocmVmPSIvL3Jlcy5wdWJsaWMub25lY2RuLnN0=
+YXRpYy5taWNyb3NvZnQvb3dhbWFpbC9oYXNoZWQtdjEvc2NyaXB0cy9vd2EuMTAyMjIubS5jNDg=
+0ODg4Mi5qcyIgYXM9InNjcmlwdCIgY3Jvc3NvcmlnaW49ImFub255bW91cyIvPjxsaW5rIGludG=
+Vncml0eT0ic2hhMjU2LUJ5b3VyRmtDdURrY0ZrWThKTVR2emxrNkUvVjFmTGxkSGJNRzI4cHk4N=
+1k9IiByZWw9InByZWxvYWQiIGhyZWY9Ii8vcmVzLnB1YmxpYy5vbmVjZG4uc3RhdGljLm1pY3Jv=
+c29mdC9vd2FtYWlsL2hhc2hlZC12MS9zY3JpcHRzL293YS5Nc2FsQXV0aC5tLjcyZTg4ZmI0Lmp=
+zIiBhcz0ic2NyaXB0IiBjcm9zc29yaWdpbj0iYW5vbnltb3VzIi8+PHNjcmlwdCBpbnRlZ3JpdH=
+k9InNoYTI1Ni1pYmpNNUo2azB3SnBEWnRFRmRVcGJBait5YnIwaGsrREtadUpjOGNWZkpRPSIgc=
+3JjPSIvL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpYy5taWNyb3NvZnQvb3dhbWFpbC9oYXNoZWQt=
+djEvc2NyaXB0cy9vd2EubWFpbC5ydW50aW1lLjdiYjdlNzQ4LmpzIiBjcm9zc29yaWdpbj0iYW5=
+vbnltb3VzIj48L3NjcmlwdD48c2NyaXB0IGludGVncml0eT0ic2hhMjU2LXlHU1YzSUlxcVROd2=
+VyOFpsc2xqTXdVemhsS3Nia0h2cTlaL2FGMEhLNWM9IiBzcmM9Ii8vcmVzLnB1YmxpYy5vbmVjZ=
+G4uc3RhdGljLm1pY3Jvc29mdC9vd2FtYWlsL2hhc2hlZC12MS9zY3JpcHRzL293YS5tYWlsaW5k=
+ZXguOGI1M2FmZDQuanMiIGNyb3Nzb3JpZ2luPSJhbm9ueW1vdXMiPjwvc2NyaXB0PjwvaGVhZD4=
+gPGJvZHkgcm9sZT1hcHBsaWNhdGlvbiBjbGFzcz0ibXMtZm9udC1zIGRpc2FibGVUZXh0U2VsZW=
+N0aW9uIG1zLUZhYnJpYy0taXNGb2N1c0hpZGRlbiI+IDxkaXYgaWQ9YXBwPjwvZGl2PiA8ZGl2I=
+GlkPWxvYWRpbmdTY3JlZW4+IDxkaXYgaWQ9bG9hZGluZ0xvZ28gZGlyPWx0cj4gPHN0eWxlPjpy=
+b290ey0tczoxODBweDstLWVudlc6MTMwcHg7LS1lbnZIOjcxcHg7LS1jYWxXOjExOHB4Oy0tc3F=
+XOmNhbGModmFyKC0tY2FsVykgLyAzKTstLXNxSDozN3B4Oy0tY2FsSEg6MjBweDstLWNhbEg6Y2=
+FsYyh2YXIoLS1zcUgpICogMyArIHZhcigtLWNhbEhIKSk7LS1jYWxZOmNhbGModmFyKC0tY2FsS=
+CkgKyAyMHB4KTstLWNhbFlFeHQ6Y2FsYyh2YXIoLS1jYWxIKSAtIDgwcHgpOy0tY2FsWU92ZXJF=
+eHQ6Y2FsYyh2YXIoLS1jYWxIKSAtIDkycHgpOy0tZmxhcFM6OTZweDstLWZsYXBIOmNhbGMoMC4=
+1NSAqIHZhcigtLWVudkgpKTstLWZsYXBTY2FsZVk6Y2FsYyh2YXIoLS1mbGFwSCkgLyB2YXIoLS=
+1mbGFwV2lkdGgpKTstLWR1cjo1c30jY29udGFpbmVye3dpZHRoOnZhcigtLXMpO2hlaWdodDp2Y=
+XIoLS1zKTthbmltYXRpb246Ym91bmNlIHZhcigtLWR1cikgaW5maW5pdGV9QGtleWZyYW1lcyBi=
+b3VuY2V7MCUsMTAwJSwxMi41JSwzMi41JSw3Ni4xJXt0cmFuc2Zvcm06dHJhbnNsYXRlWSgwKX0=
+yMi41JSw4NiV7dHJhbnNmb3JtOnRyYW5zbGF0ZVkoN3B4KX19I2xvZ297aGVpZ2h0OjE3OXB4O3=
+dpZHRoOjEzMHB4O292ZXJmbG93OmhpZGRlbjttYXJnaW4tdG9wOi01OXB4O21hcmdpbi1sZWZ0O=
+jI1cHh9I2NvbnRhaW5lclNoYWRvd3twb3NpdGlvbjpyZWxhdGl2ZTt0b3A6MTIwcHg7bGVmdDoy=
+NXB4O3dpZHRoOnZhcigtLWVudlcpO2hlaWdodDp2YXIoLS1lbnZIKTtib3JkZXItcmFkaXVzOjA=
+gMCA3cHggN3B4O2JveC1zaGFkb3c6cmdiYSgwLDAsMCwuMjUpIDAgNHB4IDVweDthbmltYXRpb2=
+46c2hhZG93LWZhZGUgdmFyKC0tZHVyKSBpbmZpbml0ZX1Aa2V5ZnJhbWVzIHNoYWRvdy1mYWRle=
+zAlLDEwMCUsMjEuMiUsODAle29wYWNpdHk6MH00NyUsNzAle29wYWNpdHk6MX19I2ZsYXBDb250=
+YWluZXJ7d2lkdGg6dmFyKC0tZW52Vyk7bWFyZ2luLXRvcDoxNzlweH0jZWZ7d2lkdGg6dmFyKC0=
+tZW52Vyk7aGVpZ2h0OnZhcigtLWVudkgpO2JvcmRlci1yYWRpdXM6MCAwIDdweCA3cHg7b3Zlcm=
+Zsb3c6aGlkZGVuO21hcmdpbi10b3A6LTQxcHh9I2VmPi5se3dpZHRoOjI4N3B4O2hlaWdodDp2Y=
+XIoLS1lbnZIKTtiYWNrZ3JvdW5kOiMyOGE4ZWE7dHJhbnNmb3JtOnRyYW5zbGF0ZSgtMTUzcHgs=
+LTcwcHgpIHJvdGF0ZSgyOGRlZyl9I2VmPi5ye3dpZHRoOjI4N3B4O2hlaWdodDp2YXIoLS1lbnZ=
+IKTtiYWNrZ3JvdW5kOiMxNDkwZGY7dHJhbnNmb3JtOnRyYW5zbGF0ZSgtMTIwcHgsNjNweCkgcm=
+90YXRlKC0yOGRlZyl9I2Vie3dpZHRoOnZhcigtLWVudlcpO2hlaWdodDo0MHB4O2JhY2tncm91b=
+mQ6IzEyM2I2ZDttYXJnaW4tdG9wOi03MHB4fSNjYWx7ZGlzcGxheTpmbGV4O2ZsZXgtd3JhcDp3=
+cmFwO3dpZHRoOnZhcigtLWNhbFcpO2hlaWdodDp2YXIoLS1jYWxIKTtib3JkZXItcmFkaXVzOjd=
+weDtvdmVyZmxvdzpoaWRkZW47bWFyZ2luOjAgYXV0bzttYXJnaW4tdG9wOi0zMDZweDthbmltYX=
+Rpb246Y2FsLWJvdW5jZSB2YXIoLS1kdXIpIGluZmluaXRlO2FuaW1hdGlvbi10aW1pbmctZnVuY=
+3Rpb246Y3ViaWMtYmV6aWVyKDAsMC41LDAsMSk7dHJhbnNmb3JtOnRyYW5zbGF0ZVkodmFyKC0t=
+Y2FsWUV4dCkpIHNjYWxlWSgxKX1Aa2V5ZnJhbWVzIGNhbC1ib3VuY2V7MCUsMTAwJSwxNi41JSw=
+3Ni4xJXt0cmFuc2Zvcm06dHJhbnNsYXRlWSh2YXIoLS1jYWxZKSkgc2NhbGVZKDEpfTI4JXt0cm=
+Fuc2Zvcm06dHJhbnNsYXRlWSh2YXIoLS1jYWxZT3ZlckV4dCkpIHNjYWxlWSgxKX0zMSV7dHJhb=
+nNmb3JtOnRyYW5zbGF0ZVkodmFyKC0tY2FsWUV4dCkpIHNjYWxlWSgxLjA1KX0zMyV7dHJhbnNm=
+b3JtOnRyYW5zbGF0ZVkodmFyKC0tY2FsWUV4dCkpIHNjYWxlWSguOTYpfTM0JSw2OC41JXt0cmF=
+uc2Zvcm06dHJhbnNsYXRlWSh2YXIoLS1jYWxZRXh0KSkgc2NhbGVZKDEpfTY4LjUle2FuaW1hdG=
+lvbi10aW1pbmctZnVuY3Rpb246Y3ViaWMtYmV6aWVyKDAuNjYsLTAuMTYsMSwtMC4yOSl9fSNjY=
+Ww+LnR7d2lkdGg6dmFyKC0tY2FsVyk7aGVpZ2h0OmNhbGModmFyKC0tY2FsSEgpICsgMXB4KTtt=
+YXJnaW4tYm90dG9tOi0xcHg7YmFja2dyb3VuZDojMDM1OGE3fSNjYWw+LnJ7ZGlzcGxheTpmbGV=
+4O3dpZHRoOnZhcigtLWNhbFcpO2hlaWdodDp2YXIoLS1zcUgpfS5ze3dpZHRoOnZhcigtLXNxVy=
+k7aGVpZ2h0OmNhbGModmFyKC0tc3FIKSArIDFweCl9LnMxe2JhY2tncm91bmQ6IzAwNzhkNH0uc=
+zJ7YmFja2dyb3VuZDojMjhhOGVhfS5zM3tiYWNrZ3JvdW5kOiM1MGQ5ZmZ9LnM0e2JhY2tncm91=
+bmQ6IzAzNjRiOH0uczV7YmFja2dyb3VuZDojMTQ0NDdkfSNvcGVuZWRGbGFwe3dpZHRoOnZhcig=
+tLWVudlcpO2hlaWdodDoxMDdweDthbmltYXRpb246b3BlbmVkLWZsYXAtc3dpbmcgdmFyKC0tZH=
+VyKSBpbmZpbml0ZTthbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOmN1YmljLWJlemllcigwLjMyL=
+DAsMC42NywwKTt0cmFuc2Zvcm0tb3JpZ2luOnRvcDt0cmFuc2Zvcm06dHJhbnNsYXRlWSgtNjhw=
+eCkgcm90YXRlM2QoMSwwLDAsLTE4MGRlZyl9QGtleWZyYW1lcyBvcGVuZWQtZmxhcC1zd2luZ3s=
+wJSwxMDAlLDE0LjUlLDc2JXt0cmFuc2Zvcm06dHJhbnNsYXRlWSgtNjhweCkgcm90YXRlM2QoMS=
+wwLDAsLTkwZGVnKX0xNi41JSw3NCV7dHJhbnNmb3JtOnRyYW5zbGF0ZVkoLTY4cHgpIHJvdGF0Z=
+TNkKDEsMCwwLC0xODBkZWcpfX0jY2xvc2VkRmxhcHt3aWR0aDp2YXIoLS1lbnZXKTthbmltYXRp=
+b246Y2xvc2VkLWZsYXAtc3dpbmcgdmFyKC0tZHVyKSBpbmZpbml0ZTthbmltYXRpb24tdGltaW5=
+nLWZ1bmN0aW9uOmN1YmljLWJlemllcigwLjMyLDAsMC42NywwKTt0cmFuc2Zvcm0tb3JpZ2luOn=
+RvcDt0cmFuc2Zvcm06dHJhbnNsYXRlWShjYWxjKC0xICogdmFyKC0tZW52SCkpKSByb3RhdGUzZ=
+CgxLDAsMCw5MGRlZyl9QGtleWZyYW1lcyBjbG9zZWQtZmxhcC1zd2luZ3swJSwxMDAlLDc3JSw4=
+LjUle3RyYW5zZm9ybTp0cmFuc2xhdGVZKGNhbGMoLTEgKiB2YXIoLS1lbnZIKSkpIHJvdGF0ZTN=
+kKDEsMCwwLDApfTE0LjUlLDc2JXt0cmFuc2Zvcm06dHJhbnNsYXRlWShjYWxjKC0xICogdmFyKC=
+0tZW52SCkpKSByb3RhdGUzZCgxLDAsMCw5MGRlZyl9fSNmbWFza3t3aWR0aDp2YXIoLS1lbnZXK=
+TtoZWlnaHQ6MTA3cHg7b3ZlcmZsb3c6aGlkZGVufS5mbGFwVHJpYW5nbGV7d2lkdGg6dmFyKC0t=
+ZmxhcFMpO2hlaWdodDp2YXIoLS1mbGFwUyk7YmFja2dyb3VuZDojNTBkOWZmO21hcmdpbjotNDh=
+weCBhdXRvIDAgYXV0bztib3JkZXItcmFkaXVzOjdweDt0cmFuc2Zvcm06c2NhbGVZKC42KSByb3=
+RhdGUoNDVkZWcpfSNvcGVuZWRGbGFwIC5mbGFwVHJpYW5nbGV7YmFja2dyb3VuZDojMTIzYjZkf=
+SNjbG9zZWRGbGFwIC5mbGFwVHJpYW5nbGV7YmFja2dyb3VuZDojNTBkOWZmfTwvc3R5bGU+IDxk=
+aXYgaWQ9Y29udGFpbmVyPiA8ZGl2IGlkPWNvbnRhaW5lclNoYWRvdz48L2Rpdj4gPGRpdiBpZD1=
+sb2dvPiA8ZGl2IGlkPWZsYXBDb250YWluZXI+IDxkaXYgaWQ9b3BlbmVkRmxhcD4gPGRpdiBpZD=
+1mbWFzaz48ZGl2IGNsYXNzPWZsYXBUcmlhbmdsZT48L2Rpdj48L2Rpdj4gPC9kaXY+IDxkaXYga=
+WQ9Y2FsPiA8ZGl2IGNsYXNzPXQ+PC9kaXY+IDxkaXYgY2xhc3M9cj4gPGRpdiBjbGFzcz0icyBz=
+MSI+PC9kaXY+IDxkaXYgY2xhc3M9InMgczIiPjwvZGl2PiA8ZGl2IGNsYXNzPSJzIHMzIj48L2R=
+pdj4gPC9kaXY+IDxkaXYgY2xhc3M9cj4gPGRpdiBjbGFzcz0icyBzNCI+PC9kaXY+IDxkaXYgY2=
+xhc3M9InMgczEiPjwvZGl2PiA8ZGl2IGNsYXNzPSJzIHMyIj48L2Rpdj4gPC9kaXY+IDxkaXYgY=
+2xhc3M9cj4gPGRpdiBjbGFzcz0icyBzNSI+PC9kaXY+IDxkaXYgY2xhc3M9InMgczQiPjwvZGl2=
+PiA8ZGl2IGNsYXNzPSJzIHMxIj48L2Rpdj4gPC9kaXY+IDwvZGl2PiA8L2Rpdj4gPGRpdiBpZD1=
+lYj48L2Rpdj4gPGRpdiBpZD1lZj4gPGRpdiBjbGFzcz1yPjwvZGl2PiA8ZGl2IGNsYXNzPWw+PC=
+9kaXY+IDwvZGl2PiA8ZGl2IGlkPWNsb3NlZEZsYXA+IDxkaXYgaWQ9Zm1hc2s+PGRpdiBjbGFzc=
+z1mbGFwVHJpYW5nbGU+PC9kaXY+PC9kaXY+IDwvZGl2PiA8L2Rpdj4gPC9kaXY+IDwvZGl2PiA8=
+aW1nIHNyYz0vL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpYy5taWNyb3NvZnQvYXNzZXRzL2ZyYW1=
+ld29yay9taWNyb3NvZnQuc3ZnIGlkPU1TTG9nbyBhbHQ9TWljcm9zb2Z0PiA8L2Rpdj4gPC9ib2=
+R5PiA8L2h0bWw+IA=3D=3D"></a></u></b></span><span style=3D"font-family: Verd=
+ana, Arial, Helvetica, sans-serif; font-size: 9pt;"><b><br>
+</b></span></td>
+<td style=3D"direction: ltr; padding: 5px;"><span style=3D"font-family: Ver=
+dana, Arial, Helvetica, sans-serif; font-size: 9pt; color: rgb(0, 0, 0);"><=
+b><u><a href=3D"https://apps.apple.com/us/app/d-s-flo/id1355672141?ls=3D1" =
+id=3D"OWA65d7fb89-7aa9-8f94-8777-6aad28b8de67" class=3D"OWAAutoLink" origin=
+alsrc=3D"https://apps.apple.com/us/app/d-s-flo/id1355672141?ls=3D1" data-au=
+th=3D"NotApplicable" style=3D"color: rgb(0, 0, 0);"><img alt=3D"Apple App S=
+tore" src=3D"data:text/html;base64,PCFET0NUWVBFIGh0bWw+IDxodG1sIGRpcj1sdHIg=
+eG1sbnM9aHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCB0cmFuc2xhdGU9bm8+IDxoZWFkPiA=
+8bWV0YSBjaGFyc2V0PXV0Zi04PiA8bWV0YSBodHRwLWVxdWl2PVgtVUEtQ29tcGF0aWJsZSBjb2=
+50ZW50PSJJRT1lZGdlIj4gPG1ldGEgaHR0cC1lcXVpdj1wcmFnbWEgY29udGVudD1uby1jYWNoZ=
+T4gPG1ldGEgbmFtZT12aWV3cG9ydCBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsaW5pdGlh=
+bC1zY2FsZT0xLHVzZXItc2NhbGFibGU9MCI+IDxtZXRhIG5hbWU9Z29vZ2xlIHZhbHVlPW5vdHJ=
+hbnNsYXRlPiA8bWV0YSBuYW1lPWZvcm1hdC1kZXRlY3Rpb24gY29udGVudD0idGVsZXBob25lPW=
+5vIj4gPG1ldGEgbmFtZT1zY3JpcHRWZXIgY29udGVudD0yMDI1MDMwNzAwMi4xNj4gPG1ldGEgb=
+mFtZT1oYXNoZWRQYXRoIGNvbnRlbnQ9aGFzaGVkLXYxPiA8bWV0YSBuYW1lPXBoeXNpY2FsUmlu=
+ZyBjb250ZW50PVdXPiA8bWV0YSBuYW1lPWVudmlyb25tZW50IGNvbnRlbnQ9UHJvZD4gPG1ldGE=
+gbmFtZT1ib290RmxpZ2h0cyBjb250ZW50PWZ3ay1hbmFseXRpY3MtYWRkb25zLGRldi1vZmZsaW=
+5lTXVsdGlBY2NvdW50REIsY2FsLXdpZGdldHMtdXBuLXZhbGlkYXRpb24sYXV0aC1jYWNoZVRva=
+2VuRm9yTWV0YU9zSHViLGF1dGgtdXNlQXV0aFRva2VuQ2xhaW1zRm9yTWV0YU9zSHViLGF1dGgt=
+Y29kZUNoYWxsZW5nZSxjYWwtd2lkZ2V0cy1kaXNhYmxlV2lkZ2V0cyxhdXRoLW1zYWxqcy1sYW5=
+kaW5ncGFnZSxzaGVsbG11bHRpb3JpZ2luOjM5NDkyNyxjYWwtcGVyZi1ldmVudHNpbnN0YXJ0dX=
+BkYXRhOjUyNTQ5MixjYWwtcGVyZi11c2Vhc3N1bWVvZmZzZXQ6NTIyMTQxLGNhbC1wZXJmLWV2Z=
+W50c2lub2ZmbGluZXN0YXJ0dXBkYXRhOjU0OTk5OCxhY2N0LWFkZC1hY2NvdW50LWUxLWltcHJv=
+dmVtZW50OjUxNTc4OCxhdXRoLWNhY2hldG9rZW5mb3JtZXRhb3NodWI6NTc5MjY2LGNhbC1wZXJ=
+mLWV2ZW50c2luc3RhcnR1cGRhdGFieXZpZXd0eXBlOjU0MjQ1MSxib290ZmxpZ2h0YnVzaW5lc3=
+N1c2VyOjY5ODAzNSx3b3JrZXJhc3luY2xvYWQ6NjM0OTIxLGF1dGgtbXNhbGpzLWZpbmR0aW1lO=
+jczMjY0NixhdXRoLW1zYWxqcy1wbGFjZXM6NjU3NTIzLGF1dGgtdXNlYXV0aHRva2VuY2xhaW1z=
+Zm9ybWV0YW9zaHViOjY1MzQ2MCxhY2N0c3RhcnRkYXRhb3dhdjI6NzAwODAxLGF1dGgtbXNhbGp=
+zLXBsYWNlcy1zZXNzaW9uc3RvcmFnZTo2NTY0MTEsY2FsLXN0b3JlLW5hdmJhcmRhdGE6NjgzOD=
+A5LGF1dGgtbXNhbGpzLXNlc3Npb25zdG9yZWFzY2FjaGVsb2NhdGlvbjo2NzA3NDAsYWNjdHBlc=
+nNpc3RlbnRpZGluZGV4ZXJ2Mjo3MTE5ODgsbW9ieC1jZjo3MzQ5NDI+IDxtZXRhIG5hbWU9Y2Ru=
+VXJsIGNvbnRlbnQ9Ly9yZXMucHVibGljLm9uZWNkbi5zdGF0aWMubWljcm9zb2Z0Lz4gPG1ldGE=
+gbmFtZT1iYWNrdXBDZG5VcmwgY29udGVudD0vL3Jlcy0xLmNkbi5vZmZpY2UubmV0Lz4gPG1ldG=
+EgbmFtZT1jZG5Db250YWluZXIgY29udGVudD1vd2FtYWlsLz4gPG1ldGEgbmFtZT1kZXZDZG5Vc=
+mwgY29udGVudD0+IDxtZXRhIG5hbWU9YXJpYVVybCBjb250ZW50PT4gPG1ldGEgbmFtZT13ZWJT=
+ZXJ2ZXJGb3Jlc3QgY29udGVudD1ldXJwcmQwND4gPG1ldGEgbmFtZT13ZWJTZXJ2ZXJDbGlxdWU=
+gY29udGVudD1DTEVVUlBSRDA0REhSMDU+IDxtZXRhIG5hbWU9Y29tcGFjdEFyaWFVcmwgY29udG=
+VudD0+IDxtZXRhIG5hbWU9d2Nzc0ZyYW1lVXJsIGNvbnRlbnQ9aHR0cHM6Ly93ZWJzaGVsbC5zd=
+Wl0ZS5vZmZpY2UuY29tPiA8bWV0YSBuYW1lPXdjc3NGcmFtZVVybHMgY29udGVudD17J0RlZmF1=
+bHRVcmwnOidodHRwczovL3dlYnNoZWxsLnN1aXRlLm9mZmljZS5jb20nLCdXd2RiVXJsJzonaHR=
+0cHM6Ly93d2RiLndlYnNoZWxsLnN1aXRlLm9mZmljZS5jb20nLCdFdWRiVXJsJzonaHR0cHM6Ly=
+9ldWRiLndlYnNoZWxsLnN1aXRlLm9mZmljZS5jb20nfT4gPG1ldGEgbmFtZT1zY3JpcHRQYXRoI=
+GNvbnRlbnQ9c2NyaXB0cy8+IDxtZXRhIG5hbWU9b3dhSXNBdXRoZW50aWNhdGVkIGNvbnRlbnQ9=
+e3tJc0F1dGhlbnRpY2F0ZWR9fT4gPG1ldGEgbmFtZT1qc1RpbWVzdGFtcCBjb250ZW50PTE3NDI=
+yOTMyMDUzNjE+IDxtZXRhIG5hbWU9cHVibGljVXJsIGNvbnRlbnQ9aHR0cHM6Ly9vdXRsb29rLm=
+9mZmljZS5jb20+IDxtZXRhIG5hbWU9YWFkQXV0aG9yaXR5VXJsIGNvbnRlbnQ9aHR0cHM6Ly9sb=
+2dpbi5taWNyb3NvZnRvbmxpbmUuY29tLz4gPG1ldGEgbmFtZT1idXNpbmVzc0Nhbm9uaWNhbEhv=
+c3ROYW1lIGNvbnRlbnQ9b3V0bG9vay5vZmZpY2UzNjUuY29tPiA8bWV0YSBuYW1lPWlzUlBTQXV=
+0aENvb2tpZVByZXNlbnQgY29udGVudD1GYWxzZT4gPGxpbmsgcmVsPXByZWNvbm5lY3QgaHJlZj=
+0vL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpYy5taWNyb3NvZnQvIGNyb3Nzb3JpZ2luPWFub255b=
+W91cz4gPGxpbmsgcmVsPXByZWNvbm5lY3QgaHJlZj1odHRwczovL2xvZ2luLm1pY3Jvc29mdG9u=
+bGluZS5jb20vIGNyb3Nzb3JpZ2luPWFub255bW91cz4gPGxpbmsgcmVsPSJzaG9ydGN1dCBpY29=
+uIiBocmVmPS9tYWlsL2Zhdmljb24uaWNvIHR5cGU9aW1hZ2UveC1pY29uPiA8bGluayByZWw9YX=
+BwbGUtdG91Y2gtaWNvbiBocmVmPS8vcmVzLnB1YmxpYy5vbmVjZG4uc3RhdGljLm1pY3Jvc29md=
+C9hc3NldHMvbWFpbC9wd2EvdjEvcG5ncy9hcHBsZS10b3VjaC1pY29uLnBuZz4gPG5vc2NyaXB0=
+PkphdmFTY3JpcHQgbXVzdCBiZSBlbmFibGVkLjwvbm9zY3JpcHQ+IDx0aXRsZT5PdXRsb29rPC9=
+0aXRsZT48bGluayBpbnRlZ3JpdHk9InNoYTI1Ni1pYmpNNUo2azB3SnBEWnRFRmRVcGJBait5Yn=
+IwaGsrREtadUpjOGNWZkpRPSIgcmVsPSJwcmVsb2FkIiBocmVmPSIvL3Jlcy5wdWJsaWMub25lY=
+2RuLnN0YXRpYy5taWNyb3NvZnQvb3dhbWFpbC9oYXNoZWQtdjEvc2NyaXB0cy9vd2EubWFpbC5y=
+dW50aW1lLjdiYjdlNzQ4LmpzIiBhcz0ic2NyaXB0IiBjcm9zc29yaWdpbj0iYW5vbnltb3VzIi8=
++PGxpbmsgaW50ZWdyaXR5PSJzaGEyNTYteUdTVjNJSXFxVE53ZXI4WmxzbGpNd1V6aGxLc2JrSH=
+ZxOVovYUYwSEs1Yz0iIHJlbD0icHJlbG9hZCIgaHJlZj0iLy9yZXMucHVibGljLm9uZWNkbi5zd=
+GF0aWMubWljcm9zb2Z0L293YW1haWwvaGFzaGVkLXYxL3NjcmlwdHMvb3dhLm1haWxpbmRleC44=
+YjUzYWZkNC5qcyIgYXM9InNjcmlwdCIgY3Jvc3NvcmlnaW49ImFub255bW91cyIvPiA8c3R5bGU=
++QGZvbnQtZmFjZXtmb250LWZhbWlseTpGYWJyaWNNREwySWNvbnM7c3JjOnVybCgnLy9yZXMucH=
+VibGljLm9uZWNkbi5zdGF0aWMubWljcm9zb2Z0L293YW1haWwvMjAyNTAzMDcwMDIuMTYvcmVzb=
+3VyY2VzL2ZvbnRzL28zNjVpY29ucy1tZGwyLndvZmYnKSBmb3JtYXQoJ3dvZmYnKTtmb250LXdl=
+aWdodDo0MDA7Zm9udC1zdHlsZTpub3JtYWx9QGZvbnQtZmFjZXtmb250LWZhbWlseTpvZmZpY2U=
+zNjVpY29ucztzcmM6dXJsKCcvL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpYy5taWNyb3NvZnQvb3=
+dhbWFpbC8yMDI1MDMwNzAwMi4xNi9yZXNvdXJjZXMvZm9udHMvb2ZmaWNlMzY1aWNvbnMud29mZ=
+j8nKSBmb3JtYXQoJ3dvZmYnKTtmb250LXdlaWdodDo0MDA7Zm9udC1zdHlsZTpub3JtYWx9I2xv=
+YWRpbmdTY3JlZW57cG9zaXRpb246Zml4ZWQ7dG9wOjA7Ym90dG9tOjA7bGVmdDowO3JpZ2h0OjA=
+7YmFja2dyb3VuZC1jb2xvcjojZmZmfSNsb2FkaW5nTG9nb3twb3NpdGlvbjpmaXhlZDt0b3A6Y2=
+FsYyg1MHZoIC0gOTBweCk7bGVmdDpjYWxjKDUwdncgLSA5MHB4KTt3aWR0aDoxODBweDtoZWlna=
+HQ6MTgwcHh9I01TTG9nb3twb3NpdGlvbjpmaXhlZDtib3R0b206MzZweDtsZWZ0OmNhbGMoNTB2=
+dyAtIDUwcHgpfS5kYXJrICNsb2FkaW5nU2NyZWVue2JhY2tncm91bmQtY29sb3I6IzMzM30uZGF=
+ya05ldyAjbG9hZGluZ1NjcmVlbntiYWNrZ3JvdW5kLWNvbG9yOiMxZjFmMWZ9PC9zdHlsZT4gPH=
+NjcmlwdCBub25jZT1RV1ZDNEdBOC85WWpRRjFpcDl4cnBBPT0+dHJ5eyFmdW5jdGlvbigpe2lmK=
+CJsb2NhbFN0b3JhZ2UiaW4gd2luZG93KXt2YXIgZT0iVXNlcnNOb3JtYWxpemVkVGhlbWUiLHQ9=
+d2luZG93LmxvY2FsU3RvcmFnZSxhPXQuZ2V0SXRlbSgib2xrLSIrZSl8fHQuZ2V0SXRlbShlKTt=
+hJiYvXC5kYXJrJC8udGVzdChhKSYmZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LmNsYXNzTGlzdC=
+5hZGQoImRhcmsiKSxhJiYvXC5kYXJrXC5uZXckLy50ZXN0KGEpJiZkb2N1bWVudC5kb2N1bWVud=
+EVsZW1lbnQuY2xhc3NMaXN0LmFkZCgiZGFya05ldyIpO3ZhciBuPXQuZ2V0SXRlbSgiUHdhVGhl=
+bWUiKTtpZihuKXt2YXIgbz1kb2N1bWVudC5nZXRFbGVtZW50c0J5TmFtZSgidGhlbWUtY29sb3I=
+iKTtvJiZvLmxlbmd0aCYmb1swXS5zZXRBdHRyaWJ1dGUoImNvbnRlbnQiLG4pfX19KCl9Y2F0Y2=
+goZSl7fTwvc2NyaXB0PiA8c2NyaXB0IG5vbmNlPVFXVkM0R0E4LzlZalFGMWlwOXhycEE9PT5md=
+W5jdGlvbiBsb2dFcnJvcihuLG8sZSxyLGEsaSl7d2luZG93Lm93YUVycm9ySGFuZGxlcj93aW5k=
+b3cub3dhRXJyb3JIYW5kbGVyKG4sbyxlLHIsYSxpKTp3aW5kb3cub3dhQmFja2ZpbGxlZEVycm9=
+ycy5wdXNoKGFyZ3VtZW50cyl9ZnVuY3Rpb24gaGFzaENoYW5nZUhhbmRsZXIoKXt3aW5kb3cub3=
+dhTG9jYXRpb25IYXNoPXdpbmRvdy5sb2NhdGlvbj93aW5kb3cubG9jYXRpb24uaGFzaDp2b2lkI=
+DB9d2luZG93LkZhYnJpY0NvbmZpZz17Zm9udEJhc2VVcmw6bnVsbH0sd2luZG93Lm93YUJhY2tm=
+aWxsZWRFcnJvcnM9W10sd2luZG93Lm9uZXJyb3I9bG9nRXJyb3IsIm9udW5oYW5kbGVkcmVqZWN=
+0aW9uImluIHdpbmRvdyYmd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoInVuaGFuZGxlZHJlamVjdG=
+lvbiIsKGZ1bmN0aW9uKG4pe3ZhciBvPW4mJm4ucmVhc29ufHwiW25vIHJlYXNvbiBnaXZlbl0iO=
+28gaW5zdGFuY2VvZiBFcnJvcj9sb2dFcnJvcigiVW5oYW5kbGVkIFJlamVjdGlvbjogIitvLCIi=
+LDAsMCxvKTpvLnJlc3BvbnNlRXJyb3JNZXNzYWdlJiZvLmNhbGxzdGFja0F0UmVxdWVzdCYmbyB=
+pbnN0YW5jZW9mIFJlc3BvbnNlP2xvZ0Vycm9yKG8ucmVzcG9uc2VFcnJvck1lc3NhZ2UsIiIsdm=
+9pZCAwLHZvaWQgMCx2b2lkIDAsby5jYWxsc3RhY2tBdFJlcXVlc3QpOmxvZ0Vycm9yKCJVbmhhb=
+mRsZWQgUmVqZWN0aW9uOiAiKygic3RyaW5nIj09dHlwZW9mIG8/bzpKU09OLnN0cmluZ2lmeShv=
+KSkpfSkpLHdpbmRvdy5vbmxvYWQ9ZnVuY3Rpb24oKXt2YXIgbj1zZWxmLmxvY2F0aW9uOyFzZWx=
+mLk93YSYmbiYmdm9pZCAwIT09bi5zZWFyY2gmJi0xPT1uLnNlYXJjaC5pbmRleE9mKCJndWxwIi=
+kmJi0xPT1uLnNlYXJjaC5pbmRleE9mKCJicmFuY2giKSYmKC0xPT1uLnNlYXJjaC5pbmRleE9mK=
+CJiTz0yIik/bi5zZWFyY2grPShuLnNlYXJjaD8iJiI6Ij8iKSsiYk89MiI6bi5hc3NpZ24oIi9v=
+d2EvYXV0aC9mcm93bnkuYXNweD9icmV0PWZhaWwmZXNyYz1JbmRleFBhZ2VJbmNvbXBsZXRlJmF=
+wcD1NYWlsJmJPPTIiKSl9LGhhc2hDaGFuZ2VIYW5kbGVyKCksd2luZG93LmFkZEV2ZW50TGlzdG=
+VuZXIoImhhc2hjaGFuZ2UiLGhhc2hDaGFuZ2VIYW5kbGVyKTwvc2NyaXB0PiA8bGluayBpbnRlZ=
+3JpdHk9InNoYTI1Ni1CQnQ1Rm9IYmpMVDk4TU4vVUtMQk9VNzhoNE15T2poNEtoS2hZNjAzcFpF=
+PSIgcmVsPSJwcmVsb2FkIiBocmVmPSIvL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpYy5taWNyb3N=
+vZnQvb3dhbWFpbC9oYXNoZWQtdjEvc2NyaXB0cy9vd2EuMTI2ODUubS5jNWRkYWEyOS5qcyIgYX=
+M9InNjcmlwdCIgY3Jvc3NvcmlnaW49ImFub255bW91cyIvPjxsaW5rIGludGVncml0eT0ic2hhM=
+jU2LW1tV2g1WVJvbmNMcDBEUjQ3ckdVOTVrVk9TcEt4RVhzQ0JBQ1JVcEs4UVE9IiByZWw9InBy=
+ZWxvYWQiIGhyZWY9Ii8vcmVzLnB1YmxpYy5vbmVjZG4uc3RhdGljLm1pY3Jvc29mdC9vd2FtYWl=
+sL2hhc2hlZC12MS9zY3JpcHRzL293YS40NzMwMS5tLjdkZjY1NWJlLmpzIiBhcz0ic2NyaXB0Ii=
+Bjcm9zc29yaWdpbj0iYW5vbnltb3VzIi8+PGxpbmsgaW50ZWdyaXR5PSJzaGEyNTYtUUtjNlBha=
+jRtRE5EN2xHblA0bUV0bUpvTEt5eExGK1ROeFV5S3hVTXJWWT0iIHJlbD0icHJlbG9hZCIgaHJl=
+Zj0iLy9yZXMucHVibGljLm9uZWNkbi5zdGF0aWMubWljcm9zb2Z0L293YW1haWwvaGFzaGVkLXY=
+xL3NjcmlwdHMvb3dhLkFwcEJvb3QubS5kYjU3M2MwZS5jc3MiIGFzPSJzdHlsZSIgY3Jvc3Nvcm=
+lnaW49ImFub255bW91cyIvPjxsaW5rIGludGVncml0eT0ic2hhMjU2LU81KzUzS09jeCtFVnpid=
+GdYV1JKQ2tnbTdFLzNrVkpwNGR6RVVVcVdQWEE9IiByZWw9InByZWxvYWQiIGhyZWY9Ii8vcmVz=
+LnB1YmxpYy5vbmVjZG4uc3RhdGljLm1pY3Jvc29mdC9vd2FtYWlsL2hhc2hlZC12MS9zY3JpcHR=
+zL293YS5BcHBCb290Lm0uMWIwZGY5OWEuanMiIGFzPSJzY3JpcHQiIGNyb3Nzb3JpZ2luPSJhbm=
+9ueW1vdXMiLz48bGluayBpbnRlZ3JpdHk9InNoYTI1Ni1rT1ZxcE1yQ3Y4c2haTVd5SG9mdTEyW=
+XlLYlpwMU95MnJYeS9JMExHZVR3PSIgcmVsPSJwcmVsb2FkIiBocmVmPSIvL3Jlcy5wdWJsaWMu=
+b25lY2RuLnN0YXRpYy5taWNyb3NvZnQvb3dhbWFpbC9oYXNoZWQtdjEvc2NyaXB0cy9vd2EuNzU=
+0MzIubS42MWJmZjA0ZC5qcyIgYXM9InNjcmlwdCIgY3Jvc3NvcmlnaW49ImFub255bW91cyIvPj=
+xsaW5rIGludGVncml0eT0ic2hhMjU2LUsvWTB4akpkRUhENmRmK09XZkxjTUVnL1dsSVJJaHpnb=
+FlkTXBjaTluY0U9IiByZWw9InByZWxvYWQiIGhyZWY9Ii8vcmVzLnB1YmxpYy5vbmVjZG4uc3Rh=
+dGljLm1pY3Jvc29mdC9vd2FtYWlsL2hhc2hlZC12MS9zY3JpcHRzL293YS40NjIzNS5tLjE5MzJ=
+lMTNkLmpzIiBhcz0ic2NyaXB0IiBjcm9zc29yaWdpbj0iYW5vbnltb3VzIi8+PGxpbmsgaW50ZW=
+dyaXR5PSJzaGEyNTYtQnl5MzJMdEFuSGFaTDhNTFlSVnhNYjN2QkpGYm9yRGdKRkJhUS9aU200Q=
+T0iIHJlbD0icHJlbG9hZCIgaHJlZj0iLy9yZXMucHVibGljLm9uZWNkbi5zdGF0aWMubWljcm9z=
+b2Z0L293YW1haWwvaGFzaGVkLXYxL3NjcmlwdHMvb3dhLjYzMjU4Lm0uYjExZDAwNTUuanMiIGF=
+zPSJzY3JpcHQiIGNyb3Nzb3JpZ2luPSJhbm9ueW1vdXMiLz48bGluayBpbnRlZ3JpdHk9InNoYT=
+I1Ni1aVnNEVFNUa0k5dzVmUjBHOXJVVVhFTDVKdk9PMlpQQ3VTSjhrZ2hVZHI4PSIgcmVsPSJwc=
+mVsb2FkIiBocmVmPSIvL3Jlcy5wdWJsaWMub25lY2RuLnN0YXRpYy5taWNyb3NvZnQvb3dhbWFp=
+bC9oYXNoZWQtdjEvc2NyaXB0cy9vd2EuMTAyMjIubS5jNDg0ODg4Mi5qcyIgYXM9InNjcmlwdCI=
+gY3Jvc3NvcmlnaW49ImFub255bW91cyIvPjxsaW5rIGludGVncml0eT0ic2hhMjU2LUJ5b3VyRm=
+tDdURrY0ZrWThKTVR2emxrNkUvVjFmTGxkSGJNRzI4cHk4N1k9IiByZWw9InByZWxvYWQiIGhyZ=
+WY9Ii8vcmVzLnB1YmxpYy5vbmVjZG4uc3RhdGljLm1pY3Jvc29mdC9vd2FtYWlsL2hhc2hlZC12=
+MS9zY3JpcHRzL293YS5Nc2FsQXV0aC5tLjcyZTg4ZmI0LmpzIiBhcz0ic2NyaXB0IiBjcm9zc29=
+yaWdpbj0iYW5vbnltb3VzIi8+PHNjcmlwdCBpbnRlZ3JpdHk9InNoYTI1Ni1pYmpNNUo2azB3Sn=
+BEWnRFRmRVcGJBait5YnIwaGsrREtadUpjOGNWZkpRPSIgc3JjPSIvL3Jlcy5wdWJsaWMub25lY=
+2RuLnN0YXRpYy5taWNyb3NvZnQvb3dhbWFpbC9oYXNoZWQtdjEvc2NyaXB0cy9vd2EubWFpbC5y=
+dW50aW1lLjdiYjdlNzQ4LmpzIiBjcm9zc29yaWdpbj0iYW5vbnltb3VzIj48L3NjcmlwdD48c2N=
+yaXB0IGludGVncml0eT0ic2hhMjU2LXlHU1YzSUlxcVROd2VyOFpsc2xqTXdVemhsS3Nia0h2cT=
+laL2FGMEhLNWM9IiBzcmM9Ii8vcmVzLnB1YmxpYy5vbmVjZG4uc3RhdGljLm1pY3Jvc29mdC9vd=
+2FtYWlsL2hhc2hlZC12MS9zY3JpcHRzL293YS5tYWlsaW5kZXguOGI1M2FmZDQuanMiIGNyb3Nz=
+b3JpZ2luPSJhbm9ueW1vdXMiPjwvc2NyaXB0PjwvaGVhZD4gPGJvZHkgcm9sZT1hcHBsaWNhdGl=
+vbiBjbGFzcz0ibXMtZm9udC1zIGRpc2FibGVUZXh0U2VsZWN0aW9uIG1zLUZhYnJpYy0taXNGb2=
+N1c0hpZGRlbiI+IDxkaXYgaWQ9YXBwPjwvZGl2PiA8ZGl2IGlkPWxvYWRpbmdTY3JlZW4+IDxka=
+XYgaWQ9bG9hZGluZ0xvZ28gZGlyPWx0cj4gPHN0eWxlPjpyb290ey0tczoxODBweDstLWVudlc6=
+MTMwcHg7LS1lbnZIOjcxcHg7LS1jYWxXOjExOHB4Oy0tc3FXOmNhbGModmFyKC0tY2FsVykgLyA=
+zKTstLXNxSDozN3B4Oy0tY2FsSEg6MjBweDstLWNhbEg6Y2FsYyh2YXIoLS1zcUgpICogMyArIH=
+ZhcigtLWNhbEhIKSk7LS1jYWxZOmNhbGModmFyKC0tY2FsSCkgKyAyMHB4KTstLWNhbFlFeHQ6Y=
+2FsYyh2YXIoLS1jYWxIKSAtIDgwcHgpOy0tY2FsWU92ZXJFeHQ6Y2FsYyh2YXIoLS1jYWxIKSAt=
+IDkycHgpOy0tZmxhcFM6OTZweDstLWZsYXBIOmNhbGMoMC41NSAqIHZhcigtLWVudkgpKTstLWZ=
+sYXBTY2FsZVk6Y2FsYyh2YXIoLS1mbGFwSCkgLyB2YXIoLS1mbGFwV2lkdGgpKTstLWR1cjo1c3=
+0jY29udGFpbmVye3dpZHRoOnZhcigtLXMpO2hlaWdodDp2YXIoLS1zKTthbmltYXRpb246Ym91b=
+mNlIHZhcigtLWR1cikgaW5maW5pdGV9QGtleWZyYW1lcyBib3VuY2V7MCUsMTAwJSwxMi41JSwz=
+Mi41JSw3Ni4xJXt0cmFuc2Zvcm06dHJhbnNsYXRlWSgwKX0yMi41JSw4NiV7dHJhbnNmb3JtOnR=
+yYW5zbGF0ZVkoN3B4KX19I2xvZ297aGVpZ2h0OjE3OXB4O3dpZHRoOjEzMHB4O292ZXJmbG93Om=
+hpZGRlbjttYXJnaW4tdG9wOi01OXB4O21hcmdpbi1sZWZ0OjI1cHh9I2NvbnRhaW5lclNoYWRvd=
+3twb3NpdGlvbjpyZWxhdGl2ZTt0b3A6MTIwcHg7bGVmdDoyNXB4O3dpZHRoOnZhcigtLWVudlcp=
+O2hlaWdodDp2YXIoLS1lbnZIKTtib3JkZXItcmFkaXVzOjAgMCA3cHggN3B4O2JveC1zaGFkb3c=
+6cmdiYSgwLDAsMCwuMjUpIDAgNHB4IDVweDthbmltYXRpb246c2hhZG93LWZhZGUgdmFyKC0tZH=
+VyKSBpbmZpbml0ZX1Aa2V5ZnJhbWVzIHNoYWRvdy1mYWRlezAlLDEwMCUsMjEuMiUsODAle29wY=
+WNpdHk6MH00NyUsNzAle29wYWNpdHk6MX19I2ZsYXBDb250YWluZXJ7d2lkdGg6dmFyKC0tZW52=
+Vyk7bWFyZ2luLXRvcDoxNzlweH0jZWZ7d2lkdGg6dmFyKC0tZW52Vyk7aGVpZ2h0OnZhcigtLWV=
+udkgpO2JvcmRlci1yYWRpdXM6MCAwIDdweCA3cHg7b3ZlcmZsb3c6aGlkZGVuO21hcmdpbi10b3=
+A6LTQxcHh9I2VmPi5se3dpZHRoOjI4N3B4O2hlaWdodDp2YXIoLS1lbnZIKTtiYWNrZ3JvdW5kO=
+iMyOGE4ZWE7dHJhbnNmb3JtOnRyYW5zbGF0ZSgtMTUzcHgsLTcwcHgpIHJvdGF0ZSgyOGRlZyl9=
+I2VmPi5ye3dpZHRoOjI4N3B4O2hlaWdodDp2YXIoLS1lbnZIKTtiYWNrZ3JvdW5kOiMxNDkwZGY=
+7dHJhbnNmb3JtOnRyYW5zbGF0ZSgtMTIwcHgsNjNweCkgcm90YXRlKC0yOGRlZyl9I2Vie3dpZH=
+RoOnZhcigtLWVudlcpO2hlaWdodDo0MHB4O2JhY2tncm91bmQ6IzEyM2I2ZDttYXJnaW4tdG9wO=
+i03MHB4fSNjYWx7ZGlzcGxheTpmbGV4O2ZsZXgtd3JhcDp3cmFwO3dpZHRoOnZhcigtLWNhbFcp=
+O2hlaWdodDp2YXIoLS1jYWxIKTtib3JkZXItcmFkaXVzOjdweDtvdmVyZmxvdzpoaWRkZW47bWF=
+yZ2luOjAgYXV0bzttYXJnaW4tdG9wOi0zMDZweDthbmltYXRpb246Y2FsLWJvdW5jZSB2YXIoLS=
+1kdXIpIGluZmluaXRlO2FuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246Y3ViaWMtYmV6aWVyKDAsM=
+C41LDAsMSk7dHJhbnNmb3JtOnRyYW5zbGF0ZVkodmFyKC0tY2FsWUV4dCkpIHNjYWxlWSgxKX1A=
+a2V5ZnJhbWVzIGNhbC1ib3VuY2V7MCUsMTAwJSwxNi41JSw3Ni4xJXt0cmFuc2Zvcm06dHJhbnN=
+sYXRlWSh2YXIoLS1jYWxZKSkgc2NhbGVZKDEpfTI4JXt0cmFuc2Zvcm06dHJhbnNsYXRlWSh2YX=
+IoLS1jYWxZT3ZlckV4dCkpIHNjYWxlWSgxKX0zMSV7dHJhbnNmb3JtOnRyYW5zbGF0ZVkodmFyK=
+C0tY2FsWUV4dCkpIHNjYWxlWSgxLjA1KX0zMyV7dHJhbnNmb3JtOnRyYW5zbGF0ZVkodmFyKC0t=
+Y2FsWUV4dCkpIHNjYWxlWSguOTYpfTM0JSw2OC41JXt0cmFuc2Zvcm06dHJhbnNsYXRlWSh2YXI=
+oLS1jYWxZRXh0KSkgc2NhbGVZKDEpfTY4LjUle2FuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246Y3=
+ViaWMtYmV6aWVyKDAuNjYsLTAuMTYsMSwtMC4yOSl9fSNjYWw+LnR7d2lkdGg6dmFyKC0tY2FsV=
+yk7aGVpZ2h0OmNhbGModmFyKC0tY2FsSEgpICsgMXB4KTttYXJnaW4tYm90dG9tOi0xcHg7YmFj=
+a2dyb3VuZDojMDM1OGE3fSNjYWw+LnJ7ZGlzcGxheTpmbGV4O3dpZHRoOnZhcigtLWNhbFcpO2h=
+laWdodDp2YXIoLS1zcUgpfS5ze3dpZHRoOnZhcigtLXNxVyk7aGVpZ2h0OmNhbGModmFyKC0tc3=
+FIKSArIDFweCl9LnMxe2JhY2tncm91bmQ6IzAwNzhkNH0uczJ7YmFja2dyb3VuZDojMjhhOGVhf=
+S5zM3tiYWNrZ3JvdW5kOiM1MGQ5ZmZ9LnM0e2JhY2tncm91bmQ6IzAzNjRiOH0uczV7YmFja2dy=
+b3VuZDojMTQ0NDdkfSNvcGVuZWRGbGFwe3dpZHRoOnZhcigtLWVudlcpO2hlaWdodDoxMDdweDt=
+hbmltYXRpb246b3BlbmVkLWZsYXAtc3dpbmcgdmFyKC0tZHVyKSBpbmZpbml0ZTthbmltYXRpb2=
+4tdGltaW5nLWZ1bmN0aW9uOmN1YmljLWJlemllcigwLjMyLDAsMC42NywwKTt0cmFuc2Zvcm0tb=
+3JpZ2luOnRvcDt0cmFuc2Zvcm06dHJhbnNsYXRlWSgtNjhweCkgcm90YXRlM2QoMSwwLDAsLTE4=
+MGRlZyl9QGtleWZyYW1lcyBvcGVuZWQtZmxhcC1zd2luZ3swJSwxMDAlLDE0LjUlLDc2JXt0cmF=
+uc2Zvcm06dHJhbnNsYXRlWSgtNjhweCkgcm90YXRlM2QoMSwwLDAsLTkwZGVnKX0xNi41JSw3NC=
+V7dHJhbnNmb3JtOnRyYW5zbGF0ZVkoLTY4cHgpIHJvdGF0ZTNkKDEsMCwwLC0xODBkZWcpfX0jY=
+2xvc2VkRmxhcHt3aWR0aDp2YXIoLS1lbnZXKTthbmltYXRpb246Y2xvc2VkLWZsYXAtc3dpbmcg=
+dmFyKC0tZHVyKSBpbmZpbml0ZTthbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOmN1YmljLWJleml=
+lcigwLjMyLDAsMC42NywwKTt0cmFuc2Zvcm0tb3JpZ2luOnRvcDt0cmFuc2Zvcm06dHJhbnNsYX=
+RlWShjYWxjKC0xICogdmFyKC0tZW52SCkpKSByb3RhdGUzZCgxLDAsMCw5MGRlZyl9QGtleWZyY=
+W1lcyBjbG9zZWQtZmxhcC1zd2luZ3swJSwxMDAlLDc3JSw4LjUle3RyYW5zZm9ybTp0cmFuc2xh=
+dGVZKGNhbGMoLTEgKiB2YXIoLS1lbnZIKSkpIHJvdGF0ZTNkKDEsMCwwLDApfTE0LjUlLDc2JXt=
+0cmFuc2Zvcm06dHJhbnNsYXRlWShjYWxjKC0xICogdmFyKC0tZW52SCkpKSByb3RhdGUzZCgxLD=
+AsMCw5MGRlZyl9fSNmbWFza3t3aWR0aDp2YXIoLS1lbnZXKTtoZWlnaHQ6MTA3cHg7b3ZlcmZsb=
+3c6aGlkZGVufS5mbGFwVHJpYW5nbGV7d2lkdGg6dmFyKC0tZmxhcFMpO2hlaWdodDp2YXIoLS1m=
+bGFwUyk7YmFja2dyb3VuZDojNTBkOWZmO21hcmdpbjotNDhweCBhdXRvIDAgYXV0bztib3JkZXI=
+tcmFkaXVzOjdweDt0cmFuc2Zvcm06c2NhbGVZKC42KSByb3RhdGUoNDVkZWcpfSNvcGVuZWRGbG=
+FwIC5mbGFwVHJpYW5nbGV7YmFja2dyb3VuZDojMTIzYjZkfSNjbG9zZWRGbGFwIC5mbGFwVHJpY=
+W5nbGV7YmFja2dyb3VuZDojNTBkOWZmfTwvc3R5bGU+IDxkaXYgaWQ9Y29udGFpbmVyPiA8ZGl2=
+IGlkPWNvbnRhaW5lclNoYWRvdz48L2Rpdj4gPGRpdiBpZD1sb2dvPiA8ZGl2IGlkPWZsYXBDb25=
+0YWluZXI+IDxkaXYgaWQ9b3BlbmVkRmxhcD4gPGRpdiBpZD1mbWFzaz48ZGl2IGNsYXNzPWZsYX=
+BUcmlhbmdsZT48L2Rpdj48L2Rpdj4gPC9kaXY+IDxkaXYgaWQ9Y2FsPiA8ZGl2IGNsYXNzPXQ+P=
+C9kaXY+IDxkaXYgY2xhc3M9cj4gPGRpdiBjbGFzcz0icyBzMSI+PC9kaXY+IDxkaXYgY2xhc3M9=
+InMgczIiPjwvZGl2PiA8ZGl2IGNsYXNzPSJzIHMzIj48L2Rpdj4gPC9kaXY+IDxkaXYgY2xhc3M=
+9cj4gPGRpdiBjbGFzcz0icyBzNCI+PC9kaXY+IDxkaXYgY2xhc3M9InMgczEiPjwvZGl2PiA8ZG=
+l2IGNsYXNzPSJzIHMyIj48L2Rpdj4gPC9kaXY+IDxkaXYgY2xhc3M9cj4gPGRpdiBjbGFzcz0ic=
+yBzNSI+PC9kaXY+IDxkaXYgY2xhc3M9InMgczQiPjwvZGl2PiA8ZGl2IGNsYXNzPSJzIHMxIj48=
+L2Rpdj4gPC9kaXY+IDwvZGl2PiA8L2Rpdj4gPGRpdiBpZD1lYj48L2Rpdj4gPGRpdiBpZD1lZj4=
+gPGRpdiBjbGFzcz1yPjwvZGl2PiA8ZGl2IGNsYXNzPWw+PC9kaXY+IDwvZGl2PiA8ZGl2IGlkPW=
+Nsb3NlZEZsYXA+IDxkaXYgaWQ9Zm1hc2s+PGRpdiBjbGFzcz1mbGFwVHJpYW5nbGU+PC9kaXY+P=
+C9kaXY+IDwvZGl2PiA8L2Rpdj4gPC9kaXY+IDwvZGl2PiA8aW1nIHNyYz0vL3Jlcy5wdWJsaWMu=
+b25lY2RuLnN0YXRpYy5taWNyb3NvZnQvYXNzZXRzL2ZyYW1ld29yay9taWNyb3NvZnQuc3ZnIGl=
+kPU1TTG9nbyBhbHQ9TWljcm9zb2Z0PiA8L2Rpdj4gPC9ib2R5PiA8L2h0bWw+IA=3D=3D"></a>=
+</u></b></span><span style=3D"font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 9pt;"><b><br>
+</b></span></td>
+</tr>
+</tbody>
+</table>
+<table style=3D"direction: ltr;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; width: 479.525px; height: 15.5998px;">
+<div style=3D"direction: ltr; font-family: Arial; font-size: 9pt;">Watch th=
+e latest D&amp;S Video:
+<span style=3D"color: rgb(0, 0, 0);"><b><a href=3D"https://www.youtube.com/=
+watch?v=3DIPirFsdzsIY" id=3D"OWAab6c4029-63f6-0a15-1dba-758581913552" class=
+=3D"OWAAutoLink" originalsrc=3D"https://www.youtube.com/watch?v=3DIPirFsdzs=
+IY" data-auth=3D"NotApplicable" style=3D"color: rgb(0, 0, 0);">Solar
+ Borehole for the Jumbos at Selenkay Conservancy</a></b></span></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+<br>
+<br>
+</div>
+<table align=3D"left" cellspacing=3D"0" cellpadding=3D"0" style=3D"directio=
+n: ltr; width: 100%; box-sizing: border-box; border-collapse: collapse; bor=
+der-spacing: 0px;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; background-color: rgb(0, 160, 210); padding: 5=
+pt 2pt; width: 5.32498px; height: 45.3247px;">
+<div style=3D"direction: ltr; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 10pt;">
+<br>
+</div>
+</td>
+<td style=3D"direction: ltr; background-color: rgb(229, 245, 250); padding:=
+ 5pt 4pt 5pt 12pt; width: 100%; height: 45.3247px;">
+<div style=3D"direction: ltr; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 10pt; color: rgb(34, 34, 34);">
+<b>Caution:</b>&nbsp;This email was sent by a person(s) outside the organiz=
+ation and may contain suspicious content, links or attachments. Kindly be c=
+autious when clicking on any of the links or opening any of the attached do=
+cuments. If in doubt, please contact
+ ICT</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+<br>
+<br>
+</div>
+<table align=3D"left" cellspacing=3D"0" cellpadding=3D"0" style=3D"directio=
+n: ltr; width: 100%; box-sizing: border-box; border-collapse: collapse; bor=
+der-spacing: 0px;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; background-color: rgb(0, 160, 210); padding: 5=
+pt 2pt; width: 5.32498px; height: 45.3247px;">
+<div style=3D"direction: ltr; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 10pt;">
+<br>
+</div>
+</td>
+<td style=3D"direction: ltr; background-color: rgb(229, 245, 250); padding:=
+ 5pt 4pt 5pt 12pt; width: 100%; height: 45.3247px;">
+<div style=3D"direction: ltr; font-family: Verdana, Arial, Helvetica, sans-=
+serif; font-size: 10pt; color: rgb(34, 34, 34);">
+<b>Caution:</b>&nbsp;This email was sent by a person(s) outside the organiz=
+ation and may contain suspicious content, links or attachments. Kindly be c=
+autious when clicking on any of the links or opening any of the attached do=
+cuments. If in doubt, please contact
+ ICT</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div style=3D"direction: ltr; margin-right: 0px; margin-left: 0px; font-fam=
+ily: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;">
+<br>
+</div>
+<div style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; font-size=
+: 10pt;">
+<br>
+</div>
+<br>
+<br>
+<br>
+<table align=3D"left" cellspacing=3D"0" cellpadding=3D"0" style=3D"width: 1=
+00%; box-sizing: border-box; border-collapse: collapse; border-spacing: 0px=
+;">
+<tbody>
+<tr>
+<td style=3D"background-color: rgb(0, 160, 210); padding: 5pt 2pt;"></td>
+<td style=3D"background-color: rgb(229, 245, 250); padding: 5pt 4pt 5pt 12p=
+t; width: 100%; height: 56.5252px;">
+<div style=3D"color: rgb(34, 34, 34);"><b>Caution:</b>&nbsp;This email was =
+sent by a person(s) outside the organization and may contain suspicious con=
+tent, links or attachments. Kindly be cautious when clicking on any of the =
+links or opening any of the attached documents.
+ If in doubt, please contact ICT</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</body>
+</html>
+
+--_000_AM6PR04MB47920EE42F0FE97F79EA0486F6DE2AM6PR04MB4792eurp_--
